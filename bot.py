@@ -28,10 +28,8 @@ CACHE_FILE = 'lessons_cache.json'
 
 DATA_URL = os.getenv('DATA_URL', '')
 WEBAPP_URL = os.getenv('WEBAPP_URL', '').rstrip('/')
-ICS_URL = os.getenv(
-    'ICS_URL',
-    f"{WEBAPP_URL}/calendar.ics" if WEBAPP_URL else 'https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO>/main/vyatsu.ics'
-)
+GITHUB_REPO_RAW = "https://raw.githubusercontent.com/RTX0ffer/vyatsu-schedule/main"
+ICS_URL = f"{GITHUB_REPO_RAW}/vyatsu.ics"
 
 WEEKDAYS_RU = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье']
 
@@ -276,41 +274,43 @@ def build_ics_content(subgroup=None):
 
 @dp.message(Command('calendar'))
 async def cmd_calendar(message: types.Message):
-    base_cal_url = f"{WEBAPP_URL}/calendar.ics" if WEBAPP_URL else ICS_URL
-    webcal_all = base_cal_url.replace('https://', 'webcal://').replace('http://', 'webcal://')
-    webcal_sg1 = f"{webcal_all}?subgroup=1"
-    webcal_sg2 = f"{webcal_all}?subgroup=2"
+    gh_sg1 = f"{GITHUB_REPO_RAW}/vyatsu_subgroup1.ics"
+    gh_sg2 = f"{GITHUB_REPO_RAW}/vyatsu_subgroup2.ics"
+    gh_all = f"{GITHUB_REPO_RAW}/vyatsu.ics"
 
-    https_sg1 = f"{base_cal_url}?subgroup=1"
-    https_sg2 = f"{base_cal_url}?subgroup=2"
+    webcal_sg1 = gh_sg1.replace('https://', 'webcal://')
+    webcal_sg2 = gh_sg2.replace('https://', 'webcal://')
+    webcal_all = gh_all.replace('https://', 'webcal://')
 
     kb_buttons = []
     if WEBAPP_URL:
         kb_buttons.append([InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))])
     kb_buttons.append([
-        InlineKeyboardButton(text="📥 Файл .ics (1 подгр.)", callback_data="send_ics_1"),
-        InlineKeyboardButton(text="📥 Файл .ics (2 подгр.)", callback_data="send_ics_2")
+        InlineKeyboardButton(text="📱 Файл для Samsung (1 подгр.)", callback_data="send_ics_1"),
+        InlineKeyboardButton(text="📱 Файл для Samsung (2 подгр.)", callback_data="send_ics_2")
     ])
     kb_buttons.append([
-        InlineKeyboardButton(text="📥 Файл .ics (Все пары)", callback_data="send_ics_all")
+        InlineKeyboardButton(text="📱 Файл для Samsung (Все пары)", callback_data="send_ics_all")
     ])
 
     kb = InlineKeyboardMarkup(inline_keyboard=kb_buttons)
 
     await message.answer(
         "📲 <b>Календарь расписания ВятГУ:</b>\n\n"
-        "⚡ <b>Самый быстрый способ (1 клик):</b>\n"
-        "Нажмите кнопку ниже, чтобы получить готовый <code>.ics</code> файл прямо в чат и добавить все пары в календарь телефона!\n\n"
-        "🔄 <b>Автоподписка (обновляется сама):</b>\n"
+        "⚡ <b>Для Samsung Galaxy и Android (В 1 клик):</b>\n"
+        "Нажмите кнопку <b>«📱 Файл для Samsung»</b> ниже ➔ откройте файл ➔ выберите <b>«Календарь Samsung»</b> ➔ <b>«Сохранить»</b>.\n"
+        "Все пары мгновенно появятся в календаре и виджетах телефона с аудиториями и напоминаниями!\n\n"
+        "🤖 <b>Google Календарь (веб-подписка):</b>\n"
+        "1. Откройте <a href=\"https://calendar.google.com/\">Google Календарь</a> с компьютера.\n"
+        "2. В меню «Другие календари» нажмите <b>«+»</b> ➔ <b>«Добавить по URL»</b>.\n"
+        "3. Вставьте прямую ссылку (без параметров, чистый .ics от CDN):\n"
+        f"• 1 подгруппа: <code>{gh_sg1}</code>\n"
+        f"• 2 подгруппа: <code>{gh_sg2}</code>\n"
+        f"• Все пары: <code>{gh_all}</code>\n\n"
         "🍏 <b>iPhone / Mac (Apple Calendar):</b>\n"
         "Скопируйте ссылку и откройте в браузере Safari:\n"
         f"• 1 подгруппа: <code>{webcal_sg1}</code>\n"
-        f"• 2 подгруппа: <code>{webcal_sg2}</code>\n"
-        f"• Все пары: <code>{webcal_all}</code>\n\n"
-        "🤖 <b>Android / Google Календарь:</b>\n"
-        "1. Откройте <a href=\"https://calendar.google.com/\">Google Календарь</a> на компьютере.\n"
-        "2. В меню «Другие календари» нажмите <b>«+»</b> ➔ <b>«Добавить по URL»</b>.\n"
-        f"3. Вставьте ссылку: <code>{https_sg1}</code>",
+        f"• 2 подгруппа: <code>{webcal_sg2}</code>",
         parse_mode=ParseMode.HTML,
         reply_markup=kb,
         disable_web_page_preview=True
@@ -332,7 +332,11 @@ async def callback_send_ics_file(callback: types.CallbackQuery):
         document=file,
         caption=(
             f"📅 <b>Файл расписания{sg_label}</b>\n\n"
-            "Нажмите на файл, чтобы импортировать все пары в календарь вашего смартфона (Google Calendar / Apple Calendar / Samsung) в 1 клик!"
+            "📱 <b>Инструкция для Samsung Galaxy:</b>\n"
+            "1. Нажмите на этот файл прямо здесь в Telegram.\n"
+            "2. Выберите приложение <b>«Календарь» (Samsung Calendar)</b>.\n"
+            "3. Нажмите <b>«Сохранить»</b>.\n\n"
+            "✨ Все пары появятся в виджетах и календаре телефона с аудиториями, корпусами и напоминаниями за 15 минут!"
         ),
         parse_mode=ParseMode.HTML
     )
@@ -358,21 +362,27 @@ async def handle_api_schedule(request):
     })
 
 
-async def handle_calendar_ics(request):
-    """Генерирует и отдает .ics файл со всеми обязательными RFC-полями (DTSTAMP, STATUS)."""
-    subgroup_param = request.query.get('subgroup', '')
-    ics_text = build_ics_content(subgroup_param)
-
+async def handle_calendar_ics_subgroup(request, subgroup):
+    """Отдает чистый .ics файл без query-параметров для конкретной подгруппы."""
+    ics_text = build_ics_content(subgroup)
+    fname = f"vyatsu_subgroup_{subgroup}.ics" if subgroup else "vyatsu.ics"
     return web.Response(
         text=ics_text,
         content_type='text/calendar',
         charset='utf-8',
         headers={
-            'Content-Disposition': 'inline; filename="vyatsu.ics"',
+            'Content-Disposition': f'inline; filename="{fname}"',
             'Access-Control-Allow-Origin': '*',
             'Cache-Control': 'no-cache, no-store, must-revalidate'
         }
     )
+
+
+async def handle_calendar_ics(request):
+    """Генерирует и отдает .ics файл со всеми обязательными RFC-полями (DTSTAMP, STATUS)."""
+    subgroup_param = request.query.get('subgroup', '')
+    sg = int(subgroup_param) if subgroup_param in ('1', '2') else None
+    return await handle_calendar_ics_subgroup(request, sg)
 
 
 async def handle_ping(request):
@@ -388,6 +398,11 @@ async def start_webserver():
     app.router.add_get('/api/schedule', handle_api_schedule)
     app.router.add_get('/calendar.ics', handle_calendar_ics)
     app.router.add_get('/vyatsu.ics', handle_calendar_ics)
+    app.router.add_get('/calendar/subgroup1.ics', lambda r: handle_calendar_ics_subgroup(r, 1))
+    app.router.add_get('/calendar/subgroup2.ics', lambda r: handle_calendar_ics_subgroup(r, 2))
+    app.router.add_get('/calendar/all.ics', lambda r: handle_calendar_ics_subgroup(r, None))
+    app.router.add_get('/vyatsu_subgroup1.ics', lambda r: handle_calendar_ics_subgroup(r, 1))
+    app.router.add_get('/vyatsu_subgroup2.ics', lambda r: handle_calendar_ics_subgroup(r, 2))
     app.router.add_get('/healthz', handle_ping)
 
     runner = web.AppRunner(app)

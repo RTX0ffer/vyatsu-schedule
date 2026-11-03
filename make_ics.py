@@ -239,11 +239,18 @@ def update_schedule():
     cache['lessons'] = filtered_lessons
 
     save_cache(cache)
-    generate_ics(cache['lessons'].values())
+    all_lessons = list(cache['lessons'].values())
+    generate_ics(all_lessons, 'vyatsu.ics', title='Расписание ВятГУ ПМИб-1301')
+
+    sg1_lessons = [l for l in all_lessons if not l.get('subgroup') or l.get('subgroup') == 1]
+    generate_ics(sg1_lessons, 'vyatsu_subgroup1.ics', title='ВятГУ ПМИб-1301 (1 подгр.)')
+
+    sg2_lessons = [l for l in all_lessons if not l.get('subgroup') or l.get('subgroup') == 2]
+    generate_ics(sg2_lessons, 'vyatsu_subgroup2.ics', title='ВятГУ ПМИб-1301 (2 подгр.)')
     return has_changes
 
 
-def generate_ics(lessons, filename=ICS_FILE):
+def generate_ics(lessons, filename=ICS_FILE, title='Расписание ВятГУ ПМИб-1301'):
     """Генерирует стандартный .ics файл из списка занятий (RFC 5545)."""
     cal = Calendar()
     cal.creator = 'Vyatsu Schedule Bot'
@@ -278,7 +285,7 @@ def generate_ics(lessons, filename=ICS_FILE):
     custom_headers = (
         "CALSCALE:GREGORIAN\r\n"
         "METHOD:PUBLISH\r\n"
-        "X-WR-CALNAME:Расписание ВятГУ ПМИб-1301\r\n"
+        f"X-WR-CALNAME:{title}\r\n"
         "X-WR-TIMEZONE:Europe/Kirov\r\n"
         "REFRESH-INTERVAL;VALUE=DURATION:PT6H\r\n"
         "X-PUBLISHED-TTL:PT6H\r\n"
