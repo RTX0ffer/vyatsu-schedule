@@ -72,7 +72,7 @@ async def load_lessons():
 
 
 async def format_day_schedule(target_date: datetime.date):
-    """Форматирует расписание на конкретный день."""
+    """Форматирует расписание на конкретный день с группировкой по времени."""
     lessons = await load_lessons()
     day_lessons = []
 
@@ -89,16 +89,31 @@ async def format_day_schedule(target_date: datetime.date):
     if not day_lessons:
         return f"📅 *{weekday_name}, {date_str}*\n\n🎉 В этот день пар нет! Можно отдыхать."
 
-    text = [f"📅 *{weekday_name}, {date_str}*\n"]
-    for i, (start_dt, item) in enumerate(day_lessons, 1):
+    # Группируем пары по временному интервалу (чтобы подгруппы шли одним блоком)
+    by_time = {}
+    for start_dt, item in day_lessons:
         end_dt = datetime.datetime.fromisoformat(item['end']).astimezone(TIMEZONE)
-        time_interval = f"{start_dt.strftime('%H:%M')} – {end_dt.strftime('%H:%M')}"
-        text.append(
-            f"*{i}. {time_interval}* | {item['summary']}\n"
-            f"   📍 _{item.get('location', 'ВятГУ')}_\n"
-        )
+        interval = f"{start_dt.strftime('%H:%M')} – {end_dt.strftime('%H:%M')}"
+        by_time.setdefault(interval, []).append(item)
 
-    return "\n".join(text)
+    text = [f"📅 *{weekday_name}, {date_str}*\n"]
+    for interval, items in by_time.items():
+        if len(items) == 1:
+            it = items[0]
+            text.append(
+                f"▫️ *{interval}* | {it['summary']}\n"
+                f"   📍 _{it.get('location', 'ВятГУ')}_\n"
+            )
+        else:
+            text.append(f"▫️ *{interval}*:")
+            for it in items:
+                text.append(
+                    f"   • {it['summary']}\n"
+                    f"     📍 _{it.get('location', 'ВятГУ')}_"
+                )
+            text.append("")
+
+    return "\n".join(text).strip()
 
 
 @dp.message(Command('start', 'help'))
@@ -138,7 +153,9 @@ async def cmd_week(message: types.Message):
         day_date = start_of_week + datetime.timedelta(days=day_offset)
         blocks.append(await format_day_schedule(day_date))
 
-    response = "\n" + "—" * 20 + "\n\n".join(blocks)
+    separator = "\n\n" + "—" * 20 + "\n\n"
+    response = separator.join(blocks)
+
     if len(response) > 4000:
         for chunk in [response[i:i + 3800] for i in range(0, len(response), 3800)]:
             await message.answer(chunk, parse_mode=ParseMode.MARKDOWN)
