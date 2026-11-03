@@ -10,7 +10,7 @@ import aiohttp
 from aiogram import Bot, Dispatcher, types
 from aiogram.enums import ParseMode
 from aiogram.filters import Command
-from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, MenuButtonWebApp, WebAppInfo
 from aiohttp import web
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
@@ -19,18 +19,18 @@ BOT_TOKEN = os.getenv('BOT_TOKEN', '')
 TIMEZONE = ZoneInfo('Europe/Kirov')
 CACHE_FILE = 'lessons_cache.json'
 
-# Ссылка на JSON в репозитории на GitHub (укажите в переменных окружения на хостинге)
 DATA_URL = os.getenv('DATA_URL', '')
 ICS_URL = os.getenv(
     'ICS_URL',
     'https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO>/main/vyatsu.ics'
 )
+# URL вашего сервиса на Render (например: https://vyatsu-schedule-bot.onrender.com)
+WEBAPP_URL = os.getenv('WEBAPP_URL', '')
 
 WEEKDAYS_RU = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье']
 
 dp = Dispatcher()
 
-# Локальный кэш уроков в оперативной памяти с временем жизни (TTL)
 _memory_cache = {'timestamp': 0, 'lessons': []}
 CACHE_TTL = 1800  # 30 минут
 
@@ -56,7 +56,7 @@ async def load_lessons():
         except Exception as e:
             logging.error(f'Ошибка загрузки с GitHub ({DATA_URL}): {e}')
 
-    # 2. Фолбэк на локальный файл (если есть)
+    # 2. Фолбэк на локальный файл
     if os.path.exists(CACHE_FILE):
         try:
             with open(CACHE_FILE, 'r', encoding='utf-8') as f:
@@ -72,7 +72,7 @@ async def load_lessons():
 
 
 async def format_day_schedule(target_date: datetime.date):
-    """Форматирует расписание на конкретный день с группировкой по времени."""
+    """Форматирует расписание на конкретный день с предметами, преподавателями и корпусами."""
     lessons = await load_lessons()
     day_lessons = []
 
@@ -89,7 +89,6 @@ async def format_day_schedule(target_date: datetime.date):
     if not day_lessons:
         return f"📅 *{weekday_name}, {date_str}*\n\n🎉 В этот день пар нет! Можно отдыхать."
 
-    # Группируем пары по временному интервалу (чтобы подгруппы шли одним блоком)
     by_time = {}
     for start_dt, item in day_lessons:
         end_dt = datetime.datetime.fromisoformat(item['end']).astimezone(TIMEZONE)
@@ -100,17 +99,24 @@ async def format_day_schedule(target_date: datetime.date):
     for interval, items in by_time.items():
         if len(items) == 1:
             it = items[0]
-            text.append(
-                f"▫️ *{interval}* | {it['summary']}\n"
-                f"   📍 _{it.get('location', 'ВятГУ')}_\n"
-            )
+            subj = it.get('subject', it.get('summary', 'Пара'))
+            ltype = f" ({it['type']})" if it.get('type') else ""
+            teacher = f"👤 _{it['teacher']}_" if it.get('teacher') else ""
+            loc = f"📍 {it['location']}" if it.get('location') else ""
+            details = " | ".join(filter(None, [teacher, loc]))
+
+            text.append(f"▫️ *{interval}* | *{subj}*{ltype}\n   {details}\n")
         else:
             text.append(f"▫️ *{interval}*:")
             for it in items:
-                text.append(
-                    f"   • {it['summary']}\n"
-                    f"     📍 _{it.get('location', 'ВятГУ')}_"
-                )
+                sg = f"[{it['subgroup']} подгр.] " if it.get('subgroup') else ""
+                subj = it.get('subject', it.get('summary', 'Пара'))
+                ltype = f" ({it['type']})" if it.get('type') else ""
+                teacher = f"👤 _{it['teacher']}_" if it.get('teacher') else ""
+                loc = f"📍 {it['location']}" if it.get('location') else ""
+                details = " | ".join(filter(None, [teacher, loc]))
+
+                text.append(f"   • {sg}*{subj}*{ltype}\n     {details}")
             text.append("")
 
     return "\n".join(text).strip()
@@ -118,14 +124,23 @@ async def format_day_schedule(target_date: datetime.date):
 
 @dp.message(Command('start', 'help'))
 async def cmd_start(message: types.Message):
+    kb = None
+    if WEBAPP_URL:
+        kb = InlineKeyboardMarkup(
+            inline_keyboard=[
+                [InlineKeyboardButton(text="📱 Открыть расписание (Mini App)", web_app=WebAppInfo(url=WEBAPP_URL))]
+            ]
+        )
+
     await message.answer(
         "👋 Привет! Я бот с расписанием занятий ВятГУ.\n\n"
-        "Команды:\n"
+        "Вы можете открыть современный **Mini App** или использовать команды:\n"
         "▫️ /today — Пары на сегодня\n"
         "▫️ /tomorrow — Пары на завтра\n"
         "▫️ /week — Расписание на текущую неделю\n"
         "▫️ /calendar — Ссылка для подписки в календарь смартфона (iOS / Android)\n",
-        parse_mode=ParseMode.MARKDOWN
+        parse_mode=ParseMode.MARKDOWN,
+        reply_markup=kb
     )
 
 
@@ -183,21 +198,40 @@ async def cmd_calendar(message: types.Message):
     )
 
 
-# Простой HTTP-эндпоинт для прохождения health check на бесплатных хостингах (Render, Koyeb)
+# WebApp & API эндпоинты
+async def handle_index(request):
+    """Отдает главную страницу Mini App."""
+    template_path = os.path.join(os.path.dirname(__file__), 'templates', 'index.html')
+    if os.path.exists(template_path):
+        with open(template_path, 'r', encoding='utf-8') as f:
+            return web.Response(text=f.read(), content_type='text/html')
+    return web.Response(text="Шаблон Mini App не найден.", status=404)
+
+
+async def handle_api_schedule(request):
+    """JSON API для Mini App."""
+    lessons = await load_lessons()
+    return web.json_response({'lessons': lessons, 'count': len(lessons)})
+
+
 async def handle_ping(request):
-    return web.Response(text="Bot is running!")
+    """Health check для хостинга (Render)."""
+    return web.Response(text="Bot & Mini App are running!")
 
 
 async def start_webserver():
     port = int(os.getenv('PORT', 8080))
     app = web.Application()
-    app.router.add_get('/', handle_ping)
+    app.router.add_get('/', handle_index)
+    app.router.add_get('/app', handle_index)
+    app.router.add_get('/api/schedule', handle_api_schedule)
     app.router.add_get('/healthz', handle_ping)
+
     runner = web.AppRunner(app)
     await runner.setup()
     site = web.TCPSite(runner, '0.0.0.0', port)
     await site.start()
-    logging.info(f"Веб-сервер запущен на порту {port}")
+    logging.info(f"Веб-сервер Mini App запущен на порту {port}")
 
 
 async def main():
@@ -205,9 +239,21 @@ async def main():
         logging.error("Не указан BOT_TOKEN в переменных окружения!")
         return
 
-    # Запускаем одновременно HTTP-сервер и long-polling бота
     await start_webserver()
     bot = Bot(token=BOT_TOKEN)
+
+    if WEBAPP_URL:
+        try:
+            await bot.set_chat_menu_button(
+                menu_button=MenuButtonWebApp(
+                    text="Расписание",
+                    web_app=WebAppInfo(url=WEBAPP_URL)
+                )
+            )
+            logging.info(f"Кнопка меню WebApp настроена на {WEBAPP_URL}")
+        except Exception as e:
+            logging.warning(f"Не удалось настроить кнопку WebApp: {e}")
+
     await dp.start_polling(bot)
 
 

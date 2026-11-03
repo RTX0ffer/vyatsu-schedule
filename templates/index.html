@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Расписание ВятГУ</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    :root {
+      --bg: var(--tg-theme-bg-color, #0f172a);
+      --text: var(--tg-theme-text-color, #f8fafc);
+      --hint: var(--tg-theme-hint-color, #94a3b8);
+      --button: var(--tg-theme-button-color, #3b82f6);
+      --button-text: var(--tg-theme-button-text-color, #ffffff);
+      --secondary: var(--tg-theme-secondary-bg-color, #1e293b);
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+    .hide-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .hide-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="min-h-screen pb-12 flex flex-col">
+
+  <!-- Шапка -->
+  <header class="sticky top-0 z-20 backdrop-blur-md bg-opacity-80 px-4 pt-3 pb-2 border-b border-white/10" style="background-color: rgba(var(--bg), 0.85);">
+    <div class="flex items-center justify-between mb-3">
+      <div>
+        <h1 class="text-xl font-bold tracking-tight flex items-center gap-2">
+          <span>📚 ВятГУ</span>
+          <span class="text-xs px-2 py-0.5 rounded-full font-medium bg-blue-500/20 text-blue-400 border border-blue-500/30">ПМИб-1301</span>
+        </h1>
+        <p id="today-string" class="text-xs text-slate-400 mt-0.5">Загрузка даты...</p>
+      </div>
+      <button id="today-btn" class="px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-500 text-white shadow-sm active:scale-95 transition-transform flex items-center gap-1.5">
+        <i class="fa-solid fa-calendar-day text-[11px]"></i> Сегодня
+      </button>
+    </div>
+
+    <!-- Выбор подгруппы -->
+    <div class="flex p-1 rounded-xl bg-slate-800/80 border border-slate-700/60 mb-2">
+      <button data-subgroup="all" class="subgroup-btn flex-1 py-1.5 text-xs font-medium rounded-lg text-center transition-all bg-blue-500 text-white shadow-sm">Все</button>
+      <button data-subgroup="1" class="subgroup-btn flex-1 py-1.5 text-xs font-medium rounded-lg text-center transition-all text-slate-400 hover:text-white">1 подгруппа</button>
+      <button data-subgroup="2" class="subgroup-btn flex-1 py-1.5 text-xs font-medium rounded-lg text-center transition-all text-slate-400 hover:text-white">2 подгруппа</button>
+    </div>
+
+    <!-- Горизонтальная лента дней -->
+    <div id="days-container" class="flex gap-2 overflow-x-auto hide-scrollbar py-1"></div>
+  </header>
+
+  <!-- Список занятий выбранного дня -->
+  <main class="flex-1 px-4 mt-3">
+    <div id="lessons-list" class="space-y-3">
+      <div class="flex justify-center items-center py-16">
+        <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const tg = window.Telegram?.WebApp;
+    if (tg) {
+      tg.ready();
+      tg.expand();
+    }
+
+    let allLessons = [];
+    let selectedDateStr = null;
+    let selectedSubgroup = localStorage.getItem('vyatsu_subgroup') || 'all';
+    if (selectedSubgroup === '3') selectedSubgroup = 'all';
+
+    const WEEKDAYS_SHORT = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
+    const MONTHS_RU = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+
+    async function init() {
+      try {
+        const resp = await fetch('/api/schedule');
+        const data = await resp.json();
+        allLessons = data.lessons || [];
+
+        const today = new Date();
+        const yyyy = today.getFullYear();
+        const mm = String(today.getMonth() + 1).padStart(2, '0');
+        const dd = String(today.getDate()).padStart(2, '0');
+        selectedDateStr = `${yyyy}-${mm}-${dd}`;
+
+        setupSubgroupButtons();
+        renderDaysBar();
+        renderLessons();
+        setupTodayButton();
+      } catch (err) {
+        document.getElementById('lessons-list').innerHTML = `
+          <div class="text-center py-12 text-slate-400">
+            <i class="fa-solid fa-triangle-exclamation text-3xl text-rose-500 mb-3"></i>
+            <p>Не удалось загрузить данные расписания.</p>
+          </div>
+        `;
+      }
+    }
+
+    function setupSubgroupButtons() {
+      const buttons = document.querySelectorAll('.subgroup-btn');
+      buttons.forEach(btn => {
+        const sg = btn.dataset.subgroup;
+        if (sg === selectedSubgroup) {
+          btn.className = 'subgroup-btn flex-1 py-1.5 text-xs font-medium rounded-lg text-center transition-all bg-blue-500 text-white shadow-sm';
+        } else {
+          btn.className = 'subgroup-btn flex-1 py-1.5 text-xs font-medium rounded-lg text-center transition-all text-slate-400 hover:text-white';
+        }
+
+        btn.addEventListener('click', () => {
+          if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light');
+          selectedSubgroup = sg;
+          localStorage.setItem('vyatsu_subgroup', sg);
+          setupSubgroupButtons();
+          renderLessons();
+        });
+      });
+    }
+
+    function getDatesList() {
+      const datesSet = new Set();
+      allLessons.forEach(l => {
+        const d = l.start.split('T')[0];
+        datesSet.add(d);
+      });
+
+      let dates = Array.from(datesSet).sort();
+      if (dates.length === 0) {
+        const today = new Date();
+        for (let i = -2; i < 12; i++) {
+          const d = new Date(today);
+          d.setDate(today.getDate() + i);
+          dates.push(d.toISOString().split('T')[0]);
+        }
+      }
+      return dates;
+    }
+
+    function renderDaysBar() {
+      const dates = getDatesList();
+      const container = document.getElementById('days-container');
+      container.innerHTML = '';
+
+      const todayStr = new Date().toISOString().split('T')[0];
+
+      dates.forEach(dStr => {
+        const [y, m, d] = dStr.split('-').map(Number);
+        const dateObj = new Date(y, m - 1, d);
+        const weekday = WEEKDAYS_SHORT[(dateObj.getDay() + 6) % 7];
+        const isSelected = dStr === selectedDateStr;
+        const isToday = dStr === todayStr;
+
+        const btn = document.createElement('button');
+        btn.className = `flex-shrink-0 flex flex-col items-center justify-center w-12 h-14 rounded-2xl transition-all ${
+          isSelected 
+            ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/25 scale-105' 
+            : 'bg-slate-800/60 text-slate-300 border border-slate-700/50 hover:bg-slate-700/60'
+        }`;
+
+        btn.innerHTML = `
+          <span class="text-[10px] font-semibold uppercase ${isSelected ? 'text-blue-100' : 'text-slate-400'}">${weekday}</span>
+          <span class="text-base font-bold leading-tight mt-0.5">${d}</span>
+          ${isToday ? '<span class="w-1 h-1 rounded-full bg-emerald-400 mt-0.5"></span>' : '<span class="w-1 h-1 mt-0.5"></span>'}
+        `;
+
+        btn.addEventListener('click', () => {
+          if (tg && tg.HapticFeedback) tg.HapticFeedback.selectionChanged();
+          selectedDateStr = dStr;
+          renderDaysBar();
+          renderLessons();
+        });
+
+        container.appendChild(btn);
+
+        if (isSelected) {
+          setTimeout(() => btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' }), 50);
+        }
+      });
+    }
+
+    function setupTodayButton() {
+      document.getElementById('today-btn').addEventListener('click', () => {
+        if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('medium');
+        const todayStr = new Date().toISOString().split('T')[0];
+        selectedDateStr = todayStr;
+        renderDaysBar();
+        renderLessons();
+      });
+    }
+
+    function getLessonTypeBadge(type) {
+      if (!type) return '';
+      if (type.includes('Лекция')) {
+        return `<span class="px-2 py-0.5 text-[10px] font-semibold rounded-md bg-blue-500/15 text-blue-400 border border-blue-500/30">Лекция</span>`;
+      }
+      if (type.includes('Лабораторная')) {
+        return `<span class="px-2 py-0.5 text-[10px] font-semibold rounded-md bg-amber-500/15 text-amber-400 border border-amber-500/30">Лабораторная</span>`;
+      }
+      if (type.includes('Практическое')) {
+        return `<span class="px-2 py-0.5 text-[10px] font-semibold rounded-md bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">Практика</span>`;
+      }
+      return `<span class="px-2 py-0.5 text-[10px] font-semibold rounded-md bg-slate-700 text-slate-300">${type}</span>`;
+    }
+
+    function matchesSubgroup(lesson, sg) {
+      if (sg === 'all') return true;
+      if (!lesson.subgroup) return true; // общая лекция/пара
+      return String(lesson.subgroup) === String(sg);
+    }
+
+    function renderLessons() {
+      const container = document.getElementById('lessons-list');
+      const [y, m, d] = selectedDateStr.split('-').map(Number);
+      const dateObj = new Date(y, m - 1, d);
+      const weekdayIndex = (dateObj.getDay() + 6) % 7;
+      
+      const fullDateStr = `${d} ${MONTHS_RU[m - 1]} (${WEEKDAYS_SHORT[weekdayIndex]})`;
+      document.getElementById('today-string').innerText = fullDateStr;
+
+      const dayLessons = allLessons
+        .filter(l => l.start.startsWith(selectedDateStr))
+        .filter(l => matchesSubgroup(l, selectedSubgroup))
+        .sort((a, b) => a.start.localeCompare(b.start));
+
+      if (dayLessons.length === 0) {
+        container.innerHTML = `
+          <div class="text-center py-16 px-4 bg-slate-800/30 rounded-3xl border border-slate-700/40 mt-4">
+            <div class="w-16 h-16 rounded-full bg-emerald-500/10 text-emerald-400 flex items-center justify-center mx-auto text-2xl mb-3 shadow-inner">
+              🎉
+            </div>
+            <h3 class="text-base font-bold text-white mb-1">Пар нет!</h3>
+            <p class="text-xs text-slate-400 max-w-xs mx-auto">В этот день занятий не запланировано. Можно отдохнуть или заняться своими делами.</p>
+          </div>
+        `;
+        return;
+      }
+
+      const byTime = {};
+      dayLessons.forEach(l => {
+        const s = l.start.substring(11, 16);
+        const e = l.end.substring(11, 16);
+        const interval = `${s} – ${e}`;
+        if (!byTime[interval]) byTime[interval] = [];
+        byTime[interval].push(l);
+      });
+
+      let html = '';
+      for (const [interval, items] of Object.entries(byTime)) {
+        html += `
+          <div class="bg-slate-800/60 border border-slate-700/60 rounded-2xl p-3.5 shadow-sm space-y-3">
+            <div class="flex items-center justify-between text-xs font-semibold text-slate-400 border-b border-slate-700/50 pb-2">
+              <span class="flex items-center gap-1.5 text-blue-400">
+                <i class="fa-regular fa-clock text-xs"></i> ${interval}
+              </span>
+              <span class="text-[11px] font-normal text-slate-500">${items.length > 1 ? items.length + ' подгруппы' : '1 пара'}</span>
+            </div>
+            <div class="space-y-2.5">
+        `;
+
+        items.forEach(it => {
+          const typeBadge = getLessonTypeBadge(it.type);
+          const subgroupTag = it.subgroup 
+            ? `<span class="px-1.5 py-0.5 text-[10px] font-medium rounded bg-slate-700 text-slate-300">${it.subgroup} подгр.</span>` 
+            : '';
+
+          const subjectName = it.subject || it.summary || 'Занятие';
+          const teacher = it.teacher || 'Преподаватель не указан';
+          const locationText = it.location || 'Место уточняется';
+
+          html += `
+            <div class="rounded-xl p-3 bg-slate-900/70 border border-slate-800/90 flex flex-col gap-2">
+              <div class="flex items-start justify-between gap-2">
+                <h4 class="text-sm font-bold text-white leading-snug">${subjectName}</h4>
+                <div class="flex items-center gap-1 flex-shrink-0">
+                  ${subgroupTag}
+                  ${typeBadge}
+                </div>
+              </div>
+              <div class="flex items-center justify-between text-xs text-slate-300 pt-1 border-t border-slate-800/60">
+                <span class="flex items-center gap-1.5 text-slate-300 font-medium">
+                  <i class="fa-solid fa-user-tie text-[11px] text-blue-400"></i> ${teacher}
+                </span>
+                <span class="font-semibold text-amber-400 flex items-center gap-1 bg-amber-400/10 px-2 py-0.5 rounded-md border border-amber-400/20 text-[11px]">
+                  <i class="fa-solid fa-location-dot text-[10px]"></i> ${locationText}
+                </span>
+              </div>
+            </div>
+          `;
+        });
+
+        html += `
+            </div>
+          </div>
+        `;
+      }
+
+      container.innerHTML = html;
+    }
+
+    init();
+  </script>
+</body>
+</html>

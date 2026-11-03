@@ -1,13 +1,23 @@
 # Автоматическое расписание ВятГУ 📅
 
-Автоматический парсинг двухнедельного расписания с сайта ВятГУ, ежедневное ночное обновление календаря (.ics) через GitHub Actions и Telegram-бот.
+Автоматический парсинг двухнедельного расписания с сайта ВятГУ, ежедневное ночное обновление календаря (.ics) через GitHub Actions, Telegram-бот и интерактивный **Telegram Mini App**.
 
 ## 🚀 Как это устроено
 1. **GitHub Actions** каждую полночь в 00:00 (МСК) запускает [`make_ics.py`](make_ics.py).
 2. Скрипт скачивает актуальные PDF, парсит занятия и обновляет `lessons_cache.json` и `vyatsu.ics`.
 3. Файлы коммитятся обратно в репозиторий.
 4. **Смартфон** автоматически обновляет календарь по ссылке на `vyatsu.ics`.
-5. **Telegram-бот** подтягивает данные из `lessons_cache.json` по сети и мгновенно отвечает на запросы студентов.
+5. **Telegram-бот & Mini App** подтягивают данные и показывают интерактивный интерфейс.
+
+---
+
+## 📱 Telegram Mini App
+В бота встроен современный мобильный интерфейс (Telegram Web App):
+* Горизонтальная лента с днями недели и быстрым переходом к «Сегодня».
+* Фильтр по подгруппам (Все / 1 / 2 / 3) с сохранением выбора.
+* Цветные бейджи типов занятий (Лекция 🔵, Практика 🟢, Лабораторная 🟠).
+* Номера аудиторий и описания.
+* Автоматическая адаптация под темную/светлую тему Telegram с виброоткликом (Haptic Feedback).
 
 ---
 
@@ -24,49 +34,18 @@ https://raw.githubusercontent.com/<ВАШ_GITHUB_ЛОГИН>/<ИМЯ_РЕПОЗ�
 2. Нажмите «Подписаться» и укажите автообновление (например, раз в день).
 
 ### Android / Google Календарь:
-1. Зайдите в браузерную версию [Google Календаря](https://calendar.google.com/) с компьютера.
-2. Слева в блоке «Другие календари» нажмите **«+»** ➔ **«Добавить по URL»**.
-3. Вставьте ссылку `https://raw.githubusercontent.com/.../vyatsu.ics` и нажмите «Добавить календарь».
-4. В приложении Google Календарь на телефоне включите синхронизацию этого календаря.
+1. Зайдите в веб-версию [Google Календаря](https://calendar.google.com/) с компьютера.
+2. Слева у блока «Другие календари» нажмите **«+»** ➔ **«Добавить по URL»**.
+3. Вставьте ссылку на `vyatsu.ics`.
 
 ---
 
-## ⚙️ Настройка GitHub Actions
+## 🤖 Деплой бота и Mini App на Render.com
 
-1. Создайте репозиторий на GitHub и загрузите файлы:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/<ВАШ_ЛОГИН>/<ВАШ_РЕПОЗИТОРИЙ>.git
-   git push -u origin main
-   ```
-2. **Важно! Включите права на запись для GitHub Actions:**
-   * Откройте ваш репозиторий на GitHub ➔ **Settings** ➔ **Actions** ➔ **General**.
-   * Прокрутите до раздела **Workflow permissions**.
-   * Выберите **Read and write permissions** и нажмите **Save**.
-3. *(Опционально)* Если хотите получать уведомления в Telegram при изменениях:
-   * Перейдите в **Settings** ➔ **Secrets and variables** ➔ **Actions**.
-   * Добавьте Secrets:
-     - `TELEGRAM_BOT_TOKEN`: токен вашего бота от `@BotFather`
-     - `TELEGRAM_CHAT_ID`: ваш ID в Telegram (можно узнать у бота `@userinfobot`).
-
----
-
-## 🤖 Запуск Telegram-бота (по желанию)
-
-Бот умеет отвечать на команды:
-- `/today` — пары на сегодня
-- `/tomorrow` — пары на завтра
-- `/week` — расписание на неделю
-- `/calendar` — ссылка на подписку
-
-### Локальный запуск или запуск на сервере:
-```bash
-pip install -r requirements.txt
-export BOT_TOKEN="ВАШ_ТОКЕН_ОТ_BOTFATHER"
-export ICS_URL="https://raw.githubusercontent.com/<ЛОГИН>/<РЕПОЗИТОРИЙ>/main/vyatsu.ics"
-python bot.py
-```
-Бот мгновенно берет готовые данные из `lessons_cache.json`, поэтому не тратит время и ресурсы на повторный парсинг PDF.
+В панели управления **Render**:
+1. В разделе **Environment Variables** добавьте:
+   * `BOT_TOKEN`: токен от `@BotFather`
+   * `DATA_URL`: `https://raw.githubusercontent.com/<ЛОГИН>/<РЕПОЗИТОРИЙ>/main/lessons_cache.json`
+   * `ICS_URL`: `https://raw.githubusercontent.com/<ЛОГИН>/<РЕПОЗИТОРИЙ>/main/vyatsu.ics`
+   * `WEBAPP_URL`: URL вашего приложения на Render (например: `https://vyatsu-schedule-bot.onrender.com`)
+2. При перезапуске бот **автоматически настроит кнопку «Расписание»** в нижнем левом углу чата Telegram!

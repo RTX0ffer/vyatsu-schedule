@@ -67,7 +67,6 @@ def get_group_pdf_urls():
             start_str, end_str = match.group(1), match.group(2)
             start_date = datetime.datetime.strptime(start_str, '%d%m%Y').date()
             end_date = datetime.datetime.strptime(end_str, '%d%m%Y').date()
-            # Берем файлы, период которых заканчивается сегодня или позже
             if end_date >= today:
                 full_url = urljoin('https://old.vyatsu.ru', href)
                 valid_urls.append((start_date, full_url))
@@ -78,7 +77,7 @@ def get_group_pdf_urls():
 
 
 def parse_vyatsu_pdf(pdf_bytes, start_date_hint):
-    """Разбирает байты PDF расписания ВятГУ и достает список занятий."""
+    """Разбирает байты PDF расписания ВятГУ и достает структурированный список занятий."""
     time_pattern = re.compile(r'(\d{1,2}:\d{2})\s*[-–—]\s*(\d{1,2}:\d{2})')
     lessons = []
 
@@ -95,7 +94,7 @@ def parse_vyatsu_pdf(pdf_bytes, start_date_hint):
                     time_cell = row[1] if len(row) > 1 and row[1] else ''
                     subject_cell = row[2] if len(row) > 2 and row[2] else ''
 
-                    # Начало нового дня (первая колонка не пустая и не заголовок таблицы)
+                    # Начало нового дня
                     if day_cell and 'День' not in day_cell:
                         current_day_offset += 1
                         current_date = start_date_hint + datetime.timedelta(days=current_day_offset)
@@ -105,22 +104,49 @@ def parse_vyatsu_pdf(pdf_bytes, start_date_hint):
                     if t_match:
                         current_time_str = (t_match.group(1), t_match.group(2))
 
-                    # Если есть текст пары
+                    # Если есть занятие
                     if subject_cell and subject_cell.strip() and current_time_str and current_date:
-                        text = subject_cell.strip()
-                        if 'Дисциплина' in text or 'Время' in text:
+                        full_text = ' '.join(subject_cell.split()).strip()
+                        if 'Дисциплина' in full_text or 'Время' in full_text:
                             continue
 
-                        lines = [line.strip() for line in text.split('\n') if line.strip()]
-                        full_text = ' '.join(lines)
+                        # 1. Извлекаем подгруппу
+                        sg_match = re.search(r'(\d+)\s*подгруппа', full_text)
+                        subgroup = int(sg_match.group(1)) if sg_match else None
 
-                        # Извлекаем номер аудитории (игнорируя номер группы ПМИб-...)
-                        text_without_group = re.sub(r'ПМИб-\d+-\d+-\d+', '', full_text)
-                        room_match = re.search(
-                            r'(\b\d{1,2}-\d{2,4}[а-яА-Яa-zA-Z]?\b|[Сс]портзал[^\n,]*)',
-                            text_without_group
-                        )
-                        room = room_match.group(1) if room_match else ''
+                        # 2. Очищаем от номера группы для надежного парсинга
+                        clean_text = re.sub(r'ПМИб-\d+-\d+-\d+,?\s*', '', full_text)
+
+                        # 3. Извлекаем корпус и аудиторию (формат: 14-202 -> корпус 14, ауд. 202)
+                        room_m = re.search(r'\b(\d{1,2})-(\d{2,4}[а-яА-Яa-zA-Z]?)\b', clean_text)
+                        if room_m:
+                            building, room = room_m.group(1), room_m.group(2)
+                            location = f'корп. {building}, ауд. {room}'
+                        elif 'спортзал' in clean_text.lower():
+                            building, room = '', ''
+                            location = 'Спортзал'
+                        else:
+                            building, room = '', ''
+                            location = ''
+
+                        # 4. Извлекаем тип занятия
+                        type_m = re.search(r'\b(Лекция|Практическое занятие|Лабораторная работа)\b', clean_text)
+                        lesson_type = type_m.group(1) if type_m else ''
+
+                        # 5. Извлекаем ФИО преподавателя (Фамилия И.О.)
+                        teacher_m = re.search(r'([А-ЯЁ][а-яё]+(?:\s+[А-ЯЁ]\.\s*[А-ЯЁ]\.|\s+[А-ЯЁ]\.))', clean_text)
+                        teacher = teacher_m.group(1) if teacher_m else ''
+
+                        # 6. Извлекаем чистое название предмета
+                        subj_text = clean_text
+                        if sg_match:
+                            subj_text = re.sub(r'^\d+\s*подгруппа,?\s*', '', subj_text)
+                        if lesson_type:
+                            subj_text = subj_text.split(lesson_type)[0]
+                        subject = subj_text.strip(' ,-')
+
+                        if not subject:
+                            continue
 
                         sh, sm = map(int, current_time_str[0].split(':'))
                         eh, em = map(int, current_time_str[1].split(':'))
@@ -132,18 +158,26 @@ def parse_vyatsu_pdf(pdf_bytes, start_date_hint):
                             current_date.year, current_date.month, current_date.day, eh, em, tzinfo=TIMEZONE
                         )
 
-                        # Уникальный ключ: время + текст занятия (для различения подгрупп)
-                        uid_key = f"{start_dt.isoformat()}_{full_text}"
+                        uid_key = f"{start_dt.isoformat()}_{subject}_{subgroup or 0}"
                         uid_hash = hashlib.md5(uid_key.encode('utf-8')).hexdigest()
+
+                        display_summary = f"{subject} ({lesson_type})" if lesson_type else subject
 
                         lessons.append({
                             'uid': f"{uid_hash}@vyatsu.schedule",
-                            'summary': lines[0] if lines else full_text,
+                            'subject': subject,
+                            'type': lesson_type,
+                            'teacher': teacher,
+                            'building': building,
+                            'room': room,
+                            'location': location,
+                            'subgroup': subgroup,
+                            'summary': display_summary,
                             'description': full_text,
-                            'location': f'ВятГУ, ауд. {room}' if room else 'ВятГУ',
                             'start': start_dt.isoformat(),
                             'end': end_dt.isoformat(),
                         })
+
     logging.info(f'Из PDF извлечено занятий: {len(lessons)}')
     return lessons
 
@@ -165,7 +199,7 @@ def update_schedule():
         resp.raise_for_status()
         content_hash = hashlib.sha256(resp.content).hexdigest()
 
-        # Если файл уже обработан и кэш не пустой — пропускаем
+        # Если файл уже обработан и данные есть — пропускаем
         if cache['processed_urls'].get(url) == content_hash and cache['lessons']:
             logging.info('Файл не изменился (кэш совпадает).')
             continue
@@ -199,9 +233,21 @@ def generate_ics(lessons, filename=ICS_FILE):
     for item in lessons:
         event = Event()
         event.uid = item['uid']
-        event.name = item['summary']
+        event.name = item.get('summary', item.get('subject', 'Пара'))
         event.location = item.get('location', '')
-        event.description = item.get('description', '')
+        
+        # Формируем информативное описание для календаря
+        desc_parts = []
+        if item.get('type'):
+            desc_parts.append(f"Тип: {item['type']}")
+        if item.get('teacher'):
+            desc_parts.append(f"Преподаватель: {item['teacher']}")
+        if item.get('subgroup'):
+            desc_parts.append(f"Подгруппа: {item['subgroup']}")
+        if item.get('location'):
+            desc_parts.append(f"Место: {item['location']}")
+            
+        event.description = '\n'.join(desc_parts) if desc_parts else item.get('description', '')
         event.begin = datetime.datetime.fromisoformat(item['start'])
         event.end = datetime.datetime.fromisoformat(item['end'])
         cal.events.add(event)
