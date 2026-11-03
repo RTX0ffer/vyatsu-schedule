@@ -204,31 +204,36 @@ def parse_vyatsu_pdf(pdf_bytes, start_date_hint):
 def update_schedule():
     """Основной процесс обновления кэша и календаря."""
     cache = load_cache()
-    items = get_group_pdf_urls()
-
-    if not items:
-        logging.warning('Не найдено ссылок на расписание. Календарь не обновлен.')
-        return False
+    try:
+        items = get_group_pdf_urls()
+    except Exception as e:
+        logging.warning(f'Не удалось связаться с сайтом ВятГУ ({e}). Использую кэшированные данные.')
+        items = []
 
     has_changes = False
 
-    for start_date, url in items:
-        logging.info(f'Проверяю: {url} (старт: {start_date})')
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        content_hash = hashlib.sha256(resp.content).hexdigest()
+    if items:
+        for start_date, url in items:
+            logging.info(f'Проверяю: {url} (старт: {start_date})')
+            try:
+                resp = requests.get(url, headers=HEADERS, timeout=30)
+                resp.raise_for_status()
+            except Exception as e:
+                logging.warning(f'Ошибка скачивания {url}: {e}')
+                continue
+            content_hash = hashlib.sha256(resp.content).hexdigest()
 
-        if cache['processed_urls'].get(url) == content_hash and cache['lessons']:
-            logging.info('Файл не изменился (кэш совпадает).')
-            continue
+            if cache['processed_urls'].get(url) == content_hash and cache['lessons']:
+                logging.info('Файл не изменился (кэш совпадает).')
+                continue
 
-        logging.info('Обнаружен новый или измененный PDF! Парсинг...')
-        new_lessons = parse_vyatsu_pdf(resp.content, start_date)
-        for lesson in new_lessons:
-            cache['lessons'][lesson['uid']] = lesson
+            logging.info('Обнаружен новый или измененный PDF! Парсинг...')
+            new_lessons = parse_vyatsu_pdf(resp.content, start_date)
+            for lesson in new_lessons:
+                cache['lessons'][lesson['uid']] = lesson
 
-        cache['processed_urls'][url] = content_hash
-        has_changes = True
+            cache['processed_urls'][url] = content_hash
+            has_changes = True
 
     # Очистка устаревших пар: оставляем за последние 30 дней и все будущие
     threshold_date = (datetime.datetime.now(TIMEZONE) - datetime.timedelta(days=30)).isoformat()
@@ -253,7 +258,7 @@ def update_schedule():
 def generate_ics(lessons, filename=ICS_FILE, title='Расписание ВятГУ ПМИб-1301'):
     """Генерирует стандартный .ics файл из списка занятий (RFC 5545)."""
     cal = Calendar()
-    cal.creator = 'Vyatsu Schedule Bot'
+    cal.creator = '-//Vyatsu//Schedule Bot//RU'
     now_utc = datetime.datetime.now(datetime.timezone.utc)
 
     for item in lessons:
@@ -290,10 +295,13 @@ def generate_ics(lessons, filename=ICS_FILE, title='Расписание Вят�
         "REFRESH-INTERVAL;VALUE=DURATION:PT6H\r\n"
         "X-PUBLISHED-TTL:PT6H\r\n"
     )
-    if "BEGIN:VCALENDAR\r\n" in ics_text:
-        ics_text = ics_text.replace("BEGIN:VCALENDAR\r\n", f"BEGIN:VCALENDAR\r\n{custom_headers}")
+    prodid_str = "PRODID:-//Vyatsu//Schedule Bot//RU\r\n"
+    if prodid_str in ics_text:
+        ics_text = ics_text.replace(prodid_str, f"{prodid_str}{custom_headers}")
+    elif "VERSION:2.0\r\n" in ics_text:
+        ics_text = ics_text.replace("VERSION:2.0\r\n", f"VERSION:2.0\r\n{custom_headers}")
     else:
-        ics_text = ics_text.replace("BEGIN:VCALENDAR\n", f"BEGIN:VCALENDAR\n{custom_headers}")
+        ics_text = ics_text.replace("BEGIN:VCALENDAR\r\n", f"BEGIN:VCALENDAR\r\n{custom_headers}")
 
     tmp_file = f'{filename}.tmp'
     with open(tmp_file, 'w', encoding='utf-8') as f:

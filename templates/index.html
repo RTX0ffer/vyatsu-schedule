@@ -75,55 +75,64 @@
 
   <!-- Модальное окно подписки на календарь -->
   <div id="cal-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden flex items-end sm:items-center justify-center p-0 sm:p-4 transition-opacity">
-    <div class="bg-slate-900 border border-slate-700 rounded-t-3xl sm:rounded-3xl w-full max-w-md p-6 space-y-4 shadow-2xl animate-in slide-in-from-bottom duration-200">
+    <div class="bg-slate-900 border border-slate-700 rounded-t-3xl sm:rounded-3xl w-full max-w-md p-6 space-y-4 shadow-2xl animate-in slide-in-from-bottom duration-200 max-h-[90vh] overflow-y-auto hide-scrollbar">
       <div class="flex items-center justify-between pb-2 border-b border-slate-800">
         <h3 class="text-base font-bold text-white flex items-center gap-2">
-          <i class="fa-solid fa-calendar-check text-blue-400"></i> Подписка на календарь
+          <i class="fa-solid fa-calendar-check text-blue-400"></i> Расписание в Календарь
         </h3>
         <button id="close-modal-btn" class="w-7 h-7 rounded-full bg-slate-800 text-slate-400 hover:text-white flex items-center justify-center">
           <i class="fa-solid fa-xmark text-sm"></i>
         </button>
       </div>
 
-      <p class="text-xs text-slate-300 leading-relaxed">
-        Синхронизируйте расписание со своим смартфоном. Пары появятся в вашем системном календаре и будут автоматически обновляться каждую ночь!
-      </p>
-
       <div class="bg-slate-800/80 p-3 rounded-xl border border-slate-700 text-xs flex items-center justify-between">
         <span class="text-slate-400">Выбранная подгруппа:</span>
         <span id="modal-sg-badge" class="font-semibold text-blue-400 bg-blue-500/10 px-2 py-0.5 rounded border border-blue-500/20">Все пары</span>
       </div>
 
-      <div class="space-y-2 pt-1">
-        <!-- Кнопка Android Календарь -->
+      <!-- Раздел 1: Быстро в телефон (Импорт .ics) -->
+      <div class="space-y-2">
+        <div class="flex items-center justify-between text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
+          <span>⚡ Быстро на телефон (Файл .ics)</span>
+          <span class="text-[10px] text-amber-400 font-normal">разовый импорт</span>
+        </div>
         <button id="android-cal-btn" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold text-xs flex items-center justify-center gap-2 shadow-lg shadow-blue-500/20 active:scale-95 transition-all">
-          <i class="fa-brands fa-android text-base text-emerald-400"></i> Добавить в календарь Android
+          <i class="fa-solid fa-mobile-screen-button text-base text-emerald-400"></i> Добавить в календарь телефона (.ics)
         </button>
+        <p class="text-[10px] text-slate-400 leading-snug">
+          📱 Скачивает файл для любого <b>Android (Samsung, Xiaomi, Pixel, Honor)</b> и <b>iPhone</b>. Пары сразу добавятся во встроенный календарь. Не обновляется автоматически при изменениях.
+        </p>
+      </div>
+
+      <div class="border-t border-slate-800 pt-2 space-y-2">
+        <!-- Раздел 2: Авто-синхронизация (Живая подписка по ссылке) -->
+        <div class="flex items-center justify-between text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
+          <span>🔄 Авто-синхронизация (По ссылке)</span>
+          <span class="text-[10px] text-emerald-400 font-normal">само обновляется</span>
+        </div>
+        <p class="text-[10px] text-slate-400 leading-snug">
+          Календарь подключается по ссылке и регулярно обновляет расписание при любых переносах пар:
+        </p>
 
         <!-- Кнопка Google Календарь -->
         <button id="google-cal-btn" class="w-full py-2.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-semibold text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
-          <i class="fa-brands fa-google text-sm text-red-400"></i> Подписка в Google Календарь
+          <i class="fa-brands fa-google text-sm text-red-400"></i> Google Календарь (веб)
         </button>
 
         <!-- Кнопка Microsoft Outlook -->
         <button id="outlook-cal-btn" class="w-full py-2.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-semibold text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
-          <i class="fa-brands fa-microsoft text-sm text-sky-400"></i> Подписка в Microsoft Outlook
+          <i class="fa-brands fa-microsoft text-sm text-sky-400"></i> Microsoft Outlook Web / 365
         </button>
 
         <!-- Кнопка Apple Calendar -->
         <button id="apple-cal-btn" class="w-full py-2.5 px-4 rounded-xl bg-slate-800/80 hover:bg-slate-700 border border-slate-700 text-slate-300 font-semibold text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
-          <i class="fa-brands fa-apple text-sm"></i> Подписка в Apple Calendar (iPhone / Mac)
+          <i class="fa-brands fa-apple text-sm"></i> Apple Календарь (Safari / iPhone)
         </button>
 
         <!-- Скопировать ссылку -->
         <button id="copy-cal-btn" class="w-full py-2 px-4 rounded-xl bg-slate-800/40 hover:bg-slate-800 border border-slate-700/60 text-slate-400 font-medium text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
           <i class="fa-regular fa-copy text-xs"></i> Скопировать ссылку подписки (.ics)
         </button>
-
-        <p class="text-[10px] text-slate-400 text-center pt-1 leading-snug">
-          💡 <b>Android:</b> нажмите верхнюю кнопку — телефон скачает расписание и сразу сохранит пары в календарь.<br>
-          🍏 <b>iPhone / Mac:</b> при нажатии откроется Safari с системным окном добавления подписки.
-        </p>
       </div>
     </div>
   </div>
@@ -510,11 +519,21 @@
         openSafeLink(calUrl);
       });
 
-      // Google Календарь (стабильная ссылка со 100% поддержкой text/calendar)
+      // Google Календарь (веб-подписка со 100% автообновлением)
       googleBtn.addEventListener('click', () => {
         if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light');
         const cdnUrl = getCdnCalUrl();
-        const gUrl = `https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(cdnUrl)}`;
+        const webcalUrl = cdnUrl.replace(/^https?:\/\//, 'webcal://');
+
+        // Копируем прямую ссылку в буфер для удобства
+        try { navigator.clipboard.writeText(cdnUrl); } catch (e) {}
+
+        const originalHtml = googleBtn.innerHTML;
+        googleBtn.innerHTML = '<i class="fa-solid fa-check text-emerald-400"></i> Ссылка скопирована!';
+        setTimeout(() => { googleBtn.innerHTML = originalHtml; }, 2500);
+
+        // Открываем добавление календаря в Google
+        const gUrl = `https://calendar.google.com/calendar/r?cid=${encodeURIComponent(webcalUrl)}`;
         openSafeLink(gUrl);
       });
 

@@ -226,7 +226,7 @@ def build_ics_content(subgroup=None):
         lessons = [l for l in lessons if not l.get('subgroup') or l.get('subgroup') == sg]
 
     cal = Calendar()
-    cal.creator = 'Vyatsu Schedule Bot'
+    cal.creator = '-//Vyatsu//Schedule Bot//RU'
     now_utc = datetime.datetime.now(datetime.timezone.utc)
 
     for item in lessons:
@@ -264,10 +264,13 @@ def build_ics_content(subgroup=None):
         "REFRESH-INTERVAL;VALUE=DURATION:PT6H\r\n"
         "X-PUBLISHED-TTL:PT6H\r\n"
     )
-    if "BEGIN:VCALENDAR\r\n" in ics_text:
-        ics_text = ics_text.replace("BEGIN:VCALENDAR\r\n", f"BEGIN:VCALENDAR\r\n{custom_headers}")
+    prodid_str = "PRODID:-//Vyatsu//Schedule Bot//RU\r\n"
+    if prodid_str in ics_text:
+        ics_text = ics_text.replace(prodid_str, f"{prodid_str}{custom_headers}")
+    elif "VERSION:2.0\r\n" in ics_text:
+        ics_text = ics_text.replace("VERSION:2.0\r\n", f"VERSION:2.0\r\n{custom_headers}")
     else:
-        ics_text = ics_text.replace("BEGIN:VCALENDAR\n", f"BEGIN:VCALENDAR\n{custom_headers}")
+        ics_text = ics_text.replace("BEGIN:VCALENDAR\r\n", f"BEGIN:VCALENDAR\r\n{custom_headers}")
 
     return ics_text
 
@@ -333,11 +336,12 @@ async def callback_send_ics_file(callback: types.CallbackQuery):
         document=file,
         caption=(
             f"📅 <b>Файл расписания{sg_label}</b>\n\n"
-            "📱 <b>Инструкция для Android (Samsung, Xiaomi, Huawei, Honor, Pixel и др.):</b>\n"
+            "📱 <b>Инструкция для смартфона (Samsung, Xiaomi, Huawei, Pixel, iPhone):</b>\n"
             "1. Нажмите на этот файл прямо здесь в Telegram.\n"
             "2. Выберите системное приложение <b>«Календарь»</b> вашего смартфона.\n"
             "3. Нажмите <b>«Сохранить»</b> (или «Импортировать»).\n\n"
-            "✨ Все пары появятся в виджетах и календаре телефона с аудиториями, корпусами и напоминаниями за 15 минут!"
+            "✨ Все пары мгновенно появятся в виджетах и календаре телефона с аудиториями, корпусами и напоминаниями за 15 минут!\n"
+            "<i>💡 Это разовый импорт пар в память телефона. Для автоматического обновления расписания каждую ночь используйте веб-подписку по ссылке из сообщения выше (Google / Outlook / Safari).</i>"
         ),
         parse_mode=ParseMode.HTML
     )
