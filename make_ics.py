@@ -114,10 +114,10 @@ def parse_vyatsu_pdf(pdf_bytes, start_date_hint):
                         sg_match = re.search(r'(\d+)\s*подгруппа', full_text)
                         subgroup = int(sg_match.group(1)) if sg_match else None
 
-                        # 2. Очищаем от номера группы для надежного парсинга
+                        # 2. Очищаем от номера группы
                         clean_text = re.sub(r'ПМИб-\d+-\d+-\d+,?\s*', '', full_text)
 
-                        # 3. Извлекаем корпус и аудиторию (формат: 14-202 -> корпус 14, ауд. 202)
+                        # 3. Извлекаем корпус и аудиторию
                         room_m = re.search(r'\b(\d{1,2})-(\d{2,4}[а-яА-Яa-zA-Z]?)\b', clean_text)
                         if room_m:
                             building, room = room_m.group(1), room_m.group(2)
@@ -133,7 +133,7 @@ def parse_vyatsu_pdf(pdf_bytes, start_date_hint):
                         type_m = re.search(r'\b(Лекция|Практическое занятие|Лабораторная работа)\b', clean_text)
                         lesson_type = type_m.group(1) if type_m else ''
 
-                        # 5. Извлекаем ФИО преподавателя (Фамилия И.О.)
+                        # 5. Извлекаем ФИО преподавателя
                         teacher_m = re.search(r'([А-ЯЁ][а-яё]+(?:\s+[А-ЯЁ]\.\s*[А-ЯЁ]\.|\s+[А-ЯЁ]\.))', clean_text)
                         teacher = teacher_m.group(1) if teacher_m else ''
 
@@ -199,7 +199,6 @@ def update_schedule():
         resp.raise_for_status()
         content_hash = hashlib.sha256(resp.content).hexdigest()
 
-        # Если файл уже обработан и данные есть — пропускаем
         if cache['processed_urls'].get(url) == content_hash and cache['lessons']:
             logging.info('Файл не изменился (кэш совпадает).')
             continue
@@ -226,17 +225,19 @@ def update_schedule():
 
 
 def generate_ics(lessons, filename=ICS_FILE):
-    """Генерирует стандартный .ics файл из списка занятий."""
+    """Генерирует стандартный .ics файл из списка занятий (RFC 5545)."""
     cal = Calendar()
     cal.creator = 'Vyatsu Schedule Bot'
+    now_utc = datetime.datetime.now(datetime.timezone.utc)
 
     for item in lessons:
         event = Event()
         event.uid = item['uid']
         event.name = item.get('summary', item.get('subject', 'Пара'))
         event.location = item.get('location', '')
-        
-        # Формируем информативное описание для календаря
+        # Обязательное поле DTSTAMP для Google и Apple календарей
+        event.created = now_utc
+
         desc_parts = []
         if item.get('type'):
             desc_parts.append(f"Тип: {item['type']}")
@@ -246,7 +247,7 @@ def generate_ics(lessons, filename=ICS_FILE):
             desc_parts.append(f"Подгруппа: {item['subgroup']}")
         if item.get('location'):
             desc_parts.append(f"Место: {item['location']}")
-            
+
         event.description = '\n'.join(desc_parts) if desc_parts else item.get('description', '')
         event.begin = datetime.datetime.fromisoformat(item['start'])
         event.end = datetime.datetime.fromisoformat(item['end'])
@@ -254,12 +255,17 @@ def generate_ics(lessons, filename=ICS_FILE):
 
     ics_text = cal.serialize()
     custom_headers = (
-        "X-WR-CALNAME:Расписание ВятГУ\n"
-        "X-WR-TIMEZONE:Europe/Kirov\n"
-        "REFRESH-INTERVAL;VALUE=DURATION:PT6H\n"
-        "X-PUBLISHED-TTL:PT6H\n"
+        "CALSCALE:GREGORIAN\r\n"
+        "METHOD:PUBLISH\r\n"
+        "X-WR-CALNAME:Расписание ВятГУ ПМИб-1301\r\n"
+        "X-WR-TIMEZONE:Europe/Kirov\r\n"
+        "REFRESH-INTERVAL;VALUE=DURATION:PT6H\r\n"
+        "X-PUBLISHED-TTL:PT6H\r\n"
     )
-    ics_text = ics_text.replace("BEGIN:VCALENDAR\n", f"BEGIN:VCALENDAR\n{custom_headers}")
+    if "BEGIN:VCALENDAR\r\n" in ics_text:
+        ics_text = ics_text.replace("BEGIN:VCALENDAR\r\n", f"BEGIN:VCALENDAR\r\n{custom_headers}")
+    else:
+        ics_text = ics_text.replace("BEGIN:VCALENDAR\n", f"BEGIN:VCALENDAR\n{custom_headers}")
 
     tmp_file = f'{filename}.tmp'
     with open(tmp_file, 'w', encoding='utf-8') as f:

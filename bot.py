@@ -31,7 +31,6 @@ WEEKDAYS_RU = ['Понедельник', 'Вторник', 'Среда', 'Чет
 
 dp = Dispatcher()
 
-# Быстрый кэш в памяти
 _memory_cache = {'timestamp': 0, 'lessons': []}
 
 
@@ -57,7 +56,7 @@ def get_cached_lessons():
 
 
 async def sync_remote_cache():
-    """Фоновая асинхронная проверка обновлений с GitHub (не блокирует пользователей)."""
+    """Фоновая асинхронная проверка обновлений с GitHub."""
     if not DATA_URL:
         return
 
@@ -83,7 +82,7 @@ async def background_cache_worker():
 
 
 def format_day_schedule(target_date: datetime.date):
-    """Форматирует расписание на день мгновенно из ОЗУ."""
+    """Форматирует расписание на день в безопасном формате HTML."""
     lessons = get_cached_lessons()
     day_lessons = []
 
@@ -98,7 +97,7 @@ def format_day_schedule(target_date: datetime.date):
     date_str = target_date.strftime('%d.%m.%Y')
 
     if not day_lessons:
-        return f"📅 *{weekday_name}, {date_str}*\n\n🎉 В этот день пар нет! Можно отдыхать."
+        return f"📅 <b>{weekday_name}, {date_str}</b>\n\n🎉 В этот день пар нет! Можно отдыхать."
 
     by_time = {}
     for start_dt, item in day_lessons:
@@ -106,28 +105,28 @@ def format_day_schedule(target_date: datetime.date):
         interval = f"{start_dt.strftime('%H:%M')} – {end_dt.strftime('%H:%M')}"
         by_time.setdefault(interval, []).append(item)
 
-    text = [f"📅 *{weekday_name}, {date_str}*\n"]
+    text = [f"📅 <b>{weekday_name}, {date_str}</b>\n"]
     for interval, items in by_time.items():
         if len(items) == 1:
             it = items[0]
             subj = it.get('subject', it.get('summary', 'Пара'))
             ltype = f" ({it['type']})" if it.get('type') else ""
-            teacher = f"👤 _{it['teacher']}_" if it.get('teacher') else ""
+            teacher = f"👤 <i>{it['teacher']}</i>" if it.get('teacher') else ""
             loc = f"📍 {it['location']}" if it.get('location') else ""
             details = " | ".join(filter(None, [teacher, loc]))
 
-            text.append(f"▫️ *{interval}* | *{subj}*{ltype}\n   {details}\n")
+            text.append(f"▫️ <b>{interval}</b> | <b>{subj}</b>{ltype}\n   {details}\n")
         else:
-            text.append(f"▫️ *{interval}*:")
+            text.append(f"▫️ <b>{interval}</b>:")
             for it in items:
                 sg = f"[{it['subgroup']} подгр.] " if it.get('subgroup') else ""
                 subj = it.get('subject', it.get('summary', 'Пара'))
                 ltype = f" ({it['type']})" if it.get('type') else ""
-                teacher = f"👤 _{it['teacher']}_" if it.get('teacher') else ""
+                teacher = f"👤 <i>{it['teacher']}</i>" if it.get('teacher') else ""
                 loc = f"📍 {it['location']}" if it.get('location') else ""
                 details = " | ".join(filter(None, [teacher, loc]))
 
-                text.append(f"   • {sg}*{subj}*{ltype}\n     {details}")
+                text.append(f"   • {sg}<b>{subj}</b>{ltype}\n     {details}")
             text.append("")
 
     return "\n".join(text).strip()
@@ -140,18 +139,18 @@ async def cmd_start(message: types.Message):
         kb = InlineKeyboardMarkup(
             inline_keyboard=[
                 [InlineKeyboardButton(text="📱 Открыть расписание (Mini App)", web_app=WebAppInfo(url=WEBAPP_URL))],
-                [InlineKeyboardButton(text="📅 Добавить в календарь", url=f"{WEBAPP_URL}/calendar.ics")]
+                [InlineKeyboardButton(text="📅 Скачать календарь", url=f"{WEBAPP_URL}/calendar.ics")]
             ]
         )
 
     await message.answer(
         "👋 Привет! Я бот с расписанием занятий ВятГУ.\n\n"
-        "Вы можете открыть современный **Mini App** прямо в Telegram или использовать команды:\n"
+        "Вы можете открыть современный <b>Mini App</b> прямо в Telegram или использовать команды:\n"
         "▫️ /today — Пары на сегодня\n"
         "▫️ /tomorrow — Пары на завтра\n"
         "▫️ /week — Расписание на текущую неделю\n"
         "▫️ /calendar — Подписка на календарь в iPhone / Android\n",
-        parse_mode=ParseMode.MARKDOWN,
+        parse_mode=ParseMode.HTML,
         reply_markup=kb
     )
 
@@ -160,14 +159,14 @@ async def cmd_start(message: types.Message):
 async def cmd_today(message: types.Message):
     today = datetime.datetime.now(TIMEZONE).date()
     text = format_day_schedule(today)
-    await message.answer(text, parse_mode=ParseMode.MARKDOWN)
+    await message.answer(text, parse_mode=ParseMode.HTML)
 
 
 @dp.message(Command('tomorrow'))
 async def cmd_tomorrow(message: types.Message):
     tomorrow = datetime.datetime.now(TIMEZONE).date() + datetime.timedelta(days=1)
     text = format_day_schedule(tomorrow)
-    await message.answer(text, parse_mode=ParseMode.MARKDOWN)
+    await message.answer(text, parse_mode=ParseMode.HTML)
 
 
 @dp.message(Command('week'))
@@ -185,9 +184,9 @@ async def cmd_week(message: types.Message):
 
     if len(response) > 4000:
         for chunk in [response[i:i + 3800] for i in range(0, len(response), 3800)]:
-            await message.answer(chunk, parse_mode=ParseMode.MARKDOWN)
+            await message.answer(chunk, parse_mode=ParseMode.HTML)
     else:
-        await message.answer(response, parse_mode=ParseMode.MARKDOWN)
+        await message.answer(response, parse_mode=ParseMode.HTML)
 
 
 @dp.message(Command('calendar'))
@@ -197,27 +196,33 @@ async def cmd_calendar(message: types.Message):
     webcal_sg1 = f"{webcal_all}?subgroup=1"
     webcal_sg2 = f"{webcal_all}?subgroup=2"
 
+    https_sg1 = f"{base_cal_url}?subgroup=1"
+    https_sg2 = f"{base_cal_url}?subgroup=2"
+
     kb_buttons = []
     if WEBAPP_URL:
         kb_buttons.append([InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))])
-    kb_buttons.append([InlineKeyboardButton(text="🍏 Подписаться (1 подгруппа)", url=webcal_sg1)])
-    kb_buttons.append([InlineKeyboardButton(text="🍏 Подписаться (2 подгруппа)", url=webcal_sg2)])
+    kb_buttons.append([InlineKeyboardButton(text="📥 Скачать .ics (1 подгруппа)", url=https_sg1)])
+    kb_buttons.append([InlineKeyboardButton(text="📥 Скачать .ics (2 подгруппа)", url=https_sg2)])
 
     kb = InlineKeyboardMarkup(inline_keyboard=kb_buttons)
 
     await message.answer(
-        "📲 *Автоматическая подписка на календарь:*\n\n"
+        "📲 <b>Подписка на календарь:</b>\n\n"
         "Расписание синхронизируется на телефоне само, с виджетами и напоминаниями!\n\n"
-        "🍏 **iPhone / iPad / Mac (Apple Calendar):**\n"
-        "Нажмите кнопку с вашей подгруппой ниже или откройте в Safari ссылку:\n"
-        f"• 1 подгруппа: `{webcal_sg1}`\n"
-        f"• 2 подгруппа: `{webcal_sg2}`\n"
-        f"• Все пары: `{webcal_all}`\n\n"
-        "🤖 **Android / Google Календарь:**\n"
-        "Откройте [Google Calendar](https://calendar.google.com/) на компьютере ➔ «Другие календари» ➔ **«+»** ➔ **«Добавить по URL»** и вставьте:\n"
-        f"`{base_cal_url}?subgroup=1`\n",
-        parse_mode=ParseMode.MARKDOWN,
-        reply_markup=kb
+        "🍏 <b>iPhone / iPad / Mac (Apple Calendar):</b>\n"
+        "Скопируйте ссылку и вставьте в адресную строку Safari:\n"
+        f"• 1 подгруппа: <code>{webcal_sg1}</code>\n"
+        f"• 2 подгруппа: <code>{webcal_sg2}</code>\n"
+        f"• Все пары: <code>{webcal_all}</code>\n\n"
+        "🤖 <b>Android / Google Календарь:</b>\n"
+        "1. Откройте <a href=\"https://calendar.google.com/\">Google Календарь</a> с компьютера.\n"
+        "2. В блоке «Другие календари» нажмите <b>«+»</b> ➔ <b>«Добавить по URL»</b>.\n"
+        f"3. Вставьте ссылку: <code>{https_sg1}</code>\n\n"
+        "<i>Или нажмите кнопку ниже, чтобы скачать файл и открыть на телефоне.</i>",
+        parse_mode=ParseMode.HTML,
+        reply_markup=kb,
+        disable_web_page_preview=True
     )
 
 
@@ -277,12 +282,15 @@ async def handle_calendar_ics(request):
     cal_title = f"ВятГУ ПМИб-1301 ({subgroup_param} подгр.)" if subgroup_param in ('1', '2') else "Расписание ВятГУ ПМИб-1301"
     ics_text = cal.serialize()
     custom_headers = (
-        f"X-WR-CALNAME:{cal_title}\n"
-        "X-WR-TIMEZONE:Europe/Kirov\n"
-        "REFRESH-INTERVAL;VALUE=DURATION:PT6H\n"
-        "X-PUBLISHED-TTL:PT6H\n"
+        f"X-WR-CALNAME:{cal_title}\r\n"
+        "X-WR-TIMEZONE:Europe/Kirov\r\n"
+        "REFRESH-INTERVAL;VALUE=DURATION:PT6H\r\n"
+        "X-PUBLISHED-TTL:PT6H\r\n"
     )
-    ics_text = ics_text.replace("BEGIN:VCALENDAR\n", f"BEGIN:VCALENDAR\n{custom_headers}")
+    if "BEGIN:VCALENDAR\r\n" in ics_text:
+        ics_text = ics_text.replace("BEGIN:VCALENDAR\r\n", f"BEGIN:VCALENDAR\r\n{custom_headers}")
+    else:
+        ics_text = ics_text.replace("BEGIN:VCALENDAR\n", f"BEGIN:VCALENDAR\n{custom_headers}")
 
     return web.Response(
         text=ics_text,
@@ -321,13 +329,9 @@ async def main():
         logging.error("Не указан BOT_TOKEN в переменных окружения!")
         return
 
-    # Загружаем кэш в память сразу при старте (0 секунд ожидания при первых запросах)
     get_cached_lessons()
-
     await start_webserver()
     bot = Bot(token=BOT_TOKEN)
-
-    # Фоновая задача обновления кэша
     asyncio.create_task(background_cache_worker())
 
     if WEBAPP_URL:
