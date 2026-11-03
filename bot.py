@@ -28,8 +28,8 @@ CACHE_FILE = 'lessons_cache.json'
 
 DATA_URL = os.getenv('DATA_URL', '')
 WEBAPP_URL = os.getenv('WEBAPP_URL', '').rstrip('/')
-GITHUB_REPO_RAW = "https://raw.githubusercontent.com/RTX0ffer/vyatsu-schedule/main"
-ICS_URL = f"{GITHUB_REPO_RAW}/vyatsu.ics"
+CDN_BASE_URL = "https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main"
+ICS_URL = f"{CDN_BASE_URL}/vyatsu.ics"
 
 WEEKDAYS_RU = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье']
 
@@ -274,13 +274,13 @@ def build_ics_content(subgroup=None):
 
 @dp.message(Command('calendar'))
 async def cmd_calendar(message: types.Message):
-    gh_sg1 = f"{GITHUB_REPO_RAW}/vyatsu_subgroup1.ics"
-    gh_sg2 = f"{GITHUB_REPO_RAW}/vyatsu_subgroup2.ics"
-    gh_all = f"{GITHUB_REPO_RAW}/vyatsu.ics"
+    cdn_sg1 = f"{CDN_BASE_URL}/vyatsu_subgroup1.ics"
+    cdn_sg2 = f"{CDN_BASE_URL}/vyatsu_subgroup2.ics"
+    cdn_all = f"{CDN_BASE_URL}/vyatsu.ics"
 
-    webcal_sg1 = gh_sg1.replace('https://', 'webcal://')
-    webcal_sg2 = gh_sg2.replace('https://', 'webcal://')
-    webcal_all = gh_all.replace('https://', 'webcal://')
+    webcal_sg1 = cdn_sg1.replace('https://', 'webcal://')
+    webcal_sg2 = cdn_sg2.replace('https://', 'webcal://')
+    webcal_all = cdn_all.replace('https://', 'webcal://')
 
     kb_buttons = []
     if WEBAPP_URL:
@@ -298,19 +298,20 @@ async def cmd_calendar(message: types.Message):
     await message.answer(
         "📲 <b>Календарь расписания ВятГУ:</b>\n\n"
         "⚡ <b>Для любого Android (Samsung, Xiaomi, Huawei, Pixel и др.) — В 1 клик:</b>\n"
-        "Нажмите кнопку <b>«📱 Календарь Android»</b> ниже ➔ откройте файл ➔ выберите <b>«Календарь»</b> ➔ <b>«Сохранить»</b>.\n"
-        "Все пары мгновенно появятся в вашем системном календаре и виджетах с аудиториями и напоминаниями!\n\n"
-        "🤖 <b>Google Календарь (веб-подписка):</b>\n"
-        "1. Откройте <a href=\"https://calendar.google.com/\">Google Календарь</a> с компьютера.\n"
-        "2. В меню «Другие календари» нажмите <b>«+»</b> ➔ <b>«Добавить по URL»</b>.\n"
-        "3. Вставьте прямую ссылку (без параметров, чистый .ics от CDN):\n"
-        f"• 1 подгруппа: <code>{gh_sg1}</code>\n"
-        f"• 2 подгруппа: <code>{gh_sg2}</code>\n"
-        f"• Все пары: <code>{gh_all}</code>\n\n"
+        "Нажмите кнопку <b>«📱 Календарь Android»</b> ниже ➔ откройте файл прямо в Telegram ➔ выберите <b>«Календарь»</b> ➔ <b>«Сохранить»</b>.\n"
+        "Все пары мгновенно появятся в системном календаре и виджетах с аудиториями и напоминаниями!\n\n"
+        "🤖 <b>Google Календарь / 📧 Microsoft Outlook (веб-подписка):</b>\n"
+        "1. В Google Календаре нажмите <b>«+»</b> рядом с «Другие календари» ➔ <b>«Добавить по URL»</b>.\n"
+        "2. В Microsoft Outlook Web нажмите <b>«Добавить календарь»</b> ➔ <b>«Подписаться из Интернета»</b>.\n"
+        "3. Вставьте прямую ссылку (быстрый CDN со 100% поддержкой календарей):\n"
+        f"• 1 подгруппа: <code>{cdn_sg1}</code>\n"
+        f"• 2 подгруппа: <code>{cdn_sg2}</code>\n"
+        f"• Все пары: <code>{cdn_all}</code>\n\n"
         "🍏 <b>iPhone / Mac (Apple Calendar):</b>\n"
         "Скопируйте ссылку и откройте в браузере Safari:\n"
         f"• 1 подгруппа: <code>{webcal_sg1}</code>\n"
-        f"• 2 подгруппа: <code>{webcal_sg2}</code>",
+        f"• 2 подгруппа: <code>{webcal_sg2}</code>\n"
+        "<i>(Или нажмите кнопку в Mini App — Safari сразу откроет диалог подписки)</i>",
         parse_mode=ParseMode.HTML,
         reply_markup=kb,
         disable_web_page_preview=True

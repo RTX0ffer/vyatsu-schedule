@@ -105,6 +105,11 @@
           <i class="fa-brands fa-google text-sm text-red-400"></i> Подписка в Google Календарь
         </button>
 
+        <!-- Кнопка Microsoft Outlook -->
+        <button id="outlook-cal-btn" class="w-full py-2.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-semibold text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
+          <i class="fa-brands fa-microsoft text-sm text-sky-400"></i> Подписка в Microsoft Outlook
+        </button>
+
         <!-- Кнопка Apple Calendar -->
         <button id="apple-cal-btn" class="w-full py-2.5 px-4 rounded-xl bg-slate-800/80 hover:bg-slate-700 border border-slate-700 text-slate-300 font-semibold text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
           <i class="fa-brands fa-apple text-sm"></i> Подписка в Apple Calendar (iPhone / Mac)
@@ -116,7 +121,8 @@
         </button>
 
         <p class="text-[10px] text-slate-400 text-center pt-1 leading-snug">
-          💡 <b>Для любого Android (Samsung, Xiaomi, Huawei, Pixel и др.):</b> нажмите верхнюю кнопку — скачается файл и телефон сразу предложит импортировать все пары в ваш календарь.
+          💡 <b>Android:</b> нажмите верхнюю кнопку — телефон скачает расписание и сразу сохранит пары в календарь.<br>
+          🍏 <b>iPhone / Mac:</b> при нажатии откроется Safari с системным окном добавления подписки.
         </p>
       </div>
     </div>
@@ -448,8 +454,8 @@
       return `${host}/calendar/all.ics`;
     }
 
-    function getGitHubCalUrl() {
-      const base = 'https://raw.githubusercontent.com/RTX0ffer/vyatsu-schedule/main';
+    function getCdnCalUrl() {
+      const base = 'https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main';
       if (selectedSubgroup === '1') {
         return `${base}/vyatsu_subgroup1.ics`;
       } else if (selectedSubgroup === '2') {
@@ -480,6 +486,7 @@
       const copyBtn = document.getElementById('copy-cal-btn');
       const appleBtn = document.getElementById('apple-cal-btn');
       const googleBtn = document.getElementById('google-cal-btn');
+      const outlookBtn = document.getElementById('outlook-cal-btn');
       const androidBtn = document.getElementById('android-cal-btn');
 
       openBtn.addEventListener('click', () => {
@@ -503,26 +510,42 @@
         openSafeLink(calUrl);
       });
 
-      // Google Календарь (используем стабильную ссылку от GitHub CDN, заканчивающуюся на .ics)
+      // Google Календарь (стабильная ссылка со 100% поддержкой text/calendar)
       googleBtn.addEventListener('click', () => {
         if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light');
-        const ghUrl = getGitHubCalUrl();
-        const gUrl = `https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(ghUrl)}`;
+        const cdnUrl = getCdnCalUrl();
+        const gUrl = `https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(cdnUrl)}`;
         openSafeLink(gUrl);
       });
 
-      // Apple Calendar (webcal://)
-      appleBtn.addEventListener('click', () => {
+      // Microsoft Outlook (подписка в Outlook Web / 365)
+      outlookBtn.addEventListener('click', () => {
         if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light');
-        const calUrl = getCalUrl();
-        const webcalUrl = calUrl.replace(/^https?:\/\//, 'webcal://');
-        openSafeLink(webcalUrl);
+        const cdnUrl = getCdnCalUrl();
+        const calTitle = selectedSubgroup === 'all' 
+          ? 'Расписание ВятГУ ПМИб-1301' 
+          : `ВятГУ ПМИб-1301 (${selectedSubgroup} подгр.)`;
+        const oUrl = `https://outlook.live.com/calendar/0/addcalendar?url=${encodeURIComponent(cdnUrl)}&name=${encodeURIComponent(calTitle)}`;
+        openSafeLink(oUrl);
       });
 
-      // Копирование ссылки (копируем стабильную ссылку)
+      // Apple Calendar (iPhone / Mac)
+      appleBtn.addEventListener('click', () => {
+        if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light');
+        const cdnUrl = getCdnCalUrl();
+        const webcalUrl = cdnUrl.replace(/^https?:\/\//, 'webcal://');
+
+        // Копируем webcal:// в буфер
+        try { navigator.clipboard.writeText(webcalUrl); } catch (e) {}
+
+        // Открываем HTTPS в Safari — iOS автоматически предложит подписаться
+        openSafeLink(cdnUrl);
+      });
+
+      // Копирование ссылки (копируем стабильную CDN ссылку)
       copyBtn.addEventListener('click', () => {
-        const ghUrl = getGitHubCalUrl();
-        navigator.clipboard.writeText(ghUrl).then(() => {
+        const cdnUrl = getCdnCalUrl();
+        navigator.clipboard.writeText(cdnUrl).then(() => {
           if (tg && tg.HapticFeedback) tg.HapticFeedback.notificationOccurred('success');
           copyBtn.innerHTML = '<i class="fa-solid fa-check text-emerald-400"></i> Ссылка скопирована!';
           setTimeout(() => {
