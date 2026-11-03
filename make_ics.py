@@ -58,67 +58,72 @@ def get_group_pdf_urls():
 
     pattern = re.compile(rf'/reports/schedule/Group/{GROUP_ID}_\d+_(\d{{8}})_(\d{{8}})\.pdf')
     today = datetime.date.today()
-    valid_urls = set()
+    valid_urls = []
 
     for a_tag in soup.find_all('a', href=pattern):
         href = a_tag['href']
         match = pattern.search(href)
         if match:
             start_str, end_str = match.group(1), match.group(2)
+            start_date = datetime.datetime.strptime(start_str, '%d%m%Y').date()
             end_date = datetime.datetime.strptime(end_str, '%d%m%Y').date()
             # Берем файлы, период которых заканчивается сегодня или позже
             if end_date >= today:
                 full_url = urljoin('https://old.vyatsu.ru', href)
-                valid_urls.add((start_str, full_url))
+                valid_urls.append((start_date, full_url))
 
-    sorted_urls = [url for _, url in sorted(valid_urls)]
-    logging.info(f'Найдено актуальных PDF ссылок: {len(sorted_urls)}')
-    return sorted_urls
+    valid_urls.sort(key=lambda x: x[0])
+    logging.info(f'Найдено актуальных PDF ссылок: {len(valid_urls)}')
+    return valid_urls
 
 
-def parse_vyatsu_pdf(pdf_bytes):
-    """Разбирает байты PDF и достает список занятий."""
+def parse_vyatsu_pdf(pdf_bytes, start_date_hint):
+    """Разбирает байты PDF расписания ВятГУ и достает список занятий."""
+    time_pattern = re.compile(r'(\d{1,2}:\d{2})\s*[-–—]\s*(\d{1,2}:\d{2})')
     lessons = []
-    current_date = None
 
-    date_pattern = re.compile(r'(\d{2}\.\d{2}\.\d{2,4})')
-    time_pattern = re.compile(r'(\d{1,2}[:.]\d{2})\s*[-–—]\s*(\d{1,2}[:.]\d{2})')
+    current_day_offset = -1
+    current_time_str = None
+    current_date = start_date_hint
 
     with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
         for page in pdf.pages:
             tables = page.extract_tables() or []
             for table in tables:
                 for row in table:
-                    cells = [c.strip() if c else '' for c in row]
-                    row_joined = ' '.join(cells)
+                    day_cell = row[0] if len(row) > 0 and row[0] else ''
+                    time_cell = row[1] if len(row) > 1 and row[1] else ''
+                    subject_cell = row[2] if len(row) > 2 and row[2] else ''
 
-                    date_match = date_pattern.search(row_joined)
-                    if date_match:
-                        d_str = date_match.group(1)
-                        fmt = '%d.%m.%Y' if len(d_str) == 10 else '%d.%m.%y'
-                        current_date = datetime.datetime.strptime(d_str, fmt).date()
+                    # Начало нового дня (первая колонка не пустая и не заголовок таблицы)
+                    if day_cell and 'День' not in day_cell:
+                        current_day_offset += 1
+                        current_date = start_date_hint + datetime.timedelta(days=current_day_offset)
 
-                    time_match = time_pattern.search(row_joined)
-                    if current_date and time_match:
-                        start_t = time_match.group(1).replace('.', ':')
-                        end_t = time_match.group(2).replace('.', ':')
+                    # Время занятия
+                    t_match = time_pattern.search(time_cell)
+                    if t_match:
+                        current_time_str = (t_match.group(1), t_match.group(2))
 
-                        subject_cells = [
-                            c for c in cells
-                            if c and not date_pattern.search(c) and not time_pattern.search(c)
-                        ]
-                        subject_text = ' '.join(subject_cells).strip()
-
-                        if not subject_text or 'Дисциплина' in subject_text or 'Время' in subject_text:
+                    # Если есть текст пары
+                    if subject_cell and subject_cell.strip() and current_time_str and current_date:
+                        text = subject_cell.strip()
+                        if 'Дисциплина' in text or 'Время' in text:
                             continue
 
-                        lines = [line.strip() for line in subject_text.split('\n') if line.strip()]
+                        lines = [line.strip() for line in text.split('\n') if line.strip()]
                         full_text = ' '.join(lines)
-                        room_match = re.search(r'(\d{1,2}-\d{2,4}[а-яА-Яa-zA-Z]?|[Сс]портзал.*)', full_text)
+
+                        # Извлекаем номер аудитории (игнорируя номер группы ПМИб-...)
+                        text_without_group = re.sub(r'ПМИб-\d+-\d+-\d+', '', full_text)
+                        room_match = re.search(
+                            r'(\b\d{1,2}-\d{2,4}[а-яА-Яa-zA-Z]?\b|[Сс]портзал[^\n,]*)',
+                            text_without_group
+                        )
                         room = room_match.group(1) if room_match else ''
 
-                        sh, sm = map(int, start_t.split(':'))
-                        eh, em = map(int, end_t.split(':'))
+                        sh, sm = map(int, current_time_str[0].split(':'))
+                        eh, em = map(int, current_time_str[1].split(':'))
 
                         start_dt = datetime.datetime(
                             current_date.year, current_date.month, current_date.day, sh, sm, tzinfo=TIMEZONE
@@ -127,8 +132,8 @@ def parse_vyatsu_pdf(pdf_bytes):
                             current_date.year, current_date.month, current_date.day, eh, em, tzinfo=TIMEZONE
                         )
 
-                        # Уникальный ключ занятия: дата_время_предмет
-                        uid_key = f"{start_dt.isoformat()}_{lines[0] if lines else full_text}"
+                        # Уникальный ключ: время + текст занятия (для различения подгрупп)
+                        uid_key = f"{start_dt.isoformat()}_{full_text}"
                         uid_hash = hashlib.md5(uid_key.encode('utf-8')).hexdigest()
 
                         lessons.append({
@@ -139,33 +144,34 @@ def parse_vyatsu_pdf(pdf_bytes):
                             'start': start_dt.isoformat(),
                             'end': end_dt.isoformat(),
                         })
+    logging.info(f'Из PDF извлечено занятий: {len(lessons)}')
     return lessons
 
 
 def update_schedule():
     """Основной процесс обновления кэша и календаря."""
     cache = load_cache()
-    urls = get_group_pdf_urls()
+    items = get_group_pdf_urls()
 
-    if not urls:
+    if not items:
         logging.warning('Не найдено ссылок на расписание. Календарь не обновлен.')
         return False
 
     has_changes = False
 
-    for url in urls:
-        logging.info(f'Проверяю: {url}')
+    for start_date, url in items:
+        logging.info(f'Проверяю: {url} (старт: {start_date})')
         resp = requests.get(url, headers=HEADERS, timeout=30)
         resp.raise_for_status()
         content_hash = hashlib.sha256(resp.content).hexdigest()
 
-        # Если файл уже скачивался с этим же содержимым — пропускаем парсинг
-        if cache['processed_urls'].get(url) == content_hash:
+        # Если файл уже обработан и кэш не пустой — пропускаем
+        if cache['processed_urls'].get(url) == content_hash and cache['lessons']:
             logging.info('Файл не изменился (кэш совпадает).')
             continue
 
         logging.info('Обнаружен новый или измененный PDF! Парсинг...')
-        new_lessons = parse_vyatsu_pdf(resp.content)
+        new_lessons = parse_vyatsu_pdf(resp.content, start_date)
         for lesson in new_lessons:
             cache['lessons'][lesson['uid']] = lesson
 
@@ -200,7 +206,6 @@ def generate_ics(lessons, filename=ICS_FILE):
         event.end = datetime.datetime.fromisoformat(item['end'])
         cal.events.add(event)
 
-    # Добавляем полезные метаданные для календарных клиентов
     ics_text = cal.serialize()
     custom_headers = (
         "X-WR-CALNAME:Расписание ВятГУ\n"
