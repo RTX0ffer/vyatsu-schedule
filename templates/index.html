@@ -97,19 +97,28 @@
 
       <div class="space-y-2 pt-1">
         <!-- Кнопка Apple Calendar -->
-        <a id="apple-cal-btn" href="#" target="_blank" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold text-xs flex items-center justify-center gap-2 shadow-lg shadow-blue-500/20 active:scale-95 transition-all">
+        <button id="apple-cal-btn" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold text-xs flex items-center justify-center gap-2 shadow-lg shadow-blue-500/20 active:scale-95 transition-all">
           <i class="fa-brands fa-apple text-base"></i> Добавить в iPhone / Mac (Apple Calendar)
-        </a>
+        </button>
 
         <!-- Кнопка Google Календарь -->
-        <a id="google-cal-btn" href="#" target="_blank" class="w-full py-2.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-semibold text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
+        <button id="google-cal-btn" class="w-full py-2.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-semibold text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
           <i class="fa-brands fa-google text-sm text-red-400"></i> Добавить в Google Календарь
-        </a>
+        </button>
+
+        <!-- Скачать .ics файл -->
+        <button id="download-cal-btn" class="w-full py-2.5 px-4 rounded-xl bg-slate-800/80 hover:bg-slate-700 border border-slate-700 text-slate-300 font-semibold text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
+          <i class="fa-solid fa-download text-xs text-emerald-400"></i> Скачать файл .ics (прямой импорт)
+        </button>
 
         <!-- Скопировать ссылку -->
-        <button id="copy-cal-btn" class="w-full py-2.5 px-4 rounded-xl bg-slate-800/50 hover:bg-slate-800 border border-slate-700/60 text-slate-400 font-medium text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
-          <i class="fa-regular fa-copy text-xs"></i> Скопировать прямую ссылку (.ics)
+        <button id="copy-cal-btn" class="w-full py-2 px-4 rounded-xl bg-slate-800/40 hover:bg-slate-800 border border-slate-700/60 text-slate-400 font-medium text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
+          <i class="fa-regular fa-copy text-xs"></i> Скопировать ссылку подписки
         </button>
+
+        <p class="text-[10px] text-slate-500 text-center pt-1 leading-snug">
+          Если Google Календарь не добавил автоматически: скопируйте ссылку и вставьте в браузере в Google Календаре в «Другие календари» ➔ «Добавить по URL».
+        </p>
       </div>
     </div>
   </div>
@@ -172,7 +181,7 @@
           localStorage.setItem('vyatsu_subgroup', sg);
           setupSubgroupButtons();
           renderLessons();
-          updateCalendarLinks();
+          updateCalendarModalBadge();
         });
       });
     }
@@ -264,7 +273,7 @@
 
     function matchesSubgroup(lesson, sg) {
       if (sg === 'all') return true;
-      if (!lesson.subgroup) return true; // общая лекция/пара
+      if (!lesson.subgroup) return true;
       return String(lesson.subgroup) === String(sg);
     }
 
@@ -356,29 +365,25 @@
       container.innerHTML = html;
     }
 
-    // Логика модального окна календаря
+    // Логика календаря
     function getCalUrl() {
       const host = window.location.origin;
       const param = selectedSubgroup !== 'all' ? `?subgroup=${selectedSubgroup}` : '';
       return `${host}/calendar.ics${param}`;
     }
 
-    function updateCalendarLinks() {
-      const calUrl = getCalUrl();
-      const webcalUrl = calUrl.replace('https://', 'webcal://').replace('http://', 'webcal://');
-      
+    function openSafeLink(url) {
+      if (tg && tg.openLink) {
+        tg.openLink(url);
+      } else {
+        window.open(url, '_blank');
+      }
+    }
+
+    function updateCalendarModalBadge() {
       const badge = document.getElementById('modal-sg-badge');
       if (badge) {
         badge.innerText = selectedSubgroup === 'all' ? 'Все пары' : `${selectedSubgroup} подгруппа`;
-      }
-
-      const appleBtn = document.getElementById('apple-cal-btn');
-      if (appleBtn) appleBtn.href = webcalUrl;
-
-      const googleBtn = document.getElementById('google-cal-btn');
-      if (googleBtn) {
-        const gUrl = `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(calUrl)}`;
-        googleBtn.href = gUrl;
       }
     }
 
@@ -387,10 +392,13 @@
       const openBtn = document.getElementById('cal-modal-btn');
       const closeBtn = document.getElementById('close-modal-btn');
       const copyBtn = document.getElementById('copy-cal-btn');
+      const appleBtn = document.getElementById('apple-cal-btn');
+      const googleBtn = document.getElementById('google-cal-btn');
+      const downloadBtn = document.getElementById('download-cal-btn');
 
       openBtn.addEventListener('click', () => {
         if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('medium');
-        updateCalendarLinks();
+        updateCalendarModalBadge();
         modal.classList.remove('hidden');
       });
 
@@ -402,14 +410,40 @@
         if (e.target === modal) modal.classList.add('hidden');
       });
 
+      // Apple Calendar (webcal://)
+      appleBtn.addEventListener('click', () => {
+        if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light');
+        const calUrl = getCalUrl();
+        const webcalUrl = calUrl.replace(/^https?:\/\//, 'webcal://');
+        openSafeLink(webcalUrl);
+      });
+
+      // Google Календарь
+      googleBtn.addEventListener('click', () => {
+        if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light');
+        const calUrl = getCalUrl();
+        const webcalUrl = calUrl.replace(/^https?:\/\//, 'webcal://');
+        const gUrl = `https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(webcalUrl)}`;
+        openSafeLink(gUrl);
+      });
+
+      // Прямое скачивание .ics
+      downloadBtn.addEventListener('click', () => {
+        if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light');
+        const calUrl = getCalUrl();
+        openSafeLink(calUrl);
+      });
+
+      // Копирование ссылки
       copyBtn.addEventListener('click', () => {
-        const url = getCalUrl();
-        navigator.clipboard.writeText(url).then(() => {
+        const calUrl = getCalUrl();
+        const webcalUrl = calUrl.replace(/^https?:\/\//, 'webcal://');
+        navigator.clipboard.writeText(webcalUrl).then(() => {
           if (tg && tg.HapticFeedback) tg.HapticFeedback.notificationOccurred('success');
           copyBtn.innerHTML = '<i class="fa-solid fa-check text-emerald-400"></i> Ссылка скопирована!';
           setTimeout(() => {
-            copyBtn.innerHTML = '<i class="fa-regular fa-copy text-xs"></i> Скопировать прямую ссылку (.ics)';
-          }, 2000);
+            copyBtn.innerHTML = '<i class="fa-regular fa-copy text-xs"></i> Скопировать ссылку подписки';
+          }, 2500);
         });
       });
     }

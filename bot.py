@@ -31,49 +31,60 @@ WEEKDAYS_RU = ['Понедельник', 'Вторник', 'Среда', 'Чет
 
 dp = Dispatcher()
 
+# Быстрый кэш в памяти
 _memory_cache = {'timestamp': 0, 'lessons': []}
-CACHE_TTL = 1800  # 30 минут
 
 
-async def load_lessons():
-    """Считывает уроки из GitHub Raw или локального файла с кэшированием в ОЗУ."""
-    now = time.time()
-    if _memory_cache['lessons'] and (now - _memory_cache['timestamp'] < CACHE_TTL):
+def get_cached_lessons():
+    """Синхронно и мгновенно возвращает пары из памяти или локального файла (0 мс)."""
+    if _memory_cache['lessons']:
         return _memory_cache['lessons']
 
-    # 1. Если задан DATA_URL, пытаемся скачать свежий JSON с GitHub
-    if DATA_URL:
-        try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(DATA_URL, timeout=10) as resp:
-                    if resp.status == 200:
-                        data = await resp.json(content_type=None)
-                        lessons = list(data.get('lessons', {}).values())
-                        _memory_cache['lessons'] = lessons
-                        _memory_cache['timestamp'] = now
-                        logging.info(f'Загружено {len(lessons)} пар из удаленного репозитория.')
-                        return lessons
-        except Exception as e:
-            logging.error(f'Ошибка загрузки с GitHub ({DATA_URL}): {e}')
-
-    # 2. Фолбэк на локальный файл
     if os.path.exists(CACHE_FILE):
         try:
             with open(CACHE_FILE, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 lessons = list(data.get('lessons', {}).values())
-                _memory_cache['lessons'] = lessons
-                _memory_cache['timestamp'] = now
-                return lessons
+                if lessons:
+                    _memory_cache['lessons'] = lessons
+                    _memory_cache['timestamp'] = time.time()
+                    logging.info(f'Мгновенно загружено {len(lessons)} пар из локального файла.')
+                    return lessons
         except Exception as e:
-            logging.error(f'Ошибка чтения локального кэша: {e}')
+            logging.error(f'Ошибка чтения локального файла: {e}')
 
-    return _memory_cache['lessons']
+    return []
 
 
-async def format_day_schedule(target_date: datetime.date):
-    """Форматирует расписание на конкретный день с предметами, преподавателями и корпусами."""
-    lessons = await load_lessons()
+async def sync_remote_cache():
+    """Фоновая асинхронная проверка обновлений с GitHub (не блокирует пользователей)."""
+    if not DATA_URL:
+        return
+
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(DATA_URL, timeout=8) as resp:
+                if resp.status == 200:
+                    data = await resp.json(content_type=None)
+                    lessons = list(data.get('lessons', {}).values())
+                    if lessons:
+                        _memory_cache['lessons'] = lessons
+                        _memory_cache['timestamp'] = time.time()
+                        logging.info(f'Фоновое обновление: загружено {len(lessons)} пар с GitHub.')
+    except Exception as e:
+        logging.warning(f'Фоновое обновление с GitHub не удалось: {e}')
+
+
+async def background_cache_worker():
+    """Периодически раз в 20 минут в фоне обновляет кэш."""
+    while True:
+        await asyncio.sleep(1200)
+        await sync_remote_cache()
+
+
+def format_day_schedule(target_date: datetime.date):
+    """Форматирует расписание на день мгновенно из ОЗУ."""
+    lessons = get_cached_lessons()
     day_lessons = []
 
     for item in lessons:
@@ -129,7 +140,7 @@ async def cmd_start(message: types.Message):
         kb = InlineKeyboardMarkup(
             inline_keyboard=[
                 [InlineKeyboardButton(text="📱 Открыть расписание (Mini App)", web_app=WebAppInfo(url=WEBAPP_URL))],
-                [InlineKeyboardButton(text="📅 Добавить в календарь смартфона", callback_data="show_calendar")]
+                [InlineKeyboardButton(text="📅 Добавить в календарь", url=f"{WEBAPP_URL}/calendar.ics")]
             ]
         )
 
@@ -148,14 +159,14 @@ async def cmd_start(message: types.Message):
 @dp.message(Command('today'))
 async def cmd_today(message: types.Message):
     today = datetime.datetime.now(TIMEZONE).date()
-    text = await format_day_schedule(today)
+    text = format_day_schedule(today)
     await message.answer(text, parse_mode=ParseMode.MARKDOWN)
 
 
 @dp.message(Command('tomorrow'))
 async def cmd_tomorrow(message: types.Message):
     tomorrow = datetime.datetime.now(TIMEZONE).date() + datetime.timedelta(days=1)
-    text = await format_day_schedule(tomorrow)
+    text = format_day_schedule(tomorrow)
     await message.answer(text, parse_mode=ParseMode.MARKDOWN)
 
 
@@ -167,7 +178,7 @@ async def cmd_week(message: types.Message):
     blocks = []
     for day_offset in range(6):  # Пн-Сб
         day_date = start_of_week + datetime.timedelta(days=day_offset)
-        blocks.append(await format_day_schedule(day_date))
+        blocks.append(format_day_schedule(day_date))
 
     separator = "\n\n" + "—" * 20 + "\n\n"
     response = separator.join(blocks)
@@ -221,8 +232,8 @@ async def handle_index(request):
 
 
 async def handle_api_schedule(request):
-    """JSON API для Mini App."""
-    lessons = await load_lessons()
+    """JSON API для Mini App (мгновенный ответ из памяти)."""
+    lessons = get_cached_lessons()
     return web.json_response({
         'lessons': lessons,
         'count': len(lessons),
@@ -233,9 +244,8 @@ async def handle_api_schedule(request):
 async def handle_calendar_ics(request):
     """Генерирует и отдает .ics файл с поддержкой фильтрации по подгруппе."""
     subgroup_param = request.query.get('subgroup', '')
-    lessons = await load_lessons()
+    lessons = get_cached_lessons()
 
-    # Фильтруем по подгруппе, если передана
     if subgroup_param in ('1', '2'):
         sg = int(subgroup_param)
         lessons = [l for l in lessons if not l.get('subgroup') or l.get('subgroup') == sg]
@@ -277,7 +287,10 @@ async def handle_calendar_ics(request):
     return web.Response(
         text=ics_text,
         content_type='text/calendar; charset=utf-8',
-        headers={'Content-Disposition': 'inline; filename="vyatsu.ics"'}
+        headers={
+            'Content-Disposition': 'inline; filename="vyatsu.ics"',
+            'Access-Control-Allow-Origin': '*'
+        }
     )
 
 
@@ -308,8 +321,14 @@ async def main():
         logging.error("Не указан BOT_TOKEN в переменных окружения!")
         return
 
+    # Загружаем кэш в память сразу при старте (0 секунд ожидания при первых запросах)
+    get_cached_lessons()
+
     await start_webserver()
     bot = Bot(token=BOT_TOKEN)
+
+    # Фоновая задача обновления кэша
+    asyncio.create_task(background_cache_worker())
 
     if WEBAPP_URL:
         try:
