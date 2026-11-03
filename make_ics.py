@@ -76,12 +76,26 @@ def get_group_pdf_urls():
     return valid_urls
 
 
+def detect_weekday(text):
+    """Определяет день недели по тексту из ячейки таблицы ВятГУ."""
+    tl = text.lower()
+    if 'ч' in tl and 'т' in tl: return 3, 'Четверг'
+    if 'с' in tl and 'у' in tl and 'б' in tl: return 5, 'Суббота'
+    if 'в' in tl and 'с' in tl and 'к' in tl: return 6, 'Воскресенье'
+    if 'п' in tl and 'я' in tl: return 4, 'Пятница'
+    if 'п' in tl and 'н' in tl: return 0, 'Понедельник'
+    if 'с' in tl and 'р' in tl and 'д' in tl: return 2, 'Среда'
+    if 'в' in tl and 'т' in tl: return 1, 'Вторник'
+    return None, None
+
+
 def parse_vyatsu_pdf(pdf_bytes, start_date_hint):
     """Разбирает байты PDF расписания ВятГУ и достает структурированный список занятий."""
     time_pattern = re.compile(r'(\d{1,2}:\d{2})\s*[-–—]\s*(\d{1,2}:\d{2})')
     lessons = []
 
-    current_day_offset = -1
+    week_offset = 0
+    prev_w_idx = -1
     current_time_str = None
     current_date = start_date_hint
 
@@ -94,10 +108,15 @@ def parse_vyatsu_pdf(pdf_bytes, start_date_hint):
                     time_cell = row[1] if len(row) > 1 and row[1] else ''
                     subject_cell = row[2] if len(row) > 2 and row[2] else ''
 
-                    # Начало нового дня
+                    # Начало нового дня: вычисляем точную дату по дню недели,
+                    # чтобы пропущенные праздничные дни и субботы никогда не сдвигали даты
                     if day_cell and 'День' not in day_cell:
-                        current_day_offset += 1
-                        current_date = start_date_hint + datetime.timedelta(days=current_day_offset)
+                        w_idx, w_name = detect_weekday(day_cell)
+                        if w_idx is not None:
+                            if prev_w_idx != -1 and w_idx <= prev_w_idx:
+                                week_offset += 7
+                            prev_w_idx = w_idx
+                            current_date = start_date_hint + datetime.timedelta(days=week_offset + w_idx)
 
                     # Время занятия
                     t_match = time_pattern.search(time_cell)
@@ -235,8 +254,10 @@ def generate_ics(lessons, filename=ICS_FILE):
         event.uid = item['uid']
         event.name = item.get('summary', item.get('subject', 'Пара'))
         event.location = item.get('location', '')
-        # Обязательное поле DTSTAMP для Google и Apple календарей
+        # Обязательные поля по стандарту RFC 5545 для Google и Apple календарей
         event.created = now_utc
+        event.last_modified = now_utc
+        event.status = 'CONFIRMED'
 
         desc_parts = []
         if item.get('type'):

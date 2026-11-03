@@ -10,7 +10,13 @@ import aiohttp
 from aiogram import Bot, Dispatcher, types
 from aiogram.enums import ParseMode
 from aiogram.filters import Command
-from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, MenuButtonWebApp, WebAppInfo
+from aiogram.types import (
+    BufferedInputFile,
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+    MenuButtonWebApp,
+    WebAppInfo,
+)
 from aiohttp import web
 from ics import Calendar, Event
 
@@ -97,6 +103,12 @@ def format_day_schedule(target_date: datetime.date):
     date_str = target_date.strftime('%d.%m.%Y')
 
     if not day_lessons:
+        if target_date.month == 11 and target_date.day == 4:
+            return f"📅 <b>{weekday_name}, {date_str}</b>\n\n🎉 Праздничный день (День народного единства)! Пар нет, можно отдыхать."
+        if target_date.weekday() == 5:
+            return f"📅 <b>{weekday_name}, {date_str}</b>\n\n🎉 В субботу пар нет! Выходной."
+        if target_date.weekday() == 6:
+            return f"📅 <b>{weekday_name}, {date_str}</b>\n\n🎉 Воскресенье — выходной день!"
         return f"📅 <b>{weekday_name}, {date_str}</b>\n\n🎉 В этот день пар нет! Можно отдыхать."
 
     by_time = {}
@@ -189,6 +201,60 @@ async def cmd_week(message: types.Message):
         await message.answer(response, parse_mode=ParseMode.HTML)
 
 
+def build_ics_content(subgroup=None):
+    """Генерирует RFC 5545-совместимый .ics контент со всеми обязательными полями (DTSTAMP, STATUS)."""
+    lessons = get_cached_lessons()
+    if subgroup in (1, 2, '1', '2'):
+        sg = int(subgroup)
+        lessons = [l for l in lessons if not l.get('subgroup') or l.get('subgroup') == sg]
+
+    cal = Calendar()
+    cal.creator = 'Vyatsu Schedule Bot'
+    now_utc = datetime.datetime.now(datetime.timezone.utc)
+
+    for item in lessons:
+        event = Event()
+        event.uid = item['uid']
+        event.name = item.get('summary', item.get('subject', 'Пара'))
+        event.location = item.get('location', '')
+        # Обязательные поля стандарта RFC 5545 для Google и Apple календарей
+        event.created = now_utc
+        event.last_modified = now_utc
+        event.status = 'CONFIRMED'
+
+        desc_parts = []
+        if item.get('type'):
+            desc_parts.append(f"Тип: {item['type']}")
+        if item.get('teacher'):
+            desc_parts.append(f"Преподаватель: {item['teacher']}")
+        if item.get('subgroup'):
+            desc_parts.append(f"Подгруппа: {item['subgroup']}")
+        if item.get('location'):
+            desc_parts.append(f"Место: {item['location']}")
+
+        event.description = '\n'.join(desc_parts) if desc_parts else item.get('description', '')
+        event.begin = datetime.datetime.fromisoformat(item['start'])
+        event.end = datetime.datetime.fromisoformat(item['end'])
+        cal.events.add(event)
+
+    cal_title = f"ВятГУ ПМИб-1301 ({subgroup} подгр.)" if subgroup in (1, 2, '1', '2') else "Расписание ВятГУ ПМИб-1301"
+    ics_text = cal.serialize()
+    custom_headers = (
+        "CALSCALE:GREGORIAN\r\n"
+        "METHOD:PUBLISH\r\n"
+        f"X-WR-CALNAME:{cal_title}\r\n"
+        "X-WR-TIMEZONE:Europe/Kirov\r\n"
+        "REFRESH-INTERVAL;VALUE=DURATION:PT6H\r\n"
+        "X-PUBLISHED-TTL:PT6H\r\n"
+    )
+    if "BEGIN:VCALENDAR\r\n" in ics_text:
+        ics_text = ics_text.replace("BEGIN:VCALENDAR\r\n", f"BEGIN:VCALENDAR\r\n{custom_headers}")
+    else:
+        ics_text = ics_text.replace("BEGIN:VCALENDAR\n", f"BEGIN:VCALENDAR\n{custom_headers}")
+
+    return ics_text
+
+
 @dp.message(Command('calendar'))
 async def cmd_calendar(message: types.Message):
     base_cal_url = f"{WEBAPP_URL}/calendar.ics" if WEBAPP_URL else ICS_URL
@@ -202,27 +268,54 @@ async def cmd_calendar(message: types.Message):
     kb_buttons = []
     if WEBAPP_URL:
         kb_buttons.append([InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))])
-    kb_buttons.append([InlineKeyboardButton(text="📥 Скачать .ics (1 подгруппа)", url=https_sg1)])
-    kb_buttons.append([InlineKeyboardButton(text="📥 Скачать .ics (2 подгруппа)", url=https_sg2)])
+    kb_buttons.append([
+        InlineKeyboardButton(text="📥 Файл .ics (1 подгр.)", callback_data="send_ics_1"),
+        InlineKeyboardButton(text="📥 Файл .ics (2 подгр.)", callback_data="send_ics_2")
+    ])
+    kb_buttons.append([
+        InlineKeyboardButton(text="📥 Файл .ics (Все пары)", callback_data="send_ics_all")
+    ])
 
     kb = InlineKeyboardMarkup(inline_keyboard=kb_buttons)
 
     await message.answer(
-        "📲 <b>Подписка на календарь:</b>\n\n"
-        "Расписание синхронизируется на телефоне само, с виджетами и напоминаниями!\n\n"
-        "🍏 <b>iPhone / iPad / Mac (Apple Calendar):</b>\n"
-        "Скопируйте ссылку и вставьте в адресную строку Safari:\n"
+        "📲 <b>Календарь расписания ВятГУ:</b>\n\n"
+        "⚡ <b>Самый быстрый способ (1 клик):</b>\n"
+        "Нажмите кнопку ниже, чтобы получить готовый <code>.ics</code> файл прямо в чат и добавить все пары в календарь телефона!\n\n"
+        "🔄 <b>Автоподписка (обновляется сама):</b>\n"
+        "🍏 <b>iPhone / Mac (Apple Calendar):</b>\n"
+        "Скопируйте ссылку и откройте в браузере Safari:\n"
         f"• 1 подгруппа: <code>{webcal_sg1}</code>\n"
         f"• 2 подгруппа: <code>{webcal_sg2}</code>\n"
         f"• Все пары: <code>{webcal_all}</code>\n\n"
         "🤖 <b>Android / Google Календарь:</b>\n"
-        "1. Откройте <a href=\"https://calendar.google.com/\">Google Календарь</a> с компьютера.\n"
-        "2. В блоке «Другие календари» нажмите <b>«+»</b> ➔ <b>«Добавить по URL»</b>.\n"
-        f"3. Вставьте ссылку: <code>{https_sg1}</code>\n\n"
-        "<i>Или нажмите кнопку ниже, чтобы скачать файл и открыть на телефоне.</i>",
+        "1. Откройте <a href=\"https://calendar.google.com/\">Google Календарь</a> на компьютере.\n"
+        "2. В меню «Другие календари» нажмите <b>«+»</b> ➔ <b>«Добавить по URL»</b>.\n"
+        f"3. Вставьте ссылку: <code>{https_sg1}</code>",
         parse_mode=ParseMode.HTML,
         reply_markup=kb,
         disable_web_page_preview=True
+    )
+
+
+@dp.callback_query(lambda c: c.data and c.data.startswith('send_ics_'))
+async def callback_send_ics_file(callback: types.CallbackQuery):
+    await callback.answer()
+    mode = callback.data.split('_')[-1]
+    sg = 1 if mode == '1' else 2 if mode == '2' else None
+    sg_label = f" ({sg} подгруппа)" if sg else " (Все пары)"
+    filename = f"vyatsu_subgroup_{sg}.ics" if sg else "vyatsu.ics"
+
+    ics_content = build_ics_content(sg).encode('utf-8')
+    file = BufferedInputFile(ics_content, filename=filename)
+
+    await callback.message.answer_document(
+        document=file,
+        caption=(
+            f"📅 <b>Файл расписания{sg_label}</b>\n\n"
+            "Нажмите на файл, чтобы импортировать все пары в календарь вашего смартфона (Google Calendar / Apple Calendar / Samsung) в 1 клик!"
+        ),
+        parse_mode=ParseMode.HTML
     )
 
 
@@ -247,57 +340,18 @@ async def handle_api_schedule(request):
 
 
 async def handle_calendar_ics(request):
-    """Генерирует и отдает .ics файл с поддержкой фильтрации по подгруппе."""
+    """Генерирует и отдает .ics файл со всеми обязательными RFC-полями (DTSTAMP, STATUS)."""
     subgroup_param = request.query.get('subgroup', '')
-    lessons = get_cached_lessons()
-
-    if subgroup_param in ('1', '2'):
-        sg = int(subgroup_param)
-        lessons = [l for l in lessons if not l.get('subgroup') or l.get('subgroup') == sg]
-
-    cal = Calendar()
-    cal.creator = 'Vyatsu Schedule Bot'
-
-    for item in lessons:
-        event = Event()
-        event.uid = item['uid']
-        event.name = item.get('summary', item.get('subject', 'Пара'))
-        event.location = item.get('location', '')
-
-        desc_parts = []
-        if item.get('type'):
-            desc_parts.append(f"Тип: {item['type']}")
-        if item.get('teacher'):
-            desc_parts.append(f"Преподаватель: {item['teacher']}")
-        if item.get('subgroup'):
-            desc_parts.append(f"Подгруппа: {item['subgroup']}")
-        if item.get('location'):
-            desc_parts.append(f"Место: {item['location']}")
-
-        event.description = '\n'.join(desc_parts) if desc_parts else item.get('description', '')
-        event.begin = datetime.datetime.fromisoformat(item['start'])
-        event.end = datetime.datetime.fromisoformat(item['end'])
-        cal.events.add(event)
-
-    cal_title = f"ВятГУ ПМИб-1301 ({subgroup_param} подгр.)" if subgroup_param in ('1', '2') else "Расписание ВятГУ ПМИб-1301"
-    ics_text = cal.serialize()
-    custom_headers = (
-        f"X-WR-CALNAME:{cal_title}\r\n"
-        "X-WR-TIMEZONE:Europe/Kirov\r\n"
-        "REFRESH-INTERVAL;VALUE=DURATION:PT6H\r\n"
-        "X-PUBLISHED-TTL:PT6H\r\n"
-    )
-    if "BEGIN:VCALENDAR\r\n" in ics_text:
-        ics_text = ics_text.replace("BEGIN:VCALENDAR\r\n", f"BEGIN:VCALENDAR\r\n{custom_headers}")
-    else:
-        ics_text = ics_text.replace("BEGIN:VCALENDAR\n", f"BEGIN:VCALENDAR\n{custom_headers}")
+    ics_text = build_ics_content(subgroup_param)
 
     return web.Response(
         text=ics_text,
-        content_type='text/calendar; charset=utf-8',
+        content_type='text/calendar',
+        charset='utf-8',
         headers={
             'Content-Disposition': 'inline; filename="vyatsu.ics"',
-            'Access-Control-Allow-Origin': '*'
+            'Access-Control-Allow-Origin': '*',
+            'Cache-Control': 'no-cache, no-store, must-revalidate'
         }
     )
 

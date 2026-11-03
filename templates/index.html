@@ -187,20 +187,50 @@
     }
 
     function getDatesList() {
-      const datesSet = new Set();
-      allLessons.forEach(l => {
-        const d = l.start.split('T')[0];
-        datesSet.add(d);
-      });
-
-      let dates = Array.from(datesSet).sort();
-      if (dates.length === 0) {
+      if (!allLessons || allLessons.length === 0) {
         const today = new Date();
+        const dates = [];
         for (let i = -2; i < 12; i++) {
           const d = new Date(today);
           d.setDate(today.getDate() + i);
-          dates.push(d.toISOString().split('T')[0]);
+          const y = d.getFullYear();
+          const m = String(d.getMonth() + 1).padStart(2, '0');
+          const day = String(d.getDate()).padStart(2, '0');
+          dates.push(`${y}-${m}-${day}`);
         }
+        return dates;
+      }
+
+      // Находим полный диапазон дат (от понедельника 1-й недели до конца 2-й недели)
+      let minDateStr = allLessons[0].start.split('T')[0];
+      let maxDateStr = allLessons[0].start.split('T')[0];
+
+      allLessons.forEach(l => {
+        const d = l.start.split('T')[0];
+        if (d < minDateStr) minDateStr = d;
+        if (d > maxDateStr) maxDateStr = d;
+      });
+
+      const [y1, m1, d1] = minDateStr.split('-').map(Number);
+      const startDate = new Date(y1, m1 - 1, d1);
+      // Откатываем к понедельнику (0 = Пн, ..., 6 = Вс)
+      const dayOfWeek = (startDate.getDay() + 6) % 7;
+      startDate.setDate(startDate.getDate() - dayOfWeek);
+
+      const [y2, m2, d2] = maxDateStr.split('-').map(Number);
+      const endDate = new Date(y2, m2 - 1, d2);
+      // Докручиваем до воскресенья второй недели
+      const endDayOfWeek = (endDate.getDay() + 6) % 7;
+      endDate.setDate(endDate.getDate() + (6 - endDayOfWeek));
+
+      const dates = [];
+      const cur = new Date(startDate);
+      while (cur <= endDate) {
+        const y = cur.getFullYear();
+        const m = String(cur.getMonth() + 1).padStart(2, '0');
+        const day = String(cur.getDate()).padStart(2, '0');
+        dates.push(`${y}-${m}-${day}`);
+        cur.setDate(cur.getDate() + 1);
       }
       return dates;
     }
@@ -210,7 +240,8 @@
       const container = document.getElementById('days-container');
       container.innerHTML = '';
 
-      const todayStr = new Date().toISOString().split('T')[0];
+      const today = new Date();
+      const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
 
       dates.forEach(dStr => {
         const [y, m, d] = dStr.split('-').map(Number);
@@ -219,6 +250,11 @@
         const isSelected = dStr === selectedDateStr;
         const isToday = dStr === todayStr;
 
+        // Проверяем, есть ли занятия в этот день
+        const hasLessons = allLessons.some(l => 
+          l.start.startsWith(dStr) && matchesSubgroup(l, selectedSubgroup)
+        );
+
         const btn = document.createElement('button');
         btn.className = `flex-shrink-0 flex flex-col items-center justify-center w-12 h-14 rounded-2xl transition-all ${
           isSelected 
@@ -226,10 +262,17 @@
             : 'bg-slate-800/60 text-slate-300 border border-slate-700/50 hover:bg-slate-700/60'
         }`;
 
+        let dotHtml = '<span class="w-1.5 h-1.5 mt-0.5"></span>';
+        if (isToday) {
+          dotHtml = '<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mt-0.5 shadow-sm shadow-emerald-400/50"></span>';
+        } else if (hasLessons) {
+          dotHtml = `<span class="w-1.5 h-1.5 rounded-full ${isSelected ? 'bg-blue-200' : 'bg-blue-400/80'} mt-0.5"></span>`;
+        }
+
         btn.innerHTML = `
           <span class="text-[10px] font-semibold uppercase ${isSelected ? 'text-blue-100' : 'text-slate-400'}">${weekday}</span>
           <span class="text-base font-bold leading-tight mt-0.5">${d}</span>
-          ${isToday ? '<span class="w-1 h-1 rounded-full bg-emerald-400 mt-0.5"></span>' : '<span class="w-1 h-1 mt-0.5"></span>'}
+          ${dotHtml}
         `;
 
         btn.addEventListener('click', () => {
@@ -250,7 +293,8 @@
     function setupTodayButton() {
       document.getElementById('today-btn').addEventListener('click', () => {
         if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('medium');
-        const todayStr = new Date().toISOString().split('T')[0];
+        const today = new Date();
+        const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
         selectedDateStr = todayStr;
         renderDaysBar();
         renderLessons();
@@ -292,13 +336,26 @@
         .sort((a, b) => a.start.localeCompare(b.start));
 
       if (dayLessons.length === 0) {
+        let title = 'Пар нет!';
+        let reason = 'В этот день занятий не запланировано. Можно отдохнуть или заняться своими делами.';
+        if (m === 11 && d === 4) {
+          title = 'Праздничный день!';
+          reason = 'День народного единства 🇷🇺 — официальный выходной. Пар нет, отличного отдыха!';
+        } else if (weekdayIndex === 5) {
+          title = 'Выходная суббота!';
+          reason = 'В эту субботу пар нет. Можно выспаться!';
+        } else if (weekdayIndex === 6) {
+          title = 'Воскресенье!';
+          reason = 'Выходной день.';
+        }
+
         container.innerHTML = `
           <div class="text-center py-16 px-4 bg-slate-800/30 rounded-3xl border border-slate-700/40 mt-4">
             <div class="w-16 h-16 rounded-full bg-emerald-500/10 text-emerald-400 flex items-center justify-center mx-auto text-2xl mb-3 shadow-inner">
               🎉
             </div>
-            <h3 class="text-base font-bold text-white mb-1">Пар нет!</h3>
-            <p class="text-xs text-slate-400 max-w-xs mx-auto">В этот день занятий не запланировано. Можно отдохнуть или заняться своими делами.</p>
+            <h3 class="text-base font-bold text-white mb-1">${title}</h3>
+            <p class="text-xs text-slate-400 max-w-xs mx-auto">${reason}</p>
           </div>
         `;
         return;
@@ -422,8 +479,7 @@
       googleBtn.addEventListener('click', () => {
         if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light');
         const calUrl = getCalUrl();
-        const webcalUrl = calUrl.replace(/^https?:\/\//, 'webcal://');
-        const gUrl = `https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(webcalUrl)}`;
+        const gUrl = `https://calendar.google.com/calendar/u/0/r?cid=${encodeURIComponent(calUrl)}`;
         openSafeLink(gUrl);
       });
 
