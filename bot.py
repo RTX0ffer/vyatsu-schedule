@@ -286,20 +286,20 @@ async def cmd_calendar(message: types.Message):
     if WEBAPP_URL:
         kb_buttons.append([InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))])
     kb_buttons.append([
-        InlineKeyboardButton(text="📱 Файл для Samsung (1 подгр.)", callback_data="send_ics_1"),
-        InlineKeyboardButton(text="📱 Файл для Samsung (2 подгр.)", callback_data="send_ics_2")
+        InlineKeyboardButton(text="📱 Календарь Android (1 подгр.)", callback_data="send_ics_1"),
+        InlineKeyboardButton(text="📱 Календарь Android (2 подгр.)", callback_data="send_ics_2")
     ])
     kb_buttons.append([
-        InlineKeyboardButton(text="📱 Файл для Samsung (Все пары)", callback_data="send_ics_all")
+        InlineKeyboardButton(text="📱 Календарь Android (Все пары)", callback_data="send_ics_all")
     ])
 
     kb = InlineKeyboardMarkup(inline_keyboard=kb_buttons)
 
     await message.answer(
         "📲 <b>Календарь расписания ВятГУ:</b>\n\n"
-        "⚡ <b>Для Samsung Galaxy и Android (В 1 клик):</b>\n"
-        "Нажмите кнопку <b>«📱 Файл для Samsung»</b> ниже ➔ откройте файл ➔ выберите <b>«Календарь Samsung»</b> ➔ <b>«Сохранить»</b>.\n"
-        "Все пары мгновенно появятся в календаре и виджетах телефона с аудиториями и напоминаниями!\n\n"
+        "⚡ <b>Для любого Android (Samsung, Xiaomi, Huawei, Pixel и др.) — В 1 клик:</b>\n"
+        "Нажмите кнопку <b>«📱 Календарь Android»</b> ниже ➔ откройте файл ➔ выберите <b>«Календарь»</b> ➔ <b>«Сохранить»</b>.\n"
+        "Все пары мгновенно появятся в вашем системном календаре и виджетах с аудиториями и напоминаниями!\n\n"
         "🤖 <b>Google Календарь (веб-подписка):</b>\n"
         "1. Откройте <a href=\"https://calendar.google.com/\">Google Календарь</a> с компьютера.\n"
         "2. В меню «Другие календари» нажмите <b>«+»</b> ➔ <b>«Добавить по URL»</b>.\n"
@@ -332,10 +332,10 @@ async def callback_send_ics_file(callback: types.CallbackQuery):
         document=file,
         caption=(
             f"📅 <b>Файл расписания{sg_label}</b>\n\n"
-            "📱 <b>Инструкция для Samsung Galaxy:</b>\n"
+            "📱 <b>Инструкция для Android (Samsung, Xiaomi, Huawei, Honor, Pixel и др.):</b>\n"
             "1. Нажмите на этот файл прямо здесь в Telegram.\n"
-            "2. Выберите приложение <b>«Календарь» (Samsung Calendar)</b>.\n"
-            "3. Нажмите <b>«Сохранить»</b>.\n\n"
+            "2. Выберите системное приложение <b>«Календарь»</b> вашего смартфона.\n"
+            "3. Нажмите <b>«Сохранить»</b> (или «Импортировать»).\n\n"
             "✨ Все пары появятся в виджетах и календаре телефона с аудиториями, корпусами и напоминаниями за 15 минут!"
         ),
         parse_mode=ParseMode.HTML

@@ -42,7 +42,6 @@
           <span>📚 ВятГУ</span>
           <span class="text-xs px-2 py-0.5 rounded-full font-medium bg-blue-500/20 text-blue-400 border border-blue-500/30">ПМИб-1301</span>
         </h1>
-        <p id="today-string" class="text-xs text-slate-400 mt-0.5">Загрузка даты...</p>
       </div>
       <div class="flex items-center gap-2">
         <button id="cal-modal-btn" class="px-2.5 py-1.5 rounded-full text-xs font-semibold bg-slate-800 text-blue-400 border border-blue-500/30 shadow-sm active:scale-95 transition-transform flex items-center gap-1.5 hover:bg-slate-700">
@@ -96,14 +95,14 @@
       </div>
 
       <div class="space-y-2 pt-1">
-        <!-- Кнопка Samsung / Android Calendar -->
-        <button id="samsung-cal-btn" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold text-xs flex items-center justify-center gap-2 shadow-lg shadow-blue-500/20 active:scale-95 transition-all">
-          <i class="fa-solid fa-mobile-screen-button text-sm text-sky-200"></i> Добавить в Samsung Календарь
+        <!-- Кнопка Android Календарь -->
+        <button id="android-cal-btn" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold text-xs flex items-center justify-center gap-2 shadow-lg shadow-blue-500/20 active:scale-95 transition-all">
+          <i class="fa-brands fa-android text-base text-emerald-400"></i> Добавить в календарь Android
         </button>
 
         <!-- Кнопка Google Календарь -->
         <button id="google-cal-btn" class="w-full py-2.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-semibold text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
-          <i class="fa-brands fa-google text-sm text-red-400"></i> Добавить в Google Календарь
+          <i class="fa-brands fa-google text-sm text-red-400"></i> Подписка в Google Календарь
         </button>
 
         <!-- Кнопка Apple Calendar -->
@@ -117,7 +116,7 @@
         </button>
 
         <p class="text-[10px] text-slate-400 text-center pt-1 leading-snug">
-          💡 <b>На смартфонах Samsung:</b> нажмите верхнюю синюю кнопку — файл скачается и Samsung Календарь сразу предложит сохранить все пары в телефон.
+          💡 <b>Для любого Android (Samsung, Xiaomi, Huawei, Pixel и др.):</b> нажмите верхнюю кнопку — скачается файл и телефон сразу предложит импортировать все пары в ваш календарь.
         </p>
       </div>
     </div>
@@ -344,9 +343,6 @@
       const [y, m, d] = selectedDateStr.split('-').map(Number);
       const dateObj = new Date(y, m - 1, d);
       const weekdayIndex = (dateObj.getDay() + 6) % 7;
-      
-      const fullDateStr = `${d} ${MONTHS_RU[m - 1]} (${WEEKDAYS_SHORT[weekdayIndex]})`;
-      document.getElementById('today-string').innerText = fullDateStr;
 
       const dayLessons = allLessons
         .filter(l => l.start.startsWith(selectedDateStr))
@@ -484,7 +480,7 @@
       const copyBtn = document.getElementById('copy-cal-btn');
       const appleBtn = document.getElementById('apple-cal-btn');
       const googleBtn = document.getElementById('google-cal-btn');
-      const samsungBtn = document.getElementById('samsung-cal-btn');
+      const androidBtn = document.getElementById('android-cal-btn');
 
       openBtn.addEventListener('click', () => {
         if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('medium');
@@ -500,8 +496,8 @@
         if (e.target === modal) modal.classList.add('hidden');
       });
 
-      // Samsung / Android Календарь (прямое скачивание и открытие .ics)
-      samsungBtn.addEventListener('click', () => {
+      // Android Календарь (прямое скачивание и открытие .ics на любом Android)
+      androidBtn.addEventListener('click', () => {
         if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('medium');
         const calUrl = getCalUrl();
         openSafeLink(calUrl);
