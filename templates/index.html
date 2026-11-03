@@ -44,9 +44,14 @@
         </h1>
         <p id="today-string" class="text-xs text-slate-400 mt-0.5">Загрузка даты...</p>
       </div>
-      <button id="today-btn" class="px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-500 text-white shadow-sm active:scale-95 transition-transform flex items-center gap-1.5">
-        <i class="fa-solid fa-calendar-day text-[11px]"></i> Сегодня
-      </button>
+      <div class="flex items-center gap-2">
+        <button id="cal-modal-btn" class="px-2.5 py-1.5 rounded-full text-xs font-semibold bg-slate-800 text-blue-400 border border-blue-500/30 shadow-sm active:scale-95 transition-transform flex items-center gap-1.5 hover:bg-slate-700">
+          <i class="fa-solid fa-calendar-plus text-xs"></i> В календарь
+        </button>
+        <button id="today-btn" class="px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-500 text-white shadow-sm active:scale-95 transition-transform flex items-center gap-1.5">
+          <i class="fa-solid fa-calendar-day text-[11px]"></i> Сегодня
+        </button>
+      </div>
     </div>
 
     <!-- Выбор подгруппы -->
@@ -68,6 +73,46 @@
       </div>
     </div>
   </main>
+
+  <!-- Модальное окно подписки на календарь -->
+  <div id="cal-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden flex items-end sm:items-center justify-center p-0 sm:p-4 transition-opacity">
+    <div class="bg-slate-900 border border-slate-700 rounded-t-3xl sm:rounded-3xl w-full max-w-md p-6 space-y-4 shadow-2xl animate-in slide-in-from-bottom duration-200">
+      <div class="flex items-center justify-between pb-2 border-b border-slate-800">
+        <h3 class="text-base font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-calendar-check text-blue-400"></i> Подписка на календарь
+        </h3>
+        <button id="close-modal-btn" class="w-7 h-7 rounded-full bg-slate-800 text-slate-400 hover:text-white flex items-center justify-center">
+          <i class="fa-solid fa-xmark text-sm"></i>
+        </button>
+      </div>
+
+      <p class="text-xs text-slate-300 leading-relaxed">
+        Синхронизируйте расписание со своим смартфоном. Пары появятся в вашем системном календаре и будут автоматически обновляться каждую ночь!
+      </p>
+
+      <div class="bg-slate-800/80 p-3 rounded-xl border border-slate-700 text-xs flex items-center justify-between">
+        <span class="text-slate-400">Выбранная подгруппа:</span>
+        <span id="modal-sg-badge" class="font-semibold text-blue-400 bg-blue-500/10 px-2 py-0.5 rounded border border-blue-500/20">Все пары</span>
+      </div>
+
+      <div class="space-y-2 pt-1">
+        <!-- Кнопка Apple Calendar -->
+        <a id="apple-cal-btn" href="#" target="_blank" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold text-xs flex items-center justify-center gap-2 shadow-lg shadow-blue-500/20 active:scale-95 transition-all">
+          <i class="fa-brands fa-apple text-base"></i> Добавить в iPhone / Mac (Apple Calendar)
+        </a>
+
+        <!-- Кнопка Google Календарь -->
+        <a id="google-cal-btn" href="#" target="_blank" class="w-full py-2.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-semibold text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
+          <i class="fa-brands fa-google text-sm text-red-400"></i> Добавить в Google Календарь
+        </a>
+
+        <!-- Скопировать ссылку -->
+        <button id="copy-cal-btn" class="w-full py-2.5 px-4 rounded-xl bg-slate-800/50 hover:bg-slate-800 border border-slate-700/60 text-slate-400 font-medium text-xs flex items-center justify-center gap-2 active:scale-95 transition-all">
+          <i class="fa-regular fa-copy text-xs"></i> Скопировать прямую ссылку (.ics)
+        </button>
+      </div>
+    </div>
+  </div>
 
   <script>
     const tg = window.Telegram?.WebApp;
@@ -100,6 +145,7 @@
         renderDaysBar();
         renderLessons();
         setupTodayButton();
+        setupCalendarModal();
       } catch (err) {
         document.getElementById('lessons-list').innerHTML = `
           <div class="text-center py-12 text-slate-400">
@@ -126,6 +172,7 @@
           localStorage.setItem('vyatsu_subgroup', sg);
           setupSubgroupButtons();
           renderLessons();
+          updateCalendarLinks();
         });
       });
     }
@@ -308,6 +355,64 @@
       }
 
       container.innerHTML = html;
+    }
+
+    // Логика модального окна календаря
+    function getCalUrl() {
+      const host = window.location.origin;
+      const param = selectedSubgroup !== 'all' ? `?subgroup=${selectedSubgroup}` : '';
+      return `${host}/calendar.ics${param}`;
+    }
+
+    function updateCalendarLinks() {
+      const calUrl = getCalUrl();
+      const webcalUrl = calUrl.replace('https://', 'webcal://').replace('http://', 'webcal://');
+      
+      const badge = document.getElementById('modal-sg-badge');
+      if (badge) {
+        badge.innerText = selectedSubgroup === 'all' ? 'Все пары' : `${selectedSubgroup} подгруппа`;
+      }
+
+      const appleBtn = document.getElementById('apple-cal-btn');
+      if (appleBtn) appleBtn.href = webcalUrl;
+
+      const googleBtn = document.getElementById('google-cal-btn');
+      if (googleBtn) {
+        const gUrl = `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(calUrl)}`;
+        googleBtn.href = gUrl;
+      }
+    }
+
+    function setupCalendarModal() {
+      const modal = document.getElementById('cal-modal');
+      const openBtn = document.getElementById('cal-modal-btn');
+      const closeBtn = document.getElementById('close-modal-btn');
+      const copyBtn = document.getElementById('copy-cal-btn');
+
+      openBtn.addEventListener('click', () => {
+        if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('medium');
+        updateCalendarLinks();
+        modal.classList.remove('hidden');
+      });
+
+      closeBtn.addEventListener('click', () => {
+        modal.classList.add('hidden');
+      });
+
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) modal.classList.add('hidden');
+      });
+
+      copyBtn.addEventListener('click', () => {
+        const url = getCalUrl();
+        navigator.clipboard.writeText(url).then(() => {
+          if (tg && tg.HapticFeedback) tg.HapticFeedback.notificationOccurred('success');
+          copyBtn.innerHTML = '<i class="fa-solid fa-check text-emerald-400"></i> Ссылка скопирована!';
+          setTimeout(() => {
+            copyBtn.innerHTML = '<i class="fa-regular fa-copy text-xs"></i> Скопировать прямую ссылку (.ics)';
+          }, 2000);
+        });
+      });
     }
 
     init();

@@ -12,6 +12,7 @@ from aiogram.enums import ParseMode
 from aiogram.filters import Command
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, MenuButtonWebApp, WebAppInfo
 from aiohttp import web
+from ics import Calendar, Event
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
 
@@ -20,12 +21,11 @@ TIMEZONE = ZoneInfo('Europe/Kirov')
 CACHE_FILE = 'lessons_cache.json'
 
 DATA_URL = os.getenv('DATA_URL', '')
+WEBAPP_URL = os.getenv('WEBAPP_URL', '').rstrip('/')
 ICS_URL = os.getenv(
     'ICS_URL',
-    'https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO>/main/vyatsu.ics'
+    f"{WEBAPP_URL}/calendar.ics" if WEBAPP_URL else 'https://raw.githubusercontent.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO>/main/vyatsu.ics'
 )
-# URL вашего сервиса на Render (например: https://vyatsu-schedule-bot.onrender.com)
-WEBAPP_URL = os.getenv('WEBAPP_URL', '')
 
 WEEKDAYS_RU = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье']
 
@@ -128,17 +128,18 @@ async def cmd_start(message: types.Message):
     if WEBAPP_URL:
         kb = InlineKeyboardMarkup(
             inline_keyboard=[
-                [InlineKeyboardButton(text="📱 Открыть расписание (Mini App)", web_app=WebAppInfo(url=WEBAPP_URL))]
+                [InlineKeyboardButton(text="📱 Открыть расписание (Mini App)", web_app=WebAppInfo(url=WEBAPP_URL))],
+                [InlineKeyboardButton(text="📅 Добавить в календарь смартфона", callback_data="show_calendar")]
             ]
         )
 
     await message.answer(
         "👋 Привет! Я бот с расписанием занятий ВятГУ.\n\n"
-        "Вы можете открыть современный **Mini App** или использовать команды:\n"
+        "Вы можете открыть современный **Mini App** прямо в Telegram или использовать команды:\n"
         "▫️ /today — Пары на сегодня\n"
         "▫️ /tomorrow — Пары на завтра\n"
         "▫️ /week — Расписание на текущую неделю\n"
-        "▫️ /calendar — Ссылка для подписки в календарь смартфона (iOS / Android)\n",
+        "▫️ /calendar — Подписка на календарь в iPhone / Android\n",
         parse_mode=ParseMode.MARKDOWN,
         reply_markup=kb
     )
@@ -180,19 +181,30 @@ async def cmd_week(message: types.Message):
 
 @dp.message(Command('calendar'))
 async def cmd_calendar(message: types.Message):
-    webcal_url = ICS_URL.replace('https://', 'webcal://')
-    kb = InlineKeyboardMarkup(
-        inline_keyboard=[[InlineKeyboardButton(text="📅 Добавить в календарь", url=ICS_URL)]]
-    )
+    base_cal_url = f"{WEBAPP_URL}/calendar.ics" if WEBAPP_URL else ICS_URL
+    webcal_all = base_cal_url.replace('https://', 'webcal://').replace('http://', 'webcal://')
+    webcal_sg1 = f"{webcal_all}?subgroup=1"
+    webcal_sg2 = f"{webcal_all}?subgroup=2"
+
+    kb_buttons = []
+    if WEBAPP_URL:
+        kb_buttons.append([InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))])
+    kb_buttons.append([InlineKeyboardButton(text="🍏 Подписаться (1 подгруппа)", url=webcal_sg1)])
+    kb_buttons.append([InlineKeyboardButton(text="🍏 Подписаться (2 подгруппа)", url=webcal_sg2)])
+
+    kb = InlineKeyboardMarkup(inline_keyboard=kb_buttons)
+
     await message.answer(
-        "📲 *Как подписаться на календарь на смартфоне:*\n\n"
-        "1. **iPhone (Apple Calendar):**\n"
-        "   Вставьте в Safari ссылку:\n"
-        f"   `{webcal_url}`\n\n"
-        "2. **Android / Google Календарь:**\n"
-        "   В [Google Calendar](https://calendar.google.com/) нажмите *«+» ➔ «Добавить по URL»*:\n"
-        f"   `{ICS_URL}`\n\n"
-        "Расписание синхронизируется на телефоне автоматически!",
+        "📲 *Автоматическая подписка на календарь:*\n\n"
+        "Расписание синхронизируется на телефоне само, с виджетами и напоминаниями!\n\n"
+        "🍏 **iPhone / iPad / Mac (Apple Calendar):**\n"
+        "Нажмите кнопку с вашей подгруппой ниже или откройте в Safari ссылку:\n"
+        f"• 1 подгруппа: `{webcal_sg1}`\n"
+        f"• 2 подгруппа: `{webcal_sg2}`\n"
+        f"• Все пары: `{webcal_all}`\n\n"
+        "🤖 **Android / Google Календарь:**\n"
+        "Откройте [Google Calendar](https://calendar.google.com/) на компьютере ➔ «Другие календари» ➔ **«+»** ➔ **«Добавить по URL»** и вставьте:\n"
+        f"`{base_cal_url}?subgroup=1`\n",
         parse_mode=ParseMode.MARKDOWN,
         reply_markup=kb
     )
@@ -211,7 +223,62 @@ async def handle_index(request):
 async def handle_api_schedule(request):
     """JSON API для Mini App."""
     lessons = await load_lessons()
-    return web.json_response({'lessons': lessons, 'count': len(lessons)})
+    return web.json_response({
+        'lessons': lessons,
+        'count': len(lessons),
+        'server_url': WEBAPP_URL
+    })
+
+
+async def handle_calendar_ics(request):
+    """Генерирует и отдает .ics файл с поддержкой фильтрации по подгруппе."""
+    subgroup_param = request.query.get('subgroup', '')
+    lessons = await load_lessons()
+
+    # Фильтруем по подгруппе, если передана
+    if subgroup_param in ('1', '2'):
+        sg = int(subgroup_param)
+        lessons = [l for l in lessons if not l.get('subgroup') or l.get('subgroup') == sg]
+
+    cal = Calendar()
+    cal.creator = 'Vyatsu Schedule Bot'
+
+    for item in lessons:
+        event = Event()
+        event.uid = item['uid']
+        event.name = item.get('summary', item.get('subject', 'Пара'))
+        event.location = item.get('location', '')
+
+        desc_parts = []
+        if item.get('type'):
+            desc_parts.append(f"Тип: {item['type']}")
+        if item.get('teacher'):
+            desc_parts.append(f"Преподаватель: {item['teacher']}")
+        if item.get('subgroup'):
+            desc_parts.append(f"Подгруппа: {item['subgroup']}")
+        if item.get('location'):
+            desc_parts.append(f"Место: {item['location']}")
+
+        event.description = '\n'.join(desc_parts) if desc_parts else item.get('description', '')
+        event.begin = datetime.datetime.fromisoformat(item['start'])
+        event.end = datetime.datetime.fromisoformat(item['end'])
+        cal.events.add(event)
+
+    cal_title = f"ВятГУ ПМИб-1301 ({subgroup_param} подгр.)" if subgroup_param in ('1', '2') else "Расписание ВятГУ ПМИб-1301"
+    ics_text = cal.serialize()
+    custom_headers = (
+        f"X-WR-CALNAME:{cal_title}\n"
+        "X-WR-TIMEZONE:Europe/Kirov\n"
+        "REFRESH-INTERVAL;VALUE=DURATION:PT6H\n"
+        "X-PUBLISHED-TTL:PT6H\n"
+    )
+    ics_text = ics_text.replace("BEGIN:VCALENDAR\n", f"BEGIN:VCALENDAR\n{custom_headers}")
+
+    return web.Response(
+        text=ics_text,
+        content_type='text/calendar; charset=utf-8',
+        headers={'Content-Disposition': 'inline; filename="vyatsu.ics"'}
+    )
 
 
 async def handle_ping(request):
@@ -225,6 +292,8 @@ async def start_webserver():
     app.router.add_get('/', handle_index)
     app.router.add_get('/app', handle_index)
     app.router.add_get('/api/schedule', handle_api_schedule)
+    app.router.add_get('/calendar.ics', handle_calendar_ics)
+    app.router.add_get('/vyatsu.ics', handle_calendar_ics)
     app.router.add_get('/healthz', handle_ping)
 
     runner = web.AppRunner(app)
