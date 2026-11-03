@@ -33,42 +33,10 @@ https://raw.githubusercontent.com/<ВАШ_GITHUB_ЛОГИН>/<ИМЯ_РЕПОЗ�
 
 ---
 
-## ⚙️ Настройка GitHub Actions
-
-1. Создайте репозиторий на GitHub и загрузите файлы:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/<ВАШ_ЛОГИН>/<ВАШ_РЕПОЗИТОРИЙ>.git
-   git push -u origin main
-   ```
-2. **Важно! Включите права на запись для GitHub Actions:**
-   * Откройте ваш репозиторий на GitHub ➔ **Settings** ➔ **Actions** ➔ **General**.
-   * Прокрутите до раздела **Workflow permissions**.
-   * Выберите **Read and write permissions** и нажмите **Save**.
-3. *(Опционально)* Если хотите получать уведомления в Telegram при изменениях:
-   * Перейдите в **Settings** ➔ **Secrets and variables** ➔ **Actions**.
-   * Добавьте Secrets:
-     - `TELEGRAM_BOT_TOKEN`: токен вашего бота от `@BotFather`
-     - `TELEGRAM_CHAT_ID`: ваш ID в Telegram (можно узнать у бота `@userinfobot`).
-
----
-
-## 🤖 Запуск Telegram-бота (по желанию)
+## 🤖 Telegram-бот (по желанию)
 
 Бот умеет отвечать на команды:
 - `/today` — пары на сегодня
 - `/tomorrow` — пары на завтра
 - `/week` — расписание на неделю
 - `/calendar` — ссылка на подписку
-
-### Локальный запуск или запуск на сервере:
-```bash
-pip install -r requirements.txt
-export BOT_TOKEN="ВАШ_ТОКЕН_ОТ_BOTFATHER"
-export ICS_URL="https://raw.githubusercontent.com/<ЛОГИН>/<РЕПОЗИТОРИЙ>/main/vyatsu.ics"
-python bot.py
-```
-Бот мгновенно берет готовые данные из `lessons_cache.json`, поэтому не тратит время и ресурсы на повторный парсинг PDF.
