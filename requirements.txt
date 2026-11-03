@@ -1,0 +1,5 @@
+requests
+beautifulsoup4
+pdfplumber
+ics
+aiogram>=3.0.0
