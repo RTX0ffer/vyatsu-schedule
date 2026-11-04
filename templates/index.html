@@ -624,8 +624,6 @@
         .filter(l => l.start.startsWith(selectedDateStr))
         .filter(l => matchesSubgroup(l, selectedSubgroup))
         .sort((a, b) => a.start.localeCompare(b.start));
-        .filter(l => matchesSubgroup(l, selectedSubgroup))
-        .sort((a, b) => a.start.localeCompare(b.start));
 
       if (dayLessons.length === 0) {
         let title = 'Пар нет!';
