@@ -19,7 +19,15 @@ logging.basicConfig(
 )
 
 SCHEDULE_PAGE_URL = 'https://old.vyatsu.ru/studentu-1/spravochnaya-informatsiya/raspisanie-zanyatiy-dlya-studentov.html'
-GROUP_ID = '27021'  # ПМИб-1301-52-01
+SUPPORTED_GROUPS = {
+    '27021': {'name': 'ПМИб-1301', 'course': 1, 'full_name': 'ПМИб-1301-52-00', 'code': '1301'},
+    '27022': {'name': 'ПМИб-1302', 'course': 1, 'full_name': 'ПМИб-1302-52-00', 'code': '1302'},
+    '26498': {'name': 'ПМИб-2301', 'course': 2, 'full_name': 'ПМИб-2301-52-00', 'code': '2301'},
+    '26256': {'name': 'ПМИб-3301', 'course': 3, 'full_name': 'ПМИб-3301-52-00', 'code': '3301'},
+    '26418': {'name': 'ПМИб-4301', 'course': 4, 'full_name': 'ПМИб-4301-52-00', 'code': '4301'},
+}
+DEFAULT_GROUP_ID = '27021'
+GROUP_ID = DEFAULT_GROUP_ID  # Для обратной совместимости
 TIMEZONE = ZoneInfo('Europe/Kirov')
 CACHE_FILE = 'lessons_cache.json'
 ICS_FILE = 'vyatsu.ics'
@@ -48,15 +56,16 @@ def save_cache(cache):
     os.replace(tmp_file, CACHE_FILE)
 
 
-def get_group_pdf_urls():
-    """Ищет на сайте ВятГУ актуальные PDF-файлы для группы."""
-    logging.info('Запрос страницы расписания...')
-    session = requests.Session()
-    resp = session.get(SCHEDULE_PAGE_URL, headers=HEADERS, timeout=25)
-    resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, 'html.parser')
+def get_group_pdf_urls(group_id=DEFAULT_GROUP_ID, soup=None):
+    """Ищет на сайте ВятГУ актуальные PDF-файлы для конкретной группы."""
+    if soup is None:
+        logging.info('Запрос страницы расписания...')
+        session = requests.Session()
+        resp = session.get(SCHEDULE_PAGE_URL, headers=HEADERS, timeout=25)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, 'html.parser')
 
-    pattern = re.compile(rf'/reports/schedule/Group/{GROUP_ID}_\d+_(\d{{8}})_(\d{{8}})\.pdf')
+    pattern = re.compile(rf'/reports/schedule/Group/{group_id}_\d+_(\d{{8}})_(\d{{8}})\.pdf')
     today = datetime.date.today()
     valid_urls = []
 
@@ -72,7 +81,6 @@ def get_group_pdf_urls():
                 valid_urls.append((start_date, full_url))
 
     valid_urls.sort(key=lambda x: x[0])
-    logging.info(f'Найдено актуальных PDF ссылок: {len(valid_urls)}')
     return valid_urls
 
 
@@ -89,8 +97,9 @@ def detect_weekday(text):
     return None, None
 
 
-def parse_vyatsu_pdf(pdf_bytes, start_date_hint):
+def parse_vyatsu_pdf(pdf_bytes, start_date_hint, group_id=DEFAULT_GROUP_ID):
     """Разбирает байты PDF расписания ВятГУ и достает структурированный список занятий."""
+    ginfo = SUPPORTED_GROUPS.get(group_id, {'name': 'ПМИб-1301', 'course': 1, 'code': '1301'})
     time_pattern = re.compile(r'(\d{1,2}:\d{2})\s*[-–—]\s*(\d{1,2}:\d{2})')
     lessons = []
 
@@ -177,13 +186,16 @@ def parse_vyatsu_pdf(pdf_bytes, start_date_hint):
                             current_date.year, current_date.month, current_date.day, eh, em, tzinfo=TIMEZONE
                         )
 
-                        uid_key = f"{start_dt.isoformat()}_{subject}_{subgroup or 0}"
+                        uid_key = f"{group_id}_{start_dt.isoformat()}_{subject}_{subgroup or 0}"
                         uid_hash = hashlib.md5(uid_key.encode('utf-8')).hexdigest()
 
                         display_summary = f"{subject} ({lesson_type})" if lesson_type else subject
 
                         lessons.append({
                             'uid': f"{uid_hash}@vyatsu.schedule",
+                            'group_id': group_id,
+                            'group_name': ginfo['name'],
+                            'course': ginfo['course'],
                             'subject': subject,
                             'type': lesson_type,
                             'teacher': teacher,
@@ -197,61 +209,81 @@ def parse_vyatsu_pdf(pdf_bytes, start_date_hint):
                             'end': end_dt.isoformat(),
                         })
 
-    logging.info(f'Из PDF извлечено занятий: {len(lessons)}')
+    logging.info(f"[{ginfo['name']}] Из PDF извлечено занятий: {len(lessons)}")
     return lessons
 
 
 def update_schedule():
-    """Основной процесс обновления кэша и календаря."""
+    """Основной процесс обновления кэша и календарей для всех курсов направления."""
     cache = load_cache()
     try:
-        items = get_group_pdf_urls()
+        session = requests.Session()
+        resp = session.get(SCHEDULE_PAGE_URL, headers=HEADERS, timeout=25)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, 'html.parser')
     except Exception as e:
         logging.warning(f'Не удалось связаться с сайтом ВятГУ ({e}). Использую кэшированные данные.')
-        items = []
+        soup = None
 
     has_changes = False
 
-    if items:
-        for start_date, url in items:
-            logging.info(f'Проверяю: {url} (старт: {start_date})')
-            try:
-                resp = requests.get(url, headers=HEADERS, timeout=30)
-                resp.raise_for_status()
-            except Exception as e:
-                logging.warning(f'Ошибка скачивания {url}: {e}')
-                continue
-            content_hash = hashlib.sha256(resp.content).hexdigest()
+    if soup:
+        for gid, ginfo in SUPPORTED_GROUPS.items():
+            pdf_items = get_group_pdf_urls(gid, soup=soup)
+            for start_date, url in pdf_items:
+                logging.info(f"[{ginfo['name']}] Проверяю: {url} (старт: {start_date})")
+                try:
+                    resp = requests.get(url, headers=HEADERS, timeout=30)
+                    resp.raise_for_status()
+                except Exception as e:
+                    logging.warning(f"Ошибка скачивания {url}: {e}")
+                    continue
+                content_hash = hashlib.sha256(resp.content).hexdigest()
 
-            if cache['processed_urls'].get(url) == content_hash and cache['lessons']:
-                logging.info('Файл не изменился (кэш совпадает).')
-                continue
+                if cache['processed_urls'].get(url) == content_hash:
+                    continue
 
-            logging.info('Обнаружен новый или измененный PDF! Парсинг...')
-            new_lessons = parse_vyatsu_pdf(resp.content, start_date)
-            for lesson in new_lessons:
-                cache['lessons'][lesson['uid']] = lesson
+                logging.info(f"[{ginfo['name']}] Обнаружен новый или измененный PDF! Парсинг...")
+                new_lessons = parse_vyatsu_pdf(resp.content, start_date, group_id=gid)
+                for lesson in new_lessons:
+                    cache['lessons'][lesson['uid']] = lesson
 
-            cache['processed_urls'][url] = content_hash
-            has_changes = True
+                cache['processed_urls'][url] = content_hash
+                has_changes = True
 
     # Очистка устаревших пар: оставляем за последние 30 дней и все будущие
     threshold_date = (datetime.datetime.now(TIMEZONE) - datetime.timedelta(days=30)).isoformat()
     filtered_lessons = {
         uid: item for uid, item in cache['lessons'].items()
-        if item['start'] >= threshold_date
+        if item.get('start', '') >= threshold_date
     }
     cache['lessons'] = filtered_lessons
 
     save_cache(cache)
     all_lessons = list(cache['lessons'].values())
-    generate_ics(all_lessons, 'vyatsu.ics', title='Расписание ВятГУ ПМИб-1301')
 
-    sg1_lessons = [l for l in all_lessons if not l.get('subgroup') or l.get('subgroup') == 1]
-    generate_ics(sg1_lessons, 'vyatsu_subgroup1.ics', title='ВятГУ ПМИб-1301 (1 подгр.)')
+    # Генерируем календари для каждой группы направления (все 4 курса)
+    for gid, ginfo in SUPPORTED_GROUPS.items():
+        code = ginfo.get('code', gid)
+        g_lessons = [l for l in all_lessons if l.get('group_id') == gid or (not l.get('group_id') and gid == DEFAULT_GROUP_ID)]
 
-    sg2_lessons = [l for l in all_lessons if not l.get('subgroup') or l.get('subgroup') == 2]
-    generate_ics(sg2_lessons, 'vyatsu_subgroup2.ics', title='ВятГУ ПМИб-1301 (2 подгр.)')
+        # Общий календарь группы
+        generate_ics(g_lessons, f'vyatsu_{code}.ics', title=f"Расписание ВятГУ {ginfo['name']}")
+
+        # 1 подгруппа
+        sg1 = [l for l in g_lessons if not l.get('subgroup') or l.get('subgroup') == 1]
+        generate_ics(sg1, f'vyatsu_{code}_sg1.ics', title=f"ВятГУ {ginfo['name']} (1 подгр.)")
+
+        # 2 подгруппа
+        sg2 = [l for l in g_lessons if not l.get('subgroup') or l.get('subgroup') == 2]
+        generate_ics(sg2, f'vyatsu_{code}_sg2.ics', title=f"ВятГУ {ginfo['name']} (2 подгр.)")
+
+    # Для полной обратной совместимости генерируем vyatsu.ics, vyatsu_subgroup1.ics, vyatsu_subgroup2.ics
+    g1301 = [l for l in all_lessons if l.get('group_id') == '27021' or not l.get('group_id')]
+    generate_ics(g1301, 'vyatsu.ics', title='Расписание ВятГУ ПМИб-1301')
+    generate_ics([l for l in g1301 if not l.get('subgroup') or l.get('subgroup') == 1], 'vyatsu_subgroup1.ics', title='ВятГУ ПМИб-1301 (1 подгр.)')
+    generate_ics([l for l in g1301 if not l.get('subgroup') or l.get('subgroup') == 2], 'vyatsu_subgroup2.ics', title='ВятГУ ПМИб-1301 (2 подгр.)')
+
     return has_changes
 
 

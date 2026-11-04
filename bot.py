@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import asyncio
 import datetime
 import json
@@ -28,11 +30,50 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(me
 BOT_TOKEN = os.getenv('BOT_TOKEN', '')
 TIMEZONE = ZoneInfo('Europe/Kirov')
 CACHE_FILE = 'lessons_cache.json'
+USER_SETTINGS_FILE = 'user_settings.json'
 
 DATA_URL = os.getenv('DATA_URL', '')
 WEBAPP_URL = os.getenv('WEBAPP_URL', '').rstrip('/')
 CDN_BASE_URL = "https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main"
 ICS_URL = f"{CDN_BASE_URL}/vyatsu.ics"
+
+SUPPORTED_GROUPS = {
+    '27021': {'name': 'ПМИб-1301', 'course': 1, 'code': '1301', 'full_name': 'ПМИб-1301-52-00'},
+    '27022': {'name': 'ПМИб-1302', 'course': 1, 'code': '1302', 'full_name': 'ПМИб-1302-52-00'},
+    '26498': {'name': 'ПМИб-2301', 'course': 2, 'code': '2301', 'full_name': 'ПМИб-2301-52-00'},
+    '26256': {'name': 'ПМИб-3301', 'course': 3, 'code': '3301', 'full_name': 'ПМИб-3301-52-00'},
+    '26418': {'name': 'ПМИб-4301', 'course': 4, 'code': '4301', 'full_name': 'ПМИб-4301-52-00'},
+}
+DEFAULT_GROUP_ID = '27021'
+
+
+def get_user_group(user_id: int | str) -> str:
+    """Возвращает ID выбранной пользователем группы (по умолчанию ПМИб-1301)."""
+    if os.path.exists(USER_SETTINGS_FILE):
+        try:
+            with open(USER_SETTINGS_FILE, 'r', encoding='utf-8') as f:
+                settings = json.load(f)
+                return settings.get(str(user_id), DEFAULT_GROUP_ID)
+        except Exception:
+            pass
+    return DEFAULT_GROUP_ID
+
+
+def set_user_group(user_id: int | str, group_id: str):
+    """Сохраняет выбранную пользователем группу."""
+    settings = {}
+    if os.path.exists(USER_SETTINGS_FILE):
+        try:
+            with open(USER_SETTINGS_FILE, 'r', encoding='utf-8') as f:
+                settings = json.load(f)
+        except Exception:
+            settings = {}
+    settings[str(user_id)] = group_id
+    tmp = f"{USER_SETTINGS_FILE}.tmp"
+    with open(tmp, 'w', encoding='utf-8') as f:
+        json.dump(settings, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, USER_SETTINGS_FILE)
+
 
 WEEKDAYS_RU = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье']
 
@@ -106,9 +147,14 @@ async def background_cache_worker():
         await sync_remote_cache()
 
 
-def format_day_schedule(target_date: datetime.date):
-    """Форматирует расписание на день в безопасном формате HTML."""
-    lessons = get_cached_lessons()
+def format_day_schedule(target_date: datetime.date, group_id: str = DEFAULT_GROUP_ID):
+    """Форматирует расписание на день в безопасном формате HTML для выбранной группы."""
+    all_lessons = get_cached_lessons()
+    lessons = [
+        l for l in all_lessons
+        if l.get('group_id') == group_id or (not l.get('group_id') and group_id == DEFAULT_GROUP_ID)
+    ]
+    ginfo = SUPPORTED_GROUPS.get(group_id, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
     day_lessons = []
 
     for item in lessons:
@@ -124,12 +170,12 @@ def format_day_schedule(target_date: datetime.date):
     if not day_lessons:
         holiday_name = RUSSIAN_HOLIDAYS.get((target_date.month, target_date.day))
         if holiday_name:
-            return f"📅 <b>{weekday_name}, {date_str}</b>\n\n🎉 <b>Праздничный день: {holiday_name}!</b>\nПар нет, отличного отдыха!"
+            return f"📅 <b>{weekday_name}, {date_str}</b> | <b>{ginfo['name']}</b>\n\n🎉 <b>Праздничный день: {holiday_name}!</b>\nПар нет, отличного отдыха!"
         if target_date.weekday() == 5:
-            return f"📅 <b>{weekday_name}, {date_str}</b>\n\n🎉 В субботу пар нет! Выходной."
+            return f"📅 <b>{weekday_name}, {date_str}</b> | <b>{ginfo['name']}</b>\n\n🎉 В субботу пар нет! Выходной."
         if target_date.weekday() == 6:
-            return f"📅 <b>{weekday_name}, {date_str}</b>\n\n🎉 Воскресенье — выходной день!"
-        return f"📅 <b>{weekday_name}, {date_str}</b>\n\n🎉 В этот день пар нет! Можно отдыхать."
+            return f"📅 <b>{weekday_name}, {date_str}</b> | <b>{ginfo['name']}</b>\n\n🎉 Воскресенье — выходной день!"
+        return f"📅 <b>{weekday_name}, {date_str}</b> | <b>{ginfo['name']}</b>\n\n🎉 В этот день пар нет! Можно отдыхать."
 
     by_time = {}
     for start_dt, item in day_lessons:
@@ -137,7 +183,31 @@ def format_day_schedule(target_date: datetime.date):
         interval = f"{start_dt.strftime('%H:%M')} – {end_dt.strftime('%H:%M')}"
         by_time.setdefault(interval, []).append(item)
 
-    text = [f"📅 <b>{weekday_name}, {date_str}</b>\n"]
+    text = [f"📅 <b>{weekday_name}, {date_str}</b> | <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n"]
+    for interval, items in by_time.items():
+        if len(items) == 1:
+            it = items[0]
+            subj = it.get('subject', it.get('summary', 'Пара'))
+            ltype = f" ({it['type']})" if it.get('type') else ""
+            teacher = f"👤 <i>{it['teacher']}</i>" if it.get('teacher') else ""
+            loc = f"📍 {it['location']}" if it.get('location') else ""
+            details = " | ".join(filter(None, [teacher, loc]))
+
+            text.append(f"▫️ <b>{interval}</b> | <b>{subj}</b>{ltype}\n   {details}\n")
+        else:
+            text.append(f"▫️ <b>{interval}</b>:")
+            for it in items:
+                sg = f"[{it['subgroup']} подгр.] " if it.get('subgroup') else ""
+                subj = it.get('subject', it.get('summary', 'Пара'))
+                ltype = f" ({it['type']})" if it.get('type') else ""
+                teacher = f"👤 <i>{it['teacher']}</i>" if it.get('teacher') else ""
+                loc = f"📍 {it['location']}" if it.get('location') else ""
+                details = " | ".join(filter(None, [teacher, loc]))
+
+                text.append(f"   • {sg}<b>{subj}</b>{ltype}\n     {details}")
+            text.append("")
+
+    return "\n".join(text).strip()
     for interval, items in by_time.items():
         if len(items) == 1:
             it = items[0]
@@ -179,6 +249,9 @@ def get_main_keyboard():
         KeyboardButton(text="🗓 На неделю"),
         KeyboardButton(text="📲 Календарь")
     ])
+    buttons.append([
+        KeyboardButton(text="👥 Курс / Группа")
+    ])
     return ReplyKeyboardMarkup(
         keyboard=buttons,
         resize_keyboard=True,
@@ -187,24 +260,80 @@ def get_main_keyboard():
     )
 
 
+def get_group_selection_keyboard():
+    """Генерирует инлайн-клавиатуру для выбора курса и группы."""
+    inline_keyboard = [
+        [
+            InlineKeyboardButton(text="🎓 1 курс: ПМИб-1301", callback_data="set_grp_27021"),
+            InlineKeyboardButton(text="ПМИб-1302", callback_data="set_grp_27022")
+        ],
+        [
+            InlineKeyboardButton(text="🎓 2 курс: ПМИб-2301", callback_data="set_grp_26498")
+        ],
+        [
+            InlineKeyboardButton(text="🎓 3 курс: ПМИб-3301", callback_data="set_grp_26256")
+        ],
+        [
+            InlineKeyboardButton(text="🎓 4 курс: ПМИб-4301", callback_data="set_grp_26418")
+        ]
+    ]
+    return InlineKeyboardMarkup(inline_keyboard=inline_keyboard)
+
+
+@dp.message(or_f(Command('group', 'course'), F.text.casefold().in_({'👥 курс / группа', 'курс / группа', 'выбрать группу', 'сменить группу', 'курс'})))
+async def cmd_choose_group(message: types.Message):
+    gid = get_user_group(message.from_user.id)
+    ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
+    await message.answer(
+        f"👥 <b>Выбор курса и группы</b>\n\n"
+        f"Направление: <b>Прикладная математика и информатика (ПМИб)</b>\n"
+        f"Ваша активная группа: <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n\n"
+        f"Выберите группу из списка ниже, чтобы переключить расписание:",
+        parse_mode=ParseMode.HTML,
+        reply_markup=get_group_selection_keyboard()
+    )
+
+
+@dp.callback_query(lambda c: c.data and c.data.startswith('set_grp_'))
+async def callback_select_group(callback: types.CallbackQuery):
+    await callback.answer()
+    gid = callback.data.replace('set_grp_', '')
+    if gid in SUPPORTED_GROUPS:
+        set_user_group(callback.from_user.id, gid)
+        ginfo = SUPPORTED_GROUPS[gid]
+        await callback.message.answer(
+            f"✅ <b>Группа переключена на {ginfo['name']} ({ginfo['course']} курс)!</b>\n\n"
+            f"Теперь команды <b>📅 Сегодня</b>, <b>📆 Завтра</b> и <b>🗓 На неделю</b> будут показывать расписание для вашей группы.\n\n"
+            f"<i>Вы всегда можете изменить группу через кнопку «👥 Курс / Группа» или команду /group.</i>",
+            parse_mode=ParseMode.HTML,
+            reply_markup=get_main_keyboard()
+        )
+
+
 @dp.message(or_f(Command('start', 'help'), F.text.casefold().in_({'меню', 'start', 'помощь', 'главное меню'})))
 async def cmd_start(message: types.Message):
+    gid = get_user_group(message.from_user.id)
+    ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
+
     inline_kb = None
     if WEBAPP_URL:
         inline_kb = InlineKeyboardMarkup(
             inline_keyboard=[
                 [InlineKeyboardButton(text="📱 Открыть расписание (Mini App)", web_app=WebAppInfo(url=WEBAPP_URL))],
-                [InlineKeyboardButton(text="📅 Календарь и подписка (.ics)", callback_data="open_calendar_cmd")]
+                [InlineKeyboardButton(text="📅 Календарь и подписка (.ics)", callback_data="open_calendar_cmd")],
+                [InlineKeyboardButton(text="👥 Сменить группу / курс", callback_data="change_grp_from_cal")]
             ]
         )
 
     await message.answer(
         "👋 Привет! Я бот с расписанием занятий ВятГУ.\n\n"
+        f"Ваша активная группа: <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n\n"
         "Нажимайте на удобные кнопки внизу экрана или используйте команды:\n"
         "▫️ <b>📅 Сегодня</b> — Пары на сегодня\n"
         "▫️ <b>📆 Завтра</b> — Пары на завтра\n"
         "▫️ <b>🗓 На неделю</b> — Расписание на текущую неделю\n"
         "▫️ <b>📲 Календарь</b> — Подписка и перенос пар в смартфон\n"
+        "▫️ <b>👥 Курс / Группа</b> — Выбор любого из 1–4 курсов ПМИб\n"
         "▫️ <b>📱 Mini App</b> — Интерактивное расписание прямо в Telegram\n",
         parse_mode=ParseMode.HTML,
         reply_markup=get_main_keyboard()
@@ -213,8 +342,9 @@ async def cmd_start(message: types.Message):
 
 @dp.message(or_f(Command('today'), F.text.casefold().in_({'📅 сегодня', 'сегодня'})))
 async def cmd_today(message: types.Message):
+    gid = get_user_group(message.from_user.id)
     today = datetime.datetime.now(TIMEZONE).date()
-    text = format_day_schedule(today)
+    text = format_day_schedule(today, group_id=gid)
     inline_kb = None
     if WEBAPP_URL:
         inline_kb = InlineKeyboardMarkup(
@@ -228,8 +358,9 @@ async def cmd_today(message: types.Message):
 
 @dp.message(or_f(Command('tomorrow'), F.text.casefold().in_({'📆 завтра', 'завтра'})))
 async def cmd_tomorrow(message: types.Message):
+    gid = get_user_group(message.from_user.id)
     tomorrow = datetime.datetime.now(TIMEZONE).date() + datetime.timedelta(days=1)
-    text = format_day_schedule(tomorrow)
+    text = format_day_schedule(tomorrow, group_id=gid)
     inline_kb = None
     if WEBAPP_URL:
         inline_kb = InlineKeyboardMarkup(
@@ -243,13 +374,14 @@ async def cmd_tomorrow(message: types.Message):
 
 @dp.message(or_f(Command('week'), F.text.casefold().in_({'🗓 на неделю', 'на неделю', 'неделя'})))
 async def cmd_week(message: types.Message):
+    gid = get_user_group(message.from_user.id)
     today = datetime.datetime.now(TIMEZONE).date()
     start_of_week = today - datetime.timedelta(days=today.weekday())
 
     blocks = []
     for day_offset in range(6):  # Пн-Сб
         day_date = start_of_week + datetime.timedelta(days=day_offset)
-        blocks.append(format_day_schedule(day_date))
+        blocks.append(format_day_schedule(day_date, group_id=gid))
 
     separator = "\n\n" + "—" * 20 + "\n\n"
     response = separator.join(blocks)
@@ -261,13 +393,18 @@ async def cmd_week(message: types.Message):
         await message.answer(response, parse_mode=ParseMode.HTML)
 
 
-def build_ics_content(subgroup=None):
+def build_ics_content(group_id=DEFAULT_GROUP_ID, subgroup=None):
     """Генерирует RFC 5545-совместимый .ics контент со всеми обязательными полями (DTSTAMP, STATUS)."""
-    lessons = get_cached_lessons()
+    all_lessons = get_cached_lessons()
+    lessons = [
+        l for l in all_lessons
+        if l.get('group_id') == group_id or (not l.get('group_id') and group_id == DEFAULT_GROUP_ID)
+    ]
     if subgroup in (1, 2, '1', '2'):
         sg = int(subgroup)
         lessons = [l for l in lessons if not l.get('subgroup') or l.get('subgroup') == sg]
 
+    ginfo = SUPPORTED_GROUPS.get(group_id, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
     cal = Calendar()
     cal.creator = '-//Vyatsu//Schedule Bot//RU'
     now_utc = datetime.datetime.now(datetime.timezone.utc)
@@ -297,7 +434,7 @@ def build_ics_content(subgroup=None):
         event.end = datetime.datetime.fromisoformat(item['end'])
         cal.events.add(event)
 
-    cal_title = f"ВятГУ ПМИб-1301 ({subgroup} подгр.)" if subgroup in (1, 2, '1', '2') else "Расписание ВятГУ ПМИб-1301"
+    cal_title = f"ВятГУ {ginfo['name']} ({subgroup} подгр.)" if subgroup in (1, 2, '1', '2') else f"Расписание ВятГУ {ginfo['name']}"
     ics_text = cal.serialize()
     custom_headers = (
         "CALSCALE:GREGORIAN\r\n"
@@ -318,10 +455,15 @@ def build_ics_content(subgroup=None):
     return ics_text
 
 
-async def send_calendar_message(message: types.Message):
-    cdn_sg1 = f"{CDN_BASE_URL}/vyatsu_subgroup1.ics"
-    cdn_sg2 = f"{CDN_BASE_URL}/vyatsu_subgroup2.ics"
-    cdn_all = f"{CDN_BASE_URL}/vyatsu.ics"
+async def send_calendar_message(message: types.Message, user_id: int | str = None):
+    uid = user_id or (message.from_user.id if message.from_user else None)
+    gid = get_user_group(uid) if uid else DEFAULT_GROUP_ID
+    ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
+    code = ginfo.get('code', '1301')
+
+    cdn_sg1 = f"{CDN_BASE_URL}/vyatsu_{code}_sg1.ics"
+    cdn_sg2 = f"{CDN_BASE_URL}/vyatsu_{code}_sg2.ics"
+    cdn_all = f"{CDN_BASE_URL}/vyatsu_{code}.ics"
 
     webcal_sg1 = cdn_sg1.replace('https://', 'webcal://')
     webcal_sg2 = cdn_sg2.replace('https://', 'webcal://')
@@ -331,19 +473,23 @@ async def send_calendar_message(message: types.Message):
     if WEBAPP_URL:
         kb_buttons.append([InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))])
     kb_buttons.append([
-        InlineKeyboardButton(text="📱 Календарь Android (1 подгр.)", callback_data="send_ics_1"),
-        InlineKeyboardButton(text="📱 Календарь Android (2 подгр.)", callback_data="send_ics_2")
+        InlineKeyboardButton(text=f"📱 {ginfo['name']} (1 подгр.)", callback_data=f"send_ics_{gid}_1"),
+        InlineKeyboardButton(text=f"📱 {ginfo['name']} (2 подгр.)", callback_data=f"send_ics_{gid}_2")
     ])
     kb_buttons.append([
-        InlineKeyboardButton(text="📱 Календарь Android (Все пары)", callback_data="send_ics_all")
+        InlineKeyboardButton(text=f"📱 {ginfo['name']} (Все пары)", callback_data=f"send_ics_{gid}_all")
+    ])
+    kb_buttons.append([
+        InlineKeyboardButton(text="👥 Сменить группу / курс", callback_data="change_grp_from_cal")
     ])
 
     kb = InlineKeyboardMarkup(inline_keyboard=kb_buttons)
 
     await message.answer(
-        "📲 <b>Календарь расписания ВятГУ:</b>\n\n"
+        f"📲 <b>Календарь расписания ВятГУ:</b>\n"
+        f"Группа: <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n\n"
         "⚡ <b>Для любого Android (Samsung, Xiaomi, Huawei, Pixel и др.) — В 1 клик:</b>\n"
-        "Нажмите кнопку <b>«📱 Календарь Android»</b> ниже ➔ откройте файл прямо в Telegram ➔ выберите <b>«Календарь»</b> ➔ <b>«Сохранить»</b>.\n"
+        "Нажмите кнопку с нужной подгруппой ниже ➔ откройте файл прямо в Telegram ➔ выберите <b>«Календарь»</b> ➔ <b>«Сохранить»</b>.\n"
         "Все пары мгновенно появятся в системном календаре и виджетах с аудиториями и напоминаниями!\n\n"
         "🤖 <b>Google Календарь / 📧 Microsoft Outlook (веб-подписка):</b>\n"
         "1. В Google Календаре нажмите <b>«+»</b> рядом с «Другие календари» ➔ <b>«Добавить по URL»</b>.\n"
@@ -355,8 +501,8 @@ async def send_calendar_message(message: types.Message):
         "🍏 <b>iPhone / Mac (Apple Calendar):</b>\n"
         "Скопируйте ссылку и откройте в браузере Safari:\n"
         f"• 1 подгруппа: <code>{webcal_sg1}</code>\n"
-        f"• 2 подгруппа: <code>{webcal_sg2}</code>\n"
-        "<i>(Или нажмите кнопку в Mini App — Safari сразу откроет диалог подписки)</i>",
+        f"• 2 подгруппа: <code>{webcal_sg2}</code>\n\n"
+        "<i>💡 Хотите расписание для другого курса? Нажмите «👥 Сменить группу / курс» ниже.</i>",
         parse_mode=ParseMode.HTML,
         reply_markup=kb,
         disable_web_page_preview=True
@@ -371,14 +517,30 @@ async def cmd_calendar(message: types.Message):
 @dp.callback_query(lambda c: c.data == 'open_calendar_cmd')
 async def callback_open_calendar_cmd(callback: types.CallbackQuery):
     await callback.answer()
-    await send_calendar_message(callback.message)
+    await send_calendar_message(callback.message, user_id=callback.from_user.id)
+
+
+@dp.callback_query(lambda c: c.data == 'change_grp_from_cal')
+async def callback_change_grp_from_cal(callback: types.CallbackQuery):
+    await callback.answer()
+    gid = get_user_group(callback.from_user.id)
+    ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
+    await callback.message.answer(
+        f"👥 <b>Выбор курса и группы</b>\n\n"
+        f"Направление: <b>Прикладная математика и информатика (ПМИб)</b>\n"
+        f"Текущая группа: <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n\n"
+        f"Выберите группу для переключения:",
+        parse_mode=ParseMode.HTML,
+        reply_markup=get_group_selection_keyboard()
+    )
 
 
 @dp.callback_query(lambda c: c.data == 'quick_today')
 async def callback_quick_today(callback: types.CallbackQuery):
     await callback.answer()
+    gid = get_user_group(callback.from_user.id)
     today = datetime.datetime.now(TIMEZONE).date()
-    text = format_day_schedule(today)
+    text = format_day_schedule(today, group_id=gid)
     inline_kb = None
     if WEBAPP_URL:
         inline_kb = InlineKeyboardMarkup(
@@ -393,8 +555,9 @@ async def callback_quick_today(callback: types.CallbackQuery):
 @dp.callback_query(lambda c: c.data == 'quick_tomorrow')
 async def callback_quick_tomorrow(callback: types.CallbackQuery):
     await callback.answer()
+    gid = get_user_group(callback.from_user.id)
     tomorrow = datetime.datetime.now(TIMEZONE).date() + datetime.timedelta(days=1)
-    text = format_day_schedule(tomorrow)
+    text = format_day_schedule(tomorrow, group_id=gid)
     inline_kb = None
     if WEBAPP_URL:
         inline_kb = InlineKeyboardMarkup(
@@ -409,18 +572,26 @@ async def callback_quick_tomorrow(callback: types.CallbackQuery):
 @dp.callback_query(lambda c: c.data and c.data.startswith('send_ics_'))
 async def callback_send_ics_file(callback: types.CallbackQuery):
     await callback.answer()
-    mode = callback.data.split('_')[-1]
-    sg = 1 if mode == '1' else 2 if mode == '2' else None
-    sg_label = f" ({sg} подгруппа)" if sg else " (Все пары)"
-    filename = f"vyatsu_subgroup_{sg}.ics" if sg else "vyatsu.ics"
+    parts = callback.data.split('_')[2:]  # после send_ics_
+    if len(parts) == 1:
+        gid = get_user_group(callback.from_user.id)
+        mode = parts[0]
+    else:
+        gid = parts[0]
+        mode = parts[1]
 
-    ics_content = build_ics_content(sg).encode('utf-8')
+    sg = 1 if mode == '1' else 2 if mode == '2' else None
+    ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
+    sg_label = f" ({sg} подгруппа)" if sg else " (Все пары)"
+    filename = f"vyatsu_{ginfo['code']}_sg{sg}.ics" if sg else f"vyatsu_{ginfo['code']}.ics"
+
+    ics_content = build_ics_content(group_id=gid, subgroup=sg).encode('utf-8')
     file = BufferedInputFile(ics_content, filename=filename)
 
     await callback.message.answer_document(
         document=file,
         caption=(
-            f"📅 <b>Файл расписания{sg_label}</b>\n\n"
+            f"📅 <b>Файл расписания {ginfo['name']}{sg_label}</b>\n\n"
             "📱 <b>Инструкция для смартфона (Samsung, Xiaomi, Huawei, Pixel, iPhone):</b>\n"
             "1. Нажмите на этот файл прямо здесь в Telegram.\n"
             "2. Выберите системное приложение <b>«Календарь»</b> вашего смартфона.\n"
@@ -443,18 +614,29 @@ async def handle_index(request):
 
 
 async def handle_api_schedule(request):
-    """JSON API для Mini App (мгновенный ответ из памяти)."""
+    """JSON API для Mini App (мгновенный ответ из памяти со списком групп)."""
     lessons = get_cached_lessons()
     return web.json_response({
         'lessons': lessons,
         'count': len(lessons),
-        'server_url': WEBAPP_URL
+        'server_url': WEBAPP_URL,
+        'groups': [
+            {
+                'id': gid,
+                'name': ginfo['name'],
+                'course': ginfo['course'],
+                'code': ginfo['code'],
+                'full_name': ginfo['full_name']
+            }
+            for gid, ginfo in SUPPORTED_GROUPS.items()
+        ],
+        'default_group_id': DEFAULT_GROUP_ID
     })
 
 
-async def handle_calendar_ics_subgroup(request, subgroup):
+async def handle_calendar_ics_subgroup(request, subgroup, group_id=DEFAULT_GROUP_ID):
     """Отдает чистый .ics файл без query-параметров для конкретной подгруппы."""
-    ics_text = build_ics_content(subgroup)
+    ics_text = build_ics_content(group_id=group_id, subgroup=subgroup)
     fname = f"vyatsu_subgroup_{subgroup}.ics" if subgroup else "vyatsu.ics"
     return web.Response(
         text=ics_text,
@@ -468,11 +650,55 @@ async def handle_calendar_ics_subgroup(request, subgroup):
     )
 
 
+async def handle_calendar_dynamic_ics(request):
+    """Динамический эндпоинт для отдачи календаря любой группы и подгруппы."""
+    target = request.match_info.get('target', '')
+    sg = None
+    if target.endswith('_sg1') or target.endswith('_subgroup1'):
+        sg = 1
+        code = target.replace('_sg1', '').replace('_subgroup1', '')
+    elif target.endswith('_sg2') or target.endswith('_subgroup2'):
+        sg = 2
+        code = target.replace('_sg2', '').replace('_subgroup2', '')
+    else:
+        code = target
+
+    gid = DEFAULT_GROUP_ID
+    for g_id, g_info in SUPPORTED_GROUPS.items():
+        if g_id == code or g_info['code'] == code:
+            gid = g_id
+            break
+
+    ics_text = build_ics_content(group_id=gid, subgroup=sg)
+    return web.Response(
+        text=ics_text,
+        content_type='text/calendar',
+        charset='utf-8',
+        headers={
+            'Content-Disposition': f'inline; filename="vyatsu_{target}.ics"',
+            'Access-Control-Allow-Origin': '*',
+            'Cache-Control': 'no-cache, no-store, must-revalidate'
+        }
+    )
+
+
 async def handle_calendar_ics(request):
     """Генерирует и отдает .ics файл со всеми обязательными RFC-полями (DTSTAMP, STATUS)."""
     subgroup_param = request.query.get('subgroup', '')
     sg = int(subgroup_param) if subgroup_param in ('1', '2') else None
-    return await handle_calendar_ics_subgroup(request, sg)
+    gid = request.query.get('group', DEFAULT_GROUP_ID)
+    if gid not in SUPPORTED_GROUPS:
+        gid = DEFAULT_GROUP_ID
+    return web.Response(
+        text=build_ics_content(group_id=gid, subgroup=sg),
+        content_type='text/calendar',
+        charset='utf-8',
+        headers={
+            'Content-Disposition': 'inline; filename="vyatsu.ics"',
+            'Access-Control-Allow-Origin': '*',
+            'Cache-Control': 'no-cache, no-store, must-revalidate'
+        }
+    )
 
 
 async def handle_ping(request):
@@ -493,6 +719,8 @@ async def start_webserver():
     app.router.add_get('/calendar/all.ics', lambda r: handle_calendar_ics_subgroup(r, None))
     app.router.add_get('/vyatsu_subgroup1.ics', lambda r: handle_calendar_ics_subgroup(r, 1))
     app.router.add_get('/vyatsu_subgroup2.ics', lambda r: handle_calendar_ics_subgroup(r, 2))
+    app.router.add_get('/calendar/{target}.ics', handle_calendar_dynamic_ics)
+    app.router.add_get('/vyatsu_{target}.ics', handle_calendar_dynamic_ics)
     app.router.add_get('/healthz', handle_ping)
 
     runner = web.AppRunner(app)
@@ -517,6 +745,7 @@ async def main():
         BotCommand(command="today", description="Пары на сегодня"),
         BotCommand(command="tomorrow", description="Пары на завтра"),
         BotCommand(command="week", description="Расписание на неделю"),
+        BotCommand(command="group", description="Выбор курса и группы"),
         BotCommand(command="calendar", description="Календарь и подписка (.ics)"),
         BotCommand(command="start", description="Главное меню")
     ]

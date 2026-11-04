@@ -1,0 +1,274 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ПМИб-3301 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Татаринова А.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 301
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 301
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Web-программирование (Лабораторная работа)
+UID:98297e22ef30a478831b1ae2635290f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соколова А.Н.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 140
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Численные методы (Лабораторная работа)
+UID:139b28d3bb0eb5fd6710dc99732a9f59@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пушкарев И.А.\nМесто: корп. 16\, ауд. 207
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Лекция)
+UID:619949029cd8500e5a2aa4ca3c09b3f7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соколова А.Н.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 301
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 301
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Численные методы (Лабораторная работа)
+UID:88dbc60f1fe916355619d8e6fb4c8a25@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 14\, ауд. 202
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Практическое занятие)
+UID:1c324fdc05b4aa649f998ff6abff01af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Фищева И.Н.\nМесто: корп. 14\, ауд. 208
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 208
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Базы данных (Лекция)
+UID:fbd87c0ed083ba1f544dae4369f23709@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Исупова Н.И.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 301
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 301
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии (Лабораторная работа)
+UID:3096a56b106441faea76ae55f0a836f0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пушкарев И.А.\nМесто: корп. 16\, ауд. 212
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Лекция)
+UID:8fb1156169e3a95bfa2f89b738d3e659@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Татаринова А.Г.\nМесто: корп. 14\, ауд. 210
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Web-программирование (Лекция)
+UID:352d79d6a33aef59c1fbe7af54662658@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Исупова Н.И.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 301
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 301
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии (Лабораторная работа)
+UID:eebd77b10976b3578d5396855312e229@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Здоровенко М.Ю.\nМесто: корп. 14\, ауд. 202
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Функциональный анализ (Лекция)
+UID:1f4096df6d860f921038e89c87e37638@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фищева И.Н.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 140
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Базы данных (Лабораторная работа)
+UID:2d2ca328c8d5bc7e63a76cd7051ebada@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пескишева Т.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 131
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Операционные системы (Лабораторная работа)
+UID:250b522ce106e8b146091b42954b5127@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Здоровенко М.Ю.\nМесто: корп. 14\, ауд. 221
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Функциональный анализ (Практическое занятие)
+UID:bf92b3a1641c4b993cbee88bbdd0f232@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Татаринова А.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 301
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 301
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Web-программирование (Лабораторная работа)
+UID:584414827e6ba10e9b52b638a1ba9c9e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пескишева Т.А.\nМесто: корп. 14\, ауд. 210
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Операционные системы (Лекция)
+UID:c08e03fc7c0276ea086e836f3688f5f6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Здоровенко М.Ю.\nМесто: корп. 14\, ауд. 221
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Функциональный анализ (Практическое занятие)
+UID:39f9e86f39c64d9b7b7bf10963351bc8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фищева И.Н.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 140
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Базы данных (Лабораторная работа)
+UID:d75e78ba12cbf5a93460d52da62a5101@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пушкарев И.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 309
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 309
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Лабораторная работа)
+UID:bad67086a9b1cc37adc1a21b31662d67@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Соколова А.Н.\nМесто: корп. 16\, ауд. 220
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Численные методы (Лекция)
+UID:297756de27ca5f6081d9a4af36f52949@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Загребина Л.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 115
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:d8f5df0fd5db4ccba4eeb7b08e4ca96e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пушкарев И.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 309
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 309
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Лабораторная работа)
+UID:e5319f5f697ccd7007ecdac9b8f210ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пескишева Т.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 131
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Операционные системы (Лабораторная работа)
+UID:e58434f292d1c7cce5f7564f5db197f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Загребина Л.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 115
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:53abc3b1099edf7e52b0035192305e87@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

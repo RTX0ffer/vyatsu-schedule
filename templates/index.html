@@ -40,7 +40,10 @@
       <div>
         <h1 class="text-xl font-bold tracking-tight flex items-center gap-2">
           <span>📚 ВятГУ</span>
-          <span class="text-xs px-2 py-0.5 rounded-full font-medium bg-blue-500/20 text-blue-400 border border-blue-500/30">ПМИб-1301</span>
+          <button id="group-select-btn" class="text-xs px-2.5 py-1 rounded-full font-medium bg-blue-500/20 hover:bg-blue-500/30 text-blue-400 border border-blue-500/30 flex items-center gap-1.5 active:scale-95 transition-transform" title="Выбрать курс и группу">
+            <span id="current-group-badge">ПМИб-1301</span>
+            <i class="fa-solid fa-chevron-down text-[9px] opacity-70"></i>
+          </button>
         </h1>
       </div>
       <div class="flex items-center gap-2">
@@ -137,6 +140,76 @@
     </div>
   </div>
 
+  <!-- Модальное окно выбора курса и группы -->
+  <div id="group-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden flex items-end sm:items-center justify-center p-0 sm:p-4 transition-opacity">
+    <div class="bg-slate-900 border border-slate-700 rounded-t-3xl sm:rounded-3xl w-full max-w-md p-6 space-y-4 shadow-2xl animate-in slide-in-from-bottom duration-200 max-h-[85vh] overflow-y-auto hide-scrollbar">
+      <div class="flex items-center justify-between pb-2 border-b border-slate-800">
+        <div>
+          <h3 class="text-base font-bold text-white flex items-center gap-2">
+            <i class="fa-solid fa-graduation-cap text-blue-400"></i> Выбор курса и группы
+          </h3>
+          <p class="text-[11px] text-slate-400">Направление: Прикладная математика и информатика (ПМИб)</p>
+        </div>
+        <button id="close-group-modal-btn" class="w-7 h-7 rounded-full bg-slate-800 text-slate-400 hover:text-white flex items-center justify-center">
+          <i class="fa-solid fa-xmark text-sm"></i>
+        </button>
+      </div>
+
+      <div class="space-y-3 pt-1">
+        <!-- 1 курс -->
+        <div class="p-3 rounded-2xl bg-slate-800/60 border border-slate-700/60 space-y-2">
+          <div class="text-[11px] font-semibold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
+            <span>🎓 1 курс</span>
+          </div>
+          <div class="grid grid-cols-2 gap-2">
+            <button data-group-id="27021" class="group-select-option py-2 px-3 rounded-xl border text-xs font-semibold text-center transition-all">
+              ПМИб-1301
+            </button>
+            <button data-group-id="27022" class="group-select-option py-2 px-3 rounded-xl border text-xs font-semibold text-center transition-all">
+              ПМИб-1302
+            </button>
+          </div>
+        </div>
+
+        <!-- 2 курс -->
+        <div class="p-3 rounded-2xl bg-slate-800/60 border border-slate-700/60 space-y-2">
+          <div class="text-[11px] font-semibold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
+            <span>🎓 2 курс</span>
+          </div>
+          <div class="grid grid-cols-1 gap-2">
+            <button data-group-id="26498" class="group-select-option py-2 px-3 rounded-xl border text-xs font-semibold text-center transition-all">
+              ПМИб-2301
+            </button>
+          </div>
+        </div>
+
+        <!-- 3 курс -->
+        <div class="p-3 rounded-2xl bg-slate-800/60 border border-slate-700/60 space-y-2">
+          <div class="text-[11px] font-semibold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
+            <span>🎓 3 курс</span>
+          </div>
+          <div class="grid grid-cols-1 gap-2">
+            <button data-group-id="26256" class="group-select-option py-2 px-3 rounded-xl border text-xs font-semibold text-center transition-all">
+              ПМИб-3301
+            </button>
+          </div>
+        </div>
+
+        <!-- 4 курс -->
+        <div class="p-3 rounded-2xl bg-slate-800/60 border border-slate-700/60 space-y-2">
+          <div class="text-[11px] font-semibold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
+            <span>🎓 4 курс</span>
+          </div>
+          <div class="grid grid-cols-1 gap-2">
+            <button data-group-id="26418" class="group-select-option py-2 px-3 rounded-xl border text-xs font-semibold text-center transition-all">
+              ПМИб-4301
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script>
     const tg = window.Telegram?.WebApp;
     if (tg) {
@@ -144,10 +217,25 @@
       tg.expand();
     }
 
+    const GROUPS_DICT = {
+      '27021': { name: 'ПМИб-1301', course: 1, code: '1301' },
+      '27022': { name: 'ПМИб-1302', course: 1, code: '1302' },
+      '26498': { name: 'ПМИб-2301', course: 2, code: '2301' },
+      '26256': { name: 'ПМИб-3301', course: 3, code: '3301' },
+      '26418': { name: 'ПМИб-4301', course: 4, code: '4301' },
+    };
+    let selectedGroupId = localStorage.getItem('vyatsu_group_id') || '27021';
+    if (!GROUPS_DICT[selectedGroupId]) selectedGroupId = '27021';
+
     let allLessons = [];
     let selectedDateStr = null;
     let selectedSubgroup = localStorage.getItem('vyatsu_subgroup') || 'all';
     if (selectedSubgroup === '3') selectedSubgroup = 'all';
+
+    function matchesGroup(lesson, gid) {
+      if (lesson.group_id) return String(lesson.group_id) === String(gid);
+      return gid === '27021';
+    }
 
     const WEEKDAYS_SHORT = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
     const MONTHS_RU = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
@@ -182,6 +270,7 @@
         const dd = String(today.getDate()).padStart(2, '0');
         selectedDateStr = `${yyyy}-${mm}-${dd}`;
 
+        setupGroupModal();
         setupSubgroupButtons();
         renderDaysBar();
         renderLessons();
@@ -195,6 +284,50 @@
           </div>
         `;
       }
+    }
+
+    function setupGroupModal() {
+      const modal = document.getElementById('group-modal');
+      const openBtn = document.getElementById('group-select-btn');
+      const closeBtn = document.getElementById('close-group-modal-btn');
+      const badge = document.getElementById('current-group-badge');
+      const options = document.querySelectorAll('.group-select-option');
+
+      const currentInfo = GROUPS_DICT[selectedGroupId] || GROUPS_DICT['27021'];
+      if (badge) badge.innerText = currentInfo.name;
+
+      options.forEach(opt => {
+        const gid = opt.dataset.groupId;
+        if (gid === selectedGroupId) {
+          opt.className = 'group-select-option py-2 px-3 rounded-xl border border-blue-500 bg-blue-500 text-white font-bold text-xs text-center shadow-md shadow-blue-500/25 scale-[1.02]';
+        } else {
+          opt.className = 'group-select-option py-2 px-3 rounded-xl border border-slate-700 bg-slate-800/80 text-slate-300 hover:text-white hover:border-slate-600 font-medium text-xs text-center transition-all';
+        }
+
+        opt.onclick = () => {
+          if (tg && tg.HapticFeedback) tg.HapticFeedback.selectionChanged();
+          selectedGroupId = gid;
+          localStorage.setItem('vyatsu_group_id', gid);
+          modal.classList.add('hidden');
+          setupGroupModal();
+          renderDaysBar();
+          renderLessons();
+          updateCalendarModalBadge();
+        };
+      });
+
+      openBtn.onclick = () => {
+        if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light');
+        modal.classList.remove('hidden');
+      };
+
+      closeBtn.onclick = () => {
+        modal.classList.add('hidden');
+      };
+
+      modal.onclick = (e) => {
+        if (e.target === modal) modal.classList.add('hidden');
+      };
     }
 
     function setupSubgroupButtons() {
@@ -219,7 +352,8 @@
     }
 
     function getDatesList() {
-      if (!allLessons || allLessons.length === 0) {
+      const groupLessons = allLessons.filter(l => matchesGroup(l, selectedGroupId));
+      if (!groupLessons || groupLessons.length === 0) {
         const today = new Date();
         const dates = [];
         for (let i = -2; i < 12; i++) {
@@ -234,10 +368,10 @@
       }
 
       // Находим полный диапазон дат (от понедельника 1-й недели до конца 2-й недели)
-      let minDateStr = allLessons[0].start.split('T')[0];
-      let maxDateStr = allLessons[0].start.split('T')[0];
+      let minDateStr = groupLessons[0].start.split('T')[0];
+      let maxDateStr = groupLessons[0].start.split('T')[0];
 
-      allLessons.forEach(l => {
+      groupLessons.forEach(l => {
         const d = l.start.split('T')[0];
         if (d < minDateStr) minDateStr = d;
         if (d > maxDateStr) maxDateStr = d;
@@ -282,9 +416,11 @@
         const isSelected = dStr === selectedDateStr;
         const isToday = dStr === todayStr;
 
-        // Проверяем, есть ли занятия в этот день
+        // Проверяем, есть ли занятия в этот день для выбранной группы и подгруппы
         const hasLessons = allLessons.some(l => 
-          l.start.startsWith(dStr) && matchesSubgroup(l, selectedSubgroup)
+          matchesGroup(l, selectedGroupId) &&
+          l.start.startsWith(dStr) &&
+          matchesSubgroup(l, selectedSubgroup)
         );
 
         const btn = document.createElement('button');
@@ -360,7 +496,10 @@
       const weekdayIndex = (dateObj.getDay() + 6) % 7;
 
       const dayLessons = allLessons
+        .filter(l => matchesGroup(l, selectedGroupId))
         .filter(l => l.start.startsWith(selectedDateStr))
+        .filter(l => matchesSubgroup(l, selectedSubgroup))
+        .sort((a, b) => a.start.localeCompare(b.start));
         .filter(l => matchesSubgroup(l, selectedSubgroup))
         .sort((a, b) => a.start.localeCompare(b.start));
 
@@ -455,22 +594,26 @@
     // Логика календаря
     function getCalUrl() {
       const host = window.location.origin;
+      const ginfo = GROUPS_DICT[selectedGroupId] || GROUPS_DICT['27021'];
+      const code = ginfo.code;
       if (selectedSubgroup === '1') {
-        return `${host}/calendar/subgroup1.ics`;
+        return `${host}/calendar/${code}_sg1.ics`;
       } else if (selectedSubgroup === '2') {
-        return `${host}/calendar/subgroup2.ics`;
+        return `${host}/calendar/${code}_sg2.ics`;
       }
-      return `${host}/calendar/all.ics`;
+      return `${host}/calendar/${code}.ics`;
     }
 
     function getCdnCalUrl() {
       const base = 'https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main';
+      const ginfo = GROUPS_DICT[selectedGroupId] || GROUPS_DICT['27021'];
+      const code = ginfo.code;
       if (selectedSubgroup === '1') {
-        return `${base}/vyatsu_subgroup1.ics`;
+        return `${base}/vyatsu_${code}_sg1.ics`;
       } else if (selectedSubgroup === '2') {
-        return `${base}/vyatsu_subgroup2.ics`;
+        return `${base}/vyatsu_${code}_sg2.ics`;
       }
-      return `${base}/vyatsu.ics`;
+      return `${base}/vyatsu_${code}.ics`;
     }
 
     function openSafeLink(url) {
@@ -483,8 +626,10 @@
 
     function updateCalendarModalBadge() {
       const badge = document.getElementById('modal-sg-badge');
+      const ginfo = GROUPS_DICT[selectedGroupId] || GROUPS_DICT['27021'];
       if (badge) {
-        badge.innerText = selectedSubgroup === 'all' ? 'Все пары' : `${selectedSubgroup} подгруппа`;
+        const sgText = selectedSubgroup === 'all' ? 'Все пары' : `${selectedSubgroup} подгруппа`;
+        badge.innerText = `${ginfo.name} • ${sgText}`;
       }
     }
 
@@ -541,9 +686,10 @@
       outlookBtn.addEventListener('click', () => {
         if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light');
         const cdnUrl = getCdnCalUrl();
+        const ginfo = GROUPS_DICT[selectedGroupId] || GROUPS_DICT['27021'];
         const calTitle = selectedSubgroup === 'all' 
-          ? 'Расписание ВятГУ ПМИб-1301' 
-          : `ВятГУ ПМИб-1301 (${selectedSubgroup} подгр.)`;
+          ? `Расписание ВятГУ ${ginfo.name}` 
+          : `ВятГУ ${ginfo.name} (${selectedSubgroup} подгр.)`;
         const oUrl = `https://outlook.live.com/calendar/0/addcalendar?url=${encodeURIComponent(cdnUrl)}&name=${encodeURIComponent(calTitle)}`;
         openSafeLink(oUrl);
       });

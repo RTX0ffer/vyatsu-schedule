@@ -1,0 +1,451 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ПМИб-4301
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:51fc563f472fe38d6782d0f5145e1282@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Здоровенко М.Ю.\nМесто: корп. 14\, ауд. 234
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Уравнения математической физики (Лабораторная работа)
+UID:b679beafe4c1ec397017a81de4dc0e6e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Машинное обучение (Лекция)
+UID:4bd15d8b94ebe70676408422de4abba3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лялин А.В.\nМесто: корп. 14\, ауд. 309
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 309
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Машинное обучение (Лабораторная работа)
+UID:9c5ad44a6b14119ef8245aa698b84269@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бояринцева Н.А.\nМесто: корп. 14\, ауд. 221
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Вычислительная геометрия (Лекция)
+UID:da2bb0b32cef54cdaff2e23bf921102f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бояринцева Н.А.\nМесто: корп. 14\, ауд. 130
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Вычислительная геометрия (Лабораторная работа)
+UID:1d1ebb89a43578bd6a87d874c7cce333@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чупраков П.Г.\nМесто: корп. 14\, ауд. 136
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 136
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математические модели в естествознании (Лекция)
+UID:1e554095e07a11f2e4a024e3eb021c1d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:3a9bae8cb573416d92213f9ee1613874@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:bb2095bbcc714e29dc127b3476d99121@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чупраков П.Г.\nМесто: корп. 14\, ауд. 136
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 136
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Параллельное программирование (Лабораторная работа)
+UID:240a00e0f8f8ecac8f74bce5f7d50834@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:7d1e106a8169be808c1ce42117413069@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:65c00aa7e3b695f5672ce367a3fdeeed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лялин А.В.\nМесто: корп. 14\, ауд. 309
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 309
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Машинное обучение (Лабораторная работа)
+UID:9e859c19b65e4d82b7034c195f79326e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бабенко М.В.\nМесто: корп. 14\, ауд. 131
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Методы оптимизации и исследование операций (Лекция)
+UID:8c493c76cbfb650f49bbeef34aba5085@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бабенко М.В.\nМесто: корп. 14\, ауд. 131
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методы оптимизации и исследование операций (Лабораторная работа)
+UID:5aef36f76bd60e6e62d0eed3a47d7a50@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:a375772364c58a3b3d17b9a1558dc143@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:0836e48aca238b493a2aee2ec67008f8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Белиц А.Б.\nМесто: корп. 14\, ауд. 131
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Протоколы компьютерного взаимодействия (Лабораторная работа)
+UID:a068f72979eb62e5fbd262f8264e9e5d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бояринцева Н.А.\nМесто: корп. 14\, ауд. 130
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Вычислительная геометрия (Лабораторная работа)
+UID:96cb1ed0167b34d3e4fc15199b039f9c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чупраков П.Г.\nМесто: корп. 14\, ауд. 136
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 136
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Параллельное программирование (Лабораторная работа)
+UID:3fa5f2c0406deba7611654e7907bd911@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:82c908168e8e3369641cfeded5c82397@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:c2a244b33b76477c34467e58a62dfff6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Здоровенко М.Ю.\nМесто: корп. 14\, ауд. 234
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Уравнения математической физики (Лекция)
+UID:b794cada6d72f067403eec720ab77e88@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:c3bfae98271f9405e87890c6c77644e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:a463b275e5fe29b8cbd2f3e0025ddb23@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:e57ee1338c29d6bf234f2c3e8a58ac53@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чупраков П.Г.\nМесто: корп. 16\, ауд. 300
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Параллельное программирование (Лекция)
+UID:8cc049e9016e6737c698a1a111a24707@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-136_
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-136_
+UID:ebfa48a407c70f6ff9e37ab9ea4629f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:60cfa6315f5e98f182b52bf5ef8983be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:ae371e76874bc2d09e937e49d5b7c27a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лялин А.В.\nМесто: корп. 14\, ауд. 210
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Машинное обучение (Лекция)
+UID:5d8843733f5f4c3cdd2cb6d773d748d1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:c5371e3d4bd8ea6dfdfb305f4c7205e1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Белиц А.Б.\nМесто: корп. 14\, ауд. 210
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Протоколы компьютерного взаимодействия (Лекция)
+UID:14020617fd63afcfce48257cead1dfbf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чупраков П.Г.
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математические модели в естествознании (Лабораторная работа)
+UID:1906536307b5c8d9c784fd82d72af33b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:7c51335d7421088c884f1b1f2ecdedb0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Белиц А.Б.\nМесто: корп. 14\, ауд. 131
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Протоколы компьютерного взаимодействия (Лабораторная работа)
+UID:364c67cbf16d0455d8e8e6f3b70f3fd2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-136_
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-136_
+UID:f00e3633ad914be144508f9382653e9a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:be29c7906877a7622677af02c6edfedb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бабенко М.В.\nМесто: корп. 14\, ауд. 131
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы оптимизации и исследование операций (Лабораторная работа)
+UID:b6b4ce5381378bc47d287a6c4c0d9b08@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Здоровенко М.Ю.\nМесто: корп. 14\, ауд. 234
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Уравнения математической физики (Лабораторная работа)
+UID:25d2a939d61bb377067a384c40b02a04@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261104T101855Z
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, технологическая (проектно-технологическая) практика 14-140_
+UID:3adddcc4adf200375c1944a1035fccfd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261104T101855Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бабенко М.В.\nМесто: корп. 16\, ауд. 311
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261104T101855Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Методы оптимизации и исследование операций (Лекция)
+UID:079cff4a3aff464d8bedb2c261f75ac7@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR
