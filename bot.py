@@ -603,11 +603,47 @@ async def callback_send_ics_file(callback: types.CallbackQuery):
 
 # WebApp & API эндпоинты
 async def handle_index(request):
-    """Отдает главную страницу Mini App."""
+    """Отдает главную страницу Mini App с мгновенно встроенными данными (0 мс задержки)."""
     template_path = os.path.join(os.path.dirname(__file__), 'templates', 'index.html')
     if os.path.exists(template_path):
         with open(template_path, 'r', encoding='utf-8') as f:
-            return web.Response(text=f.read(), content_type='text/html')
+            html = f.read()
+
+        lessons = get_cached_lessons()
+        initial_data = {
+            'lessons': lessons,
+            'count': len(lessons),
+            'server_url': WEBAPP_URL,
+            'groups': [
+                {
+                    'id': gid,
+                    'name': ginfo['name'],
+                    'course': ginfo['course'],
+                    'code': ginfo['code'],
+                    'full_name': ginfo['full_name']
+                }
+                for gid, ginfo in SUPPORTED_GROUPS.items()
+            ],
+            'default_group_id': DEFAULT_GROUP_ID
+        }
+        json_str = json.dumps(initial_data, ensure_ascii=False)
+        injection = f"<script>window.__INITIAL_SCHEDULE__ = {json_str};</script>"
+
+        if "<!-- INITIAL_DATA_PLACEHOLDER -->" in html:
+            html = html.replace("<!-- INITIAL_DATA_PLACEHOLDER -->", injection)
+        else:
+            html = html.replace("</head>", f"{injection}\n</head>")
+
+        return web.Response(
+            text=html,
+            content_type='text/html',
+            charset='utf-8',
+            headers={
+                'Cache-Control': 'no-cache, no-store, must-revalidate',
+                'Pragma': 'no-cache',
+                'Expires': '0'
+            }
+        )
     return web.Response(text="Шаблон Mini App не найден.", status=404)
 
 

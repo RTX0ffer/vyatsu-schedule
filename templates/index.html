@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Расписание ВятГУ</title>
+  <!-- INITIAL_DATA_PLACEHOLDER -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+  <link rel="preconnect" href="https://telegram.org" crossorigin>
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -35,32 +39,49 @@
 <body class="min-h-screen pb-12 flex flex-col">
 
   <!-- Шапка -->
-  <header class="sticky top-0 z-20 backdrop-blur-md bg-opacity-80 px-4 pt-3 pb-2 border-b border-white/10" style="background-color: rgba(var(--bg), 0.85);">
-    <div class="flex items-center justify-between mb-3">
-      <div>
-        <h1 class="text-xl font-bold tracking-tight flex items-center gap-2">
-          <span>📚 ВятГУ</span>
-          <button id="group-select-btn" class="text-xs px-2.5 py-1 rounded-full font-medium bg-blue-500/20 hover:bg-blue-500/30 text-blue-400 border border-blue-500/30 flex items-center gap-1.5 active:scale-95 transition-transform" title="Выбрать курс и группу">
-            <span id="current-group-badge">ПМИб-1301</span>
-            <i class="fa-solid fa-chevron-down text-[9px] opacity-70"></i>
-          </button>
-        </h1>
+  <header class="sticky top-0 z-20 backdrop-blur-md px-3.5 pt-2.5 pb-2 border-b border-slate-800/80 bg-slate-900/90" style="background-color: rgba(var(--bg), 0.90);">
+    <!-- Верхняя строка: Бренд слева | Выбор группы и Календарь справа -->
+    <div class="flex items-center justify-between gap-2 mb-2">
+      <!-- Логотип и Название -->
+      <div class="flex items-center gap-2 shrink-0">
+        <span class="text-xl">📚</span>
+        <div class="leading-none">
+          <span class="text-sm font-extrabold tracking-tight text-white">ВятГУ</span>
+          <span class="block text-[10px] text-slate-400 font-medium">Расписание</span>
+        </div>
       </div>
-      <div class="flex items-center gap-2">
-        <button id="cal-modal-btn" class="px-2.5 py-1.5 rounded-full text-xs font-semibold bg-slate-800 text-blue-400 border border-blue-500/30 shadow-sm active:scale-95 transition-transform flex items-center gap-1.5 hover:bg-slate-700">
-          <i class="fa-solid fa-calendar-plus text-xs"></i> В календарь
+
+      <!-- Кнопки верхней строки: Выбор группы + В календарь -->
+      <div class="flex items-center gap-1.5 shrink-0">
+        <!-- Кнопка выбора группы -->
+        <button id="group-select-btn" class="px-2.5 py-1.5 rounded-xl text-xs font-semibold bg-blue-500/15 hover:bg-blue-500/25 active:bg-blue-500/30 text-blue-400 border border-blue-500/30 flex items-center gap-1.5 active:scale-95 transition-all shadow-sm" title="Выбрать курс и группу">
+          <span class="text-[11px]">🎓</span>
+          <span id="current-group-badge" class="font-bold">ПМИб-1301</span>
+          <i class="fa-solid fa-chevron-down text-[9px] opacity-70"></i>
         </button>
-        <button id="today-btn" class="px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-500 text-white shadow-sm active:scale-95 transition-transform flex items-center gap-1.5">
-          <i class="fa-solid fa-calendar-day text-[11px]"></i> Сегодня
+
+        <!-- Кнопка "В календарь" -->
+        <button id="cal-modal-btn" class="px-2.5 py-1.5 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 active:bg-slate-600 text-slate-200 border border-slate-700 shadow-sm active:scale-95 transition-transform flex items-center gap-1.5 whitespace-nowrap" title="Синхронизация с календарем телефона">
+          <i class="fa-solid fa-calendar-plus text-blue-400 text-xs"></i>
+          <span>В календарь</span>
         </button>
       </div>
     </div>
 
-    <!-- Выбор подгруппы -->
-    <div class="flex p-1 rounded-xl bg-slate-800/80 border border-slate-700/60 mb-2">
-      <button data-subgroup="all" class="subgroup-btn flex-1 py-1.5 text-xs font-medium rounded-lg text-center transition-all bg-blue-500 text-white shadow-sm">Все</button>
-      <button data-subgroup="1" class="subgroup-btn flex-1 py-1.5 text-xs font-medium rounded-lg text-center transition-all text-slate-400 hover:text-white">1 подгруппа</button>
-      <button data-subgroup="2" class="subgroup-btn flex-1 py-1.5 text-xs font-medium rounded-lg text-center transition-all text-slate-400 hover:text-white">2 подгруппа</button>
+    <!-- Вторая строка: Селектор подгрупп (Все / 1 / 2) + Кнопка "Сегодня" -->
+    <div class="flex items-center gap-2 mb-2">
+      <!-- Выбор подгруппы -->
+      <div class="flex p-0.5 rounded-xl bg-slate-800/90 border border-slate-700/60 flex-1">
+        <button data-subgroup="all" class="subgroup-btn flex-1 py-1.5 text-xs font-medium rounded-lg text-center transition-all bg-blue-500 text-white shadow-sm">Все</button>
+        <button data-subgroup="1" class="subgroup-btn flex-1 py-1.5 text-xs font-medium rounded-lg text-center transition-all text-slate-400 hover:text-white">1 подгруппа</button>
+        <button data-subgroup="2" class="subgroup-btn flex-1 py-1.5 text-xs font-medium rounded-lg text-center transition-all text-slate-400 hover:text-white">2 подгруппа</button>
+      </div>
+
+      <!-- Кнопка быстрого перехода к сегодняшнему дню -->
+      <button id="today-btn" class="px-3 py-1.5 rounded-xl text-xs font-semibold bg-blue-500/20 hover:bg-blue-500/30 text-blue-400 border border-blue-500/40 shadow-sm active:scale-95 transition-transform flex items-center gap-1.5 whitespace-nowrap shrink-0" title="Перейти к сегодняшнему дню">
+        <i class="fa-solid fa-calendar-day text-[11px]"></i>
+        <span>Сегодня</span>
+      </button>
     </div>
 
     <!-- Горизонтальная лента дней -->
@@ -70,8 +91,9 @@
   <!-- Список занятий выбранного дня -->
   <main class="flex-1 px-4 mt-3">
     <div id="lessons-list" class="space-y-3">
-      <div class="flex justify-center items-center py-16">
-        <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
+      <div class="flex flex-col justify-center items-center py-16 gap-3 text-slate-400">
+        <div class="animate-spin rounded-full h-8 w-8 border-2 border-blue-500 border-t-transparent"></div>
+        <span class="text-xs font-medium">Загрузка расписания...</span>
       </div>
     </div>
   </main>
@@ -255,30 +277,129 @@
     };
 
     async function init() {
+      // 1. Устанавливаем выбранную дату на сегодня
+      const today = new Date();
+      const yyyy = today.getFullYear();
+      const mm = String(today.getMonth() + 1).padStart(2, '0');
+      const dd = String(today.getDate()).padStart(2, '0');
+      selectedDateStr = `${yyyy}-${mm}-${dd}`;
+
+      // 2. Инициализируем UI и кнопки сразу (клики работают мгновенно без ожидания сети)
+      setupGroupModal();
+      setupSubgroupButtons();
+      setupTodayButton();
+      setupCalendarModal();
+
+      // 3. Мгновенная загрузка данных (0 мс задержки)
+      let loaded = false;
+
+      // Источник 1: Встроенные данные от сервера в текущем HTML
+      if (window.__INITIAL_SCHEDULE__ && Array.isArray(window.__INITIAL_SCHEDULE__.lessons) && window.__INITIAL_SCHEDULE__.lessons.length > 0) {
+        allLessons = window.__INITIAL_SCHEDULE__.lessons;
+        if (window.__INITIAL_SCHEDULE__.groups) {
+          window.__INITIAL_SCHEDULE__.groups.forEach(g => {
+            GROUPS_DICT[g.id] = { name: g.name, course: g.course, code: g.code };
+          });
+        }
+        try {
+          localStorage.setItem('vyatsu_schedule_cache_v2', JSON.stringify(window.__INITIAL_SCHEDULE__));
+        } catch (e) {}
+        loaded = true;
+      } else {
+        // Источник 2: Локальное хранилище браузера (если пользователь уже заходил)
+        try {
+          const cachedStr = localStorage.getItem('vyatsu_schedule_cache_v2');
+          if (cachedStr) {
+            const cached = JSON.parse(cachedStr);
+            if (cached && Array.isArray(cached.lessons) && cached.lessons.length > 0) {
+              allLessons = cached.lessons;
+              if (cached.groups) {
+                cached.groups.forEach(g => {
+                  GROUPS_DICT[g.id] = { name: g.name, course: g.course, code: g.code };
+                });
+              }
+              loaded = true;
+            }
+          }
+        } catch (e) {}
+      }
+
+      if (loaded) {
+        // Мгновенная отрисовка: пользователь сразу видит расписание без спиннера
+        setupGroupModal();
+        renderDaysBar();
+        renderLessons();
+
+        // Фоновая проверка обновлений без блокировки экрана
+        refreshScheduleInBackground();
+      } else {
+        // Первый запуск без встроенных данных — загружаем по сети
+        await fetchScheduleData();
+      }
+    }
+
+    async function fetchScheduleData() {
       try {
-        const resp = await fetch('/api/schedule');
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 8000);
+        const resp = await fetch('/api/schedule', { signal: controller.signal });
+        clearTimeout(timeoutId);
+
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
         const data = await resp.json();
         allLessons = data.lessons || [];
 
-        const today = new Date();
-        const yyyy = today.getFullYear();
-        const mm = String(today.getMonth() + 1).padStart(2, '0');
-        const dd = String(today.getDate()).padStart(2, '0');
-        selectedDateStr = `${yyyy}-${mm}-${dd}`;
+        if (data.groups) {
+          data.groups.forEach(g => {
+            GROUPS_DICT[g.id] = { name: g.name, course: g.course, code: g.code };
+          });
+        }
+
+        try {
+          localStorage.setItem('vyatsu_schedule_cache_v2', JSON.stringify(data));
+        } catch (e) {}
 
         setupGroupModal();
-        setupSubgroupButtons();
         renderDaysBar();
         renderLessons();
-        setupTodayButton();
-        setupCalendarModal();
       } catch (err) {
         document.getElementById('lessons-list').innerHTML = `
-          <div class="text-center py-12 text-slate-400">
-            <i class="fa-solid fa-triangle-exclamation text-3xl text-rose-500 mb-3"></i>
-            <p>Не удалось загрузить данные расписания.</p>
+          <div class="text-center py-12 px-4 bg-slate-800/40 rounded-3xl border border-slate-700/50 mt-4 space-y-3">
+            <div class="w-14 h-14 rounded-full bg-rose-500/10 text-rose-400 flex items-center justify-center mx-auto text-2xl">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <h3 class="text-sm font-bold text-white">Не удалось загрузить данные</h3>
+            <p class="text-xs text-slate-400 max-w-xs mx-auto">Проверьте интернет-соединение или повторите попытку позже.</p>
+            <button onclick="fetchScheduleData()" class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 active:scale-95 text-white text-xs font-semibold shadow-md transition-all">
+              <i class="fa-solid fa-rotate-right mr-1.5"></i> Повторить
+            </button>
           </div>
         `;
+      }
+    }
+
+    async function refreshScheduleInBackground() {
+      try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 6000);
+        const resp = await fetch('/api/schedule', { signal: controller.signal });
+        clearTimeout(timeoutId);
+
+        if (!resp.ok) return;
+        const data = await resp.json();
+        if (data && Array.isArray(data.lessons) && data.lessons.length > 0) {
+          const newLessons = data.lessons;
+          if (JSON.stringify(newLessons) !== JSON.stringify(allLessons)) {
+            allLessons = newLessons;
+            try {
+              localStorage.setItem('vyatsu_schedule_cache_v2', JSON.stringify(data));
+            } catch (e) {}
+            renderDaysBar();
+            renderLessons();
+          }
+        }
+      } catch (e) {
+        // Фоновая ошибка игнорируется, у пользователя уже есть актуальный интерфейс
       }
     }
 
