@@ -1,0 +1,20 @@
+name: Keep Render Web Service Warm
+
+on:
+  schedule:
+    # Запуск каждые 14 минут (Render засыпает через 15 минут неактивности)
+    - cron: '*/14 * * * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping WebApp to keep it awake
+        run: |
+          TARGET="${{ secrets.WEBAPP_URL }}"
+          if [ -z "$TARGET" ]; then
+            TARGET="https://vyatsu-schedule-bot.onrender.com"
+          fi
+          echo "Pinging $TARGET/healthz to prevent idle sleep..."
+          curl -s -f -m 15 "$TARGET/healthz" || echo "Ping request sent."

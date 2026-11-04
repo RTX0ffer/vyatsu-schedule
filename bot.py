@@ -146,6 +146,27 @@ async def background_cache_worker():
         await sync_remote_cache()
 
 
+async def keep_alive_worker():
+    """Каждые 8 минут отправляет HTTP-запрос на собственный URL, чтобы бесплатный сервер Render не уходил в спящий режим."""
+    if not WEBAPP_URL:
+        return
+    health_url = f"{WEBAPP_URL}/healthz"
+    logging.info(f"Keep-alive воркер запущен: пинг каждые 8 минут -> {health_url}")
+    # Небольшая пауза перед первым пингом, чтобы веб-сервер успел запуститься
+    await asyncio.sleep(60)
+    while True:
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(health_url, timeout=10) as resp:
+                    if resp.status == 200:
+                        logging.info("Keep-alive пинг успешен: сервер бодрствует.")
+                    else:
+                        logging.warning(f"Keep-alive пинг вернул статус {resp.status}")
+        except Exception as e:
+            logging.warning(f"Keep-alive пинг не удался: {e}")
+        await asyncio.sleep(480)  # 8 минут (Render засыпает через 15 минут)
+
+
 def format_day_schedule(target_date: datetime.date, group_id: str = DEFAULT_GROUP_ID):
     """Форматирует расписание на день в безопасном формате HTML для выбранной группы."""
     all_lessons = get_cached_lessons()
@@ -773,6 +794,7 @@ async def main():
     await start_webserver()
     bot = Bot(token=BOT_TOKEN)
     asyncio.create_task(background_cache_worker())
+    asyncio.create_task(keep_alive_worker())
 
     # Регистрация списка команд в Telegram (кнопка Меню)
     commands = [
