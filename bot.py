@@ -39,7 +39,6 @@ ICS_URL = f"{CDN_BASE_URL}/vyatsu.ics"
 
 SUPPORTED_GROUPS = {
     '27021': {'name': 'ПМИб-1301', 'course': 1, 'code': '1301', 'full_name': 'ПМИб-1301-52-00'},
-    '27022': {'name': 'ПМИб-1302', 'course': 1, 'code': '1302', 'full_name': 'ПМИб-1302-52-00'},
     '26498': {'name': 'ПМИб-2301', 'course': 2, 'code': '2301', 'full_name': 'ПМИб-2301-52-00'},
     '26256': {'name': 'ПМИб-3301', 'course': 3, 'code': '3301', 'full_name': 'ПМИб-3301-52-00'},
     '26418': {'name': 'ПМИб-4301', 'course': 4, 'code': '4301', 'full_name': 'ПМИб-4301-52-00'},
@@ -264,8 +263,7 @@ def get_group_selection_keyboard():
     """Генерирует инлайн-клавиатуру для выбора курса и группы."""
     inline_keyboard = [
         [
-            InlineKeyboardButton(text="🎓 1 курс: ПМИб-1301", callback_data="set_grp_27021"),
-            InlineKeyboardButton(text="ПМИб-1302", callback_data="set_grp_27022")
+            InlineKeyboardButton(text="🎓 1 курс: ПМИб-1301", callback_data="set_grp_27021")
         ],
         [
             InlineKeyboardButton(text="🎓 2 курс: ПМИб-2301", callback_data="set_grp_26498")

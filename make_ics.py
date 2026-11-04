@@ -21,7 +21,6 @@ logging.basicConfig(
 SCHEDULE_PAGE_URL = 'https://old.vyatsu.ru/studentu-1/spravochnaya-informatsiya/raspisanie-zanyatiy-dlya-studentov.html'
 SUPPORTED_GROUPS = {
     '27021': {'name': 'ПМИб-1301', 'course': 1, 'full_name': 'ПМИб-1301-52-00', 'code': '1301'},
-    '27022': {'name': 'ПМИб-1302', 'course': 1, 'full_name': 'ПМИб-1302-52-00', 'code': '1302'},
     '26498': {'name': 'ПМИб-2301', 'course': 2, 'full_name': 'ПМИб-2301-52-00', 'code': '2301'},
     '26256': {'name': 'ПМИб-3301', 'course': 3, 'full_name': 'ПМИб-3301-52-00', 'code': '3301'},
     '26418': {'name': 'ПМИб-4301', 'course': 4, 'full_name': 'ПМИб-4301-52-00', 'code': '4301'},
@@ -251,13 +250,17 @@ def update_schedule():
                 cache['processed_urls'][url] = content_hash
                 has_changes = True
 
-    # Очистка устаревших пар: оставляем за последние 30 дней и все будущие
+    # Очистка устаревших пар: оставляем за последние 30 дней, все будущие и только для поддерживаемых групп
     threshold_date = (datetime.datetime.now(TIMEZONE) - datetime.timedelta(days=30)).isoformat()
     filtered_lessons = {
         uid: item for uid, item in cache['lessons'].items()
-        if item.get('start', '') >= threshold_date
+        if item.get('start', '') >= threshold_date and item.get('group_id', DEFAULT_GROUP_ID) in SUPPORTED_GROUPS
     }
     cache['lessons'] = filtered_lessons
+    cache['processed_urls'] = {
+        url: h for url, h in cache['processed_urls'].items()
+        if any(f"Group/{gid}_" in url for gid in SUPPORTED_GROUPS)
+    }
 
     save_cache(cache)
     all_lessons = list(cache['lessons'].values())
