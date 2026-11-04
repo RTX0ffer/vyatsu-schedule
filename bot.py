@@ -7,14 +7,17 @@ import time
 from zoneinfo import ZoneInfo
 
 import aiohttp
-from aiogram import Bot, Dispatcher, types
+from aiogram import Bot, Dispatcher, F, types
 from aiogram.enums import ParseMode
-from aiogram.filters import Command
+from aiogram.filters import Command, or_f
 from aiogram.types import (
+    BotCommand,
     BufferedInputFile,
     InlineKeyboardButton,
     InlineKeyboardMarkup,
+    KeyboardButton,
     MenuButtonWebApp,
+    ReplyKeyboardMarkup,
     WebAppInfo,
 )
 from aiohttp import web
@@ -161,44 +164,84 @@ def format_day_schedule(target_date: datetime.date):
     return "\n".join(text).strip()
 
 
-@dp.message(Command('start', 'help'))
-async def cmd_start(message: types.Message):
-    kb = None
+def get_main_keyboard():
+    """Создает постоянную клавиатуру с кнопками под полем ввода."""
+    buttons = []
     if WEBAPP_URL:
-        kb = InlineKeyboardMarkup(
+        buttons.append([
+            KeyboardButton(text="📱 Открыть расписание (Mini App)", web_app=WebAppInfo(url=WEBAPP_URL))
+        ])
+    buttons.append([
+        KeyboardButton(text="📅 Сегодня"),
+        KeyboardButton(text="📆 Завтра")
+    ])
+    buttons.append([
+        KeyboardButton(text="🗓 На неделю"),
+        KeyboardButton(text="📲 Календарь")
+    ])
+    return ReplyKeyboardMarkup(
+        keyboard=buttons,
+        resize_keyboard=True,
+        is_persistent=True,
+        input_field_placeholder="Выберите действие в меню..."
+    )
+
+
+@dp.message(or_f(Command('start', 'help'), F.text.casefold().in_({'меню', 'start', 'помощь', 'главное меню'})))
+async def cmd_start(message: types.Message):
+    inline_kb = None
+    if WEBAPP_URL:
+        inline_kb = InlineKeyboardMarkup(
             inline_keyboard=[
                 [InlineKeyboardButton(text="📱 Открыть расписание (Mini App)", web_app=WebAppInfo(url=WEBAPP_URL))],
-                [InlineKeyboardButton(text="📅 Скачать календарь", url=f"{WEBAPP_URL}/calendar.ics")]
+                [InlineKeyboardButton(text="📅 Календарь и подписка (.ics)", callback_data="open_calendar_cmd")]
             ]
         )
 
     await message.answer(
         "👋 Привет! Я бот с расписанием занятий ВятГУ.\n\n"
-        "Вы можете открыть современный <b>Mini App</b> прямо в Telegram или использовать команды:\n"
-        "▫️ /today — Пары на сегодня\n"
-        "▫️ /tomorrow — Пары на завтра\n"
-        "▫️ /week — Расписание на текущую неделю\n"
-        "▫️ /calendar — Подписка на календарь в iPhone / Android\n",
+        "Нажимайте на удобные кнопки внизу экрана или используйте команды:\n"
+        "▫️ <b>📅 Сегодня</b> — Пары на сегодня\n"
+        "▫️ <b>📆 Завтра</b> — Пары на завтра\n"
+        "▫️ <b>🗓 На неделю</b> — Расписание на текущую неделю\n"
+        "▫️ <b>📲 Календарь</b> — Подписка и перенос пар в смартфон\n"
+        "▫️ <b>📱 Mini App</b> — Интерактивное расписание прямо в Telegram\n",
         parse_mode=ParseMode.HTML,
-        reply_markup=kb
+        reply_markup=get_main_keyboard()
     )
 
 
-@dp.message(Command('today'))
+@dp.message(or_f(Command('today'), F.text.casefold().in_({'📅 сегодня', 'сегодня'})))
 async def cmd_today(message: types.Message):
     today = datetime.datetime.now(TIMEZONE).date()
     text = format_day_schedule(today)
-    await message.answer(text, parse_mode=ParseMode.HTML)
+    inline_kb = None
+    if WEBAPP_URL:
+        inline_kb = InlineKeyboardMarkup(
+            inline_keyboard=[[
+                InlineKeyboardButton(text="📆 На завтра", callback_data="quick_tomorrow"),
+                InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))
+            ]]
+        )
+    await message.answer(text, parse_mode=ParseMode.HTML, reply_markup=inline_kb)
 
 
-@dp.message(Command('tomorrow'))
+@dp.message(or_f(Command('tomorrow'), F.text.casefold().in_({'📆 завтра', 'завтра'})))
 async def cmd_tomorrow(message: types.Message):
     tomorrow = datetime.datetime.now(TIMEZONE).date() + datetime.timedelta(days=1)
     text = format_day_schedule(tomorrow)
-    await message.answer(text, parse_mode=ParseMode.HTML)
+    inline_kb = None
+    if WEBAPP_URL:
+        inline_kb = InlineKeyboardMarkup(
+            inline_keyboard=[[
+                InlineKeyboardButton(text="📅 На сегодня", callback_data="quick_today"),
+                InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))
+            ]]
+        )
+    await message.answer(text, parse_mode=ParseMode.HTML, reply_markup=inline_kb)
 
 
-@dp.message(Command('week'))
+@dp.message(or_f(Command('week'), F.text.casefold().in_({'🗓 на неделю', 'на неделю', 'неделя'})))
 async def cmd_week(message: types.Message):
     today = datetime.datetime.now(TIMEZONE).date()
     start_of_week = today - datetime.timedelta(days=today.weekday())
@@ -275,8 +318,7 @@ def build_ics_content(subgroup=None):
     return ics_text
 
 
-@dp.message(Command('calendar'))
-async def cmd_calendar(message: types.Message):
+async def send_calendar_message(message: types.Message):
     cdn_sg1 = f"{CDN_BASE_URL}/vyatsu_subgroup1.ics"
     cdn_sg2 = f"{CDN_BASE_URL}/vyatsu_subgroup2.ics"
     cdn_all = f"{CDN_BASE_URL}/vyatsu.ics"
@@ -319,6 +361,49 @@ async def cmd_calendar(message: types.Message):
         reply_markup=kb,
         disable_web_page_preview=True
     )
+
+
+@dp.message(or_f(Command('calendar'), F.text.casefold().in_({'📲 календарь', 'календарь'})))
+async def cmd_calendar(message: types.Message):
+    await send_calendar_message(message)
+
+
+@dp.callback_query(lambda c: c.data == 'open_calendar_cmd')
+async def callback_open_calendar_cmd(callback: types.CallbackQuery):
+    await callback.answer()
+    await send_calendar_message(callback.message)
+
+
+@dp.callback_query(lambda c: c.data == 'quick_today')
+async def callback_quick_today(callback: types.CallbackQuery):
+    await callback.answer()
+    today = datetime.datetime.now(TIMEZONE).date()
+    text = format_day_schedule(today)
+    inline_kb = None
+    if WEBAPP_URL:
+        inline_kb = InlineKeyboardMarkup(
+            inline_keyboard=[[
+                InlineKeyboardButton(text="📆 На завтра", callback_data="quick_tomorrow"),
+                InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))
+            ]]
+        )
+    await callback.message.answer(text, parse_mode=ParseMode.HTML, reply_markup=inline_kb)
+
+
+@dp.callback_query(lambda c: c.data == 'quick_tomorrow')
+async def callback_quick_tomorrow(callback: types.CallbackQuery):
+    await callback.answer()
+    tomorrow = datetime.datetime.now(TIMEZONE).date() + datetime.timedelta(days=1)
+    text = format_day_schedule(tomorrow)
+    inline_kb = None
+    if WEBAPP_URL:
+        inline_kb = InlineKeyboardMarkup(
+            inline_keyboard=[[
+                InlineKeyboardButton(text="📅 На сегодня", callback_data="quick_today"),
+                InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))
+            ]]
+        )
+    await callback.message.answer(text, parse_mode=ParseMode.HTML, reply_markup=inline_kb)
 
 
 @dp.callback_query(lambda c: c.data and c.data.startswith('send_ics_'))
@@ -426,6 +511,20 @@ async def main():
     await start_webserver()
     bot = Bot(token=BOT_TOKEN)
     asyncio.create_task(background_cache_worker())
+
+    # Регистрация списка команд в Telegram (кнопка Меню)
+    commands = [
+        BotCommand(command="today", description="Пары на сегодня"),
+        BotCommand(command="tomorrow", description="Пары на завтра"),
+        BotCommand(command="week", description="Расписание на неделю"),
+        BotCommand(command="calendar", description="Календарь и подписка (.ics)"),
+        BotCommand(command="start", description="Главное меню")
+    ]
+    try:
+        await bot.set_my_commands(commands)
+        logging.info("Официальные команды бота успешно зарегистрированы в Telegram")
+    except Exception as e:
+        logging.warning(f"Не удалось настроить команды меню: {e}")
 
     if WEBAPP_URL:
         try:
