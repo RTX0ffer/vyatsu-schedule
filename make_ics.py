@@ -299,7 +299,7 @@ def update_schedule():
     threshold_date = (datetime.datetime.now(TIMEZONE) - datetime.timedelta(days=30)).isoformat()
     filtered_lessons = {
         uid: item for uid, item in cache['lessons'].items()
-        if item.get('start', '') >= threshold_date and item.get('group_id', DEFAULT_GROUP_ID) in SUPPORTED_GROUPS
+        if item.get('start', '') >= threshold_date and item.get('group_id', DEFAULT_GROUP_ID) in SUPPORTED_GROUPS and 'direction' in item
     }
     cache['lessons'] = filtered_lessons
     cache['processed_urls'] = {
@@ -341,7 +341,16 @@ def generate_ics(lessons, filename=ICS_FILE, title='Расписание Вят�
     cal.creator = '-//Vyatsu//Schedule Bot//RU'
     now_utc = datetime.datetime.now(datetime.timezone.utc)
 
+    # Дедупликация занятий (по времени, предмету и подгруппе)
+    unique_lessons = []
+    seen = set()
     for item in lessons:
+        key = (item['start'], item['end'], item.get('subject', item.get('summary')), item.get('subgroup'))
+        if key not in seen:
+            seen.add(key)
+            unique_lessons.append(item)
+
+    for item in unique_lessons:
         event = Event()
         event.uid = item['uid']
         event.name = item.get('summary', item.get('subject', 'Пара'))

@@ -18,9 +18,8 @@ from aiogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
     KeyboardButton,
-    MenuButtonWebApp,
+    MenuButtonCommands,
     ReplyKeyboardMarkup,
-    WebAppInfo,
 )
 from aiohttp import web
 from ics import Calendar, Event
@@ -145,12 +144,23 @@ def get_cached_lessons():
         try:
             with open(CACHE_FILE, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                lessons = list(data.get('lessons', {}).values())
-                if lessons:
-                    _memory_cache['lessons'] = lessons
+                raw_lessons = list(data.get('lessons', {}).values())
+                # Фильтруем только актуальные уроки
+                lessons = [l for l in raw_lessons if 'direction' in l or l.get('group_id') in SUPPORTED_GROUPS]
+                # Дедупликация занятий (по группе, времени, предмету и подгруппе)
+                unique_lessons = []
+                seen = set()
+                for l in lessons:
+                    key = (l.get('group_id'), l['start'], l['end'], l.get('subject', l.get('summary')), l.get('subgroup'))
+                    if key not in seen:
+                        seen.add(key)
+                        unique_lessons.append(l)
+
+                if unique_lessons:
+                    _memory_cache['lessons'] = unique_lessons
                     _memory_cache['timestamp'] = time.time()
-                    logging.info(f'Мгновенно загружено {len(lessons)} пар из локального файла.')
-                    return lessons
+                    logging.info(f'Мгновенно загружено {len(unique_lessons)} уникальных пар из локального файла.')
+                    return unique_lessons
         except Exception as e:
             logging.error(f'Ошибка чтения локального файла: {e}')
 
@@ -167,11 +177,20 @@ async def sync_remote_cache():
             async with session.get(DATA_URL, timeout=8) as resp:
                 if resp.status == 200:
                     data = await resp.json(content_type=None)
-                    lessons = list(data.get('lessons', {}).values())
-                    if lessons:
-                        _memory_cache['lessons'] = lessons
+                    raw_lessons = list(data.get('lessons', {}).values())
+                    lessons = [l for l in raw_lessons if 'direction' in l or l.get('group_id') in SUPPORTED_GROUPS]
+                    unique_lessons = []
+                    seen = set()
+                    for l in lessons:
+                        key = (l.get('group_id'), l['start'], l['end'], l.get('subject', l.get('summary')), l.get('subgroup'))
+                        if key not in seen:
+                            seen.add(key)
+                            unique_lessons.append(l)
+
+                    if unique_lessons:
+                        _memory_cache['lessons'] = unique_lessons
                         _memory_cache['timestamp'] = time.time()
-                        logging.info(f'Фоновое обновление: загружено {len(lessons)} пар с GitHub.')
+                        logging.info(f'Фоновое обновление: загружено {len(unique_lessons)} уникальных пар с GitHub.')
     except Exception as e:
         logging.warning(f'Фоновое обновление с GitHub не удалось: {e}')
 
@@ -185,9 +204,10 @@ async def background_cache_worker():
 
 async def keep_alive_worker():
     """Каждые 8 минут отправляет HTTP-запрос на собственный URL, чтобы бесплатный сервер Render не уходил в спящий режим."""
-    if not WEBAPP_URL:
+    server_url = os.getenv('RENDER_EXTERNAL_URL') or os.getenv('WEBAPP_URL', '').rstrip('/')
+    if not server_url:
         return
-    health_url = f"{WEBAPP_URL}/healthz"
+    health_url = f"{server_url}/healthz"
     logging.info(f"Keep-alive воркер запущен: пинг каждые 8 минут -> {health_url}")
     # Небольшая пауза перед первым пингом, чтобы веб-сервер успел запуститься
     await asyncio.sleep(60)
@@ -209,8 +229,17 @@ def format_day_schedule(target_date: datetime.date, group_id: str = DEFAULT_GROU
     all_lessons = get_cached_lessons()
     lessons = [
         l for l in all_lessons
-        if l.get('group_id') == group_id or (not l.get('group_id') and group_id == DEFAULT_GROUP_ID)
+        if l.get('group_id') == group_id
     ]
+    # Дедупликация на уровне дня
+    unique_lessons = []
+    seen = set()
+    for item in lessons:
+        key = (item['start'], item['end'], item.get('subject', item.get('summary')), item.get('subgroup'))
+        if key not in seen:
+            seen.add(key)
+            unique_lessons.append(item)
+    lessons = unique_lessons
     ginfo = SUPPORTED_GROUPS.get(group_id, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
     day_lessons = []
 
@@ -269,22 +298,19 @@ def format_day_schedule(target_date: datetime.date, group_id: str = DEFAULT_GROU
 
 def get_main_keyboard():
     """Создает постоянную клавиатуру с кнопками под полем ввода."""
-    buttons = []
-    if WEBAPP_URL:
-        buttons.append([
-            KeyboardButton(text="📱 Открыть расписание (Mini App)", web_app=WebAppInfo(url=WEBAPP_URL))
-        ])
-    buttons.append([
-        KeyboardButton(text="📅 Сегодня"),
-        KeyboardButton(text="📆 Завтра")
-    ])
-    buttons.append([
-        KeyboardButton(text="🗓 На неделю"),
-        KeyboardButton(text="📲 Календарь")
-    ])
-    buttons.append([
-        KeyboardButton(text="👥 Курс / Группа")
-    ])
+    buttons = [
+        [
+            KeyboardButton(text="📅 Сегодня"),
+            KeyboardButton(text="📆 Завтра")
+        ],
+        [
+            KeyboardButton(text="🗓 На неделю"),
+            KeyboardButton(text="📲 Календарь")
+        ],
+        [
+            KeyboardButton(text="👥 Курс / Группа")
+        ]
+    ]
     return ReplyKeyboardMarkup(
         keyboard=buttons,
         resize_keyboard=True,
@@ -396,27 +422,26 @@ async def callback_select_group(callback: types.CallbackQuery):
 async def cmd_start(message: types.Message):
     gid = get_user_group(message.from_user.id)
     ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
+    dinfo = DIRECTIONS.get(ginfo.get('direction', 'pmib'), {})
+    dir_title = f"{dinfo.get('badge', '')} {dinfo.get('name', '')} ({dinfo.get('short', '')})" if dinfo else ""
 
-    inline_kb = None
-    if WEBAPP_URL:
-        inline_kb = InlineKeyboardMarkup(
-            inline_keyboard=[
-                [InlineKeyboardButton(text="📱 Открыть расписание (Mini App)", web_app=WebAppInfo(url=WEBAPP_URL))],
-                [InlineKeyboardButton(text="📅 Календарь и подписка (.ics)", callback_data="open_calendar_cmd")],
-                [InlineKeyboardButton(text="👥 Сменить группу / курс", callback_data="change_grp_from_cal")]
-            ]
-        )
+    inline_kb = InlineKeyboardMarkup(
+        inline_keyboard=[
+            [InlineKeyboardButton(text="📲 Календарь и подписка (.ics)", callback_data="open_calendar_cmd")],
+            [InlineKeyboardButton(text="👥 Сменить группу / курс", callback_data="change_grp_from_cal")]
+        ]
+    )
 
     await message.answer(
         "👋 Привет! Я бот с расписанием занятий ВятГУ.\n\n"
+        f"Направление: <b>{dir_title}</b>\n"
         f"Ваша активная группа: <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n\n"
         "Нажимайте на удобные кнопки внизу экрана или используйте команды:\n"
         "▫️ <b>📅 Сегодня</b> — Пары на сегодня\n"
         "▫️ <b>📆 Завтра</b> — Пары на завтра\n"
         "▫️ <b>🗓 На неделю</b> — Расписание на текущую неделю\n"
         "▫️ <b>📲 Календарь</b> — Подписка и перенос пар в смартфон\n"
-        "▫️ <b>👥 Курс / Группа</b> — Выбор направления и курса (ПМИб, МКб, ФИб, 1–4 курсы)\n"
-        "▫️ <b>📱 Mini App</b> — Интерактивное расписание прямо в Telegram\n",
+        "▫️ <b>👥 Курс / Группа</b> — Выбор направления и курса (ПМИб, МКб, ФИб, 1–4 курсы)\n",
         parse_mode=ParseMode.HTML,
         reply_markup=get_main_keyboard()
     )
@@ -427,14 +452,11 @@ async def cmd_today(message: types.Message):
     gid = get_user_group(message.from_user.id)
     today = datetime.datetime.now(TIMEZONE).date()
     text = format_day_schedule(today, group_id=gid)
-    inline_kb = None
-    if WEBAPP_URL:
-        inline_kb = InlineKeyboardMarkup(
-            inline_keyboard=[[
-                InlineKeyboardButton(text="📆 На завтра", callback_data="quick_tomorrow"),
-                InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))
-            ]]
-        )
+    inline_kb = InlineKeyboardMarkup(
+        inline_keyboard=[[
+            InlineKeyboardButton(text="📆 На завтра", callback_data="quick_tomorrow")
+        ]]
+    )
     await message.answer(text, parse_mode=ParseMode.HTML, reply_markup=inline_kb)
 
 
@@ -443,14 +465,11 @@ async def cmd_tomorrow(message: types.Message):
     gid = get_user_group(message.from_user.id)
     tomorrow = datetime.datetime.now(TIMEZONE).date() + datetime.timedelta(days=1)
     text = format_day_schedule(tomorrow, group_id=gid)
-    inline_kb = None
-    if WEBAPP_URL:
-        inline_kb = InlineKeyboardMarkup(
-            inline_keyboard=[[
-                InlineKeyboardButton(text="📅 На сегодня", callback_data="quick_today"),
-                InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))
-            ]]
-        )
+    inline_kb = InlineKeyboardMarkup(
+        inline_keyboard=[[
+            InlineKeyboardButton(text="📅 На сегодня", callback_data="quick_today")
+        ]]
+    )
     await message.answer(text, parse_mode=ParseMode.HTML, reply_markup=inline_kb)
 
 
@@ -485,6 +504,16 @@ def build_ics_content(group_id=DEFAULT_GROUP_ID, subgroup=None):
     if subgroup in (1, 2, '1', '2'):
         sg = int(subgroup)
         lessons = [l for l in lessons if not l.get('subgroup') or l.get('subgroup') == sg]
+
+    # Дедупликация занятий
+    unique_lessons = []
+    seen = set()
+    for item in lessons:
+        key = (item['start'], item['end'], item.get('subject', item.get('summary')), item.get('subgroup'))
+        if key not in seen:
+            seen.add(key)
+            unique_lessons.append(item)
+    lessons = unique_lessons
 
     ginfo = SUPPORTED_GROUPS.get(group_id, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
     cal = Calendar()
@@ -553,19 +582,18 @@ async def send_calendar_message(message: types.Message, user_id: int | str = Non
     webcal_sg2 = cdn_sg2.replace('https://', 'webcal://')
     webcal_all = cdn_all.replace('https://', 'webcal://')
 
-    kb_buttons = []
-    if WEBAPP_URL:
-        kb_buttons.append([InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))])
-    kb_buttons.append([
-        InlineKeyboardButton(text=f"📱 {ginfo['name']} (1 подгр.)", callback_data=f"send_ics_{gid}_1"),
-        InlineKeyboardButton(text=f"📱 {ginfo['name']} (2 подгр.)", callback_data=f"send_ics_{gid}_2")
-    ])
-    kb_buttons.append([
-        InlineKeyboardButton(text=f"📱 {ginfo['name']} (Все пары)", callback_data=f"send_ics_{gid}_all")
-    ])
-    kb_buttons.append([
-        InlineKeyboardButton(text="👥 Сменить группу / курс", callback_data="change_grp_from_cal")
-    ])
+    kb_buttons = [
+        [
+            InlineKeyboardButton(text=f"📱 {ginfo['name']} (1 подгр.)", callback_data=f"send_ics_{gid}_1"),
+            InlineKeyboardButton(text=f"📱 {ginfo['name']} (2 подгр.)", callback_data=f"send_ics_{gid}_2")
+        ],
+        [
+            InlineKeyboardButton(text=f"📱 {ginfo['name']} (Все пары)", callback_data=f"send_ics_{gid}_all")
+        ],
+        [
+            InlineKeyboardButton(text="👥 Сменить группу / курс", callback_data="change_grp_from_cal")
+        ]
+    ]
 
     kb = InlineKeyboardMarkup(inline_keyboard=kb_buttons)
 
@@ -622,14 +650,11 @@ async def callback_quick_today(callback: types.CallbackQuery):
     gid = get_user_group(callback.from_user.id)
     today = datetime.datetime.now(TIMEZONE).date()
     text = format_day_schedule(today, group_id=gid)
-    inline_kb = None
-    if WEBAPP_URL:
-        inline_kb = InlineKeyboardMarkup(
-            inline_keyboard=[[
-                InlineKeyboardButton(text="📆 На завтра", callback_data="quick_tomorrow"),
-                InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))
-            ]]
-        )
+    inline_kb = InlineKeyboardMarkup(
+        inline_keyboard=[[
+            InlineKeyboardButton(text="📆 На завтра", callback_data="quick_tomorrow")
+        ]]
+    )
     await callback.message.answer(text, parse_mode=ParseMode.HTML, reply_markup=inline_kb)
 
 
@@ -639,14 +664,11 @@ async def callback_quick_tomorrow(callback: types.CallbackQuery):
     gid = get_user_group(callback.from_user.id)
     tomorrow = datetime.datetime.now(TIMEZONE).date() + datetime.timedelta(days=1)
     text = format_day_schedule(tomorrow, group_id=gid)
-    inline_kb = None
-    if WEBAPP_URL:
-        inline_kb = InlineKeyboardMarkup(
-            inline_keyboard=[[
-                InlineKeyboardButton(text="📅 На сегодня", callback_data="quick_today"),
-                InlineKeyboardButton(text="📱 Открыть в Mini App", web_app=WebAppInfo(url=WEBAPP_URL))
-            ]]
-        )
+    inline_kb = InlineKeyboardMarkup(
+        inline_keyboard=[[
+            InlineKeyboardButton(text="📅 На сегодня", callback_data="quick_today")
+        ]]
+    )
     await callback.message.answer(text, parse_mode=ParseMode.HTML, reply_markup=inline_kb)
 
 
@@ -682,77 +704,6 @@ async def callback_send_ics_file(callback: types.CallbackQuery):
         ),
         parse_mode=ParseMode.HTML
     )
-
-
-# WebApp & API эндпоинты
-async def handle_index(request):
-    """Отдает главную страницу Mini App с мгновенно встроенными данными (0 мс задержки)."""
-    template_path = os.path.join(os.path.dirname(__file__), 'templates', 'index.html')
-    if os.path.exists(template_path):
-        with open(template_path, 'r', encoding='utf-8') as f:
-            html = f.read()
-
-        lessons = get_cached_lessons()
-        initial_data = {
-            'lessons': lessons,
-            'count': len(lessons),
-            'server_url': WEBAPP_URL,
-            'directions': DIRECTIONS,
-            'groups': [
-                {
-                    'id': gid,
-                    'name': ginfo['name'],
-                    'course': ginfo['course'],
-                    'code': ginfo['code'],
-                    'full_name': ginfo['full_name'],
-                    'direction': ginfo['direction'],
-                }
-                for gid, ginfo in SUPPORTED_GROUPS.items()
-            ],
-            'default_group_id': DEFAULT_GROUP_ID
-        }
-        json_str = json.dumps(initial_data, ensure_ascii=False)
-        injection = f"<script>window.__INITIAL_SCHEDULE__ = {json_str};</script>"
-
-        if "<!-- INITIAL_DATA_PLACEHOLDER -->" in html:
-            html = html.replace("<!-- INITIAL_DATA_PLACEHOLDER -->", injection)
-        else:
-            html = html.replace("</head>", f"{injection}\n</head>")
-
-        return web.Response(
-            text=html,
-            content_type='text/html',
-            charset='utf-8',
-            headers={
-                'Cache-Control': 'no-cache, no-store, must-revalidate',
-                'Pragma': 'no-cache',
-                'Expires': '0'
-            }
-        )
-    return web.Response(text="Шаблон Mini App не найден.", status=404)
-
-
-async def handle_api_schedule(request):
-    """JSON API для Mini App (мгновенный ответ из памяти со списком групп)."""
-    lessons = get_cached_lessons()
-    return web.json_response({
-        'lessons': lessons,
-        'count': len(lessons),
-        'server_url': WEBAPP_URL,
-        'directions': DIRECTIONS,
-        'groups': [
-            {
-                'id': gid,
-                'name': ginfo['name'],
-                'course': ginfo['course'],
-                'code': ginfo['code'],
-                'full_name': ginfo['full_name'],
-                'direction': ginfo['direction'],
-            }
-            for gid, ginfo in SUPPORTED_GROUPS.items()
-        ],
-        'default_group_id': DEFAULT_GROUP_ID
-    })
 
 
 async def handle_calendar_ics_subgroup(request, subgroup, group_id=DEFAULT_GROUP_ID):
@@ -824,15 +775,14 @@ async def handle_calendar_ics(request):
 
 async def handle_ping(request):
     """Health check для хостинга (Render)."""
-    return web.Response(text="Bot & Mini App are running!")
+    return web.Response(text="Vyatsu Schedule Bot is running!")
 
 
 async def start_webserver():
     port = int(os.getenv('PORT', 8080))
     app = web.Application()
-    app.router.add_get('/', handle_index)
-    app.router.add_get('/app', handle_index)
-    app.router.add_get('/api/schedule', handle_api_schedule)
+    app.router.add_get('/', handle_ping)
+    app.router.add_get('/healthz', handle_ping)
     app.router.add_get('/calendar.ics', handle_calendar_ics)
     app.router.add_get('/vyatsu.ics', handle_calendar_ics)
     app.router.add_get('/calendar/subgroup1.ics', lambda r: handle_calendar_ics_subgroup(r, 1))
@@ -842,13 +792,12 @@ async def start_webserver():
     app.router.add_get('/vyatsu_subgroup2.ics', lambda r: handle_calendar_ics_subgroup(r, 2))
     app.router.add_get('/calendar/{target}.ics', handle_calendar_dynamic_ics)
     app.router.add_get('/vyatsu_{target}.ics', handle_calendar_dynamic_ics)
-    app.router.add_get('/healthz', handle_ping)
 
     runner = web.AppRunner(app)
     await runner.setup()
     site = web.TCPSite(runner, '0.0.0.0', port)
     await site.start()
-    logging.info(f"Веб-сервер Mini App запущен на порту {port}")
+    logging.info(f"Веб-сервер календаря и healthz запущен на порту {port}")
 
 
 async def main():
@@ -877,17 +826,11 @@ async def main():
     except Exception as e:
         logging.warning(f"Не удалось настроить команды меню: {e}")
 
-    if WEBAPP_URL:
-        try:
-            await bot.set_chat_menu_button(
-                menu_button=MenuButtonWebApp(
-                    text="Расписание",
-                    web_app=WebAppInfo(url=WEBAPP_URL)
-                )
-            )
-            logging.info(f"Кнопка меню WebApp настроена на {WEBAPP_URL}")
-        except Exception as e:
-            logging.warning(f"Не удалось настроить кнопку WebApp: {e}")
+    try:
+        await bot.set_chat_menu_button(menu_button=MenuButtonCommands())
+        logging.info("Кнопка меню настроена на стандартные команды бота")
+    except Exception as e:
+        logging.warning(f"Не удалось настроить кнопку Меню: {e}")
 
     await dp.start_polling(bot)
 
