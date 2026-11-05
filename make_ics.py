@@ -65,7 +65,7 @@ GROUP_ID = DEFAULT_GROUP_ID  # Для обратной совместимост�
 TIMEZONE = ZoneInfo('Europe/Kirov')
 CACHE_FILE = 'lessons_cache.json'
 CALENDARS_DIR = 'calendars'
-ICS_FILE = os.path.join(CALENDARS_DIR, 'vyatsu.ics')
+ICS_FILE = os.path.join(CALENDARS_DIR, 'pmib', 'vyatsu_1301.ics')
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
@@ -329,11 +329,7 @@ def update_schedule():
         sg2 = [l for l in g_lessons if not l.get('subgroup') or l.get('subgroup') == 2]
         generate_ics(sg2, os.path.join(dir_path, f'vyatsu_{code}_sg2.ics'), title=f"ВятГУ {ginfo['name']} (2 подгр.)")
 
-    # Для полной обратной совместимости генерируем vyatsu.ics, vyatsu_subgroup1.ics, vyatsu_subgroup2.ics в calendars/
-    g1301 = [l for l in all_lessons if l.get('group_id') == '27021' or not l.get('group_id')]
-    generate_ics(g1301, os.path.join(CALENDARS_DIR, 'vyatsu.ics'), title='Расписание ВятГУ ПМИб-1301')
-    generate_ics([l for l in g1301 if not l.get('subgroup') or l.get('subgroup') == 1], os.path.join(CALENDARS_DIR, 'vyatsu_subgroup1.ics'), title='ВятГУ ПМИб-1301 (1 подгр.)')
-    generate_ics([l for l in g1301 if not l.get('subgroup') or l.get('subgroup') == 2], os.path.join(CALENDARS_DIR, 'vyatsu_subgroup2.ics'), title='ВятГУ ПМИб-1301 (2 подгр.)')
+
 
     return has_changes
 

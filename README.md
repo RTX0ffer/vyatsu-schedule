@@ -16,21 +16,20 @@
 * `calendars/pmib/` — 01.03.02 Прикладная математика и информатика (1–4 курсы, общие и по подгруппам)
 * `calendars/mkb/` — 02.03.01 Математика и компьютерные науки (1–4 курсы, общие и по подгруппам)
 * `calendars/fib/` — 02.03.02 Фундаментальная информатика и ИТ (1–4 курсы, общие и по подгруппам)
-* `calendars/vyatsu.ics` — базовый календарь по умолчанию (ПМИб-1301)
 
 ---
 
 ## 📲 Как подписаться на календарь со смартфона
 
-Ссылка на календарь:
+Ссылка на календарь (например, для ПМИб-1301):
 ```
-https://cdn.jsdelivr.net/gh/<ВАШ_GITHUB_ЛОГИН>/<ИМЯ_РЕПОЗИТОРИЯ>@main/calendars/vyatsu.ics
+https://cdn.jsdelivr.net/gh/<ВАШ_GITHUB_ЛОГИН>/<ИМЯ_РЕПОЗИТОРИЯ>@main/calendars/pmib/vyatsu_1301.ics
 ```
 *(Либо персональная ссылка для вашей группы из меню бота `/calendar`)*
 
 ### iPhone (Apple Calendar):
 1. Откройте Safari и вставьте ссылку с протоколом `webcal://`:
-   `webcal://cdn.jsdelivr.net/gh/<ЛОГИН>/<РЕПОЗИТОРИЙ>@main/calendars/vyatsu.ics`
+   `webcal://cdn.jsdelivr.net/gh/<ЛОГИН>/<РЕПОЗИТОРИЙ>@main/calendars/pmib/vyatsu_1301.ics`
 2. Нажмите «Подписаться» и укажите автообновление (например, каждый день).
 
 ### Android / Google Календарь:
@@ -46,5 +45,5 @@ https://cdn.jsdelivr.net/gh/<ВАШ_GITHUB_ЛОГИН>/<ИМЯ_РЕПОЗИТО�
 1. В разделе **Environment Variables** добавьте:
    * `BOT_TOKEN`: токен от `@BotFather`
    * `DATA_URL`: `https://raw.githubusercontent.com/<ЛОГИН>/<РЕПОЗИТОРИЙ>/main/lessons_cache.json`
-   * `ICS_URL`: `https://cdn.jsdelivr.net/gh/<ЛОГИН>/<РЕПОЗИТОРИЙ>@main/calendars/vyatsu.ics`
+   * `ICS_URL`: `https://cdn.jsdelivr.net/gh/<ЛОГИН>/<РЕПОЗИТОРИЙ>@main/calendars/pmib/vyatsu_1301.ics`
 2. Бот автоматически готов к работе 24/7!

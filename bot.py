@@ -35,7 +35,7 @@ DATA_URL = os.getenv('DATA_URL', '')
 WEBAPP_URL = os.getenv('WEBAPP_URL', '').rstrip('/')
 CDN_BASE_URL = "https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main"
 CALENDARS_DIR = "calendars"
-ICS_URL = f"{CDN_BASE_URL}/{CALENDARS_DIR}/vyatsu.ics"
+ICS_URL = f"{CDN_BASE_URL}/{CALENDARS_DIR}/pmib/vyatsu_1301.ics"
 
 SUPPORTED_GROUPS = {
     # 01.03.02 Прикладная математика и информатика (ПМИб)
