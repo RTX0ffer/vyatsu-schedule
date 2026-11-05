@@ -717,10 +717,11 @@ def get_main_keyboard():
         ],
         [
             KeyboardButton(text="🗓 На неделю"),
-            KeyboardButton(text="📲 Календарь")
+            KeyboardButton(text="🗓 След. неделя")
         ],
         [
-            KeyboardButton(text="👥 Курс / Группа")
+            KeyboardButton(text="📲 Календарь"),
+            KeyboardButton(text="🏛 Факультет / Группа")
         ]
     ]
     return ReplyKeyboardMarkup(
@@ -876,7 +877,7 @@ def get_group_selection_text(user_id: int | str, active_dir: str = 'pmib') -> st
     )
 
 
-@dp.message(or_f(Command('group', 'course'), F.text.casefold().in_({'👥 курс / группа', 'курс / группа', 'выбрать группу', 'сменить группу', 'курс'})))
+@dp.message(or_f(Command('group', 'course', 'faculty', 'fac'), F.text.casefold().in_({'🏛 факультет / группа', 'факультет / группа', '👥 курс / группа', 'курс / группа', 'выбрать группу', 'сменить группу', 'курс', 'факультет'})))
 async def cmd_choose_group(message: types.Message):
     gid = get_user_group(message.from_user.id)
     ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
@@ -956,8 +957,8 @@ async def callback_select_group(callback: types.CallbackQuery):
         await callback.message.answer(
             f"✅ <b>Группа переключена на {ginfo['name']} ({ginfo['course']} курс)!</b>\n"
             f"Направление: <b>{dir_title}</b>\n\n"
-            f"Теперь команды <b>📅 Сегодня</b>, <b>📆 Завтра</b>, <b>🗓 На неделю</b> и <b>📲 Календарь</b> настроены для вашей группы.\n\n"
-            f"<i>Вы всегда можете изменить направление и группу через кнопку «👥 Курс / Группа» или команду /group.</i>",
+            f"Теперь команды <b>📅 Сегодня</b>, <b>📆 Завтра</b>, <b>🗓 На неделю</b>, <b>🗓 След. неделя</b> и <b>📲 Календарь</b> настроены для вашей группы.\n\n"
+            f"<i>Вы всегда можете изменить факультет, направление и группу через кнопку «🏛 Факультет / Группа» или команду /group.</i>",
             parse_mode=ParseMode.HTML,
             reply_markup=get_main_keyboard()
         )
@@ -973,20 +974,21 @@ async def cmd_start(message: types.Message):
     inline_kb = InlineKeyboardMarkup(
         inline_keyboard=[
             [InlineKeyboardButton(text="📲 Календарь и подписка (.ics)", callback_data="open_calendar_cmd")],
-            [InlineKeyboardButton(text="👥 Сменить группу / курс", callback_data="change_grp_from_cal")]
+            [InlineKeyboardButton(text="🏛 Сменить факультет / группу", callback_data="change_grp_from_cal")]
         ]
     )
 
     await message.answer(
-        "👋 Привет! Я бот с расписанием занятий ВятГУ.\n\n"
+        "👋 Привет! Я бот с расписанием занятий ВятГУ для всех факультетов и институтов.\n\n"
         f"Направление: <b>{dir_title}</b>\n"
         f"Ваша активная группа: <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n\n"
         "Нажимайте на удобные кнопки внизу экрана или используйте команды:\n"
         "▫️ <b>📅 Сегодня</b> — Пары на сегодня\n"
         "▫️ <b>📆 Завтра</b> — Пары на завтра\n"
         "▫️ <b>🗓 На неделю</b> — Расписание на текущую неделю\n"
-        "▫️ <b>📲 Календарь</b> — Подписка и перенос пар в смартфон\n"
-        "▫️ <b>👥 Курс / Группа</b> — Выбор направления и курса (ПМИб, МКб, ФИб, 1–4 курсы)\n",
+        "▫️ <b>🗓 След. неделя</b> — Расписание на следующую неделю\n"
+        "▫️ <b>📲 Календарь</b> — Подписка и экспорт пар в смартфон\n"
+        "▫️ <b>🏛 Факультет / Группа</b> — Выбор факультета, курса и группы (17 факультетов, 472 группы)\n",
         parse_mode=ParseMode.HTML,
         reply_markup=get_main_keyboard()
     )
@@ -1023,6 +1025,27 @@ async def cmd_week(message: types.Message):
     gid = get_user_group(message.from_user.id)
     today = datetime.datetime.now(TIMEZONE).date()
     start_of_week = today - datetime.timedelta(days=today.weekday())
+
+    blocks = []
+    for day_offset in range(6):  # Пн-Сб
+        day_date = start_of_week + datetime.timedelta(days=day_offset)
+        blocks.append(format_day_schedule(day_date, group_id=gid))
+
+    separator = "\n\n" + "—" * 20 + "\n\n"
+    response = separator.join(blocks)
+
+    if len(response) > 4000:
+        for chunk in [response[i:i + 3800] for i in range(0, len(response), 3800)]:
+            await message.answer(chunk, parse_mode=ParseMode.HTML)
+    else:
+        await message.answer(response, parse_mode=ParseMode.HTML)
+
+
+@dp.message(or_f(Command('nextweek'), F.text.casefold().in_({'🗓 след. неделя', 'след. неделя', 'следующая неделя', 'след неделя'})))
+async def cmd_nextweek(message: types.Message):
+    gid = get_user_group(message.from_user.id)
+    today = datetime.datetime.now(TIMEZONE).date()
+    start_of_week = today - datetime.timedelta(days=today.weekday()) + datetime.timedelta(days=7)
 
     blocks = []
     for day_offset in range(6):  # Пн-Сб
@@ -1368,7 +1391,8 @@ async def main():
         BotCommand(command="today", description="Пары на сегодня"),
         BotCommand(command="tomorrow", description="Пары на завтра"),
         BotCommand(command="week", description="Расписание на неделю"),
-        BotCommand(command="group", description="Выбор курса и группы"),
+        BotCommand(command="nextweek", description="Расписание на след. неделю"),
+        BotCommand(command="group", description="Выбор факультета, курса и группы"),
         BotCommand(command="calendar", description="Календарь и подписка (.ics)"),
         BotCommand(command="start", description="Главное меню")
     ]
