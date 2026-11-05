@@ -1,0 +1,648 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ИВТб-3302
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Прозорова Ю.А.\nМесто: корп. 1\, ауд. 313
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Предметно-ориентированные автоматизированные информационные системы (Лекция)
+UID:0fdc551558d2b6bf39c5d80552870c02@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Болотов Ф.Е.\nМесто: корп. 1\, ауд. 126
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 126
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Разработка Web-приложений (Лекция)
+UID:c4d7cfeb8543df4d0b7874809da59f58@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Болотов Ф.Е.\nМесто: корп. 1\, ауд. 126
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 126
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Разработка Web-приложений (Лекция)
+UID:229fdc129d3243f6c8ced6e815d74638@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мельцов В.Ю.\nМесто: корп. 1\, ауд. 242
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория компиляторов и формальные грамматики (Лекция)
+UID:4685b3abdee45f80c669f898f4cf5dd8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Семеновых В.И.\nМесто: корп. 2\, ауд. 201
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 201
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Инструментальные средства проектирования компонентов вычислительной техники (Лабораторная работа)
+UID:df00ff3726c3e5feb056ae22d1c0bba7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пащенко Д.Э.\nМесто: корп. 1\, ауд. 109
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Разработка Web-приложений (Лабораторная работа)
+UID:827cd85bd499ee5c0e3212a6fc2a40a1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Страбыкин Д.А.\nМесто: корп. 1\, ауд. 242
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в архитектуру ЭВМ (Лекция)
+UID:a5c750b0e61535ea1a3ab86cb804989a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:9a5bda0fc732194fab5711aa5cf42fb5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Семеновых В.И.\nМесто: корп. 2\, ауд. 201
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 201
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Инструментальные средства проектирования компонентов вычислительной техники (Лекция)
+UID:71962ade64355f6970f9381549d0253b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельцов В.Ю.\nПодгруппа: 1\nМесто: корп. 2\, ауд. 201
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 201
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория компиляторов и формальные грамматики (Лабораторная работа)
+UID:b27456c3cb736baf1d0d0842e5cedab8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Черных М.\nМесто: корп. 1\, ауд. 114
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 114
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Сценарное и функциональное программирование (Лабораторная работа)
+UID:a672ede411166cc27858d319be68de3c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мельцов В.Ю.\nМесто: корп. 1\, ауд. 242
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория компиляторов и формальные грамматики (Лекция)
+UID:c3ff290107ebde53d8525c056b34f867@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Черных М.\nМесто: корп. 1\, ауд. 311
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Сценарное и функциональное программирование (Лекция)
+UID:cbb36c9439288dce588da0a1809e9be3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Страбыкин Д.А.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 308
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 308
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в архитектуру ЭВМ (Лабораторная работа)
+UID:aca58bd47ebc2bdffaa31c766e3a6849@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Левена В.Г.\nМесто: корп. 2\, ауд. 202
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 202
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Объектно-ориентированный анализ и проектирование (Лекция)
+UID:40ae6747468abce35eed0123f38c59bf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:b2f9ea43a8bdded7699d2c5658e6f7e5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Крутиков А.К.\nМесто: корп. 1\, ауд. 312
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование систем на ПЛИС (Лекция)
+UID:ed3b2dca4d23c7745ac21071d431a739@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сулайманов К.Н.\nМесто: корп. 1\, ауд. 439
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура операционных систем и сервисное программное обеспечение (Лекция)
+UID:e544650fe4ad3dc3d1bebf7b1b28b874@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 2\, ауд. 300
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Практическое занятие)
+UID:3060151db651fbe4c6d323b1fa4a7659@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:4f98c9b842d4057977defa38d641945c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шмакова Н.А.\nМесто: корп. 2\, ауд. 202
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 202
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Объектно-ориентированный анализ и проектирование (Практическое занятие)
+UID:e40039cc6a6ab2a5918aea4047515b0b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мельцов В.Ю.\nМесто: корп. 2\, ауд. 201
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 201
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория компиляторов и формальные грамматики (Практическое занятие)
+UID:75490b6f2164dbb8911032307a57f6e8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шмакова Н.А.\nМесто: корп. 2\, ауд. 202
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 202
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Объектно-ориентированный анализ и проектирование (Лабораторная работа)
+UID:59846805138bc0aa729b378db55f82f0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:2658c043d15a2e365305ecf5b5087fe5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:06a3a27ecd2f0019359f79c017c44688@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Страбыкин Д.А.\nПодгруппа: 1\nМесто: корп. 2\, ауд. 308
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 308
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Введение в архитектуру ЭВМ (Лабораторная работа)
+UID:f7746c4b4290887ecade5ae8472fdbca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Страбыкин Д.А.\nМесто: корп. 2\, ауд. 206
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 206
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Введение в архитектуру ЭВМ (Практическое занятие)
+UID:1322a24aad83bd1d7cbee2f7d2a6bed1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Черных М.\nМесто: корп. 1\, ауд. 311
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Сценарное и функциональное программирование (Лекция)
+UID:72fb73604002b28704c4d02e6fbd23ee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Семеновых В.И.\nМесто: корп. 2\, ауд. 201
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 201
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Инструментальные средства проектирования компонентов вычислительной техники (Лабораторная работа)
+UID:60ab482466b7f048cee022d6607ccf16@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пащенко Д.Э.\nМесто: корп. 1\, ауд. 109
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Разработка Web-приложений (Лабораторная работа)
+UID:9b92ae08287271a3b59e11184e43f6ce@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Прозорова Ю.А.\nМесто: корп. 1\, ауд. 313
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Предметно-ориентированные автоматизированные информационные системы (Лекция)
+UID:c4c6a2ec8f675d87f04ad261a4f302ab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:9ab3de8513c88e9cd087b1f3fae24a00@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Прозорова Ю.А.\nМесто: корп. 1\, ауд. 236
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Предметно-ориентированные автоматизированные информационные системы (Лабораторная работа)
+UID:24ddec08dd1fe0944ef2feeb1ff42f2a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шмакова Н.А.\nМесто: корп. 2\, ауд. 202
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 202
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Объектно-ориентированный анализ и проектирование (Лабораторная работа)
+UID:f15d04d7caf0b99d76bbb5627fe39944@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Крутиков А.К.\nМесто: корп. 1\, ауд. 239
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование систем на ПЛИС (Лабораторная работа)
+UID:07a2c0655d79bddaba4c92bd142bd6fe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пластинина В.Б.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 208
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 208
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:97f3a645e2e7248c9fe2518de98353d1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Страбыкин Д.А.\nПодгруппа: 1\nМесто: корп. 2\, ауд. 308
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 308
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в архитектуру ЭВМ (Лабораторная работа)
+UID:06b5733fb7953adb4c8880477b2370cd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Левена В.Г.\nМесто: корп. 2\, ауд. 202
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 202
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Объектно-ориентированный анализ и проектирование (Лекция)
+UID:5710fc86e3a33c202ac6b627f3b768a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:e1d425265f13fd639f5472415e77b827@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:882fbe854a1630c56cd6641f8320f7ad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Страбыкин Д.А.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 308
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 308
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Введение в архитектуру ЭВМ (Лабораторная работа)
+UID:7fb8797a679c89927d79e5f054be07a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Крутиков А.К.\nМесто: корп. 1\, ауд. 109
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование систем на ПЛИС (Практическое занятие)
+UID:03a6c8924549fa0af889418313d887c6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельцов В.Ю.\nПодгруппа: 1\nМесто: корп. 2\, ауд. 201
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 201
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория компиляторов и формальные грамматики (Лабораторная работа)
+UID:94c64a0eaa8efff18b48c4758ab7a344@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Прозорова Ю.А.\nМесто: корп. 1\, ауд. 236
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Предметно-ориентированные автоматизированные информационные системы (Лабораторная работа)
+UID:a213320a4463c4f5cb4bb477933405e3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:f655e2309fb056466650b6d1a46217e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельцов В.Ю.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 201
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 201
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория компиляторов и формальные грамматики (Лабораторная работа)
+UID:c0a0bee443a762a51c18f1e5a05a12c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Крутиков А.К.\nМесто: корп. 1\, ауд. 313
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование систем на ПЛИС (Лекция)
+UID:db0c55b47e6cdb347f3aa1e3d451b710@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Черных М.\nМесто: корп. 1\, ауд. 114
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 114
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Сценарное и функциональное программирование (Лабораторная работа)
+UID:6c3a56ab0eea3a55171b467971ea1b95@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Караваева О.В.\nМесто: корп. 2\, ауд. 304
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 304
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура операционных систем и сервисное программное обеспечение (Лабораторная работа)
+UID:45be0badd6adc7d704871309807f42d0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельцов В.Ю.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 201
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 201
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория компиляторов и формальные грамматики (Лабораторная работа)
+UID:c472108701135d6351cf91ac3ce565ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Караваева О.В.\nМесто: корп. 2\, ауд. 304
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 304
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура операционных систем и сервисное программное обеспечение (Лабораторная работа)
+UID:0246b892796ca06a8771c27f6f9314d0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:9c4f486ace40c92b8642a03b3870f69b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пластинина В.Б.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 208
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 208
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:1cfea505d4096a73858eee778ac16046@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:4ed57003000b916dee84932ee62ad4cf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Семеновых В.И.\nМесто: корп. 2\, ауд. 201
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 201
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Инструментальные средства проектирования компонентов вычислительной техники (Лекция)
+UID:d0e157dd34a1faf4ea00fbbfb5a3be9e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пащенко Д.Э.\nМесто: корп. 1\, ауд. 116
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 116
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Разработка Web-приложений (Практическое занятие)
+UID:5d30d0a1124f070ffaff02e4f2de57e5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Крутиков А.К.\nМесто: корп. 1\, ауд. 239
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование систем на ПЛИС (Лабораторная работа)
+UID:95f45479064e8ba3c1c782daa9b1e613@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:ccb727d0f3d9afe2e8320aedb7ed9a00@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

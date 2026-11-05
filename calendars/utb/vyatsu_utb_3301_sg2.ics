@@ -1,0 +1,296 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ УТб-3301 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сандаков С.Ю.\nМесто: корп. 2\, ауд. 203
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектный практикум (Практическое занятие)
+UID:1da2e11fa4343d3efcc455e15d7dff2d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:16993ee16e6b23f0232823686eb49af7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мамаева Е.А.\nМесто: корп. 2\, ауд. 201
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 201
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура электронно-вычислительных машин и систем (Лабораторная работа)
+UID:c1b08b76a1bf169e01bac7854eb4c6ba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мамаева Е.А.\nМесто: корп. 2\, ауд. 201
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 201
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура электронно-вычислительных машин и систем (Практическое занятие)
+UID:c54e11360bb7aad2995d2a69e9c6ad8d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сандаков С.Ю.\nМесто: корп. 2\, ауд. 203
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектный практикум (Практическое занятие)
+UID:63bbe626d3fc414715c0385558a568c5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сандаков С.Ю.\nМесто: корп. 2\, ауд. 203
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектный практикум (Практическое занятие)
+UID:dc660c144c259f2e891c308a77dd7124@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сандаков С.Ю.\nМесто: корп. 2\, ауд. 203
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектный практикум (Практическое занятие)
+UID:2362bc182ff5d2722fdfe96751542786@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мамаева Е.А.\nМесто: корп. 2\, ауд. 202
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 202
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура электронно-вычислительных машин и систем (Практическое занятие)
+UID:9b592843ef55fae8a92daad70246ec33@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сандаков С.Ю.\nМесто: корп. 2\, ауд. 203
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технические средства автоматики и управления (Лабораторная работа)
+UID:afe98bab407c8bb25e13facee3ebf32e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:b7ec817f87a3ba6a59b6aeca5abc4781@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сандаков С.Ю.\nМесто: корп. 2\, ауд. 203
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектный практикум (Практическое занятие)
+UID:9964a411e05708d9955afa70bb6237a0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Семеновых В.И.\nМесто: корп. 2\, ауд. 203
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы теории автоматического управления (Лабораторная работа)
+UID:9cbed2d050381f7fe5bacd068d2f0e5f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сандаков С.Ю.\nМесто: корп. 2\, ауд. 203
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технические средства автоматики и управления (Лабораторная работа)
+UID:d6e360d3f1ae4d87a82d6c77f9149f2e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Семеновых В.И.\nМесто: корп. 2\, ауд. 203
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы теории автоматического управления (Практическое занятие)
+UID:008c684996bb32c151566f6370348b59@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суворов Г.В.\nМесто: корп. 2\, ауд. 300
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Практическое занятие)
+UID:6ce1e4914c3315114a15b3647e30ae58@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесников В.А.\nМесто: корп. 3\, ауд. 102
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Сети и системы передачи информации (Практическое занятие)
+UID:c56ae5de724133cd2083d3fb006263f6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сандаков С.Ю.\nМесто: корп. 2\, ауд. 203
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технические средства автоматики и управления (Практическое занятие)
+UID:dad6ff02b3dd7354934a7144915e9b34@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Семеновых В.И.\nМесто: корп. 2\, ауд. 203
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы теории автоматического управления (Лекция)
+UID:5e882b917622f3e3d53c89e0fb6ed181@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесников В.А.\nМесто: корп. 3\, ауд. 102
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Сети и системы передачи информации (Лекция)
+UID:71f4534eb0f2528e7b6433d7e500e6dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Семеновых В.И.\nМесто: корп. 2\, ауд. 203
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы теории автоматического управления (Лабораторная работа)
+UID:8b95571dafdeece22919bb795d77f705@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Лекция)
+UID:d4e166dfa66bbab5f0cb4866063c3d7a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Лекция)
+UID:4536cc038f173a1b5c722a2a87296a70@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сандаков С.Ю.\nМесто: корп. 2\, ауд. 203
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технические средства автоматики и управления (Практическое занятие)
+UID:b970d10a8358ab27d8dde0964672122c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сандаков С.Ю.\nМесто: корп. 2\, ауд. 403
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 403
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технические средства автоматики и управления (Лекция)
+UID:17293ca5a365b6a6ce96d7c4c7ebf668@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 403
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 403
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Практическое занятие)
+UID:982338e2629eb2fea82ff9f50fcd05d3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мамаева Е.А.\nМесто: корп. 2\, ауд. 201
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 201
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура электронно-вычислительных машин и систем (Лабораторная работа)
+UID:06f3460e3ad261f399683e92c7953010@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

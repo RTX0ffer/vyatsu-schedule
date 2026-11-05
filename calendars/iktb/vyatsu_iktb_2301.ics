@@ -1,0 +1,373 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ИКТб-2301
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Трубин И.С.\nМесто: корп. 2\, ауд. 409
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 409
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы информационной безопасности (Лекция)
+UID:eda093d137e008023228e46df53eca9c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трушкова Е.Л.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:0be04d69279bb0fffbf4f0323541be26@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Репкин Д.А.\nМесто: корп. 2\, ауд. 209
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория электрических цепей (Практическое занятие)
+UID:5b586c8881a5bfff35863972e7343154@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Репкин Д.А.\nМесто: корп. 2\, ауд. 409
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 409
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория электрических цепей (Лекция)
+UID:f91af229df1081cc70f557efa4ab795d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Левин М.Н.\nМесто: корп. 1\, ауд. 242
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:8329c10531a9db03231ddb98816e32ae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Наумович Т.В.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 205
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Языки программирования (Лабораторная работа)
+UID:0e703bc1885ef65bdec28e62a032601f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Хлебов А.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 330
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 14\, ауд. 330
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Дополнительные главы физики (Лабораторная работа)
+UID:bda3ad534119dade503819a8a3b02869@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Репкин Д.А.\nМесто: корп. 2\, ауд. 209
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория электрических цепей (Лекция)
+UID:bba2dcb6d71b12098a20f141f458f6ef@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Репкин Д.А.\nМесто: корп. 2\, ауд. 409
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 409
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроника и схемотехника (Лекция)
+UID:f14b8aef3d9a6b1bc2d4613527779a38@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Наумович Т.В.\nМесто: корп. 2\, ауд. 409
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 409
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Языки программирования (Лекция)
+UID:d182c63798161391b2049636d4a0370d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Хлебов А.Г.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 330
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 14\, ауд. 330
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Дополнительные главы физики (Лабораторная работа)
+UID:ef7623106e72b3786233a430690856a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Хлебов А.Г.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 330
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 14\, ауд. 330
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Дополнительные главы физики (Лабораторная работа)
+UID:cf708f99945054b023e08a7107671899@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Хлебов А.Г.\nМесто: корп. 2\, ауд. 409
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 409
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Дополнительные главы физики (Лекция)
+UID:87d4441711f91ff4f2b949c5fa11a6ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Репкин Д.А.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 205
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Электроника и схемотехника (Лабораторная работа)
+UID:fcbea6586fa80d9bb6914e84604f2b42@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Репкин Д.А.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 205
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроника и схемотехника (Лабораторная работа)
+UID:9637091da4bd5db4542532439ba6c427@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Голубева В.С.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204а
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы информационной безопасности (Лабораторная работа)
+UID:a982750e15ce76f83dac71b3d2a7337b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Голубева В.С.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204а
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы информационной безопасности (Лабораторная работа)
+UID:82c95ae537a14139dbb69ee24f6ae89e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Марков Р.В.\nМесто: корп. 2\, ауд. 206
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 206
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:4b852fc5ba49ccafa7181c042e3d49fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Голубева В.С.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 204а
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы информационной безопасности (Лабораторная работа)
+UID:8ecc187d22bffe8ad33edf879aeb0f9b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Голубева В.С.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 204а
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы информационной безопасности (Лабораторная работа)
+UID:9bf1243e36580b332abff8260e599818@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Репкин Д.А.\nМесто: корп. 2\, ауд. 409
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 409
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория электрических цепей (Лекция)
+UID:398e126197e21399e10b9071fdb9a35c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Наумович Т.В.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204б
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204б
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Языки программирования (Лабораторная работа)
+UID:1fd16b161645887926d5dc1c77e05ef1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Марков Р.В.\nМесто: корп. 2\, ауд. 206
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 206
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:c26ecdab32499c810ada8838aa239e8e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Наумович Т.В.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 205
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Языки программирования (Лабораторная работа)
+UID:07bff14243558dad278479118b40035b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Репкин Д.А.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 205
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроника и схемотехника (Лабораторная работа)
+UID:9b1a9cca6c004ecb6d9fa3dc6653b041@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Хлебов А.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 330
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 14\, ауд. 330
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Дополнительные главы физики (Лабораторная работа)
+UID:b7607be0827e0e25ffa0b89e749906b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Репкин Д.А.\nМесто: корп. 2\, ауд. 409
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 409
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроника и схемотехника (Практическое занятие)
+UID:d4c872af7156b51036f3d2e99e979706@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трушкова Е.Л.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:aab65676d1a8f5c73bae4d9ea25ed989@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлебов А.Г.\nМесто: корп. 2\, ауд. 303
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 303
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Дополнительные главы физики (Практическое занятие)
+UID:4f0bbdb6d0525c83b7a99dc753bd8c79@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колупаев А.В.\nМесто: корп. 2\, ауд. 409
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 409
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии и Интернет (Лекция)
+UID:06f14173fa8356fd796f1bcb2444e1b9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Наумович Т.В.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204б
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204б
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Языки программирования (Лабораторная работа)
+UID:2552d8345c6aded0566b05e3ac97698f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Марков Р.В.\nМесто: корп. 2\, ауд. 206
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 206
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:d46bb4076d07fd0a976ea43492d2038e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Репкин Д.А.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 205
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Электроника и схемотехника (Лабораторная работа)
+UID:692eae24349accb5445d6ef52be8c74f@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

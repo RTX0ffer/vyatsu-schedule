@@ -1,0 +1,285 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ИКТб-3301 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Харина Н.Л.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 204а
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Аппаратные средства вычислительной техники (Лабораторная работа)
+UID:5a45ed1c7c93d5a2878112b23ca77a15@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харина Н.Л.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 206
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 206
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Аппаратные средства вычислительной техники (Практическое занятие)
+UID:aaf9562769671d79208b83bd4f2e5794@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 115
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:c4a86cc5746f845796bdd42090851a75@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Прозоров Д.Е.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 205
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы анализа данных (Лабораторная работа)
+UID:d2f3be94f511b08eab2940b415eabc83@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Прозоров Д.Е.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 205
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы анализа данных (Лабораторная работа)
+UID:688e3552f6f20ae657f1b19435957ce0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Харина Н.Л.\nМесто: корп. 3\, ауд. 102
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Аппаратные средства вычислительной техники (Лекция)
+UID:7907485964f35d85a882e3f1bb39336a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Медведева Е.В.\nМесто: корп. 3\, ауд. 102
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория информации и кодирования (Практическое занятие)
+UID:99476e1f10d33c2b56d821bedea9a927@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вахрушев В.Ю.\nПодгруппа: 1\nМесто: корп. 2\, ауд. 203
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория электросвязи (Практическое занятие)
+UID:2d4d8563ee836e751cd451dc3401edf5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Медведева Е.В.\nМесто: корп. 3\, ауд. 102
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория информации и кодирования (Лекция)
+UID:bd40d611976d4e83968596db5805bc45@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесников В.А.\nМесто: корп. 3\, ауд. 102
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Сети и системы передачи информации (Практическое занятие)
+UID:bb24ea521f414bdb25b7cfa7afbe5428@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вахрушев В.Ю.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 203
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 203
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Теория электросвязи (Лабораторная работа)
+UID:5c3dfb5b9a273199523a69c6656031ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Харина Н.Л.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 204а
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Аппаратные средства вычислительной техники (Лабораторная работа)
+UID:ef6222b549bb01ef90a81a1e2909b6c3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Прозоров Д.Е.\nМесто: корп. 3\, ауд. 102
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы анализа данных (Лекция)
+UID:3885b0a4ee3a2560e4c9185125cebfdb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесников В.А.\nМесто: корп. 3\, ауд. 102
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Сети и системы передачи информации (Лекция)
+UID:fc60664d3e084a6d88c4f66789933146@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Метелев А.П.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 205
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые системы передачи и направляющие среды (Лабораторная работа)
+UID:06bf431f2f94fdfc7d190af9d78970f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вахрушев В.Ю.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 203
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 203
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теория электросвязи (Лабораторная работа)
+UID:9248abfcb302f966272cac06869693b3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Медведева Е.В.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 205
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория информации и кодирования (Лабораторная работа)
+UID:0128d96847f2dcf09d7e9786df592331@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесников В.А.\nМесто: корп. 3\, ауд. 102
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теория электросвязи (Лекция)
+UID:61d821d181b07ce106f7d8058eeca491@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 115
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:8b6db574cf904701d48e1f96032d1d86@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Метелев А.П.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 205
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые системы передачи и направляющие среды (Лабораторная работа)
+UID:df4e343137fd8ddc4e1cb49943e7ff75@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харина Н.Л.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 206
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 206
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Аппаратные средства вычислительной техники (Практическое занятие)
+UID:38bf81275af6fe725a215557781413ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Смирнов Ю.А.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 205
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность операционных систем (Лабораторная работа)
+UID:033282cfc3a28ee54a0869a2000e4ce7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Смирнов Ю.А.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 205
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность операционных систем (Лабораторная работа)
+UID:d1d4744d333a4ba5c95f5986dc258383@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Метелев А.П.\nМесто: корп. 3\, ауд. 105
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые системы передачи и направляющие среды (Практическое занятие)
+UID:9e2b63a5c5fc913b35d8945b5a7f4080@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Медведева Е.В.\nПодгруппа: 1\nМесто: корп. 3\, ауд. 205
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория информации и кодирования (Лабораторная работа)
+UID:a35c02d586c08c353f61dbaea4983818@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

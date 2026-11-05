@@ -37,7 +37,90 @@ CDN_BASE_URL = "https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main"
 CALENDARS_DIR = "calendars"
 ICS_URL = f"{CDN_BASE_URL}/{CALENDARS_DIR}/pmib/vyatsu_1301.ics"
 
+FACULTIES = {
+    'fkfmn': {
+        'name': 'Факультет компьютерных и физико-математических наук (ФКФМН)',
+        'short': 'ФКФМН',
+        'badge': '📐',
+        'default_dir': 'pmib',
+        'directions': ['pmib', 'mkb', 'fib']
+    },
+    'favt': {
+        'name': 'Факультет автоматики и вычислительной техники (ФАВТ)',
+        'short': 'ФАВТ',
+        'badge': '⚙️',
+        'default_dir': 'ivtb',
+        'directions': ['ivtb', 'inbb', 'iktb', 'utb', 'inbs']
+    }
+}
+
+DIRECTIONS = {
+    # 🏛 Факультет компьютерных и физико-математических наук (ФКФМН)
+    'pmib': {
+        'name': 'Прикладная математика и информатика',
+        'short': 'ПМИб',
+        'code_spec': '01.03.02',
+        'badge': '🔹',
+        'faculty': 'fkfmn'
+    },
+    'mkb': {
+        'name': 'Математика и компьютерные науки',
+        'short': 'МКб',
+        'code_spec': '02.03.01',
+        'badge': '🔸',
+        'faculty': 'fkfmn'
+    },
+    'fib': {
+        'name': 'Фундаментальная информатика и ИТ',
+        'short': 'ФИб',
+        'code_spec': '02.03.02',
+        'badge': '🟣',
+        'faculty': 'fkfmn'
+    },
+
+    # ⚙️ Факультет автоматики и вычислительной техники (ФАВТ)
+    'ivtb': {
+        'name': 'Информатика и вычислительная техника',
+        'short': 'ИВТб',
+        'code_spec': '09.03.01',
+        'badge': '🖥',
+        'faculty': 'favt'
+    },
+    'inbb': {
+        'name': 'Информационная безопасность',
+        'short': 'ИНБб',
+        'code_spec': '10.03.01',
+        'badge': '🛡',
+        'faculty': 'favt'
+    },
+    'iktb': {
+        'name': 'Инфокоммуникационные технологии и системы связи',
+        'short': 'ИКТб',
+        'code_spec': '11.03.02',
+        'badge': '📡',
+        'faculty': 'favt'
+    },
+    'utb': {
+        'name': 'Управление в технических системах',
+        'short': 'УТб',
+        'code_spec': '27.03.04',
+        'badge': '⚙️',
+        'faculty': 'favt'
+    },
+    'inbs': {
+        'name': 'Информационная безопасность телеком. систем (Специалитет)',
+        'short': 'ИНБс',
+        'code_spec': '10.05.02',
+        'badge': '🔐',
+        'faculty': 'favt'
+    }
+}
+
 SUPPORTED_GROUPS = {
+    # =========================================================================
+    # 🏛 Факультет компьютерных и физико-математических наук (ФКФМН)
+    # =========================================================================
+
     # 01.03.02 Прикладная математика и информатика (ПМИб)
     '27021': {'name': 'ПМИб-1301', 'course': 1, 'direction': 'pmib', 'full_name': 'ПМИб-1301-52-00', 'code': '1301'},
     '26498': {'name': 'ПМИб-2301', 'course': 2, 'direction': 'pmib', 'full_name': 'ПМИб-2301-52-00', 'code': '2301'},
@@ -58,27 +141,62 @@ SUPPORTED_GROUPS = {
     '26248': {'name': 'ФИб-3301', 'course': 3, 'direction': 'fib', 'full_name': 'ФИб-3301-51-00', 'code': 'fib_3301'},
     '26892': {'name': 'ФИб-4301', 'course': 4, 'direction': 'fib', 'full_name': 'ФИб-4301-51-00', 'code': 'fib_4301'},
     '26589': {'name': 'ФИб-4302', 'course': 4, 'direction': 'fib', 'full_name': 'ФИб-4302-51-00', 'code': 'fib_4302'},
-}
 
-DIRECTIONS = {
-    'pmib': {
-        'name': 'Прикладная математика и информатика',
-        'short': 'ПМИб',
-        'code_spec': '01.03.02',
-        'badge': '🔹',
-    },
-    'mkb': {
-        'name': 'Математика и компьютерные науки',
-        'short': 'МКб',
-        'code_spec': '02.03.01',
-        'badge': '🔸',
-    },
-    'fib': {
-        'name': 'Фундаментальная информатика и ИТ',
-        'short': 'ФИб',
-        'code_spec': '02.03.02',
-        'badge': '🟣',
-    },
+    # =========================================================================
+    # ⚙️ Факультет автоматики и вычислительной техники (ФАВТ)
+    # =========================================================================
+
+    # 09.03.01 Информатика и вычислительная техника (ИВТб)
+    '27032': {'name': 'ИВТб-1301', 'course': 1, 'direction': 'ivtb', 'full_name': 'ИВТб-1301-06-00', 'code': 'ivtb_1301'},
+    '27033': {'name': 'ИВТб-1302', 'course': 1, 'direction': 'ivtb', 'full_name': 'ИВТб-1302-06-00', 'code': 'ivtb_1302'},
+    '27034': {'name': 'ИВТб-1303', 'course': 1, 'direction': 'ivtb', 'full_name': 'ИВТб-1303-06-00', 'code': 'ivtb_1303'},
+    '27035': {'name': 'ИВТб-1304', 'course': 1, 'direction': 'ivtb', 'full_name': 'ИВТб-1304-06-00', 'code': 'ivtb_1304'},
+    '27036': {'name': 'ИВТб-1305', 'course': 1, 'direction': 'ivtb', 'full_name': 'ИВТб-1305-06-00', 'code': 'ivtb_1305'},
+    '27037': {'name': 'ИВТб-1306', 'course': 1, 'direction': 'ivtb', 'full_name': 'ИВТб-1306-06-00', 'code': 'ivtb_1306'},
+    '26342': {'name': 'ИВТб-2301', 'course': 2, 'direction': 'ivtb', 'full_name': 'ИВТб-2301-06-00', 'code': 'ivtb_2301'},
+    '26690': {'name': 'ИВТб-2302', 'course': 2, 'direction': 'ivtb', 'full_name': 'ИВТб-2302-06-00', 'code': 'ivtb_2302'},
+    '26514': {'name': 'ИВТб-2303', 'course': 2, 'direction': 'ivtb', 'full_name': 'ИВТб-2303-06-00', 'code': 'ivtb_2303'},
+    '26885': {'name': 'ИВТб-2304', 'course': 2, 'direction': 'ivtb', 'full_name': 'ИВТб-2304-06-00', 'code': 'ivtb_2304'},
+    '26504': {'name': 'ИВТб-2305', 'course': 2, 'direction': 'ivtb', 'full_name': 'ИВТб-2305-06-00', 'code': 'ivtb_2305'},
+    '26319': {'name': 'ИВТб-2306', 'course': 2, 'direction': 'ivtb', 'full_name': 'ИВТб-2306-06-00', 'code': 'ivtb_2306'},
+    '26833': {'name': 'ИВТб-3301', 'course': 3, 'direction': 'ivtb', 'full_name': 'ИВТб-3301-05-00', 'code': 'ivtb_3301'},
+    '26774': {'name': 'ИВТб-3302', 'course': 3, 'direction': 'ivtb', 'full_name': 'ИВТб-3302-05-00', 'code': 'ivtb_3302'},
+    '26222': {'name': 'ИВТб-3303', 'course': 3, 'direction': 'ivtb', 'full_name': 'ИВТб-3303-05-00', 'code': 'ivtb_3303'},
+    '26661': {'name': 'ИВТб-3304', 'course': 3, 'direction': 'ivtb', 'full_name': 'ИВТб-3304-05-00', 'code': 'ivtb_3304'},
+    '26392': {'name': 'ИВТб-4301', 'course': 4, 'direction': 'ivtb', 'full_name': 'ИВТб-4301-05-00', 'code': 'ivtb_4301'},
+    '26759': {'name': 'ИВТб-4302', 'course': 4, 'direction': 'ivtb', 'full_name': 'ИВТб-4302-05-00', 'code': 'ivtb_4302'},
+    '26254': {'name': 'ИВТб-4303', 'course': 4, 'direction': 'ivtb', 'full_name': 'ИВТб-4303-05-00', 'code': 'ivtb_4303'},
+
+    # 10.03.01 Информационная безопасность (ИНБб)
+    '27038': {'name': 'ИНБб-1301', 'course': 1, 'direction': 'inbb', 'full_name': 'ИНБб-1301-02-00', 'code': 'inbb_1301'},
+    '27039': {'name': 'ИНБб-1302', 'course': 1, 'direction': 'inbb', 'full_name': 'ИНБб-1302-02-00', 'code': 'inbb_1302'},
+    '26365': {'name': 'ИНБб-2301', 'course': 2, 'direction': 'inbb', 'full_name': 'ИНБб-2301-02-00', 'code': 'inbb_2301'},
+    '26686': {'name': 'ИНБб-2302', 'course': 2, 'direction': 'inbb', 'full_name': 'ИНБб-2302-02-00', 'code': 'inbb_2302'},
+    '26861': {'name': 'ИНБб-3301', 'course': 3, 'direction': 'inbb', 'full_name': 'ИНБб-3301-02-00', 'code': 'inbb_3301'},
+    '26497': {'name': 'ИНБб-3302', 'course': 3, 'direction': 'inbb', 'full_name': 'ИНБб-3302-02-00', 'code': 'inbb_3302'},
+    '26769': {'name': 'ИНБб-4301', 'course': 4, 'direction': 'inbb', 'full_name': 'ИНБб-4301-02-00', 'code': 'inbb_4301'},
+
+    # 11.03.02 Инфокоммуникационные технологии и системы связи (ИКТб)
+    '27040': {'name': 'ИКТб-1301', 'course': 1, 'direction': 'iktb', 'full_name': 'ИКТб-1301-05-00', 'code': 'iktb_1301'},
+    '27041': {'name': 'ИКТб-1302', 'course': 1, 'direction': 'iktb', 'full_name': 'ИКТб-1302-05-00', 'code': 'iktb_1302'},
+    '26407': {'name': 'ИКТб-2301', 'course': 2, 'direction': 'iktb', 'full_name': 'ИКТб-2301-05-00', 'code': 'iktb_2301'},
+    '26353': {'name': 'ИКТб-2302', 'course': 2, 'direction': 'iktb', 'full_name': 'ИКТб-2302-05-00', 'code': 'iktb_2302'},
+    '26265': {'name': 'ИКТб-3301', 'course': 3, 'direction': 'iktb', 'full_name': 'ИКТб-3301-04-00', 'code': 'iktb_3301'},
+    '26758': {'name': 'ИКТб-4301', 'course': 4, 'direction': 'iktb', 'full_name': 'ИКТб-4301-04-00', 'code': 'iktb_4301'},
+
+    # 27.03.04 Управление в технических системах (УТб)
+    '27051': {'name': 'УТб-1301', 'course': 1, 'direction': 'utb', 'full_name': 'УТб-1301-02-00', 'code': 'utb_1301'},
+    '26586': {'name': 'УТб-2301', 'course': 2, 'direction': 'utb', 'full_name': 'УТб-2301-02-00', 'code': 'utb_2301'},
+    '26665': {'name': 'УТб-3301', 'course': 3, 'direction': 'utb', 'full_name': 'УТб-3301-02-00', 'code': 'utb_3301'},
+    '26277': {'name': 'УТб-4301', 'course': 4, 'direction': 'utb', 'full_name': 'УТб-4301-02-00', 'code': 'utb_4301'},
+
+    # 10.05.02 Информационная безопасность телекоммуникационных систем (ИНБс, Специалитет)
+    '27127': {'name': 'ИНБс-1301', 'course': 1, 'direction': 'inbs', 'full_name': 'ИНБс-1301-01-00', 'code': 'inbs_1301'},
+    '26476': {'name': 'ИНБс-2301', 'course': 2, 'direction': 'inbs', 'full_name': 'ИНБс-2301-01-00', 'code': 'inbs_2301'},
+    '26326': {'name': 'ИНБс-2302', 'course': 2, 'direction': 'inbs', 'full_name': 'ИНБс-2302-01-00', 'code': 'inbs_2302'},
+    '26459': {'name': 'ИНБс-3301', 'course': 3, 'direction': 'inbs', 'full_name': 'ИНБс-3301-01-00', 'code': 'inbs_3301'},
+    '26370': {'name': 'ИНБс-4301', 'course': 4, 'direction': 'inbs', 'full_name': 'ИНБс-4301-01-00', 'code': 'inbs_4301'},
+    '26640': {'name': 'ИНБс-5301', 'course': 5, 'direction': 'inbs', 'full_name': 'ИНБс-5301-01-00', 'code': 'inbs_5301'},
 }
 DEFAULT_GROUP_ID = '27021'
 
@@ -322,19 +440,38 @@ def get_main_keyboard():
 
 
 def get_group_selection_keyboard(active_dir: str = 'pmib') -> InlineKeyboardMarkup:
-    """Генерирует инлайн-клавиатуру с вкладками направлений и группами по курсам."""
-    # 1. Верхняя строка: переключатели направлений (вкладки)
-    dir_buttons = []
-    for d_key, d_val in DIRECTIONS.items():
+    """Генерирует инлайн-клавиатуру с факультетами, вкладками направлений и группами по курсам."""
+    active_fac = DIRECTIONS.get(active_dir, {}).get('faculty', 'fkfmn')
+
+    # 1. Первая строка: переключатели факультетов
+    fac_buttons = []
+    for f_key, f_val in FACULTIES.items():
+        is_fac_active = (f_key == active_fac)
+        f_label = f"• {f_val['badge']} {f_val['short']} •" if is_fac_active else f"{f_val['badge']} {f_val['short']}"
+        fac_buttons.append(InlineKeyboardButton(text=f_label, callback_data=f"fac_{f_key}"))
+
+    inline_keyboard = [fac_buttons]
+
+    # 2. Строки направлений активного факультета
+    dir_keys = FACULTIES.get(active_fac, FACULTIES['fkfmn'])['directions']
+    dir_rows = []
+    current_row = []
+    for d_key in dir_keys:
+        d_val = DIRECTIONS[d_key]
         is_active = (d_key == active_dir)
         badge = d_val.get('badge', '')
         short = d_val['short']
         label = f"• {badge} {short} •" if is_active else f"{badge} {short}"
-        dir_buttons.append(InlineKeyboardButton(text=label, callback_data=f"dir_{d_key}"))
+        current_row.append(InlineKeyboardButton(text=label, callback_data=f"dir_{d_key}"))
+        if len(current_row) == 3:
+            dir_rows.append(current_row)
+            current_row = []
+    if current_row:
+        dir_rows.append(current_row)
 
-    inline_keyboard = [dir_buttons]
+    inline_keyboard.extend(dir_rows)
 
-    # 2. Группы активного направления, сгруппированные по курсу
+    # 3. Группы активного направления, сгруппированные по курсу
     dir_groups = [
         (gid, ginfo) for gid, ginfo in SUPPORTED_GROUPS.items()
         if ginfo.get('direction') == active_dir
@@ -351,13 +488,21 @@ def get_group_selection_keyboard(active_dir: str = 'pmib') -> InlineKeyboardMark
             inline_keyboard.append([
                 InlineKeyboardButton(text=f"🎓 {course} курс: {ginfo['name']}", callback_data=f"set_grp_{gid}")
             ])
-        else:
-            row = []
-            for gid, ginfo in c_groups:
-                row.append(
-                    InlineKeyboardButton(text=f"🎓 {course} к.: {ginfo['name']}", callback_data=f"set_grp_{gid}")
-                )
+        elif len(c_groups) == 2:
+            row = [
+                InlineKeyboardButton(text=f"🎓 {course} к.: {ginfo['name']}", callback_data=f"set_grp_{gid}")
+                for gid, ginfo in c_groups
+            ]
             inline_keyboard.append(row)
+        else:
+            # Для 3+ групп разбиваем по 2 кнопки в ряд для компактности
+            for i in range(0, len(c_groups), 2):
+                chunk = c_groups[i:i + 2]
+                row = [
+                    InlineKeyboardButton(text=f"🎓 {course} к.: {ginfo['name']}", callback_data=f"set_grp_{gid}")
+                    for gid, ginfo in chunk
+                ]
+                inline_keyboard.append(row)
 
     return InlineKeyboardMarkup(inline_keyboard=inline_keyboard)
 
@@ -367,13 +512,16 @@ def get_group_selection_text(user_id: int | str, active_dir: str = 'pmib') -> st
     gid = get_user_group(user_id)
     ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
     dinfo = DIRECTIONS.get(active_dir, DIRECTIONS['pmib'])
+    fac_key = dinfo.get('faculty', 'fkfmn')
+    fac_info = FACULTIES.get(fac_key, FACULTIES['fkfmn'])
 
     return (
-        f"👥 <b>Выбор направления, курса и группы</b>\n\n"
-        f"🏛 <b>Факультет компьютерных и физико-математических наук (ФКФМН)</b>\n"
+        f"👥 <b>Выбор факультета, направления и группы</b>\n\n"
+        f"🏛 <b>{fac_info['name']}</b>\n"
         f"Вкладка: <b>{dinfo['badge']} {dinfo['name']} ({dinfo['short']})</b>\n"
+        f"Специальность: <code>{dinfo['code_spec']}</code>\n"
         f"Ваша активная группа: <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n\n"
-        f"👇 <i>Переключайте вкладки направлений сверху и выберите группу:</i>"
+        f"👇 <i>Переключайте факультеты и направления сверху и выберите группу:</i>"
     )
 
 
@@ -385,6 +533,21 @@ async def cmd_choose_group(message: types.Message):
     text = get_group_selection_text(message.from_user.id, active_dir=active_dir)
     kb = get_group_selection_keyboard(active_dir=active_dir)
     await message.answer(text, parse_mode=ParseMode.HTML, reply_markup=kb)
+
+
+@dp.callback_query(lambda c: c.data and c.data.startswith('fac_'))
+async def callback_switch_faculty(callback: types.CallbackQuery):
+    await callback.answer()
+    fac_key = callback.data.replace('fac_', '')
+    if fac_key not in FACULTIES:
+        fac_key = 'favt'
+    active_dir = FACULTIES[fac_key]['default_dir']
+    text = get_group_selection_text(callback.from_user.id, active_dir=active_dir)
+    kb = get_group_selection_keyboard(active_dir=active_dir)
+    try:
+        await callback.message.edit_text(text, parse_mode=ParseMode.HTML, reply_markup=kb)
+    except Exception:
+        pass
 
 
 @dp.callback_query(lambda c: c.data and c.data.startswith('dir_'))
@@ -574,6 +737,8 @@ async def send_calendar_message(message: types.Message, user_id: int | str = Non
     ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
     dinfo = DIRECTIONS.get(ginfo.get('direction', 'pmib'), {})
     code = ginfo.get('code', '1301')
+    fac_key = dinfo.get('faculty', 'fkfmn')
+    fac_info = FACULTIES.get(fac_key, FACULTIES['fkfmn'])
     dir_title = f"{dinfo.get('badge', '')} {dinfo.get('name', '')} ({dinfo.get('short', '')})" if dinfo else ""
 
     direction = ginfo.get('direction', 'pmib')
@@ -602,6 +767,7 @@ async def send_calendar_message(message: types.Message, user_id: int | str = Non
 
     await message.answer(
         f"📲 <b>Календарь расписания ВятГУ:</b>\n"
+        f"Факультет: <b>{fac_info['name']}</b>\n"
         f"Направление: <b>{dir_title}</b>\n"
         f"Группа: <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n\n"
         "⚡ <b>Для любого Android (Samsung, Xiaomi, Huawei, Pixel и др.) — В 1 клик:</b>\n"

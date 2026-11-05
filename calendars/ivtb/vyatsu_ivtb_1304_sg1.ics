@@ -1,0 +1,349 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ИВТб-1304 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ходырев Г.Н.
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T115623Z
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Концепции современного естествознания: химия и биология (Лекция)
+UID:177180e09d910971e45c44d7cb899fc2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шмакова Н.А.\nМесто: корп. 2\, ауд. 202
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 202
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Информатика (Практическое занятие)
+UID:635e59adf0ea9826b36810285b71e183@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шмакова Н.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 116
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 116
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Информатика (Лабораторная работа)
+UID:b09f9bc6ba2f8eab85e72842e143eac7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сандалова М.М.\nМесто: корп. 1\, ауд. 435
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:2dc36c55280f7ade402d1ed8ac960402@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Садыкова М.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:9c66bceb1cc0a099232724a83dd7dc32@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Зырянов И.А.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 330
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 14\, ауд. 330
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Концепции современного естествознания: физика (Лабораторная работа)
+UID:f1e6e42d88572c4edd2e4db8d4e22f3f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Коржавина А.С.\nМесто: корп. 2\, ауд. 209
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Информатика (Лекция)
+UID:94c30609de0e5918de3727ce29e22f68@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Левин М.Н.\nМесто: корп. 2\, ауд. 209
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:d3ba5d643441c2ab50790beda1c0d9e3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Садыкова М.В.\nМесто: корп. 2\, ауд. 300
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:cccd59db615b9500c4c1be325d17c209@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Левин М.Н.\nМесто: корп. 2\, ауд. 404
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 404
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:50563e39b94147085175ef8745bfcbad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ходырев Г.Н.\nМесто: корп. 4\, ауд. 302
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 4\, ауд. 302
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Концепции современного естествознания: химия и биология (Практическое занятие)
+UID:35ad3d2f5ab98b5c2bc13795ce44ce80@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Левин М.Н.\nМесто: корп. 2\, ауд. 209
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:3246789165c2975c7fd1ca5c52f6c284@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соймонов И.А.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 102
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 102
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:34619c0e946908b91938cc95e5866244@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шмакова Н.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 116
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 116
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Информатика (Лабораторная работа)
+UID:e136170796e13f02df41a755829a01c4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сандалова М.М.\nМесто: корп. 2\, ауд. 209
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Лекция)
+UID:5dc8289d5d5464546d026a0754705882@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Садыкова М.В.\nМесто: корп. 2\, ауд. 405
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 405
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:6fca6d246fa7002499be888d4e64ca8f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубовцева Л.В.\nМесто: корп. 2\, ауд. 403
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 403
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:74f668f5d120cd5f43b130049457ff66@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сандалова М.М.\nМесто: корп. 1\, ауд. 312
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:40eeccc814c3a282da33629e64a66150@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ходырев Г.Н.
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T115623Z
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Концепции современного естествознания: химия и биология (Лекция)
+UID:677fba9034d36f5f4ac273f48b71d1c6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соймонов И.А.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 102
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 102
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:9a50a986ff1aac6432e2f1a789bafabf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Долженкова М.Л.\nМесто: корп. 2\, ауд. 209
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Программирование (Лекция)
+UID:defce0f3c41e0f2141be6604dcb55d11@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Баташев П.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 109
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Программирование (Лабораторная работа)
+UID:46fc14837ebdacee50c91c7a511f55ae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Левин М.Н.\nМесто: корп. 2\, ауд. 404
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 404
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:e329022891fbc3ca2711aee82c014b30@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Баташев П.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 109
+DTEND:20261031T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261031T142000Z
+STATUS:CONFIRMED
+SUMMARY:Программирование (Лабораторная работа)
+UID:604659bb1b6ac8b02e030f23e733fd0b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубовцева Л.В.\nМесто: корп. 2\, ауд. 405
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 405
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:94b1aacf1250b5f7f951dc1ec22ad754@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зырянов И.А.\nМесто: корп. 2\, ауд. 209
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Концепции современного естествознания: физика (Практическое занятие)
+UID:f6817efa405388c0012167f166f8a047@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Левин М.Н.\nМесто: корп. 2\, ауд. 403
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 403
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:cc4b1b3714a86806de406fbb7c321a0d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зырянов И.А.\nМесто: корп. 2\, ауд. 209
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Концепции современного естествознания: физика (Лекция)
+UID:54c54ef6ee146be700f466c610129acf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Зырянов И.А.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 330
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 14\, ауд. 330
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Концепции современного естествознания: физика (Лабораторная работа)
+UID:391493baef6ba5bcc953e59eee4e5371@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зырянов И.А.\nМесто: корп. 2\, ауд. 209
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Концепции современного естествознания: физика (Лекция)
+UID:2311b39cfc8d19688b100f1ba172768d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Долженкова М.Л.\nМесто: корп. 1\, ауд. 435
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Программирование (Практическое занятие)
+UID:bac0257a8a470d76b9ef970c123a43e6@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

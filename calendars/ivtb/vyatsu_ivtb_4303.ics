@@ -1,0 +1,439 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ИВТб-4303
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Тарасов В.Л.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 224
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 224
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Управление IT проектами (Лабораторная работа)
+UID:9724bbd09990f57104221dc02a74ebb9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Семеновых В.И.\nМесто: корп. 2\, ауд. 203
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Разработка систем управления (Лабораторная работа)
+UID:efe18e753bb681a080dea7e2ebe8361a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Преподаватель Д.О.\nМесто: корп. 1\, ауд. 109
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектный практикум (Лабораторная работа)
+UID:a6ea248ce3131cd4d0a1ed1b73040b06@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Старостин П.А.\nМесто: корп. 1\, ауд. 313
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методы и средства верификации (Лабораторная работа)
+UID:9d619068c1158da47ac659428d2bfdf7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сулайманов К.Н.\nМесто: корп. 1\, ауд. 311
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Сопровождение и эксплуатация программно-аппаратных средств (Лабораторная работа)
+UID:12e4ce60e7a190103cfbb8d0dde71d51@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Прозорова Ю.А.\nМесто: корп. 2\, ауд. 304
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 304
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Разработка корпоративных информационных систем (Лабораторная работа)
+UID:cc4f0fb83333456f587e99efadf62c73@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сулайманов К.Н.\nМесто: корп. 1\, ауд. 311
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Сопровождение и эксплуатация программно-аппаратных средств (Лекция)
+UID:39ea23ee0268acfbeb8ef6cd2088a185@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 2\, ауд. 300
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Практическое занятие)
+UID:9c7c35dde709cbef82ccbded8221f903@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Тарасов В.Л.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 224
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 224
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Управление IT проектами (Лабораторная работа)
+UID:b266de5d2fe3cd4c695cb8be15d0d380@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Клюкин В.Л.\nМесто: корп. 2\, ауд. 409
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 409
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Сети ЭВМ и средства телекоммуникации (Лекция)
+UID:5578d9cb3488f42b987ebfea8a0eccbb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сулайманов К.Н.\nМесто: корп. 1\, ауд. 311
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Сопровождение и эксплуатация программно-аппаратных средств (Лабораторная работа)
+UID:f38f7dfd2607fc8a67c0fa10b7677d1f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чистяков Г.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Интеллектуальные системы (Лекция)
+UID:4fead84628f07c1adef0053d1468c697@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Семеновых В.И.\nМесто: корп. 2\, ауд. 405
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 405
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Разработка систем управления (Лекция)
+UID:fde8fb5ed43934263125a23c436bba70@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чистяков Г.А.\nМесто: корп. 1\, ауд. 237
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 237
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Интеллектуальные системы (Лабораторная работа)
+UID:54c79cb0e5d3d9d34103fbfae9acf55e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Тарасов В.Л.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 224
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 224
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Управление IT проектами (Лабораторная работа)
+UID:2a504ba81e1514576285169f8e3206b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Преподаватель Д.О.\nМесто: корп. 1\, ауд. 116
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 116
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектный практикум (Практическое занятие)
+UID:05a74d305d715cded1544de888d2bc39@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Караваева О.В.\nМесто: корп. 2\, ауд. 308
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 308
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Параллельное программирование (Лабораторная работа)
+UID:629fa61dae6b8b8949bd6d4085727939@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мельцов В.Ю.\nМесто: корп. 1\, ауд. 334
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Организация параллельных вычислительных систем (Лекция)
+UID:924be7c186e1920ca66a552a1e2609c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Прозорова Ю.А.\nМесто: корп. 1\, ауд. 516
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Разработка корпоративных информационных систем (Лекция)
+UID:47a621033cbd0124b904d7082b8431f8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чистяков Г.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Интеллектуальные системы (Лекция)
+UID:e0a2f9ce471fc1d0dbc6b990ea3f7d8b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Тарасов В.Л.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 224
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 224
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Управление IT проектами (Лабораторная работа)
+UID:7577b7d9295dbbf2fccc936419bab338@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Старостин П.А.\nМесто: корп. 1\, ауд. 313
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы и средства верификации (Лабораторная работа)
+UID:252072132f7a49ddb936ece0820913a6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Клюкин В.Л.\nПодгруппа: 1\nМесто: корп. 2\, ауд. 308
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 308
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Сети ЭВМ и средства телекоммуникации (Лабораторная работа)
+UID:ddcac4a3218674197bd8be9f2c6f153b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Тарасов В.Л.\nМесто: корп. 1\, ауд. 311
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методологии разработки программного обеспечения (Лабораторная работа)
+UID:6628cbbc3899c460356ff3849dfe7c38@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельцов В.Ю.\nМесто: корп. 1\, ауд. 109
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Организация параллельных вычислительных систем (Лабораторная работа)
+UID:0a7cb038da371aad004b81dda983353c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Набоких А.А.\nМесто: корп. 2\, ауд. 409
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 409
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Лекция)
+UID:c65bbd2e421e536493f25b019087ab53@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Караваева О.В.\nМесто: корп. 2\, ауд. 308
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 308
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Параллельное программирование (Лабораторная работа)
+UID:35df356b5902b88cf4d26b0909feb378@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Клюкин В.Л.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 304
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 304
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Сети ЭВМ и средства телекоммуникации (Лабораторная работа)
+UID:5b42e8992dec667a06fd39cb685fdce7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Клюкин В.Л.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 304
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 304
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Сети ЭВМ и средства телекоммуникации (Лабораторная работа)
+UID:ea32a69c16ae1d1db130ca6f8a55b24e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Тарасов В.Л.\nМесто: корп. 1\, ауд. 116
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 116
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методологии разработки программного обеспечения (Лабораторная работа)
+UID:487a634af81c8971514930a597217554@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Прозорова Ю.А.\nМесто: корп. 2\, ауд. 304
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 304
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Разработка корпоративных информационных систем (Лабораторная работа)
+UID:fbbdd86909bdd2f7d405e91f28537d02@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Клюкин В.Л.\nПодгруппа: 1\nМесто: корп. 2\, ауд. 308
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 308
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Сети ЭВМ и средства телекоммуникации (Лабораторная работа)
+UID:5baf4547659692c66f31176be18d2fe9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Старостин П.А.\nМесто: корп. 1\, ауд. 313
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Методы и средства верификации (Лекция)
+UID:e10a826744068d183c5636607ee00b50@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чистяков Г.А.\nМесто: корп. 1\, ауд. 237
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 237
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Интеллектуальные системы (Лабораторная работа)
+UID:e1dc9d1d0b9658c7d1286b1ea7c20b6f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельцов В.Ю.\nМесто: корп. 1\, ауд. 109
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Организация параллельных вычислительных систем (Лабораторная работа)
+UID:63d9560c1241775173e08bd6d16edd21@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Преподаватель Д.О.\nМесто: корп. 1\, ауд. 109
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектный практикум (Лабораторная работа)
+UID:8442e7fdba6eca57f20d1768bc11b1c9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Семеновых В.И.\nМесто: корп. 2\, ауд. 203
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Разработка систем управления (Лекция)
+UID:db64adb1cf177988c5d5483cd35d4d30@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Клюкин В.Л.\nМесто: корп. 2\, ауд. 409
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 409
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Сети ЭВМ и средства телекоммуникации (Лекция)
+UID:f84128fdac3a7d17735129e0c8170b50@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Тарасов В.Л.\nМесто: корп. 1\, ауд. 311
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Методологии разработки программного обеспечения (Лекция)
+UID:98077dffb7bd6ecb147e6072c4bf6c92@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

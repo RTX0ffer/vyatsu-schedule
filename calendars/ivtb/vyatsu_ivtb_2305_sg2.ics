@@ -1,0 +1,428 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ИВТб-2305 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:54de4136f296d258890afb724eea14ae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Клюкин В.Л.\nМесто: корп. 2\, ауд. 209
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Управление данными (Лекция)
+UID:a765769b8694e215ae73f5420ffa66f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Клюкин В.Л.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 304
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 304
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Управление данными (Лабораторная работа)
+UID:6679aeaa261f4ba1e8b92d77bb3b1bb3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чернядьев С.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 224
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 224
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы машинного обучения (Лабораторная работа)
+UID:27afdf8faf40591082572ba956cfd0f8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 534
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:2c822d1860363044e06502abec782a7c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалова С.В.\nМесто: корп. 2\, ауд. 102
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 102
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:550f4f6cc3304503d64cdd3eb258e6ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Метелев А.П.\nМесто: корп. 2\, ауд. 209
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы машинного обучения (Лекция)
+UID:f3c8d188cd56e54786da138db531675e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:a3212ba154ab7bdf21bb1539d7a3a6e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мельцов В.Ю.\nМесто: корп. 1\, ауд. 534
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматов (Лекция)
+UID:3ee12aa748f59de5659600596b6e3b26@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чернядьев С.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 224
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 224
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы машинного обучения (Лабораторная работа)
+UID:e47277dfbe5827412d733ee48d47be03@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пащенко Д.Э.\nМесто: корп. 2\, ауд. 404
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 404
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектный практикум (Лабораторная работа)
+UID:190322551cef7c4230b016184c8890a0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Леонов И.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Системная инженерия (Лекция)
+UID:b7996544fb316b4cf38cb5db988563cc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Старостин П.А.\nМесто: корп. 2\, ауд. 303
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 303
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория вероятности и математическая статистика (Практическое занятие)
+UID:53e44ebefac5d9e0b711d2aa0f253d3f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Тарасов В.Л.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 109
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Системная инженерия (Лабораторная работа)
+UID:b98c36ab0b53c2d7782362e6889862b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:00b1caf7c3f8512e7c06e580408617a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:4848fe3ff347b6e8f028badeb53c78f8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мельцов В.Ю.\nМесто: корп. 2\, ауд. 209
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматов (Лекция)
+UID:18bc9bcd790f89adb2d8e78ec9e638bd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сенников А.И.\nМесто: корп. 2\, ауд. 403
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 403
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:752800c3dd22bed0b7995e49a312ba01@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалова С.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:d38ab5d9559af627120175468f387cda@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельцов В.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 237
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 237
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматов (Лабораторная работа)
+UID:9896039c47ea8e99aa5f0f77c7fb3b7d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 534
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:635a947a84dd7b3778a3459f75936e32@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалова С.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:47ea40375978b8c9a3509c53740e3cf4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:cc5ab237db8ea9ddf80af04d6f88ae70@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:9efa28dea11a87cdce1b1672becd4fd8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Старостин П.А.\nМесто: корп. 1\, ауд. 534
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория вероятности и математическая статистика (Лекция)
+UID:f8293f422b98ef140aa149be415c7a5a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Тарасов В.Л.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 109
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Системная инженерия (Лабораторная работа)
+UID:2d817205ee52d74469ab3117c296d4fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалова С.В.\nМесто: корп. 2\, ауд. 102
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 102
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:095ebf8839b67c843abb55af7b38cc40@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пащенко Д.Э.\nМесто: корп. 2\, ауд. 404
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 404
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектный практикум (Лабораторная работа)
+UID:1dd36d0a6893a8d562c8de46057ee419@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельцов В.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 237
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 237
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматов (Лабораторная работа)
+UID:14c389fc8be96d300b77f57f6c1c28e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Клюкин В.Л.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 304
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 304
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Управление данными (Лабораторная работа)
+UID:48ba578ae1521130cedce906e679d641@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:ab47e7e56dedcfb96c3698c4a2cb331f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:098dd6c7a38f5c0a916a76bfd454e6a2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:a9da07f62b456644cf2f1b02bc2de661@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:2dba4404ffdc6009a1b36ee6a06aa39c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мельцов В.Ю.\nМесто: корп. 1\, ауд. 237
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 237
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматов (Практическое занятие)
+UID:34e94f77651bd4380f841ee555123feb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Метелев А.П.\nМесто: корп. 2\, ауд. 209
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы машинного обучения (Лекция)
+UID:3c0cb30145f5072f8ff149b73f1af149@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:060e6d6a73d3b16adcf4711db332e503@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 239
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, технологическая (проектно-технологическая) практика (Практика)
+UID:d1d9501877b08e26eee90268b7773ede@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

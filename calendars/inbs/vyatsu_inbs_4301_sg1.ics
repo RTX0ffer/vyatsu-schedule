@@ -1,0 +1,306 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ИНБс-4301 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы цифровых телекоммуникационных сетей (Практическое занятие)
+UID:d708495a9d489fbdb1f510468c7c1992@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Харина Н.Л.
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T115623Z
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы и средства криптографической защиты информации (Лекция)
+UID:ac3821643887343c6546592fcdefd871@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Харина Н.Л.\nМесто: корп. 3\, ауд. 205
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы и средства криптографической защиты информации (Лабораторная работа)
+UID:cfaab8ee6700fe146884327744216cbf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Медведева Е.В.\nМесто: корп. 3\, ауд. 201
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 201
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Радиоприемные и радиопередающие устройства (Лабораторная работа)
+UID:1d27ff357856ac93e18ad6d09e7db11d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Практическое занятие)
+UID:b29a163405838a1e4de9f45305815d99@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Колупаев А.В.\nМесто: корп. 3\, ауд. 204а
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Системы управления базами данных (Лабораторная работа)
+UID:ae887acaf156fbd64d02b7d191ec6456@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колупаев А.В.\nМесто: корп. 3\, ауд. 102
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Системы управления базами данных (Лекция)
+UID:e8ca7301498c30d063401f10c6e93174@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харина Н.Л.\nМесто: корп. 3\, ауд. 204а
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методы и средства криптографической защиты информации (Практическое занятие)
+UID:255244839af73b7b74bc298474579823@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы цифровых телекоммуникационных сетей (Практическое занятие)
+UID:91304878e68ea0af3dc492f723bb6c90@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Лекция)
+UID:ab20ccc11f789618fd0bdc62f6099f67@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Медведева Е.В.\nМесто: корп. 3\, ауд. 201
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 201
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Радиоприемные и радиопередающие устройства (Лабораторная работа)
+UID:3bf54ed8863472a0e3bc8dd0d122c614@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ржаникова Е.Д.\nМесто: корп. 2\, ауд. 308
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 308
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Методы научного творчества (Практическое занятие)
+UID:87dcc2f6376b4bd00f48bb559c91fed4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Лекция)
+UID:2612f712882388db1712d95b5e2a7b59@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Прозоров Д.Е.\nМесто: корп. 3\, ауд. 205
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы анализа данных (Лабораторная работа)
+UID:9b2e560c9995b0842cf74638d2748f4a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Прозоров Д.Е.\nМесто: корп. 3\, ауд. 205
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы анализа данных (Лабораторная работа)
+UID:fc637049e2f2d881b5c2572b6b88dd5c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Прозоров Д.Е.\nМесто: корп. 3\, ауд. 102
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы анализа данных (Лекция)
+UID:0b19ea6ab0be47dc28c2d59e67ea1d4d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы цифровых телекоммуникационных сетей (Лекция)
+UID:84a2708c16e183d23a30965aab442aa8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы цифровых телекоммуникационных сетей (Практическое занятие)
+UID:e24032fe00a0e6d5c3683e621d59c3c6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Медведева Е.В.\nМесто: корп. 3\, ауд. 205
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Радиоприемные и радиопередающие устройства (Практическое занятие)
+UID:0fe321f06d1a418f452eda7d1a7dbcfa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ржаникова Е.Д.\nМесто: корп. 3\, ауд. 102
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Методы научного творчества (Лекция)
+UID:f16c426cdbc5d43d2394cb6148e57b9e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Харина Н.Л.\nМесто: корп. 3\, ауд. 205
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методы и средства криптографической защиты информации (Лабораторная работа)
+UID:432ab3aa2ec03778d36fc929238e3856@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ржаникова Е.Д.\nМесто: корп. 2\, ауд. 308
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 308
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методы научного творчества (Практическое занятие)
+UID:9cac0be81741df32a626bd63477c4008@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Медведева Е.В.\nМесто: корп. 3\, ауд. 207
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 207
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Радиоприемные и радиопередающие устройства (Лекция)
+UID:0819e4c182514c331b8940ed29a7cabb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Практическое занятие)
+UID:db3d0d76b3fdc11a0a65de36b80d3b9e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харина Н.Л.\nМесто: корп. 3\, ауд. 204а
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Методы и средства криптографической защиты информации (Практическое занятие)
+UID:2dc53dac511939906cabf638a7914376@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Колупаев А.В.\nМесто: корп. 3\, ауд. 204а
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Системы управления базами данных (Лабораторная работа)
+UID:1798d284fb06b62ddba36365248fba27@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы цифровых телекоммуникационных сетей (Практическое занятие)
+UID:b46274593d2b2e915bb6a1fcc8cedac0@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,284 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ИНБб-4301 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ржаникова Е.Д.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 202
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 202
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методы научного творчества (Практическое занятие)
+UID:384b6649f089e26c2a1fb7a0eb040517@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трубин И.С.\nМесто: корп. 3\, ауд. 204а
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы управления информационной безопасностью (Практическое занятие)
+UID:01989e766930e99316adc7a49f8099aa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Комплексная защита объектов информатизации (Лекция)
+UID:90cfd6ae5351263f354301d2a85387a3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Практическое занятие)
+UID:7a06ed931abda3252cbf21e6cb4a1390@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Трубин И.С.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204а
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы управления информационной безопасностью (Лабораторная работа)
+UID:f57dc6347d981a77ab243595079ae9a9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вахрушев В.Ю.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 203
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование автоматизированных систем управления (Лабораторная работа)
+UID:c8c556b9235d7b58bd6cdc254ec1d657@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Прозоров Д.Е.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 205
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы анализа данных (Лабораторная работа)
+UID:5b314d22297d4c85926674b9ec399d96@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вахрушев В.Ю.\nМесто: корп. 2\, ауд. 203
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование автоматизированных систем управления (Практическое занятие)
+UID:859b87be547db22c38b5c280ed3f8f61@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ржаникова Е.Д.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 202
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 202
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы научного творчества (Практическое занятие)
+UID:44b5510d95734a46358377892c0f0c37@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ржаникова Е.Д.\nМесто: корп. 3\, ауд. 102
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Методы научного творчества (Лекция)
+UID:93005d6cbd8ce2d3ee4eeff9ad387039@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Прозоров Д.Е.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 205
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы анализа данных (Лабораторная работа)
+UID:9c0cf0b9333b766557526867872d33b2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Практическое занятие)
+UID:c0f9b52e0bf108ca1a89c5f52923d009@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Прозоров Д.Е.\nМесто: корп. 3\, ауд. 102
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы анализа данных (Лекция)
+UID:6d379eb293dcad2a0627d4bb48355af0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Трубин И.С.\nМесто: корп. 3\, ауд. 105
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы управления информационной безопасностью (Лекция)
+UID:54911d114d66b1ec0a5704268275177f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Лекция)
+UID:3795860372d847d5140709b01320adec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Колупаев А.В.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204а
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Программно-аппаратные средства защиты информации (Лабораторная работа)
+UID:8e4e9b92ff58c39f5f79aa47484a24cb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ржаникова Е.Д.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 206
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 206
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами (Практическое занятие)
+UID:cc9401ce9462bd901cc24799c2baedbb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Комплексная защита объектов информатизации (Практическое занятие)
+UID:f49347edf04b523852c087db814a6495@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Колупаев А.В.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204а
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Программно-аппаратные средства защиты информации (Лабораторная работа)
+UID:183801dbab9636b1f563bc88b8eb54d6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вахрушев В.Ю.
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T115623Z
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование автоматизированных систем управления (Лекция)
+UID:4767e8bb58cf78a09bd3b93ba9c4f6a7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колупаев А.В.\nМесто: корп. 3\, ауд. 102
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Программно-аппаратные средства защиты информации (Лекция)
+UID:54500ce457422aa0fd369d75e9efd665@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ржаникова Е.Д.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 206
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 206
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами (Практическое занятие)
+UID:17631b4c5329147527414fa13e6a8049@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вахрушев В.Ю.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 203
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 203
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование автоматизированных систем управления (Лабораторная работа)
+UID:47cdbf71ece81b357689445729f0e2e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Лекция)
+UID:59293fbdff77d62ebf69563eccf92f7f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Трубин И.С.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204а
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы управления информационной безопасностью (Лабораторная работа)
+UID:48953c32573590fef0fee6da9933c86d@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

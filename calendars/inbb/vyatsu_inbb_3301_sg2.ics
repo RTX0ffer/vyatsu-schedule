@@ -1,0 +1,273 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ИНБб-3301 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харина Н.Л.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 206
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 206
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методы и средства криптографической защиты информации (Практическое занятие)
+UID:2cc5d9056ebc28652dc6fa99447c4800@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Харина Н.Л.
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T115623Z
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы и средства криптографической защиты информации (Лекция)
+UID:b2e7d0b1f18b0cc95b5638e7577a484d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесников В.А.\nМесто: корп. 3\, ауд. 102
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Сети и системы передачи информации (Практическое занятие)
+UID:f6e608f3aeda351ad7e0f0e737be917f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харина Н.Л.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 206
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 206
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Аппаратные средства вычислительной техники (Практическое занятие)
+UID:30d4115aedde08114fd0be4d7e90b117@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесников В.А.\nМесто: корп. 3\, ауд. 102
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Сети и системы передачи информации (Лекция)
+UID:bc6715a0ced5d878b00c931e3d2cad65@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:6c871dd92fb29c79ac9d14dd03ff1b52@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колупаев А.В.\nМесто: корп. 3\, ауд. 102
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Системы управления базами данных (Лекция)
+UID:e7173b436d243a4ce41396597a1fea20@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Медведева Е.В.\nМесто: корп. 3\, ауд. 102
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория информации и кодирования (Практическое занятие)
+UID:148beecb00380facc88dd79f81cd7c08@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Метелев А.П.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204б
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204б
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Локальные вычислительные сети и их безопасность (Практическое занятие)
+UID:c1718561ad27e08b61fd1dcfcaa7126d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Метелев А.П.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204б
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204б
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Локальные вычислительные сети и их безопасность (Практическое занятие)
+UID:3fda7a8684b3799a027118b7a531f69e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Метелев А.П.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 205
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Локальные вычислительные сети и их безопасность (Лабораторная работа)
+UID:bede2c2f8f0d88f41fda4e44966b7271@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Метелев А.П.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 205
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 205
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Локальные вычислительные сети и их безопасность (Лабораторная работа)
+UID:14aba1fcb5ed51a2576c7bc80e59fc96@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Харина Н.Л.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204б
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204б
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Аппаратные средства вычислительной техники (Лабораторная работа)
+UID:99a6c7e1a9e88c85e44cdde254a1ea55@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харина Н.Л.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 206
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 206
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методы и средства криптографической защиты информации (Практическое занятие)
+UID:b4dd65de7b610adbd770ee6f1b15df0d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харина Н.Л.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 206
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 206
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Аппаратные средства вычислительной техники (Практическое занятие)
+UID:031ee0b18719ed21da6f21e98b2f850d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Харина Н.Л.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204б
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204б
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Аппаратные средства вычислительной техники (Лабораторная работа)
+UID:2d60bcc3938e3fd9cadc41ce933c0c03@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Медведева Е.В.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 206
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 206
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория информации и кодирования (Лабораторная работа)
+UID:9d6885d9042339a4c3270a8312840ca0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Метелев А.П.\nМесто: корп. 3\, ауд. 102
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Локальные вычислительные сети и их безопасность (Лекция)
+UID:68fdc36e4d9105ed8111abb01d746614@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:b1e3b6efb0a4f3ac26db9e0357b7157b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Колупаев А.В.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204б
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204б
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Системы управления базами данных (Лабораторная работа)
+UID:e579f1b6ad054290d96de95b51848889@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Колупаев А.В.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 204б
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204б
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Системы управления базами данных (Лабораторная работа)
+UID:14834e3d9153d28be3d12520f72a351d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Медведева Е.В.\nМесто: корп. 3\, ауд. 102
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория информации и кодирования (Лекция)
+UID:a5800e0ec0c3aa7d8cc57c3f092eff0c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Медведева Е.В.\nПодгруппа: 2\nМесто: корп. 3\, ауд. 206
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 206
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория информации и кодирования (Лабораторная работа)
+UID:b34a6d20bf72500428a1bff3cdc7ab77@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Харина Н.Л.\nМесто: корп. 3\, ауд. 102
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Аппаратные средства вычислительной техники (Лекция)
+UID:ef1aaba0dbac89f0abd0e933fdc49799@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

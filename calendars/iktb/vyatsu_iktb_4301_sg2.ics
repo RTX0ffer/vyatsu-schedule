@@ -1,0 +1,296 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ИКТб-4301 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ржаникова Е.Д.\nМесто: корп. 2\, ауд. 202
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 202
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методы научного творчества (Практическое занятие)
+UID:b9e3d128a579b4b047dc4f88d5e8c477@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Метелев А.П.\nМесто: корп. 3\, ауд. 207
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 207
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Оборудование систем мобильной связи (Практическое занятие)
+UID:555a9cb73f7bb0b84ec333111f8063d5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Системы коммутации (Практическое занятие)
+UID:9be289a8706d31476b0be4e87fcbb429@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Предеина Н.М.\nМесто: корп. 3\, ауд. 104
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 104
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Системы коммутации (Лабораторная работа)
+UID:0fce658d86bf957b82e44483556eb640@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Лекция)
+UID:aac6a333ed8fa281808a7fe7c4e310c2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесников В.А.\nМесто: корп. 3\, ауд. 105
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровая обработка сигналов (Практическое занятие)
+UID:a43b70ee73a2eb42fea88938077276d8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Сети и системы связи (Практическое занятие)
+UID:0f0f055b8cee34fa62b6b441eb17cf19@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесников В.А.\nМесто: корп. 3\, ауд. 105
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровая обработка сигналов (Лекция)
+UID:be8cdf49d68313456f1e6800224fbc19@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Системы коммутации (Лекция)
+UID:1d1cd4367564fbfe9c6ac571ca38713f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Предеина Н.М.\nМесто: корп. 3\, ауд. 104
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 104
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Сети и системы связи (Лабораторная работа)
+UID:49f3842dba81ceca1b838707f7c04b0e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лесников В.А.\nМесто: корп. 3\, ауд. 204б
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204б
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровая обработка сигналов (Лабораторная работа)
+UID:b86b9350ea162656f7c774089f5c6f35@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Практическое занятие)
+UID:c53f5825ad8a3613cc54d4854ccd937c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лесников В.А.\nМесто: корп. 3\, ауд. 204б
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 204б
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровая обработка сигналов (Лабораторная работа)
+UID:138506ce1dc62428e08faa96958d48ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ржаникова Е.Д.\nМесто: корп. 3\, ауд. 102
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 102
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Методы научного творчества (Лекция)
+UID:6558b6bb2a8056d91c2510700ab1c69f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Сети и системы связи (Практическое занятие)
+UID:6db69eddc7e8458acd8a9eaa3848319a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ржаникова Е.Д.\nМесто: корп. 3\, ауд. 206
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 206
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами (Практическое занятие)
+UID:81d032dbc3e2ab57954b0d7f9e2bdbbb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Сети и системы связи (Лекция)
+UID:4714ba02fcce143b9f0fb5b7d7672b54@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Предеина Н.М.\nМесто: корп. 3\, ауд. 104
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 104
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Сети и системы связи (Лабораторная работа)
+UID:bb0c495d5d8a206ee22007bb582d3dfd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Сети и системы связи (Лекция)
+UID:a119d7fb382766ef5872c1a653a9f99a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Метелев А.П.\nМесто: корп. 3\, ауд. 101
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 101
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Оборудование систем мобильной связи (Лекция)
+UID:887a5f75f67b84fc9c833e383e847535@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ржаникова Е.Д.\nМесто: корп. 3\, ауд. 206
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 206
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами (Практическое занятие)
+UID:f8873932e7807c67fe27eb350f243b82@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Лекция)
+UID:19c01824c5b48f39a713011c8b7749ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ржаникова Е.Д.\nМесто: корп. 2\, ауд. 202
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 202
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы научного творчества (Практическое занятие)
+UID:87ccf80c39ba7ba501badda24ff11e1a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесников В.А.\nМесто: корп. 3\, ауд. 105
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 105
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровая обработка сигналов (Лекция)
+UID:241ccc8498b9138bd08d0ae6f94f832e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чернышова А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Практическое занятие)
+UID:c27b0543fecf849a56e6c689a04bd747@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T115623Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Предеина Н.М.\nМесто: корп. 3\, ауд. 104
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T115623Z
+LOCATION:корп. 3\, ауд. 104
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Системы коммутации (Лабораторная работа)
+UID:c91e1cc24b72367eafe7f9f7c2121f14@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR
