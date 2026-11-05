@@ -1,0 +1,351 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ПМИб-1302
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рублёва О.С.\nМесто: корп. 14\, ауд. 219
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:1b9f3fd80fff7e69e5fdff4fd5094688@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакшаев М.В.\nМесто: корп. 14\, ауд. 221
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:f2f0d5bec92d073b5306ec92613db5a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шалагинова Н.В.\nМесто: корп. 14\, ауд. 338
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы программирования (Лекция)
+UID:ea7b404cb6b630f2837dc449723e68e0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подлевских М.Н.\nМесто: корп. 14\, ауд. 234
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Дополнительные главы элементарной математики (Практическое занятие)
+UID:1e3dc1ce9080f57d52a08351a519d4be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Здоровенко М.Ю.\nМесто: корп. 14\, ауд. 202
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:b2da77f58ecac6536da4319da46fbb59@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рублёва О.С.\nМесто: корп. 16\, ауд. 121
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:a279875f13d024c33a361ad6a0d4c180@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Крестьянинова О.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 147
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:6315c26e1e65f989e0f77cc8444b29eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кустова Е.В.\nМесто: корп. 14\, ауд. 329
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 329
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:53c938e0d82e40c8889e2517233428c7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасова А.А.\nПодгруппа: 3\nМесто: корп. 19\, ауд. 206
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 19\, ауд. 206
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:9cb8fa36d8f65fd98a0d6546816e3bf4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасова А.А.\nПодгруппа: 3\nМесто: корп. 19\, ауд. 206
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 19\, ауд. 206
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:b6d0766ae7e2ee6b4e622782716f6478@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кустова Е.В.\nМесто: корп. 14\, ауд. 329
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 329
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:3b7f5994b26bed2d2b3801208652b229@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Здоровенко М.Ю.\nМесто: корп. 14\, ауд. 338
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:1e47ced3728d0b5cc2c1dcea0fd88bc7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подлевских М.Н.\nМесто: корп. 14\, ауд. 208
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 208
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Дополнительные главы элементарной математики (Практическое занятие)
+UID:376f4db5c081bb7b2113f05a60a31fe2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Толмачева М.И.\nМесто: корп. 14\, ауд. 247
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 247
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Практическое занятие)
+UID:f3177870238e38e33f5a4fd339a767c6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Здоровенко М.Ю.\nМесто: корп. 14\, ауд. 202
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:42e5f575dfdfa579aa0936a64914e17e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Загребина Л.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 115
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:20c4dd786b6f58d22e43a698055492b3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакшаев М.В.\nМесто: корп. 14\, ауд. 331
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 331
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:9b881aeb83a3904d2c5a13007e268fa6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Разова Е.В.\nМесто: корп. 14\, ауд. 334
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математические основы информатики (Лекция)
+UID:00f21fcce72239281f6d332709b8f5ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соколова А.Н.\nМесто: корп. 14\, ауд. 140
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы программирования (Лабораторная работа)
+UID:6dcbff382c638173d41ecb288bbd5d1c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Толмачева М.И.\nМесто: корп. 14\, ауд. 238
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 238
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лабораторная работа)
+UID:f090549b4b880176fe0158af0ba23973@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Здоровенко М.Ю.\nМесто: корп. 14\, ауд. 234
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:ced90920f63b002c537fc6039ab283d5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Крестьянинова О.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 147
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:8696f7a3c9b71cc9aa16def365823037@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рублёва О.С.\nМесто: корп. 14\, ауд. 219
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:db7a73f0fdc053fdf0d6ba1f40be73e3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бакшаев М.В.\nМесто: корп. 14\, ауд. 338
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:34f0c9cae0a433c99ee767019771a4c5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подлевских М.Н.\nМесто: корп. 14\, ауд. 201
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 201
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Дополнительные главы элементарной математики (Практическое занятие)
+UID:2dfebb998d3a489655fbfa7028fda3e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соколова А.Н.\nМесто: корп. 14\, ауд. 136
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 136
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы программирования (Лабораторная работа)
+UID:41681c2703f714e9fb69df4f4da06782@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кустова Е.В.\nМесто: корп. 14\, ауд. 331
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 331
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:c691764659219ce74bc681bd6cfe9281@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шалагинова Н.В.\nМесто: корп. 14\, ауд. 202
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы программирования (Лекция)
+UID:cfcd2d5bb36d2c51013b6f7023b1945a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кустова Е.В.\nМесто: корп. 14\, ауд. 334
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:c91f46835f94b97dc9ba9f7e54fc056a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Загребина Л.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 115
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:8ddfedb94314514a2dd54582f451f1a6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T122337Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Здоровенко М.Ю.\nМесто: корп. 14\, ауд. 234
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T122337Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:50ba3c31a6dcc9de020ee0321792361f@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

@@ -74,13 +74,14 @@ DIRECTIONS = {
     }
 }
 
-SUPPORTED_GROUPS = {
+DEFAULT_SUPPORTED_GROUPS = {
     # =========================================================================
     # 🏛 Факультет компьютерных и физико-математических наук (ФКФМН)
     # =========================================================================
 
     # 01.03.02 Прикладная математика и информатика (ПМИб)
     '27021': {'name': 'ПМИб-1301', 'course': 1, 'direction': 'pmib', 'full_name': 'ПМИб-1301-52-00', 'code': '1301'},
+    '27022': {'name': 'ПМИб-1302', 'course': 1, 'direction': 'pmib', 'full_name': 'ПМИб-1302-52-00', 'code': '1302'},
     '26498': {'name': 'ПМИб-2301', 'course': 2, 'direction': 'pmib', 'full_name': 'ПМИб-2301-52-00', 'code': '2301'},
     '26256': {'name': 'ПМИб-3301', 'course': 3, 'direction': 'pmib', 'full_name': 'ПМИб-3301-52-00', 'code': '3301'},
     '26418': {'name': 'ПМИб-4301', 'course': 4, 'direction': 'pmib', 'full_name': 'ПМИб-4301-52-00', 'code': '4301'},
@@ -156,7 +157,84 @@ SUPPORTED_GROUPS = {
     '26370': {'name': 'ИНБс-4301', 'course': 4, 'direction': 'inbs', 'full_name': 'ИНБс-4301-01-00', 'code': 'inbs_4301'},
     '26640': {'name': 'ИНБс-5301', 'course': 5, 'direction': 'inbs', 'full_name': 'ИНБс-5301-01-00', 'code': 'inbs_5301'},
 }
-DEFAULT_GROUP_ID = '27021'
+
+GROUPS_FILE = 'groups.json'
+
+
+def discover_groups(soup):
+    """
+    Автоматически находит все группы на странице расписания ВятГУ для поддерживаемых направлений.
+    Возвращает словарь {group_id: {name, course, direction, full_name, code}}.
+    """
+    if soup is None:
+        return {}
+
+    short_to_dir = {d['short']: k for k, d in DIRECTIONS.items()}
+    discovered = {}
+
+    for it in soup.find_all('div', class_='grpPeriod'):
+        full_name = it.text.strip()
+        raw_pid = it.get('data-grp_period_id', '').strip()
+        if not raw_pid:
+            continue
+        # ID группы в ссылках на PDF (отсекаем номер периода/семестра, если он приписан в конце)
+        grp_id = raw_pid[:-1] if len(raw_pid) > 5 else raw_pid
+
+        m = re.match(r'^([А-Яа-яЁё]+)-(\d{4})', full_name)
+        if not m:
+            continue
+        short_pref, number = m.group(1), m.group(2)
+        course_digit = int(number[0])
+
+        if short_pref in short_to_dir:
+            dir_key = short_to_dir[short_pref]
+            name = f'{short_pref}-{number}'
+            code = number if dir_key == 'pmib' else f'{dir_key}_{number}'
+            discovered[grp_id] = {
+                'name': name,
+                'course': course_digit,
+                'direction': dir_key,
+                'full_name': full_name,
+                'code': code
+            }
+
+    return discovered
+
+
+def load_groups():
+    """Загружает обнаруженные группы из groups.json."""
+    if os.path.exists(GROUPS_FILE):
+        try:
+            with open(GROUPS_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if data and isinstance(data, dict):
+                    return data
+        except Exception as e:
+            logging.warning(f"Не удалось загрузить {GROUPS_FILE}: {e}")
+    return {}
+
+
+def save_groups(groups_dict):
+    """Сохраняет группы в groups.json."""
+    tmp = f"{GROUPS_FILE}.tmp"
+    with open(tmp, 'w', encoding='utf-8') as f:
+        json.dump(groups_dict, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, GROUPS_FILE)
+
+
+def get_default_group_id(groups_dict=None):
+    """Возвращает ID группы по умолчанию (предпочтительно 1 курс ПМИб)."""
+    grps = groups_dict if groups_dict is not None else SUPPORTED_GROUPS
+    for gid, ginfo in grps.items():
+        if ginfo.get('direction') == 'pmib' and ginfo.get('course') == 1:
+            return gid
+    if grps:
+        return next(iter(grps))
+    return '27021'
+
+
+SUPPORTED_GROUPS = load_groups() or DEFAULT_SUPPORTED_GROUPS
+DEFAULT_GROUP_ID = get_default_group_id(SUPPORTED_GROUPS)
 GROUP_ID = DEFAULT_GROUP_ID  # Для обратной совместимости
 TIMEZONE = ZoneInfo('Europe/Kirov')
 CACHE_FILE = 'lessons_cache.json'
@@ -368,6 +446,24 @@ def update_schedule():
 
     has_changes = False
 
+    # Динамический авто-поиск всех групп на странице расписания (Auto-Discovery)
+    if soup:
+        discovered = discover_groups(soup)
+        if discovered:
+            logging.info(f"Auto-Discovery: обнаружено {len(discovered)} актуальных групп на сайте ВятГУ.")
+            if discovered != SUPPORTED_GROUPS:
+                save_groups(discovered)
+                SUPPORTED_GROUPS.clear()
+                SUPPORTED_GROUPS.update(discovered)
+                has_changes = True
+        else:
+            logging.warning("Auto-Discovery не нашел групп по шаблону, используем сохраненные.")
+    else:
+        loaded = load_groups()
+        if loaded:
+            SUPPORTED_GROUPS.clear()
+            SUPPORTED_GROUPS.update(loaded)
+
     if soup:
         for gid, ginfo in SUPPORTED_GROUPS.items():
             pdf_items = get_group_pdf_urls(gid, soup=soup)
@@ -407,25 +503,44 @@ def update_schedule():
     save_cache(cache)
     all_lessons = list(cache['lessons'].values())
 
-    # Генерируем календари для каждой группы направления (все 4 курса), разложенные по папкам
+    # Генерируем календари для каждой группы, разложенные по папкам
+    valid_ics_files = set()
     for gid, ginfo in SUPPORTED_GROUPS.items():
         code = ginfo.get('code', gid)
         direction = ginfo.get('direction', 'pmib')
         dir_path = os.path.join(CALENDARS_DIR, direction)
+        os.makedirs(dir_path, exist_ok=True)
         g_lessons = [l for l in all_lessons if l.get('group_id') == gid or (not l.get('group_id') and gid == DEFAULT_GROUP_ID)]
 
+        f_all = os.path.join(dir_path, f'vyatsu_{code}.ics')
+        f_sg1 = os.path.join(dir_path, f'vyatsu_{code}_sg1.ics')
+        f_sg2 = os.path.join(dir_path, f'vyatsu_{code}_sg2.ics')
+
+        valid_ics_files.update([os.path.abspath(f_all), os.path.abspath(f_sg1), os.path.abspath(f_sg2)])
+
         # Общий календарь группы
-        generate_ics(g_lessons, os.path.join(dir_path, f'vyatsu_{code}.ics'), title=f"Расписание ВятГУ {ginfo['name']}")
+        generate_ics(g_lessons, f_all, title=f"Расписание ВятГУ {ginfo['name']}")
 
         # 1 подгруппа
         sg1 = [l for l in g_lessons if not l.get('subgroup') or l.get('subgroup') == 1]
-        generate_ics(sg1, os.path.join(dir_path, f'vyatsu_{code}_sg1.ics'), title=f"ВятГУ {ginfo['name']} (1 подгр.)")
+        generate_ics(sg1, f_sg1, title=f"ВятГУ {ginfo['name']} (1 подгр.)")
 
         # 2 подгруппа
         sg2 = [l for l in g_lessons if not l.get('subgroup') or l.get('subgroup') == 2]
-        generate_ics(sg2, os.path.join(dir_path, f'vyatsu_{code}_sg2.ics'), title=f"ВятГУ {ginfo['name']} (2 подгр.)")
+        generate_ics(sg2, f_sg2, title=f"ВятГУ {ginfo['name']} (2 подгр.)")
 
-
+    # Удаляем устаревшие .ics файлы для групп, которых больше нет (выпустились или переименованы)
+    for root, _, files in os.walk(CALENDARS_DIR):
+        for f in files:
+            if f.endswith('.ics'):
+                full_p = os.path.abspath(os.path.join(root, f))
+                if full_p not in valid_ics_files:
+                    try:
+                        os.remove(full_p)
+                        logging.info(f"Удален устаревший календарь: {full_p}")
+                        has_changes = True
+                    except Exception as e:
+                        logging.warning(f"Ошибка удаления {full_p}: {e}")
 
     return has_changes
 

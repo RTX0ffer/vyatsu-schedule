@@ -116,13 +116,14 @@ DIRECTIONS = {
     }
 }
 
-SUPPORTED_GROUPS = {
+DEFAULT_SUPPORTED_GROUPS = {
     # =========================================================================
     # 🏛 Факультет компьютерных и физико-математических наук (ФКФМН)
     # =========================================================================
 
     # 01.03.02 Прикладная математика и информатика (ПМИб)
     '27021': {'name': 'ПМИб-1301', 'course': 1, 'direction': 'pmib', 'full_name': 'ПМИб-1301-52-00', 'code': '1301'},
+    '27022': {'name': 'ПМИб-1302', 'course': 1, 'direction': 'pmib', 'full_name': 'ПМИб-1302-52-00', 'code': '1302'},
     '26498': {'name': 'ПМИб-2301', 'course': 2, 'direction': 'pmib', 'full_name': 'ПМИб-2301-52-00', 'code': '2301'},
     '26256': {'name': 'ПМИб-3301', 'course': 3, 'direction': 'pmib', 'full_name': 'ПМИб-3301-52-00', 'code': '3301'},
     '26418': {'name': 'ПМИб-4301', 'course': 4, 'direction': 'pmib', 'full_name': 'ПМИб-4301-52-00', 'code': '4301'},
@@ -198,19 +199,96 @@ SUPPORTED_GROUPS = {
     '26370': {'name': 'ИНБс-4301', 'course': 4, 'direction': 'inbs', 'full_name': 'ИНБс-4301-01-00', 'code': 'inbs_4301'},
     '26640': {'name': 'ИНБс-5301', 'course': 5, 'direction': 'inbs', 'full_name': 'ИНБс-5301-01-00', 'code': 'inbs_5301'},
 }
-DEFAULT_GROUP_ID = '27021'
+
+GROUPS_FILE = 'groups.json'
+GROUPS_URL = os.getenv('GROUPS_URL') or (DATA_URL.replace('lessons_cache.json', 'groups.json') if 'lessons_cache.json' in DATA_URL else '')
+
+
+class DynamicGroups(dict):
+    """Словарь поддерживаемых групп с авто-перезагрузкой из groups.json при изменении файла."""
+
+    def __init__(self, fallback: dict):
+        super().__init__(fallback)
+        self.groups_file = GROUPS_FILE
+        self._last_mtime = 0
+        self._check_reload()
+
+    def _check_reload(self):
+        if os.path.exists(self.groups_file):
+            try:
+                mtime = os.path.getmtime(self.groups_file)
+                if mtime != self._last_mtime:
+                    with open(self.groups_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                    if data and isinstance(data, dict):
+                        self.clear()
+                        self.update(data)
+                        self._last_mtime = mtime
+            except Exception as e:
+                logging.warning(f"Ошибка перезагрузки {self.groups_file}: {e}")
+
+    def __getitem__(self, key):
+        self._check_reload()
+        return super().__getitem__(key)
+
+    def get(self, key, default=None):
+        self._check_reload()
+        return super().get(key, default)
+
+    def items(self):
+        self._check_reload()
+        return super().items()
+
+    def values(self):
+        self._check_reload()
+        return super().values()
+
+    def keys(self):
+        self._check_reload()
+        return super().keys()
+
+    def __contains__(self, key):
+        self._check_reload()
+        return super().__contains__(key)
+
+    def __iter__(self):
+        self._check_reload()
+        return super().__iter__()
+
+    def __len__(self):
+        self._check_reload()
+        return super().__len__()
+
+
+SUPPORTED_GROUPS = DynamicGroups(DEFAULT_SUPPORTED_GROUPS)
+
+
+def get_default_group_id() -> str:
+    """Динамически находит ID группы по умолчанию (предпочтительно 1 курс ПМИб)."""
+    for gid, ginfo in SUPPORTED_GROUPS.items():
+        if ginfo.get('direction') == 'pmib' and ginfo.get('course') == 1:
+            return gid
+    if SUPPORTED_GROUPS:
+        return next(iter(SUPPORTED_GROUPS))
+    return '27021'
+
+
+DEFAULT_GROUP_ID = get_default_group_id()
 
 
 def get_user_group(user_id: int | str) -> str:
-    """Возвращает ID выбранной пользователем группы (по умолчанию ПМИб-1301)."""
+    """Возвращает ID выбранной пользователем группы (с валидацией актуальности группы)."""
+    def_id = get_default_group_id()
     if os.path.exists(USER_SETTINGS_FILE):
         try:
             with open(USER_SETTINGS_FILE, 'r', encoding='utf-8') as f:
                 settings = json.load(f)
-                return settings.get(str(user_id), DEFAULT_GROUP_ID)
+                saved_id = settings.get(str(user_id))
+                if saved_id and saved_id in SUPPORTED_GROUPS:
+                    return saved_id
         except Exception:
             pass
-    return DEFAULT_GROUP_ID
+    return def_id
 
 
 def set_user_group(user_id: int | str, group_id: str):
@@ -288,6 +366,25 @@ def get_cached_lessons():
 
 async def sync_remote_cache():
     """Фоновая асинхронная проверка обновлений с GitHub."""
+    # 1. Фоновая синхронизация списка групп (Auto-Discovery с GitHub)
+    if GROUPS_URL:
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(GROUPS_URL, timeout=8) as resp:
+                    if resp.status == 200:
+                        remote_groups = await resp.json(content_type=None)
+                        if remote_groups and isinstance(remote_groups, dict) and remote_groups != dict(SUPPORTED_GROUPS):
+                            tmp = f"{GROUPS_FILE}.tmp"
+                            with open(tmp, 'w', encoding='utf-8') as f:
+                                json.dump(remote_groups, f, ensure_ascii=False, indent=2)
+                            os.replace(tmp, GROUPS_FILE)
+                            SUPPORTED_GROUPS.clear()
+                            SUPPORTED_GROUPS.update(remote_groups)
+                            logging.info(f"Фоновое обновление: синхронизировано {len(remote_groups)} групп с GitHub.")
+        except Exception as e:
+            logging.warning(f"Фоновое обновление групп с GitHub не удалось: {e}")
+
+    # 2. Фоновая синхронизация расписания
     if not DATA_URL:
         return
 
