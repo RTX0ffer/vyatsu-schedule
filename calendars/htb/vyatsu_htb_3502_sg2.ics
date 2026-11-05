@@ -1,0 +1,339 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ХТб-3502 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 15\, ауд. 211
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:a052adf5f7de33c6bbe5583aa5bd5287@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Михайлова И.Ю.\nМесто: корп. 1\, ауд. 514
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая электрохимия (Лекция)
+UID:e93e9ca13f77defa678bf7ee12bf215f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Фалалеев А.В.\nМесто: корп. 1\, ауд. 236
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:f7b7a14855222b05436c5a9981d25557@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 509
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 509
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая электрохимия (Лабораторная работа)
+UID:8e823d72c080948545b1b420e6158712@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nМесто: корп. 1\, ауд. 502
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:a96bba6344bed8174ac85569417d3522@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалов А.В.\nМесто: корп. 1\, ауд. 516
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:d44cf9c0c30ec555cba1a44f728b1e11@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 433
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 433
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Механика (Лабораторная работа)
+UID:6240cef102b2d8bebdead80b098a8cc9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Фалалеев А.В.\nМесто: корп. 1\, ауд. 236
+DTEND:20261030T172500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261030T155500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:031152ee508ea77106b50a99764e0fbf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Воротников В.А.\nМесто: корп. 1\, ауд. 510
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 510
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение (Лабораторная работа)
+UID:5d71f23d717e7cd17f0f38ade747015e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 509
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 509
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая электрохимия (Лабораторная работа)
+UID:525102fa719e94f4afc80c2992d33595@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Камалов К.О.\nМесто: корп. 1\, ауд. 531
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Процессы и аппараты химической технологии (Лекция)
+UID:316f01db76579f75c145191b6fa68402@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Воротников В.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение (Лекция)
+UID:2cda2e3ced24b7d4da6cb92aea022b55@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Михайлова И.Ю.\nМесто: корп. 1\, ауд. 531
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая электрохимия (Лекция)
+UID:37c73dc641f9ecd95e2a0839a8fffb38@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Камалов К.О.\nМесто: корп. 1\, ауд. 530
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Процессы и аппараты химической технологии (Практическое занятие)
+UID:cbdbd37c1c306f0457daf41fa4344842@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Камалов К.О.\nМесто: корп. 1\, ауд. 531
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Процессы и аппараты химической технологии (Практическое занятие)
+UID:f61a179ee3e658e5b07e90bb68a91db5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:ee7b14922c83a634201bca81ca87595f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Воротников В.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение (Практическое занятие)
+UID:a47aeb67747f44871ed651f609c6e5b3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 509
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 509
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая электрохимия (Лабораторная работа)
+UID:2e9401e96f7ae82518660fc0c58b38c5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Михайлова И.Ю.\nМесто: корп. 1\, ауд. 514
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая электрохимия (Практическое занятие)
+UID:a5b212b297b71f241e93904173a552e9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:2a160ed11b2f9bbcbf9e27f7625a8b46@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Воротников В.А.\nМесто: корп. 1\, ауд. 510
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 510
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение (Лабораторная работа)
+UID:a4bd22b5dd269e091d7a81f46eae93a7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Камалов К.О.
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Процессы и аппараты химической технологии (Лабораторная работа)
+UID:bb5d7764664042948c6ca30ecfe1ccd2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Механика (Лекция)
+UID:a2300d40faedc27a48aca92c9c4f52c6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:234f65414bb91882aae477240bed33ae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 433
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 433
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Механика (Лабораторная работа)
+UID:ec2284c32b2369dfe51a937df645d952@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 15\, ауд. 211
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:19331cb1250e05b086bf9aa383ee618f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 419
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 419
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Механика (Практическое занятие)
+UID:ab74dd865d223db0e9492df06fb6933d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nМесто: корп. 1\, ауд. 502
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:71245c82c2e1c5f17503ee61b7651245@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:7cb522033f70d7e33ef4fff85cffd9ec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Камалов К.О.\nМесто: корп. 1\, ауд. 516
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Процессы и аппараты химической технологии (Лекция)
+UID:3aba16ac05d68bac82b17de63d5ba602@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

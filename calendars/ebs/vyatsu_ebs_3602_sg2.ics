@@ -1,0 +1,296 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЭБс-3602 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Смирнов Ф.Е.\nМесто: корп. 16\, ауд. 209
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Информационно-аналитические системы обеспечения экономической безопасности (Лабораторная работа)
+UID:2b3b13f251d5283a559675653ed8b5e9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Логинов Д.А.\nМесто: корп. 16\, ауд. 121
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая безопасность (Практическое занятие)
+UID:b21e58b3e1b559ef019031dea727fdf6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гамулинская Н.В.\nМесто: корп. 2\, ауд. 407
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 2\, ауд. 407
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Аудит (Практическое занятие)
+UID:eae91240b38d24bc829b49d2987eb0a7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Тимин А.Н.\nМесто: корп. 16\, ауд. 121
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Страхование (Лекция)
+UID:7fc5af0254b267814dd7ffabde8ca9ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Логинов Д.А.\nМесто: корп. 16\, ауд. 212
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая безопасность (Лекция)
+UID:f06695e09ecc6c73d9366837f45d3341@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гамулинская Н.В.\nМесто: корп. 2\, ауд. 300
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Аудит (Лекция)
+UID:57df5fe34f8c65046c4520f89718f8fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Беличева Т.В.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:2b5140c812f54c6183cb8f9bdd378390@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Палешева Н.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономический анализ (Практическое занятие)
+UID:3ea89b1c7414d1d12db281eb76ef2f1c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смирнов Ф.Е.\nМесто: корп. 16\, ауд. 220
+DTEND:20261030T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261030T155500Z
+STATUS:CONFIRMED
+SUMMARY:Информационно-аналитические системы обеспечения экономической безопасности (Практическое занятие)
+UID:3c7dd7e300ac7a8970046d095a9dbe53@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Скопин Д.И.\nМесто: корп. 16\, ауд. 202
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Финансовый мониторинг и технологии финансовых расследований (Практическое занятие)
+UID:835aeaa39b754324f362be5a3ac84dd3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Горячих С.П.\nМесто: корп. 16\, ауд. 209
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Налоги и налогообложение (Практическое занятие)
+UID:8a2a09d38cb70d45fd1cfd7f66b1b298@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Скопин Д.И.\nМесто: корп. 16\, ауд. 202
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Финансовый мониторинг и технологии финансовых расследований (Практическое занятие)
+UID:290a40871e84806183822ebc05ce7eac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тимин А.Н.\nМесто: корп. 16\, ауд. 202
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Страхование (Практическое занятие)
+UID:1b955c5d7574a6fdc38ee7c258d5f91b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Логинов Д.А.\nМесто: корп. 16\, ауд. 121
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая безопасность (Лекция)
+UID:d194f37617d193b7fdd3bd4198d35920@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гамулинская Н.В.\nМесто: корп. 2\, ауд. 407
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 2\, ауд. 407
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Аудит (Лекция)
+UID:a1e46fc274de28403a0dda7693026775@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Скопин Д.И.\nМесто: корп. 16\, ауд. 206
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Финансовый мониторинг и технологии финансовых расследований (Лекция)
+UID:9ff7c4ed75b14a13b05c274c4fa15f63@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Тимин А.Н.\nМесто: корп. 16\, ауд. 220
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Страхование (Лекция)
+UID:f6654585e16d20a5e9f35726e7ebe50f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тимин А.Н.\nМесто: корп. 16\, ауд. 202
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Страхование (Практическое занятие)
+UID:3e2f25ef7ebd09deac0a1611ebdc1f57@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Палешева Н.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономический анализ (Лекция)
+UID:2946e6e62466148f58eea38f283210f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Палешева Н.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономический анализ (Практическое занятие)
+UID:6f4d976c287efd874422d2b4106ff560@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Смирнов Ф.Е.\nМесто: корп. 16\, ауд. 220
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Информационно-аналитические системы обеспечения экономической безопасности (Лекция)
+UID:578f57988e17f2aefc3f89d822dc23d4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Смирнов Ф.Е.\nМесто: корп. 16\, ауд. 209
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Информационно-аналитические системы обеспечения экономической безопасности (Лабораторная работа)
+UID:15873434400f4fa187a257b69f002c94@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Логинов Д.А.\nМесто: корп. 16\, ауд. 212
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая безопасность (Практическое занятие)
+UID:b6686b2cad56b0698e065729d80d51af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Беличева Т.В.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:e835ca3d33a413fce2d32b834ad3df62@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гамулинская Н.В.\nМесто: корп. 2\, ауд. 300
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Аудит (Практическое занятие)
+UID:d2fc6270d5338f218d85d2c8433f9e8c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Горячих С.П.\nМесто: корп. 16\, ауд. 313
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Налоги и налогообложение (Лекция)
+UID:18f9fffb8b96008983bd8fab7c9cc23e@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

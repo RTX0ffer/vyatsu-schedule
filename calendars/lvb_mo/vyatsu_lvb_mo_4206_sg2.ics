@@ -1,0 +1,578 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЛВб-4206 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глухих А.Н.\nМесто: корп. 2\, ауд. 207
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 207
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой русский язык (Практическое занятие)
+UID:2eedefbfc9f2eb0e578baabc4c3b3e6f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 2\, ауд. 205
+DTEND:20261109T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 205
+DTSTART:20261109T052000Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по культуре речевого общения на русском языке преподавателя иностранного языка (Практическое занятие)
+UID:3ad599ec666092e8a28f4365dd0bb145@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы лингводидактической терминологии (Практическое занятие)
+UID:03bc14d9e6f448d37f90a5bccd1de47a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы лингводидактической терминологии (Практическое занятие)
+UID:508eea827787e6c5e9b9f740f03108b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 6\, ауд. 201
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 6\, ауд. 201
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Стилистика в системе обучения русскому языку как иностранному (Практическое занятие)
+UID:85e2508bc44bb38537188ac0ca8c8cdb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глухих А.Н.\nМесто: корп. 2\, ауд. 102
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 102
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой русский язык (Практическое занятие)
+UID:439f0006e91b9ef4c31b1b89f99aab64@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Батина Д.В.\nМесто: корп. 16\, ауд. 206
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Страноведение России (Лекция)
+UID:741fb2ba25600cfd1e174fa2ae92f111@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Исупова С.М.\nМесто: корп. 2\, ауд. 205
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 205
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Стилистика в системе обучения русскому языку как иностранному (Лекция)
+UID:480ba06a42d7b165e97d72037eb96c57@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Комарова Н.И.\nМесто: корп. 2\, ауд. 302
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 302
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Обучение аудированию текстов на русском языке (Практическое занятие)
+UID:9d5a6c3843a9eef4e2f35ad905de8784@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (английский язык) (Практическое занятие)
+UID:f8b1a087a1c9138ad769d1856b1c1873@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 2\, ауд. 205
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 205
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по культуре речевого общения на русском языке преподавателя иностранного языка (Практическое занятие)
+UID:2a7235b20c7e52e8cc05282f8fade5df@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (английский язык) (Практическое занятие)
+UID:aa74114d5c05265d9c34bb5f5fbe6cac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Комарова Н.И.\nМесто: корп. 2\, ауд. 302
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 302
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Обучение аудированию текстов на русском языке (Практическое занятие)
+UID:a77739dae160f9feecdfdc8100a5a0a1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глухих А.Н.\nМесто: корп. 2\, ауд. 302
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 302
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой русский язык (Практическое занятие)
+UID:2fd6024ad8ddc5bccb224c49e93368ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы лингводидактической терминологии (Практическое занятие)
+UID:b32fa4a24d79273b90f305ed567ce24d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глухих А.Н.\nМесто: корп. 2\, ауд. 102
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 102
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Деловой русский язык (Практическое занятие)
+UID:8c67c164e927ce0da9a44a87abd2e2d5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глухих А.Н.\nМесто: корп. 2\, ауд. 207
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 207
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой русский язык (Практическое занятие)
+UID:fc196ef73ef35e16aeed015561d20456@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы лингводидактической терминологии (Практическое занятие)
+UID:dae1af448f76532006e86249e71fe48c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 2\, ауд. 407
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 407
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лингводидактический анализ текста (Практическое занятие)
+UID:266ffca0da76909cf9514698a1210893@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261117T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261117T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы лингводидактической терминологии (Практическое занятие)
+UID:4a114be1c5f980f6ba7b832a9091ad27@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лингводидактический анализ текста (Практическое занятие)
+UID:9da16963aa94ec3fbcb0dd74d590a781@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глухих А.Н.\nМесто: корп. 2\, ауд. 207
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 207
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (русский язык) (Практическое занятие)
+UID:6fd1ae9b99505e12c8c2bf9a13f5ae3e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 6\, ауд. 201
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 6\, ауд. 201
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Стилистика в системе обучения русскому языку как иностранному (Практическое занятие)
+UID:6112e42b92e0a55dbbcbdd7e9bef4457@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Батина Д.В.\nМесто: корп. 16\, ауд. 224
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Страноведение России (Лекция)
+UID:7d7821dbfc6847b90ab23161f7cd6e4c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лингводидактический анализ текста (Практическое занятие)
+UID:9ac5865cf5794f1459011aec35c17299@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глухих А.Н.\nМесто: корп. 2\, ауд. 207
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 207
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой русский язык (Практическое занятие)
+UID:2ed0b912e1a5ee52dda1baf91ebeed53@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 6\, ауд. 201
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 6\, ауд. 201
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Стилистика в системе обучения русскому языку как иностранному (Практическое занятие)
+UID:3d2bf5808f637b725378efc508404cd7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глухих А.Н.\nМесто: корп. 2\, ауд. 207
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 207
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (русский язык) (Практическое занятие)
+UID:a56d8eb68af296d6e059aee23eaaed86@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (английский язык) (Практическое занятие)
+UID:6966b2080f3042f9da02d5cf49ceb64f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 2\, ауд. 205
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 205
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по культуре речевого общения на русском языке преподавателя иностранного языка (Практическое занятие)
+UID:36c6bbfb3752c24aed8162b208e806ba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 2\, ауд. 205
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 205
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по культуре речевого общения на русском языке преподавателя иностранного языка (Практическое занятие)
+UID:8a97207b4a12e48cb3d1148a2d4fb7b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 2\, ауд. 205
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 205
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по культуре речевого общения на русском языке преподавателя иностранного языка (Практическое занятие)
+UID:22eb8ee12b8f7e7114561bb80b7722e9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы лингводидактической терминологии (Практическое занятие)
+UID:840a9c5e046fc609e8523303599063b5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лингводидактический анализ текста (Практическое занятие)
+UID:1545a64a01206c18a6618595e07eb731@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (английский язык) (Практическое занятие)
+UID:dd4ba387119a53b277f230f48d4fe45b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глухих А.Н.\nМесто: корп. 2\, ауд. 207
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 207
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (русский язык) (Практическое занятие)
+UID:18004dbd764fe74b4ccb5445e5efbaca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глухих А.Н.\nМесто: корп. 2\, ауд. 302
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 302
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой русский язык (Практическое занятие)
+UID:6a8aba45157d49ff3cb3b3b7e6319f0a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Комарова Н.И.\nМесто: корп. 2\, ауд. 303
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 303
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Обучение аудированию текстов на русском языке (Практическое занятие)
+UID:3019a1c89fe62c3a5784078f1b663154@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Комарова Н.И.\nМесто: корп. 2\, ауд. 303
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 303
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Обучение аудированию текстов на русском языке (Практическое занятие)
+UID:7c2c4a7c7ed7b1397c2e3116bac84ebe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суворов Г.В.\nМесто: корп. 2\, ауд. 405
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 405
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Практическое занятие)
+UID:548ea81ec69ac138448153d5bc6a74a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глухих А.Н.\nМесто: корп. 2\, ауд. 207
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 207
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (русский язык) (Практическое занятие)
+UID:2a1573dc6b5fb059d084eac0d1449e74@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Комарова Н.И.\nМесто: корп. 2\, ауд. 303
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 303
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Обучение аудированию текстов на русском языке (Практическое занятие)
+UID:7344b8f8e3e0da70d8026c5c0ee490ee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Комарова Н.И.\nМесто: корп. 2\, ауд. 303
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 303
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Обучение аудированию текстов на русском языке (Практическое занятие)
+UID:525b0128e2ef0283d959f3c88bdc8813@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глухих А.Н.\nМесто: корп. 2\, ауд. 300
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (русский язык) (Практическое занятие)
+UID:1917a33016adc1c32fa48a1b3a3068cc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 2\, ауд. 407
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 407
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лингводидактический анализ текста (Практическое занятие)
+UID:a2c5321ca2d62bdd21e9450fb719288a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 6\, ауд. 201
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 6\, ауд. 201
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Стилистика в системе обучения русскому языку как иностранному (Практическое занятие)
+UID:74e44e94ca86007ce3d4d1f5b615749c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Исупова С.М.\nМесто: корп. 2\, ауд. 205
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 205
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Стилистика в системе обучения русскому языку как иностранному (Лекция)
+UID:27d28015a8fe55af27c28c6dfa167858@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 2\, ауд. 205
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 205
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по культуре речевого общения на русском языке преподавателя иностранного языка (Практическое занятие)
+UID:4d721891510a37cd40cff2bd18f91e88@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Комарова Н.И.\nМесто: корп. 2\, ауд. 302
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 2\, ауд. 302
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Обучение аудированию текстов на русском языке (Практическое занятие)
+UID:bbe7cf10246e097422be1bc40ad8d6e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Батина Д.В.\nМесто: корп. 16\, ауд. 224
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Страноведение России (Лекция)
+UID:9ef7698a39a0518abafe692782f30fbc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лингводидактический анализ текста (Практическое занятие)
+UID:be9b3d9ca66850e22ba38ae160279145@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Батина Д.В.\nМесто: корп. 13\, ауд. 111
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Страноведение России (Лекция)
+UID:a702ca287edf12a005ea47883d45bf8e@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

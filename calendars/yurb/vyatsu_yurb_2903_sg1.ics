@@ -1,0 +1,208 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЮРб-2903 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасова А.А.\nПодгруппа: 1\nМесто: корп. 19\, ауд. 206
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 19\, ауд. 206
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:7f0a41f5d57f2d6c95700292c4666ef2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кукреш Я.О.\nМесто: корп. 13\, ауд. 402
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 402
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Гражданское право (Практическое занятие)
+UID:0418c046f02c3a80fa172bfce45f444c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кукреш Я.О.\nМесто: корп. 13\, ауд. 111
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Гражданское право (Лекция)
+UID:f419ee675d4f9ddd600cbfb548090e3e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кукреш Я.О.\nМесто: корп. 13\, ауд. 402
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 402
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Гражданское право (Практическое занятие)
+UID:bd64757007c61dd6328122f2947426a6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зырянова А.В.\nМесто: корп. 13\, ауд. 609
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Международное право (Практическое занятие)
+UID:0708ad9dac70c0c3bbfb4c35d2f1e6fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 110
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Уголовное право (Общая часть) (Лекция)
+UID:d3256e5266b283b30f1dbb94f3913ab0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кукреш Я.О.\nМесто: корп. 13\, ауд. 111
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Гражданское право (Лекция)
+UID:4bb1e47d5e02952e552936df66c2c3d5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мамаева А.Н.\nМесто: корп. 13\, ауд. 609
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Административное право (Практическое занятие)
+UID:f0442f2d8fdc4b69a53d46a2cd56c6b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кукреш Я.О.\nМесто: корп. 13\, ауд. 513
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Гражданское право (Практическое занятие)
+UID:65544f6985d6a4ecdce4e9b1adafdb54@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кукреш Я.О.\nМесто: корп. 13\, ауд. 513
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Гражданское право (Практическое занятие)
+UID:645c13b9b8765fc7538f040d797319e5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шак М.П.\nМесто: корп. 13\, ауд. 111
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Трудовое право (Лекция)
+UID:de0966c4758421786159e503d38e398a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кукреш Я.О.\nМесто: корп. 13\, ауд. 111
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Гражданское право (Лекция)
+UID:c6b0ac8ade1f4c10f541857c48d76a1f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 405
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Уголовное право (Общая часть) (Практическое занятие)
+UID:b41f791dedb42549523527a264fd28b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасова А.А.\nПодгруппа: 1\nМесто: корп. 19\, ауд. 206
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 19\, ауд. 206
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:2b0d0b1b31533d99b5007c6fe1e4acc2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зырянова А.В.\nМесто: корп. 13\, ауд. 609
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Международное право (Практическое занятие)
+UID:960045d3211e63c468df7c641d75023f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 405
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Уголовное право (Общая часть) (Практическое занятие)
+UID:277505b5cafd376552820156a1ba96ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 609
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Уголовное право (Общая часть) (Практическое занятие)
+UID:0e3413c0ff74aecd7b114cc7bf1ea501@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мамаева А.Н.\nМесто: корп. 13\, ауд. 608
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Административное право (Практическое занятие)
+UID:4ba982cd7c6e09fb4ba8e26fb0943e02@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

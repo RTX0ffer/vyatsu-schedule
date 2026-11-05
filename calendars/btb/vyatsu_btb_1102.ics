@@ -1,0 +1,868 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ БТб-1102
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Базарбаева В.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 120
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Общая биология (Лабораторная работа)
+UID:65844a7a756ea368becb3ca9c205369b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ахмаров Ф.И.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 535
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 535
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Общая и неорганическая химия (Лабораторная работа)
+UID:0fc29b0e7b216daa2054fb0601845894@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Базарбаева В.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 120
+DTEND:20261117T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261117T052000Z
+STATUS:CONFIRMED
+SUMMARY:Общая биология (Лабораторная работа)
+UID:40767f7dad2fadf6e196151f06f3ddc4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова С.И.\nМесто: корп. 1\, ауд. 242
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:569acc51297c17a1ea94ce1f0561c6bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Базарбаева В.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 120
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Общая биология (Лабораторная работа)
+UID:a355662683f277e40a17c18cff938d0c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 128
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общая биология (Лекция)
+UID:97288eb081d5e790c0b23fc93f93cf2a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ахмаров Ф.И.\nМесто: корп. 1\, ауд. 242
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общая и неорганическая химия (Лекция)
+UID:77676efbf1c221dd41e8d01d60818455@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
+DTEND:20261118T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261118T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:86cd94e3d2b2e63ff3a0d4b7e4677b56@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пономаренко Л.Н.\nМесто: корп. 1\, ауд. 315
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 315
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:7385dc3aa320108019e798c1e0732cc1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:ecd82eb12cad75a2c39bae8e3495124a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 334
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:244d4a4f28d443eabfd3d8034470acfa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:2c35bdbf8fc062155405006342f530f3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ахмаров Ф.И.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 535
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 535
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Общая и неорганическая химия (Лабораторная работа)
+UID:f745ccdb9986d6e122dc76ec571866be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Базарбаева В.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 120
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Общая биология (Лабораторная работа)
+UID:7aec88384d5eccf1aa0f014f8998f8dc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широков А.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:827670a3fabc4a3f68f21c533ab131aa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ахмаров Ф.И.\nМесто: корп. 1\, ауд. 242
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общая и неорганическая химия (Лекция)
+UID:14f28d8150b0bdb177a4d89d7e36945a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 242
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общая биология (Лекция)
+UID:672353549542afde0f81a67af23a85f1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Базарбаева В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 120
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общая биология (Лабораторная работа)
+UID:9f533bb30ac6f5b6aa1f3f136cab0fe8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 128
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общая биология (Лекция)
+UID:4a0acd202ba71b1981b4528f0944e19f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ахмаров Ф.И.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 535
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 535
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Общая и неорганическая химия (Лабораторная работа)
+UID:68768f4ae7889b4c963f662b9fd95eee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Торопова С.И.\nМесто: корп. 1\, ауд. 222
+DTEND:20261109T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 222
+DTSTART:20261109T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:6e166dac814ec88ed43d227c0ca7558d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:6b1236ee32ba49726a550792144ae4d9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 242
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общая биология (Лекция)
+UID:7c2108ba3fdef2537fea7dee51d8fbcb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 334
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:ab636e3795f4b0dbd17ce7d23facebb9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 3\nМесто: корп. 9\, ауд. 102
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 9\, ауд. 102
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:30b18f3b778caaa67ae35bb188d9650d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пономаренко Л.Н.\nМесто: корп. 1\, ауд. 315
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 315
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:f141060f7cd07e93f9d916c6a6d1c6dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Торопова С.И.\nМесто: корп. 1\, ауд. 222
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 222
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:2cd314fdf5fe8d6fd73b53fef56b0480@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:8d73761da6b6e4d6435150ae30206e97@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ахмаров Ф.И.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 535
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 535
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Общая и неорганическая химия (Лабораторная работа)
+UID:2fcf9c6686ed969f20f2b234f5f02f37@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:f88e26f82b2a4496a9b46eda73a8e42e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:2047266cdd8d2c8446c8daa69197b974@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ахмаров Ф.И.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 535
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 535
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Общая и неорганическая химия (Лабораторная работа)
+UID:3211f440a384dfd39e18df912be0ca9a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 031
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Техника лабораторного анализа (Лабораторная работа)
+UID:bc3a4d898d1a35ff8a9f6809a2a00065@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 116
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:4f9cad13ae8f40bac55a7bdfb6198d9b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ахмаров Ф.И.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 535
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 535
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Общая и неорганическая химия (Лабораторная работа)
+UID:8d388fa6a3136f670daad2fc40e8c8ba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 3\nМесто: корп. 9\, ауд. 102
+DTEND:20261118T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 9\, ауд. 102
+DTSTART:20261118T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:1dccf65fb7aa3725dfb43782894cf47f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пономаренко Л.Н.\nМесто: корп. 1\, ауд. 315
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 315
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:d6ccead5409a22d9f873df00b3ffda55@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Широков А.А.\nМесто: корп. 1\, ауд. 534
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:8ef07a599ac0b0ae45c0221e0b760434@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 031
+DTEND:20261117T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261117T142000Z
+STATUS:CONFIRMED
+SUMMARY:Техника лабораторного анализа (Лабораторная работа)
+UID:38a403b27c3d52f9fbdbd95b393e2628@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 031
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Техника лабораторного анализа (Лабораторная работа)
+UID:cb1775c7a6e6dbfebef7f477bedc3e72@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:036def2fb773e5fb6b47937a85b0ce80@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 3\nМесто: корп. 9\, ауд. 102
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 9\, ауд. 102
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:5e560db97c5f02bcca6eea7c2ba0ff40@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Базарбаева В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 120
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Общая биология (Лабораторная работа)
+UID:fc63a1b35c4d5e76208ccf7cceaa088a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:20d98f3a577fdb877918e9167db9fc3e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 031
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Техника лабораторного анализа (Лабораторная работа)
+UID:593aa6b1febc2a0809c0b0395b09ec97@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:ec4f0027406067fcc196ed23a4884744@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Торопова С.И.\nМесто: корп. 1\, ауд. 222
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 222
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:b50e659bcb49a9a3aa1e0d8a39c85993@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ахмаров Ф.И.\nМесто: корп. 1\, ауд. 242
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Техника лабораторного анализа (Лекция)
+UID:37cda32ff6e45186d413f79a33bdfc08@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широков А.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:3f267fa101712d0774853bff6fbdc59a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пономаренко Л.Н.\nМесто: корп. 1\, ауд. 315
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 315
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:fdeb2da376897e99ec8ea9a0e8da7786@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Преподаватель: Гордина Е.Н.\nМесто: корп. 4\, ауд. 302
+DTEND:20261118T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 302
+DTSTART:20261118T110000Z
+STATUS:CONFIRMED
+SUMMARY:Час с куратором
+UID:fa77f6d8581ebe107714032d02528d9e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пономаренко Л.Н.\nМесто: корп. 1\, ауд. 315
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 315
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:0b517def9f693fb0eca3342590b7c13a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ахмаров Ф.И.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 535
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 535
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Общая и неорганическая химия (Лабораторная работа)
+UID:0eb393821773da84f85143a64594af4b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:1015b6de6d29ff15131ddf58f4fa5bc9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широков А.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:fd89284232517375b3145c194b0e19f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ахмаров Ф.И.\nМесто: корп. 1\, ауд. 521
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Общая и неорганическая химия (Практическое занятие)
+UID:39592a305cfd2bcf3a4824cf4b5785b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Широков А.А.\nМесто: корп. 1\, ауд. 534
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:272f9c474697fb695b2e9f1edde14413@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пономаренко Л.Н.\nМесто: корп. 1\, ауд. 315
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 315
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:d2ecc2fbf86ee7eb77411e7c556b1b0c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Базарбаева В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 120
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Общая биология (Лабораторная работа)
+UID:c0cec4c0814c3b8461c171812830e927@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 031
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Техника лабораторного анализа (Лабораторная работа)
+UID:fda3e9dd6bfa5c5d9c6a13622a860538@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова С.И.\nМесто: корп. 1\, ауд. 242
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:e7bc24f62028bd789b9fc9245e789e77@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ахмаров Ф.И.\nМесто: корп. 1\, ауд. 242
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Техника лабораторного анализа (Лекция)
+UID:b199af00a6613d84c9ea29876d7def89@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:67c5205593671b281ca4d9a715492cab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Торопова С.И.\nМесто: корп. 1\, ауд. 222
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 222
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:98fabc6cb7d0d2750ff8f99589ace001@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 116
+DTEND:20261118T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261118T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:719277160442fa78fa2156f8eb7dfd1a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 031
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Техника лабораторного анализа (Лабораторная работа)
+UID:ab1472857f42b3c94fd7e50a91fdb4ad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова С.И.\nМесто: корп. 1\, ауд. 242
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:fa8075e9a7c191e1ec31c1997028a5f3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ахмаров Ф.И.\nМесто: корп. 1\, ауд. 521
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Общая и неорганическая химия (Практическое занятие)
+UID:1227ebcdb8d93264f0989402864f1bf3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 031
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Техника лабораторного анализа (Лабораторная работа)
+UID:50ee7e4075c387606ceca5edce401384@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 534
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Лекция)
+UID:33fa7394ba9332ae385f5ae21118edbe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:fc30c3c36a3d6b831e779e3314469759@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 334
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:1c4839632cc6be1fbff31f0bbe0d7b54@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова С.И.\nМесто: корп. 1\, ауд. 242
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:0501a947bd647c92254cd7f5fdfbe767@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 334
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:33a5a90282dbd491c2755e87c1bb22d5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ахмаров Ф.И.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 535
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 535
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Общая и неорганическая химия (Лабораторная работа)
+UID:6cba8e5ad3849d9f4f929c9894651866@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 031
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Техника лабораторного анализа (Лабораторная работа)
+UID:d1e2e1bbfaf3c59c3d3245b0b3c68e01@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 116
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:f43d1c96115fbe1e80568a51b8d8c953@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Базарбаева В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 120
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общая биология (Лабораторная работа)
+UID:d1efe9fd938ad74ce614b5e0257084e7@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

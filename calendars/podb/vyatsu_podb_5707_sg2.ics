@@ -1,0 +1,428 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ПОДб-5707 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 315
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математическое моделирование и модели реальных процессов (Лабораторная работа)
+UID:e303298f3a8ebc6a4ef2c6adcabcfc34@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 315
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математическое моделирование и модели реальных процессов (Лабораторная работа)
+UID:54ad8d5e2e6324bb0471fe7e3a1b5ba3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широков Д.В.\nМесто: корп. 14\, ауд. 234
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Практическое занятие)
+UID:68eae7185ccde8a6ef292a8d472a2559@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 320
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лекция)
+UID:c9fa608494f054af45eedd82e84c4be0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 311
+DTEND:20261110T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261110T052000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лекция)
+UID:4ddc279c4e824aa925a1aa8f0aafcc06@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 313
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лекция)
+UID:353266a308754143a7169236d7474f2c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 320
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лекция)
+UID:0d8420cb1ef5b7f8e9fed5b8030870e8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широков Д.В.\nМесто: корп. 14\, ауд. 312
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Практическое занятие)
+UID:76329e730b5bdb4a0e48e6d88bdf6e78@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 216
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 216
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математическое моделирование и модели реальных процессов (Лекция)
+UID:642a66a7cd07333add1ce7005cfee040@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Широков Д.В.\nМесто: корп. 14\, ауд. 222
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Лекция)
+UID:88938ba179a82330cf6ccc86a78f998b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 224
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математическое моделирование и модели реальных процессов (Лекция)
+UID:e125274ebb661c106af6eeed2ec41860@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трефилова Е.С.\nМесто: корп. 16\, ауд. 204
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 204
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория вероятностей и математическая статистика (Практическое занятие)
+UID:1e421d28470633a4462abc4c7afe04f4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Трефилова Е.С.\nМесто: корп. 16\, ауд. 207
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория вероятностей и математическая статистика (Лекция)
+UID:a8e5270a630fca559b59abab661c2b82@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Трефилова Е.С.\nМесто: корп. 16\, ауд. 204
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 204
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория вероятностей и математическая статистика (Лекция)
+UID:3b2b171233d78fe8396688115ed54859@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 320
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лекция)
+UID:b276c84ac3f9a32380abfcaf30910acd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 224
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математическое моделирование и модели реальных процессов (Лекция)
+UID:738582d064b96b17aff498783b11cbf7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 302
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 302
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лабораторная работа)
+UID:5d6411ac8ce0ca0359cc6748a501ab7f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трефилова Е.С.\nМесто: корп. 16\, ауд. 204
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 204
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория вероятностей и математическая статистика (Практическое занятие)
+UID:b04d36a79f0feea5579e729967543965@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 315
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математическое моделирование и модели реальных процессов (Лабораторная работа)
+UID:a8f491f68837d4310c4a7c186c6f9648@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 311
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лекция)
+UID:5f0e213dfca2ff84f3634040e0de83c2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 315
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Математическое моделирование и модели реальных процессов (Лабораторная работа)
+UID:e5ae41b58d63d4f2d956094d4d9a62ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 313
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лекция)
+UID:a58fa41d763f28c3abc6b4eb5054878b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математическое моделирование и модели реальных процессов (Лекция)
+UID:f843ba03aa6c3165854b9eb749f7a16d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математическое моделирование и модели реальных процессов (Лекция)
+UID:d8c539fdaa1443cdc712726f60b14c09@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Широков Д.В.\nМесто: корп. 14\, ауд. 234
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Лекция)
+UID:9e587836c9db7010328a76570c66779b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трефилова Е.С.\nМесто: корп. 16\, ауд. 207
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория вероятностей и математическая статистика (Практическое занятие)
+UID:6a2e03989df2832227ea522d002a63da@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 319
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 319
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лабораторная работа)
+UID:60f15d09beb30da2a5a6534bbba827b7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широков Д.В.\nМесто: корп. 14\, ауд. 312
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Практическое занятие)
+UID:b39f185f6a93b89a1e171b8ebc6562d2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 319
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 319
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лабораторная работа)
+UID:6faa01dfd8ed77ea93fc1ce66a088d78@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широков Д.В.\nМесто: корп. 14\, ауд. 234
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Практическое занятие)
+UID:bffb00fe61edac1cf5330657a5204b37@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Широков Д.В.\nМесто: корп. 14\, ауд. 222
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Лекция)
+UID:d40ac554fea5e6f66258497ad7fb7c25@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Широков Д.В.\nМесто: корп. 14\, ауд. 234
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Лекция)
+UID:b1eb983fa4b87436216c6f9a93c5f0aa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 302
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 302
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лабораторная работа)
+UID:fa9347d1ce916ff130d9f29af5134f56@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 315
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математическое моделирование и модели реальных процессов (Лабораторная работа)
+UID:f07c12f379d8012f9383714222119a8d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 315
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математическое моделирование и модели реальных процессов (Лабораторная работа)
+UID:683bf452d5b573cd0ba548ad78d6e70b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 302
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 302
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лабораторная работа)
+UID:7fa5883df6d1067b5e18e0032eff4236@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 320
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лабораторная работа)
+UID:92b348d813db0b1cadbc03a804d29d73@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 302
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 302
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лабораторная работа)
+UID:c0b2c7bc1df96e45cd34d3e7941f7c3e@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

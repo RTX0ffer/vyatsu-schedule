@@ -1,0 +1,1058 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ МРб-3801
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 006
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электронные устройства мехатронных и робототехнических систем (Лабораторная работа)
+UID:7089ac9c9b3606b7cee6e6490b661dd7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 008
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные системы (Лабораторная работа)
+UID:b7687619e98c7858937e15cc1724f0bc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дегтерев Б.И.\nМесто: корп. 1\, ауд. 533
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:884564c6706d7a9eaa97089b279b186d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261112T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261112T052000Z
+STATUS:CONFIRMED
+SUMMARY:Детали мехатронных модулей\, роботов и их конструирование (Лекция)
+UID:b244687485d1a14437692c8df2888846@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сластихин Н.С.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 008
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:328093d76672a5840d508e247cce14ee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 433
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 433
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Детали мехатронных модулей\, роботов и их конструирование (Лабораторная работа)
+UID:21b343d86a0ec2f8b59b10a07893e6e5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Охапкин С.И.\nМесто: корп. 7\, ауд. 020
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 020
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лекция)
+UID:aba902d549fcc7c6a054b12b34ebe80d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сластихин Н.С.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 008
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:b874f8b7c80957acbc1d81a99a8c0549@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сластихин Н.С.\nМесто: корп. 7\, ауд. 021
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 021
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лекция)
+UID:807d66e633955c4970de39dfc55bd56c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Детали мехатронных модулей\, роботов и их конструирование (Практическое занятие)
+UID:174341bde1780671c235a94d15698b18@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 008
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные системы (Лабораторная работа)
+UID:3047ac4bce41809e3ab3285f472c233b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Грудинин В.С.\nМесто: корп. 7\, ауд. 013
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Программное обеспечение мехатронных и робототехнических систем (Лекция)
+UID:78338d7f3ea1f8fdc3a8e18401394c02@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 533
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:20b54178356af9bb82eb61a76bb87ead@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сластихин Н.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 008
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:4b938c7baab7a44dfa3c9d935c1a1117@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Юдин С.А.\nПодгруппа: 1
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лабораторная работа)
+UID:7dfe2bd151032a2a3a884c34802feaad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 533
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:df9ff58b086fefafeb6c520068abcaaa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Охапкин С.И.\nМесто: корп. 7\, ауд. 013
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лекция)
+UID:0ef120875662b6015089084f0c1d3a2e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:9bad61dd1ff595d62db5ad092c3469af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 014
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 014
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Силовая электроника (Лабораторная работа)
+UID:f7f564b19c9986cee2179d24a28765f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Охапкин С.И.\nМесто: корп. 7\, ауд. 013
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лекция)
+UID:5e5c70fb47e5e9402d8a6d77aded8f70@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лалетин В.И.\nМесто: корп. 7\, ауд. 013
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электронные устройства мехатронных и робототехнических систем (Лекция)
+UID:c05ff5cecdd7d8a5d0cb3c4c6ec7f13f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:b0717df4d6d6f0421ba9d9db7f789db1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Охапкин С.И.\nМесто: корп. 7\, ауд. 013
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Практическое занятие)
+UID:2c0b8e961d47873c940a8fd051e7ce38@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лалетин В.И.\nМесто: корп. 7\, ауд. 013
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электронные устройства мехатронных и робототехнических систем (Лекция)
+UID:58f158e2484342854ffd644146f1160e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Юдин С.А.\nПодгруппа: 2
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лабораторная работа)
+UID:308c804d34a33ee8a12165d02d831897@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 533
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:1bc1c23868a5d9f77902f25b93a17c2f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 433
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 433
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Детали мехатронных модулей\, роботов и их конструирование (Лабораторная работа)
+UID:6627f826572afe07c14ea14dd72d6f28@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Охапкин С.И.\nМесто: корп. 7\, ауд. 020
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 020
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лекция)
+UID:c0a447c17719e98bfde90d720b86190f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 008
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные системы (Лабораторная работа)
+UID:6d0eab002427ecf4f863e9d5fafdc2ab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сластихин Н.С.\nМесто: корп. 7\, ауд. 021
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 021
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Практическое занятие)
+UID:7de9373e83d84934c4922514f0f6910f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 008
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Программное обеспечение мехатронных и робототехнических систем (Лабораторная работа)
+UID:2b250b08a159262a1a3e43de23789fa6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Юдин С.А.\nПодгруппа: 1
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лабораторная работа)
+UID:7cba77dae6f6d3d640597df0cda52624@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 433
+DTEND:20261119T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 433
+DTSTART:20261119T052000Z
+STATUS:CONFIRMED
+SUMMARY:Детали мехатронных модулей\, роботов и их конструирование (Лабораторная работа)
+UID:e64753e749fe21a30d96faf52502122c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 014
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 014
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Силовая электроника (Лабораторная работа)
+UID:5a42d1a3ae5ea80cb3cbaf4472be62e1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лалетин В.И.\nМесто: корп. 7\, ауд. 013
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Силовая электроника (Лекция)
+UID:3338e3ade5a2331c66a86646db360c51@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сластихин Н.С.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 008
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:3b0b7ed6ba9e0820b9f124830214ae25@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 008
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Программное обеспечение мехатронных и робототехнических систем (Лабораторная работа)
+UID:addc0baec0434db2e0f19dddb4de4bbb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Детали мехатронных модулей\, роботов и их конструирование (Практическое занятие)
+UID:3b266423bc8cce8e55fa9a2482bc0e43@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Грудинин В.С.\nМесто: корп. 7\, ауд. 013
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные системы (Практическое занятие)
+UID:499d01f206c8631cbba220d9843cae91@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:a439df20720ea3842e11fb0f0d4796b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Грудинин В.С.\nМесто: корп. 7\, ауд. 013
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные системы (Практическое занятие)
+UID:f4b1869a06d77a71a68dcb7124881caa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сластихин Н.С.\nМесто: корп. 7\, ауд. 021
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 021
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Практическое занятие)
+UID:050ee737da7d5ddbb043fc97e60bc2e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сластихин Н.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 008
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:038825966ad5c0103c7866397e0fc351@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 533
+DTEND:20261116T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261116T052000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:2590b914baa4174e793433baead5fbe2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Грудинин В.С.\nМесто: корп. 7\, ауд. 013
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Программное обеспечение мехатронных и робототехнических систем (Лекция)
+UID:0c012b8f6100e63c10329ccbaea9ce0b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сластихин Н.С.\nМесто: корп. 7\, ауд. 021
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 021
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лекция)
+UID:b1869f70830d8766944dc8858ef8b4e1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Грудинин В.С.\nМесто: корп. 7\, ауд. 013
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Программное обеспечение мехатронных и робототехнических систем (Лекция)
+UID:3ea522ff1b6ecec35e2cdef16334aaf6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 008
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные системы (Лабораторная работа)
+UID:a54625690ad0773e8456a0b12be08f45@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Охапкин С.И.\nМесто: корп. 7\, ауд. 013
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лекция)
+UID:489434fc36f44d1a54e1f09bb8e33cec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дегтерев Б.И.\nМесто: корп. 1\, ауд. 533
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:41fe6064f14f6c168f99497bab8ac273@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 533
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:5dcb7e0b8ae0cc06fdd162562dc42a05@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Грудинин В.С.\nМесто: корп. 7\, ауд. 013
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные системы (Лекция)
+UID:64dbb862702b3623571eb67d838c4699@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 006
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электронные устройства мехатронных и робототехнических систем (Лабораторная работа)
+UID:84c3c16b07fa4e2bc725f02745c1c934@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 014
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 014
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Силовая электроника (Лабораторная работа)
+UID:c28f6be5dcf981b18d5c92e57a213c73@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сластихин Н.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 008
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:f985158aa3527c287f051d8c4e1259f3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:656acae1e0352cb09bbffabc624cf4b9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Охапкин С.И.\nМесто: корп. 7\, ауд. 013
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Практическое занятие)
+UID:a4e8af66970729da63f74c2bd05a990c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Грудинин В.С.\nМесто: корп. 7\, ауд. 013
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные системы (Лекция)
+UID:4419e8d7185b2092332cbc7e1fc280fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 533
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:bf9df36cd5b05d9b06a1ce438ffa356e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лалетин В.И.\nМесто: корп. 7\, ауд. 013
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Силовая электроника (Лекция)
+UID:e859ab570c3915fb9b2eb47357c7ca17@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 533
+DTEND:20261116T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261116T052000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:cf9d8d405aa1e0502b5fab738f70c49a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 008
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Программное обеспечение мехатронных и робототехнических систем (Лабораторная работа)
+UID:2ec1802aa16614938dff0f3ab5d6f18d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 014
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 014
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Силовая электроника (Лабораторная работа)
+UID:5b3431f3829d9d624865a8f65af49c77@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 006
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электронные устройства мехатронных и робототехнических систем (Лабораторная работа)
+UID:0cf3c9519c10bfd998de804e9d3c0c7d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:cdd367f1dee1f680274fa6465c3d0d27@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сластихин Н.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 008
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:148eca49a367da664738bbc8c380a357@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Охапкин С.И.\nМесто: корп. 7\, ауд. 013
+DTEND:20261117T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261117T142000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лекция)
+UID:2600e25ad3d583393bf523ef23f1d800@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Юдин С.А.\nПодгруппа: 1
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лабораторная работа)
+UID:0f40e8724c982991e4b58af0010985c2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 014
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 014
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Силовая электроника (Лабораторная работа)
+UID:dc19b8ece5afd919508405dfbf43e153@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 008
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Программное обеспечение мехатронных и робототехнических систем (Лабораторная работа)
+UID:c2dcb90d351d7a86bbec2778147704b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 014
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 014
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Силовая электроника (Лабораторная работа)
+UID:235a66af4d804d66f9fe06266f0ecd9d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Юдин С.А.\nПодгруппа: 2
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лабораторная работа)
+UID:256f59cd2c8a84b2fafac599cde01d46@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 008
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные системы (Лабораторная работа)
+UID:22ed489c1d0ff57ceb93d599f2de9cba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Юдин С.А.\nПодгруппа: 2
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лабораторная работа)
+UID:2a8acaa25da390664e9a396b775b772b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:c26779b141860cf0df11e5248d8ef79b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 008
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные системы (Лабораторная работа)
+UID:045df554c89d7eae46ee2d55e6583d1a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 014
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 014
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Силовая электроника (Лабораторная работа)
+UID:82b904d9291b32f85e4747772812a183@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 008
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Программное обеспечение мехатронных и робототехнических систем (Лабораторная работа)
+UID:3da5cb72731565a2dd0286bf734fb1cc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 433
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 433
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Детали мехатронных модулей\, роботов и их конструирование (Лабораторная работа)
+UID:0b129a4413ab066c6607a004d76f2e23@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сластихин Н.С.\nМесто: корп. 7\, ауд. 013
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:28193729624cbeb7d0320f14b4fe2411@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 008
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные системы (Лабораторная работа)
+UID:57f071f088b20c9a3bb8f3698f188fc1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 014
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 014
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Силовая электроника (Лабораторная работа)
+UID:936c7cfed5b27b9fe66ce91dd949ae10@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Юдин С.А.\nПодгруппа: 2
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лабораторная работа)
+UID:e0d779715db21d16c455067fd1bf65db@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Грудинин В.С.\nМесто: корп. 7\, ауд. 013
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Программное обеспечение мехатронных и робототехнических систем (Лекция)
+UID:47f39fca82ece132d174730befa4c604@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 006
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электронные устройства мехатронных и робототехнических систем (Лабораторная работа)
+UID:65271ea843cca455b75eebff887878f1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сластихин Н.С.\nМесто: корп. 7\, ауд. 013
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:9d85f3a9999f10b3281a5217f989d8d8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:8b2b3e59f41010c4cb82a1d6d7006772@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Юдин С.А.\nПодгруппа: 1
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические и гидравлические приводы мехатронных и робототехнических устройств (Лабораторная работа)
+UID:e4e4a4d2d3e4f6aa0e6e86bc088652bd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сластихин Н.С.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 008
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:29e131c02c232839ed23cd4b84f45ed4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 008
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Программное обеспечение мехатронных и робототехнических систем (Лабораторная работа)
+UID:920581dc6de281c290854406bb644f73@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грудинин В.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 008
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 008
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные системы (Лабораторная работа)
+UID:8adb0ac90237ae72356e2efa1f44fa45@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Детали мехатронных модулей\, роботов и их конструирование (Лекция)
+UID:80f252c3a51095f3807cbfed8c99e3b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:db1bae9a9b8f159c93c8dba05548e161@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 533
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:2bc02f84c03580fb9533a5545c435636@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 006
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электронные устройства мехатронных и робототехнических систем (Лабораторная работа)
+UID:b6091b1ac8af09a40a72d749ea7112cd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 006
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электронные устройства мехатронных и робототехнических систем (Лабораторная работа)
+UID:3f44f1f77747a8b87016235ca248b057@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

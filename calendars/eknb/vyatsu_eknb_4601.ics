@@ -1,0 +1,274 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ЭКНб-4601
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бачуринская И.Н.\nПодгруппа: 1\nМесто: корп. 16\, ауд. 201
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 201
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по бухгалтерскому учету (Лабораторная работа)
+UID:91a94ad7956c732317604072b023c4e8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 224
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Аудит (Лекция)
+UID:dd95ef80f926f3330df7a62a204528aa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Деветьярова И.П.\nМесто: корп. 14\, ауд. 332
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 332
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы предпринимательства (Лекция)
+UID:59ddb542ed2ab75c14f4c61d6911fd6f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 14\, ауд. 332
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 332
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами (Практическое занятие)
+UID:b7ad0ce60546806c964c57fd06a21e1b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Синцова А.К.\nМесто: корп. 14\, ауд. 332
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 332
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы предпринимательства (Практическое занятие)
+UID:7e5342692ac75d22a3930efac27bc475@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 224
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Учет и отчетность субъектов малого предпринимательства (Лекция)
+UID:42e841f3d402cee7cd4e97be061c8b20@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 209
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Учет и отчетность субъектов малого предпринимательства (Практическое занятие)
+UID:f36fe8a9837237c572233ff159ffdbad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 210
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по бухгалтерскому учету (Практическое занятие)
+UID:da24c6e6cd58b24f15f68dc52191a49d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сурнина С.Л.\nМесто: корп. 16\, ауд. 224
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Учет и отчетность в учреждениях бюджетной сферы (Практическое занятие)
+UID:400e643cb140151ba302e558681414d2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гринь С.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Финансовый менеджмент (Практическое занятие)
+UID:a626a4b5530311708f0ba1cef7084b85@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 224
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Аудит (Практическое занятие)
+UID:397e53ba7d3227610591d28410e3695f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Агапитова Е.А.\nМесто: корп. 2\, ауд. 100
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 2\, ауд. 100
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Инвестиционный анализ (Практическое занятие)
+UID:ede168d23e36011eb55c60f235d2471e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Агапитова Е.А.\nМесто: корп. 2\, ауд. 403
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 2\, ауд. 403
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Инвестиционный анализ (Лекция)
+UID:86c5a3821f19cc017d14f702c3c8c4db@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сурнина С.Л.\nМесто: корп. 16\, ауд. 224
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Учет и отчетность в учреждениях бюджетной сферы (Лекция)
+UID:33a61dd84ecdb23042d4d2f91feadeec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сурнина С.Л.\nМесто: корп. 16\, ауд. 224
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Учет и отчетность в учреждениях бюджетной сферы (Лекция)
+UID:c6e48f64d63ab726e6396e541b262b40@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 14\, ауд. 332
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 332
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами (Лекция)
+UID:71b333db2cf3c0f28db6b17fa37f0902@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 210
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по бухгалтерскому учету (Практическое занятие)
+UID:b73a4cc9993bf4df30ce1bfcc0207b27@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сурнина С.Л.\nМесто: корп. 16\, ауд. 224
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Учет и отчетность в учреждениях бюджетной сферы (Практическое занятие)
+UID:a593419b40666a9d887ced4d60e61641@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бачуринская И.Н.\nПодгруппа: 2\nМесто: корп. 16\, ауд. 201
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 201
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по бухгалтерскому учету (Лабораторная работа)
+UID:5012b7ff8e308add8d1b4843701f2d43@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бачуринская И.Н.\nПодгруппа: 1\nМесто: корп. 16\, ауд. 201
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 201
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по бухгалтерскому учету (Лабораторная работа)
+UID:e04a45d32d951cfd0e6a798e3281a7a9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Синцова А.К.\nМесто: корп. 16\, ауд. 210
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы предпринимательства (Практическое занятие)
+UID:6ec0dad8785d897bdf109a7dbcc63262@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гринь С.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Финансовый менеджмент (Лекция)
+UID:c93c5238a5e7f9d86347eed0e742ce23@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 210
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Учет и отчетность субъектов малого предпринимательства (Практическое занятие)
+UID:5bab9cd87a6477fd7279967852477ffe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бачуринская И.Н.\nПодгруппа: 2\nМесто: корп. 16\, ауд. 201
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 201
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по бухгалтерскому учету (Лабораторная работа)
+UID:bb0a2f72484c002e5c33f821835a00cb@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

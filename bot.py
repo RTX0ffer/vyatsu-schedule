@@ -39,81 +39,194 @@ ICS_URL = f"{CDN_BASE_URL}/{CALENDARS_DIR}/pmib/vyatsu_1301.ics"
 
 FACULTIES = {
     'fkfmn': {
-        'name': 'Факультет компьютерных и физико-математических наук (ФКФМН)',
+        'name': 'Факультет компьютерных и физико-математических наук',
         'short': 'ФКФМН',
         'badge': '📐',
         'default_dir': 'pmib',
-        'directions': ['pmib', 'mkb', 'fib']
     },
     'favt': {
-        'name': 'Факультет автоматики и вычислительной техники (ФАВТ)',
+        'name': 'Факультет автоматики и вычислительной техники',
         'short': 'ФАВТ',
         'badge': '⚙️',
         'default_dir': 'ivtb',
-        'directions': ['ivtb', 'inbb', 'iktb', 'utb', 'inbs']
-    }
+    },
+    'etf': {
+        'name': 'Электротехнический факультет',
+        'short': 'ЭТФ',
+        'badge': '⚡️',
+        'default_dir': 'eieb',
+    },
+    'fsa': {
+        'name': 'Факультет строительства и архитектуры',
+        'short': 'ФСА',
+        'badge': '🏗',
+        'default_dir': 'stb',
+    },
+    'ftid': {
+        'name': 'Факультет технологий, инжиниринга и дизайна',
+        'short': 'ФТИД',
+        'badge': '🎨',
+        'default_dir': 'msb',
+    },
+    'inhe': {
+        'name': 'Институт химии и экологии',
+        'short': 'ИнХимЭк',
+        'badge': '🧪',
+        'default_dir': 'htb',
+    },
+    'inbio': {
+        'name': 'Институт биологии и биотехнологии',
+        'short': 'ИнБиоБиз',
+        'badge': '🌿',
+        'default_dir': 'bb',
+    },
+    'ui': {
+        'name': 'Юридический институт',
+        'short': 'ЮИ',
+        'badge': '⚖️',
+        'default_dir': 'yurb',
+    },
+    'fef': {
+        'name': 'Факультет экономики и финансов',
+        'short': 'ФЭФ',
+        'badge': '💰',
+        'default_dir': 'eknb',
+    },
+    'fms': {
+        'name': 'Факультет менеджмента и сервиса',
+        'short': 'ФМС',
+        'badge': '💼',
+        'default_dir': 'mnb',
+    },
+    'fipnik': {
+        'name': 'Факультет истории, полит. наук и культурологии',
+        'short': 'ФИПНиК',
+        'badge': '🏛',
+        'default_dir': 'isb',
+    },
+    'fl': {
+        'name': 'Факультет лингвистики',
+        'short': 'ФЛ',
+        'badge': '🗣',
+        'default_dir': 'lvb',
+    },
+    'fmo': {
+        'name': 'Факультет международного образования',
+        'short': 'ФМО',
+        'badge': '🌍',
+        'default_dir': 'lvb_mo',
+    },
+    'fryalim': {
+        'name': 'Факультет русского языка, литературы и медиакоммуникаций',
+        'short': 'ФРЯЛиМ',
+        'badge': '📚',
+        'default_dir': 'rsob',
+    },
+    'fpip': {
+        'name': 'Факультет педагогики и психологии',
+        'short': 'ФПиП',
+        'badge': '🧠',
+        'default_dir': 'plb',
+    },
+    'ped': {
+        'name': 'Дирекция ОП Педагогического института',
+        'short': 'Пединститут',
+        'badge': '🎓',
+        'default_dir': 'podb',
+    },
+    'ffkis': {
+        'name': 'Факультет физической культуры и спорта',
+        'short': 'ФФКиС',
+        'badge': '🏃‍♂️',
+        'default_dir': 'fkb',
+    },
 }
 
 DIRECTIONS = {
-    # 🏛 Факультет компьютерных и физико-математических наук (ФКФМН)
-    'pmib': {
-        'name': 'Прикладная математика и информатика',
-        'short': 'ПМИб',
-        'code_spec': '01.03.02',
-        'badge': '🔹',
-        'faculty': 'fkfmn'
-    },
-    'mkb': {
-        'name': 'Математика и компьютерные науки',
-        'short': 'МКб',
-        'code_spec': '02.03.01',
-        'badge': '🔸',
-        'faculty': 'fkfmn'
-    },
-    'fib': {
-        'name': 'Фундаментальная информатика и ИТ',
-        'short': 'ФИб',
-        'code_spec': '02.03.02',
-        'badge': '🟣',
-        'faculty': 'fkfmn'
-    },
+    # 📐 ФКФМН
+    'pmib': {'name': 'Прикладная математика и информатика', 'short': 'ПМИб', 'code_spec': '01.03.02', 'badge': '📐', 'faculty': 'fkfmn'},
+    'mkb': {'name': 'Математика и компьютерные науки', 'short': 'МКб', 'code_spec': '02.03.01', 'badge': '🔢', 'faculty': 'fkfmn'},
+    'fib': {'name': 'Фундаментальная информатика и ИТ', 'short': 'ФИб', 'code_spec': '02.03.02', 'badge': '💻', 'faculty': 'fkfmn'},
 
-    # ⚙️ Факультет автоматики и вычислительной техники (ФАВТ)
-    'ivtb': {
-        'name': 'Информатика и вычислительная техника',
-        'short': 'ИВТб',
-        'code_spec': '09.03.01',
-        'badge': '🖥',
-        'faculty': 'favt'
-    },
-    'inbb': {
-        'name': 'Информационная безопасность',
-        'short': 'ИНБб',
-        'code_spec': '10.03.01',
-        'badge': '🛡',
-        'faculty': 'favt'
-    },
-    'iktb': {
-        'name': 'Инфокоммуникационные технологии и системы связи',
-        'short': 'ИКТб',
-        'code_spec': '11.03.02',
-        'badge': '📡',
-        'faculty': 'favt'
-    },
-    'utb': {
-        'name': 'Управление в технических системах',
-        'short': 'УТб',
-        'code_spec': '27.03.04',
-        'badge': '⚙️',
-        'faculty': 'favt'
-    },
-    'inbs': {
-        'name': 'Информационная безопасность телеком. систем (Специалитет)',
-        'short': 'ИНБс',
-        'code_spec': '10.05.02',
-        'badge': '🔐',
-        'faculty': 'favt'
-    }
+    # ⚙️ ФАВТ
+    'ivtb': {'name': 'Информатика и вычислительная техника', 'short': 'ИВТб', 'code_spec': '09.03.01', 'badge': '🖥', 'faculty': 'favt'},
+    'inbb': {'name': 'Информационная безопасность', 'short': 'ИНБб', 'code_spec': '10.03.01', 'badge': '🔐', 'faculty': 'favt'},
+    'iktb': {'name': 'Инфокоммуникационные технологии и системы связи', 'short': 'ИКТб', 'code_spec': '11.03.02', 'badge': '📡', 'faculty': 'favt'},
+    'utb': {'name': 'Управление в технических системах', 'short': 'УТб', 'code_spec': '27.03.04', 'badge': '⚙️', 'faculty': 'favt'},
+    'inbs': {'name': 'Информационная безопасность телеком. систем (Специалитет)', 'short': 'ИНБс', 'code_spec': '10.05.02', 'badge': '🛡', 'faculty': 'favt'},
+
+    # ⚡️ ЭТФ
+    'eieb': {'name': 'Электроэнергетика и электротехника', 'short': 'ЭиЭб', 'code_spec': '13.03.02', 'badge': '⚡️', 'faculty': 'etf'},
+    'mrb': {'name': 'Мехатроника и робототехника', 'short': 'МРб', 'code_spec': '15.03.06', 'badge': '🤖', 'faculty': 'etf'},
+    'titb': {'name': 'Теплоэнергетика и теплотехника', 'short': 'ТиТб', 'code_spec': '13.03.01', 'badge': '🔥', 'faculty': 'etf'},
+
+    # 🏗 ФСА
+    'stb': {'name': 'Строительство', 'short': 'СТб', 'code_spec': '08.03.01', 'badge': '🏗', 'faculty': 'fsa'},
+    'tbb': {'name': 'Техносферная безопасность', 'short': 'ТБб', 'code_spec': '20.03.01', 'badge': '🦺', 'faculty': 'fsa'},
+    'gsb': {'name': 'Городское строительство и хозяйство', 'short': 'ГСб', 'code_spec': '08.03.01', 'badge': '🏙', 'faculty': 'fsa'},
+
+    # 🎨 ФТИД
+    'msb': {'name': 'Машиностроение', 'short': 'МСб', 'code_spec': '15.03.01', 'badge': '🏭', 'faculty': 'ftid'},
+    'thob': {'name': 'Технология художественной обработки материалов', 'short': 'ТХОб', 'code_spec': '29.03.04', 'badge': '🏺', 'faculty': 'ftid'},
+    'mtb': {'name': 'Материаловедение и технологии материалов', 'short': 'МТб', 'code_spec': '22.03.01', 'badge': '🔬', 'faculty': 'ftid'},
+    'mlb': {'name': 'Металлургия', 'short': 'МЛб', 'code_spec': '22.03.02', 'badge': '⚒', 'faculty': 'ftid'},
+    'db': {'name': 'Дизайн', 'short': 'Дб', 'code_spec': '54.03.01', 'badge': '🎨', 'faculty': 'ftid'},
+    'ptks': {'name': 'Проектирование технологических машин (Специалитет)', 'short': 'ПТКс', 'code_spec': '15.05.01', 'badge': '⚙️', 'faculty': 'ftid'},
+
+    # 🧪 ИнХимЭк
+    'htb': {'name': 'Химическая технология', 'short': 'ХТб', 'code_spec': '18.03.01', 'badge': '🧪', 'faculty': 'inhe'},
+    'hmb': {'name': 'Химия', 'short': 'ХМб', 'code_spec': '04.03.01', 'badge': '⚗️', 'faculty': 'inhe'},
+    'ggb': {'name': 'География', 'short': 'ГГб', 'code_spec': '05.03.02', 'badge': '🌍', 'faculty': 'inhe'},
+    'ldb': {'name': 'Ландшафтная архитектура', 'short': 'ЛДб', 'code_spec': '35.03.10', 'badge': '🌳', 'faculty': 'inhe'},
+
+    # 🌿 ИнБиоБиз
+    'bb': {'name': 'Биология', 'short': 'Бб', 'code_spec': '06.03.01', 'badge': '🧬', 'faculty': 'inbio'},
+    'btb': {'name': 'Биотехнология', 'short': 'БТб', 'code_spec': '19.03.01', 'badge': '🧫', 'faculty': 'inbio'},
+
+    # ⚖️ ЮИ
+    'yurb': {'name': 'Юриспруденция', 'short': 'ЮРб', 'code_spec': '40.03.01', 'badge': '⚖️', 'faculty': 'ui'},
+    'pnbs': {'name': 'Правовое обеспечение нац. безопасности (Специалитет)', 'short': 'ПНБс', 'code_spec': '40.05.01', 'badge': '🛡', 'faculty': 'ui'},
+    'tads': {'name': 'Таможенное дело (Специалитет)', 'short': 'ТАДс', 'code_spec': '38.05.02', 'badge': '📦', 'faculty': 'ui'},
+    'pds': {'name': 'Правоохранительная деятельность (Специалитет)', 'short': 'ПДс', 'code_spec': '40.05.02', 'badge': '🚔', 'faculty': 'ui'},
+
+    # 💰 ФЭФ
+    'eknb': {'name': 'Экономика', 'short': 'ЭКНб', 'code_spec': '38.03.01', 'badge': '📈', 'faculty': 'fef'},
+    'bib': {'name': 'Бизнес-информатика', 'short': 'БИб', 'code_spec': '38.03.05', 'badge': '💼', 'faculty': 'fef'},
+    'ebs': {'name': 'Экономическая безопасность (Специалитет)', 'short': 'ЭБс', 'code_spec': '38.05.01', 'badge': '💳', 'faculty': 'fef'},
+
+    # 💼 ФМС
+    'mnb': {'name': 'Менеджмент', 'short': 'МНб', 'code_spec': '38.03.02', 'badge': '📊', 'faculty': 'fms'},
+    'gmb': {'name': 'Государственное и муниципальное управление', 'short': 'ГМб', 'code_spec': '38.03.04', 'badge': '🏛', 'faculty': 'fms'},
+    'inb': {'name': 'Инноватика', 'short': 'ИНб', 'code_spec': '27.03.05', 'badge': '💡', 'faculty': 'fms'},
+    'trb': {'name': 'Туризм', 'short': 'ТРб', 'code_spec': '43.03.02', 'badge': '✈️', 'faculty': 'fms'},
+    'upb': {'name': 'Управление персоналом', 'short': 'УПб', 'code_spec': '38.03.03', 'badge': '👥', 'faculty': 'fms'},
+
+    # 🏛 ФИПНиК
+    'isb': {'name': 'История', 'short': 'ИСб', 'code_spec': '46.03.01', 'badge': '📜', 'faculty': 'fipnik'},
+    'ormb': {'name': 'Организация работы с молодежью', 'short': 'ОРМб', 'code_spec': '39.03.03', 'badge': '🤝', 'faculty': 'fipnik'},
+    'scb': {'name': 'Социология', 'short': 'СЦб', 'code_spec': '39.03.01', 'badge': '👥', 'faculty': 'fipnik'},
+
+    # 🗣 ФЛ
+    'lvb': {'name': 'Лингвистика', 'short': 'ЛВб', 'code_spec': '45.03.02', 'badge': '🗣', 'faculty': 'fl'},
+
+    # 🌍 ФМО
+    'lvb_mo': {'name': 'Лингвистика (Международное образование)', 'short': 'ЛВб', 'code_spec': '45.03.02', 'badge': '🌍', 'faculty': 'fmo'},
+
+    # 📚 ФРЯЛиМ
+    'rsob': {'name': 'Реклама и связи с общественностью', 'short': 'РСОб', 'code_spec': '42.03.01', 'badge': '📢', 'faculty': 'fryalim'},
+    'zhkb': {'name': 'Журналистика', 'short': 'ЖКб', 'code_spec': '42.03.02', 'badge': '📰', 'faculty': 'fryalim'},
+    'flb': {'name': 'Филология', 'short': 'ФЛб', 'code_spec': '45.03.01', 'badge': '📖', 'faculty': 'fryalim'},
+
+    # 🧠 ФПиП
+    'plb': {'name': 'Психология', 'short': 'ПЛб', 'code_spec': '37.03.01', 'badge': '🧠', 'faculty': 'fpip'},
+    'sdob': {'name': 'Специальное (дефектологическое) образование', 'short': 'СДОб', 'code_spec': '44.03.03', 'badge': '🧸', 'faculty': 'fpip'},
+
+    # 🎓 Пединститут
+    'podb': {'name': 'Педагогическое образование', 'short': 'ПОДб', 'code_spec': '44.03.05', 'badge': '👩‍🏫', 'faculty': 'ped'},
+
+    # 🏃‍♂️ ФФКиС
+    'fkb': {'name': 'Физическая культура', 'short': 'ФКб', 'code_spec': '49.03.01', 'badge': '⚽️', 'faculty': 'ffkis'},
+    'afkb': {'name': 'Адаптивная физическая культура', 'short': 'АФКб', 'code_spec': '49.03.02', 'badge': '🏃‍♂️', 'faculty': 'ffkis'},
 }
 
 DEFAULT_SUPPORTED_GROUPS = {
@@ -536,21 +649,51 @@ def get_main_keyboard():
     )
 
 
+def get_faculty_selection_keyboard(active_fac: str = 'fkfmn') -> InlineKeyboardMarkup:
+    """Генерирует аккуратную сетку выбора всех 17 факультетов/институтов ВятГУ."""
+    rows = []
+    fac_items = list(FACULTIES.items())
+    for i in range(0, len(fac_items), 2):
+        chunk = fac_items[i:i + 2]
+        row = []
+        for f_key, f_val in chunk:
+            is_active = (f_key == active_fac)
+            label = f"• {f_val['badge']} {f_val['short']} •" if is_active else f"{f_val['badge']} {f_val['short']}"
+            row.append(InlineKeyboardButton(text=label, callback_data=f"fac_{f_key}"))
+        rows.append(row)
+
+    rows.append([
+        InlineKeyboardButton(text="⬅️ Назад к группам", callback_data="back_to_groups")
+    ])
+    return InlineKeyboardMarkup(inline_keyboard=rows)
+
+
+def get_faculty_selection_text(user_id: int | str) -> str:
+    """Формирует текст меню выбора факультета."""
+    gid = get_user_group(user_id)
+    ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS.get(get_default_group_id(), {}))
+    return (
+        "🏛 <b>Выберите факультет или институт ВятГУ:</b>\n\n"
+        f"Ваша текущая группа: <b>{ginfo.get('name', 'Не выбрана')}</b>\n\n"
+        "👇 <i>Нажмите на нужный факультет, чтобы открыть его направления и группы:</i>"
+    )
+
+
 def get_group_selection_keyboard(active_dir: str = 'pmib') -> InlineKeyboardMarkup:
-    """Генерирует инлайн-клавиатуру с факультетами, вкладками направлений и группами по курсам."""
+    """Генерирует инлайн-клавиатуру: кнопка смены факультета, вкладки направлений и группы по курсам."""
     active_fac = DIRECTIONS.get(active_dir, {}).get('faculty', 'fkfmn')
+    fac_info = FACULTIES.get(active_fac, FACULTIES['fkfmn'])
 
-    # 1. Первая строка: переключатели факультетов
-    fac_buttons = []
-    for f_key, f_val in FACULTIES.items():
-        is_fac_active = (f_key == active_fac)
-        f_label = f"• {f_val['badge']} {f_val['short']} •" if is_fac_active else f"{f_val['badge']} {f_val['short']}"
-        fac_buttons.append(InlineKeyboardButton(text=f_label, callback_data=f"fac_{f_key}"))
+    inline_keyboard = [
+        # Верхняя кнопка: смена факультета
+        [InlineKeyboardButton(
+            text=f"🏛 Факультет: {fac_info['badge']} {fac_info['short']} ▾",
+            callback_data="open_fac_list"
+        )]
+    ]
 
-    inline_keyboard = [fac_buttons]
-
-    # 2. Строки направлений активного факультета
-    dir_keys = FACULTIES.get(active_fac, FACULTIES['fkfmn'])['directions']
+    # Строки направлений активного факультета
+    dir_keys = [k for k, v in DIRECTIONS.items() if v.get('faculty') == active_fac]
     dir_rows = []
     current_row = []
     for d_key in dir_keys:
@@ -568,7 +711,7 @@ def get_group_selection_keyboard(active_dir: str = 'pmib') -> InlineKeyboardMark
 
     inline_keyboard.extend(dir_rows)
 
-    # 3. Группы активного направления, сгруппированные по курсу
+    # Группы активного направления, сгруппированные по курсу
     dir_groups = [
         (gid, ginfo) for gid, ginfo in SUPPORTED_GROUPS.items()
         if ginfo.get('direction') == active_dir
@@ -618,7 +761,7 @@ def get_group_selection_text(user_id: int | str, active_dir: str = 'pmib') -> st
         f"Вкладка: <b>{dinfo['badge']} {dinfo['name']} ({dinfo['short']})</b>\n"
         f"Специальность: <code>{dinfo['code_spec']}</code>\n"
         f"Ваша активная группа: <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n\n"
-        f"👇 <i>Переключайте факультеты и направления сверху и выберите группу:</i>"
+        f"👇 <i>Выберите группу ниже или нажмите «🏛 Факультет», чтобы сменить его:</i>"
     )
 
 
@@ -630,6 +773,35 @@ async def cmd_choose_group(message: types.Message):
     text = get_group_selection_text(message.from_user.id, active_dir=active_dir)
     kb = get_group_selection_keyboard(active_dir=active_dir)
     await message.answer(text, parse_mode=ParseMode.HTML, reply_markup=kb)
+
+
+@dp.callback_query(lambda c: c.data == 'open_fac_list')
+async def callback_open_fac_list(callback: types.CallbackQuery):
+    await callback.answer()
+    gid = get_user_group(callback.from_user.id)
+    ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS.get(get_default_group_id(), {}))
+    active_dir = ginfo.get('direction', 'pmib')
+    active_fac = DIRECTIONS.get(active_dir, {}).get('faculty', 'fkfmn')
+    kb = get_faculty_selection_keyboard(active_fac=active_fac)
+    text = get_faculty_selection_text(callback.from_user.id)
+    try:
+        await callback.message.edit_text(text, parse_mode=ParseMode.HTML, reply_markup=kb)
+    except Exception:
+        pass
+
+
+@dp.callback_query(lambda c: c.data == 'back_to_groups')
+async def callback_back_to_groups(callback: types.CallbackQuery):
+    await callback.answer()
+    gid = get_user_group(callback.from_user.id)
+    ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS.get(get_default_group_id(), {}))
+    active_dir = ginfo.get('direction', 'pmib')
+    text = get_group_selection_text(callback.from_user.id, active_dir=active_dir)
+    kb = get_group_selection_keyboard(active_dir=active_dir)
+    try:
+        await callback.message.edit_text(text, parse_mode=ParseMode.HTML, reply_markup=kb)
+    except Exception:
+        pass
 
 
 @dp.callback_query(lambda c: c.data and c.data.startswith('fac_'))

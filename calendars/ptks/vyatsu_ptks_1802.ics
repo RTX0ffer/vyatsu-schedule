@@ -1,0 +1,648 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ПТКс-1802
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 215
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лабораторная работа)
+UID:ef1d580c3e7e0ae358cc6b42898faa9d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 214
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лекция)
+UID:6745030e6a4a64bb994552759997138c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Гребенщиков М.Л.\nМесто: корп. 14\, ауд. 303
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 303
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лабораторная работа)
+UID:f96023dc8ce90a020fe7236334b96bcc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мищенко Н.С.\nМесто: корп. 1\, ауд. 334
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:4a39fa0dfdcd14052e1a7d7a7cd7fbfd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Апатов К.Ю.\nМесто: корп. 10\, ауд. 214
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Лекция)
+UID:901684d7865fafbf5b0e05640ac8a810@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копанева А.С.\nМесто: корп. 2\, ауд. 405
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 2\, ауд. 405
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Эффективные коммуникации (Практическое занятие)
+UID:5f1cb49948e9dfa674868adbd3abcf5f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мищенко Н.С.\nМесто: корп. 1\, ауд. 439
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:6e6a7c3397fd19ba59bb0b4b7040c9e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мищенко Н.С.\nМесто: корп. 1\, ауд. 334
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:36220c031fc6e3e1899c561be0a6cc77@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Гребенщиков М.Л.\nМесто: корп. 14\, ауд. 303
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 303
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лабораторная работа)
+UID:fd781ab0e0b2ad4e88dd00bf62f6fad3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мищенко Н.С.\nМесто: корп. 1\, ауд. 439
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:a8e01b890c005c147e92e20669e13ed5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобина И.С.\nМесто: корп. 1\, ауд. 312
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:e88e32eb3ded3a68e08c1d653f793b84@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зеленина Н.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:69a92b5d6a5912a6dfc68250e86d9a96@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зеленина Н.А.\nМесто: корп. 6\, ауд. 201
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 6\, ауд. 201
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:9d1b02b1639ca38e18effa5aa9fb51e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Маринин Е.А.\nМесто: корп. 10\, ауд. 203
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Лабораторная работа)
+UID:9491c358fc49b278e8e5a374164ea37c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зеленина Н.А.\nМесто: корп. 1\, ауд. 439
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:56b533efd6b0efb09204b322efa3ea3d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобина И.С.\nМесто: корп. 2\, ауд. 102
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 2\, ауд. 102
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:50605e5438bbdef7867a45af45f28a7b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гребенщиков М.Л.\nМесто: корп. 1\, ауд. 439
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лекция)
+UID:02d9c60d0839da2a39d72598a720f4f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мищенко Н.С.\nМесто: корп. 1\, ауд. 312
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:eb37dc4db88baf298eb8bf4c9a2fe509@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Маринин Е.А.\nМесто: корп. 10\, ауд. 203
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Введение в профессию (Практическое занятие)
+UID:4acce0bd25bdad4acf8522587681ee53@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nМесто: корп. 9\, ауд. 115
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:f4fc85a12744aad1f2acf8670a559396@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зеленина Н.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:77fa9d90d16a4d14cc38583882bc9a86@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Преподаватель: Маринин Е.А.\nМесто: корп. 10\, ауд. 214
+DTEND:20261118T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261118T110000Z
+STATUS:CONFIRMED
+SUMMARY:Час с куратором
+UID:e7bb37c84671171a134da5fbc6e7b4f3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копанева А.С.\nМесто: корп. 2\, ауд. 405
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 2\, ауд. 405
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Эффективные коммуникации (Практическое занятие)
+UID:ee4669bd4268431fc58d2be027e3dbf1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Маринин Е.А.\nМесто: корп. 10\, ауд. 203
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Практическое занятие)
+UID:65b22378beed2ab689648a0b43783604@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Гребенщиков М.Л.\nМесто: корп. 14\, ауд. 303
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 303
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лабораторная работа)
+UID:ed58c37dbb8e89590b6658e8a69102af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобина И.С.\nМесто: корп. 2\, ауд. 102
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 2\, ауд. 102
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:a2fb4129d07ce1f4bb3b87c9d8517322@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зеленина Н.А.\nМесто: корп. 6\, ауд. 310
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 6\, ауд. 310
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:0a86e8f1aef18b303a4441f26b754d18@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nМесто: корп. 9\, ауд. 115
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:8372cf5e131928931f6085164ba59877@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 215
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лабораторная работа)
+UID:977a8a7e25a1dce39ec7aec9cfbed1e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гребенщиков М.Л.\nМесто: корп. 1\, ауд. 404
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 404
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Практическое занятие)
+UID:fe7268831833b27d2484275470285bd9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зеленина Н.А.\nМесто: корп. 1\, ауд. 404
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 404
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:4b800e05f37f7130a5641915caafeaac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гребенщиков М.Л.\nМесто: корп. 1\, ауд. 439
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лекция)
+UID:882a805a9dea968169f319c30c042b75@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Маринин Е.А.\nМесто: корп. 10\, ауд. 203
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Введение в профессию (Практическое занятие)
+UID:074cc5c61a01ade445baea2d9b56bde2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зеленина Н.А.\nМесто: корп. 6\, ауд. 310
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 6\, ауд. 310
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:cce555ed74c047395b229d7bfb1073b5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобина И.С.\nМесто: корп. 2\, ауд. 102
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 2\, ауд. 102
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:045c9b636e4ad462b5f69aa900ef8ca8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зеленина Н.А.\nМесто: корп. 6\, ауд. 201
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 6\, ауд. 201
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:46b72d9367d329726137a11c03fff5ea@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зеленина Н.А.\nМесто: корп. 1\, ауд. 439
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:f7a8e42a27b5838f7cbc67cf38dc5431@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зеленина Н.А.\nМесто: корп. 1\, ауд. 404
+DTEND:20261118T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 404
+DTSTART:20261118T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:4db6500d6f46c3b17cd057e3c703dfa1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Апатов К.Ю.\nМесто: корп. 10\, ауд. 214
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Лекция)
+UID:a8f2fea37f4ec2a3e0dbd453c3e41eaa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Маринин Е.А.\nМесто: корп. 10\, ауд. 203
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в профессию (Практическое занятие)
+UID:5155892404e504a044577cbf11f0c995@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копанева А.С.\nМесто: корп. 2\, ауд. 405
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 2\, ауд. 405
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Эффективные коммуникации (Практическое занятие)
+UID:b60931217fde95c58f5e0c67251d116e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобина И.С.\nМесто: корп. 2\, ауд. 102
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 2\, ауд. 102
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:ec67595416a002381d6e633f5f920471@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гребенщиков М.Л.\nМесто: корп. 1\, ауд. 404
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 404
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Практическое занятие)
+UID:10c010384ac00abf196a612acea48c89@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мищенко Н.С.\nМесто: корп. 1\, ауд. 312
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:d375f6a629c281285874474c41aabd81@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гребенщиков М.Л.\nМесто: корп. 1\, ауд. 439
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лекция)
+UID:a44b961fe1088761e3ce80a27c590446@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 215
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лабораторная работа)
+UID:308b3dcce92d2b7bb03437a5d5230607@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Гребенщиков М.Л.\nМесто: корп. 14\, ауд. 303
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 303
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лабораторная работа)
+UID:1d39cf0557a1d57ad52ecb2c52797ec6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 214
+DTEND:20261112T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261112T052000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лекция)
+UID:4b43f2f954cd8013d54e10bd3b9fdc36@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гребенщиков М.Л.\nМесто: корп. 1\, ауд. 439
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лекция)
+UID:b74d03c88d6cdf3c1aa509bdd3b94d16@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nМесто: корп. 9\, ауд. 115
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:56a40b5a87543af1e87ce991225bdbc8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 215
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лабораторная работа)
+UID:b367aa91912b5951319d6203a4b28c48@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копанева А.С.\nМесто: корп. 2\, ауд. 405
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 2\, ауд. 405
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Эффективные коммуникации (Практическое занятие)
+UID:5f3384232997a8e279af7c0bf92dba9e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Маринин Е.А.\nМесто: корп. 10\, ауд. 203
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Практическое занятие)
+UID:6d0cd3f023961960222797102f00a505@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Маринин Е.А.\nМесто: корп. 10\, ауд. 203
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Лабораторная работа)
+UID:71f9ee9294970fe659bccff8f5d539bd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Маринин Е.А.\nМесто: корп. 10\, ауд. 203
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Практическое занятие)
+UID:2cc9897fae17ada3e6756123cefd03cb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Маринин Е.А.\nМесто: корп. 10\, ауд. 203
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Практическое занятие)
+UID:6152fa8fb0f19c8e40b69912f8389089@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nМесто: корп. 9\, ауд. 115
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:5988e66a402409fbb8ba6dcc127c65c2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Маринин Е.А.\nМесто: корп. 10\, ауд. 203
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в профессию (Практическое занятие)
+UID:0f180c408c23309345f5cfcae0b8e40e@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

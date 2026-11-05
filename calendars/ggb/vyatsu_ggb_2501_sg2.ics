@@ -1,0 +1,864 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ГГб-2501 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экология геосфер (Практическое занятие)
+UID:5eb6e77fd63671d418d49ec51091aedf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харунжева Е.В.
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:3b838e35241866ca22682df783975e03@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пупышева С.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Геология (Лекция)
+UID:5865ded3d1744c008551c2ca0b70c60c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экология геосфер (Лекция)
+UID:48237a961139dce9653e4338a9eea49f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябов В.М.\nМесто: корп. 15\, ауд. 267
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Зоология (Лекция)
+UID:e5e60697d4c7211aa8f3d5ced85904af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 304
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 304
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Лабораторная работа)
+UID:5229db8150c4b49d32605c3fd522e646@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Горева Е.А.\nМесто: корп. 1\, ауд. 514
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лидерство и эффективное управление командой проекта (Практическое занятие)
+UID:00f58295599e870c90766a9e693210be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Копанев А.Н.\nМесто: корп. 2\, ауд. 209
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Лекция)
+UID:0d3495fa8de18b3921578041808c2f1f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 304
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 304
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Лабораторная работа)
+UID:03da98c6e47f5bc347440dde70d88997@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пупышева С.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Геология (Лекция)
+UID:4adb523af92b1d0ac473092b26ef7bb2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смирнов М.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:d8067e9f45a452a2ab76e9fafb7e62ef@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пупышева С.А.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 317
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 317
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Геология (Лабораторная работа)
+UID:92bcfad62a226c9b864932974748c31c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пупышева С.А.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 317
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 317
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Геология (Лабораторная работа)
+UID:72ddf2a10e0bc8de00260e0a85fa8a14@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 264
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 264
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экология геосфер (Практическое занятие)
+UID:1a7ac20f5dfe2362ece93b0946871aa4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 263
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Зоология (Лабораторная работа)
+UID:dbe0c0d12dbfa04a4ab833d752bba598@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смирнов М.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:9b232451425af035baf48f40717a0210@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копанев А.Н.\nМесто: корп. 1\, ауд. 313
+DTEND:20261114T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261114T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Практическое занятие)
+UID:1021810ea1fa7268528847f168f0acdf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябов В.М.\nМесто: корп. 15\, ауд. 267
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Зоология (Лекция)
+UID:198e9fdc3ad3357b8a45c23992839724@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Копанев А.Н.\nМесто: корп. 1\, ауд. 534
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Лекция)
+UID:d77eb0524f6c45e54ed0615fcd2c4607@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Креативное проектирование одежды (Практическое занятие)
+UID:9bbb43fa3cfd837f16165af478f576b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Воронин А.С.\nМесто: корп. 1\, ауд. 236
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Мобильное медиа (Практическое занятие)
+UID:71c8491abd07eb9e86d2e2415b2acc3f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябов В.М.\nМесто: корп. 15\, ауд. 267
+DTEND:20261117T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261117T052000Z
+STATUS:CONFIRMED
+SUMMARY:Зоология (Лекция)
+UID:0ccd83b0160d1bec42b15496e63e1f5a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Харунжева Е.В.\nМесто: корп. 1\, ауд. 439
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Лекция)
+UID:b45573658f87255194afda5909e1d920@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 304
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 304
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Лабораторная работа)
+UID:aa88b89a96b243604c61e1cba1bbd6f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 263
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Зоология (Лабораторная работа)
+UID:1376c3b3845ce9b354f9174f3679ff71@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пупышева С.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Геология (Лекция)
+UID:58583f733c671866afb556b8d71b8aad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мамаева Е.А.\nМесто: корп. 1\, ауд. 126
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 126
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии Интернет (Практическое занятие)
+UID:33675ab7bc5c0616241b4de5bdd916ba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 263
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Зоология (Лабораторная работа)
+UID:178e859008538a5cf24e66eb4b41f69d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харунжева Е.В.
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:a703e157824231d72418ab665ed7ed1d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Родионов К.В.\nМесто: корп. 1\, ауд. 109
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная графика (Практическое занятие)
+UID:89d73c9395d64e2e16ab0dfb93850b26@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подковырин В.Д.\nПодгруппа: 2\nМесто: корп. 19\, ауд. 301
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 19\, ауд. 301
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:c1d86e7e8d50e45fb4926ab0fa5d31ec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 263
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Зоология (Лабораторная работа)
+UID:0eb049f309cd1943989be414f96731ab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подковырин В.Д.\nПодгруппа: 2\nМесто: корп. 19\, ауд. 301
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 19\, ауд. 301
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:9fcaf2f26a685f9b5c2cb6cb46feb336@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харунжева Е.В.
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:f32b1f751442b50d66809667165efe77@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Горева Е.А.\nМесто: корп. 1\, ауд. 514
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лидерство и эффективное управление командой проекта (Практическое занятие)
+UID:f9e6f038e483ffa5f8688f0e6637afad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пупышева С.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Геология (Лекция)
+UID:389d81bbc456f10ab716f17b77be9012@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экология геосфер (Лекция)
+UID:d61b41ccb20926e1d08cbc6af7cec57a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бородатый И.Л.\nМесто: корп. 15\, ауд. 315
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 315
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общее землеведение (Лабораторная работа)
+UID:b7353824ae9c46f66502d66aa2286760@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бородатый И.Л.\nМесто: корп. 15\, ауд. 324
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общее землеведение (Лекция)
+UID:c26775392b4bd912ac8cb6b403b027fc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Харунжева Е.В.\nМесто: корп. 1\, ауд. 439
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Лекция)
+UID:a2db213680f82a1d528bf8c490b257e9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Савватеева М.С.\nМесто: корп. 15\, ауд. 132
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 132
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Психология межличностных отношений (Практическое занятие)
+UID:fa942efd4b04343a404438c79ed063de@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябов В.М.\nМесто: корп. 15\, ауд. 267
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Зоология (Лекция)
+UID:5978ccd0957cdf8e0a425ab1a4b04dfc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Горева Е.А.\nМесто: корп. 1\, ауд. 514
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лидерство и эффективное управление командой проекта (Практическое занятие)
+UID:1664f201dc2912476d1b969eefd5c00a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подковырин В.Д.\nПодгруппа: 2\nМесто: корп. 19\, ауд. 301
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 19\, ауд. 301
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:4fef7b72853d9d9e783ede8d425c91e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 304
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 304
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Лабораторная работа)
+UID:d6a6277fad8390a7baa6f5ce8031a173@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Воронин А.С.\nМесто: корп. 1\, ауд. 236
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Мобильное медиа (Практическое занятие)
+UID:09559b303394e86556332f0bca178683@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Савватеева М.С.\nМесто: корп. 15\, ауд. 132
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 132
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Психология межличностных отношений (Практическое занятие)
+UID:8707518c15d0c5c5a07e63ea19a09544@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пупышева С.А.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 317
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 317
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Геология (Лабораторная работа)
+UID:c1914e88a6178dc7b06724a2145cddd4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копанев А.Н.\nМесто: корп. 2\, ауд. 404
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 2\, ауд. 404
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Практическое занятие)
+UID:fe59d6e2b47176933940a969d3783aaf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Савватеева М.С.\nМесто: корп. 15\, ауд. 132
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 132
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Психология межличностных отношений (Практическое занятие)
+UID:1a55b9118ae7cc0b39a1307664effa33@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бородатый И.Л.\nМесто: корп. 15\, ауд. 324
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общее землеведение (Лекция)
+UID:34c431bf778b45fef50d1d4fdcd26a4d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смирнов М.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:7fb0ff0297c4df4629388be823dbfec5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Креативное проектирование одежды (Практическое занятие)
+UID:d81b59afdd80b230ee1d0875a390ab96@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экология геосфер (Лекция)
+UID:4f7896120de3514f571d474a998fd052@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бородатый И.Л.\nМесто: корп. 15\, ауд. 324
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общее землеведение (Лекция)
+UID:36789069fe20447b4b583401b61d459c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бородатый И.Л.\nМесто: корп. 15\, ауд. 324
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общее землеведение (Лекция)
+UID:07f7e5fcf41550e200282f12a057f7bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Креативное проектирование одежды (Практическое занятие)
+UID:2dc764ed53d826af99f5761959d17038@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харунжева Е.В.
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:31ef94fd932c7dc401c7edcd33bea6c7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экология геосфер (Практическое занятие)
+UID:11128087d22b7f3c4842d2a2f5ce799c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экология геосфер (Лекция)
+UID:e0bfd71614bfcfb6bfa3860d643ed7dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 264
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 264
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экология геосфер (Практическое занятие)
+UID:17edb5d29946bd3be8a39e070b10841d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смирнов М.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:f1b73639c4fc3f0a71705d868cb87492@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Родионов К.В.\nМесто: корп. 1\, ауд. 109
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная графика (Практическое занятие)
+UID:424c1fab6d2914b88efeead30ff92d42@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 304
+DTEND:20261120T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 304
+DTSTART:20261120T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Лабораторная работа)
+UID:45fdbffa9d6e598766fe49f5043c4ce3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 304
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 304
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Лабораторная работа)
+UID:1ce51635b38b82957d23f580aa64d567@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копанев А.Н.\nМесто: корп. 1\, ауд. 313
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Практическое занятие)
+UID:7fd0af72cc2fb5457c517d3a8a10e650@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подковырин В.Д.\nПодгруппа: 2\nМесто: корп. 19\, ауд. 301
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 19\, ауд. 301
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:0918c304dea50c54fa55efb749dd5097@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Креативное проектирование одежды (Практическое занятие)
+UID:77c28a672068745594819f4a94a5c52d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пупышева С.А.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 317
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 317
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Геология (Лабораторная работа)
+UID:1ca8c3f756e8c9690183aa1990020afd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копанев А.Н.\nМесто: корп. 2\, ауд. 404
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 2\, ауд. 404
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Практическое занятие)
+UID:22a3a96492523659d0d409a6ef253707@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Савватеева М.С.\nМесто: корп. 15\, ауд. 132
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 132
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Психология межличностных отношений (Практическое занятие)
+UID:62f53d3b9abdca1250c6831379a91e91@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Родионов К.В.\nМесто: корп. 1\, ауд. 109
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная графика (Практическое занятие)
+UID:c7001ba038bff6da4e1a29dac2ba569f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Горева Е.А.\nМесто: корп. 1\, ауд. 514
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лидерство и эффективное управление командой проекта (Практическое занятие)
+UID:519ead81a3d07fac2a12fcf4b16c2f4b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Воронин А.С.\nМесто: корп. 1\, ауд. 236
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Мобильное медиа (Практическое занятие)
+UID:7d1f1c521486078fe9f02f8c51835daf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бородатый И.Л.\nМесто: корп. 15\, ауд. 315
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 315
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Общее землеведение (Лабораторная работа)
+UID:2fa4d9d0983e2096aa6374dfd28fcdc1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мамаева Е.А.\nМесто: корп. 1\, ауд. 126
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 126
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии Интернет (Практическое занятие)
+UID:5c120b7a86edc00a987e3c85c16a1b2b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Воронин А.С.\nМесто: корп. 1\, ауд. 236
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Мобильное медиа (Практическое занятие)
+UID:16c2d9b127c9e492b6228a7fd465f6e8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Родионов К.В.\nМесто: корп. 1\, ауд. 109
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная графика (Практическое занятие)
+UID:0e9539616e3ac866af33eeff39518310@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

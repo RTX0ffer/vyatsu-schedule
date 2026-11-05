@@ -1,0 +1,317 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ЭКНб-2601
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колесова Ю.А.\nМесто: корп. 14\, ауд. 113
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Управление персоналом (Лекция)
+UID:bf2e268add43293b0f9ca147a8716483@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гоголева О.Л.
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Документальное оформление фактов хозяйственной жизни (Лекция)
+UID:6f7d54ae5637b45273cacecc57817ee7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 14\, ауд. 114
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент (Практическое занятие)
+UID:28496183f8ad8ee393ccde5ae6adc2c6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 16\, ауд. 322
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Мировая экономика и международные экономические отношения (Лекция)
+UID:6bf21246da469989c77faca9eb0dac90@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Костина Е.Г.\nМесто: корп. 14\, ауд. 319
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 319
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:c5ab52f691f41b1dfa00604cca722b0e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 220
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы бухгалтерского учета (Практическое занятие)
+UID:28ebe67d3669dd6e82d1464c9505c990@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Наговицына Э.В.\nМесто: корп. 16\, ауд. 322
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы экономической деятельности хозяйствующих субъектов (Лекция)
+UID:0144b8cd1693cb3fdf2f973f3afe62ae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наговицына Э.В.\nМесто: корп. 16\, ауд. 322
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы экономической деятельности хозяйствующих субъектов (Практическое занятие)
+UID:f9a9ece38a202347791774c3f80adc99@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Беличева Т.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 108
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:5f750e3c2c1e89a387f7e2990746269f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Гоголева О.Л.\nМесто: корп. 16\, ауд. 320
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Документальное оформление фактов хозяйственной жизни (Лабораторная работа)
+UID:b9c06f40aab99e2f7bc6f839cadfc64a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Беспятых А.В.\nМесто: корп. 16\, ауд. 217
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 217
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Трудовое право (Практическое занятие)
+UID:5d91da4e9ab5017f11845cd85709c9bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Беспятых А.В.\nМесто: корп. 16\, ауд. 217
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 217
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Трудовое право (Практическое занятие)
+UID:4ea7ca83564c9eb6090112179c3d78e9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 313
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы бухгалтерского учета (Лекция)
+UID:d42614e875c6043adb08fba6d919aa13@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 147
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:53f2a901f6daa58c1ff3d6732c862354@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 121
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы бухгалтерского учета (Практическое занятие)
+UID:afc48f1f42e504b66bbb2b30963def5c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 14\, ауд. 114
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент (Лекция)
+UID:0cdb6b907bd8e2b7ca850dc77afac1ce@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 313
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы бухгалтерского учета (Лекция)
+UID:1f63329b43ffe604b979b7fc92c4bfe5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 322
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы бухгалтерского учета (Практическое занятие)
+UID:1828c0f1780de4d79443ce05542dd80b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Беспятых А.В.\nМесто: корп. 16\, ауд. 217
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 217
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Трудовое право (Лекция)
+UID:23356991f28d0e3ceeba95b674711eeb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 212
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы бухгалтерского учета (Практическое занятие)
+UID:dbf2307ad6bf6ff080990e03c0bc70ae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наговицына Э.В.\nМесто: корп. 16\, ауд. 322
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы экономической деятельности хозяйствующих субъектов (Практическое занятие)
+UID:221b50d8ac9f6b308ce5e64f7e84e263@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 313
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы бухгалтерского учета (Лекция)
+UID:628854e70b735d6f14cf4def4c3d74c9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 16\, ауд. 322
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Мировая экономика и международные экономические отношения (Практическое занятие)
+UID:fc23791185aeb64032686e05155dcab7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 147
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:3a803d2cc2e27a43fc186571119e163d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Костина Е.Г.\nМесто: корп. 14\, ауд. 319
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 319
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:4cf245488e4007f80cb562b2271d7290@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колесова Ю.А.\nМесто: корп. 14\, ауд. 104
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Управление персоналом (Практическое занятие)
+UID:4e9fa2d6337f4fc7cf98e1a1fce062df@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 313
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы бухгалтерского учета (Лекция)
+UID:feae971918425e2b8221ff9adbc26394@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Беличева Т.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 108
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:1f4962cff873858c263c894a261060d2@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

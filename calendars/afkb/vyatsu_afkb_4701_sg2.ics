@@ -1,0 +1,483 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ АФКб-4701 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 159
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Практическое занятие)
+UID:78ed5de9588672c1ddb1ca94fefe15dc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Частные методики адаптивной физической культуры (Практическое занятие)
+UID:c0d952d21081a2fb17810a2ec2e84405@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ковязина Г.В.\nМесто: корп. 19\, ауд. 259
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методические основы физической реабилитации (Лекция)
+UID:0ed4eb03e1fe5268b2393b6f71538049@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 159
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Практическое занятие)
+UID:c1843ae9c73a8a432f9874bb64faca5c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Демина Н.Л.\nМесто: корп. 19\, ауд. 180
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 180
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Общая и частная патология (Лекция)
+UID:b67b063c14f792701ce82f2a3cdef64c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261116T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261116T052000Z
+STATUS:CONFIRMED
+SUMMARY:Частные методики адаптивной физической культуры (Практическое занятие)
+UID:8afe9e21e978e2af68d2c4b8f831887f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 19\, ауд. 217
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 217
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы коррекционной педагогики и психологии (Практическое занятие)
+UID:ad1580e1f1ce364d87dba6bed7be3214@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дёмина В.В.\nМесто: корп. 19\, ауд. 260
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методические основы физической реабилитации (Практическое занятие)
+UID:8b77308e2e6bec6b15c424336acf9ef3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Багина И.С.\nМесто: корп. 19\, ауд. 159
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:8871e85c1b9d0b1e2103f3c218d4e07e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Лекция)
+UID:8ca634ff4d7be717544182940f4018f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Частные методики адаптивной физической культуры (Практическое занятие)
+UID:ae6224bad465627ef346cd438a942da8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дёмина В.В.\nМесто: корп. 19\, ауд. 260
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методические основы физической реабилитации (Практическое занятие)
+UID:6fe61ae8fb38265c86a551a68168e167@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и организация адаптивной физической культуры (Практическое занятие)
+UID:bbdfa7e9fd4d7cdfd009620d695ffe52@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Багина И.С.\nМесто: корп. 19\, ауд. 259
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:0a897c9d587e3c679c056b5bc8dfe887@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и организация адаптивной физической культуры (Практическое занятие)
+UID:c7576f298d18e4f0ecf265faecffa061@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Частные методики адаптивной физической культуры (Практическое занятие)
+UID:8964ff6a1d60d1dfefacd32cc76526fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 19\, ауд. 180
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 180
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы коррекционной педагогики и психологии (Лекция)
+UID:d4ebd7b53773624ce828658347bde762@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дёмина В.В.\nМесто: корп. 19\, ауд. 260
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методические основы физической реабилитации (Практическое занятие)
+UID:a5fa744e0cbff9bb13e15b984be39a2c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 159
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Практическое занятие)
+UID:95e242309e9e98ae87f1660f361b7610@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Частные методики адаптивной физической культуры (Практическое занятие)
+UID:8e3c81752c898e06b1d10f1749eacf82@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 19\, ауд. 217
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 217
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы коррекционной педагогики и психологии (Лекция)
+UID:96a7633d0d1e2467eb26f65b9420600d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Частные методики адаптивной физической культуры (Лекция)
+UID:2edae89c179caaa1843dc392c196ae4f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Частные методики адаптивной физической культуры (Практическое занятие)
+UID:00c257ba1f3d4f7aae942dcc501010ce@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 19\, ауд. 180
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 180
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы коррекционной педагогики и психологии (Практическое занятие)
+UID:9f8c869b7e05c9d2c88a163b327b6d10@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261109T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261109T052000Z
+STATUS:CONFIRMED
+SUMMARY:Частные методики адаптивной физической культуры (Лекция)
+UID:75ff0b2ae47f1bba8dd1ee43b804ce09@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Практическое занятие)
+UID:65d9ade8fad6a0d042e1a244523e0745@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261114T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261114T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Практическое занятие)
+UID:a5bfc8ae64605952abf97030cd02f12c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Багина И.С.\nМесто: корп. 19\, ауд. 159
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:244c56e08a2f12a861f4d9827d47e24c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Демина Н.Л.\nМесто: корп. 19\, ауд. 180
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 180
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общая и частная патология (Практическое занятие)
+UID:907efeb543b8d482ee0db639410d090c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 19\, ауд. 217
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 217
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы коррекционной педагогики и психологии (Лекция)
+UID:c1955d259aaaaa91f5040e4cd6f52d60@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Багина И.С.\nМесто: корп. 19\, ауд. 159
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:b2bfe61bb1d8941b7d076d7dca3203a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261118T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261118T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и организация адаптивной физической культуры (Практическое занятие)
+UID:dac48fb9b83d3b52da712229b5a4ac48@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261112T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261112T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и организация адаптивной физической культуры (Лекция)
+UID:395c38e68dd58d87fdcbb7b4b8cef20d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Багина И.С.\nМесто: корп. 19\, ауд. 259
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:633a94e2332f7df9d96b6e4d31ab2b01@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 159
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Практическое занятие)
+UID:e05ada2baa0457815e7a35b2fd5989b5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Частные методики адаптивной физической культуры (Практическое занятие)
+UID:1f9f9663abb99316c397f9707546538d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Частные методики адаптивной физической культуры (Практическое занятие)
+UID:5d5c0879390cd9afa6823b3b488d0d6b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Демина Н.Л.\nМесто: корп. 19\, ауд. 180
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 180
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Общая и частная патология (Лекция)
+UID:880a30a1a8f7cc83f6c5d98f0e211008@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Демина Н.Л.\nМесто: корп. 19\, ауд. 180
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 180
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общая и частная патология (Практическое занятие)
+UID:a7d14cbd691fdf61310df199d77dc306@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дёмина В.В.\nМесто: корп. 19\, ауд. 260
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методические основы физической реабилитации (Практическое занятие)
+UID:fb48c2dde4917cde35ba21841d47046a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 259
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Лекция)
+UID:b3af264144d9093d2d063eda6316dc4f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дёмина В.В.\nМесто: корп. 19\, ауд. 260
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методические основы физической реабилитации (Практическое занятие)
+UID:f545a2f94fd5e30480397a4d40fa2766@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 19\, ауд. 217
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 217
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы коррекционной педагогики и психологии (Практическое занятие)
+UID:d85d43b3323c0e735c8a4051333a4180@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,481 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ЭиЭб-3801
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Глазырин М.А.\nМесто: корп. 8\, ауд. 501
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроэнергетические системы и сети (Лекция)
+UID:b3b35cdb269a9cd2429de56fd649fea5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кривошеин И.Л.\nМесто: корп. 1\, ауд. 435
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроника (Лекция)
+UID:c64f32a2a52aa2cd4b708e28b047c492@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:532f18a23a22b558f0557793b066c8d9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Басманов В.Г.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 103
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 103
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Техника высоких напряжений (Лабораторная работа)
+UID:8ad0a7e4aaef0e46abe7fc7e7616bf1e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 533
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:11953ef9067382b380d9b0e0a3d9f280@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Глазырин М.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 401
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 401
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроэнергетические системы и сети (Лабораторная работа)
+UID:584e8d68342ab8b8a65dd13261cb6b14@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Репкина Н.Г.
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Средства передачи электрической энергии (Практическое занятие)
+UID:e843d53e0f7a99644a94860de8406488@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 533
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:e548c827166dcc13f3501fca913a33df@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Глазырин М.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 401
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 401
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроэнергетические системы и сети (Лабораторная работа)
+UID:14f6d5e9d3f47d17ac9ccc2fbe13b255@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Глазырин М.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 401
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 401
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроэнергетические системы и сети (Лабораторная работа)
+UID:af2ea7387b35d89f1d169673185177eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Порошин Д.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 604
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:d27ab275a5458be7f9af4c1498768c20@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Глазырин М.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 401
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 401
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроэнергетические системы и сети (Лабораторная работа)
+UID:e194becaac174b7028e46a27821ce660@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Басманов В.Г.\nМесто: корп. 8\, ауд. 604
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Техника высоких напряжений (Лекция)
+UID:997a4e7bbd835ab5ec4a33d1065c1173@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Репкина Н.Г.\nМесто: корп. 8\, ауд. 506
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Средства передачи электрической энергии (Лекция)
+UID:3268bf3fd3674cc2b4cda049ae69c6a8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 301
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:540883fff5b9912e8251e023c2925cf0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Глазырин М.А.\nМесто: корп. 8\, ауд. 603
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электроэнергетические системы и сети (Лекция)
+UID:d4f235f56377c9388ce6afa1de4c4333@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Репкина Н.Г.\nМесто: корп. 8\, ауд. 506
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Средства передачи электрической энергии (Лекция)
+UID:43296024d8f17e3e109a531690368f02@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глазырин М.А.\nМесто: корп. 8\, ауд. 507
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 507
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электроэнергетические системы и сети (Практическое занятие)
+UID:4500a2d0087de67a1c7bef51c1186c82@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Малышева Н.М.\nМесто: корп. 8\, ауд. 603
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электрические машины (Лекция)
+UID:4ab6f6a3bc06dc8807e65c129e2fbbbc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дегтерев Б.И.\nМесто: корп. 1\, ауд. 533
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:d620b21bd11fc4715c831c99126215b5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Басманов В.Г.\nМесто: корп. 8\, ауд. 604
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Техника высоких напряжений (Лекция)
+UID:0945a2f6d5ee979450ae07fea263c08e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Басманов В.Г.\nПодгруппа: 3\nМесто: корп. 8\, ауд. 103
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 103
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Техника высоких напряжений (Лабораторная работа)
+UID:057b551d093c663d5b2d54bc47f1c81e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глазырин М.А.\nМесто: корп. 8\, ауд. 507
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 507
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электроэнергетические системы и сети (Практическое занятие)
+UID:ce1ddf1c90006fb4d4b55dbcfe4290e2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Малышева Н.М.\nМесто: корп. 8\, ауд. 604
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические машины (Лекция)
+UID:1bee2d5fc0b5d36be6ecb25438f2bc3a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Репкина Н.Г.
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Средства передачи электрической энергии (Практическое занятие)
+UID:7a76ea1f9e1af23b83aeedb805c8edf6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:b2e80a0064a0d6f7ca25caad8177012a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Басманов В.Г.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 103
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 103
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Техника высоких напряжений (Лабораторная работа)
+UID:9727cbef53b245140bc771ea9b52be31@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 301
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:5fb02a47264431236b634a48d17a89da@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Басманов В.Г.\nПодгруппа: 3\nМесто: корп. 8\, ауд. 103
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 103
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Техника высоких напряжений (Лабораторная работа)
+UID:77e35b3b08eb33a50d5f1b6aba279868@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 533
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:001c048818e0b9e7f3cb42c4776b5e02@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Глазырин М.А.\nМесто: корп. 8\, ауд. 607
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 607
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроэнергетические системы и сети (Практическое занятие)
+UID:dea7110e3bbbcaf75677dbe065cf458f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 533
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:7b3b0f83b353965336655fe33cb021c6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Басманов В.Г.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 103
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 103
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Техника высоких напряжений (Лабораторная работа)
+UID:d49ad712512ded70019a889cb457d65e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Басманов В.Г.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 103
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 103
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Техника высоких напряжений (Лабораторная работа)
+UID:fd536bc2116a233f142617915b5b0df0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Малышева Н.М.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 303
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 303
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электрические машины (Лабораторная работа)
+UID:e0801a9d59aa8a71de2d52d314783bd9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Малышева Н.М.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 303
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 303
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электрические машины (Лабораторная работа)
+UID:1173ebc89edc436102642048b1fa0ccc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кривошеин И.Л.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 411
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 411
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электроника (Лабораторная работа)
+UID:20c45a0e9e1a0177c213034b61b41897@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Малышева Н.М.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 303
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 303
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические машины (Лабораторная работа)
+UID:bd7bead37b5b51ce3ea85a4e42c8984d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кривошеин И.Л.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 411
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 411
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электроника (Лабораторная работа)
+UID:feb4a386318db93fcd9a96afeb44c83b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кривошеин И.Л.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 411
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 411
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электроника (Лабораторная работа)
+UID:638d728428783445692db6aecdcfb25d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Глазырин М.А.\nМесто: корп. 8\, ауд. 603
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроэнергетические системы и сети (Лекция)
+UID:af147269c72aa0fd365c24078f292c4f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Малышева Н.М.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 303
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 303
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические машины (Лабораторная работа)
+UID:f5c3bb931992928c8ccafc7336efabd4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кривошеин И.Л.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 411
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 411
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электроника (Лабораторная работа)
+UID:a6094aef6c003684883bf28bcc929519@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

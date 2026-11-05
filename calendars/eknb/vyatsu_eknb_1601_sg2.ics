@@ -1,0 +1,252 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЭКНб-1601 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев А.В.\nМесто: корп. 16\, ауд. 322
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:891a2d7c2f23095cfd61068ac094b78c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Федянина О.Н.\nМесто: корп. 14\, ауд. 312
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:c7b9aab6419ee09063ebdc0661360f57@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чупракова О.Н.\nМесто: корп. 14\, ауд. 104
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы экономико-математического моделирования (Лекция)
+UID:e28bb38a6c74ba65aa9767b326aef953@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:09a666b5416d30e49361af76d0353c22@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Копытина Ю.А.\nМесто: корп. 14\, ауд. 338
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Лекция)
+UID:03e14002c677377ce4cd355aa52e7ff0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев А.В.\nМесто: корп. 16\, ауд. 322
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:bf5c9eba4e5933dd5832dcc0db6a1107@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чупракова О.Н.\nМесто: корп. 14\, ауд. 104
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы экономико-математического моделирования (Практическое занятие)
+UID:5abc791cb1ce7be17fe1724ef8bf70b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лаптева С.В.\nМесто: корп. 16\, ауд. 322
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Педагогика и психология (Практическое занятие)
+UID:1e45d88000aef74d8831a6b219fe7d80@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Куклин А.В.\nМесто: корп. 14\, ауд. 338
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:fa36548f989c7c5a01f3fe5a20425caf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 16\, ауд. 227
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 227
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Практическое занятие)
+UID:9e4c5810c0441bb9f6d5e4430890aad7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Куклин А.В.\nМесто: корп. 14\, ауд. 338
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:f04fbc7a745db1ff8ac9a4045d5215e3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 16\, ауд. 227
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 227
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Практическое занятие)
+UID:d06234d8daf55104ba8d3f031071defe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шевченко А.И.\nМесто: корп. 16\, ауд. 112
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 112
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:99772a340093d35476bd7576017a0f23@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:e1fe8879d41f18dbdb3b6176725c81a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шевченко А.И.\nМесто: корп. 16\, ауд. 112
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 112
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:2e3a9978125beadc45cd66fbed34277e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Федянина О.Н.\nМесто: корп. 14\, ауд. 338
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Лекция)
+UID:d00854019640ccb9f2514887a49658d0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Копытина Ю.А.\nМесто: корп. 14\, ауд. 334
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Лекция)
+UID:477c78a665d626e767488388a066be7a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шевченко А.И.\nМесто: корп. 16\, ауд. 112
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 112
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:ab99ba6b4d5f88ae3bc717b71e12a387@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чупракова О.Н.\nМесто: корп. 14\, ауд. 104
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы экономико-математического моделирования (Практическое занятие)
+UID:bada7fa55b729a904d0e4046ed61a357@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чупракова О.Н.\nМесто: корп. 14\, ауд. 104
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы экономико-математического моделирования (Лекция)
+UID:1f953b2e8a5f3cf0287bc9a736576d75@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Куклин А.В.\nМесто: корп. 14\, ауд. 338
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:2b501d17eecfd988f0b5397b46e96896@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лаптева С.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогика и психология (Лекция)
+UID:273574fa29d8e87e1817df98ee3c2012@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

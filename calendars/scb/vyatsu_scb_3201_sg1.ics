@@ -1,0 +1,340 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ СЦб-3201 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 324
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Конфликтология (Лекция)
+UID:c44910a6d761a439b2e039a60baca8b2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Москвин А.С.\nМесто: корп. 14\, ауд. 133
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии в профессиональной деятельности (Практическое занятие)
+UID:1cb1bbb7ee7b81909c3a729ed23990d3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261031T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261031T142000Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:4b20985f29d65750ab3ec05c5103e657@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Москвин А.С.\nМесто: корп. 14\, ауд. 140
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по прикладным социологическим исследованиям (Практическое занятие)
+UID:f3b3cf8a1835ae594e5ee825b16d88bc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:e15a2484d82caa97f827c0e7e97d7f49@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Москвин А.С.\nМесто: корп. 14\, ауд. 133
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии в профессиональной деятельности (Лекция)
+UID:55312613a078e2bbf6366710169d5210@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 210
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Социология труда и занятости (Лекция)
+UID:37fb78dfead566e17361941a59459b55@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мокерова Е.Ю.\nМесто: корп. 14\, ауд. 214
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Региональная и национальная идентичность (Лекция)
+UID:f57c5dd237873952e66382b4740596fe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Москвин А.С.\nМесто: корп. 14\, ауд. 133
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии в профессиональной деятельности (Практическое занятие)
+UID:2d866174dc745da70b1448cb92e9ec3c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 233
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 233
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Социология труда и занятости (Практическое занятие)
+UID:82a02749f17e506ee3c1eee8231bf8b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ефимова Н.М.\nМесто: корп. 14\, ауд. 210
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Политическая культура (Практическое занятие)
+UID:9fa579ef2daaf979cf2e8980c938f9fb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 130
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Качественные методы в социологии (Практическое занятие)
+UID:2b69d2d280a7c95333e96cfe3d1e61b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мешенина Н.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 108
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:65f7214d23b9af9c6020278478e0c9c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мокерова Е.Ю.\nМесто: корп. 14\, ауд. 210
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Региональная и национальная идентичность (Практическое занятие)
+UID:607b9dc6b56a583e3ab6f41d7eaafda1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 208
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 208
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Социология труда и занятости (Лекция)
+UID:575046effb2d94ebd28f60d844c6a372@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:5b32f912a7c24abb94c5c26f995fa4b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 210
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Социология труда и занятости (Практическое занятие)
+UID:29d97cfac18abd3083d098abdde47944@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 324
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Конфликтология (Практическое занятие)
+UID:a3832e2808e02c06f77da1d97ce6a1fd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Москвин А.С.\nМесто: корп. 14\, ауд. 133
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по прикладным социологическим исследованиям (Практическое занятие)
+UID:8f1e4d988361a0c5aaf1d83046fe40a3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ефимова Н.М.\nМесто: корп. 14\, ауд. 210
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Политическая культура (Практическое занятие)
+UID:604b10a42564747afbb3d4a63de5f232@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 233
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 233
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Конфликтология (Лекция)
+UID:13d332a2f6c24f0f82d16bd6e0cd514e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 219
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Качественные методы в социологии (Лекция)
+UID:560c0ab9861287765c027029cc3c985c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 131
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Качественные методы в социологии (Практическое занятие)
+UID:c6342ba040c49ceb2b324abee5d0b778@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ефимова Н.М.\nМесто: корп. 14\, ауд. 214
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Политическая культура (Лекция)
+UID:9c00103c1c3d2c724e535367e737fb2c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261107T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261107T142000Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:d320a2e33d6e26909a460a46af28f79a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мокерова Е.Ю.\nМесто: корп. 14\, ауд. 202
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Региональная и национальная идентичность (Практическое занятие)
+UID:2e144fcc0dbdb35558751163057b6134@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мешенина Н.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 108
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:884ab6b4c453e23552c3308efa76b202@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 222
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Качественные методы в социологии (Лекция)
+UID:95001870e5c7eded85495cc8993c10a7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Москвин А.С.\nМесто: корп. 14\, ауд. 133
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии в профессиональной деятельности (Лекция)
+UID:b548930c4c0782860f328e0f38505389@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 233
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 233
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Конфликтология (Практическое занятие)
+UID:914cca1593c1ad7b70c0b516f47469e0@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

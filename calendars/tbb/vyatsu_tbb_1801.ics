@@ -1,0 +1,307 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ТБб-1801
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трушкова Е.Л.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 301
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:36637e99012246ae9399fef398851907@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Синицына О.В.\nМесто: корп. 6\, ауд. 202
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 202
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:a974593ed22a21f64faafdb147367294@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кузнецова Д.А.\nМесто: корп. 6\, ауд. 210
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Личная эффективность (Практическое занятие)
+UID:72de75c96dfd0c17bc6a764801e6fbdf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Зонов А.В.\nМесто: корп. 1\, ауд. 602
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 602
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Лабораторная работа)
+UID:0018f9dc515cb912364d44faad466e13@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Алешкин А.В.\nМесто: корп. 6\, ауд. 307
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 307
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лабораторная работа)
+UID:f0f6357befe5081f626469b4ad433648@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зырянов И.А.\nМесто: корп. 10\, ауд. 214
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Практическое занятие)
+UID:7ec68fc006102facf6b7ffe4855b53e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соловьева И.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в профессию (Практическое занятие)
+UID:e1010f8ce1de84a1f21cc7a274e947e2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чиркова Л.Н.\nМесто: корп. 10\, ауд. 214
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:e964774acbcc7ffc862021ee2daff2f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Федянина О.Н.\nМесто: корп. 6\, ауд. 210
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Эффективные коммуникации (Практическое занятие)
+UID:d6a18d57c59bb9a2c3702cc445692953@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Алешкин А.В.\nМесто: корп. 6\, ауд. 307
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 307
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лабораторная работа)
+UID:2602081f1c0190ab8d5acfde7f976611@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Синицына О.В.\nМесто: корп. 6\, ауд. 202
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 202
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:3fe9114ed0a63a150fa8f51c810ae7a1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чиркова Л.Н.\nМесто: корп. 1\, ауд. 529
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 529
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:4d0fb7ace98aa42d6559918e0e1443be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чиркова Л.Н.\nМесто: корп. 1\, ауд. 529
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 529
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:2c577869ae434a526d46efafeb5e26b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобина И.С.\nМесто: корп. 1\, ауд. 312
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:6fb7677ae6a3ec7d318a4b016ac0de22@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:b740d24b7e6d56c57abdd431e226e107@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Буравлева Е.Г.\nМесто: корп. 1\, ауд. 601
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 601
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Практическое занятие)
+UID:e891bd316177c13772cf805194c426b2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алешкин А.В.\nМесто: корп. 6\, ауд. 204
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лекция)
+UID:2abfcf360d00cb92bb12d1cbd22e008c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зырянов И.А.\nМесто: корп. 10\, ауд. 214
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лекция)
+UID:ed5b6ae770296fc131e17b1fe4742e3d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобина И.С.\nМесто: корп. 1\, ауд. 312
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:4f59bf3beb892bb52690305dbef583d8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чиркова Л.Н.\nМесто: корп. 6\, ауд. 310
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 310
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:74863b3d9e6f7b51f0253d2005db54d3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Федянина О.Н.\nМесто: корп. 6\, ауд. 210
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Эффективные коммуникации (Практическое занятие)
+UID:294d66c6239212816851972e4eef2801@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чиркова Л.Н.\nМесто: корп. 10\, ауд. 214
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:606e359993f30561f0138f68d03fe06a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Синицына О.В.\nМесто: корп. 10\, ауд. 214
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:917ff7ea1dcfb97c023f46cf09fb1df8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:d5467e723072eeae4f73f415e0566490@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зырянов И.А.\nМесто: корп. 10\, ауд. 214
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лекция)
+UID:e53eae5956fe2dfc3cedf84519d119af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трушкова Е.Л.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 301
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:fe28fad4f0b160bd660ca2585e2511e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соловьева И.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Введение в профессию (Практическое занятие)
+UID:d9795c9ed47dfa62c6ade773df137290@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,296 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ФЛб-4201
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 328
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Языковая политика и лингвоэкология (Лекция)
+UID:02db0158f7de115b46e4e224ab3bf735@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Полякова О.А.\nМесто: корп. 14\, ауд. 319
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 319
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:История зарубежной литературы (Практическое занятие)
+UID:02bec2f26c0bab32ccc77f20b7a5f641@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 324
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Языковая политика и лингвоэкология (Практическое занятие)
+UID:89022b9f97a47334c7c46ec643a9ae16@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лицарева К.С.\nМесто: корп. 14\, ауд. 308
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория литературы (Лекция)
+UID:9707b41355be6435e23f9d8dbe3855a2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 312
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в филологии (Лекция)
+UID:cb1f94a6415d5308ab0b134e35d19495@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Злобин А.А.\nМесто: корп. 14\, ауд. 308
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Лекция)
+UID:a2183a6e1bb6b675ca7d651da83edcc6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 312
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в филологии (Практическое занятие)
+UID:c7011124a5be6447a5c42b1b41bcd859@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобин А.А.\nМесто: корп. 14\, ауд. 331
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 331
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Практическое занятие)
+UID:397f3c714f9ca37d7b0940010605ad43@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Черниговский Д.Н.\nМесто: корп. 14\, ауд. 314
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 314
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Филологический анализ и интерпретация текста (Практическое занятие)
+UID:1ab9925665afec65eec84cad59038e68@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колесникова О.И.\nМесто: корп. 14\, ауд. 308
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория языкознания (Практическое занятие)
+UID:1a19c55ae1bc4c74ff89935e0320aaeb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Полякова О.А.\nМесто: корп. 14\, ауд. 319
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 319
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:История зарубежной литературы (Практическое занятие)
+UID:af8db078c36d078696085514b99421b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Черниговский Д.Н.\nМесто: корп. 14\, ауд. 322
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 322
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Филологический анализ и интерпретация текста (Лекция)
+UID:89d8eb9e01a6643b372d617c391d0798@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 331
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 331
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Редактура и инструменты работы с текстами (Практическое занятие)
+UID:d997353dc07f7debe5c1d50216bc3a87@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лицарева К.С.\nМесто: корп. 14\, ауд. 308
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория литературы (Практическое занятие)
+UID:baec5918dfb2235d64084df17651497b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Полякова О.А.\nМесто: корп. 14\, ауд. 319
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 319
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:История зарубежной литературы (Лекция)
+UID:9c7b669a266293ae47d96c91a4a11946@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Черниговский Д.Н.\nМесто: корп. 14\, ауд. 314
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 314
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Филологический анализ и интерпретация текста (Практическое занятие)
+UID:c8850faddd4bf7ae52ba9d6f3d2b05df@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 324
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Языковая политика и лингвоэкология (Практическое занятие)
+UID:cb77ec65d199cd944bef18a0ac0bc393@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колесникова О.И.\nМесто: корп. 14\, ауд. 308
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория языкознания (Практическое занятие)
+UID:4e5d191b56f3158a760cc693c989b97d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ануфриев А.Е.\nМесто: корп. 14\, ауд. 312
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературы (Лекция)
+UID:702780279b717a218f677c635b350e46@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ануфриев А.Е.\nМесто: корп. 14\, ауд. 314
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 314
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературы (Практическое занятие)
+UID:c61ab45f3cfb14325ad6d7573cd68725@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колесникова О.И.\nМесто: корп. 14\, ауд. 308
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория языкознания (Лекция)
+UID:7b4180d314de99c321146c1b93b98685@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 338
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Редактура и инструменты работы с текстами (Лекция)
+UID:5b4452b89e564153b78dd3e9ac279fab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ануфриев А.Е.\nМесто: корп. 14\, ауд. 314
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 314
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературы (Практическое занятие)
+UID:0ab226aec65fd7c4ea8a1fbf4d69cfc7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лицарева К.С.\nМесто: корп. 14\, ауд. 308
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория литературы (Практическое занятие)
+UID:24e1671f5bbe00220970a4d09d4fec37@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобин А.А.\nМесто: корп. 14\, ауд. 331
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 331
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Практическое занятие)
+UID:c2c09fead2a076105e7d38b3e63695e0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 331
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 331
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Редактура и инструменты работы с текстами (Практическое занятие)
+UID:0d4f0adf73b2096c4b985857f7b4b704@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

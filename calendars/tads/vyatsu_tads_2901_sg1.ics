@@ -1,0 +1,274 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ТАДс-2901 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 108
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:73ea1f0acf4d032803091c0a278f4d97@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гребенкин Ф.Б.\nМесто: корп. 13\, ауд. 408
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Уголовное право (Общая часть) (Практическое занятие)
+UID:139aef3d93b8007eb563258e35cc0e21@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Степанова Т.Г.\nМесто: корп. 13\, ауд. 511
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Гражданское право (Лекция)
+UID:d5e92ed1ed1339284ae92b8fccb9d792@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гребенкин Ф.Б.\nМесто: корп. 13\, ауд. 511
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Уголовное право (Общая часть) (Лекция)
+UID:7031965dd941cde0def102b8ead62d04@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кирилловых А.А.\nМесто: корп. 13\, ауд. 511
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Административное право (Практическое занятие)
+UID:eeab5967f520ebd75bedbfdeb9fb78b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 108
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:a9f0e37f1e4a5e103967e4843445df1a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кирилловых А.А.\nМесто: корп. 13\, ауд. 110
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Административное право (Лекция)
+UID:b7882d88e507381922faffff41df2c96@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Степанова Т.Г.\nМесто: корп. 13\, ауд. 510
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 510
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Гражданское право (Практическое занятие)
+UID:568c4acd8879da875134154c5c4feebe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гребенкин Ф.Б.\nМесто: корп. 13\, ауд. 408
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Уголовное право (Общая часть) (Практическое занятие)
+UID:c9fae16b86284017a7118a2ca17f646e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Степанова Т.Г.\nМесто: корп. 13\, ауд. 513
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Гражданское право (Практическое занятие)
+UID:09073392eef05e4ee0883de93f461030@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Товарная номенклатура внешнеэкономической деятельности (Лекция)
+UID:b75f5aa386a3238791d39c84d987711d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Степанова Т.Г.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Гражданское право (Практическое занятие)
+UID:618baaf151551a7b71a8f7005bd88728@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гордеева Е.М.\nМесто: корп. 13\, ауд. 405
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Международное право (Практическое занятие)
+UID:5c5af1ef3a20e9529f5512cdd7332ea0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гордеева Е.М.\nМесто: корп. 13\, ауд. 405
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Международное право (Практическое занятие)
+UID:588a9711d993b546434f436b846be3c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кодолов В.А.\nМесто: корп. 13\, ауд. 511
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Трудовое право (Лекция)
+UID:1831e6fa44a0ab8ad64d1c69bbc569c4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Степанова Т.Г.\nМесто: корп. 13\, ауд. 511
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Гражданское право (Лекция)
+UID:64ca417e5ecf61cdef1ae196bb2bde28@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кодолов В.А.\nМесто: корп. 13\, ауд. 607
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Трудовое право (Практическое занятие)
+UID:a7dd76258eb6c092cea504a45c05211f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гребенкин Ф.Б.\nМесто: корп. 13\, ауд. 511
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Уголовное право (Общая часть) (Практическое занятие)
+UID:8e38e36fc2908faa561442a748608878@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 511
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Товарная номенклатура внешнеэкономической деятельности (Практическое занятие)
+UID:ee9278c54f7f2ec8dae2317cf3357874@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 511
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Товарная номенклатура внешнеэкономической деятельности (Практическое занятие)
+UID:8198239959e4d196f337cc7fbd86c018@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кирилловых А.А.\nМесто: корп. 13\, ауд. 511
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Административное право (Практическое занятие)
+UID:69e54eb8fe4510c83c040ba456e4cbb5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кодолов В.А.\nМесто: корп. 13\, ауд. 607
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Трудовое право (Практическое занятие)
+UID:f2bfa70c0abf64e2be335dc61097aeba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Степанова Т.Г.\nМесто: корп. 13\, ауд. 513
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Гражданское право (Практическое занятие)
+UID:94058b3d82315af39aac2204b2e1a055@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гордеева Е.М.\nМесто: корп. 13\, ауд. 111
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Международное право (Лекция)
+UID:43f7da644b3da5ee5737e2c8c8469a9c@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

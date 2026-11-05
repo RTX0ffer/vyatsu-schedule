@@ -1,0 +1,759 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ Бб-3101 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261121T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261121T124500Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:39e043bc152119f71533c09ab1c30f14@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Захаров А.В.\nМесто: корп. 1\, ауд. 514
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Коллоидная химия (Практическое занятие)
+UID:0fd1bfaca29a33152803da66290123b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 118
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные главы биохимии (Лабораторная работа)
+UID:ad6b9b3029e32c7e994d88f9d2941afa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Захаров А.В.\nМесто: корп. 1\, ауд. 439
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные физико-химические методы исследований биологически активных веществ (Лекция)
+UID:1e89e0eea8f3e4a3246a1a23716c3713@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные главы биохимии (Лекция)
+UID:86a11de1001d3c994aa7f0b0ab172000@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 118
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные главы биохимии (Лабораторная работа)
+UID:76ef166d400db67518c4c79b8603f3b3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные главы биохимии (Практическое занятие)
+UID:ac3497d925dd2a5a2666c8b5ac4de7f9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 118
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные главы биохимии (Лабораторная работа)
+UID:379f144e1a285865bfc30f4ae716eabf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ахмаров Ф.И.\nМесто: корп. 1\, ауд. 514
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коллоидная химия (Лекция)
+UID:f85f563cc3a65b41356c2e180ae50904@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коллоидная химия (Лабораторная работа)
+UID:bca43d6ee9834f40d5a81bbbdd3b4ac9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коллоидная химия (Лабораторная работа)
+UID:af9a5addbd58b5a144f9bddd1af28fbb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Молекулярная генетика (Лекция)
+UID:b0c8da9c9a761f891838eb20782e7e4e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261031T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261031T142000Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:f8cc25ed68ae37cc061fe5f34846ce01@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Барамзин М.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 324
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 324
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Иммунохимические методы анализа (Лабораторная работа)
+UID:521eaccf7f7aae8b94ea0be04c35f111@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:eecfaa3ba023c788431e2ec1c65040ef@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 242
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные главы биохимии (Практическое занятие)
+UID:0c4674aab226981e78df6ca6ccbcdb8a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Позолотина Н.В.\nПодгруппа: 2\nМесто: корп. 4\, ауд. 003
+DTEND:20261113T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 003
+DTSTART:20261113T142000Z
+STATUS:CONFIRMED
+SUMMARY:Частная микробиология (Лабораторная работа)
+UID:4a53a80730979be59304beb04cdef2bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Барамзин М.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 324
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 324
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Иммунохимические методы анализа (Лабораторная работа)
+UID:543e880725c08d9301fed69b98dcb403@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суворов Г.В.\nМесто: корп. 1\, ауд. 530
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Практическое занятие)
+UID:9d41d119d0614abefd68b2f3fd254843@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Позолотина Н.В.\nПодгруппа: 2\nМесто: корп. 4\, ауд. 003
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 003
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Частная микробиология (Лабораторная работа)
+UID:6fab3e1ca7f6033e90eb36836c37a273@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Позолотина Н.В.\nПодгруппа: 2\nМесто: корп. 4\, ауд. 003
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 003
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Частная микробиология (Лабораторная работа)
+UID:018b88a5df3af6f49d5fe68e5eee6cbd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Захаров А.В.\nМесто: корп. 1\, ауд. 128
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные физико-химические методы исследований биологически активных веществ (Лекция)
+UID:ee3fefc8fca624226ec83f55eecca21d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:6abba0bec02d43647f3c001508329d0a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Барамзин М.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 324
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 324
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иммунохимические методы анализа (Лабораторная работа)
+UID:96387ab68b01ef222eddfd0730d4268f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Современные физико-химические методы исследований биологически активных веществ (Лабораторная работа)
+UID:c5859b932ae88bf52f4ee8e97d451828@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Барамзин М.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 324
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 324
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иммунохимические методы анализа (Лабораторная работа)
+UID:0067cb1d15830bb5aaf30536f85955ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Молекулярная генетика (Практическое занятие)
+UID:427be02391f23e296b52ef6e3f9d3783@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 242
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные главы биохимии (Лекция)
+UID:3fde085109ee546a0da54d210efb4baa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:1b45db12e6e4c1ae3c775a02bad2bddf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Молекулярная генетика (Практическое занятие)
+UID:002148f435fd7ecd664a6cdc2789ab9b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:e2e5509283249d2ec414ed108c597dc0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2
+DTEND:20261119T065000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261119T052000Z
+STATUS:CONFIRMED
+SUMMARY:Современные физико-химические методы исследований биологически активных веществ (Лабораторная работа)
+UID:7322fa9c8e923dcfedf0e28fd9e8ac9b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Барамзин М.Н.\nМесто: корп. 1\, ауд. 514
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иммунохимические методы анализа (Лекция)
+UID:b6e1b1e7456f076e819efd26a4e099c2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современные физико-химические методы исследований биологически активных веществ (Лабораторная работа)
+UID:2d97b8ef1cfec67e947b2d5f85cef6f0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 242
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные главы биохимии (Практическое занятие)
+UID:d0334599d87138f74d86bbeb60dd03ee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261114T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261114T142000Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:d746d424c076b59c5d02395ded67a88d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Молекулярная генетика (Лекция)
+UID:e0524c1a1c997febcc18966a37fa6f99@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 118
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные главы биохимии (Лабораторная работа)
+UID:a676a718828b6246f0140ecefc1f58c5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ахмаров Ф.И.\nМесто: корп. 1\, ауд. 514
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коллоидная химия (Лекция)
+UID:34a4dbe5f828ee0bca360f5050dcbf50@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современные физико-химические методы исследований биологически активных веществ (Лабораторная работа)
+UID:726606511a2246845883dd73b04d4d61@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Барамзин М.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 324
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 324
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иммунохимические методы анализа (Лабораторная работа)
+UID:626bc9d5e16fa1f6c1ae6f9d8c0238ea@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Позолотина Н.В.\nПодгруппа: 2\nМесто: корп. 4\, ауд. 003
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 003
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Частная микробиология (Лабораторная работа)
+UID:7565f84754200cb483311ebb09849727@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Боков Н.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 117а
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 117а
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Молекулярная генетика (Лабораторная работа)
+UID:ca45ba526276a0901b778268ff2fd958@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:6685ea5bfb1d4df5621c63cfa2d6c3be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Боков Н.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 117а
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 117а
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Молекулярная генетика (Лабораторная работа)
+UID:058c16b00e8463f752c0181c38f033e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суворов Г.В.\nМесто: корп. 1\, ауд. 530
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Практическое занятие)
+UID:d771a60e51c9dd0cfd4f745191dc34e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261114T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261114T124500Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:94dae52dc42782698414df2ad492a5e8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Позолотина Н.В.\nМесто: корп. 1\, ауд. 531
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Частная микробиология (Практическое занятие)
+UID:79d2301471b4481ea3307f4ad4f9516a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Молекулярная генетика (Лекция)
+UID:8517d15913db29c2a25798419f6105e9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Позолотина Н.В.\nМесто: корп. 1\, ауд. 531
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Частная микробиология (Лекция)
+UID:c9019ccf83dbd0c3a2298ac6d511379c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные главы биохимии (Практическое занятие)
+UID:afcc52d7ec3e4256e35c665a1dfaf99a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Позолотина Н.В.\nМесто: корп. 1\, ауд. 531
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Частная микробиология (Лекция)
+UID:c4789d4d314deb8039d4cf3df26c9a7d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Коллоидная химия (Лабораторная работа)
+UID:b4ab0e8750c78d35564d947a7b3ba7e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные главы биохимии (Лекция)
+UID:f6a4659ed1588fda982b635f47cea048@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Захаров А.В.\nМесто: корп. 1\, ауд. 439
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные физико-химические методы исследований биологически активных веществ (Лекция)
+UID:e7f8f107e58d388eb3d3cf80b19fc88f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Захаров А.В.\nМесто: корп. 1\, ауд. 514
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Коллоидная химия (Практическое занятие)
+UID:7ed8ba215066ce0670616e0baf4a66a3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Барамзин М.Н.\nМесто: корп. 1\, ауд. 514
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иммунохимические методы анализа (Лекция)
+UID:5b185dbb38c3b105dd618774546035b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Молекулярная генетика (Практическое занятие)
+UID:7d6ed272995459e5ecfe1407bbad604a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные физико-химические методы исследований биологически активных веществ (Лабораторная работа)
+UID:a022f7ad0911d4e01226a1ba22bcbbcc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Молекулярная генетика (Лекция)
+UID:7af8db50e764b9b4fe2297bb78ac9566@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные физико-химические методы исследований биологически активных веществ (Лабораторная работа)
+UID:a7b5b0e2a42a39f3dc2a0fe91d6756a2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Молекулярная генетика (Практическое занятие)
+UID:c1a516f31bf8dc0553348ac84017fd9f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Конова А.Д.\nПодгруппа: 2
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Коллоидная химия (Лабораторная работа)
+UID:759e3e810387637a2b99a15915906a20@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Позолотина Н.В.\nМесто: корп. 1\, ауд. 531
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:Частная микробиология (Практическое занятие)
+UID:b2db7b691a45a2dd569b3b9c81aeb7d2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Барамзин М.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 324
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 324
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иммунохимические методы анализа (Лабораторная работа)
+UID:1ba9a5f7cbb0adeae66387644fe8b727@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261107T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261107T142000Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:878a53c8a7e4ef501377a2b85abaabf3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261121T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261121T142000Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:7b063c957c02be5e9f0f3fc87cb6a37b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Захаров А.В.\nМесто: корп. 1\, ауд. 128
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные физико-химические методы исследований биологически активных веществ (Лекция)
+UID:1faff3afe02cb9906208f863e5779fe6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные главы биохимии (Лекция)
+UID:b0531dec036070015ec2ffc69feb9c56@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

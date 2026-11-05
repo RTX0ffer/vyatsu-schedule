@@ -1,0 +1,296 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ СЦб-1201 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Быкова Е.В.\nМесто: корп. 14\, ауд. 209
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 209
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Ценности мировой культуры (Лекция)
+UID:d1fc4f026c9eeb1bff8be76af6a04692@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Макаров А.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 227
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 227
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:1119f1ebf0957dcf5aaf3f669568bdc7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шиклина Э.В.\nМесто: корп. 14\, ауд. 130
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Демография (Практическое занятие)
+UID:85e894ec9ef3ee71e1b3a875189d7439@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Голенок М.П.\nМесто: корп. 14\, ауд. 202
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Практическое занятие)
+UID:50d881917c182f3b96e4ca23ac42e826@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Быкова Е.В.\nМесто: корп. 14\, ауд. 211
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Ценности мировой культуры (Практическое занятие)
+UID:dd7b0af2b4cf857e535a33452f02c09d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Москвин А.С.\nМесто: корп. 14\, ауд. 247
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 247
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Социальные институты и организации (Практическое занятие)
+UID:539e5ca8f0f1fd0189bd4c478502eb97@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Исупова Н.И.\nМесто: корп. 14\, ауд. 209
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 209
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Лекция)
+UID:52f5987853d5776554be7692a4089954@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шиклина Э.В.\nМесто: корп. 14\, ауд. 133
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Демография (Практическое занятие)
+UID:13934f667b0a7e6ea2bf32bd6f5b4cb8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Голенок М.П.\nМесто: корп. 14\, ауд. 311
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 311
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Практическое занятие)
+UID:c9cdf810524fabfbdc8c3b6817be2083@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трефилова Е.С.\nМесто: корп. 16\, ауд. 207
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:cc07bae5875dc4dfc51b9be451b26c99@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Трефилова Е.С.\nМесто: корп. 16\, ауд. 207
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:1f15fd600f21c91f227c30d9e41e8295@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ильин Д.В.\nМесто: корп. 14\, ауд. 202
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:757e0649421ae6e261787113d9f4a3da@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Голенок М.П.\nМесто: корп. 14\, ауд. 208
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 208
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Лекция)
+UID:688e5657ee53c8fc2eada1affcf8198a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Быкова Е.В.\nМесто: корп. 14\, ауд. 211
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Ценности мировой культуры (Практическое занятие)
+UID:d96b3d722a6492b4c018bb29c0bc9b77@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Макаров А.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 227а
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 227а
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:be335b12a788c1fb7c75b83e0781afb2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ильин Д.В.\nМесто: корп. 14\, ауд. 202
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:99cd73515aff730cf90e92364476f948@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мешенина Н.В.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:265b636faab46e33bc208fbdcf5d62d7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Макаров А.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 227а
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 227а
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:493874be07464dd18ec086d929f82dba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трефилова Е.С.\nМесто: корп. 14\, ауд. 221
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:fc5d260f02b7fd3b83175c2adf1400a2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мешенина Н.В.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:ef5624bba59f48d8b5a4fd62bb234255@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ильин Д.В.\nМесто: корп. 14\, ауд. 218
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:8342c6621a6c346a2bdd363c4f01fa1f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Москвин А.С.\nМесто: корп. 14\, ауд. 233
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 233
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Социальные институты и организации (Практическое занятие)
+UID:b2375cd3474809e026e4777836ae8e2e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова Н.И.\nМесто: корп. 14\, ауд. 335
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:a86c5c9426de430d1d93a1f6a687a1dc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Москвин А.С.\nМесто: корп. 14\, ауд. 233
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 233
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Социальные институты и организации (Лекция)
+UID:8a336ef2bb6984c3d076ffee879731eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шиклина Э.В.\nМесто: корп. 14\, ауд. 133
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Демография (Лекция)
+UID:0b5802128955a7021ecf9efecc81a846@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова Н.И.\nМесто: корп. 14\, ауд. 335
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:d6594950e0bfb20d24d6266a409ee3ef@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

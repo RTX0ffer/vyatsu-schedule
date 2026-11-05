@@ -1,0 +1,217 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЮРб-4901 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мамедова О.В.\nМесто: корп. 13\, ауд. 513
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Адвокатура (Практическое занятие)
+UID:5d8683b0b531ddb17959ee72639babbc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шак М.П.\nМесто: корп. 16\, ауд. 119а
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 119а
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Особенности регулирования труда отдельных категорий работников (Практическое занятие)
+UID:4de0790b9ec2e94c61cda857c189a84c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Усцов Д.К.\nМесто: корп. 13\, ауд. 511
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Исполнительное производство (Практическое занятие)
+UID:5ae74bfb1e1f28e13e39364a1b9eb0aa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Котельникова Е.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Правовое регулирование банкротства (Лекция)
+UID:dfa965f0d9b601ef605ae5380bebcb64@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Усцов Д.К.\nМесто: корп. 13\, ауд. 511
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Исполнительное производство (Практическое занятие)
+UID:c6a6383dd2ead7a6957375290134d2a1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 105
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 105
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:4ec7ef72c02d9279a4566192a54333ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 110
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Лекция)
+UID:64f7093fd70b058ce7f7f6004ec9e87e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мамедова О.В.\nМесто: корп. 13\, ауд. 513
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Адвокатура (Лекция)
+UID:99ccf71335bc5f3305a73417ce832ac7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шак М.П.\nМесто: корп. 16\, ауд. 119а
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 119а
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Особенности регулирования труда отдельных категорий работников (Лекция)
+UID:ff33811e334e9e1ba31fdc9babf06bd5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Котельникова Е.А.
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Правовое регулирование банкротства (Практическое занятие)
+UID:565504a8075fb4824b3bb1177f34c31a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Смирнова А.А.\nМесто: корп. 13\, ауд. 608
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Страховое право (Лекция)
+UID:b413c0a3ea73d2b4cf25f8efdad192c0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Котельникова Е.А.
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Правовое регулирование банкротства (Практическое занятие)
+UID:dc799313c838bc79a5d9de4dfedec789@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соловьева И.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:7f70c919efe121e8ffaabcc2371d6e0f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Котельникова Е.А.\nМесто: корп. 13\, ауд. 513
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Процессуальные особенности рассмотрения отдельных категорий гражданских дел (Практическое занятие)
+UID:dd072e075181d899e382367896fb9dd8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Котельникова Е.А.\nМесто: корп. 13\, ауд. 513
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Процессуальные особенности рассмотрения отдельных категорий гражданских дел (Практическое занятие)
+UID:6a851eea29434db17d07503321a8c2ec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смирнова А.А.\nМесто: корп. 13\, ауд. 608
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Страховое право (Практическое занятие)
+UID:7e141fc331a50da5d780de1a0b534818@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Котельникова Е.А.\nМесто: корп. 13\, ауд. 610
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 610
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Процессуальные особенности рассмотрения отдельных категорий гражданских дел (Лекция)
+UID:afcb2d04f0e2bf0b27eaa8ba333c59c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Усцов Д.К.\nМесто: корп. 13\, ауд. 608
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Исполнительное производство (Лекция)
+UID:c993b111ee60f7ffb333283b1d8bc8d2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 105
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 105
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:bd1bba861fc959c12655442c93c58315@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

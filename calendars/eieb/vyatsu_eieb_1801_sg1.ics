@@ -1,0 +1,362 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЭиЭб-1801 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова П.В.\nМесто: корп. 8\, ауд. 609
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 609
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:fa3bac88ad59d3c0768d286ffbe22c10@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров А.А.\nМесто: корп. 8\, ауд. 603
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:33d5267a8c0a6b5330e10dacfe0a9340@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Хорошинина Е.Н.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 413
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 413
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лабораторная работа)
+UID:6af5a6a15838b22ba7c62fa103ea858f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:75c76f83eb1751e7a1703436811381da@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Позолотин А.П.\nМесто: корп. 8\, ауд. 609
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 609
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Практическое занятие)
+UID:6575aee1f54a4de8a6f8c1086189659c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nМесто: корп. 9\, ауд. 301
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:f08bb86d73497333f61642bc46e90a7c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Новоселова О.А.\nМесто: корп. 8\, ауд. 507
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 507
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Личная эффективность (Практическое занятие)
+UID:6441d6fc09b3d3a07b660eb32d66139d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:d8b3679ceaf0dcbdb1dfff86e622146d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сандалова М.М.\nМесто: корп. 1\, ауд. 312
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Эффективные коммуникации (Практическое занятие)
+UID:098bb52b35cced2e3268117a9b09f859@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ведерников Я.Д.\nМесто: корп. 1\, ауд. 517
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 517
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Практическое занятие)
+UID:c45467a90dc4d1b4aec1a1fb87d5597e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Позолотин А.П.\nМесто: корп. 8\, ауд. 609
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 609
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лекция)
+UID:09cc7b146917ba5b0e443128157bef16@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова П.В.\nМесто: корп. 8\, ауд. 609
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 609
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:4695a95ab18ec6e2a4fcf77202cb228f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Позолотин А.П.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 303
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 303
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лабораторная работа)
+UID:ff873edd3176336236d768fe736a738c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров А.А.\nМесто: корп. 8\, ауд. 603
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:89983afc054ad97d9da4727f56e8f2ae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Фоминых А.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в профессию (Практическое занятие)
+UID:ecbfb3b3c91141dc69d4e1cfd5726213@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:af3195683ee0f01eba9a83dfd615a238@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nМесто: корп. 9\, ауд. 301
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:0605856019f3e6e05cafe7376d5c3b47@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Фоминых А.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в профессию (Практическое занятие)
+UID:35c2a1eb327687ca4c81811bd5c1601f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:f5ecf19c7093adcc8ba8863d526440a0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров А.А.\nМесто: корп. 8\, ауд. 601
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 601
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:1361570ec942a997678127eb9301921f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров А.А.\nМесто: корп. 8\, ауд. 601
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 601
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:4fc1f4d1acd82a2978845f61fa945f78@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ведерников Я.Д.\nМесто: корп. 1\, ауд. 534
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Лекция)
+UID:c2c1ee1bf645496bed3651798afb68f4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Попова П.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:09813508d6533cfe100ba398b0863c73@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Позолотин А.П.\nМесто: корп. 8\, ауд. 609
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 609
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лекция)
+UID:a487b353e413f53ed80c7e58b1227ab6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Костоломова О.В.\nМесто: корп. 8\, ауд. 606
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 606
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:8df8684b06562304c122edddee3e3a28@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ведерников Я.Д.\nМесто: корп. 1\, ауд. 602
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 602
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Лабораторная работа)
+UID:f07f27812a068bfdfe7a146667d9119c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:c81f86304767e7af00faddcd6635226c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сандалова М.М.\nМесто: корп. 1\, ауд. 312
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Эффективные коммуникации (Практическое занятие)
+UID:6a1cda05bb38116d7bc66a8a16c49f3f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Хорошинина Е.Н.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 413
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 413
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лабораторная работа)
+UID:fc997c1e98059e674823d919ac2072ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Позолотин А.П.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 303
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 303
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лабораторная работа)
+UID:56b8a0fdad24188cdf62ff12ab1145cf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Новоселова О.А.\nМесто: корп. 8\, ауд. 507
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 507
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Личная эффективность (Практическое занятие)
+UID:55a478cff3d0e76ce62779b901220bda@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Костоломова О.В.\nМесто: корп. 8\, ауд. 606
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 606
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:c2b9f927aacc9380fbc5f75241f96e80@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

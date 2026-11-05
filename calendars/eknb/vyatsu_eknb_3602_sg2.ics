@@ -1,0 +1,274 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЭКНб-3602 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Селезнева Е.Ю.\nМесто: корп. 16\, ауд. 121
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая безопасность и оценка рисков деятельности предприятия (Лекция)
+UID:a3f4f255226788446e108cc0831b7a40@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Агапитова Е.А.\nМесто: корп. 2\, ауд. 100
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 2\, ауд. 100
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по расчету себестоимости продукции предприятия (Лабораторная работа)
+UID:49b4ab112a234b21983aea159c119c38@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Агапитова Е.А.\nМесто: корп. 16\, ауд. 210
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Имитационное моделирование на основе деловых игр (Лабораторная работа)
+UID:e855585f123ad33b0210c488b524b035@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Агапитова Е.А.\nМесто: корп. 2\, ауд. 100
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 2\, ауд. 100
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по расчету себестоимости продукции предприятия (Лабораторная работа)
+UID:c5fafab361d97fc77d6756df01fa84c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наговицына Э.В.\nМесто: корп. 16\, ауд. 310
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 310
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Организация внешнеэкономической деятельности предприятия (Практическое занятие)
+UID:1c4c952658a440f33529055443027865@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Селезнева Е.Ю.\nМесто: корп. 16\, ауд. 209
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая безопасность и оценка рисков деятельности предприятия (Практическое занятие)
+UID:3ef002828e293966ce7302e218c481d3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Селезнева Е.Ю.\nМесто: корп. 16\, ауд. 209
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая безопасность и оценка рисков деятельности предприятия (Практическое занятие)
+UID:53d07c48ea548ac7aeea7be4f2bed3e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зонова В.А.\nМесто: корп. 16\, ауд. 303
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 303
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономический анализ деятельности предприятия (Практическое занятие)
+UID:3cfba1347db05c76f38008127eac6f72@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зонова В.А.\nМесто: корп. 16\, ауд. 224
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономический анализ деятельности предприятия (Лекция)
+UID:cadf925fbe74950c18e48028d70b1a6f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Агапитова Е.А.\nМесто: корп. 16\, ауд. 210
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Имитационное моделирование на основе деловых игр (Лабораторная работа)
+UID:b026164ab66d3d72d438e5ed4df45641@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Селезнева Е.Ю.\nМесто: корп. 16\, ауд. 209
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая безопасность и оценка рисков деятельности предприятия (Практическое занятие)
+UID:2f288f614ef5088a60a3a5881827d7ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Боков А.В.\nПодгруппа: 2\nМесто: корп. 13\, ауд. 001
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 13\, ауд. 001
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:6754009ac6c7c4df49556ae9fb8f2e00@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Наговицына Э.В.\nМесто: корп. 16\, ауд. 310
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 310
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Организация внешнеэкономической деятельности предприятия (Лекция)
+UID:335dc28d2db15858da5f4ccd5981da2d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зонова В.А.\nМесто: корп. 16\, ауд. 310
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 310
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономический анализ деятельности предприятия (Лекция)
+UID:2fb3fc10ab048b8892f56dc772224cb0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Агапитова Е.А.\nМесто: корп. 2\, ауд. 100
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 2\, ауд. 100
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по расчету себестоимости продукции предприятия (Лабораторная работа)
+UID:668f583bcc7ef783aadf220202c4486e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Селезнева Е.Ю.\nМесто: корп. 16\, ауд. 202
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая безопасность и оценка рисков деятельности предприятия (Практическое занятие)
+UID:da10fb10390dc9c24791d446d8e10cc7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Агапитова Е.А.\nМесто: корп. 16\, ауд. 210
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Имитационное моделирование на основе деловых игр (Лабораторная работа)
+UID:d41c84210ed7e95d5ddcf83bad01160d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Агапитова Е.А.\nМесто: корп. 16\, ауд. 210
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Имитационное моделирование на основе деловых игр (Лабораторная работа)
+UID:3991b8618b7a7d1b83014678f97c6c8a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Агапитова Е.А.\nМесто: корп. 2\, ауд. 100
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 2\, ауд. 100
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по расчету себестоимости продукции предприятия (Лабораторная работа)
+UID:bad5b628b70601e9d7913a6ac268aede@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Наговицына Э.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Организация внешнеэкономической деятельности предприятия (Лекция)
+UID:8f2bdb95194eb5c7325463281ae00ce4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наговицына Э.В.\nМесто: корп. 16\, ауд. 310
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 310
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Организация внешнеэкономической деятельности предприятия (Практическое занятие)
+UID:ec81f32b58d5a85353553f1897fa0829@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зонова В.А.\nМесто: корп. 16\, ауд. 303
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 303
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономический анализ деятельности предприятия (Практическое занятие)
+UID:5dece424deb6ef72c66ddf278f9bbf9e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Боков А.В.\nПодгруппа: 2\nМесто: корп. 13\, ауд. 001
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 13\, ауд. 001
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:ec177cd757c9a49cc8c32b829c2329f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Селезнева Е.Ю.\nМесто: корп. 16\, ауд. 121
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая безопасность и оценка рисков деятельности предприятия (Лекция)
+UID:9a28048a3a40931b529cf1d288065539@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

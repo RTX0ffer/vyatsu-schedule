@@ -1,0 +1,431 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ПОДб-5701
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чупракова О.В.\nМесто: корп. 15\, ауд. 205
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 205
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс английского языка (Практическое занятие)
+UID:e5c53122e0a9ed8dce21edfbc6a062d6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Куклина С.С.\nМесто: корп. 15\, ауд. 227
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы методики преподавания иностранных языков (Лекция)
+UID:ce7ded6d83b1fbf5f0aee57aca404907@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 219
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 219
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методы исследовательской и проектной деятельности (Практическое занятие)
+UID:159ca225ef8bbaf8a8d7ea1dbf0682d9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гардер И.Н.
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая фонетика французского языка (Практическое занятие)
+UID:e390a2e5af6607b896441ec8312e2790@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс французского языка (Практическое занятие)
+UID:242d51a9ab6468852f6b3c26fc0c5888@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 200
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 200
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Обучение основам перевода (Практическое занятие)
+UID:53b427853ebe6022f3869c067d806dc2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 207
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы исследовательской и проектной деятельности (Практическое занятие)
+UID:82f707dff582d7e1fd05db84221bd8fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гардер И.Н.\nМесто: корп. 15\, ауд. 223
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы лексикологии и стилистики французского языка (Практическое занятие)
+UID:143d0b4184e5355f94ab915ebb00bdb8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гардер И.Н.\nМесто: корп. 15\, ауд. 223
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы лексикологии и стилистики французского языка (Лекция)
+UID:4b6660777f92213a51455c2953a5d1a9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гардер И.Н.\nМесто: корп. 15\, ауд. 223
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы лексикологии и стилистики французского языка (Практическое занятие)
+UID:bd34735e34409135d7f490e4cf2b3c40@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс французского языка (Практическое занятие)
+UID:eaa568ae07ecf432f8475e876cb64252@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 210
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 210
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Обучение основам перевода (Лекция)
+UID:fc7dfeec2bb6005dc6f9bba430935fc3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 210
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 210
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Обучение основам перевода (Лекция)
+UID:309c80e97051ccdc9b17b6f89946bb75@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 225
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:Обучение основам перевода (Практическое занятие)
+UID:a7839f93a56c56b88928cd0753b97c3a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 219
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 219
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Культура речевого общения французского языка (Практическое занятие)
+UID:1d83c5fb2e2306fb31a9906f47d207c5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 207
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы исследовательской и проектной деятельности (Практическое занятие)
+UID:a64b9a3be121d36c8f546aa38e179c65@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 200
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 200
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Культура речевого общения французского языка (Практическое занятие)
+UID:5876d97d6af739d35b0083cb8b7215b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гардер И.Н.
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая фонетика французского языка (Практическое занятие)
+UID:92ce1fa9f94662bc124712231f46e902@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чупракова О.В.\nМесто: корп. 15\, ауд. 228
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 228
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс английского языка (Практическое занятие)
+UID:412365344c97360540d54f522dbe056a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гардер И.Н.\nМесто: корп. 15\, ауд. 223
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая фонетика французского языка (Лекция)
+UID:ad38d119ce28136a05d322c1effb6829@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Куклина С.С.\nМесто: корп. 15\, ауд. 228
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 228
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы методики преподавания иностранных языков (Лекция)
+UID:3b6e9a98efc3f7185cfa6eddd8579b62@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чупракова О.В.\nМесто: корп. 15\, ауд. 228
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 228
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс английского языка (Практическое занятие)
+UID:959cfadcd4190df6e8123087cd0bea10@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Куклина С.С.\nМесто: корп. 15\, ауд. 216
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 216
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы методики преподавания иностранных языков (Практическое занятие)
+UID:51ac00b63e59d2a2fe2b70b832253037@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Куклина С.С.\nМесто: корп. 15\, ауд. 227
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы методики преподавания иностранных языков (Практическое занятие)
+UID:ed9d65af0cde350ecf7a8303a220b867@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чупракова О.В.\nМесто: корп. 15\, ауд. 218
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 218
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс английского языка (Практическое занятие)
+UID:17c763bbc5e6014135d73e18a6db85c3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс французского языка (Практическое занятие)
+UID:a6c0c155e5944dac121f13a9919bc827@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 219
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 219
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методы исследовательской и проектной деятельности (Практическое занятие)
+UID:3814570a41e7808d012fbfa5831a7258@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гардер И.Н.\nМесто: корп. 15\, ауд. 223
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы лексикологии и стилистики французского языка (Лекция)
+UID:846aaada7165f9e8ecb23e6a8664400a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс французского языка (Практическое занятие)
+UID:af9cf38fc91a0685c345fa567848aba0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Куклина С.С.\nМесто: корп. 15\, ауд. 216
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 216
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы методики преподавания иностранных языков (Практическое занятие)
+UID:d597e1575b3c713b60582ba3b527cc30@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 219
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 219
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Культура речевого общения французского языка (Практическое занятие)
+UID:d02646a877b6c325507bff3c15d7c7da@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 225
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Обучение основам перевода (Практическое занятие)
+UID:0577fce11dbed87671767ecf89df691e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чупракова О.В.\nМесто: корп. 15\, ауд. 216
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 216
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс английского языка (Практическое занятие)
+UID:ff2341ab67e25c9bc70b5a1e8f6a1fb7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чупракова О.В.\nМесто: корп. 15\, ауд. 205
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 205
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс английского языка (Практическое занятие)
+UID:b973e5e90b8b61c68df22b49ae321022@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Куклина С.С.\nМесто: корп. 15\, ауд. 228
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 228
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы методики преподавания иностранных языков (Лекция)
+UID:40acef4fe224d0bd328db0461f7cbc3e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гардер И.Н.
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая фонетика французского языка (Практическое занятие)
+UID:651c0f0cc6b0751a7925475dc85bfe58@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чупракова О.В.\nМесто: корп. 15\, ауд. 216
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 216
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс английского языка (Практическое занятие)
+UID:60cbc4742e35fa71ae08a07a769ae535@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс французского языка (Практическое занятие)
+UID:9b7b3772a80b24bf3afc4e975c2fe030@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 211
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Обучение основам перевода (Лекция)
+UID:cab271ce1c31e091564153df83862d56@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,305 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЭБс-2601 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Токарева П.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теневая экономика и антикоррупционная политика (Лекция)
+UID:ed9ec4f151f0a2b8af7b6438bdf9d23b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 106
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 106
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:5ac75698f91a34a47b04521247ea2738@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 224
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Бухгалтерский учет (Лекция)
+UID:68a0ac8ee44024fc993e75d6a2e73b79@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наговицына Э.В.
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организации (предприятия) (Практическое занятие)
+UID:fd26b23c7623c6950754c7ea7b9de558@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Воронцова Н.Д.\nМесто: корп. 16\, ауд. 310
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 310
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Статистика (Лекция)
+UID:ec022f8159da6159eef0e0489bb62f03@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Караулов В.М.\nМесто: корп. 16\, ауд. 209
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методы и модели анализа экономических индикаторов (Лабораторная работа)
+UID:10d9085234004a0ed288d3f484872cfb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сысолятин А.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент и маркетинг (Практическое занятие)
+UID:1bd9b3c00e9f6b0c694af5ac689c4802@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 224
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Бухгалтерский учет (Практическое занятие)
+UID:5eda728f863fb1e0a11d04c11127b74f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гринь С.В.\nМесто: корп. 16\, ауд. 220
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Финансы (Практическое занятие)
+UID:f890c7961715740a1ccec8a58b8c2ae7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Караулов В.М.\nМесто: корп. 16\, ауд. 311
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы и модели анализа экономических индикаторов (Практическое занятие)
+UID:fb55f42f873d8a2ad2dc3b9fcae388fd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гринь С.В.\nМесто: корп. 16\, ауд. 300
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Финансы (Лекция)
+UID:5054048a86995193744a15a3f0a3eac6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 224
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Бухгалтерский учет (Практическое занятие)
+UID:7695e7ea47f08c0e67f8addc98e64fcf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Караулов В.М.\nМесто: корп. 16\, ауд. 209
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Методы и модели анализа экономических индикаторов (Лабораторная работа)
+UID:7715df55f672f9a56a7996abf3457ef4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сысолятин А.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент и маркетинг (Практическое занятие)
+UID:c728255ba5e186d3e94b5b162cffbc09@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 106
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 106
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:0742733fa9801aecd54110a6b7c092f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бачуринская И.Н.\nМесто: корп. 16\, ауд. 224
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Бухгалтерский учет (Лекция)
+UID:1d913f04feb73ef63902490920697a93@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наговицына Э.В.
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организации (предприятия) (Практическое занятие)
+UID:0ce1e1f64902b65ab0a74093d8f9f732@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Тимин А.Н.\nМесто: корп. 16\, ауд. 311
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Деньги\, кредит\, банки (Лекция)
+UID:53d33ffd9f7571dd1e9dba642924d82d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сысолятин А.В.\nМесто: корп. 16\, ауд. 121
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент и маркетинг (Лекция)
+UID:b4a4e3e4257ed9f4f9151c458b871719@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Токарева П.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теневая экономика и антикоррупционная политика (Практическое занятие)
+UID:fb06ce9d3d7b350bb37a014cbe53a33b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Костина Е.Г.\nМесто: корп. 14\, ауд. 311
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 311
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:f4beedfa6c66e678ab8c5d79962d8250@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Караулов В.М.\nМесто: корп. 16\, ауд. 311
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методы и модели анализа экономических индикаторов (Лекция)
+UID:4cd9791163dff449187040218f76b17d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Наговицына Э.В.\nМесто: корп. 16\, ауд. 322
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организации (предприятия) (Лекция)
+UID:83cb90d652d59601de14564293f100b7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Токарева П.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теневая экономика и антикоррупционная политика (Практическое занятие)
+UID:5719c43f6e35e984a998a9b6fe0db29d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тимин А.Н.\nМесто: корп. 16\, ауд. 311
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Деньги\, кредит\, банки (Практическое занятие)
+UID:c213516f59fb9bad57a454b97c1f5407@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тимин А.Н.\nМесто: корп. 16\, ауд. 311
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Деньги\, кредит\, банки (Практическое занятие)
+UID:457f4e37d4b1e6c103e3b350f15ee98d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Костина Е.Г.\nМесто: корп. 14\, ауд. 319
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 319
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:ed9a033d0134a2daf2d801ce84af7958@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

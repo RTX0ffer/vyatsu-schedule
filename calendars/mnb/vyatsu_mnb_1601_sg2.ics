@@ -1,0 +1,681 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ МНб-1601 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тютюнник И.А.\nМесто: корп. 14\, ауд. 121
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 121
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:be7d7050cde4f886807aee3d2fbc6352@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:06e7bcded68e0ad7f5e7d3fee92158aa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ральникова Е.Л.\nМесто: корп. 14\, ауд. 338
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Лекция)
+UID:21a163cc925a344dbd4db7c07e96a116@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Ю.В.\nМесто: корп. 14\, ауд. 113
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:2efd41d9338ce246fc3a0f37ec4d83ef@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Г.А.\nМесто: корп. 19\, ауд. 257
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 257
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:e5dad2f0e5063750936886fbd4c4a6b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ральникова Е.Л.\nМесто: корп. 14\, ауд. 338
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Лекция)
+UID:ac6fc0b2cf967de6df221d8faff42179@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Метелева О.А.\nМесто: корп. 14\, ауд. 104
+DTEND:20261111T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261111T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:84fbc12a638e154ef9434fd9bcc349f0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Метелева О.А.\nМесто: корп. 14\, ауд. 338
+DTEND:20261114T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261114T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:bd9801361dbb855f6396e4f6cd924003@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Метелева О.А.\nМесто: корп. 14\, ауд. 338
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:16cef8cfeceedb682b26079aacb7cb81@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:c3ef300d1aa349ba70bfad5c3ac059b2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Борисова М.В.\nМесто: корп. 16\, ауд. 210
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:54493070a3fc084643adbb5cc550ac84@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тютюнник И.А.\nМесто: корп. 14\, ауд. 121
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 121
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:b24ed87f88f782d576380eb3c8e842e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 147
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:5d63f52f4baab0ee2629a5e2547e762c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Метелева О.А.\nМесто: корп. 14\, ауд. 338
+DTEND:20261117T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261117T052000Z
+STATUS:CONFIRMED
+SUMMARY:Деловые коммуникации (Лекция)
+UID:a88bb49aebfd9dfd1e5ae0544e76f754@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261121T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261121T052000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:984d52a25cc4119b21b4968e0d3e9c61@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 338
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Тайм-менеджмент (Практическое занятие)
+UID:1f09de44d36a34581d51463f2f5569c9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Г.А.\nМесто: корп. 19\, ауд. 257
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 257
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:7cd5a644f6e360066a05a79f2dbc5484@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261114T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261114T052000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:6fe9fb9f2565693ec5a6614978d404f7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 338
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Тайм-менеджмент (Лекция)
+UID:bbd182c0e3f5882f2105e296a83ccd18@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:3290c452b7f31bd22ca1f5ed8bde62ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:b03dc3e6e831095d3709bf8113c071d5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Метелева О.А.\nМесто: корп. 14\, ауд. 335
+DTEND:20261114T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261114T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:f6abe7bff929470d99a4d4a0df334f04@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Клабукова Ю.В.\nМесто: корп. 14\, ауд. 334
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Лекция)
+UID:54d898821d540efc3a2170a885464c97@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ральникова Е.Л.\nМесто: корп. 16\, ауд. 310
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 310
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Практическое занятие)
+UID:4d8590c61012c953c2316bd750452352@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ральникова Е.Л.\nМесто: корп. 16\, ауд. 311
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Практическое занятие)
+UID:120408d198377a737f5212484351b65c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Г.А.\nМесто: корп. 19\, ауд. 257
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 257
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:7d9ad2383dce97df81c66b9397e9e9b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев А.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:d10a7d31b1616d40a3a1eb3ca6891551@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 147
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:4e63dd5cec2ead28c391badfc2d6f213@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Метелева О.А.\nМесто: корп. 14\, ауд. 104
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:6854b5935c97fd3e1516f2d6d6e87643@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ральникова Е.Л.\nМесто: корп. 14\, ауд. 338
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Лекция)
+UID:e949eb8cc77f8a915ece32e48c6a484e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 147
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:489c87754b7ce9d52fb7c275f44fb1f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 147
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:b176edea8ccc75ae1f5d6a0dfc58af07@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев А.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:aef4c844b637c9c1c8d24368aa8f8d1b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Клабукова Ю.В.\nМесто: корп. 14\, ауд. 334
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Лекция)
+UID:dc4d3f9e81ba0654d8a0ddfb0f37486f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 338
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Тайм-менеджмент (Практическое занятие)
+UID:ef7bba6f56d7569a6d661484f4414bfb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 338
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Тайм-менеджмент (Лекция)
+UID:bc6e8d791fb90c5e436ff7db4ca2163a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:58508917f3c2e569bd84349649c1e6ad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Ю.В.\nМесто: корп. 14\, ауд. 218
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:131a4833652590b37ddd01312862cf63@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев А.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261116T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261116T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:1a1d6714ce3aee875996cdf532ae9a2a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Борисова М.В.\nМесто: корп. 16\, ауд. 210
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:33b5f53f13780402a16b09cbf2b19b67@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Г.А.\nМесто: корп. 19\, ауд. 257
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 257
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:46707cb60e69e632c49c8b26d0d03414@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Преподаватель: Метелева О.А.\nМесто: корп. 14\, ауд. 122
+DTEND:20261118T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261118T110000Z
+STATUS:CONFIRMED
+SUMMARY:Час с куратором
+UID:ef95ab961ae6c614973d3046eb7d67c0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ральникова Е.Л.\nМесто: корп. 16\, ауд. 310
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 310
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Практическое занятие)
+UID:0ac2da3837efae2329d1324e02bb2052@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев А.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:12ba57c050a685c9a065ee8faf65c0ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Метелева О.А.\nМесто: корп. 14\, ауд. 338
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Деловые коммуникации (Лекция)
+UID:564fb964a42b19eb10c4535456ca90ef@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Метелева О.А.\nМесто: корп. 14\, ауд. 104
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Деловые коммуникации (Практическое занятие)
+UID:a4704a9e33bbbf5e0ba4b1e2165aef78@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Борисова М.В.\nМесто: корп. 16\, ауд. 210
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:aea58369a6b2df076c27a5aa72e8b78f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Ю.В.\nМесто: корп. 14\, ауд. 218
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:c38c7165ad9c0774830ef86bb35dce44@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Метелева О.А.\nМесто: корп. 14\, ауд. 338
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:a976a1cd6b247e0fc75163c3d28a7833@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тютюнник И.А.\nМесто: корп. 14\, ауд. 121
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 121
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:983187202ce5e86ff0df610ed1ffe394@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261121T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261121T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:26a678fd56674c3a9cd0df7f07e17b76@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тютюнник И.А.\nМесто: корп. 14\, ауд. 121
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 121
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:3f833f8644783785743bcfb980a03372@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тютюнник И.А.\nМесто: корп. 14\, ауд. 121
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 121
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:caa7e967f5c51033d5e5ade73d56c1e0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:fd7919fdaf06864f4f1203687e233d4c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ральникова Е.Л.\nМесто: корп. 14\, ауд. 338
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Лекция)
+UID:f5175988d0002b90362c5fa1f6ddf1a0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Ю.В.\nМесто: корп. 14\, ауд. 113
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:43b018892013ef4cb7eead2ebdfe93d2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Борисова М.В.\nМесто: корп. 16\, ауд. 210
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:0ce06da78b6da36275096e9297af8e6d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Метелева О.А.\nМесто: корп. 14\, ауд. 104
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:20442ec3f9eb32d15995554cc8e69013@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тютюнник И.А.\nМесто: корп. 14\, ауд. 121
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 121
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:d8adc11ebcbae2946860d2b44909dda9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Метелева О.А.\nМесто: корп. 14\, ауд. 104
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:6a615b462557b6435e79bbbcf94a6230@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:3afa215fbcd354f9489b23d5b0dac806@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

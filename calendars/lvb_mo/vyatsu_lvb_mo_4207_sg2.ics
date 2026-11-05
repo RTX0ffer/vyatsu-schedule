@@ -1,0 +1,714 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЛВб-4207 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку А.Д.\nМесто: корп. 16\, ауд. 319
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 319
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой английский язык (Практическое занятие)
+UID:a0cd0d1f2d62875ce80871b7d5ea167b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 13\, ауд. 407
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 13\, ауд. 407
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Письменный перевод первого иностранного языка (Практическое занятие)
+UID:ac9d1beacf1831ea6b66669a40c978b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Письменный перевод второго иностранного языка (Практическое занятие)
+UID:b55147180898fbd726c5bb444f1c087b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку А.Д.\nМесто: корп. 16\, ауд. 319
+DTEND:20261110T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 319
+DTSTART:20261110T052000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (английский язык) (Практическое занятие)
+UID:d5dfd148a9e2cbd7e6f7befea3a4a3c0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (китайский язык) (Практическое занятие)
+UID:b0d9db4c8295dc6fd24ec28fc01b9281@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 17\, ауд. 457
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 17\, ауд. 457
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинг (Практическое занятие)
+UID:0fdae66f00e7fb75061a088644327487@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мишутинская Е.А.\nМесто: корп. 14\, ауд. 334
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Устный перевод в деловой коммуникации (Практическое занятие)
+UID:b67c335e763788057dd7c92ee935e438@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 13\, ауд. 407
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 13\, ауд. 407
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Письменный перевод первого иностранного языка (Практическое занятие)
+UID:118fe45a7e702865e2a9b12f28eb6da4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 216
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 216
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:4b65abd01c49131982df65e91b75c613@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 17\, ауд. 457
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 17\, ауд. 457
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинг (Практическое занятие)
+UID:67a9e1523ad85fde70954ecb92470274@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 207
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:874fe244a30db4dd26bb243c7dc9b1fd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Березина Е.А.\nМесто: корп. 17\, ауд. 457
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 17\, ауд. 457
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинг (Лекция)
+UID:23dc7436876f3ac732b01739d8f291f7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (китайский язык) (Практическое занятие)
+UID:f3dd5c3eae559e7189879c50970f7244@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (китайский язык) (Практическое занятие)
+UID:ab4e1edfcab43d19981fed9dec25e120@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (китайский язык) (Практическое занятие)
+UID:0e561b5c2eca8d7a98bf22351f1b701c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 207
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:a07c8b8247e26903e64ab512d5b70154@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 216
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 216
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:1c9e63a1d31f0f753d526bcf377f677b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:5966c11f36b7de714966ad0ade1d1a83@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 13\, ауд. 407
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 13\, ауд. 407
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Письменный перевод первого иностранного языка (Практическое занятие)
+UID:c9708074720f681a13aa04a20e4d0563@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 216
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 216
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой китайский язык (Практическое занятие)
+UID:e06ddc9e6b69648dae58e8742b962f1a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:20171649c79bd069d534d7c7a79a203c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харин А.Н.\nМесто: корп. 16\, ауд. 313
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Международная политика (Практическое занятие)
+UID:f8e57b5018d93caa8c61886ec1d15bfa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (китайский язык) (Практическое занятие)
+UID:00dcfa7978878c44ecb6e8cb9169de5e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мишутинская Е.А.\nМесто: корп. 14\, ауд. 334
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Устный перевод в деловой коммуникации (Практическое занятие)
+UID:60be36c01ebe57f4486bda9b4bc55b79@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку А.Д.\nМесто: корп. 16\, ауд. 202
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (английский язык) (Практическое занятие)
+UID:9d822ba4eef8629c0b5e395307e4e2e2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 13\, ауд. 407
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 13\, ауд. 407
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Письменный перевод первого иностранного языка (Практическое занятие)
+UID:048f0405397b82d258d0e44198b6266d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харин А.Н.\nМесто: корп. 16\, ауд. 322
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Международная политика (Практическое занятие)
+UID:049fec8645eae2da2ac61c700c9e7b16@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:34c135e2d3016e955d82c7fe90868a04@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку А.Д.\nМесто: корп. 16\, ауд. 202
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (английский язык) (Практическое занятие)
+UID:8c06719e0518548d169c6b3a6dd7ebc5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (китайский язык) (Практическое занятие)
+UID:24f587abffb45f0ebd751be837d96117@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 216
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 216
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:e90a03d0e25789fb86f8f3911cee0676@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку А.Д.\nМесто: корп. 16\, ауд. 202
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (английский язык) (Практическое занятие)
+UID:e63fd3fa08a94edbd0d2739c89b87868@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мишутинская Е.А.\nМесто: корп. 14\, ауд. 334
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Устный перевод в деловой коммуникации (Практическое занятие)
+UID:f4f92b7b6515b808462c6d61bdb09d51@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 13\, ауд. 407
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 13\, ауд. 407
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Письменный перевод первого иностранного языка (Практическое занятие)
+UID:e85a88d5507795856b6897469d7f8ec1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 216
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 216
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:66f11484d6c04f2df405b04b148cd8b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку А.Д.\nМесто: корп. 16\, ауд. 202
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (английский язык) (Практическое занятие)
+UID:2fe1b0f4da7b4914430d48a43aaf47b2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 216
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 216
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой китайский язык (Практическое занятие)
+UID:95e6ba8fd4267cedc8259a184400a5ad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:e6b75efe60998273c641d72f3fa69d30@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 207
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:dffdc93cc8b607add9c331fe9650a840@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мишутинская Е.А.\nМесто: корп. 14\, ауд. 334
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Устный перевод в деловой коммуникации (Практическое занятие)
+UID:af107c8b9be7e211dda57ac13cbd483f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку А.Д.\nМесто: корп. 16\, ауд. 202
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой английский язык (Практическое занятие)
+UID:3407ac70ab85816e1b02b318d5cc2485@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 216
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 216
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:47ab43839be997c759aab8755d27e43a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харин А.Н.\nМесто: корп. 16\, ауд. 313
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Международная политика (Практическое занятие)
+UID:e1a46e6ba8201a142f8c951afa702618@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой китайский язык (Практическое занятие)
+UID:e860c88e014bb437f9fed0b33c06b637@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Березина Е.А.\nМесто: корп. 17\, ауд. 457
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 17\, ауд. 457
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинг (Лекция)
+UID:454589523fdd07794f16c0095fbc0a8e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой китайский язык (Практическое занятие)
+UID:bb7654d91747245a99a3d2b6ff525deb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку А.Д.\nМесто: корп. 16\, ауд. 319
+DTEND:20261112T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 319
+DTSTART:20261112T052000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой английский язык (Практическое занятие)
+UID:826507d06a16b3142451a57d7e633fc3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мишутинская Е.А.\nМесто: корп. 14\, ауд. 334
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Устный перевод в деловой коммуникации (Практическое занятие)
+UID:b73bc1e6b0ab3a9b3d763fae96ad0e1b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Письменный перевод второго иностранного языка (Практическое занятие)
+UID:2479e636ab701f7118b931afca88ff0e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мишутинская Е.А.\nМесто: корп. 14\, ауд. 334
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Устный перевод в деловой коммуникации (Практическое занятие)
+UID:d3f360c5d4eb839fb60c38c8b8a393f8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (китайский язык) (Практическое занятие)
+UID:08d736551c068715d2c4bd06c26dbba3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 13\, ауд. 407
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 13\, ауд. 407
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Письменный перевод первого иностранного языка (Практическое занятие)
+UID:4b01ba2ceea283d0d0955f206eace578@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:ade843de5b332a08c0496c514053cece@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:499a6d9ed55abfa873199333c797fca9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:f7233413ddf59c9d35680214c16d9a6b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 121
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Письменный перевод второго иностранного языка (Практическое занятие)
+UID:ed27abdece6e572ff6e315c0b643b474@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харин А.Н.\nМесто: корп. 16\, ауд. 322
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Международная политика (Практическое занятие)
+UID:b63821a05d2f7583eed4b42699668d06@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (китайский язык) (Практическое занятие)
+UID:620162479f68d3de9a64521aa4763a35@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 13\, ауд. 407
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 13\, ауд. 407
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Письменный перевод первого иностранного языка (Практическое занятие)
+UID:817329ea4b63eed13bb16e5164cd1878@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 206
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (Практическое занятие)
+UID:35cc6d81f27d0794473ef737fa1fea29@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 13\, ауд. 407
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 13\, ауд. 407
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Письменный перевод первого иностранного языка (Практическое занятие)
+UID:1b37ef846999a022b670fd1cde5aafb7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку А.Д.\nМесто: корп. 16\, ауд. 202
+DTEND:20261119T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261119T052000Z
+STATUS:CONFIRMED
+SUMMARY:Деловой английский язык (Практическое занятие)
+UID:ddbbb3b5a1e83ad036eab7db99a5dbf7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чжан Ц.\nМесто: корп. 16\, ауд. 121
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Письменный перевод второго иностранного языка (Практическое занятие)
+UID:12fd7f82c9c05245e216f80edac74d9f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку А.Д.\nМесто: корп. 16\, ауд. 319
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 319
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Язык средств массовой информации (английский язык) (Практическое занятие)
+UID:c1f4ac3f08150fc44d5729673625ba5d@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1792 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ПОДб-1701 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:География как наука о планете Земля (Лекция)
+UID:9598913ece1dd1809575bccd5821e3e3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Товстик Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 419
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 419
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Химия в действии (Практическое занятие)
+UID:5b4c724c2f822d7f27f46f1973853415@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Двоеглазов В.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 319
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 319
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Современное прочтение литературы в школе (Практическое занятие)
+UID:e91cfa46f326bd27b3d9afe4ab85e106@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Втюрина Т.А.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 334
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Психология (Лекция)
+UID:061a5455c35b8158e1b8c6182b8c25f9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смольняк И.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 211
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:6fd94ae2f69ea7a69050dfb5befe2de8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шабалкина С.В.\nПодгруппа: 1\nМесто: корп. 4\, ауд. 507
+DTEND:20261114T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261114T124500Z
+STATUS:CONFIRMED
+SUMMARY:Биология как наука (Практическое занятие)
+UID:58f2b2a6ad7d1d4e00cc061c51ea737c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лопарева Т.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 223
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная практика по немецкому языку (Практическое занятие)
+UID:df12d06629e9fcdff0250c8b3538be99@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Товстик Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 419
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 419
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Химия в действии (Практическое занятие)
+UID:f771ecbdc955f250bf5f79159f4f24fb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 130
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информатика в современном мире (Практическое занятие)
+UID:cec5864d18a4e478dfc3c7c7fa4c97ab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ульянова Ю.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 116
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 116
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Образовательные практики в начальной школе (Практическое занятие)
+UID:b1a284189a690a961b47344a1a3f98d8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 14\, ауд. 324
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс русского языка (Практическое занятие)
+UID:e2b86c8b26f1877dd3d44c6d0643827a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Быкова С.С.\nМесто: корп. 15\, ауд. 337
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое моделирование школы будущего (Практическое занятие)
+UID:9e1858d347aca562286be4227e39ab80@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалов А.В.\nМесто: корп. 14\, ауд. 214
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Практическое занятие)
+UID:c2cc1e2f3298926606185e56e307feee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Морилова Л.В.\nМесто: корп. 17\, ауд. 457
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 17\, ауд. 457
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практики в технологическом образовании (Практическое занятие)
+UID:7644e646c0d6750347ebc294a2aa9782@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалов А.В.\nМесто: корп. 14\, ауд. 214
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Практическое занятие)
+UID:91a2dc5273393b185b0c2a5918ae7923@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широков Д.В.\nМесто: корп. 14\, ауд. 208
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 208
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Вводный курс математики (Практическое занятие)
+UID:8f75e1d5cce67c100ddfe44c09bb8183@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 14\, ауд. 319
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 319
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс русского языка (Практическое занятие)
+UID:bd124dfca15e163a38f29b73115b4de1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Перевозчикова М.С.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 311
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 311
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Информатика в современном мире (Лекция)
+UID:cf929eea42a7ab5651002d8a9b2c2ba2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:География как наука о планете Земля (Практическое занятие)
+UID:4158705201bbb41c0cf75f4befa35d65@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:География как наука о планете Земля (Практическое занятие)
+UID:cd0503256c50678aec8db757c50d6534@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Морилова Л.В.\nМесто: корп. 17\, ауд. 458
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 17\, ауд. 458
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практики в технологическом образовании (Лекция)
+UID:c5610204a3edf1356d3b9826b9b09de9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:География как наука о планете Земля (Практическое занятие)
+UID:363cf25afec276188dc4ec66fb2e174f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Товстик Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 419
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 419
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Химия в действии (Практическое занятие)
+UID:3021fa2dba6c39437414a772d565a005@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Толмачева М.И.\nМесто: корп. 14\, ауд. 247
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 247
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика вокруг нас (Практическое занятие)
+UID:f6f0da72d9d4521c84bb84f732a6783f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Толмачева М.И.\nМесто: корп. 14\, ауд. 247
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 247
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика вокруг нас (Практическое занятие)
+UID:691d345f6ba7016591a758aea1ab21aa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широков Д.В.\nМесто: корп. 14\, ауд. 222
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Вводный курс математики (Практическое занятие)
+UID:6e8ff940708e2d1b632d0d0c8085a2c6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широков Д.В.\nМесто: корп. 14\, ауд. 208
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 208
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Вводный курс математики (Практическое занятие)
+UID:e2e47b1efcfe0695ac00e61da2705d58@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шабалкина С.В.\nМесто: корп. 4\, ауд. 302
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 302
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биология как наука (Лекция)
+UID:e6b3e878cf735abd5a319fd68a09155f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шакирова О.В.\nМесто: корп. 15\, ауд. 339
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое мастерство методиста по воспитанию (Практическое занятие)
+UID:cde14b2dfde2c373bfc081fee217615c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 14\, ауд. 221
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Лекция)
+UID:dd9aa82d18cc82fa5f8f5a67ec5cb282@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Втюрина Т.А.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 334
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Психология (Лекция)
+UID:aa866ec18b16994f982445da3358e742@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Морилова Л.В.\nМесто: корп. 17\, ауд. 457
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 17\, ауд. 457
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практики в технологическом образовании (Практическое занятие)
+UID:aeab18c5da76128c382b1b999d24e7a6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Товстик Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 419
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 419
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Химия в действии (Практическое занятие)
+UID:a4eea3a4f5c72baa3cb243d37ed31293@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Татаринова М.Н.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 228
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 228
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная практика по английскому языку (Практическое занятие)
+UID:41b5040660442ee914a56af2ccd60651@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смольняк И.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 219
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:92400a395da75549b8f00784171e743f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широков Д.В.\nМесто: корп. 14\, ауд. 208
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 208
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Вводный курс математики (Практическое занятие)
+UID:b1ee4a27d25fc36799e28b983f4c6b83@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалов А.В.\nМесто: корп. 14\, ауд. 214
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Практическое занятие)
+UID:698da8215037ba5f8dad3804da520522@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:1a6049d4335245641314f6f7901d4cf0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Товстик Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 419
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 419
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Химия в действии (Практическое занятие)
+UID:4913f6b8f617d1ed4b091335e2d2d90b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Морилова Л.В.\nМесто: корп. 17\, ауд. 458
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 17\, ауд. 458
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Практики в технологическом образовании (Практическое занятие)
+UID:8a1213fee12d372270dd1444b81df823@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Морилова Л.В.\nМесто: корп. 17\, ауд. 457
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 17\, ауд. 457
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практики в технологическом образовании (Практическое занятие)
+UID:8eb0937440a50489662cce782378c792@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Егорова С.И.\nМесто: корп. 17\, ауд. 267
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 17\, ауд. 267
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:История дизайна\, науки и техники (Практическое занятие)
+UID:b94f18a2580f2ba9339710917074de7d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ульянова Ю.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 430
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Образовательные практики в начальной школе (Практическое занятие)
+UID:a81c31d44ef1e8b2d7a3bb80153670a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шабалкина С.В.\nМесто: корп. 4\, ауд. 302
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 302
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биология как наука (Лекция)
+UID:be253f07aedd06eb4d98b508701f9898@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 225
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:d9a704cfaf672104b24120a6197ac22e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 140
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Информатика в современном мире (Практическое занятие)
+UID:7f9d2ec194ae6b1f1eee2faf6d0d5681@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:География как наука о планете Земля (Лекция)
+UID:748d3722a049bea9bc224ff0fbd62dba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Двоеглазов В.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 312
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Современное прочтение литературы в школе (Практическое занятие)
+UID:cfb73637b04ce734d868a5691a146449@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:География как наука о планете Земля (Практическое занятие)
+UID:b8fcee8a3de559f8dbb8dbe679603faa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коршунков В.А.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 214
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:История Древнего мира (Практическое занятие)
+UID:ea9f6360f7bd9b8e7229e46907e34ec3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кошкина Н.А.\nМесто: корп. 15\, ауд. 117
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасный мир (Практическое занятие)
+UID:4f333d39a55dca938fc2637162630e42@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Морилова Л.В.\nМесто: корп. 17\, ауд. 458
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 17\, ауд. 458
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практики в технологическом образовании (Лекция)
+UID:8b1055e69c09f040ffd811b6e7f339f3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Быкова С.С.\nМесто: корп. 15\, ауд. 337
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое моделирование школы будущего (Лекция)
+UID:44691a67ebc7fcb7f504dc772977b047@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лопарева Т.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 223
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная практика по немецкому языку (Лекция)
+UID:7c4d6b1ac1cdd40b07f88870491f0a35@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 140
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Информатика в современном мире (Практическое занятие)
+UID:daaae0ef74a04faa5cc7f3b375d34fd5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:География как наука о планете Земля (Практическое занятие)
+UID:25082aa9e5dc3db41b5e167fcc357815@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лопарева Т.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 223
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная практика по немецкому языку (Практическое занятие)
+UID:9765c140874b366452b1919d89e87a39@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шакирова О.В.\nМесто: корп. 15\, ауд. 339
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое мастерство методиста по воспитанию (Практическое занятие)
+UID:cd9841747869fcd342dcb3bc0c487277@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лопарева Т.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 223
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная практика по немецкому языку (Практическое занятие)
+UID:14c45464c6abb89b66ad308d4e907be5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ульянова Ю.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 430
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Образовательные практики в начальной школе (Лекция)
+UID:1593a8d8412da11098dd1fdc8c2282b7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалов А.В.\nМесто: корп. 14\, ауд. 221
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Практическое занятие)
+UID:3537bfe149d2618045e89c13d03b765f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Товстик Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 419
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 419
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Химия в действии (Практическое занятие)
+UID:30be109f57352014fc6d392ab05f7737@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Татаринова М.Н.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 228
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 228
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная практика по английскому языку (Практическое занятие)
+UID:7c28dfc11a0e08c808459a0eb1203d67@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Костина Е.Г.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 218
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 218
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:c54828046dc30e508fd842b224aceff9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шакирова О.В.\nМесто: корп. 15\, ауд. 243
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 243
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое мастерство методиста по воспитанию (Практическое занятие)
+UID:ac27ee1d399bba0c1c3100bdfcc2581f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 130
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Информатика в современном мире (Практическое занятие)
+UID:43245348dc74a8f95b54c29e8ebe012e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалов А.В.\nМесто: корп. 14\, ауд. 214
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Практическое занятие)
+UID:275f2145a6d2f2254012d5850e6caaa8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Быкова С.С.\nМесто: корп. 15\, ауд. 337
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое моделирование школы будущего (Практическое занятие)
+UID:a8ffedad26928e348c7b6e555b838c9d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:579b4b546de639f6feabfeb19ff5e63f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 225
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:e660ffe310109646a1fa2b12bb2fd191@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Двоеглазов В.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 332
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 332
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современное прочтение литературы в школе (Лекция)
+UID:b8b6b12622bf8c39fbdb6e8136a6e0ad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:География как наука о планете Земля (Лекция)
+UID:2edfc36e9585f2076a4e1c05f4a90d6a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ульянова Ю.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 430
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Образовательные практики в начальной школе (Лекция)
+UID:1fc47492779de1947f8f50d87a064c89@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шакирова О.В.\nМесто: корп. 15\, ауд. 339
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое мастерство методиста по воспитанию (Практическое занятие)
+UID:43483505c38f6704b3b5692eca1f96bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Двоеглазов В.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 312
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Современное прочтение литературы в школе (Практическое занятие)
+UID:09e89f55eb843ed02a09095056ac06ef@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Быкова С.С.\nМесто: корп. 15\, ауд. 337
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое моделирование школы будущего (Практическое занятие)
+UID:be4ed17dfa0da361885a93fed90cee4d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Костина Е.Г.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 225
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:6b44707a1de22071d56e1943b6546021@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Морилова Л.В.\nМесто: корп. 17\, ауд. 458
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 17\, ауд. 458
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практики в технологическом образовании (Лекция)
+UID:dd367bf4adf9f24844a81cedce894dc2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Втюрина Т.А.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 338
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Психология (Лекция)
+UID:7d6eb6e4058706deb9be9abab70f7930@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кошкина Н.А.\nМесто: корп. 15\, ауд. 117
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасный мир (Практическое занятие)
+UID:f87caf1606ca6632ea7f33b9b3e5f1f6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шабалкина С.В.\nМесто: корп. 4\, ауд. 302
+DTEND:20261121T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 302
+DTSTART:20261121T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биология как наука (Лекция)
+UID:552be21a9e13a8690b7f90e736bec012@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 140
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Информатика в современном мире (Практическое занятие)
+UID:3236e8a2f3a9a1ed5f57d4bbcaa7b811@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалов А.В.\nМесто: корп. 14\, ауд. 214
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Практическое занятие)
+UID:e2f3b9858a1f0cd2002d62669201f038@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шакирова О.В.\nМесто: корп. 15\, ауд. 339
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое мастерство методиста по воспитанию (Практическое занятие)
+UID:6a5984cf6dfca7d53334002ca28fa4f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:География как наука о планете Земля (Практическое занятие)
+UID:aeb2f44218127b24c02f8d4e8a31f421@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Балыбердина Т.П.\nМесто: корп. 15\, ауд. 125
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Развивающая среда детского сада (Практическое занятие)
+UID:770885e65c139d7260f351c3dd864912@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коршунков В.А.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 214
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:История Древнего мира (Практическое занятие)
+UID:b37ea8cb65b616614db77df3ae703a99@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шакирова О.В.\nМесто: корп. 15\, ауд. 243
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 243
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое мастерство методиста по воспитанию (Лекция)
+UID:a40e136ea4efacd0720ce587dca2dc32@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Быкова С.С.\nМесто: корп. 15\, ауд. 337
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое моделирование школы будущего (Лекция)
+UID:0bf6ae59227e9b8335957179334f5508@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Товстик Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 419
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 419
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Химия в действии (Практическое занятие)
+UID:8c56ff3a3709ff09d3da1de2b0492d9f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ульянова Ю.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 116
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 116
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Образовательные практики в начальной школе (Практическое занятие)
+UID:7119f75dfaab0d3d50fffa56b0b526c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 14\, ауд. 214
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Лекция)
+UID:38c488ae98b9fa519bacfff282b2eed3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:9f8e202282edf2944f77fc26919287e1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Татаринова М.Н.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 228
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 228
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная практика по английскому языку (Практическое занятие)
+UID:6c84b73329ec93758c1a1c7fdae15347@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кошкина Н.А.\nМесто: корп. 15\, ауд. 117
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасный мир (Лекция)
+UID:5efe9d787f2086de16e76481a6b3c7f4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалов А.В.\nМесто: корп. 14\, ауд. 221
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Практическое занятие)
+UID:d095bcdfc5e185635fd2d28117dfd696@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смольняк И.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 211
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:219419127c40e6df0a7113fdfb105a34@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шакирова О.В.\nМесто: корп. 15\, ауд. 339
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое мастерство методиста по воспитанию (Практическое занятие)
+UID:a27e934032298db35a4a76315d3e886f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шабалкина С.В.\nПодгруппа: 1\nМесто: корп. 4\, ауд. 507
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Биология как наука (Практическое занятие)
+UID:7d1efd62aed8cb8b39a74735153e87a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шабалкина С.В.\nПодгруппа: 1\nМесто: корп. 4\, ауд. 507
+DTEND:20261114T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261114T110000Z
+STATUS:CONFIRMED
+SUMMARY:Биология как наука (Практическое занятие)
+UID:0cbe20ce34d26b577473beec6ff14130@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Товстик Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 419
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 419
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Химия в действии (Практическое занятие)
+UID:441288b4de817f22d6b6789500f7d527@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Перевозчикова М.С.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 311
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 311
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Информатика в современном мире (Лекция)
+UID:943325c8a74887a2fed5dccd74ad54ea@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коршунков В.А.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 214
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:История Древнего мира (Практическое занятие)
+UID:c5043fe283d5a61b92df7bd246a347cc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 14\, ауд. 211
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Лекция)
+UID:57e4cfcd6d93557ec17f4ee5ed460844@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Егорова С.И.\nМесто: корп. 17\, ауд. 267
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 17\, ауд. 267
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:История дизайна\, науки и техники (Практическое занятие)
+UID:ca1cbcb9cd89b6ec15074262b1d79a89@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Костина Е.Г.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 218
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 218
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:c28fd088bcd91f2801ce5fefa773b14b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 130
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информатика в современном мире (Практическое занятие)
+UID:3ab8eae19b0a1c57ac39acb95d11ad51@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кошкина Н.А.\nМесто: корп. 15\, ауд. 117
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасный мир (Практическое занятие)
+UID:1858952eda6f447256f2d4a7ca6dd7df@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 130
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Информатика в современном мире (Практическое занятие)
+UID:dc0163e66e1706aaa0d1af591f4e2ab0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шабалкина С.В.\nПодгруппа: 1\nМесто: корп. 4\, ауд. 507
+DTEND:20261121T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261121T124500Z
+STATUS:CONFIRMED
+SUMMARY:Биология как наука (Практическое занятие)
+UID:4096d789be6467e11b29a02cdf6d8c19@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кошкина Н.А.\nМесто: корп. 15\, ауд. 117
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасный мир (Практическое занятие)
+UID:a1ebb12a9d6a84e75694bc36da09e34f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кошкина Н.А.\nМесто: корп. 15\, ауд. 117
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасный мир (Практическое занятие)
+UID:97cd51dc1d7347ca8263c7c130d1adcf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кошкина Н.А.\nМесто: корп. 15\, ауд. 117
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасный мир (Практическое занятие)
+UID:996ae0068040f889e4e4de797ca8eb9c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Двоеглазов В.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 332
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 332
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современное прочтение литературы в школе (Лекция)
+UID:4420e5a0db74d9920c9d71e68b7dcdd7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 225
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:772be80afe444ea98e66e09e9e29d4d2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шабалкина С.В.\nПодгруппа: 1\nМесто: корп. 4\, ауд. 507
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Биология как наука (Практическое занятие)
+UID:55f5dd111bc83dc6d2f0075849bdf811@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 140
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Информатика в современном мире (Практическое занятие)
+UID:8a2242a3678a0b934d00bd73b52d3ecb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Татаринова М.Н.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 228
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 228
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная практика по английскому языку (Практическое занятие)
+UID:b85dd9988a475ca9925c5a1f90daed5a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ульянова Ю.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 116
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 116
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Образовательные практики в начальной школе (Практическое занятие)
+UID:fd074f5bf6bab77ba9046d153ae2ae87@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:92ce820942fac7df32157d83e3a48d06@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:География как наука о планете Земля (Практическое занятие)
+UID:553d00dfe49e70b50d53ec4ddd1f85c6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:География как наука о планете Земля (Практическое занятие)
+UID:7601928c6e007346ca4fd257e6ce001b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шабалкина С.В.\nПодгруппа: 1\nМесто: корп. 4\, ауд. 507
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Биология как наука (Практическое занятие)
+UID:0ab0d9bce13b69451b72f836f33761c0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Перевозчикова М.С.\nПодгруппа: 1\nМесто: корп. 16\, ауд. 300
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Информатика в современном мире (Лекция)
+UID:586cf0a5dfc8ad6f0b2b5377aa8e4635@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Втюрина Т.А.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 338
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Психология (Лекция)
+UID:26455beb9cadbaff46bc4429c6e7de27@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лопарева Т.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 223
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная практика по немецкому языку (Практическое занятие)
+UID:4552b44ca48c44cc105ac408f55c0464@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коршунков В.А.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 214
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:История Древнего мира (Практическое занятие)
+UID:4724a5f46ca3dfb80ed14ec913370a6b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Егорова С.И.\nМесто: корп. 17\, ауд. 267
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 17\, ауд. 267
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:История дизайна\, науки и техники (Практическое занятие)
+UID:374e4b5a85477768ed1f558e347ca4e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лопарева Т.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 223
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная практика по немецкому языку (Лекция)
+UID:ed0cb2ba4d070c0049a1d1c4a2af7d96@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 14\, ауд. 319
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 319
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс русского языка (Практическое занятие)
+UID:780d96e2533419240cfc18eae577e39b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шабалкина С.В.\nПодгруппа: 1\nМесто: корп. 4\, ауд. 507
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Биология как наука (Практическое занятие)
+UID:501d0895d3b465bd83cd65b4d95c0a30@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Морилова Л.В.\nМесто: корп. 17\, ауд. 458
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 17\, ауд. 458
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Практики в технологическом образовании (Практическое занятие)
+UID:cfc0c0c6a6e30ee0a3482a797789b4a8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Быкова С.С.\nМесто: корп. 15\, ауд. 337
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое моделирование школы будущего (Практическое занятие)
+UID:2c97d187428eeec0b28fbd8f18b2fc21@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261121T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261121T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:97b6a4e9f699aef34545ae7c6e0ccc26@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 14\, ауд. 221
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Лекция)
+UID:8364c9c3e8a4465070ef5016575d3da9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Балыбердина Т.П.\nМесто: корп. 15\, ауд. 125
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Развивающая среда детского сада (Практическое занятие)
+UID:cf434eae7cec303760df5d1cfdedf127@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ульянова Ю.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 430
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Образовательные практики в начальной школе (Практическое занятие)
+UID:9252125f237657ba469d400e489d1b60@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Быкова С.С.\nМесто: корп. 15\, ауд. 337
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое моделирование школы будущего (Практическое занятие)
+UID:de0f48d5ac531de7496f4d8249986d18@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Толмачева М.И.\nМесто: корп. 14\, ауд. 247
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 247
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика вокруг нас (Практическое занятие)
+UID:3d44615c65a9ce197385abbf280ed5fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261121T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261121T052000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:34dc9e2c4227022a62cfbf2270aa850f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кошкина Н.А.\nМесто: корп. 15\, ауд. 117
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасный мир (Лекция)
+UID:7eadbe1d7d1b12606040506709d0f31f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шакирова О.В.\nМесто: корп. 15\, ауд. 339
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое мастерство методиста по воспитанию (Лекция)
+UID:11a3268bbdfb452f1f52a5008b9f5ddb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смольняк И.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 219
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:35ec3f445eb05cfc60a3a85c0974ae36@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалов А.В.\nМесто: корп. 14\, ауд. 211
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы социологии (Практическое занятие)
+UID:1fedff0c87543e66475427951b16733a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Костина Е.Г.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 218
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 218
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:8aea4ae2d9bfcd8bac7aa3981b30885d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Балыбердина Т.П.\nМесто: корп. 15\, ауд. 125
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Развивающая среда детского сада (Практическое занятие)
+UID:130b33122922bb9f6edaad35c96ec926@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шабалкина С.В.\nПодгруппа: 1\nМесто: корп. 4\, ауд. 507
+DTEND:20261121T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261121T110000Z
+STATUS:CONFIRMED
+SUMMARY:Биология как наука (Практическое занятие)
+UID:ce8b9be2579f5f6955b898e5369ef687@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ульянова Ю.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 116
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 116
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Образовательные практики в начальной школе (Практическое занятие)
+UID:a42080ed5f93fda4522b8350fdab2c22@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Егорова С.И.\nМесто: корп. 17\, ауд. 267
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 17\, ауд. 267
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:История дизайна\, науки и техники (Практическое занятие)
+UID:ba3ec240eb4131f5353f1e0d52a8031a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:7eb1796dfd3b17edb12e3ab834b75d5a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шабалкина С.В.\nМесто: корп. 4\, ауд. 302
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 302
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биология как наука (Лекция)
+UID:55a0b91ee452e04ea3bcf51765d97822@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Перевозчикова М.С.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 219
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Информатика в современном мире (Лекция)
+UID:c8c9bb5c516de150b54cf5fc4f2694eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 14\, ауд. 324
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс русского языка (Практическое занятие)
+UID:665d7a60a1d2da2226c30045254dad74@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Двоеглазов В.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 332
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 332
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современное прочтение литературы в школе (Лекция)
+UID:502ecdafdd3306c52feabf97fc72fa45@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Быкова С.С.\nМесто: корп. 15\, ауд. 337
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Педагогическое моделирование школы будущего (Практическое занятие)
+UID:115efbef31f2c0a904d3bc66f0a0f9b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 324
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 324
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:География как наука о планете Земля (Лекция)
+UID:cbfc2bb02e21185e512d595b7beec91c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Толмачева М.И.\nМесто: корп. 14\, ауд. 247
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 247
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика вокруг нас (Практическое занятие)
+UID:27a3b47449e6e07e3f5e2c547df1726c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Двоеглазов В.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 332
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 332
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современное прочтение литературы в школе (Лекция)
+UID:e28e3c67dad76b672414340332050e9e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лопарева Т.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 223
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная практика по немецкому языку (Практическое занятие)
+UID:aa1737df88153c0648ab59660110fdb3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261114T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261114T052000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:e6516a037581ed256b10ec5fdd1a5c6d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лопарева Т.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 223
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная практика по немецкому языку (Практическое занятие)
+UID:cf9de82c940dae3b401921981d3ce868@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Двоеглазов В.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 319
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 319
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Современное прочтение литературы в школе (Практическое занятие)
+UID:0ed0e6d525c44ccc1bca91a918d8cb16@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

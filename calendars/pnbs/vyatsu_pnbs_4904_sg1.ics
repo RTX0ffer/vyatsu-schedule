@@ -1,0 +1,395 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ПНБс-4904 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 513
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Организованная преступность и меры борьбы с ней (Практическое занятие)
+UID:2d66f535851ef0a4d1525d67e92e475f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коновалова А.Б.\nМесто: корп. 13\, ауд. 507
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 507
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы уголовного процесса (Практическое занятие)
+UID:4f9b41ee148f5a55ae62ee0770f0e1bf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 530
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:e2f335b88e3ce016b965bc6ee7380be2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зорин А.В.\nМесто: корп. 13\, ауд. 110
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:История политических и правовых учений (Лекция)
+UID:0e2a000ad27f72be87ab3635826ee0fd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зорин А.В.\nМесто: корп. 13\, ауд. 609
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:История политических и правовых учений (Практическое занятие)
+UID:c60ad864b6758093091867bb4fa648c0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колегов К.В.\nМесто: корп. 13\, ауд. 405
+DTEND:20261112T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261112T155500Z
+STATUS:CONFIRMED
+SUMMARY:Преступления против личности (Практическое занятие)
+UID:8e4a015992c486d82089e6bc52785d48@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 608
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:81e9c490704ec2cc849536d908d87f76@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 608
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:e44bbd5416b62ccbf94a55c04f8a4a4a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коновалова А.Б.\nМесто: корп. 13\, ауд. 507
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 507
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы уголовного процесса (Практическое занятие)
+UID:ebd4ff4cd5449c0a9c99184f1e9ff65f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зорин А.В.\nМесто: корп. 13\, ауд. 609
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:История политических и правовых учений (Практическое занятие)
+UID:8177a4a96e755e7f582a92452d7f3b65@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 608
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:8d21f4bd3d7ef6ed799732bf6e765a99@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 530
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:7d532476ce8c555cd07b4bf9a920d638@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коновалова А.Б.\nМесто: корп. 13\, ауд. 507
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 507
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы уголовного процесса (Практическое занятие)
+UID:6233f1785f4675e69da089f0fa3198b9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 408
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Организованная преступность и меры борьбы с ней (Лекция)
+UID:b80f38965cc0bdae886c581a09271c32@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колегов К.В.\nМесто: корп. 13\, ауд. 405
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Преступления против личности (Практическое занятие)
+UID:f67b8d0fc6638790362ce8f644de52c9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 530
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:33a6c9c9f45a448c0e1400417d8a0feb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 110
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Лекция)
+UID:5307c18bcdbc2de88ccf026e1a61f4f7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 405
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Мотивы и цели преступления (Практическое занятие)
+UID:2a579d919a6c75577187e657ca893c15@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 408
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Мотивы и цели преступления (Лекция)
+UID:2143d62853a37cf3a2f5fc6bf9acad74@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 608
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:506dae421ad2a738c90b0d9d92025d46@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Коновалова А.Б.\nМесто: корп. 13\, ауд. 507
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 507
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы уголовного процесса (Лекция)
+UID:027b2e481c02c291863004a5ead0f682@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 513
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Организованная преступность и меры борьбы с ней (Практическое занятие)
+UID:7e8c93f02bc7b3e18667b6f56ed35c04@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колегов К.В.\nМесто: корп. 13\, ауд. 405
+DTEND:20261112T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261112T142000Z
+STATUS:CONFIRMED
+SUMMARY:Преступления против личности (Практическое занятие)
+UID:81106e01a299e99238403f0e93edcb7f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колегов К.В.\nМесто: корп. 13\, ауд. 405
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Преступления против личности (Практическое занятие)
+UID:ea763e5c9fdf4fbd7e99c7ffebf79b78@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 408
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Организованная преступность и меры борьбы с ней (Лекция)
+UID:0c791a5691ef008042eb2d3dd92d1d8e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 513
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Организованная преступность и меры борьбы с ней (Практическое занятие)
+UID:b2c3a8bfb6bb30ec2d343ef31b0df624@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 530
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:7e43147882b6ea8f045e23bff2454492@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зорин А.В.\nМесто: корп. 13\, ауд. 609
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:История политических и правовых учений (Практическое занятие)
+UID:42958c4b3016079fe616e74ab7c90f87@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коновалова А.Б.\nМесто: корп. 13\, ауд. 507
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 507
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы уголовного процесса (Практическое занятие)
+UID:e8d5c4f5a99616ee1b70d74a73a02440@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зорин А.В.\nМесто: корп. 13\, ауд. 609
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:История политических и правовых учений (Практическое занятие)
+UID:b4fa5fd0eac223855c1d217e828fee4a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 110
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Лекция)
+UID:dd4945b82cc55d300ab98177f3496094@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 405
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Мотивы и цели преступления (Практическое занятие)
+UID:bbe94d4dbf805450373782c1734f9535@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колегов К.В.\nМесто: корп. 13\, ауд. 105
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 105
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Преступления против личности (Лекция)
+UID:f8eaa8c2b3d59ff8e143abdac339bc66@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Коновалова А.Б.\nМесто: корп. 13\, ауд. 507
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 507
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы уголовного процесса (Лекция)
+UID:dc1661faa15f86444be897eca123a2a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 513
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Организованная преступность и меры борьбы с ней (Практическое занятие)
+UID:7ec44b34ac4f7b31104b50315005d180@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

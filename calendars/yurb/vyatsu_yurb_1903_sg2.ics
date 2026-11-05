@@ -1,0 +1,307 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЮРб-1903 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тимкин Ю.Н.\nМесто: корп. 13\, ауд. 610
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 610
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:История государства и права зарубежных стран (Практическое занятие)
+UID:3119689e86444c4bd8e8bdce5f5620a6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Скутнев А.В.\nМесто: корп. 13\, ауд. 408
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:История государства и права России (Практическое занятие)
+UID:da517fdfb44b1ed8b8b5b53bee070181@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Макаров А.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 227
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 227
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:d41b29a8e8267af4f1826e4ee4a9f44b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Скутнев А.В.\nМесто: корп. 13\, ауд. 408
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:История государства и права России (Практическое занятие)
+UID:166fe1088cd04b52b43d02c68e06880e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Семено А.В.\nМесто: корп. 13\, ауд. 111
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:4d7a4c8b3f32f70b63e830f6a9b08f71@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шешуков А.Ю.\nМесто: корп. 13\, ауд. 407
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 407
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в юридической деятельности (Лабораторная работа)
+UID:ffa0dd2407dee45d527db2f83c3367d9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бурдина Е.С.\nМесто: корп. 13\, ауд. 513
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Логика (Практическое занятие)
+UID:462fc90b9c2eff05a4b6315d034deae2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Семено А.В.\nМесто: корп. 13\, ауд. 110
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:252bf3e73e825ad6fae07c21771bdca6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бурдина Е.С.\nМесто: корп. 13\, ауд. 513
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 513
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Логика (Практическое занятие)
+UID:590499a8b4a81d43522813c7a9b8bf8f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тимкин Ю.Н.\nМесто: корп. 13\, ауд. 610
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 610
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:История государства и права зарубежных стран (Практическое занятие)
+UID:bce2e4fdfcf64a7a0455397df65fc779@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шешуков А.Ю.\nМесто: корп. 13\, ауд. 111
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в юридической деятельности (Лекция)
+UID:a6c34562eb0f0b7a094b3f7b2359e1bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Макаров А.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 227
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 227
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:54bd10099e005941265f46b4d2493696@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шешуков А.Ю.\nМесто: корп. 13\, ауд. 407
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 407
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в юридической деятельности (Лабораторная работа)
+UID:98929b91a102ff60975eccd0dbdd31ea@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кушова И.А.\nМесто: корп. 13\, ауд. 111
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Профессиональная этика (Лекция)
+UID:0d8a2c9af7ccd4f026c4a9c80b882bb1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Семено А.В.\nМесто: корп. 13\, ауд. 609
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:c7f5d657efe4ccc455b43b5ba1bb74a8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рябова Ю.С.\nПодгруппа: 2\nМесто: корп. 13\, ауд. 002
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 002
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:df7d7c268417c02bb9868a5881785b13@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бурдина Е.С.\nМесто: корп. 13\, ауд. 111
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Логика (Лекция)
+UID:e08d2d7d833bb5a9ebea7cfa956585e9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Семено А.В.\nМесто: корп. 13\, ауд. 608
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:e480c91ac1e89f5bd900837fd74a95a3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Скутнев А.В.\nМесто: корп. 13\, ауд. 111
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:История государства и права России (Лекция)
+UID:22f2925c46f957a36148f3b188c1e98d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Семено А.В.\nМесто: корп. 13\, ауд. 608
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:8563545ad1c80cc625e7d6e08e332b54@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Семено А.В.\nМесто: корп. 13\, ауд. 110
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:260b344bf76088f8d932bfb86dd2de9d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рябова Ю.С.\nПодгруппа: 2\nМесто: корп. 13\, ауд. 002
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 002
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:e815220af16612601564bc84c94254fd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 13\, ауд. 610
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 610
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Профессиональная этика (Практическое занятие)
+UID:7f685042b858a2dfcdc1761a228d2f51@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Семено А.В.\nМесто: корп. 13\, ауд. 111
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:79e4d32e855c6a0544007a142b8e7779@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мамаева А.Н.\nМесто: корп. 13\, ауд. 111
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:4b593275b840541256a5568f79e81a9f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Семено А.В.\nМесто: корп. 13\, ауд. 111
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:aaca710276b441a362a4b83c50905f6f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Макаров А.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 227
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 227
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:fc02163c8d8c0d884d86f6e2951002be@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

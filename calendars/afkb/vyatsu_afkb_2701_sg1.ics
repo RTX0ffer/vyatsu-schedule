@@ -1,0 +1,560 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ АФКб-2701 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волкова Г.А.\nМесто: корп. 19\, ауд. 260
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:ef84ca167c10b6a71b043a2080a933a7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Микрюкова М.Г.\nМесто: корп. 19\, ауд. 304
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 304
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: гимнастика (Практическое занятие)
+UID:f83d70e349e9fee3a190266a310f1dff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волкова Г.А.\nМесто: корп. 19\, ауд. 260
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:7071311a1454fdfe1ab4c1bd8279cda1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подковырин В.Д.\nМесто: корп. 19\, ауд. 301
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 301
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: легкая атлетика (Практическое занятие)
+UID:5567fc784d9856659fe05168276538b5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 001
+DTEND:20261121T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 001
+DTSTART:20261121T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Практическое занятие)
+UID:8300977fc0e5111eccba5a63c9fcb08f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волкова Г.А.\nМесто: корп. 19\, ауд. 260
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:9bd3995707b0bd7a9dd72b5b934520fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Подковырин В.Д.\nМесто: корп. 19\, ауд. 215
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 215
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: легкая атлетика (Лекция)
+UID:da8de5a2191da9c30f99014ca4b3904e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подковырин В.Д.\nМесто: корп. 19\, ауд. 301
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 301
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: легкая атлетика (Практическое занятие)
+UID:26c01ce42645a6715582ed90113ce51a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попереков В.С.\nМесто: корп. 19\, ауд. 215
+DTEND:20261118T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 215
+DTSTART:20261118T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика физической культуры и спорта (Практическое занятие)
+UID:56e18657d719fd8726b03df73913008a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ершова Н.Н.\nМесто: корп. 15\, ауд. 211
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Психология профессиональной коммуникации (Лекция)
+UID:18f499da7c4ba183f83da5c5fab7da99@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 19\, ауд. 217
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 217
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:c22dd43baf01dc088eae0c73ad35ebbe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подковырин В.Д.\nМесто: корп. 19\, ауд. 301
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 301
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: легкая атлетика (Практическое занятие)
+UID:ba32efd3a12678bab542562cab3fc5df@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Микрюкова М.Г.\nМесто: корп. 19\, ауд. 304
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 304
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:f133af1b56dda55cd7105d96c915b765@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 159
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Практическое занятие)
+UID:03ebc793a9c86863a345f88b0086cac6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Попереков В.С.\nМесто: корп. 19\, ауд. 257
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 257
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика физической культуры и спорта (Лекция)
+UID:763faf5f31a5e55d4fc294f1c9453b44@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ершова Н.Н.\nМесто: корп. 15\, ауд. 211
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Психология профессиональной коммуникации (Лекция)
+UID:80c9b78aaf2c70335d35d605b0575088@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Микрюкова М.Г.\nМесто: корп. 19\, ауд. 304
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 304
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: гимнастика (Практическое занятие)
+UID:3c75d543fb395436e259e14bb95d738b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 159
+DTEND:20261111T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261111T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Практическое занятие)
+UID:65811e6d1ea93e7b57d0fd7978f3abb3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Микрюкова М.Г.\nМесто: корп. 19\, ауд. 304
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 304
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: гимнастика (Практическое занятие)
+UID:e569be2c7c1c98ff11d781674e34dd1e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 001
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 001
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Практическое занятие)
+UID:f98be55e6765cd5a9599f1d6fc0c5ed2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подковырин В.Д.\nМесто: корп. 19\, ауд. 301
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 301
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: легкая атлетика (Практическое занятие)
+UID:b5fc0209308e137a7f675b32947e03f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Микрюкова М.Г.\nМесто: корп. 19\, ауд. 304
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 304
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: гимнастика (Практическое занятие)
+UID:55fbb3ce6f4db1bbba48ff7f4085c842@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Суворов Г.В.\nМесто: корп. 15\, ауд. 211
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Лекция)
+UID:9ffb89ce5a1785d2387c159995e8c2bc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 19\, ауд. 217
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 217
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:2505663f13476ace5c9a176eaa1f12fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Суворов Г.В.\nМесто: корп. 15\, ауд. 211
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Лекция)
+UID:01e5239dc125a8d3c8fc58dc9842be2b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ершова Н.Н.\nМесто: корп. 19\, ауд. 260
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Психология профессиональной коммуникации (Практическое занятие)
+UID:8f2f59d3667a62d8e7fca5e6224680b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Микрюкова М.Г.\nМесто: корп. 19\, ауд. 304
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 304
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:17ea4e60695073ab6d6679a6a9d04e8f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подковырин В.Д.\nМесто: корп. 19\, ауд. 301
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 301
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: легкая атлетика (Практическое занятие)
+UID:785ca603ccc011dd7bc9f61b680307f6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ершова Н.Н.\nМесто: корп. 15\, ауд. 311
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 15\, ауд. 311
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Психология профессиональной коммуникации (Лекция)
+UID:67e07fb551f63737a21323d4d07c9b45@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 159
+DTEND:20261118T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261118T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Практическое занятие)
+UID:d05ca24db6f305974db427244baaf67c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суворов Г.В.\nМесто: корп. 19\, ауд. 217
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 217
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Практическое занятие)
+UID:324c52732526aaa80016b47b65fcf4dc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 001
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 001
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Практическое занятие)
+UID:d59c6a14f2263953fdd486572e18cf55@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Микрюкова М.Г.\nМесто: корп. 19\, ауд. 304
+DTEND:20261116T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 304
+DTSTART:20261116T052000Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: гимнастика (Практическое занятие)
+UID:aaf087d36cba0c4b113a7189189aea15@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попереков В.С.\nМесто: корп. 19\, ауд. 259
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика физической культуры и спорта (Практическое занятие)
+UID:236e22ab943971e5996994b0b1a8d736@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ершова Н.Н.\nМесто: корп. 19\, ауд. 260
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Психология профессиональной коммуникации (Практическое занятие)
+UID:7998022f7d44b4d93a97f1c6aa64d7ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 215
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 215
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Лекция)
+UID:0afaeafad20acdb5504874fe4a9a064e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 19\, ауд. 217
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 217
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:7a2cc789d48f1aca1594c62660f90114@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Микрюкова М.Г.\nМесто: корп. 19\, ауд. 219
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 219
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: гимнастика (Лекция)
+UID:0943d9322458f5e96dcb5bc34f005be0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Суворов Г.В.\nМесто: корп. 15\, ауд. 311
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 15\, ауд. 311
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Лекция)
+UID:b08660b6218c331e7657eaefa2c31b39@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волкова Г.А.\nМесто: корп. 19\, ауд. 260
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:c00c808a56027d0b91987883858a54af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 215
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 215
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Лекция)
+UID:d2a13d84d4e1e7ab760bb10dbc4ee0da@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Микрюкова М.Г.\nМесто: корп. 19\, ауд. 304
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 304
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:d5375c58618a528cbd153ba08d3a2891@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 19\, ауд. 217
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 217
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:5f8fc806a5f28858428ba9aa352e1d0f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 001
+DTEND:20261114T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 001
+DTSTART:20261114T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии физкультурно-спортивной деятельности в адаптивной физической культуре (Практическое занятие)
+UID:9f8b3aa85b9ce7976fa1f7132e3abf70@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Суворов Г.В.\nМесто: корп. 15\, ауд. 311
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 15\, ауд. 311
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Лекция)
+UID:fb9f883f93a6ff4827549315e17842a2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Микрюкова М.Г.\nМесто: корп. 19\, ауд. 304
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 304
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: гимнастика (Практическое занятие)
+UID:f323b02e7382b2ec21c5238d289132c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Подковырин В.Д.\nМесто: корп. 19\, ауд. 215
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 215
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: легкая атлетика (Лекция)
+UID:244f7d002a6d22b22e9e58396a11a1fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подковырин В.Д.\nМесто: корп. 19\, ауд. 301
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 301
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: легкая атлетика (Практическое занятие)
+UID:b5396ddae5fedde462803765ddcdf278@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Микрюкова М.Г.\nМесто: корп. 19\, ауд. 304
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 304
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Базовые виды двигательной деятельности и методики обучения: гимнастика (Практическое занятие)
+UID:f59a69b8d112e7418ae823c7a505a5bc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суворов Г.В.\nМесто: корп. 19\, ауд. 217
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 217
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Практическое занятие)
+UID:b962a5da3fe2e0f34c84247a32017460@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,428 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ХМб-1501
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 263
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы биологии (Лабораторная работа)
+UID:5857ff4a79f3b381797a731230c59bb6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Товстик Е.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 407
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 407
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы химии (Лабораторная работа)
+UID:ed3f4fe3a2a9f9cedc224fc8475c32cc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ворончихин С.Г.\nМесто: корп. 15\, ауд. 343
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 343
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лекция)
+UID:a88e0f35d46a35cf592450dc8500f8d1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:04dad257ca70bfffd4806693c30400e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 263
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы биологии (Лабораторная работа)
+UID:06db7fab1ec176c006cb1181612d4709@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сазанов А.В.\nМесто: корп. 15\, ауд. 311
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 311
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:a113a9a4fb984dd4ddc1ada808f7b781@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рябов В.М.\nМесто: корп. 15\, ауд. 263
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы биологии (Практическое занятие)
+UID:ca37ff87c5b6cbf5a1a8c374a281c6c0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Конышева А.В.\nМесто: корп. 15\, ауд. 343
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 343
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:83096b5bd8b537653f9bf03dc7d65d55@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Елькин О.В.\nМесто: корп. 15\, ауд. 343
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 343
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами и работа в команде (Лекция)
+UID:211b8d155af1414e4010cf7c2964dcb1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Товстик Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 407
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 407
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы химии (Лабораторная работа)
+UID:17712551f45c2a14ea881cb3ce799fd3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ворончихин С.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 238
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 238
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лабораторная работа)
+UID:09209068ce9a06261728af721a67cd93@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суслопарова М.М.\nМесто: корп. 15\, ауд. 310
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 310
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:6414ef8f9be0a8da4190b6b4e53596bf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Жуйкова И.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы географии (Практическое занятие)
+UID:be0f71cdd55a381c0174ca8bb05c88cd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сазанов А.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:dd0f96b14a686152d206089869f40c62@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сазанов А.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:4d4280d0e9a549535b1d61c9e6f370d0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Елькин О.В.\nМесто: корп. 15\, ауд. 343
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 343
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами и работа в команде (Лекция)
+UID:73a35b28d99bd6334f3993564e41c6a9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трушкова Е.Л.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 102
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 102
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:028f96bfad6201457b80fc961f814f3f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Конышева А.В.\nМесто: корп. 15\, ауд. 309
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:804e91b1262fc7fbd9a0de46ebe4a32f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябова Е.В.\nМесто: корп. 15\, ауд. 343
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 343
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы биологии (Лекция)
+UID:e5486c15833553ce85c55127ee4c0336@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ворончихин С.Г.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 238
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 238
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лабораторная работа)
+UID:57875b3caecc5b8180b4d8e9012ec851@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Конышева А.В.\nМесто: корп. 15\, ауд. 311
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 311
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:3be91ae09592d2e4e42c10385285066b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Жуйкова И.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы географии (Практическое занятие)
+UID:53cd24eb1c4843d8da762e2d62c89952@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 263
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы биологии (Лабораторная работа)
+UID:25ab794876bac872307f7f2a33841f5d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Товстик Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 407
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 407
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы химии (Лабораторная работа)
+UID:b91c6c6e9a3132fcb570a964bd2fb879@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:2dc387d8f95861df0532a8305723684c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суслопарова М.М.\nМесто: корп. 15\, ауд. 264
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 264
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:3556be40c95005aa06e8f384495f49ce@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трушкова Е.Л.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 102
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 102
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:6a0e51684fc3697d0394d1d2b5206c4f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суслопарова М.М.\nМесто: корп. 15\, ауд. 264
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 264
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:fc7b1d38cc1ad41bdd7d44b6112b6f32@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зайцев М.А.\nМесто: корп. 15\, ауд. 343
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 343
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы химии (Лекция)
+UID:8ac466fb05e985278c46d4f56bd6c2d2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Товстик Е.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 407
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 407
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы химии (Лабораторная работа)
+UID:04689ac0b542f53a2811d0d5d42be068@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Конышева А.В.\nМесто: корп. 15\, ауд. 332
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:8490fe14e11db33cdac9495ee4731ea2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Товстик Е.В.\nМесто: корп. 15\, ауд. 310
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 310
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы химии (Практическое занятие)
+UID:b8d8fe138f85a231b492735f40749685@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Крестьянинова О.В.\nПодгруппа: 3\nМесто: корп. 14\, ауд. 115
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:84b06fca430371c369644604b515a6b5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пупышева С.А.\nМесто: корп. 15\, ауд. 343
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 343
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы географии (Лекция)
+UID:1978c4fa524c5ab119e8812bce2bc60c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ворончихин С.Г.\nМесто: корп. 15\, ауд. 434
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 434
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Практическое занятие)
+UID:436943a65b8b5c5c81d4e723482f6913@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябова Е.В.\nМесто: корп. 15\, ауд. 343
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 343
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы биологии (Лекция)
+UID:fc8221eb4f46d8cb8214cf451021b61c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Крестьянинова О.В.\nПодгруппа: 3\nМесто: корп. 14\, ауд. 115
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:d45129264f592935606999788a1ebde9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 263
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы биологии (Лабораторная работа)
+UID:ee386cd34c2e43f6d4d6718bc43aae54@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

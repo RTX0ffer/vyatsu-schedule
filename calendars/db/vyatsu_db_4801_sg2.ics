@@ -1,0 +1,1055 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ Дб-4801 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:f4f2f2cec76e07a15d2c3bc6bba4f915@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:503917fbceb2f29b98e611be4e1b0467@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:8969df413bd028c151c111b7a647f31e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:f51f84d628b4810e6241d33d120ac528@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:da35124d03d512937632bf0f3888e302@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:211a3eb824c5da39768288e10e6d7587@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапин Е.В.\nМесто: корп. 17\, ауд. 266
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 266
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы производственного мастерства (Практическое занятие)
+UID:27878492a6f09b6da2d2649a74618853@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:9195973119cd8944b409c015d731752c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:9ae91c6a1b12cccd4e6aa2895c156bdb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Николаев А.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование предметно-пространственной среды (Практическое занятие)
+UID:a556ec3f94440e0e5d588dd33c1bb341@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ануфриев Д.С.\nМесто: корп. 6\, ауд. 403
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Разработка VR/AR приложений для мобильных устройств (Практическое занятие)
+UID:2fc0b881f53a9ef5ff923a64f8599d04@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261121T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261121T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:47dd2d8e2833ab6c2c8c737bcfa2607c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:eb14fcc755e6a8edf57f81f126262c52@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Николаев А.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261112T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261112T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование предметно-пространственной среды (Практическое занятие)
+UID:c5160859d630d87a5067274aec804f21@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 6\, ауд. 306
+DTEND:20261110T172500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 306
+DTSTART:20261110T155500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:62459d74ba1c9f98fc229f2cd86e8879@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:a234eb3fec79eb62b9747ada49465889@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Николаев А.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование предметно-пространственной среды (Практическое занятие)
+UID:8df4e811469ed52b2c4e45e1c526622a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Макушев В.Ю.\nМесто: корп. 6\, ауд. 403
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Разработка приложений виртуальной\, дополненной и смешанной реальности (Практическое занятие)
+UID:e244113cf1dff3bab3df338fda5e6632@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Крысова В.А.\nМесто: корп. 17\, ауд. 352
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 352
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методика преподавания творческих дисциплин (Практическое занятие)
+UID:f10f8f712419b1c3a8ad3c7b5ff80934@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:f19f88ac05b4323c15feab84da7e130b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:ff9b285bdffdac158384639861846e5e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ануфриев Д.С.\nМесто: корп. 6\, ауд. 403
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Разработка VR/AR приложений для мобильных устройств (Практическое занятие)
+UID:2fd3653eb801cdf9acae0712322a7a49@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапин Е.В.\nМесто: корп. 17\, ауд. 266
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 266
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы производственного мастерства (Практическое занятие)
+UID:d30c25eb65a5d7ef94a755fa72767f0a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:284a6adc687f53e9a700e6572b7a640a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Крысова В.А.\nМесто: корп. 17\, ауд. 352
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 352
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методика преподавания творческих дисциплин (Практическое занятие)
+UID:e520aa2c69d493ee06eb56dbd584d571@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Макушев В.Ю.\nМесто: корп. 6\, ауд. 403
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Разработка приложений виртуальной\, дополненной и смешанной реальности (Практическое занятие)
+UID:e06da7ca28ebd8fb88ed6b99b8844988@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:203810327e04007c1654d01a4215565a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:d312b671b1815adb3fe4f9be78a3f851@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:2e0fe798edb9c46c315ba89e1d37aecb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:3fed757508a1e818caf277a9e22867fe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:b892042540877e131f3170bb96160959@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Макушев В.Ю.\nМесто: корп. 6\, ауд. 403
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Разработка приложений виртуальной\, дополненной и смешанной реальности (Практическое занятие)
+UID:3074c77aca43c280114108069e5a9ff4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261121T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261121T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:a60e0dae61b790ccf415124a9025ebc0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:e945fa0d8daa5442b1322735109b3a44@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:f1e80eb7f8d9459ed4b50f2f17f51bc4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:1f45c725efd2bae30ac4b026570071a0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапин Е.В.\nМесто: корп. 17\, ауд. 266
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 266
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы производственного мастерства (Практическое занятие)
+UID:1d813c995d2fe925b5901d6d99d1cb0e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261116T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261116T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:12a243d1ecc784c4e2b8c0b35204cab5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ануфриев Д.С.\nМесто: корп. 6\, ауд. 403
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Разработка VR/AR приложений для мобильных устройств (Практическое занятие)
+UID:36de60ab1ae22eec18d6796778660b10@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:1e425fb53831f87cc67b66e131bc73ea@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапин Е.В.\nМесто: корп. 17\, ауд. 266
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 266
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы производственного мастерства (Практическое занятие)
+UID:3865c3b24c868fcc7be24560adfca62d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ануфриев Д.С.\nМесто: корп. 6\, ауд. 403
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Разработка VR/AR приложений для мобильных устройств (Практическое занятие)
+UID:ed99bd6638ce824fac1fb76828857e0f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:46561b5925620a7f51c3b96483cb81bd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:5ae4a830d05ada4bc9714a419ebb990d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:0438820f5a4862db1d5c13fa5dfaa787@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:15cc7ba46f88c60b607f754ab16c45c0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:320e975378d6f793607c771f6dd05db0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапин Е.В.\nМесто: корп. 17\, ауд. 266
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 266
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы производственного мастерства (Практическое занятие)
+UID:6a2748b71cc3b84d70457fefb34b70fd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:50f4e000de23305485383e32e2e99475@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:4d0fbd8c3c152e83effacf5d87d4d347@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Макушев В.Ю.\nМесто: корп. 6\, ауд. 403
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Разработка приложений виртуальной\, дополненной и смешанной реальности (Практическое занятие)
+UID:f06c16acbc5e89fe3241382cdf9f5586@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 6\, ауд. 306
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 306
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:4d1dba9008aa47470e2d267764fa3f97@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Крысова В.А.\nМесто: корп. 17\, ауд. 352
+DTEND:20261118T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 352
+DTSTART:20261118T052000Z
+STATUS:CONFIRMED
+SUMMARY:Методика преподавания творческих дисциплин (Практическое занятие)
+UID:92efc7f3e45c311be205018136cea5ee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:c7afc74966d2c67a2aeab86fce42d4c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ануфриев Д.С.\nМесто: корп. 6\, ауд. 403
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Разработка VR/AR приложений для мобильных устройств (Практическое занятие)
+UID:13b83241dfe696a0452b7522a7a646b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:eeb6177ee2785b3af942b9c8142ea873@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261121T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261121T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:d54a3a03c8e608412be89f7e55b26bb9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261121T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261121T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:46c1deb631e53f84a436a4528f9b7a61@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:5298b949b2b4d3b8d9893cddfbd667ea@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:480f6a261a0162f7391138431f859942@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:75dce2d8f462536904e9853af1780e0d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:590f34c8dade1b3a56f5d13f35341b61@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:83653866c4acefd658725852ead4116b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ануфриев Д.С.\nМесто: корп. 6\, ауд. 403
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Разработка VR/AR приложений для мобильных устройств (Практическое занятие)
+UID:67fe7f991c5a0ef0c6e546c7b6eb7580@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 6\, ауд. 306
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 306
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:421fe48fc0b23db3d2640c4ab4f6bdca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Макушев В.Ю.\nМесто: корп. 6\, ауд. 403
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Разработка приложений виртуальной\, дополненной и смешанной реальности (Практическое занятие)
+UID:f1816154d9b5fdf70ae9b26679541dd0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:abbae033ababd53c341adacb12fa281d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапин Е.В.\nМесто: корп. 17\, ауд. 266
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 266
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы производственного мастерства (Практическое занятие)
+UID:020a87ece1fc18c831e8814a2bd20b46@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:cf813d0387a480ca148c7d119fb31ac8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:6578cabc16d26d118073fad7d4fcfee7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Крысова В.А.\nМесто: корп. 17\, ауд. 351
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методика преподавания творческих дисциплин (Лекция)
+UID:277a0d532e98de850596d4f99c95ce0a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:6a7c655aa8783fe677fcb781c558cdc1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:f432bf17f4c066a115b138a98db6acf0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ануфриев Д.С.\nМесто: корп. 6\, ауд. 403
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Разработка VR/AR приложений для мобильных устройств (Практическое занятие)
+UID:eb99c7daa3c36ea8eee91d059df2fce5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Николаев А.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование предметно-пространственной среды (Практическое занятие)
+UID:7c9b29e733c50eaee43fa7e35b9c23d6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Макушев В.Ю.\nМесто: корп. 6\, ауд. 403
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Разработка приложений виртуальной\, дополненной и смешанной реальности (Практическое занятие)
+UID:7f2fe38c5da4087aa42fe3a272eabbe4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261121T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261121T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:4ec3c2779e2161543de3d99fa979e781@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261109T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261109T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:b59c61bcac52c0249369bc788f564c92@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:e7900f701b2397e761c71e3cf9af9e5e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Николаев А.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование предметно-пространственной среды (Практическое занятие)
+UID:0bbbfa34457d61484d70e9f4649e23a7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:0b09b402a8f971db25bbaedc5c085fb6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:78f53977c741de672db11321864efad3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 6\, ауд. 306
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 306
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:2fc797f72293cac9f1df04203941daa1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:928274ed17500fd8dc91f36095ed6965@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:5946c4994ddd464d904f6fb7405b10c5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261114T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261114T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:77f955c6a69a7b40a8f53906ba29b5a9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:35dbb529e154be23cbd6ad494d415213@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:69b50c6928b9f0fb5fb98809a2aa24b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Крысова В.А.\nМесто: корп. 17\, ауд. 351
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методика преподавания творческих дисциплин (Лекция)
+UID:f6ec8fd94275c04c6174792deaba020d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261114T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261114T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:0da09b35c3dac2be2dd69cf44113e5ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Николаев А.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование предметно-пространственной среды (Практическое занятие)
+UID:4b4f436b68be35ee598e14ec61436720@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:57612c19d259e537ffb95003058d2366@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:4e2605396d1b89bfe101ed7978375dfe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 17\, ауд. 269
+DTEND:20261114T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 269
+DTSTART:20261114T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, проектно-технологическая практика (Практика)
+UID:23a2a8249557f24754f9208915d0eff5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ануфриев Д.С.\nМесто: корп. 6\, ауд. 403
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Разработка VR/AR приложений для мобильных устройств (Практическое занятие)
+UID:3ca56d05ae86b27b3412f9d387f0ad43@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

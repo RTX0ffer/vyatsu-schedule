@@ -1,0 +1,835 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ЛДб-3501
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 263
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биология лесных зверей и птиц (Лабораторная работа)
+UID:dbcf1eb110ccdb11a0b5b1a6a0fbf377@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябов В.М.\nМесто: корп. 15\, ауд. 267
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лесоведение (Лекция)
+UID:ac36b9d27e0a412e88ac76cf37f6c4be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 261
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 261
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:ГИС в лесном деле (Практическое занятие)
+UID:f4491e645a9e1bfac4952bb50cbf40ce@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 261
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 261
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:ГИС в лесном деле (Практическое занятие)
+UID:0b4f7b0ebc0a634cdf72b951d1930ebd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 261
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 261
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:ГИС в лесном деле (Лекция)
+UID:a22782e980aa7cacb28dfaebc7b34f71@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябов В.М.\nМесто: корп. 15\, ауд. 267
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лесоведение (Лекция)
+UID:305ccb9dee6bfc161d001c6b9f4cc207@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Фалалеев А.В.\nМесто: корп. 1\, ауд. 222
+DTEND:20261111T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 222
+DTSTART:20261111T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:42041efa4b3e73558c989fc177a34df4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Березин Г.И.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 268
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области лесного дела (Лабораторная работа)
+UID:179b71ca14a810114262a30bfced635f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябова Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 268
+DTEND:20261121T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261121T110000Z
+STATUS:CONFIRMED
+SUMMARY:Систематика растений (Лабораторная работа)
+UID:22083c2512d1722e952ddfff63104fc6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 263
+DTEND:20261121T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261121T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лесоведение (Лабораторная работа)
+UID:2eecd2b49d0394f024d27fa756804d83@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:ГИС в лесном деле (Лекция)
+UID:8ae906e515ca65bb2f433a8f9512d032@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:265ef0078acd37bdbb2232aacc4e4c77@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 15\, ауд. 211
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:b9d5a77fd6347ad43e87755209b388b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:72cfe2bb35a0dc84358b9be90af40b1b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябова Е.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261031T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261031T142000Z
+STATUS:CONFIRMED
+SUMMARY:Систематика растений (Лекция)
+UID:b0bd873831bcb70589b80d3b639eae45@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соймонов И.А.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 209
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 209
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:f4f84df2d2e684739fd576621fba924c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалов А.В.\nМесто: корп. 15\, ауд. 430
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:da6b59f9f617edd0318cdc7736ae6b24@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 261
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 261
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:ГИС в лесном деле (Практическое занятие)
+UID:4d878ccb4e33617c87f8ef456954467e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябова Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 268
+DTEND:20261121T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261121T124500Z
+STATUS:CONFIRMED
+SUMMARY:Систематика растений (Лабораторная работа)
+UID:c39a0ca51761ee31a713023a8001b57f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Березин Г.И.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 268
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области лесного дела (Лабораторная работа)
+UID:458b926e9d5a2e50ab82db9be080f8a0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 15\, ауд. 211
+DTEND:20261119T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261119T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:c2da6028780cf5c2bf6601ae48191a79@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соймонов И.А.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 209
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 209
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:86ae39ccad61de91f0fa20508ee6bcbd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 263
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Биология лесных зверей и птиц (Лабораторная работа)
+UID:2b0069bc8875cdca2871b8bff68e1e23@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 15\, ауд. 211
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:949fa88b69b343a6682e2ce36bd38d6b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Фалалеев А.В.\nМесто: корп. 1\, ауд. 222
+DTEND:20261111T172500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 222
+DTSTART:20261111T155500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:7a70ac27970fc39c9f30678222498bd4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябова Е.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261031T172500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261031T155500Z
+STATUS:CONFIRMED
+SUMMARY:Систематика растений (Лекция)
+UID:9c937568332bd88ca5edfcd235d004dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Березин Г.И.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 268
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области лесного дела (Лабораторная работа)
+UID:a97d12bc54fee5cae26498ad18215f1a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 261
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 261
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:ГИС в лесном деле (Практическое занятие)
+UID:aea9a8351ea99c0078fa0b0f6dc7fb46@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Березин Г.И.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 268
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области лесного дела (Лабораторная работа)
+UID:577c51ea95053b2efb7e2961a497e0f9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261112T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261112T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:e10377d6a356d38c86413c632a8bbf3c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Березин Г.И.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 268
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области лесного дела (Лабораторная работа)
+UID:2f9bdeb11026a04c847eeebd5dc87c23@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:ГИС в лесном деле (Лекция)
+UID:e64974e4834516260f5afa3d6e374c41@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябова Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 268
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Систематика растений (Лабораторная работа)
+UID:58f470593fa6da085de81709a32ac3a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 263
+DTEND:20261121T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261121T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лесоведение (Лабораторная работа)
+UID:9988c302833868ebdc24dba056cf630a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябова Е.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 268
+DTEND:20261121T172500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261121T155500Z
+STATUS:CONFIRMED
+SUMMARY:Систематика растений (Лабораторная работа)
+UID:0401a1067eb9dd051d1ce0bd9fbadf3a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалов А.В.\nМесто: корп. 15\, ауд. 430
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:240efdf14547f0d137edf415f592c9fc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 115
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:86a4e488aececcb21d0b9a5488773f5e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 115
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:ffa7f15a47bfd0fc677998de62f328d6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябова Е.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 268
+DTEND:20261121T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261121T142000Z
+STATUS:CONFIRMED
+SUMMARY:Систематика растений (Лабораторная работа)
+UID:ce673290f21e507bf50a3879c6ac14a2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Березин Г.И.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 268
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области лесного дела (Лабораторная работа)
+UID:ce7ed85d620b844c1773a97bf8fe973d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябова Е.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261114T172500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261114T155500Z
+STATUS:CONFIRMED
+SUMMARY:Систематика растений (Лекция)
+UID:fca7e8177188a1ffbb31a742c9548359@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 263
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лесоведение (Лабораторная работа)
+UID:982da017660d96c92980e239b186f8cf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 261
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 261
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:ГИС в лесном деле (Практическое занятие)
+UID:85ed70c1a5ca7b5f18bc48001b8519fb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябова Е.В.\nМесто: корп. 15\, ауд. 267
+DTEND:20261114T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261114T142000Z
+STATUS:CONFIRMED
+SUMMARY:Систематика растений (Лекция)
+UID:dd8c0a7fcd9718a095390ce0102df3c7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 263
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биология лесных зверей и птиц (Лабораторная работа)
+UID:63c693505fff693cf9ce0e8f162c7c38@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 263
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Биология лесных зверей и птиц (Лабораторная работа)
+UID:265915d5722fd10dc9e1b5e9001e6f64@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябова Е.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 268
+DTEND:20261107T172500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261107T155500Z
+STATUS:CONFIRMED
+SUMMARY:Систематика растений (Лабораторная работа)
+UID:6a204f3a60a6c46bba53ec2767b42843@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Березин Г.И.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 268
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области лесного дела (Лабораторная работа)
+UID:d63dec1845b4e484ea59199a30c8684b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 15\, ауд. 211
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:9cb072bff1097a10c13c70654a02bac5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 261
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 261
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:ГИС в лесном деле (Практическое занятие)
+UID:e288518e70587c69b3d27d96c4449421@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 261
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 261
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:ГИС в лесном деле (Практическое занятие)
+UID:2d4cdb30a3ed7e13a5608ba03ddbc31d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 115
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:10bddc1cdd5f45ece69e9860919cfaea@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 263
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биология лесных зверей и птиц (Лабораторная работа)
+UID:7e1ab76a0d5f1f0dc269b5772e99cf2d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Березин Г.И.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 268
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области лесного дела (Лабораторная работа)
+UID:51f5384c8e0c88e98a1d39aa01923768@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 263
+DTEND:20261118T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261118T052000Z
+STATUS:CONFIRMED
+SUMMARY:Лесоведение (Лабораторная работа)
+UID:28fc9a621830bc406c003b02d46e7b31@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 263
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лесоведение (Лабораторная работа)
+UID:97c204ba2cf93e1a0811e0b8062754a6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соймонов И.А.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 209
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 209
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:ffea5df68c6de098b0047e9140189637@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябов В.М.\nМесто: корп. 15\, ауд. 264
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 264
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биология лесных зверей и птиц (Лекция)
+UID:857a06a0bb1f88f609b88b732437fe70@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябов В.М.\nМесто: корп. 15\, ауд. 264
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 264
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биология лесных зверей и птиц (Лекция)
+UID:5292ab94c97152a529d2cc9d72e8a1d0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 115
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:caaaff9fb34a8f646345b392241f62ee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябов В.М.\nМесто: корп. 15\, ауд. 267
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лесоведение (Лекция)
+UID:fb291a9a72855505e45e272bab269c10@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 263
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лесоведение (Лабораторная работа)
+UID:35659ab77034abd9d0193e6fb6266f33@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 261
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 261
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:ГИС в лесном деле (Практическое занятие)
+UID:e7182f51ad46dcadf26ba09f553a5351@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пестов С.В.\nМесто: корп. 15\, ауд. 261
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 261
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:ГИС в лесном деле (Лекция)
+UID:be2942b92964a8e53b29a31736bc5ec5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 263
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биология лесных зверей и птиц (Лабораторная работа)
+UID:f1762b5c59fac6ff76d567b96f5ce58e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Фалалеев А.В.\nМесто: корп. 1\, ауд. 222
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 222
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:9d4d3cdcec322ec986fad1bb80dbaea5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соймонов И.А.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 209
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 209
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:2f563e1ad2b2d7a9dcbf4a42b5a1dfd1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 263
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Биология лесных зверей и птиц (Лабораторная работа)
+UID:24f9e0217342d0c3de571b11c8830f44@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябов В.М.\nМесто: корп. 15\, ауд. 267
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биология лесных зверей и птиц (Лекция)
+UID:b4dab8c68d3588a1088620e3941313d5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Фалалеев А.В.\nМесто: корп. 1\, ауд. 222
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 222
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:eb3bccbf9f532a3ab209616521f0b634@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябова Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 268
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Систематика растений (Лабораторная работа)
+UID:d4bbc41a9b2d28bcd76891cbce84e31d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:d7e6452e15f1507edb013b62b2b381d6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябов В.М.\nМесто: корп. 15\, ауд. 267
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 267
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биология лесных зверей и птиц (Лекция)
+UID:b01c9f3e697fb5979db9f4174c2d34ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябов В.М.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 263
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 263
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Биология лесных зверей и птиц (Лабораторная работа)
+UID:a7cf86825fe1e077b955d30c9cb8654c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Рябова Е.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 268
+DTEND:20261107T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 268
+DTSTART:20261107T142000Z
+STATUS:CONFIRMED
+SUMMARY:Систематика растений (Лабораторная работа)
+UID:c6c0723d61ee274f8fcb9e6fff2b1b05@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

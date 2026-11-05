@@ -1,0 +1,281 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ХМб-4501 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соловьёва Е.С.
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области химии (Лабораторная работа)
+UID:5168927a8b903ee15ff9ee0a8e394c95@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Фокина А.И.\nМесто: корп. 15\, ауд. 421
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 421
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Метрология\, стандартизация и сертификация в анализе лекарственных средств (Лекция)
+UID:33fcdbaeccf0b72b89deac9b18f5f03e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зайцев М.А.\nМесто: корп. 15\, ауд. 423
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 423
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Коллоидная химия (Лекция)
+UID:c200f758bdc0e676de9c74c5886cc567@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Зайцев М.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 421
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 421
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Кристаллохимия (Лабораторная работа)
+UID:808d8e4614b2d32d006c01b088fae6fd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соловьёва Е.С.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 405
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 405
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Фармацевтическая технология (Лабораторная работа)
+UID:777a5e4cda751eed89e17623d363960b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Зайцев М.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 331
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 331
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коллоидная химия (Лабораторная работа)
+UID:d2ef33013cdf9b3dfc64798485fedeea@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Береснева Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 423
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 423
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения химии (Лабораторная работа)
+UID:0340b7a79b2d028d4f4caeab10db23b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 418
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Хроматографические методы анализа (Лабораторная работа)
+UID:2827b0d3da91131c8b96c9784c36fdfa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соловьёва Е.С.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 405
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 405
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Фармацевтическая технология (Лабораторная работа)
+UID:4273fdcce9190212ff13643dd1b57b2c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соловьёва Е.С.
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области химии (Лабораторная работа)
+UID:d38e0df837d3ca1845ce284112535f50@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Соловьёва Е.С.\nМесто: корп. 15\, ауд. 421
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 421
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Фармацевтическая технология (Лекция)
+UID:20b76f2b2208efe29b028424ec3ca740@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 418
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Хроматографические методы анализа (Лабораторная работа)
+UID:e2cd97a2002ad1d9f2acd1c094a6c7ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соловьёва Е.С.
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области химии (Лабораторная работа)
+UID:3c0d20dbc81e1c43f8193806bf78ebe9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фокина А.И.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 403
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 403
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Метрология\, стандартизация и сертификация в анализе лекарственных средств (Лабораторная работа)
+UID:9b4cb0e87d4c084694c8af4625e3f039@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Соловьёва Е.С.\nМесто: корп. 15\, ауд. 343
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 343
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Фармацевтическая технология (Лекция)
+UID:023642af11a82be99b888c8f0ab8aec1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:3b5597241a5d7381f2d7f659fe9f077f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соловьёва Е.С.
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области химии (Лабораторная работа)
+UID:d09c68db1e7500e8dd504815081456d0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Зайцев М.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 331
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 331
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Коллоидная химия (Лабораторная работа)
+UID:2db84201b29a1fc2d70683c9beb5ef5a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фокина А.И.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 403
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 403
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Метрология\, стандартизация и сертификация в анализе лекарственных средств (Лабораторная работа)
+UID:0323cb84ab65ace68df9e97d609d7fe5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Береснева Е.В.\nМесто: корп. 15\, ауд. 423
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 423
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения химии (Лекция)
+UID:79935898383de8bc88a74da6993be8ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Зайцев М.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 421
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 421
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Кристаллохимия (Лабораторная работа)
+UID:7a02003c6b609840d8ecf85ce4b3bdfb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зайцев М.А.\nМесто: корп. 15\, ауд. 423
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 423
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Кристаллохимия (Лекция)
+UID:a5454cbafaeba5c1220e43f5302cb1ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Береснева Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 423
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 423
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения химии (Лабораторная работа)
+UID:e287924fe4e91ee84d8f2d271b6b2518@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:7c7f8728d01b45facfebd83e47e77a62@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Береснева Е.В.\nМесто: корп. 15\, ауд. 423
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 423
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения химии (Лекция)
+UID:cc5c87d59c6282e8b7df7220fe99d421@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,538 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ БИб-4601
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 16\, ауд. 210
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:SMM реклама (Практическое занятие)
+UID:4b92f87edd6a6a36270457bcb3b50bfe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 210
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Веб дизайн и программирование (Лабораторная работа)
+UID:6eca9254f880a28ed06c0efac54c759a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 212
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура предприятия (Лекция)
+UID:90d150c5798c621b540f1300b59b42d4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Управление жизненным циклом информационных систем (Лекция)
+UID:07a17f13b0b0a45b83a20ff458a65387@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 311
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Веб дизайн и программирование (Лекция)
+UID:395370db490836d679b0c20d05f883e1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Деветьярова И.П.\nМесто: корп. 14\, ауд. 335
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы предпринимательства (Практическое занятие)
+UID:900d5ba712bdf9242d64d0c93db86ad8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 210
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Веб дизайн и программирование (Лабораторная работа)
+UID:535453ae7632c84f14dfc6bb6905394d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 210
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Управление жизненным циклом информационных систем (Практическое занятие)
+UID:00e81cd680226836ee783dcb934c3563@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 202
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура предприятия (Практическое занятие)
+UID:cb72bf7bc253ff76cfc869f5935f6046@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Агапитова Е.А.\nМесто: корп. 16\, ауд. 210
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технико-экономическое обоснование IT-проектов (Практическое занятие)
+UID:a03eb82a9e0bf0685e36308253093078@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 16\, ауд. 210
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:SMM реклама (Практическое занятие)
+UID:a7ba435f89209df61969a2ae4e2ac361@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 210
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Бизнес модели предприятия (Практическое занятие)
+UID:89e36de29f86ccc896493b5be5e8865a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 310
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 310
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Бизнес модели предприятия (Лекция)
+UID:2cb08118a31c0434fb0f5e74fac35e4d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 210
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Веб дизайн и программирование (Лабораторная работа)
+UID:fd71c5fd370710894eb87ca492ddb176@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 210
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Планирование и организация производственных процессов (MES) (Практическое занятие)
+UID:5320c428c5100e13ef5a949ca91e584b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 212
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Планирование и организация производственных процессов (MES) (Лекция)
+UID:2a200406b5c244cbc3151b7a6a9b5b6e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 202
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура предприятия (Практическое занятие)
+UID:29c3184c4455c7b6d1bca061b05592a7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 302
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 302
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по прикладным программным решениям (Лабораторная работа)
+UID:d499ef96a160cfdc0a399f68542d163f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Управление жизненным циклом информационных систем (Лекция)
+UID:7a0d2df7e01077e6e6ea9648ed8a49ab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 210
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Веб дизайн и программирование (Лабораторная работа)
+UID:d7d913b9050415c0f1ad023147d75d81@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 212
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура предприятия (Лекция)
+UID:87d4d4b5e7dd2bbe5c8a41fe8ef5f6bd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 212
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура предприятия (Лекция)
+UID:78e9c1b96ceec6b38d9a05f2c821d5ce@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Деветьярова И.П.\nМесто: корп. 14\, ауд. 332
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 332
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы предпринимательства (Лекция)
+UID:5080eb9f78688451410c6e25122cfbfb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 210
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Веб дизайн и программирование (Практическое занятие)
+UID:71e60e869c5314ece326d7a247580704@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Агапитова Е.А.\nМесто: корп. 16\, ауд. 212
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технико-экономическое обоснование IT-проектов (Лекция)
+UID:70bb803bdf1fa616e088f3dcb3f50446@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 311
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Веб дизайн и программирование (Лекция)
+UID:58f6ed7ef4ed88ae91c778effde65e22@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Агапитова Е.А.\nМесто: корп. 16\, ауд. 212
+DTEND:20261109T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261109T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технико-экономическое обоснование IT-проектов (Лекция)
+UID:efc4dd2611f915c7f29dc79058d89870@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 212
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура предприятия (Лекция)
+UID:1f69e89fea5082e3402e89968a5e68b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 210
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Планирование и организация производственных процессов (MES) (Практическое занятие)
+UID:ff8137c6a0df8bb4f7a85d0832fa6153@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 212
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Планирование и организация производственных процессов (MES) (Лекция)
+UID:221ee2347bf0068ea40671e2da38a4ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 16\, ауд. 300
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:SMM реклама (Лекция)
+UID:f8aa9560ca21870de419f2b733fb2995@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 16\, ауд. 300
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:SMM реклама (Лекция)
+UID:a786305d7a4be91fc21b2459c580c3d7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 302
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 302
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по прикладным программным решениям (Лабораторная работа)
+UID:11111ba08495e5066c1570fcd8b06de4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 210
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Веб дизайн и программирование (Практическое занятие)
+UID:cad2d7c7ca2cdb3db0d7ef911485d0c7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Агапитова Е.А.\nМесто: корп. 16\, ауд. 210
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технико-экономическое обоснование IT-проектов (Практическое занятие)
+UID:44d5923ee220b81c41334b1eef36a18f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Деветьярова И.П.\nМесто: корп. 14\, ауд. 131
+DTEND:20261111T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261111T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы предпринимательства (Практическое занятие)
+UID:569752da594b6b7e3c5c28147a80260a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 16\, ауд. 210
+DTEND:20261112T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261112T142000Z
+STATUS:CONFIRMED
+SUMMARY:SMM реклама (Практическое занятие)
+UID:98eb4f947fe286675135430cae5ad3e2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Деветьярова И.П.\nМесто: корп. 14\, ауд. 332
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 332
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы предпринимательства (Лекция)
+UID:a2e88858f1f0584cf4b5618fd279b772@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 16\, ауд. 210
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:SMM реклама (Практическое занятие)
+UID:6d1b322b6f4a9e6de2521f036566d6db@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 302
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 302
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по прикладным программным решениям (Лабораторная работа)
+UID:621beb0b0a1f07183469664a86b442f4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Деветьярова И.П.\nМесто: корп. 14\, ауд. 335
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы предпринимательства (Практическое занятие)
+UID:954047abbd03c7dddeb58faac5ff7113@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 210
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Бизнес модели предприятия (Практическое занятие)
+UID:738b6c6c901129d70c647caacae5b74f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 202
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура предприятия (Практическое занятие)
+UID:df9e67b25e5e705d6bd11b2021ca1aa7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 210
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 210
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Управление жизненным циклом информационных систем (Практическое занятие)
+UID:a9a9422d1d457504bf63ab803548ceed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 310
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 310
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Бизнес модели предприятия (Лекция)
+UID:884d8498a56168719b75f52de39fd568@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Деветьярова И.П.\nМесто: корп. 14\, ауд. 131
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы предпринимательства (Практическое занятие)
+UID:83cf095646f8a00d27ef2c7a94bef906@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 302
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 302
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Лабораторный практикум по прикладным программным решениям (Лабораторная работа)
+UID:84ff83acf291c75390388e09b591b71c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров И.Е.\nМесто: корп. 16\, ауд. 202
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура предприятия (Практическое занятие)
+UID:af8ecaa79c8a2a11a80e36e83c87cf04@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

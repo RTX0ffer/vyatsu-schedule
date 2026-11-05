@@ -1,0 +1,285 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЭБс-5602 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Снигирева Г.Д.\nМесто: корп. 16\, ауд. 313
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Антикризисное управление в системе обеспечения экономической безопасности (Практическое занятие)
+UID:c7dd09cb68c9a02d2363169b6925e5e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Малиновская О.А.\nМесто: корп. 16\, ауд. 220
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Финансовый менеджмент и корпоративная финансовая безопасность (Лекция)
+UID:e96e95d4abce0520108a7f4af78eb0b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Снигирева Г.Д.\nМесто: корп. 16\, ауд. 313
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Антикризисное управление в системе обеспечения экономической безопасности (Лекция)
+UID:eb8e393840bcacca34677efb31d49933@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Домрачева Л.П.\nМесто: корп. 16\, ауд. 313
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Комплаенс-контроль в системе обеспечения экономической безопасности (Лекция)
+UID:f4c262edfbac20fcc9f6f6fa162ec74a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Преподаватель: Домрачева Л.П.\nМесто: корп. 16\, ауд. 315
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Противодействие корпоративному мошенничеству в системе противодействия отмыванию доходов\, полученных преступным путем /финансированию терроризма Практ
+UID:e0f1f1e0dffd7ed9ec65f1ba951ac099@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казанцева А.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая безопасность банковской деятельности и управление банковскими рисками (Практическое занятие)
+UID:8b197925afbf22dd3e23d052ef3957b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Давыдова Ю.В.\nМесто: корп. 16\, ауд. 209
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Кадровая безопасность организации (Практическое занятие)
+UID:af90faa9206ce36f5552a7202993c249@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малиновская О.А.\nМесто: корп. 16\, ауд. 201
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 201
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Профессиональные стандарты риск-менеджмента и экономической безопасности (Практическое занятие)
+UID:ddc83ef89774c0ab3613eff5af7f7a30@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Токарева П.В.\nМесто: корп. 16\, ауд. 220
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Обеспечение экономической безопасности в сфере государственных и муниципальных закупок (Практическое занятие)
+UID:eda76043846db496da7800d27a7c524d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малиновская О.А.\nМесто: корп. 16\, ауд. 209
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Финансовый менеджмент и корпоративная финансовая безопасность (Практическое занятие)
+UID:f65e3d4f539bc6bec235fd5a7af2bdee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Снигирева Г.Д.\nМесто: корп. 16\, ауд. 217
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 217
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Антикризисное управление в системе обеспечения экономической безопасности (Практическое занятие)
+UID:8d198d725c4742ac3719119109d1d19f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малиновская О.А.\nМесто: корп. 16\, ауд. 201
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 201
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Профессиональные стандарты риск-менеджмента и экономической безопасности (Практическое занятие)
+UID:681b8bdc70b28502d1553653cb9d562b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Малиновская О.А.\nМесто: корп. 16\, ауд. 220
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Финансовый менеджмент и корпоративная финансовая безопасность (Лекция)
+UID:966ce2603edbe7804d2ca1593ad5459e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Преподаватель: Домрачева Л.П.\nМесто: корп. 16\, ауд. 315
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Противодействие корпоративному мошенничеству в системе противодействия отмыванию доходов\, полученных преступным путем /финансированию терроризма Практ
+UID:d48fc4a1ab0d203ae78f66403813eb67@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казанцева А.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая безопасность банковской деятельности и управление банковскими рисками (Практическое занятие)
+UID:b6cdefdffe42900785798a9da28b6ca4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Малиновская О.А.\nМесто: корп. 16\, ауд. 212
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Профессиональные стандарты риск-менеджмента и экономической безопасности (Лекция)
+UID:625ef3a9da6930b77820f8715a860e3b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Давыдова Ю.В.\nМесто: корп. 16\, ауд. 311
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Кадровая безопасность организации (Лекция)
+UID:9a157edaa3b6175ec9f415e3728080ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Домрачева Л.П.\nМесто: корп. 16\, ауд. 315
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Комплаенс-контроль в системе обеспечения экономической безопасности (Практическое занятие)
+UID:cc5dd5a4b685c8e86c402979e30d576e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Домрачева Л.П.\nМесто: корп. 16\, ауд. 315
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Комплаенс-контроль в системе обеспечения экономической безопасности (Практическое занятие)
+UID:1922e9585de94aba3b311c81db4db2ab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Снигирева Г.Д.\nМесто: корп. 16\, ауд. 220
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Антикризисное управление в системе обеспечения экономической безопасности (Лекция)
+UID:c95e52995c7927ddeffca2005e936f57@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Давыдова Ю.В.\nМесто: корп. 16\, ауд. 209
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Кадровая безопасность организации (Практическое занятие)
+UID:b291f1fe5c953e1fef21723638ed5762@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малиновская О.А.\nМесто: корп. 16\, ауд. 209
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Финансовый менеджмент и корпоративная финансовая безопасность (Практическое занятие)
+UID:6b4fa53b79918d21e5eb64edf3e884b9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Тимин А.Н.\nМесто: корп. 16\, ауд. 220
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая безопасность банковской деятельности и управление банковскими рисками (Лекция)
+UID:46121a7e1f79f13a55dca45fb4f251e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Токарева П.В.\nМесто: корп. 16\, ауд. 220
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Обеспечение экономической безопасности в сфере государственных и муниципальных закупок (Лекция)
+UID:e78ecb0b6ec8c7d4adde770e2d9df1cf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Преподаватель: Домрачева Л.П.\nМесто: корп. 16\, ауд. 322
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Противодействие корпоративному мошенничеству в системе противодействия отмыванию доходов\, полученных преступным путем /финансированию терроризма Лекци
+UID:3ba71eb9143568bcb3049cd25171a131@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,329 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ЭиЭб-1804
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Варанкина В.И.\nМесто: корп. 8\, ауд. 603
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:1b430a2c9d813924ad9125ef3d20fad3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бобров А.С.\nМесто: корп. 8\, ауд. 603
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лекция)
+UID:179c9765b3a7536eb76b5c0fe9f93f07@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бобров А.С.\nМесто: корп. 8\, ауд. 603
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лекция)
+UID:a4ceb355c8c4625c38563354619d108d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сандалова М.М.\nМесто: корп. 1\, ауд. 312
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Эффективные коммуникации (Практическое занятие)
+UID:d647981450ec77da08e1235b151d4492@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Новоселова О.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 412
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 412
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лабораторная работа)
+UID:45d451b2c897ed57da286bd1a3c881cb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бобров А.С.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 303
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 303
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лабораторная работа)
+UID:f0a95a31b54536bf5a77ecf54124ea93@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова П.В.\nМесто: корп. 1\, ауд. 315
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 315
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:e32a4b6c7a59864e36710af239fa91d1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Новоселова О.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 412
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 412
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лабораторная работа)
+UID:8100b7fcb4eb1f56672e8be444963756@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Фоминых А.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в профессию (Практическое занятие)
+UID:726f999f28a86f67a0e459cfce7e413c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бобров А.С.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 303
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 303
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лабораторная работа)
+UID:b198543cad15450c120afaec3c0c0848@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Варанкина В.И.\nМесто: корп. 8\, ауд. 603
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:86b0d6a3918ec7d9d347f3633c258503@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ведерников Я.Д.\nМесто: корп. 1\, ауд. 602
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 602
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Лабораторная работа)
+UID:31118bb2ab27cae9b7b9a057c888688b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Фоминых А.А.\nМесто: корп. 1\, ауд. 128
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в профессию (Практическое занятие)
+UID:ffa88c9b399a54ce8118948e31282f91@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мицкевич А.А.\nМесто: корп. 8\, ауд. 604
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Личная эффективность (Практическое занятие)
+UID:ab89f505199c84c8986af4d2bb1911ea@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова П.В.\nМесто: корп. 1\, ауд. 315
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 315
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:239965f9e1d2c08750cf84c4aff49284@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тимшина Л.В.\nМесто: корп. 8\, ауд. 607
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 607
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:dc6f378a87e03f2be8f793ee0dd30c9c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Костоломова О.В.\nМесто: корп. 8\, ауд. 606
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 606
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:286d37c456cc7fca74b4d25a8b85e905@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бобров А.С.\nМесто: корп. 8\, ауд. 603
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Практическое занятие)
+UID:df49b8cd8c65fc4696d57502580cc070@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nМесто: корп. 9\, ауд. 116
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:e5a4d1fc07a170bf7d1f19bfe9700e0f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nМесто: корп. 9\, ауд. 116
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:7351dcae4ecf7a311f6f37675855686a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Попова П.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:9cbb68618a285e6ee4dcf30649d09835@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Новоселова О.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 412
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 412
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лабораторная работа)
+UID:ecf5cf83df4a5ace052c8c27009a65c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Костоломова О.В.\nМесто: корп. 8\, ауд. 606
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 606
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:a7e09ed434e1bc3c68bea439a5e3fef2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Новоселова О.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 412
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 412
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в профессиональной деятельности (Лабораторная работа)
+UID:77b5e4251f95d3b4c61556ef2034e2d8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сандалова М.М.\nМесто: корп. 1\, ауд. 312
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Эффективные коммуникации (Практическое занятие)
+UID:d2a2eb7e244ce1c26b525fa71742ac50@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ведерников Я.Д.\nМесто: корп. 1\, ауд. 534
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Лекция)
+UID:deda61c42735f2d65dbd9c45db3fc754@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ведерников Я.Д.\nМесто: корп. 1\, ауд. 601
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 601
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Инженерная графика (Практическое занятие)
+UID:27473791afe0c0e2b476ab59cd57fce8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мицкевич А.А.\nМесто: корп. 8\, ауд. 604
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Личная эффективность (Практическое занятие)
+UID:01dff0347579b59b1097b92e0e7c276f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тимшина Л.В.\nМесто: корп. 8\, ауд. 607
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 607
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:448017408835ab76b9dba95e2569ce91@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

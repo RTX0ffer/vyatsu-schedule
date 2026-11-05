@@ -1,0 +1,521 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ СДОб-4701
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Царегородцева А.Н.
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные условия воспитания детей раннего возраста с задержками психического и речевого развития (Практическое занятие)
+UID:5c4635e45f11ef6e1ecd77762a39e6e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Симонова Е.С.\nМесто: корп. 15\, ауд. 332
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Комплексное сопровождение детей с речевыми нарушениями в образовательных организациях (Лекция)
+UID:27c1ff13d0328d50b757e1ee7b318d1a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ваничева М.М.\nМесто: корп. 15\, ауд. 117
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедия (Лекция)
+UID:2b9c2d50a8f82858b286b548ef6806e9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Царегородцева А.Н.\nМесто: корп. 15\, ауд. 117
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные условия воспитания детей раннего возраста с задержками психического и речевого развития (Лекция)
+UID:569a6a2e0230a59d2b2763b4f4214157@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ваничева М.М.\nМесто: корп. 15\, ауд. 332
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедия (Лекция)
+UID:93e2b4ad30d3367f22c0d095e08569cc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петушкова О.А.\nМесто: корп. 15\, ауд. 426
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 426
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедические технологии (Лекция)
+UID:3ca2dcf27ade909381112fd367d68468@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петушкова О.А.\nМесто: корп. 15\, ауд. 102
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 102
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедические технологии (Лекция)
+UID:5e603754de70a0acf08e8fe28f003740@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симонова Е.С.\nМесто: корп. 15\, ауд. 332
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Комплексное сопровождение детей с речевыми нарушениями в образовательных организациях (Практическое занятие)
+UID:1d971368733c4d5964ef417e79a7574a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симонова Е.С.\nМесто: корп. 15\, ауд. 339
+DTEND:20261120T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261120T142000Z
+STATUS:CONFIRMED
+SUMMARY:Комплексное сопровождение детей с речевыми нарушениями в образовательных организациях (Практическое занятие)
+UID:cd98dc7011fc0a49ce5ad122fec42eb9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петушкова О.А.\nМесто: корп. 15\, ауд. 132
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 132
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедические технологии (Практическое занятие)
+UID:6598401fc3cf55f99222328ce246503f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Царегородцева А.Н.\nМесто: корп. 15\, ауд. 132
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 132
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Организация деятельности специального (коррекционного) образовательного учреждения для детей с ограниченными возможностями здоровья (Лекция)
+UID:4538e686efd612970c4048426fee4fd3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ваничева М.М.\nМесто: корп. 15\, ауд. 117
+DTEND:20261111T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261111T124500Z
+STATUS:CONFIRMED
+SUMMARY:Логопедия (Практическое занятие)
+UID:7b343e76b1d93db3a3f066123554cd54@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Царегородцева А.Н.\nМесто: корп. 15\, ауд. 117
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные условия воспитания детей раннего возраста с задержками психического и речевого развития (Лекция)
+UID:8ace6be968e8dba3b3d49de35c9d751c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Царегородцева А.Н.\nМесто: корп. 15\, ауд. 102
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 102
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные условия воспитания детей раннего возраста с задержками психического и речевого развития (Лекция)
+UID:25b16b9126eb376eae2d6927e833ef7a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ваничева М.М.\nМесто: корп. 15\, ауд. 207
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Логопедия (Практическое занятие)
+UID:7d5dee3743ed70b716233bb9b1a73620@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ваничева М.М.\nМесто: корп. 15\, ауд. 332
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Логопедия (Практическое занятие)
+UID:afdf7c95b8b941e7a1a5e5c51cb20f00@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Симонова Е.С.\nМесто: корп. 15\, ауд. 339
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Комплексное сопровождение детей с речевыми нарушениями в образовательных организациях (Лекция)
+UID:8137b50ccc2c9901ac0f80560505bef1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симонова Е.С.\nМесто: корп. 15\, ауд. 332
+DTEND:20261030T172500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261030T155500Z
+STATUS:CONFIRMED
+SUMMARY:Комплексное сопровождение детей с речевыми нарушениями в образовательных организациях (Практическое занятие)
+UID:bbb57413320869a37f2894bef2c10d28@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ваничева М.М.\nМесто: корп. 15\, ауд. 207
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедия (Практическое занятие)
+UID:d865475a22a95be404c168608034b71c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симонова Е.С.\nМесто: корп. 15\, ауд. 339
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Комплексное сопровождение детей с речевыми нарушениями в образовательных организациях (Практическое занятие)
+UID:89b4691cbc11716368ffe617287781dc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Преподаватель: Царегородцева А.Н.\nМесто: корп. 15\, ауд. 132
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 132
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Организация деятельности специального (коррекционного) образовательного учреждения для детей с ограниченными возможностями здоровья Практическое занят
+UID:252b6f44e000fbb719f2ee0e46f7c271@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Царегородцева А.Н.
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные условия воспитания детей раннего возраста с задержками психического и речевого развития (Практическое занятие)
+UID:a0df276aea0bb98a4a84c6c55d332717@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ваничева М.М.\nМесто: корп. 15\, ауд. 332
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Логопедия (Практическое занятие)
+UID:1cc83d95d2f4946c379899baac50b5f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ваничева М.М.\nМесто: корп. 15\, ауд. 207
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Логопедия (Практическое занятие)
+UID:e40a9c7ea7fcdbabb533f622faa58368@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ваничева М.М.\nМесто: корп. 15\, ауд. 207
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедия (Практическое занятие)
+UID:338c161f840323915b013fa278905cd4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Царегородцева А.Н.
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные условия воспитания детей раннего возраста с задержками психического и речевого развития (Практическое занятие)
+UID:051fb29cee36abc7cd7026c529a2e607@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Преподаватель: Царегородцева А.Н.\nМесто: корп. 15\, ауд. 125
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Организация деятельности специального (коррекционного) образовательного учреждения для детей с ограниченными возможностями здоровья Практическое занят
+UID:57c7ed318ab5f1a574229e79daa74ef2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ваничева М.М.\nМесто: корп. 15\, ауд. 117
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедия (Лекция)
+UID:b0b3de875fd1acf3aa6856c0b0a3edd3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симонова Е.С.\nМесто: корп. 15\, ауд. 332
+DTEND:20261113T172500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261113T155500Z
+STATUS:CONFIRMED
+SUMMARY:Комплексное сопровождение детей с речевыми нарушениями в образовательных организациях (Практическое занятие)
+UID:6221d6cc52cff9992248c36f4362dc83@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петушкова О.А.\nМесто: корп. 15\, ауд. 102
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 102
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедические технологии (Лекция)
+UID:f655f9b1deec56a6d3c75f3a281d55b7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Царегородцева А.Н.
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные условия воспитания детей раннего возраста с задержками психического и речевого развития (Практическое занятие)
+UID:b3005348f0919249dd11a30d30fcfd4b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петушкова О.А.\nМесто: корп. 15\, ауд. 102
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 102
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Логопедические технологии (Практическое занятие)
+UID:88a21178f651813294f6af250ccd5d8f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ваничева М.М.\nМесто: корп. 15\, ауд. 332
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедия (Лекция)
+UID:25a7d5c61ec7a29307230350e0ea1ee9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Царегородцева А.Н.
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные условия воспитания детей раннего возраста с задержками психического и речевого развития (Практическое занятие)
+UID:d548dace934febddbc9e0176e654ddb4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симонова Е.С.\nМесто: корп. 15\, ауд. 332
+DTEND:20261113T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261113T142000Z
+STATUS:CONFIRMED
+SUMMARY:Комплексное сопровождение детей с речевыми нарушениями в образовательных организациях (Практическое занятие)
+UID:3a2741e943e1cf75bf57eac4ff8f16fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Царегородцева А.Н.\nМесто: корп. 15\, ауд. 125
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Организация деятельности специального (коррекционного) образовательного учреждения для детей с ограниченными возможностями здоровья (Лекция)
+UID:874608e4a7ad89285666e183e88a2565@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Царегородцева А.Н.\nМесто: корп. 15\, ауд. 125
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Организация деятельности специального (коррекционного) образовательного учреждения для детей с ограниченными возможностями здоровья (Лекция)
+UID:04d2ded46fcdc72e4215340c9ad3d3bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Преподаватель: Царегородцева А.Н.\nМесто: корп. 15\, ауд. 125
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Организация деятельности специального (коррекционного) образовательного учреждения для детей с ограниченными возможностями здоровья Практическое занят
+UID:187e8f7943953823cd6babb9efd85a8d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петушкова О.А.\nМесто: корп. 15\, ауд. 426
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 426
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Логопедические технологии (Практическое занятие)
+UID:18b71d2ed8ff19b73350e81aaad66c4e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Царегородцева А.Н.\nМесто: корп. 15\, ауд. 117
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные условия воспитания детей раннего возраста с задержками психического и речевого развития (Лекция)
+UID:06d15e12438afac5e7e31206845c8f20@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Преподаватель: Царегородцева А.Н.\nМесто: корп. 15\, ауд. 132
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 132
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Организация деятельности специального (коррекционного) образовательного учреждения для детей с ограниченными возможностями здоровья Практическое занят
+UID:8c2bc25c44bae59a552effacb42e8cde@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ваничева М.М.\nМесто: корп. 15\, ауд. 117
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 117
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Логопедия (Практическое занятие)
+UID:b00f54bcabeba93e5c5e3d35caa19500@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петушкова О.А.\nМесто: корп. 15\, ауд. 102
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 102
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Логопедические технологии (Практическое занятие)
+UID:506e66883749030e64a015ecf5b45f3b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Симонова Е.С.\nМесто: корп. 15\, ауд. 332
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Комплексное сопровождение детей с речевыми нарушениями в образовательных организациях (Лекция)
+UID:222eaf67e25b1dd31430b175e2a6ce46@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Царегородцева А.Н.\nМесто: корп. 15\, ауд. 132
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 132
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Организация деятельности специального (коррекционного) образовательного учреждения для детей с ограниченными возможностями здоровья (Лекция)
+UID:e3261bb49d693a8fb9be76171bf119f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Царегородцева А.Н.
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные условия воспитания детей раннего возраста с задержками психического и речевого развития (Практическое занятие)
+UID:ef2e5b1ffdc07687f2ced0e5431b15b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Симонова Е.С.\nМесто: корп. 15\, ауд. 339
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Комплексное сопровождение детей с речевыми нарушениями в образовательных организациях (Лекция)
+UID:08bbcbc0c115dcd89fa252fc2523006c@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

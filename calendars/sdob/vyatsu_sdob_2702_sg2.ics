@@ -1,0 +1,571 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ СДОб-2702 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 15\, ауд. 227
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Анатомия\, физиология и патология центральной нервной системы (Практическое занятие)
+UID:130596a4c2bc1cde04acd80cc3e0ed6b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Артеева Ю.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы логопедии (Лекция)
+UID:933854d73a3388417b9aa897045b7db5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Артеева Ю.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы логопедии (Практическое занятие)
+UID:515f87fa02afb40ea1bc3b038f9c8c5c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 15\, ауд. 227
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:0b3d36acfd87d0598797c99ae4e3c0d0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ершова Н.Н.\nМесто: корп. 15\, ауд. 430
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Психология профессиональной коммуникации (Практическое занятие)
+UID:7c4787c34ab2abaf5f709f49bbb156ad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 15\, ауд. 227
+DTEND:20261117T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261117T052000Z
+STATUS:CONFIRMED
+SUMMARY:Анатомия\, физиология и патология центральной нервной системы (Лекция)
+UID:20879ae9eb991721a11972db96c4950c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 14\, ауд. 234
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:e7a619ca78d72bd291dd0acc772a6cd4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суворов Г.В.\nМесто: корп. 15\, ауд. 243
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 243
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Практическое занятие)
+UID:a001639dab26dd843c0a84c7f9d5da71@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Артеева Ю.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261121T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261121T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы логопедии (Лекция)
+UID:2b19f1e5937998bfce15d27a8256e631@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ершова Н.Н.\nМесто: корп. 15\, ауд. 311
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 311
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Психология профессиональной коммуникации (Лекция)
+UID:d01ca61f24396c766f321202ebe649b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суворов Г.В.\nМесто: корп. 15\, ауд. 243
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 243
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Практическое занятие)
+UID:4c1da975d975194396bddb64da99b6b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ершова Н.Н.\nМесто: корп. 15\, ауд. 211
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Психология профессиональной коммуникации (Лекция)
+UID:995b07fbac1c2a8c4e8e33ac31a3b729@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Суворов Г.В.\nМесто: корп. 15\, ауд. 211
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Лекция)
+UID:35c8b0a15d1d8db717450869e9dd7435@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Артеева Ю.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы логопедии (Лекция)
+UID:316e1ead9fe4f6ccd2a0f82b1cf3269f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волкова Г.А.\nМесто: корп. 15\, ауд. 227
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:ba30a51b7cb198aefee0616c7fe44a89@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Суворов Г.В.\nМесто: корп. 15\, ауд. 211
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Лекция)
+UID:2019cb908ac6711a8b90f1d25f3e13e0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 14\, ауд. 234
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:089ed5c526d5199f99b2b078c3d7edd5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шешукова Н.Н.\nМесто: корп. 15\, ауд. 430
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Концептуальные основы дефектологии (Практическое занятие)
+UID:0eee773ecc9440347ee0da1c7bb0d3d6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 15\, ауд. 227
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Анатомия\, физиология и патология центральной нервной системы (Практическое занятие)
+UID:e800bcc7e4107ed66dd6dc7354542221@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волкова Г.А.\nМесто: корп. 19\, ауд. 260
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:0796c6b16741fa23f671959582d79a7b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Суворов Г.В.\nМесто: корп. 15\, ауд. 311
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 311
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Лекция)
+UID:12e3ea9b5e3c1c68a84e05d67a4aa491@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Суворов Г.В.\nМесто: корп. 15\, ауд. 311
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 311
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Лекция)
+UID:f25d10f3280ec4b3e56ba4a44fb11cd7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 15\, ауд. 227
+DTEND:20261109T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261109T052000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:03b341cbe9bb03fa1f76821bd1865306@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 19\, ауд. 215
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 215
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Анатомия\, физиология и патология центральной нервной системы (Практическое занятие)
+UID:2df5c0253a4f386b5276360fb6da6ec9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Артеева Ю.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы логопедии (Практическое занятие)
+UID:fe86a881aebe1dc093fecec000f2a8ee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волкова Г.А.\nМесто: корп. 19\, ауд. 260
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:c9b3f77753009e3bb9feeb8d92fd544f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волкова Г.А.\nМесто: корп. 15\, ауд. 227
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:5bbfde0bb77c4f9faf5b3166fb44f697@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Артеева Ю.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261121T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261121T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы логопедии (Практическое занятие)
+UID:71bc7e753d73f3276b789580e6c8327f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 19\, ауд. 215
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 215
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Анатомия\, физиология и патология центральной нервной системы (Практическое занятие)
+UID:1f0796efb2e3e6dbeea1e53de24c7ee7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 15\, ауд. 227
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:bd7237529b6e943d9fb719dce27809e5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 2\nМесто: корп. 19\, ауд. 322
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 322
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:aaeb130efec4aaf91956b5db2ab16fc8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ершова Н.Н.\nМесто: корп. 15\, ауд. 332
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Психология профессиональной коммуникации (Практическое занятие)
+UID:144059fefbab657b093aa2ca87278426@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суворов Г.В.\nМесто: корп. 15\, ауд. 243
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 243
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Практическое занятие)
+UID:32c5955dff7b39ef9704a3986091a6f6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 15\, ауд. 337
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Анатомия\, физиология и патология центральной нервной системы (Лекция)
+UID:d9bfb72eb607ef34038b39f9bf81fd04@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 15\, ауд. 227
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:5856b9705e84dcbbce69736b3fbc735e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шешукова Н.Н.\nМесто: корп. 15\, ауд. 430
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Концептуальные основы дефектологии (Лекция)
+UID:327912efc4725d36aa7ee93ec041e276@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Артеева Ю.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы логопедии (Практическое занятие)
+UID:9380ba97e697f223e103f7279919f4de@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Артеева Ю.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы логопедии (Практическое занятие)
+UID:ed1feb4db50c54a124dfc058a5734b34@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Артеева Ю.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261114T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261114T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы логопедии (Лекция)
+UID:425757ee146921b991290d36fda65554@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волкова Г.А.\nМесто: корп. 19\, ауд. 260
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:559d79d72093c55e8a89853833573f9c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Артеева Ю.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы логопедии (Практическое занятие)
+UID:d554b2d7d71edeca6239f5b207f207b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Артеева Ю.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы логопедии (Практическое занятие)
+UID:c157eb9fe2a5534ee0dddced64534d87@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ершова Н.Н.\nМесто: корп. 15\, ауд. 211
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Психология профессиональной коммуникации (Лекция)
+UID:9c350be363a28044e700a88a1174f3e5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 15\, ауд. 227
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Анатомия\, физиология и патология центральной нервной системы (Лекция)
+UID:417ea6b1321436da5a5131663063468c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 2\nМесто: корп. 19\, ауд. 322
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 322
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:fb90637e049526ed1fd512c95e76d4cb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 15\, ауд. 430
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Анатомия\, физиология и патология центральной нервной системы (Лекция)
+UID:fbf6d3cc01fcf74c6403d9c76a8527b5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 250
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 250
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:a94ebe1243858c535ccf3417a796bf3a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волкова Г.А.\nМесто: корп. 19\, ауд. 260
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:74a09234993c1b4209bcb4a6cd68f10b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ершова Н.Н.\nМесто: корп. 15\, ауд. 430
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Психология профессиональной коммуникации (Практическое занятие)
+UID:9fd626356f66926ab274da68a10abbe1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Артеева Ю.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261121T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261121T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы логопедии (Практическое занятие)
+UID:23f3eda0f0aff8375a815f12ca5af5cd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суворов Г.В.\nМесто: корп. 15\, ауд. 243
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 15\, ауд. 243
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Философия (Практическое занятие)
+UID:3327d787baf94649ee472213c424b155@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,406 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ТХОб-3801
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Слюдова А.А.\nМесто: корп. 1\, ауд. 313
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Художественное материаловедение (Лекция)
+UID:39ba417df0644a1b14b626f5c847d71f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Хорошинина Е.Н.\nМесто: корп. 6\, ауд. 204
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Интернет вещей (Лекция)
+UID:7db6b26cef036c79cdc5fbb9e28746a6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Патрушев Д.В.\nМесто: корп. 17\, ауд. 456
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 456
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Цветоведение и колористика (Лабораторная работа)
+UID:6017e1156b30e3c3adc06ec616523c37@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Останин А.О.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 041
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 041
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Аддитивные технологии (Лабораторная работа)
+UID:20fbd06f786d982cf655ae6ed3cdfb8a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Грабар А.А.\nМесто: корп. 1\, ауд. 534
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Анализ рынка и продвижение продукта (Лекция)
+UID:3ea83c80c40b5b360a9ec9bba14b20f3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Николаев А.Л.\nМесто: корп. 21\, ауд. 264
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование художественно-промышленных изделий (Лабораторная работа)
+UID:aa33742ead68e56944aa503422efad63@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Останин А.О.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 041
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 041
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Аддитивные технологии (Лабораторная работа)
+UID:9835e8dd5142e852b46e3bc4b71db60d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Мехатроника и робототехника (Лекция)
+UID:e347b329a0a1d2e1f9060ec7c820e967@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Николаев А.Л.\nМесто: корп. 21\, ауд. 264
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование художественно-промышленных изделий (Лабораторная работа)
+UID:4bea3291c06c9497d0453f9d579fea15@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хорошинина Е.Н.\nМесто: корп. 6\, ауд. 204
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Интернет вещей (Практическое занятие)
+UID:2df2b4da36eacdfdd1e18b487232ddb4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подковырин В.Д.\nПодгруппа: 1\nМесто: корп. 19\, ауд. 301
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 301
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:f85252f79e0aa539daa8c9270cac2ee2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Останин А.О.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 041
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 041
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Аддитивные технологии (Лабораторная работа)
+UID:1851b5876a7cfcf0206f56036564f0b5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мельчаков М.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Мехатроника и робототехника (Практическое занятие)
+UID:e5e7aea606f20dbe34e0fd9a85753641@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бурдин Н.П.\nМесто: корп. 1\, ауд. 534
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:История дизайна\, науки и техники (Практическое занятие)
+UID:fffb85bbd7e5ce5653d50baf6a10fe8d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зимонина Н.М.\nМесто: корп. 15\, ауд. 261
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 15\, ауд. 261
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экология (Практическое занятие)
+UID:02718d86a73e57a5aefa3c4b1add72eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Останин А.О.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 041
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 041
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Аддитивные технологии (Лабораторная работа)
+UID:07513a6ab48c41086637ec39956fc93d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Патрушев Д.В.\nМесто: корп. 17\, ауд. 456
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 456
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Цветоведение и колористика (Лабораторная работа)
+UID:fd6ac7641af201eb119e3f7f7055cd41@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Хорошинина Е.Н.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 413
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 413
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Интернет вещей (Лабораторная работа)
+UID:10d3e71329f6e0abd3dca3cc2074b2e0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Патрушев Д.В.\nМесто: корп. 17\, ауд. 456
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 456
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Цветоведение и колористика (Лабораторная работа)
+UID:dda5d21777ef454aeb883d17d27dbe7d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Останин А.О.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 041
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 041
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Аддитивные технологии (Лабораторная работа)
+UID:79e9a1830296abcb06647c351f93c1ce@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Хорошинина Е.Н.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 413
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 413
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Интернет вещей (Лабораторная работа)
+UID:ec04f0afdc99f6a590419cdc3c661fb4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Хорошинина Е.Н.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 413
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 413
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Интернет вещей (Лабораторная работа)
+UID:e3f08fde0ac40a1d7eee6c181d584f54@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Грабар А.А.\nМесто: корп. 1\, ауд. 534
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Анализ рынка и продвижение продукта (Практическое занятие)
+UID:9937e3a7a0d82a2e48afa967d4077ab5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Хорошинина Е.Н.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 413
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 413
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Интернет вещей (Лабораторная работа)
+UID:4cb0a6433ce9c6f51e55929e1af9e675@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бурдин Н.П.\nМесто: корп. 1\, ауд. 534
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:История дизайна\, науки и техники (Лекция)
+UID:61b1296c03f63848d569850247ba2be5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трушкова Е.Л.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 301
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:58485d55fbc3f81b3bdd6733146146cb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Останин А.О.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 041
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 041
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Аддитивные технологии (Лабораторная работа)
+UID:92831de925f3a92097116e01c6e7a7c3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Николаев А.Л.\nМесто: корп. 21\, ауд. 264
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование художественно-промышленных изделий (Лабораторная работа)
+UID:fb9f83225fdc64c676ca14c93de462f3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Останин А.О.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 041
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 041
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Аддитивные технологии (Лабораторная работа)
+UID:3c51da8fd9d2cf621227569dc664247d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Николаев А.Л.\nМесто: корп. 21\, ауд. 264
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование художественно-промышленных изделий (Лабораторная работа)
+UID:195cc9a84f53cd7b5d11a3a24674ddb2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Трушкова Е.Л.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 301
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:bbb291ceeaf6b43b1bee2edd33f96217@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Патрушев Д.В.\nМесто: корп. 17\, ауд. 456
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 456
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Цветоведение и колористика (Лабораторная работа)
+UID:b4e6453bc7b9694e92e4948139363f9a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Подковырин В.Д.\nПодгруппа: 1\nМесто: корп. 19\, ауд. 301
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 301
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:d1fb33f433d21a1ddac04c176162107d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Слюдова А.А.\nМесто: корп. 1\, ауд. 331
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 331
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Художественное материаловедение (Лабораторная работа)
+UID:0387eda0dfeb79a37a170239057c4e61@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Слюдова А.А.\nМесто: корп. 1\, ауд. 331
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 331
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Художественное материаловедение (Лабораторная работа)
+UID:15c6cac93f97748ac366d5e21c16ce4f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Останин А.О.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 041
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 041
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Аддитивные технологии (Лабораторная работа)
+UID:e6e8b7ea0527b9a5c3fc2aae0096ac11@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

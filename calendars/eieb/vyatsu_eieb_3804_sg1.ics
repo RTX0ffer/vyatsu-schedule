@@ -1,0 +1,349 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЭиЭб-3804 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шестаков А.В.\nМесто: корп. 8\, ауд. 506
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по электрическим машинам (Практическое занятие)
+UID:71ad8e58ad1ab2c3544f538941dc5056@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лалетин В.И.\nМесто: корп. 7\, ауд. 021
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 7\, ауд. 021
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электроника (Лекция)
+UID:772d0ac9a04755217dcb812ea42eacef@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шестаков А.В.\nМесто: корп. 8\, ауд. 506
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по электрическим машинам (Практическое занятие)
+UID:3213aa7c1cdf42e70a15faa01424117d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шестаков А.В.\nМесто: корп. 8\, ауд. 603
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Инженерное проектирование электрических машин (Лекция)
+UID:2102d0404d43a7d00ffb5540ed82f68f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шестаков А.В.\nМесто: корп. 8\, ауд. 413
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 413
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Инженерное проектирование электрических машин (Лабораторная работа)
+UID:386855948a64e7fee0312969b28f8a43@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 533
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:59bd225c0608f7a4c265fbde2d6d3cfa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лалетин В.И.\nМесто: корп. 7\, ауд. 021
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 7\, ауд. 021
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электроника (Лекция)
+UID:d2e5cfb8c3e8c1ddfd803ce76060d527@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 533
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:7ac1509ff5705509cc2961166b4d3083@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Леготин А.Б.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 303
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 303
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические машины (Лабораторная работа)
+UID:cead6a643f89a25b272ef8efab4a2bc3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 1
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроника (Лабораторная работа)
+UID:2ab07242f1bd52764ef3ff3392a483dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сластихин Н.С.\nМесто: корп. 7\, ауд. 021
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 7\, ауд. 021
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лекция)
+UID:b05dbf664f8498ed9e5c5ee6e9519f06@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дегтерев Б.И.\nМесто: корп. 1\, ауд. 533
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:ef07f34bf91265da9c96567664f768db@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лалетин В.И.\nПодгруппа: 1
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроника (Лабораторная работа)
+UID:498b94cc2cbc5586a98c3788adc05837@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:73d108ec91b0d78eb6881446b4dff16a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сластихин Н.С.\nМесто: корп. 7\, ауд. 013
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 7\, ауд. 013
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:bb773e7e0c322fd9fce975cff5abd0a9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шестаков А.В.\nМесто: корп. 8\, ауд. 413
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 413
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Инженерное проектирование электрических машин (Лабораторная работа)
+UID:8472cf7d76d2f6bd4a5e65ef823f26a1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сластихин Н.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 006
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:02c7e9af0fd67d92c994c77f1d2df5d3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:7144671f087b5bb1cd26fc2b3c8ea346@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шестаков А.В.\nМесто: корп. 8\, ауд. 506
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Инженерное проектирование электрических машин (Лекция)
+UID:eccf4b7ca4fbaa7f0c313145e4b28009@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шестаков А.В.\nМесто: корп. 8\, ауд. 413
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 413
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Инженерное проектирование электрических машин (Практическое занятие)
+UID:0343ce66ff7f7435aa6000fe747f60e0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сластихин Н.С.\nМесто: корп. 7\, ауд. 021
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 7\, ауд. 021
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лекция)
+UID:bc78ac87e3ecebf58982ccb52a6180fd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Леготин А.Б.\nМесто: корп. 8\, ауд. 603
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электрические машины (Лекция)
+UID:6e7e594597ff7b53e40ba6f5b8600926@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шестаков А.В.\nМесто: корп. 8\, ауд. 603
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Инженерное проектирование электрических машин (Лекция)
+UID:4cce372973f43d179ed1ddebc4f53ff5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шестаков А.В.\nМесто: корп. 8\, ауд. 303
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 303
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по электрическим машинам (Лабораторная работа)
+UID:5e191416e36c6469a35c5188f7d6a0ea@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шестаков А.В.\nМесто: корп. 8\, ауд. 506
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по электрическим машинам (Практическое занятие)
+UID:ccd5d858048b2aecb81a88fbb2b295f9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сластихин Н.С.\nМесто: корп. 7\, ауд. 021
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 7\, ауд. 021
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Практическое занятие)
+UID:96dbe17f214c478e4bff941cd811f321@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Леготин А.Б.\nМесто: корп. 8\, ауд. 603
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электрические машины (Лекция)
+UID:2b1065362ea93b9c1a89c8c4046a1dd0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Леготин А.Б.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 303
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 303
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электрические машины (Лабораторная работа)
+UID:9123d2a37163e483e44885d1a1ffa493@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шестаков А.В.\nМесто: корп. 8\, ауд. 506
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Инженерное проектирование электрических машин (Лекция)
+UID:cd60601c6d6a2935ef71902fc23e78af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сластихин Н.С.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 006
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:11ea07c783b69f18210c3a1fcc7867ee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шестаков А.В.\nМесто: корп. 8\, ауд. 303
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 8\, ауд. 303
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по электрическим машинам (Лабораторная работа)
+UID:379e7f2a4549e44d8d2e14ddacb1f513@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

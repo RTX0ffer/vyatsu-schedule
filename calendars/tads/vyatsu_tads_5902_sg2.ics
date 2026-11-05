@@ -1,0 +1,227 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ТАДс-5902 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Митрошихина В.Д.\nМесто: корп. 13\, ауд. 510
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 510
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Управление таможенной деятельностью (Практическое занятие)
+UID:d631ca8e29f9985e4e4105d3faf822bc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гордиенко П.Н.\nМесто: корп. 13\, ауд. 508
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 508
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Правовое регулирование борьбы с коррупцией (Лекция)
+UID:0152cb318412422a2661bf6937018d13@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дяченко Т.И.
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Освобождение от уголовной ответственности и наказаний (Лекция)
+UID:a3b3e0767336a90f5364ab6dbadf1df5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мухачев В.А.\nМесто: корп. 13\, ауд. 111
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Теория оперативно-розыскной деятельности (Лекция)
+UID:166ab6067dafcab1bea77e48238ff2d1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гордиенко П.Н.\nМесто: корп. 13\, ауд. 508
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 508
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Правовое регулирование борьбы с коррупцией (Лекция)
+UID:232944f9b3f803e7e053346d9170196d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дяченко Т.И.\nМесто: корп. 13\, ауд. 402
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 402
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Освобождение от уголовной ответственности и наказаний (Практическое занятие)
+UID:601f05332b7cca4ae69b544f36f18b4f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Митрошихина В.Д.\nМесто: корп. 13\, ауд. 510
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 510
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Управление таможенной деятельностью (Практическое занятие)
+UID:9cb7408b2599969847387bcf099af137@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Митрошихина В.Д.\nМесто: корп. 13\, ауд. 405
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Таможенное право стран таможенного союза (Практическое занятие)
+UID:b6f9b9be6da07e7e5adfde9c1b360f74@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мухачев В.А.
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория оперативно-розыскной деятельности (Практическое занятие)
+UID:c23f16e3acaff0d1c590b4f763ce0e74@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гордиенко П.Н.\nМесто: корп. 13\, ауд. 510
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 510
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Правовое регулирование борьбы с коррупцией (Лекция)
+UID:00c4345670c566f6d032305a092ccce9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дяченко Т.И.\nМесто: корп. 13\, ауд. 402
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 402
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Освобождение от уголовной ответственности и наказаний (Практическое занятие)
+UID:d520bad8d924046ae3bab156b8530cf2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Митрошихина В.Д.\nМесто: корп. 13\, ауд. 511
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Управление таможенной деятельностью (Лекция)
+UID:9ddcdaadf10e86853e41541bdaa72946@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гордиенко П.Н.\nМесто: корп. 13\, ауд. 609
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Правовое регулирование борьбы с коррупцией (Практическое занятие)
+UID:85b10f2f461c70a53ea9ddf22d17b3ec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Митрошихина В.Д.\nМесто: корп. 13\, ауд. 105
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 105
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Таможенное право стран таможенного союза (Лекция)
+UID:d18b263cd979c7a0e8202eb3720d6a1d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гордиенко П.Н.\nМесто: корп. 13\, ауд. 111
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Правовое регулирование борьбы с коррупцией (Лекция)
+UID:42c061b76933a92f826e1aaefaef5b83@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Митрошихина В.Д.\nМесто: корп. 13\, ауд. 405
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Таможенное право стран таможенного союза (Практическое занятие)
+UID:3f9c03da10db0f8412e4c7d14f88608c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Митрошихина В.Д.\nМесто: корп. 13\, ауд. 105
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 105
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Таможенное право стран таможенного союза (Лекция)
+UID:79927a6b4ac54507e5ec02c57b128387@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мухачев В.А.
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория оперативно-розыскной деятельности (Практическое занятие)
+UID:d98b670590d2c6b83f48bef859e62b01@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гордиенко П.Н.\nМесто: корп. 13\, ауд. 609
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Правовое регулирование борьбы с коррупцией (Практическое занятие)
+UID:acad63326f04d8720b20b16bd2280c2d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Митрошихина В.Д.\nМесто: корп. 13\, ауд. 511
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление таможенной деятельностью (Лекция)
+UID:c3eebd1c635afbd37c6bed9c3c65dd7c@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

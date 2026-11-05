@@ -1,0 +1,362 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ХМб-3501 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области химии (Лабораторная работа)
+UID:271ad2b47b361a91d5db1ed2bc0bfbb0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вохмянин М.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Химия и физика полимеров (Лабораторная работа)
+UID:cae709e1224084266ee9b15c193c8c40@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:8bb2a94e06322b2555b52badf1f7a50c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области химии (Лабораторная работа)
+UID:697ea7ddb5c71c491fe397644606641a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:02989547220e18fd877513f4ebc14f1e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зайцев М.А.\nМесто: корп. 15\, ауд. 310
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 310
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Практическое занятие)
+UID:aead651bef193d443b329ca401d905ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:f82a5c364d78b3fb5a1dde033a445671@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области химии (Лабораторная работа)
+UID:598e854253b6a47a982dea71650be7c4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Елькин О.В.\nМесто: корп. 1\, ауд. 516
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая химия (Лекция)
+UID:fd1af5691b1be364a0468fd276814c78@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Фалалеев А.В.\nМесто: корп. 15\, ауд. 309
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:a6af3b40eab7675e56d436690cc7861a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вохмянин М.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Химия и физика полимеров (Лабораторная работа)
+UID:8f0a4016abcdaba924faa7f7283a22b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петухов Д.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 410
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 410
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Органический синтез (Лабораторная работа)
+UID:69526315c57f33801ddccffa83b1c12c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Елькин О.В.\nМесто: корп. 1\, ауд. 514
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая химия (Практическое занятие)
+UID:4eadaf9feb8c2be36e890d5199d72b02@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лабораторная работа)
+UID:71ed36b45e6eedc8166bc2f3ea9ff15d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 15\, ауд. 211
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:d0a5072b4260419dfbd2be41ef2b1cd9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зайцев М.А.\nМесто: корп. 15\, ауд. 310
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 310
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лекция)
+UID:6a9884bad15593a101b856da998c565a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чучкалов А.В.\nМесто: корп. 15\, ауд. 311
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 311
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:4cb5ef041ddcee36a88651352ec23639@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зайцев М.А.\nМесто: корп. 15\, ауд. 310
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 310
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лекция)
+UID:7e3a5f6f117d73e4d1d85a833839dde6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петухов Д.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 410
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 410
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Органический синтез (Лабораторная работа)
+UID:d0b1c6866f12195eb305895df86e6ca1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петухов Д.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 410
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 410
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Органический синтез (Лабораторная работа)
+UID:33004ef0d3a7def6de5edf81e4f00a9d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петухов Д.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 410
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 410
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Органический синтез (Лабораторная работа)
+UID:a5e2c9fd14bd47d16dbce6f527e65609@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лабораторная работа)
+UID:4e8adb34646fc68c51855b079457d903@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Елькин О.В.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 235
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 235
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физическая химия (Лабораторная работа)
+UID:883eaa012d9ab626a877fecb09e5a505@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Фалалеев А.В.\nМесто: корп. 15\, ауд. 309
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:cf9d16b5f1f737154154fa55b266020d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Елькин О.В.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 235
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 235
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая химия (Лабораторная работа)
+UID:e20d6e63d2e236f17ae3a0bc24c1c845@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петухов Д.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 410
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 410
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Органический синтез (Лабораторная работа)
+UID:86b7814c71cf305ea8598db07b0250eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Елькин О.В.\nМесто: корп. 1\, ауд. 514
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физическая химия (Лекция)
+UID:a8b0159e2b547288d9d05ecc591131d2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:4a772402d154520c914103ecd87d187e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области химии (Лабораторная работа)
+UID:2a4d1e0a8fe37c76418cc492dc145f0b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чучкалов А.В.\nМесто: корп. 15\, ауд. 211
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:2bfabf345d1cb605fe274de0bddbd091@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петухов Д.В.\nМесто: корп. 15\, ауд. 430
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Органический синтез (Лекция)
+UID:64c10eaf0d456226598fff985a3c24a1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петухов Д.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 410
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 410
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Органический синтез (Лабораторная работа)
+UID:c55044eae476a580daf2071503fb02b1@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

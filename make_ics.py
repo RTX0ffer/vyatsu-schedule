@@ -1,3 +1,4 @@
+import concurrent.futures
 import datetime
 import hashlib
 import io
@@ -20,58 +21,196 @@ logging.basicConfig(
 
 SCHEDULE_PAGE_URL = 'https://old.vyatsu.ru/studentu-1/spravochnaya-informatsiya/raspisanie-zanyatiy-dlya-studentov.html'
 
-DIRECTIONS = {
-    # 🏛 Факультет компьютерных и физико-математических наук (ФКФМН)
-    'pmib': {
-        'name': 'Прикладная математика и информатика',
-        'short': 'ПМИб',
-        'code_spec': '01.03.02',
-        'faculty': 'fkfmn'
+FACULTIES = {
+    'fkfmn': {
+        'name': 'Факультет компьютерных и физико-математических наук',
+        'short': 'ФКФМН',
+        'badge': '📐',
+        'default_dir': 'pmib',
     },
-    'mkb': {
-        'name': 'Математика и компьютерные науки',
-        'short': 'МКб',
-        'code_spec': '02.03.01',
-        'faculty': 'fkfmn'
+    'favt': {
+        'name': 'Факультет автоматики и вычислительной техники',
+        'short': 'ФАВТ',
+        'badge': '⚙️',
+        'default_dir': 'ivtb',
     },
-    'fib': {
-        'name': 'Фундаментальная информатика и ИТ',
-        'short': 'ФИб',
-        'code_spec': '02.03.02',
-        'faculty': 'fkfmn'
+    'etf': {
+        'name': 'Электротехнический факультет',
+        'short': 'ЭТФ',
+        'badge': '⚡️',
+        'default_dir': 'eieb',
     },
+    'fsa': {
+        'name': 'Факультет строительства и архитектуры',
+        'short': 'ФСА',
+        'badge': '🏗',
+        'default_dir': 'stb',
+    },
+    'ftid': {
+        'name': 'Факультет технологий, инжиниринга и дизайна',
+        'short': 'ФТИД',
+        'badge': '🎨',
+        'default_dir': 'msb',
+    },
+    'inhe': {
+        'name': 'Институт химии и экологии',
+        'short': 'ИнХимЭк',
+        'badge': '🧪',
+        'default_dir': 'htb',
+    },
+    'inbio': {
+        'name': 'Институт биологии и биотехнологии',
+        'short': 'ИнБиоБиз',
+        'badge': '🌿',
+        'default_dir': 'bb',
+    },
+    'ui': {
+        'name': 'Юридический институт',
+        'short': 'ЮИ',
+        'badge': '⚖️',
+        'default_dir': 'yurb',
+    },
+    'fef': {
+        'name': 'Факультет экономики и финансов',
+        'short': 'ФЭФ',
+        'badge': '💰',
+        'default_dir': 'eknb',
+    },
+    'fms': {
+        'name': 'Факультет менеджмента и сервиса',
+        'short': 'ФМС',
+        'badge': '💼',
+        'default_dir': 'mnb',
+    },
+    'fipnik': {
+        'name': 'Факультет истории, полит. наук и культурологии',
+        'short': 'ФИПНиК',
+        'badge': '🏛',
+        'default_dir': 'isb',
+    },
+    'fl': {
+        'name': 'Факультет лингвистики',
+        'short': 'ФЛ',
+        'badge': '🗣',
+        'default_dir': 'lvb',
+    },
+    'fmo': {
+        'name': 'Факультет международного образования',
+        'short': 'ФМО',
+        'badge': '🌍',
+        'default_dir': 'lvb_mo',
+    },
+    'fryalim': {
+        'name': 'Факультет русского языка, литературы и медиакоммуникаций',
+        'short': 'ФРЯЛиМ',
+        'badge': '📚',
+        'default_dir': 'rsob',
+    },
+    'fpip': {
+        'name': 'Факультет педагогики и психологии',
+        'short': 'ФПиП',
+        'badge': '🧠',
+        'default_dir': 'plb',
+    },
+    'ped': {
+        'name': 'Дирекция ОП Педагогического института',
+        'short': 'Пединститут',
+        'badge': '🎓',
+        'default_dir': 'podb',
+    },
+    'ffkis': {
+        'name': 'Факультет физической культуры и спорта',
+        'short': 'ФФКиС',
+        'badge': '🏃‍♂️',
+        'default_dir': 'fkb',
+    },
+}
 
-    # ⚙️ Факультет автоматики и вычислительной техники (ФАВТ)
-    'ivtb': {
-        'name': 'Информатика и вычислительная техника',
-        'short': 'ИВТб',
-        'code_spec': '09.03.01',
-        'faculty': 'favt'
-    },
-    'inbb': {
-        'name': 'Информационная безопасность',
-        'short': 'ИНБб',
-        'code_spec': '10.03.01',
-        'faculty': 'favt'
-    },
-    'iktb': {
-        'name': 'Инфокоммуникационные технологии и системы связи',
-        'short': 'ИКТб',
-        'code_spec': '11.03.02',
-        'faculty': 'favt'
-    },
-    'utb': {
-        'name': 'Управление в технических системах',
-        'short': 'УТб',
-        'code_spec': '27.03.04',
-        'faculty': 'favt'
-    },
-    'inbs': {
-        'name': 'Информационная безопасность телеком. систем (Специалитет)',
-        'short': 'ИНБс',
-        'code_spec': '10.05.02',
-        'faculty': 'favt'
-    }
+DIRECTIONS = {
+    # 📐 ФКФМН
+    'pmib': {'name': 'Прикладная математика и информатика', 'short': 'ПМИб', 'code_spec': '01.03.02', 'badge': '📐', 'faculty': 'fkfmn'},
+    'mkb': {'name': 'Математика и компьютерные науки', 'short': 'МКб', 'code_spec': '02.03.01', 'badge': '🔢', 'faculty': 'fkfmn'},
+    'fib': {'name': 'Фундаментальная информатика и ИТ', 'short': 'ФИб', 'code_spec': '02.03.02', 'badge': '💻', 'faculty': 'fkfmn'},
+
+    # ⚙️ ФАВТ
+    'ivtb': {'name': 'Информатика и вычислительная техника', 'short': 'ИВТб', 'code_spec': '09.03.01', 'badge': '🖥', 'faculty': 'favt'},
+    'inbb': {'name': 'Информационная безопасность', 'short': 'ИНБб', 'code_spec': '10.03.01', 'badge': '🔐', 'faculty': 'favt'},
+    'iktb': {'name': 'Инфокоммуникационные технологии и системы связи', 'short': 'ИКТб', 'code_spec': '11.03.02', 'badge': '📡', 'faculty': 'favt'},
+    'utb': {'name': 'Управление в технических системах', 'short': 'УТб', 'code_spec': '27.03.04', 'badge': '⚙️', 'faculty': 'favt'},
+    'inbs': {'name': 'Информационная безопасность телеком. систем (Специалитет)', 'short': 'ИНБс', 'code_spec': '10.05.02', 'badge': '🛡', 'faculty': 'favt'},
+
+    # ⚡️ ЭТФ
+    'eieb': {'name': 'Электроэнергетика и электротехника', 'short': 'ЭиЭб', 'code_spec': '13.03.02', 'badge': '⚡️', 'faculty': 'etf'},
+    'mrb': {'name': 'Мехатроника и робототехника', 'short': 'МРб', 'code_spec': '15.03.06', 'badge': '🤖', 'faculty': 'etf'},
+    'titb': {'name': 'Теплоэнергетика и теплотехника', 'short': 'ТиТб', 'code_spec': '13.03.01', 'badge': '🔥', 'faculty': 'etf'},
+
+    # 🏗 ФСА
+    'stb': {'name': 'Строительство', 'short': 'СТб', 'code_spec': '08.03.01', 'badge': '🏗', 'faculty': 'fsa'},
+    'tbb': {'name': 'Техносферная безопасность', 'short': 'ТБб', 'code_spec': '20.03.01', 'badge': '🦺', 'faculty': 'fsa'},
+    'gsb': {'name': 'Городское строительство и хозяйство', 'short': 'ГСб', 'code_spec': '08.03.01', 'badge': '🏙', 'faculty': 'fsa'},
+
+    # 🎨 ФТИД
+    'msb': {'name': 'Машиностроение', 'short': 'МСб', 'code_spec': '15.03.01', 'badge': '🏭', 'faculty': 'ftid'},
+    'thob': {'name': 'Технология художественной обработки материалов', 'short': 'ТХОб', 'code_spec': '29.03.04', 'badge': '🏺', 'faculty': 'ftid'},
+    'mtb': {'name': 'Материаловедение и технологии материалов', 'short': 'МТб', 'code_spec': '22.03.01', 'badge': '🔬', 'faculty': 'ftid'},
+    'mlb': {'name': 'Металлургия', 'short': 'МЛб', 'code_spec': '22.03.02', 'badge': '⚒', 'faculty': 'ftid'},
+    'db': {'name': 'Дизайн', 'short': 'Дб', 'code_spec': '54.03.01', 'badge': '🎨', 'faculty': 'ftid'},
+    'ptks': {'name': 'Проектирование технологических машин (Специалитет)', 'short': 'ПТКс', 'code_spec': '15.05.01', 'badge': '⚙️', 'faculty': 'ftid'},
+
+    # 🧪 ИнХимЭк
+    'htb': {'name': 'Химическая технология', 'short': 'ХТб', 'code_spec': '18.03.01', 'badge': '🧪', 'faculty': 'inhe'},
+    'hmb': {'name': 'Химия', 'short': 'ХМб', 'code_spec': '04.03.01', 'badge': '⚗️', 'faculty': 'inhe'},
+    'ggb': {'name': 'География', 'short': 'ГГб', 'code_spec': '05.03.02', 'badge': '🌍', 'faculty': 'inhe'},
+    'ldb': {'name': 'Ландшафтная архитектура', 'short': 'ЛДб', 'code_spec': '35.03.10', 'badge': '🌳', 'faculty': 'inhe'},
+
+    # 🌿 ИнБиоБиз
+    'bb': {'name': 'Биология', 'short': 'Бб', 'code_spec': '06.03.01', 'badge': '🧬', 'faculty': 'inbio'},
+    'btb': {'name': 'Биотехнология', 'short': 'БТб', 'code_spec': '19.03.01', 'badge': '🧫', 'faculty': 'inbio'},
+
+    # ⚖️ ЮИ
+    'yurb': {'name': 'Юриспруденция', 'short': 'ЮРб', 'code_spec': '40.03.01', 'badge': '⚖️', 'faculty': 'ui'},
+    'pnbs': {'name': 'Правовое обеспечение нац. безопасности (Специалитет)', 'short': 'ПНБс', 'code_spec': '40.05.01', 'badge': '🛡', 'faculty': 'ui'},
+    'tads': {'name': 'Таможенное дело (Специалитет)', 'short': 'ТАДс', 'code_spec': '38.05.02', 'badge': '📦', 'faculty': 'ui'},
+    'pds': {'name': 'Правоохранительная деятельность (Специалитет)', 'short': 'ПДс', 'code_spec': '40.05.02', 'badge': '🚔', 'faculty': 'ui'},
+
+    # 💰 ФЭФ
+    'eknb': {'name': 'Экономика', 'short': 'ЭКНб', 'code_spec': '38.03.01', 'badge': '📈', 'faculty': 'fef'},
+    'bib': {'name': 'Бизнес-информатика', 'short': 'БИб', 'code_spec': '38.03.05', 'badge': '💼', 'faculty': 'fef'},
+    'ebs': {'name': 'Экономическая безопасность (Специалитет)', 'short': 'ЭБс', 'code_spec': '38.05.01', 'badge': '💳', 'faculty': 'fef'},
+
+    # 💼 ФМС
+    'mnb': {'name': 'Менеджмент', 'short': 'МНб', 'code_spec': '38.03.02', 'badge': '📊', 'faculty': 'fms'},
+    'gmb': {'name': 'Государственное и муниципальное управление', 'short': 'ГМб', 'code_spec': '38.03.04', 'badge': '🏛', 'faculty': 'fms'},
+    'inb': {'name': 'Инноватика', 'short': 'ИНб', 'code_spec': '27.03.05', 'badge': '💡', 'faculty': 'fms'},
+    'trb': {'name': 'Туризм', 'short': 'ТРб', 'code_spec': '43.03.02', 'badge': '✈️', 'faculty': 'fms'},
+    'upb': {'name': 'Управление персоналом', 'short': 'УПб', 'code_spec': '38.03.03', 'badge': '👥', 'faculty': 'fms'},
+
+    # 🏛 ФИПНиК
+    'isb': {'name': 'История', 'short': 'ИСб', 'code_spec': '46.03.01', 'badge': '📜', 'faculty': 'fipnik'},
+    'ormb': {'name': 'Организация работы с молодежью', 'short': 'ОРМб', 'code_spec': '39.03.03', 'badge': '🤝', 'faculty': 'fipnik'},
+    'scb': {'name': 'Социология', 'short': 'СЦб', 'code_spec': '39.03.01', 'badge': '👥', 'faculty': 'fipnik'},
+
+    # 🗣 ФЛ
+    'lvb': {'name': 'Лингвистика', 'short': 'ЛВб', 'code_spec': '45.03.02', 'badge': '🗣', 'faculty': 'fl'},
+
+    # 🌍 ФМО
+    'lvb_mo': {'name': 'Лингвистика (Международное образование)', 'short': 'ЛВб', 'code_spec': '45.03.02', 'badge': '🌍', 'faculty': 'fmo'},
+
+    # 📚 ФРЯЛиМ
+    'rsob': {'name': 'Реклама и связи с общественностью', 'short': 'РСОб', 'code_spec': '42.03.01', 'badge': '📢', 'faculty': 'fryalim'},
+    'zhkb': {'name': 'Журналистика', 'short': 'ЖКб', 'code_spec': '42.03.02', 'badge': '📰', 'faculty': 'fryalim'},
+    'flb': {'name': 'Филология', 'short': 'ФЛб', 'code_spec': '45.03.01', 'badge': '📖', 'faculty': 'fryalim'},
+
+    # 🧠 ФПиП
+    'plb': {'name': 'Психология', 'short': 'ПЛб', 'code_spec': '37.03.01', 'badge': '🧠', 'faculty': 'fpip'},
+    'sdob': {'name': 'Специальное (дефектологическое) образование', 'short': 'СДОб', 'code_spec': '44.03.03', 'badge': '🧸', 'faculty': 'fpip'},
+
+    # 🎓 Пединститут
+    'podb': {'name': 'Педагогическое образование', 'short': 'ПОДб', 'code_spec': '44.03.05', 'badge': '👩‍🏫', 'faculty': 'ped'},
+
+    # 🏃‍♂️ ФФКиС
+    'fkb': {'name': 'Физическая культура', 'short': 'ФКб', 'code_spec': '49.03.01', 'badge': '⚽️', 'faculty': 'ffkis'},
+    'afkb': {'name': 'Адаптивная физическая культура', 'short': 'АФКб', 'code_spec': '49.03.02', 'badge': '🏃‍♂️', 'faculty': 'ffkis'},
 }
 
 DEFAULT_SUPPORTED_GROUPS = {
@@ -161,40 +300,88 @@ DEFAULT_SUPPORTED_GROUPS = {
 GROUPS_FILE = 'groups.json'
 
 
+FAC_MAPPING = [
+    ('компьютерных', 'fkfmn'),
+    ('автоматики', 'favt'),
+    ('электротехнический', 'etf'),
+    ('строительства', 'fsa'),
+    ('технологий', 'ftid'),
+    ('химии', 'inhe'),
+    ('биологии', 'inbio'),
+    ('юридический', 'ui'),
+    ('экономики', 'fef'),
+    ('менеджмента', 'fms'),
+    ('истории', 'fipnik'),
+    ('лингвистики', 'fl'),
+    ('международного', 'fmo'),
+    ('русского', 'fryalim'),
+    ('педагогики', 'fpip'),
+    ('пединститута', 'ped'),
+    ('физической', 'ffkis'),
+]
+
+PREF_AND_FAC = {
+    (d['faculty'], d['short']): k for k, d in DIRECTIONS.items()
+}
+PREF_AND_FAC[('fmo', 'ЛВб')] = 'lvb_mo'
+PREF_AND_FAC[('fl', 'ЛВб')] = 'lvb'
+
+
 def discover_groups(soup):
     """
-    Автоматически находит все группы на странице расписания ВятГУ для поддерживаемых направлений.
-    Возвращает словарь {group_id: {name, course, direction, full_name, code}}.
+    Автоматически находит все группы на странице расписания ВятГУ для всех 17 факультетов.
+    Возвращает словарь {group_id: {name, course, direction, faculty, full_name, code}}.
     """
     if soup is None:
         return {}
 
-    short_to_dir = {d['short']: k for k, d in DIRECTIONS.items()}
+    bachelor_header = soup.find('div', class_='headerEduPrograms', string=lambda t: t and 'Бакалавр' in t)
+    magistr_header = soup.find('div', class_='headerEduPrograms', string=lambda t: t and 'Магистр' in t)
+
     discovered = {}
 
-    for it in soup.find_all('div', class_='grpPeriod'):
-        full_name = it.text.strip()
-        raw_pid = it.get('data-grp_period_id', '').strip()
-        if not raw_pid:
-            continue
-        # ID группы в ссылках на PDF (отсекаем номер периода/семестра, если он приписан в конце)
-        grp_id = raw_pid[:-1] if len(raw_pid) > 5 else raw_pid
+    for f in soup.find_all('div', class_='fak_name'):
+        # Сканируем секции между Бакалавриатом и Магистратурой (включает Бакалавриат и Специалитет)
+        if bachelor_header and magistr_header:
+            if not (bachelor_header.sourceline <= f.sourceline < magistr_header.sourceline):
+                continue
 
-        m = re.match(r'^([А-Яа-яЁё]+)-(\d{4})', full_name)
-        if not m:
+        f_text = f.text.strip().lower()
+        fac_key = None
+        for kw, k in FAC_MAPPING:
+            if kw in f_text:
+                fac_key = k
+                break
+        if not fac_key:
             continue
-        short_pref, number = m.group(1), m.group(2)
-        course_digit = int(number[0])
 
-        if short_pref in short_to_dir:
-            dir_key = short_to_dir[short_pref]
-            name = f'{short_pref}-{number}'
-            code = number if dir_key == 'pmib' else f'{dir_key}_{number}'
+        td = f.find_parent('td')
+        if not td:
+            continue
+
+        for g in td.find_all('div', class_='grpPeriod'):
+            txt = g.text.strip()
+            raw_pid = g.get('data-grp_period_id', '').strip()
+            if not raw_pid:
+                continue
+            grp_id = raw_pid[:-1] if len(raw_pid) > 5 else raw_pid
+            m = re.match(r'^([А-Яа-яЁё]+)-(\d{4})', txt)
+            if not m:
+                continue
+            pref, num = m.group(1), m.group(2)
+            if pref.endswith('м') or pref.endswith('а'):
+                continue
+            course_digit = int(num[0])
+
+            dir_key = PREF_AND_FAC.get((fac_key, pref), f'{fac_key}_{pref.lower()}')
+            code = num if dir_key == 'pmib' else f'{dir_key}_{num}'
+
             discovered[grp_id] = {
-                'name': name,
+                'name': f'{pref}-{num}',
                 'course': course_digit,
                 'direction': dir_key,
-                'full_name': full_name,
+                'faculty': fac_key,
+                'full_name': txt,
                 'code': code
             }
 
@@ -265,6 +452,30 @@ def save_cache(cache):
     os.replace(tmp_file, CACHE_FILE)
 
 
+def get_pdf_urls_map(soup):
+    """Индексирует все актуальные PDF-файлы на странице расписания за один быстрый проход O(N)."""
+    pdf_pattern = re.compile(r'/reports/schedule/Group/(\d+)_\d+_(\d{8})_(\d{8})\.pdf')
+    today = datetime.date.today()
+    pdf_map = {}
+    for a_tag in soup.find_all('a', href=pdf_pattern):
+        href = a_tag['href']
+        m = pdf_pattern.search(href)
+        if m:
+            gid, start_str, end_str = m.group(1), m.group(2), m.group(3)
+            try:
+                start_date = datetime.datetime.strptime(start_str, '%d%m%Y').date()
+                end_date = datetime.datetime.strptime(end_str, '%d%m%Y').date()
+                if end_date >= today:
+                    full_url = urljoin('https://old.vyatsu.ru', href)
+                    pdf_map.setdefault(gid, []).append((start_date, full_url))
+            except Exception:
+                continue
+
+    for gid in pdf_map:
+        pdf_map[gid].sort(key=lambda x: x[0])
+    return pdf_map
+
+
 def get_group_pdf_urls(group_id=DEFAULT_GROUP_ID, soup=None):
     """Ищет на сайте ВятГУ актуальные PDF-файлы для конкретной группы."""
     if soup is None:
@@ -274,23 +485,8 @@ def get_group_pdf_urls(group_id=DEFAULT_GROUP_ID, soup=None):
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, 'html.parser')
 
-    pattern = re.compile(rf'/reports/schedule/Group/{group_id}_\d+_(\d{{8}})_(\d{{8}})\.pdf')
-    today = datetime.date.today()
-    valid_urls = []
-
-    for a_tag in soup.find_all('a', href=pattern):
-        href = a_tag['href']
-        match = pattern.search(href)
-        if match:
-            start_str, end_str = match.group(1), match.group(2)
-            start_date = datetime.datetime.strptime(start_str, '%d%m%Y').date()
-            end_date = datetime.datetime.strptime(end_str, '%d%m%Y').date()
-            if end_date >= today:
-                full_url = urljoin('https://old.vyatsu.ru', href)
-                valid_urls.append((start_date, full_url))
-
-    valid_urls.sort(key=lambda x: x[0])
-    return valid_urls
+    pdf_map = get_pdf_urls_map(soup)
+    return pdf_map.get(group_id, [])
 
 
 def detect_weekday(text):
@@ -437,6 +633,9 @@ def update_schedule():
     cache = load_cache()
     try:
         session = requests.Session()
+        adapter = requests.adapters.HTTPAdapter(pool_connections=16, pool_maxsize=16, max_retries=3)
+        session.mount('https://', adapter)
+        session.mount('http://', adapter)
         resp = session.get(SCHEDULE_PAGE_URL, headers=HEADERS, timeout=25)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, 'html.parser')
@@ -465,28 +664,56 @@ def update_schedule():
             SUPPORTED_GROUPS.update(loaded)
 
     if soup:
+        pdf_map = get_pdf_urls_map(soup)
+        tasks = []
         for gid, ginfo in SUPPORTED_GROUPS.items():
-            pdf_items = get_group_pdf_urls(gid, soup=soup)
-            for start_date, url in pdf_items:
-                logging.info(f"[{ginfo['name']}] Проверяю: {url} (старт: {start_date})")
-                try:
-                    resp = requests.get(url, headers=HEADERS, timeout=30)
-                    resp.raise_for_status()
-                except Exception as e:
-                    logging.warning(f"Ошибка скачивания {url}: {e}")
-                    continue
-                content_hash = hashlib.sha256(resp.content).hexdigest()
+            for start_date, url in pdf_map.get(gid, []):
+                tasks.append((gid, ginfo['name'], start_date, url))
 
-                if cache['processed_urls'].get(url) == content_hash:
-                    continue
+        etags = cache.setdefault('etags', {})
 
-                logging.info(f"[{ginfo['name']}] Обнаружен новый или измененный PDF! Парсинг...")
+        def process_pdf_item(item):
+            gid, gname, start_date, url = item
+            req_headers = dict(HEADERS)
+            cached_etag = etags.get(url)
+            if url in cache['processed_urls'] and cached_etag:
+                req_headers['If-None-Match'] = cached_etag
+
+            try:
+                resp = session.get(url, headers=req_headers, timeout=30)
+                if resp.status_code == 304:
+                    return None  # Файл не менялся
+                resp.raise_for_status()
+            except Exception as e:
+                logging.warning(f"Ошибка скачивания {url}: {e}")
+                return None
+
+            content_hash = hashlib.sha256(resp.content).hexdigest()
+            new_etag = resp.headers.get('ETag')
+            if cache['processed_urls'].get(url) == content_hash:
+                if new_etag and cached_etag != new_etag:
+                    etags[url] = new_etag
+                return None
+
+            logging.info(f"[{gname}] Обнаружен новый или измененный PDF! Парсинг: {url}")
+            try:
                 new_lessons = parse_vyatsu_pdf(resp.content, start_date, group_id=gid)
-                for lesson in new_lessons:
-                    cache['lessons'][lesson['uid']] = lesson
+                return (url, content_hash, new_etag, new_lessons)
+            except Exception as e:
+                logging.error(f"[{gname}] Ошибка парсинга PDF {url}: {e}")
+                return None
 
-                cache['processed_urls'][url] = content_hash
-                has_changes = True
+        logging.info(f"Начало обработки {len(tasks)} PDF-расписаний с 8 потоками...")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+            for result in executor.map(process_pdf_item, tasks):
+                if result:
+                    url, content_hash, new_etag, new_lessons = result
+                    for lesson in new_lessons:
+                        cache['lessons'][lesson['uid']] = lesson
+                    cache['processed_urls'][url] = content_hash
+                    if new_etag:
+                        etags[url] = new_etag
+                    has_changes = True
 
     # Очистка устаревших пар: оставляем за последние 30 дней, все будущие и только для поддерживаемых групп
     threshold_date = (datetime.datetime.now(TIMEZONE) - datetime.timedelta(days=30)).isoformat()
@@ -499,6 +726,11 @@ def update_schedule():
         url: h for url, h in cache['processed_urls'].items()
         if any(f"Group/{gid}_" in url for gid in SUPPORTED_GROUPS)
     }
+    if 'etags' in cache:
+        cache['etags'] = {
+            url: e for url, e in cache['etags'].items()
+            if url in cache['processed_urls']
+        }
 
     save_cache(cache)
     all_lessons = list(cache['lessons'].values())

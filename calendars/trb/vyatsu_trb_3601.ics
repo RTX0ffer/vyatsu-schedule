@@ -1,0 +1,383 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ТРб-3601
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мишутинская Е.А.\nМесто: корп. 14\, ауд. 316
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 316
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Деловая коммуникация на иностранном языке (Практическое занятие)
+UID:695c5c40a9b5e98df6294c2b920ef00e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Буторин А.В.\nМесто: корп. 14\, ауд. 202
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Конструирование туров в природной среде (Лекция)
+UID:0758106611e54827a4208d42a1cb225a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Веприкова А.А.\nМесто: корп. 14\, ауд. 130
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Туристско-рекреационное проектирование (Практическое занятие)
+UID:a03d50a5003e13e08779d004e7ac048f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 108
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Волейбол (Практическое занятие)
+UID:a92629d0428021b3ab5743fed4b9e69d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Деветьярова И.П.\nМесто: корп. 14\, ауд. 332
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 332
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Организация ресторанного и гостиничного дела (Лекция)
+UID:2e981fa859908742e391990fa8df6b28@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мишутинская Е.А.\nМесто: корп. 14\, ауд. 332
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 332
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Деловая коммуникация на иностранном языке (Практическое занятие)
+UID:855be6ea9cb16b8bf52bb3504feaf230@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Стрельникова И.В.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 106
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 106
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Адаптивная физическая культура (Практическое занятие)
+UID:bd54f297f68b0c9b078846b434e6c57f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сметанина А.И.\nМесто: корп. 14\, ауд. 143
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 143
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Туристско-рекреационное проектирование (Лекция)
+UID:53c6f487802be03386fae556bc25006f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шпенглер А.В.\nМесто: корп. 14\, ауд. 113
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Территориальное планирование и управление в сфере туризма (Лекция)
+UID:3cd82436972f7744441ecd3f535545c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шпенглер А.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Территориальное планирование и управление в сфере туризма (Лекция)
+UID:f4a8c82fb2323c0a97c01466c22441a9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 14\, ауд. 113
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинг (Лекция)
+UID:bdf12dcad0ec67778e8c6004e343edf3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Веприкова А.А.\nМесто: корп. 14\, ауд. 143
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 143
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Туристско-рекреационное проектирование (Практическое занятие)
+UID:52e490f94e8de67cacfda0f693fcc9b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шпенглер А.В.\nМесто: корп. 16\, ауд. 201
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 201
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Территориальное планирование и управление в сфере туризма (Практическое занятие)
+UID:90c65f4b11d3523780f37b0d48065c73@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шпенглер А.В.\nМесто: корп. 14\, ауд. 130
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Территориальное планирование и управление в сфере туризма (Практическое занятие)
+UID:d9c14ecab4733c216b89205f6ed0dbf6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Стрельникова И.В.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 106
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 106
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Адаптивная физическая культура (Практическое занятие)
+UID:eb20236aefcf9213c525a366833998c6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Боков А.В.\nПодгруппа: 1\nМесто: корп. 13\, ауд. 001
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 13\, ауд. 001
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:95818a777419107c1b2a9385a0595f97@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мишутинская Е.А.\nМесто: корп. 14\, ауд. 316
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 316
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Деловая коммуникация на иностранном языке (Практическое занятие)
+UID:4b07af7d4d2b6b7bbf251d2cdb045df1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Буторин А.В.
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Конструирование туров в природной среде (Практическое занятие)
+UID:2e38644d178c4a70553a8de5f653e2f9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плюснина Ю.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 115
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:f3fab273ed6d617e3d8c1a16c38f367b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Деветьярова И.П.\nМесто: корп. 14\, ауд. 114
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Организация ресторанного и гостиничного дела (Лекция)
+UID:d51bfcf9cb2865ab3db840b66e9b008f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плюснина Ю.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 115
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:f7a3b51885926961c808b4a35afc85e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сметанина А.И.\nМесто: корп. 14\, ауд. 113
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Туристско-рекреационное проектирование (Лекция)
+UID:d6d9c10456d71536e2cb20813f4552e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 147
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Общая физическая подготовка (Практическое занятие)
+UID:8c0628e1684b4ec690f36f523d7fbe35@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Деветьярова И.П.\nМесто: корп. 14\, ауд. 335
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Организация ресторанного и гостиничного дела (Практическое занятие)
+UID:c1dffc4cb209af07d9af6d1b5d8bab74@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261031T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261031T142000Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:6fd280b89182f8b713afec7b765d0928@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Веприкова А.А.\nМесто: корп. 14\, ауд. 130
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Туристско-рекреационное проектирование (Практическое занятие)
+UID:3786fd0608b4f10d29d12a144bd99d33@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Боков А.В.\nПодгруппа: 1\nМесто: корп. 13\, ауд. 001
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 13\, ауд. 001
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:acb11ad0930939004df3dbf886018a1d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 14\, ауд. 113
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинг (Практическое занятие)
+UID:d146d02d6fcc85ac161a7f6bcba6fd36@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Деветьярова И.П.\nМесто: корп. 14\, ауд. 130
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Организация ресторанного и гостиничного дела (Практическое занятие)
+UID:460be97d10735dd00ccc242e1843b625@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:db3d364c55651135d8c50d3107579af6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 147
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Общая физическая подготовка (Практическое занятие)
+UID:4365545c83f15ef9d03744c22a2d5484@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261107T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261107T142000Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:2d9bfdce30f174c664c5112184c35a9a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 108
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Волейбол (Практическое занятие)
+UID:f2854853cafa27b76f451ce03e52708b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:c4012452a4b6c55750c117837a1ca046@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

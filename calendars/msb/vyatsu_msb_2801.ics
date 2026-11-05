@@ -1,0 +1,934 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ МСб-2801
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 439
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:82c85f43f2cc0a3e825d278304fa3b49@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Козлов В.А.\nМесто: корп. 1\, ауд. 439
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Сопротивление материалов (Лекция)
+UID:afa91ad001832029da299bf6112f3c88@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nПодгруппа: 1\nМесто: корп. 10\, ауд. 206
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование объектов в машиностроении (Лабораторная работа)
+UID:a94d11b71601ac4fdb052143f71ab828@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Козлов В.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 100а
+DTEND:20261120T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 100а
+DTSTART:20261120T142000Z
+STATUS:CONFIRMED
+SUMMARY:Сопротивление материалов (Лабораторная работа)
+UID:f4410d5bece99de1294cf9b0ff29ea15@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование объектов в машиностроении (Лабораторная работа)
+UID:3dd8d68a82ac7f914d70dd5b9db98160@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nПодгруппа: 1\nМесто: корп. 10\, ауд. 206
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование объектов в машиностроении (Лабораторная работа)
+UID:0ee39804e045eebfeebd126a968284a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плюснин Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 026
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 026
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лабораторная работа)
+UID:20b7fe27216edf2bbd01dcae7f31c6b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грачев С.П.\nПодгруппа: 1\nМесто: корп. 10\, ауд. 215
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии машиностроительного производства (Лабораторная работа)
+UID:a5106e793c828aff520bf5aa8b281fc8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 203
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы расчета и инженерного анализа технических систем (Практическое занятие)
+UID:6f22ab28a4af1d367efc23ea5e4f66fb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 214
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы расчета и инженерного анализа технических систем (Практическое занятие)
+UID:aa6bf5e6c68b3ced4395702bae7028f0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плюснин Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 026
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 026
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лабораторная работа)
+UID:1f1120800030e98ea3fe3ed90d0f95e5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сенников А.И.\nМесто: корп. 6\, ауд. 311
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 311
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:510f87b5fee2be560e538db4d5045a2a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:f2bfcea0fff1e4cf3a7514488f59b787@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nПодгруппа: 1\nМесто: корп. 10\, ауд. 206
+DTEND:20261119T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261119T052000Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование объектов в машиностроении (Лабораторная работа)
+UID:b7a76f39f21fa563396121a5455d0def@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Козлов В.А.\nМесто: корп. 1\, ауд. 439
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Сопротивление материалов (Лекция)
+UID:c1d8f0a83d4e260b81cd9534360f54dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грачев С.П.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии машиностроительного производства (Лабораторная работа)
+UID:67b9e5240199b23df273c9d4872c8f5f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Удалов А.В.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 436
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 436
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория механизмов и машин (Лабораторная работа)
+UID:7141e4d32106938bc3adb881c9adba01@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 2\, ауд. 403
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 2\, ауд. 403
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:f34b9e0ef90b53227739943e947fc08d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Козлов В.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 100а
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 100а
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Сопротивление материалов (Лабораторная работа)
+UID:0b1f98688052f2b83d3ae8fec18e2efc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Козлов В.А.\nМесто: корп. 1\, ауд. 439
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Сопротивление материалов (Лекция)
+UID:4d15a3d8530a8e5d7b019607f8622404@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 115
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:93324a1c8ae3b13ea78b33349791889d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Удалов А.В.\nМесто: корп. 1\, ауд. 436
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 436
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория механизмов и машин (Практическое занятие)
+UID:0fcf4cea5a6fbaafa297f7f9f88641c7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плюснин Е.С.\nМесто: корп. 1\, ауд. 128
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лекция)
+UID:9481cdc450ea55ad2934f87425089373@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 214
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методы расчета и инженерного анализа технических систем (Лекция)
+UID:5806039151259e7b83afc418a5dba587@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смертин С.А.\nМесто: корп. 10\, ауд. 205
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 205
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Введение в проектную деятельность (Практическое занятие)
+UID:fc09495d2cbb4e9a9a1c118d29fc241e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование объектов в машиностроении (Лабораторная работа)
+UID:381ba67555a7ec38b51f08db4b360fc1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плюснин Е.С.\nМесто: корп. 1\, ауд. 242
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лекция)
+UID:afb7746f9d7f1ec40b5f65a8cd5d2a3d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сенников А.И.\nМесто: корп. 6\, ауд. 311
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 311
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:1da50b2476e60bd1d3cc0013250c3f6f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Козлов В.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 100а
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 100а
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Сопротивление материалов (Лабораторная работа)
+UID:1a1fdb0fb759d824ec564c01c1587415@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Козлов В.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 100а
+DTEND:20261120T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 100а
+DTSTART:20261120T142000Z
+STATUS:CONFIRMED
+SUMMARY:Сопротивление материалов (Лабораторная работа)
+UID:36aaa19b115e32ce5438c6fdb4d8ad6f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Грачев С.П.\nМесто: корп. 10\, ауд. 214
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии машиностроительного производства (Лекция)
+UID:76e8cb937b70a5e5e6194902118829dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плюснин Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 026
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 026
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лабораторная работа)
+UID:86dc8e4d184dc9ed6c71c9942022b32c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 534
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:ab3e1b7ed12a0f399d481cbdbddee136@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плюснин Е.С.\nМесто: корп. 1\, ауд. 128
+DTEND:20261110T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261110T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лекция)
+UID:326349e2e3a05f932d6837779bf3e890@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 534
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:457e0ad2c1d078e148b61299d5512454@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 115
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:769f39c4eb071121f20f7de6be26ea18@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:f0d307801f3368e29028102fd15abcf6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:eb4ecb0a86029274505ba8c3c996d92f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плюснин Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 026
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 026
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лабораторная работа)
+UID:0715437d395a6c11d7d0caaad32da37f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Удалов А.В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 436
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 436
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория механизмов и машин (Лабораторная работа)
+UID:2505ee9da494f1c7615ec2e32a62ad68@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Козлов В.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 100а
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 100а
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Сопротивление материалов (Лабораторная работа)
+UID:5453c2309b887cc700ed60fbd0de74bf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смертин С.А.\nМесто: корп. 10\, ауд. 205
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 205
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в проектную деятельность (Практическое занятие)
+UID:2f9ba52e26ecc3cbed7e12b4acc2334d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261119T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261119T052000Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование объектов в машиностроении (Лабораторная работа)
+UID:a714e2f5d8dc1489553dc35f64a69dd1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 439
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:bc5e5c921a6ee6af07072ef49c34fa56@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плюснин Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 026
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 026
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лабораторная работа)
+UID:1f3cef09e73d114f87997b5000f1aee3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грачев С.П.\nПодгруппа: 1\nМесто: корп. 10\, ауд. 215
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии машиностроительного производства (Лабораторная работа)
+UID:4661b51c702097ab1fa18407477ec925@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Удалов А.В.\nМесто: корп. 1\, ауд. 439
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория механизмов и машин (Лекция)
+UID:727e5831be2297107c8f547c18bd22c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Удалов А.В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 436
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 436
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория механизмов и машин (Лабораторная работа)
+UID:b128df19020e0748a11b10c66562e1bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 115
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:f445f9e0aa0604e7ad9a39b772b762a6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 2\, ауд. 405
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 2\, ауд. 405
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:809a4958160d67b29d6ab3e032216ae3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грачев С.П.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии машиностроительного производства (Лабораторная работа)
+UID:7c37c63695869b549a9fb5eb6542df9f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Козлов В.А.\nМесто: корп. 1\, ауд. 439
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Сопротивление материалов (Лекция)
+UID:90f66dc43b3ebda7cb4a51dc56049610@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Удалов А.В.\nМесто: корп. 1\, ауд. 439
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория механизмов и машин (Лекция)
+UID:e5cda59dc0549ff108389189e65c7bab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Удалов А.В.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 436
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 436
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория механизмов и машин (Лабораторная работа)
+UID:a11d294e2c5b2a078af5869fae8034b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смертин С.А.\nМесто: корп. 10\, ауд. 205
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 205
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в проектную деятельность (Практическое занятие)
+UID:04b4a4cddced6ca1f2083a836631ae98@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 214
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методы расчета и инженерного анализа технических систем (Лекция)
+UID:7931de917d07727e276224e438602cf1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Грачев С.П.\nМесто: корп. 10\, ауд. 214
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии машиностроительного производства (Лекция)
+UID:dc9d1d66f50cf8f115cdb32895cf3761@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Удалов А.В.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 436
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 436
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория механизмов и машин (Лабораторная работа)
+UID:3285dfb10f1aff9e192b908e55cc713e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грачев С.П.\nПодгруппа: 1\nМесто: корп. 10\, ауд. 215
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии машиностроительного производства (Лабораторная работа)
+UID:191cf6c19561dcaf27aa70aa33ae2ed6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование объектов в машиностроении (Лабораторная работа)
+UID:9c058ded3a7696e2d1bc30fb18227a9c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:2f85ed82b4642c14fb43eefc3e8738ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 203
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы расчета и инженерного анализа технических систем (Практическое занятие)
+UID:2a6a112a39717c21fce88b6c7fa9de30@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 2\, ауд. 403
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 2\, ауд. 403
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:3762e431b26684ddb23de8c06d47d7c7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плюснин Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 026
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 026
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лабораторная работа)
+UID:34082b1fe5d21ad9e599025f2ffdb9ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Козлов В.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 100а
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 100а
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Сопротивление материалов (Лабораторная работа)
+UID:9104160cf025e953bd35980e5849d7b2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плюснин Е.С.\nМесто: корп. 1\, ауд. 242
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лекция)
+UID:8631e3be7f2cf0f075577ea9df98f66b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 439
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:53f2801f371d5a86606bf28a939a6b28@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nПодгруппа: 1\nМесто: корп. 10\, ауд. 206
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование объектов в машиностроении (Лабораторная работа)
+UID:25a1837d7769b33a4d4ce7e5b3ffd91d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 214
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы расчета и инженерного анализа технических систем (Практическое занятие)
+UID:579dca25174b5245fcc574524205586d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 2\, ауд. 405
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 2\, ауд. 405
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:a1fa58156b7090377a30772d469adfc1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Козлов В.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 100а
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 100а
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Сопротивление материалов (Лабораторная работа)
+UID:2952658f34d2ac1013763639a7025ab1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Удалов А.В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 436
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 436
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория механизмов и машин (Лабораторная работа)
+UID:1d6c76b5682d169567edd8d222c20e33@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Удалов А.В.\nМесто: корп. 1\, ауд. 436
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 436
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория механизмов и машин (Практическое занятие)
+UID:f899ddb6ed9b492eaffc37a6c4d8a55f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грачев С.П.\nПодгруппа: 1\nМесто: корп. 10\, ауд. 215
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии машиностроительного производства (Лабораторная работа)
+UID:e696bc9cb71843ffc46ccfc5fc373bfc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плюснин Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 026
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 026
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лабораторная работа)
+UID:dd0b5513a0bae052b62ec61b5b1eba61@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смертин С.А.\nМесто: корп. 10\, ауд. 205
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 205
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Введение в проектную деятельность (Практическое занятие)
+UID:e4985ca07929d3bd7d6bdaaad1db56f1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Удалов А.В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 436
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 436
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория механизмов и машин (Лабораторная работа)
+UID:447a4e964ca949befc5a71a8c597ab06@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плюснин Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 026
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 026
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лабораторная работа)
+UID:25a602fb09e65f58b9bae6f9841021b9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Козлов В.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 100а
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 100а
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Сопротивление материалов (Лабораторная работа)
+UID:a67bbd1f027597ffa48522b991a042db@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грачев С.П.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии машиностроительного производства (Лабораторная работа)
+UID:75ed5a28ef35b843a23a8aff7a3c1e3d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Удалов А.В.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 436
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 436
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория механизмов и машин (Лабораторная работа)
+UID:8fa9cc084fab9c7cc16d14d5195a8765@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 115
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:d69133dd5cf5e827bed20102bd5fd639@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Грачев С.П.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии машиностроительного производства (Лабораторная работа)
+UID:72000a95a4b2c9697f8b94f74f68f79a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 439
+DTEND:20261117T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261117T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:c03b35567505b4ae7a0f50d28f46ee8f@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

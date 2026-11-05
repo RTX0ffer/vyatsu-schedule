@@ -1,0 +1,307 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЭБс-1601 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Куклин А.В.\nМесто: корп. 16\, ауд. 300
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:5cae13ef03c81dea95e85da56d944d2c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Федянина О.Н.\nМесто: корп. 14\, ауд. 314
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 314
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:1ecc13f62ccde8d9d158ada52fffb8a8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ряттель А.В.\nМесто: корп. 16\, ауд. 207
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:8f573a17af203bd835c6dda181e4537b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Каранина Е.В.\nМесто: корп. 16\, ауд. 322
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в специальность (Практическое занятие)
+UID:e24cca38e9f773fe29bd097336166dc5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Токарева П.В.\nМесто: корп. 16\, ауд. 121
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Национальная безопасность (Практическое занятие)
+UID:1257dcfc528ae223900ebd1b683804f1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шевченко А.И.\nМесто: корп. 16\, ауд. 112
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 112
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:452711570b26c865505d0b3eb09b7f7e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шевченко А.И.\nМесто: корп. 16\, ауд. 112
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 112
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:336eeae71045f7960d449c6a382c1ef9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Каранина Е.В.\nМесто: корп. 16\, ауд. 322
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Введение в специальность (Практическое занятие)
+UID:531095b8a8021fab7a363e8c0e69382d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Копытина Ю.А.\nМесто: корп. 14\, ауд. 338
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Лекция)
+UID:2364c8fed8a0e2beb21ba424691fe1d2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Куклин А.В.\nМесто: корп. 14\, ауд. 338
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:2dc28c14a59581f946ccf70ba6a4de03@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Копытина Ю.А.\nМесто: корп. 14\, ауд. 334
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 334
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Лекция)
+UID:e1534ee906fbeff6c99bb322fd217940@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ряттель А.В.\nМесто: корп. 16\, ауд. 121
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:e2d73236622d776812f96771a687ece0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ряттель А.В.\nМесто: корп. 16\, ауд. 207
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:06f9a8553a6f92d3e97a7781dc70adf4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Федянина О.Н.\nМесто: корп. 14\, ауд. 338
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Лекция)
+UID:81d23bfdeccc5d20f5b77d4dd68779a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 16\, ауд. 216
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 216
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Практическое занятие)
+UID:8d3e030b66b676ef7d85ccb4eb965b67@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шевченко А.И.\nМесто: корп. 16\, ауд. 112
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 112
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:73e5bf66628c6e153b44761d8faa0188@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев А.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:eb1aa0e6b3accdf8bf32a482dd4e7a48@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Каранина Е.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в специальность (Лекция)
+UID:cbd71fa76b9aeadda0e553cd92800517@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев А.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:48e6627d1a310d02d0aebe6c35bfef7e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ряттель А.В.\nМесто: корп. 16\, ауд. 121
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:669cf71698a1347ddebad157586cb8b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Федянина О.Н.\nМесто: корп. 14\, ауд. 314
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 314
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:f8ef7b46bd82ac6e175991c19650d804@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Куклин А.В.\nМесто: корп. 16\, ауд. 300
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:1b8bb2e72b0a0cccb13681f306bdc5a1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копытина Ю.А.\nМесто: корп. 16\, ауд. 216
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 216
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая теория (Практическое занятие)
+UID:86e2573d926834b614ae29a10ceb6412@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Беличева Т.В.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:c55c8fde660424c0304212df8ae5017b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Беличева Т.В.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:1a2dca79062c133fbe159ea73d275cde@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Токарева П.В.\nМесто: корп. 16\, ауд. 121
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Национальная безопасность (Лекция)
+UID:8d6970f8f8e8b7adbd7ba39d79442f9d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Токарева П.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Национальная безопасность (Лекция)
+UID:beff46b67d704a88b71833be20f1dc8e@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

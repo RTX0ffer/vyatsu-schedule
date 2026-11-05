@@ -1,0 +1,428 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ХТб-4502
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:26913741c63b64823b498aebc339a3b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 502
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:39a8d60fe6ce6dda0522fbee8f2d2302@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Камалов К.О.\nМесто: корп. 1\, ауд. 516
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Оборудование химических производств (Лекция)
+UID:b9434572f5cd6e0a48b5840083a94ad4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Камалов К.О.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 502
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Оборудование химических производств (Лабораторная работа)
+UID:6964d973b04a2cc84365924b6fce5644@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Камалов К.О.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 502
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Оборудование химических производств (Лабораторная работа)
+UID:343f3db306075701b33fa51a0174eb3b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Камалов К.О.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 502
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Оборудование химических производств (Лабораторная работа)
+UID:488e978b8b81170b8c3c8bc5ac9aa4d1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:58f8dfd75bcdf6beb783df78b19a01a0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 502
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Химическая технология неорганических веществ (Лабораторная работа)
+UID:a7966e403d8586f536cf7e45dfbbb71c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 502
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Химическая технология неорганических веществ (Лабораторная работа)
+UID:3442a3171a5d9d67ccf2aaf2afbd6620@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 502
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:cfa62495d8a367cbfeae8165d44d7d88@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бушуев А.Н.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 511
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 511
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная гальванотехника (Лабораторная работа)
+UID:f0ac97ffaf903ae23d70974c0cbefaf9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бушуев А.Н.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 511
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 511
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная гальванотехника (Лабораторная работа)
+UID:b946c8273a78fe0b9c7bd0bd537bf141@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Михайлова И.Ю.\nМесто: корп. 1\, ауд. 531
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная гальванотехника (Практическое занятие)
+UID:0d42fa81ef0feb5106c91801feb4d768@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Камалов К.О.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 502
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Оборудование химических производств (Лабораторная работа)
+UID:fcf93db158a149c331bb6d836e047e8d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Камалов К.О.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 502
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Оборудование химических производств (Лабораторная работа)
+UID:627cbf6b460d02b14e4623fc264dce7e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бушуев А.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 511
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 511
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная гальванотехника (Лабораторная работа)
+UID:eeae7eca921dabb5e1920018363ae62a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 502
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:29fcbbcd0cf6985d6586026b349614fc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 511
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 511
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:147a80229c76ea678220175de6ec1bd5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 511
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 511
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:144d7e09f906d58077ec48f19393edb5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 502
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:ee7f754fed1d2bb3461a9c6d591aa0af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бушуев А.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 511
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 511
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная гальванотехника (Лабораторная работа)
+UID:88382d1e357aa065fc14ad9111fbd8a6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 502
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:332f60c00e7e8d12d2da315c0a67aa86@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Михайлова И.Ю.\nМесто: корп. 1\, ауд. 531
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Химическая технология неорганических веществ (Лекция)
+UID:2ee69d16c2e7fe08de2d599d2f52d4dc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 511
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 511
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:a302ffb6fbe03521220cdad00c12bc02@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 502
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:e210429b6f964f30b56f8d4c4031f283@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 502
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Химическая технология неорганических веществ (Лабораторная работа)
+UID:804fbb6113d5e6555db3874a9d760a42@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:b7b56b4b428a335b458c02f3f982bbe6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Камалов К.О.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 502
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Оборудование химических производств (Лабораторная работа)
+UID:6740c39098548ad7cdcce4d8af2633fc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бушуев А.Н.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 511
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 511
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная гальванотехника (Лабораторная работа)
+UID:8fed9b96884aa313594048b2d0e1b129@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 511
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 511
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:b64f758c98d32f88c0efa88d52d575cb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 502
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Химическая технология неорганических веществ (Лабораторная работа)
+UID:4810f4a479a1c53af8352983c6b001af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 502
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Химическая технология неорганических веществ (Лабораторная работа)
+UID:4271810812a9622ba7403fa514429392@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бушуев А.Н.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 511
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 511
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная гальванотехника (Лабораторная работа)
+UID:4500e20ceeb9bb53428afa11fb64cd6f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 511
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 511
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:5c2188c496087d773f4ee3fe1d6f7806@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 502
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Химическая технология неорганических веществ (Лабораторная работа)
+UID:42d6690c00077477d817e8c087624ac8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:f1b47e4eabb9fe0874f59866c1cd9e4a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Михайлова И.Ю.\nМесто: корп. 1\, ауд. 531
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная гальванотехника (Лекция)
+UID:d3f1821a99d98b033d7797c0c10fffeb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Михайлова И.Ю.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 511
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 511
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области нанесения металлов и их соединений (Лабораторная работа)
+UID:4b131a9e76e836747838bef5a10e8080@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

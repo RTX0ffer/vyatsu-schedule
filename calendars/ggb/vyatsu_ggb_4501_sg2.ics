@@ -1,0 +1,585 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ГГб-4501 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 122
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области географии (Лабораторная работа)
+UID:11de3e87fe2c3fc2c95aaec710cc22f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы дистанционного зондирования Земли (Лекция)
+UID:5814eeb14091e4f16ed43a1d9b893551@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 122
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области географии (Лабораторная работа)
+UID:e574f3ba4c4eaa4edc75baf651347870@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 122
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области географии (Лабораторная работа)
+UID:61fe5c3269ff6a4f049cd498b61adc04@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география России (Лекция)
+UID:5495ff5a7c3315cd1d9da7f896b95f9e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география России (Лекция)
+UID:23f32abe8c083c46d119b636cc5a46ab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:815efd0f8716323307759419e56eed8c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 127
+DTEND:20261118T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 127
+DTSTART:20261118T052000Z
+STATUS:CONFIRMED
+SUMMARY:Визуализация и анализ географических данных (Лабораторная работа)
+UID:ad39a6c72f9cda73de37dd1269cd56f3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы дистанционного зондирования Земли (Лабораторная работа)
+UID:52fa998e024c07f5071086fd15bd7849@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:5e58991019bc443e04ca8259bbf529b3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 122
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области географии (Лабораторная работа)
+UID:24cbba712afc13e49bb138363e17d0bf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 127
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 127
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Визуализация и анализ географических данных (Лабораторная работа)
+UID:377bbc13148fc4ea9044670952454a8e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география мира (Практическое занятие)
+UID:3b312bc144fa719fbaa890ca47d5a5c6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Визуализация и анализ географических данных (Лекция)
+UID:de7aeab45b5bd9347dd589629a25e442@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы дистанционного зондирования Земли (Лабораторная работа)
+UID:b974fa262f3d962fd20f45197d5be4d9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 122
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области географии (Лабораторная работа)
+UID:e992e5beb15fe055c5d69cc1a7e9a860@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы дистанционного зондирования Земли (Лабораторная работа)
+UID:c71925d0ba071f7e704a33f9bce7c1be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география России (Практическое занятие)
+UID:6d1b66734d31913ae7a8b49347cb2380@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы дистанционного зондирования Земли (Лабораторная работа)
+UID:5b5a0e95e29e951aca231ee3ba9a446a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 122
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области географии (Лабораторная работа)
+UID:c6822d3847d18ee1ee7592bd575340bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261110T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261110T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы дистанционного зондирования Земли (Лекция)
+UID:578e860ed54049fe516c646967f5e665@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы дистанционного зондирования Земли (Лекция)
+UID:f42cf4767739f32035d26234d48382da@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261112T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261112T052000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география мира (Лекция)
+UID:cc01f05891eed8820926214507d5b683@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география России (Лекция)
+UID:f59aaaf439a593fe5f20762f849752fc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география мира (Практическое занятие)
+UID:d92f2739d9cfc8cad96fccbd05b123c7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы дистанционного зондирования Земли (Лекция)
+UID:5df433dafa6de9116ed7586805242408@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:aee06e15740edf1735288b05ec8001ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 122
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области географии (Лабораторная работа)
+UID:41e312f4820028e25ff38c8ed0e916f9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 122
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области географии (Лабораторная работа)
+UID:ea4b180d532500930e2c09dda1e3a722@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география России (Практическое занятие)
+UID:3c550573ab79e805c2253c5b5b4e7d30@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география мира (Практическое занятие)
+UID:8436b1093c168da0f22e981a57e44456@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география России (Практическое занятие)
+UID:836babf1bc38fa0ed34ba6b647ce78dc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы дистанционного зондирования Земли (Лабораторная работа)
+UID:e7629334824821504734c204ba4e03ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы дистанционного зондирования Земли (Лабораторная работа)
+UID:be983b4d0296fe054ed712923f1a401c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 122
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области географии (Лабораторная работа)
+UID:bf6e01c2e65aa56d43ac1a00a0204b2a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география мира (Лекция)
+UID:5bdbefbc9a3ab246137d115d5c2a2ad1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география мира (Лекция)
+UID:f148d9df8019e931c40fa53b8d0f6efe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 122
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области географии (Лабораторная работа)
+UID:caa26d799bb5b496825b1bfa1fe06ca3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 122
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Визуализация и анализ географических данных (Лабораторная работа)
+UID:592fcaeb0ff21e70815040446b64af45@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география России (Практическое занятие)
+UID:dcea296ab0e3c894d239078104ec9c17@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы дистанционного зондирования Земли (Лабораторная работа)
+UID:e62a7acc91ce869ff5f3a8c968862852@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 122
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Визуализация и анализ географических данных (Лабораторная работа)
+UID:2567f660516919f29c576dcac7603ea3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 122
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Визуализация и анализ географических данных (Лабораторная работа)
+UID:8a349a36140094853f6bf9dbf9c093a2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы дистанционного зондирования Земли (Лабораторная работа)
+UID:f30441a801d879e42fe077ff97adf637@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:f64e18cd26d8127451304284d5c11de9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261117T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261117T052000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география мира (Лекция)
+UID:5f857567c715380f980660546648f6c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 122
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области географии (Лабораторная работа)
+UID:502c179ac255e01dd0b036995a0b4201@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Визуализация и анализ географических данных (Лекция)
+UID:9452afe99002b0e58adaeff5d37ebb17@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 122
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Визуализация и анализ географических данных (Лабораторная работа)
+UID:fc4e5ccd770c233e5a1a3cd4c3e9a71c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вартан И.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Визуализация и анализ географических данных (Лекция)
+UID:b67c11f5c91aab9bcba47d593ed467a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Матушкин А.С.\nМесто: корп. 15\, ауд. 122
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 122
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области географии (Лабораторная работа)
+UID:6a232c7be454bdafb43bcc81c3f82525@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география мира (Практическое занятие)
+UID:c8e3e4f3553b8b5a46f68f10c7ce475a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алалыкина И.Ю.\nМесто: корп. 15\, ауд. 305
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 305
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая и социальная география России (Лекция)
+UID:2d19103dc476e1451e8bbcf2e2fd9a4f@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

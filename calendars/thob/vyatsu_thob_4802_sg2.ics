@@ -1,0 +1,196 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ТХОб-4802 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Калабина О.В.
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии изготовления детских изделий (Лабораторная работа)
+UID:0b9f08e6c8021909f0212b702a58b9b9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 352
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 352
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование изделий сложных форм (Лабораторная работа)
+UID:a9df09605fb50119c09c5e47147411ec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 157
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 157
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Оборудование и технологии художественной обработки материалов (Лабораторная работа)
+UID:5bbc09e9e1bbccaaf41b24d504f8ccf1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Калабина О.В.\nМесто: корп. 17\, ауд. 457
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 457
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии в индустрии моды (Лекция)
+UID:322d56363883be79a3cbffd904c1f968@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 531
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:f7e132014c59a690e4258ad726b7b88e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 352
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 352
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование изделий сложных форм (Лекция)
+UID:05f10f96db1149f7215651bbe6027451@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Подготовка производства художественно-промышленных изделий (Лабораторная работа)
+UID:21304fd8caea60ea7507c63cef4ee489@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Подготовка производства художественно-промышленных изделий (Лабораторная работа)
+UID:a80fe1b2789b0084ddd4407bcf37a075@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калабина О.В.\nМесто: корп. 17\, ауд. 457
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 457
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии в индустрии моды (Практическое занятие)
+UID:8dde6b9fc3d1e489a296b8656698c4d1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Земцов М.И.\nМесто: корп. 1\, ауд. 311
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Оборудование и технологии художественной обработки материалов (Лекция)
+UID:f9a20622f22885c787ff5a38c4f62d02@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 352
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 352
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование изделий сложных форм (Лабораторная работа)
+UID:f3e25de30962175a5358b092c0ed5aa8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кривошеина Н.В.\nМесто: корп. 4\, ауд. 705
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 4\, ауд. 705
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование и прототипирование художественно-промышленных изделий (Лабораторная работа)
+UID:1e04e0e8f48f4433d4aa9bb6d6c39bdb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Калабина О.В.\nМесто: корп. 17\, ауд. 157
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 157
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии изготовления детских изделий (Лекция)
+UID:a0851d9a381e5601dce9d6bd1982c655@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 157
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 157
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Оборудование и технологии художественной обработки материалов (Лабораторная работа)
+UID:98f5957ba0454100897ae1746b1bfb30@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 531
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:a4789be1bf3a7b9d05a5c133e75bc3c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 352
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 17\, ауд. 352
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование изделий сложных форм (Лабораторная работа)
+UID:04515f1cfc7f39b46276588dddfb7454@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кривошеина Н.В.\nМесто: корп. 4\, ауд. 705
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 4\, ауд. 705
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование и прототипирование художественно-промышленных изделий (Лабораторная работа)
+UID:129281f05540d71bc71c8b7f73a2dcf1@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

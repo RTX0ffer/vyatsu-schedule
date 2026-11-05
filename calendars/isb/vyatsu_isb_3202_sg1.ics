@@ -1,0 +1,578 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ИСб-3202 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кустова Е.В.\nМесто: корп. 14\, ауд. 202
+DTEND:20261109T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261109T052000Z
+STATUS:CONFIRMED
+SUMMARY:Публичная история (Практическое занятие)
+UID:bc0eaef4b7a127058f83ce7c17280030@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рычкова О.В.\nМесто: корп. 14\, ауд. 209
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 209
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Новая история стран Европы и Америки (Лекция)
+UID:28fe7b685630e43aae0c05a5044fa12c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Половникова М.Ю.\nМесто: корп. 14\, ауд. 222
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Историография отечественной истории (Лекция)
+UID:a25f428eecf2bc5e215617e6669827b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мешенина Н.В.\nПодгруппа: 1\nМесто: корп. 13\, ауд. 001
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 13\, ауд. 001
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Атлетическая гимнастика (Практическое занятие)
+UID:64475b52523fba3c2af982bfdc676b52@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мешенина Н.В.\nПодгруппа: 1\nМесто: корп. 13\, ауд. 001
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 13\, ауд. 001
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Атлетическая гимнастика (Практическое занятие)
+UID:0370cb5752259102994c174cd2c1dbc8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ефимова Н.М.\nМесто: корп. 14\, ауд. 202
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Политическая культура (Практическое занятие)
+UID:f8f887456549905f1be1ea802ee2b0dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Машковцева В.В.\nМесто: корп. 14\, ауд. 210
+DTEND:20261112T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261112T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России XIX - начала XX веков (Лекция)
+UID:f3cfd9ded08f04c061f3959f99749692@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рычкова О.В.\nМесто: корп. 14\, ауд. 202
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Новая история стран Европы и Америки (Практическое занятие)
+UID:25760ae59ca915c9ed643a8e0fcef9a7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мокерова Е.Ю.\nМесто: корп. 14\, ауд. 214
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Региональная и национальная идентичность (Практическое занятие)
+UID:9682d7456d05e3eb798347c77df3f9b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Половникова М.Ю.\nМесто: корп. 14\, ауд. 222
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Историография отечественной истории (Практическое занятие)
+UID:95693dffc96699794e8b12adb17a4cef@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ефимова Н.М.\nМесто: корп. 14\, ауд. 202
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Политическая культура (Практическое занятие)
+UID:abe866dd84eac56b8f66aa3f56d70950@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Половникова М.Ю.\nМесто: корп. 14\, ауд. 222
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Историография отечественной истории (Лекция)
+UID:44ed711c6027a1ed061fe56b557ec3bf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Половникова М.Ю.\nМесто: корп. 14\, ауд. 222
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Историография отечественной истории (Лекция)
+UID:d52aa51395ed5cc8b03fb7814e77a5b7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кустова Е.В.\nМесто: корп. 14\, ауд. 202
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Публичная история (Практическое занятие)
+UID:cb766dd87284fa051c8ce5a12b0183c5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Машковцева В.В.\nМесто: корп. 14\, ауд. 329
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 329
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:История России XIX - начала XX веков (Лекция)
+UID:2b34172d44933863558c805b08e01c88@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Тарасов К.Н.\nМесто: корп. 14\, ауд. 222
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Военная история России (Лекция)
+UID:7fb60042f5f9a1c7dc3e9965d450a051@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ефимова Н.М.\nМесто: корп. 14\, ауд. 214
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Политическая культура (Лекция)
+UID:2997144126e735d808a328c55bfd02f0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мешенина Н.В.\nПодгруппа: 1\nМесто: корп. 13\, ауд. 001
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 13\, ауд. 001
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Атлетическая гимнастика (Практическое занятие)
+UID:c4b450e5698c2181a89ab544d26eea3f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рычкова О.В.\nМесто: корп. 14\, ауд. 209
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 209
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Новая история стран Европы и Америки (Лекция)
+UID:7ef402c723e6aa2ca8a6bfc9220c63c4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рычкова О.В.\nМесто: корп. 14\, ауд. 328
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Новая история стран Европы и Америки (Практическое занятие)
+UID:9b6b9363ad0b99bb0652caee35f59ba3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кустова Е.В.\nМесто: корп. 14\, ауд. 202
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 202
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Публичная история (Практическое занятие)
+UID:0a712087fa9a3b17fd831e92e980c463@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мокерова Е.Ю.\nМесто: корп. 14\, ауд. 214
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Региональная и национальная идентичность (Лекция)
+UID:928b53e6f9cf007d47621966fcb3e7e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рычкова О.В.\nМесто: корп. 14\, ауд. 328
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Новая история стран Европы и Америки (Лекция)
+UID:f16a548d711edc9cf0c230179121fae4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рычкова О.В.\nМесто: корп. 14\, ауд. 328
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Новая история стран Европы и Америки (Практическое занятие)
+UID:1ec7fd2b71f75b7f382f192a713773ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Машковцева В.В.\nМесто: корп. 14\, ауд. 210
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России XIX - начала XX веков (Лекция)
+UID:fa503125016a6314aa259a9adfe5941e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ефимова Н.М.\nМесто: корп. 14\, ауд. 214
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Политическая культура (Лекция)
+UID:c79561683c92cb4277219bccc5efa0d9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Половникова М.Ю.\nМесто: корп. 14\, ауд. 222
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Историография отечественной истории (Практическое занятие)
+UID:024bf85a8b47ff776bfe9fa61cd2a6a8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Машковцева В.В.
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:История России XIX - начала XX веков (Практическое занятие)
+UID:1d85cb97a033928bbeeb1fe1d614a042@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ефимова Н.М.\nМесто: корп. 14\, ауд. 209
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 209
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Политическая культура (Практическое занятие)
+UID:158345daa7e7cfb73dd62853ed8a77a9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Машковцева В.В.
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России XIX - начала XX веков (Практическое занятие)
+UID:bc5e92057a9f777da0fdbd55a281ed38@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Машковцева В.В.\nМесто: корп. 14\, ауд. 329
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 329
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:История России XIX - начала XX веков (Лекция)
+UID:5cd1336bfb0d84aaf3f1ccbcbb916d2d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасов К.Н.\nМесто: корп. 14\, ауд. 222
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Военная история России (Практическое занятие)
+UID:9920e2ceffe715fd912ada142d3e8872@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мокерова Е.Ю.\nМесто: корп. 14\, ауд. 214
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Региональная и национальная идентичность (Лекция)
+UID:e1d6f88932c7eeb4f0906098738fc967@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рычкова О.В.\nМесто: корп. 14\, ауд. 221
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Новая история стран Европы и Америки (Практическое занятие)
+UID:15ccf25de95ae78f28c5f53922415e01@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рычкова О.В.\nМесто: корп. 14\, ауд. 328
+DTEND:20261119T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261119T052000Z
+STATUS:CONFIRMED
+SUMMARY:Новая история стран Европы и Америки (Лекция)
+UID:76aa350e26653d237c2e3a926a7441a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Половникова М.Ю.\nМесто: корп. 14\, ауд. 222
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Историография отечественной истории (Практическое занятие)
+UID:68d17aa749b42cde940061e24489368b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мокерова Е.Ю.\nМесто: корп. 14\, ауд. 214
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Региональная и национальная идентичность (Практическое занятие)
+UID:9ac61ef78135401f941bc7bd108a8e5d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мокерова Е.Ю.\nМесто: корп. 14\, ауд. 233
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 233
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Региональная и национальная идентичность (Практическое занятие)
+UID:2cb70ccb1a684ee81747b439883d5f1c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Тарасов К.Н.\nМесто: корп. 14\, ауд. 222
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Военная история России (Лекция)
+UID:b68552b459a5e6b0905082250ff70021@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасов К.Н.\nМесто: корп. 14\, ауд. 328
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Военная история России (Практическое занятие)
+UID:bf249fac55b88f8d4c81c3e7747e05bd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Машковцева В.В.
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:История России XIX - начала XX веков (Практическое занятие)
+UID:401469a8d7f077666a3587092d011f1a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кустова Е.В.\nМесто: корп. 14\, ауд. 209
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 209
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:Публичная история (Лекция)
+UID:caeaa192892234e926b37e7a8c558ceb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Половникова М.Ю.\nМесто: корп. 14\, ауд. 222
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Историография отечественной истории (Практическое занятие)
+UID:fe07f4d52e35b1a6e4a35a9ffbbdc539@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мешенина Н.В.\nПодгруппа: 1\nМесто: корп. 13\, ауд. 001
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 13\, ауд. 001
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Атлетическая гимнастика (Практическое занятие)
+UID:58773a5142f264ceeb4a0ac981d269b3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рычкова О.В.\nМесто: корп. 14\, ауд. 221
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Новая история стран Европы и Америки (Практическое занятие)
+UID:1c002ed2476867298114593ef5da94d5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кустова Е.В.\nМесто: корп. 14\, ауд. 209
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 209
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Публичная история (Лекция)
+UID:7977ef09922a9b80eab48aceedb6ea78@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасов К.Н.\nМесто: корп. 14\, ауд. 328
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Военная история России (Практическое занятие)
+UID:5c8ee7615d271bd880e8eff425094d32@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Машковцева В.В.
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России XIX - начала XX веков (Практическое занятие)
+UID:a92ae2bce283748540cb85b6db8896bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мокерова Е.Ю.\nМесто: корп. 14\, ауд. 233
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 233
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Региональная и национальная идентичность (Практическое занятие)
+UID:25411e4e07f0b2441381361781d2e41c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ефимова Н.М.\nМесто: корп. 14\, ауд. 209
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 209
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Политическая культура (Практическое занятие)
+UID:16cd43ea2351a19a71632054f937080f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Половникова М.Ю.\nМесто: корп. 14\, ауд. 222
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Историография отечественной истории (Лекция)
+UID:c695ace00664ea2f81242d6dac4069b9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасов К.Н.\nМесто: корп. 14\, ауд. 222
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 14\, ауд. 222
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Военная история России (Практическое занятие)
+UID:13075ae66efaf7eda24fdd1dc3a75616@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

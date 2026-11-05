@@ -1,0 +1,351 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ТАДс-3901 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Таможенные платежи (Лекция)
+UID:ab50fa3dac59194216316bceb443abad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261031T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261031T142000Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:63763a318414710da9f04c8c2dcceb1a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Ценообразование во внешней торговле (Лекция)
+UID:9f202e7989e96ab9faa5b5c149a5c299@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Ценообразование во внешней торговле (Практическое занятие)
+UID:7da5614e24d56c41848102aad12ad355@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Нобель Н.А.\nМесто: корп. 13\, ауд. 405
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Уголовный процесс (Практическое занятие)
+UID:fdedde17924d2eacba452b563c960966@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Митрошихина В.Д.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Институты административного и таможенного права\, регулирующие деятельность таможенных органов (Лекция)
+UID:6b5b7b4c289295690472baadc8e19521@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Таможенные платежи (Практическое занятие)
+UID:a40cccef5a3ae3f94268a8bf7ffc5db5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Коновалова А.Б.\nМесто: корп. 13\, ауд. 111
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Уголовный процесс (Лекция)
+UID:7edbd33afca804d57a6a7b291b272a67@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Ценообразование во внешней торговле (Практическое занятие)
+UID:96627745f06c1fe3aa0e026f26d11ecc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасова А.А.\nПодгруппа: 2\nМесто: корп. 19\, ауд. 206
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 19\, ауд. 206
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:5f20317b06255523bdcbce00686ba42d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261107T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261107T142000Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:2771f2be835a3658d1368e72ce5202d6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бабайлов В.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Организация таможенного контроля товаров и транспортных средств (Практическое занятие)
+UID:9e954ef3f4f88e68562e7ea26b41879c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Митрошихина В.Д.\nМесто: корп. 13\, ауд. 405
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Институты административного и таможенного права\, регулирующие деятельность таможенных органов (Практическое занятие)
+UID:4b51f8a2a42689b8868a3113942b9ee3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:dccc02737cfb9b97c0daf38887d84fd2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Нобель Н.А.\nМесто: корп. 13\, ауд. 405
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Уголовный процесс (Практическое занятие)
+UID:8af0607f3ae387cc80203c912efa06ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бабайлов В.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Организация таможенного контроля товаров и транспортных средств (Лекция)
+UID:0e5b8e32be8a08ab61b4877dd0e8a872@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Киселева Н.В.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 115
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Фитнес-аэробика (Практическое занятие)
+UID:03f1db727404d62db756970615b3702f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Котельникова Е.А.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Гражданский процесс (Лекция)
+UID:9cad5704fdd844a71667ebfe0a174a4b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Таможенно-тарифное регулирование внешнеторговой деятельности (Лекция)
+UID:588a45e836626b8daec6ce65a3391cc3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Киселева Н.В.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 115
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Фитнес-аэробика (Практическое занятие)
+UID:b7f0dd683f34c594619bf9aa6f128b46@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Абатуров А.И.\nМесто: корп. 13\, ауд. 408
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Криминология (Практическое занятие)
+UID:638140bd575d8d8fa85e9a5488f2b0b2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Котельникова Е.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Гражданский процесс (Лекция)
+UID:bd492bb91dc46067e33d45232b0f2b33@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Таможенно-тарифное регулирование внешнеторговой деятельности (Практическое занятие)
+UID:73adbeccd17ab1f1a01b0ad9c81e4833@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Коновалова А.Б.\nМесто: корп. 13\, ауд. 111
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Уголовный процесс (Лекция)
+UID:7f29d94ac3b4e19af416dc78d49882d3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасова А.А.\nПодгруппа: 2\nМесто: корп. 19\, ауд. 206
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 19\, ауд. 206
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:f2533632cbc9791ea395fd38a4c783b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:18286101bacf83ffd2634e495d47cac0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Таможенные платежи (Практическое занятие)
+UID:257da58865bd55acdf98b69d3867d31c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бабайлов В.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Организация таможенного контроля товаров и транспортных средств (Практическое занятие)
+UID:1d5e1249a57a473166f80b32bce3bd7e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Митрошихина В.Д.\nМесто: корп. 13\, ауд. 405
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 405
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Институты административного и таможенного права\, регулирующие деятельность таможенных органов (Практическое занятие)
+UID:e0649f447d8cf4d6c5fd137d522a0409@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 110
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Криминология (Лекция)
+UID:7f4be543f9e7f487106395ac7777ab3e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Таможенно-тарифное регулирование внешнеторговой деятельности (Практическое занятие)
+UID:9743cbda3bea1c5d429b82d9519ab422@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

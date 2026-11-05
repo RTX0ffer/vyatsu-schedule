@@ -1,0 +1,262 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ФКб-3702 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вавилов А.Л.\nМесто: корп. 19\, ауд. 322
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 322
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии спортивной тренировки в избранном виде спорта (Практическое занятие)
+UID:2361ac37c48d18b041a3d52b4f29b3fc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 159
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Плавание (Практическое занятие)
+UID:313568ba831bd059e90d5aa43ae16003@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Багина И.С.\nМесто: корп. 19\, ауд. 159
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:a77376818e2f398a68fc8cfc8233bfcd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Багина И.С.\nМесто: корп. 19\, ауд. 304
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 304
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:660acd233cc0f650e415e03b7b3ef4e8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Капустин А.Г.\nМесто: корп. 19\, ауд. 257
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 257
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Научно-методическая деятельность (Практическое занятие)
+UID:ddaf22667476df40e9d6f178caad772b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Овсянникова Е.Ю.\nМесто: корп. 19\, ауд. 159
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Плавание (Практическое занятие)
+UID:2f41dceab4db5e8f62ebbb91f36abe3d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Багина И.С.\nМесто: корп. 19\, ауд. 159
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 159
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:e5788e14802b7ebd3f15d1928408c4b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябова А.Н.\nМесто: корп. 19\, ауд. 260
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Спортивная метрология (Лекция)
+UID:68a15ecd78927cc3115906ac7cce68c9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Капустин А.Г.\nМесто: корп. 19\, ауд. 260
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Научно-методическая деятельность (Практическое занятие)
+UID:93e36e19aec711069d90e93352e6d187@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 19\, ауд. 180
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 180
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Обучение лиц с ОВЗ и особыми образовательными потребностями (Практическое занятие)
+UID:0b50a5d2720a192a096dbae81b6d8e09@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вавилов А.Л.\nМесто: корп. 19\, ауд. 001
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 001
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии спортивной тренировки в избранном виде спорта (Практическое занятие)
+UID:66fc174a18aca26784be22e0872fdd21@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Капустин А.Г.\nМесто: корп. 19\, ауд. 260
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Научно-методическая деятельность (Практическое занятие)
+UID:0143c2c80f57c881a6d29ce7eb750cae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 15\, ауд. 337
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Обучение лиц с ОВЗ и особыми образовательными потребностями (Лекция)
+UID:826376bba53eddb47bc9d57c2fab7c05@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вавилов А.Л.\nМесто: корп. 19\, ауд. 257
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 257
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии спортивной тренировки в избранном виде спорта (Лекция)
+UID:81b81e48dcbb05608f6bd3f98845fc07@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 19\, ауд. 180
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 180
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Обучение лиц с ОВЗ и особыми образовательными потребностями (Практическое занятие)
+UID:27870c3351f63a96379fa778205fc0c9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рябова А.Н.\nМесто: корп. 19\, ауд. 260
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Спортивная метрология (Лекция)
+UID:96eccee33177d534e4f5a52cfd262ef0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Капустин А.Г.\nМесто: корп. 19\, ауд. 257
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 257
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Научно-методическая деятельность (Лекция)
+UID:27fce391e862cdf2cf4ead862a918f40@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рябова А.Н.\nМесто: корп. 19\, ауд. 260
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Спортивная метрология (Практическое занятие)
+UID:1c28780f0f758d94b4a5d9ada5fb343d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ведерникова Е.В.\nМесто: корп. 19\, ауд. 180
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 180
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Психологическая подготовка в спортивной тренировке (Практическое занятие)
+UID:6a89b56e9cd1efca251bb14982495ca5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вавилов А.Л.\nМесто: корп. 19\, ауд. 259
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии спортивной тренировки в избранном виде спорта (Лекция)
+UID:1009fda44f3d6b2f436f413107a315ad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рябова А.Н.\nМесто: корп. 19\, ауд. 259
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Спортивная метрология (Практическое занятие)
+UID:3582343e996df4d75fd9922c0eac97f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Багина И.С.\nМесто: корп. 19\, ауд. 304
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 19\, ауд. 304
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:210ca7d40dba527de32c31b9177f510c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ведерникова Е.В.
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Психологическая подготовка в спортивной тренировке (Лекция)
+UID:a3d212374af82085c19e4d6133d4beb5@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

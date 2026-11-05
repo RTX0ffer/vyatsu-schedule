@@ -1,0 +1,611 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ МСб-3801 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бурдин Н.П.\nМесто: корп. 1\, ауд. 435
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:История дизайна\, науки и техники (Практическое занятие)
+UID:e3fcb8bbbddc4af6a89cfef61b43614a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Системы автоматизированного проектирования (Лабораторная работа)
+UID:a4155ff3e63e2f9e3d71c21a37a7f7bf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Доминтян В.С.\nМесто: корп. 1\, ауд. 439
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Лекция)
+UID:4c776b366d33c9196135c10066486cba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев Д.Г.\nМесто: корп. 10\, ауд. 214
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Системный инжиниринг (Практическое занятие)
+UID:979a36c054c35d85e8be7885efe97117@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Виноградов Д.О.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 200
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 200
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Резание материалов и режущий инструмент (Лабораторная работа)
+UID:4cd6d31c7b6e5d85929b0ef798108b81@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Виноградов Д.О.\nМесто: корп. 10\, ауд. 218
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 218
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Резание материалов и режущий инструмент (Лекция)
+UID:17f168d3cbab080e5ef88997c4efe5b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Виноградов Д.О.\nМесто: корп. 10\, ауд. 200
+DTEND:20261118T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 200
+DTSTART:20261118T052000Z
+STATUS:CONFIRMED
+SUMMARY:Резание материалов и режущий инструмент (Практическое занятие)
+UID:b3221c939c41be105101905f5ff728f8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 608
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Гидравлика и гидропневмопривод (Практическое занятие)
+UID:f5a85c681a6e11347ad07429e8160659@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Поляков С.М.\nПодгруппа: 2
+DTEND:20261113T155000Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261113T142000Z
+STATUS:CONFIRMED
+SUMMARY:Детали машин (Лабораторная работа)
+UID:eb3bf4abcac49e4eae274bec8e126b9b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 215
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование объектов в машиностроении (Лабораторная работа)
+UID:64e71b893a27556f193a4307cdb8f632@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Поляков С.М.\nМесто: корп. 1\, ауд. 433
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 433
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Детали машин (Практическое занятие)
+UID:897b3f0aba233f5baa261d3e9faef0b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261112T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261112T142000Z
+STATUS:CONFIRMED
+SUMMARY:Системы автоматизированного проектирования (Лабораторная работа)
+UID:95f679908f8abb8ab7e3b51f04f0c407@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 215
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование объектов в машиностроении (Лабораторная работа)
+UID:d8f9fd0b8528712700627c3aed5ee1c4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Виноградов Д.О.\nМесто: корп. 10\, ауд. 218
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 218
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Резание материалов и режущий инструмент (Лекция)
+UID:59445359bf18cb81951b36bccf36538d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Доминтян В.С.\nМесто: корп. 1\, ауд. 439
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Лекция)
+UID:959323ccdd75d568823ad7343a81b927@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 604
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Гидравлика и гидропневмопривод (Лекция)
+UID:4a4639c7816e231d77d300dc75a98393@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сущих В.М.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 310
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 310
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Гидравлика и гидропневмопривод (Лабораторная работа)
+UID:bf730648c0be25e2b4b7ef22dd4e870d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:deb0b8f66d3394664a274810954d2e40@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:eba833ac612f365e87339487b58e32be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев Д.Г.\nМесто: корп. 10\, ауд. 214
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Системный инжиниринг (Практическое занятие)
+UID:5af7f7788bce4845f8850150cf6798bc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 218
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 218
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Системы автоматизированного проектирования (Лекция)
+UID:31856001e9dcb272a1e0174fb7544161@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Доминтян В.С.\nМесто: корп. 1\, ауд. 530
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Практическое занятие)
+UID:7ff3ba7fd81d072bf44148e6d7cb05c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бурдин Н.П.\nМесто: корп. 1\, ауд. 435
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:История дизайна\, науки и техники (Практическое занятие)
+UID:be0db68497e66ce1f9013e29ea473729@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:3ca712cb8aa97840ae33d746866e9c2a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Виноградов Д.О.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 200
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 200
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Резание материалов и режущий инструмент (Лабораторная работа)
+UID:50a60668579074de84c33c6abc142c23@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Поляков С.М.\nМесто: корп. 1\, ауд. 433
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 433
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Детали машин (Практическое занятие)
+UID:1ef2148492535cfa1ca2ffd9bb75e266@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 215
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование объектов в машиностроении (Лабораторная работа)
+UID:4020afd278be7fff3624ad96160213c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Поляков С.М.\nПодгруппа: 2
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Детали машин (Лабораторная работа)
+UID:0ad0fdd096215fa3bba7d279e54fc539@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Доминтян В.С.\nМесто: корп. 1\, ауд. 530
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Практическое занятие)
+UID:cc6de5a77104be432fbaca6458d8e309@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Косолапов Е.В.\nМесто: корп. 1\, ауд. 435
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электротехника и электроника (Практическое занятие)
+UID:2423a95fd6b7d61d06d00c589a467977@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Косолапов Е.В.\nМесто: корп. 1\, ауд. 439
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электротехника и электроника (Лекция)
+UID:d2308dab1a76760fef49906f30a4ed2d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 218
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 218
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Системы автоматизированного проектирования (Лекция)
+UID:09c114cf7073d1e38a1123db3b9afdc4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Доминтян В.С.\nМесто: корп. 1\, ауд. 530
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Практическое занятие)
+UID:fe18400e6c8cbea0c359896b32e4a588@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Поляков С.М.\nПодгруппа: 2
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Детали машин (Лабораторная работа)
+UID:816c5eba61718106549183dccf0fb38d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бурдин Н.П.\nМесто: корп. 1\, ауд. 534
+DTEND:20261117T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261117T052000Z
+STATUS:CONFIRMED
+SUMMARY:История дизайна\, науки и техники (Лекция)
+UID:5ccee2e26950dd8eb92a38f0d6b71ee1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Косолапов Е.В.\nМесто: корп. 1\, ауд. 439
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электротехника и электроника (Лекция)
+UID:5bc15226968f5b93bc0b2d923aadc2a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Косолапов Е.В.\nМесто: корп. 1\, ауд. 435
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электротехника и электроника (Практическое занятие)
+UID:ec830f505e1c4703698f6d96615bac78@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Поляков С.М.\nПодгруппа: 2
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Детали машин (Лабораторная работа)
+UID:c1d77e1be57af760397b67ca205a02de@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:0351929095c2cc8fd5dee49d18023d33@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бурдин Н.П.\nМесто: корп. 1\, ауд. 534
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:История дизайна\, науки и техники (Лекция)
+UID:72acb55f7ba2c302d2d2f8112579eabf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Косолапов Е.В.\nМесто: корп. 1\, ауд. 413
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 413
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электротехника и электроника (Лабораторная работа)
+UID:8a6e3f5616c469ed6b2740994444d0cd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев Д.Г.\nМесто: корп. 10\, ауд. 214
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Системный инжиниринг (Практическое занятие)
+UID:17d1eb16e7b4bd560e9e7db859fb959a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Доминтян В.С.\nМесто: корп. 1\, ауд. 530
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Практическое занятие)
+UID:6bc28671cc4ccad1d7abdb10a015bbed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Поляков С.М.\nМесто: корп. 1\, ауд. 433
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 433
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Детали машин (Практическое занятие)
+UID:4a99efd6378e7cf9dbb06edb5de9b04c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 215
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование объектов в машиностроении (Лабораторная работа)
+UID:39a367b4ba9a474fe86a50043848b1e8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Поляков С.М.\nМесто: корп. 1\, ауд. 433
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 433
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Детали машин (Практическое занятие)
+UID:073308fee7b4675c9b6164c904eeeeb3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Косолапов Е.В.\nМесто: корп. 1\, ауд. 413
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 413
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электротехника и электроника (Лабораторная работа)
+UID:5a215aeb42f22b2ee14d688554c9cb4d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сущих В.М.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 310
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 310
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Гидравлика и гидропневмопривод (Лабораторная работа)
+UID:d588e3301ec2b4327af111b2fcbf0783@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 604
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Гидравлика и гидропневмопривод (Лекция)
+UID:480e9d84fd8e17ec8778db1d2bf7c2eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261112T172500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261112T155500Z
+STATUS:CONFIRMED
+SUMMARY:Системы автоматизированного проектирования (Лабораторная работа)
+UID:63b4ad896ca7f27914a39ce21bbfb621@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев Д.Г.\nМесто: корп. 10\, ауд. 214
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Системный инжиниринг (Практическое занятие)
+UID:4ddbf881e9ad835b0c6289c75a6b7aa3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Косолапов Е.В.\nМесто: корп. 1\, ауд. 413
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 413
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электротехника и электроника (Лабораторная работа)
+UID:abc41b1e1af369b8eb5aa15a3a4a63d2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Косолапов Е.В.\nМесто: корп. 1\, ауд. 413
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 413
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электротехника и электроника (Лабораторная работа)
+UID:22a6655ca03104ef8cbfbb8aec08cade@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Системы автоматизированного проектирования (Лабораторная работа)
+UID:e4070c8f105a2b0fee0eb489bd29a49f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 608
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Гидравлика и гидропневмопривод (Практическое занятие)
+UID:85eca9963f4901bd3b6b5f9ba5fe5b39@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

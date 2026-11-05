@@ -1,0 +1,329 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЮРб-3903 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Калинин А.А.\nМесто: корп. 13\, ауд. 105
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 105
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Риторика (Лекция)
+UID:ef5006fcfc06f7081b5bd8cf2b224176@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гребнев И.А.\nМесто: корп. 13\, ауд. 510
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 510
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Земельное право (Практическое занятие)
+UID:3391046aac3dc58c98496b6b1f16e055@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Коновалова А.Б.\nМесто: корп. 13\, ауд. 111
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Уголовный процесс (Лекция)
+UID:83338649308e60abaaf54e8a7b561fa9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Коротаева О.А.\nМесто: корп. 13\, ауд. 110
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Налоговое право (Лекция)
+UID:705f798b7544e9bbb177716a00569051@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Боков А.В.\nПодгруппа: 1\nМесто: корп. 13\, ауд. 001
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 001
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:4192669ff808e97ca05c0b6dcf7ff474@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гребнев И.А.\nМесто: корп. 13\, ауд. 111
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Земельное право (Лекция)
+UID:074d40a572c106ed65a4615ec7ac9fdf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суслов В.А.\nМесто: корп. 13\, ауд. 407
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 407
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии в сфере права (Практическое занятие)
+UID:6c6c0fd580ad8bf5d078676bba23188c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коновалова А.Б.\nМесто: корп. 13\, ауд. 509
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 509
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Уголовный процесс (Практическое занятие)
+UID:c5fa20a8849d285cc6338d5129504422@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинин А.А.\nМесто: корп. 13\, ауд. 511
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Риторика (Практическое занятие)
+UID:934e928effce7a387af8663cef8c602b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симахина Н.В.\nМесто: корп. 1\, ауд. 516
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Международное частное право (Практическое занятие)
+UID:19be57912afbaf2f1763c801306f2817@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Суслов В.А.\nМесто: корп. 13\, ауд. 407
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 407
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии в сфере права (Лекция)
+UID:d2341dcf64c31e45f89ca8326efd5757@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротаева О.А.\nМесто: корп. 13\, ауд. 608
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Налоговое право (Практическое занятие)
+UID:a55e3e3eb1b4638925716734d1558243@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симахина Н.В.\nМесто: корп. 1\, ауд. 516
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Международное частное право (Практическое занятие)
+UID:74eef11bb5ec107189646262bd054d9e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суслов В.А.\nМесто: корп. 13\, ауд. 407
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 407
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии в сфере права (Практическое занятие)
+UID:d02d57415349fec439748fb80ad5a1cd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коновалова А.Б.\nМесто: корп. 13\, ауд. 509
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 509
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Уголовный процесс (Практическое занятие)
+UID:bffe02884cd275eb891671cb4a3c40c5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасова А.А.\nПодгруппа: 1\nМесто: корп. 19\, ауд. 206
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 19\, ауд. 206
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Адаптивная физическая культура (Практическое занятие)
+UID:83e9bf8a74858fb27eb78c12d0e5a08c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гребнев И.А.\nМесто: корп. 13\, ауд. 510
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 510
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Земельное право (Практическое занятие)
+UID:bdc60661b77b2784f667a6bfe1840579@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 110
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Криминология (Лекция)
+UID:91cfc16e46e869c4b037669f3fe7a7e1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мосечкин И.Н.\nМесто: корп. 13\, ауд. 408
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Криминология (Практическое занятие)
+UID:b1124eecf75cc138aed3c14bcb20f53a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Коновалова А.Б.\nМесто: корп. 13\, ауд. 111
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 111
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Уголовный процесс (Лекция)
+UID:fb3a036756768c001163e8c8ad8c47e9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Симахина Н.В.\nМесто: корп. 13\, ауд. 110
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Международное частное право (Лекция)
+UID:2dbf1fef3a0dd126d20f3a34c59eff47@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плотников Д.А.\nМесто: корп. 13\, ауд. 110
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Гражданский процесс (Лекция)
+UID:902d4affcba306ae932e34f2d2355fc7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плотников Д.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Гражданский процесс (Практическое занятие)
+UID:47c8fbb3c10bdb93097fa23ea7bbc5bc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плотников Д.А.\nМесто: корп. 13\, ауд. 110
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Гражданский процесс (Лекция)
+UID:7a9ae67dbd5bbd3f9e735a83273dc7f9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плотников Д.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Гражданский процесс (Практическое занятие)
+UID:af4d385d405ceb9b8076a466b04fe6d6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинин А.А.\nМесто: корп. 13\, ауд. 511
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Риторика (Практическое занятие)
+UID:a837b437f295d668c5f3c0fff1f6c0ce@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротаева О.А.\nМесто: корп. 13\, ауд. 608
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Налоговое право (Практическое занятие)
+UID:b61dca8a3c39089ab44628f410a54a6f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Боков А.В.\nПодгруппа: 1\nМесто: корп. 13\, ауд. 001
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 001
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:9b71f9233935360225191c73b73597ef@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасова А.А.\nПодгруппа: 1\nМесто: корп. 19\, ауд. 206
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 19\, ауд. 206
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Адаптивная физическая культура (Практическое занятие)
+UID:4a8f63cd7eea9928293ca120b1e213c5@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

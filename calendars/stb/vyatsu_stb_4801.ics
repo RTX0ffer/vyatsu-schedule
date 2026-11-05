@@ -1,0 +1,1044 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ СТб-4801
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Тарасова О.И.\nМесто: корп. 6\, ауд. 403
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование и технология строительства автомобильных дорог (Лабораторная работа)
+UID:a4f65df15577c5f30fed7b8d89403519@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вологжанина С.А.\nПодгруппа: 1\nМесто: корп. 6\, ауд. 210
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Лекция)
+UID:65c6cc7f1e65debd18de93195bd42cd3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Крутикова М.В.\nПодгруппа: 2\nМесто: корп. 6\, ауд. 204
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Лекция)
+UID:18b0f4633927a5ff421e3b0188219c12@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Тарасова О.И.\nМесто: корп. 6\, ауд. 403
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование и технология строительства автомобильных дорог (Лабораторная работа)
+UID:627336fc3e80092f00549b1d8676f98b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Крутикова М.В.\nПодгруппа: 2\nМесто: корп. 6\, ауд. 204
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Лекция)
+UID:e6d22d9576d2f7cd8ae34472fe1c3921@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова А.К.\nМесто: корп. 6\, ауд. 204
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение с основами электротехники (Лекция)
+UID:7d109ba0964d2a7983c7d389ec505bd7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пешнина И.В.\nМесто: корп. 6\, ауд. 210
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование строительных конструкций с автоматизацией строительного проектирования (Лекция)
+UID:fe94e8c30f70e972356cee7257c7ee4a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасова О.И.\nМесто: корп. 6\, ауд. 403
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование и технология строительства автомобильных дорог (Практическое занятие)
+UID:e563c068f5d36409e2b5649df9ab4414@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Волоцкой А.Н.\nМесто: корп. 6\, ауд. 405
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 405
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование строительных конструкций с автоматизацией строительного проектирования (Лабораторная работа)
+UID:b33b74a20781d131fd8f032913a8fc88@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Брызгалова К.В.\nМесто: корп. 1\, ауд. 423
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 423
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектурно-строительное проектирование (Практическое занятие)
+UID:c4252780450985b2f04cf6d238845a80@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасова О.И.\nМесто: корп. 6\, ауд. 403
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование и технология строительства автомобильных дорог (Практическое занятие)
+UID:d6fcf4a3aaa0a39dc19812fb705d2671@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шалагинова Е.В.\nПодгруппа: 1\nМесто: корп. 6\, ауд. 311
+DTEND:20261111T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 311
+DTSTART:20261111T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Практическое занятие)
+UID:37bbd25e610a58013529ffd1a61f4661@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:601cfebf665a135a22427207f605c46f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Брызгалова К.В.\nМесто: корп. 1\, ауд. 423
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 423
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектурно-строительное проектирование (Практическое занятие)
+UID:277d26a079e79fb8210983cdba742f85@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Тарасова О.И.\nМесто: корп. 6\, ауд. 403
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование и технология строительства автомобильных дорог (Лекция)
+UID:b66083576ff3e2f15074a0bc9ab3d137@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шалагинова Е.В.\nПодгруппа: 1\nМесто: корп. 6\, ауд. 311
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 311
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Практическое занятие)
+UID:22f310863cbea13bfd1cff66220b55f7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова А.К.\nМесто: корп. 6\, ауд. 204
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение с основами электротехники (Лекция)
+UID:cc0ecc57ae8abfd005e58050b9b6145d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:a9d73e12614f3b0d3e5eaa27901f956a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261121T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261121T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:8745d198022f09b1d07d0870220fc13d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:f68cf118e497e427619b4f24d6cb8f10@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вологжанина С.А.\nМесто: корп. 6\, ауд. 204
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Организация и планирование в строительстве (Лекция)
+UID:c762fa635e6fa23fc026ca47377bcef2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волоцкой А.Н.\nМесто: корп. 6\, ауд. 405
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 405
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование строительных конструкций с автоматизацией строительного проектирования (Практическое занятие)
+UID:437d3636dba8022956fa5f05ee00bb13@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасова О.И.\nМесто: корп. 6\, ауд. 403
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование и технология строительства автомобильных дорог (Практическое занятие)
+UID:e7d29d5d44d3095ddc8f4bc42e403686@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вологжанина С.А.\nМесто: корп. 6\, ауд. 309
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Организация и планирование в строительстве (Практическое занятие)
+UID:687473091850b870e4e2c72997ca956c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261121T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261121T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:96761408016522d7f946dc7c0b80fad3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Брызгалова К.В.\nМесто: корп. 1\, ауд. 423
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 423
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектурно-строительное проектирование (Лабораторная работа)
+UID:de0878d39261fe9b05b84991ed2c40b2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:4b0854318cd3c64a6535626585d4fd4e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Брызгалова К.В.\nМесто: корп. 1\, ауд. 423
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 423
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектурно-строительное проектирование (Лекция)
+UID:fcaa8ad35bca6c883a64b9c163e22819@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:d013d5489962b4ef8b93de9b83e8c49f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:145fe812d86d22a2f4770a20e76729e8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вологжанина С.А.\nПодгруппа: 2\nМесто: корп. 6\, ауд. 309
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Практическое занятие)
+UID:9079f760668372c9fd7d5e46be606ba3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:b41ecb9506c65ec174352275902b3b34@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вологжанина С.А.\nМесто: корп. 6\, ауд. 204
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Организация и планирование в строительстве (Лекция)
+UID:73494796bc24f125e4349b86ba13a402@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:f27fc179a9fa245eb19d4556de070432@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 311
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 311
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение с основами электротехники (Лабораторная работа)
+UID:c69340d7bb574ba3c3855ff8ae6226ae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:6ceb93b0462de3b2e631fd888ea9ddb1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:8b77285cd27e9b18a624017f175f0c0a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пешнина И.В.\nМесто: корп. 6\, ауд. 210
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование строительных конструкций с автоматизацией строительного проектирования (Лекция)
+UID:a83fba0002dcb2b2c26b8d9ffa43605e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261114T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261114T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:7bebe5ea993ecceeeb7fe93c782b85a1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261121T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261121T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:2ebe53063930611992b347b8d3e975e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:33cade0bb7226f47be1ff4fefdf521a3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:d75d4b2d51155a3da607ee50e4eee4fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Брызгалова К.В.\nМесто: корп. 1\, ауд. 423
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 423
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектурно-строительное проектирование (Лабораторная работа)
+UID:108d8adc76e46801fd739f869f43f8ad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вологжанина С.А.\nМесто: корп. 6\, ауд. 309
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Организация и планирование в строительстве (Практическое занятие)
+UID:2a2104a83eefdfa09c0d06ea35ed099b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261121T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261121T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:b268552157cce4f5cdceda8fba5df6e2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова А.К.\nМесто: корп. 6\, ауд. 204
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение с основами электротехники (Лекция)
+UID:46bdde8df3bfb450abd53ac7c2e9d312@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вологжанина С.А.\nПодгруппа: 2\nМесто: корп. 6\, ауд. 309
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Практическое занятие)
+UID:79920e3e6ffc90da0d75297be9184013@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:2b7ae7f0729cd6f1a8b09ab71f9d63c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:f002f03dd30780719298e78816e84407@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шалагинова Е.В.\nПодгруппа: 1\nМесто: корп. 6\, ауд. 311
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 311
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Практическое занятие)
+UID:d7fa672f308876764c7cc67b18b9eb5e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волоцкой А.Н.\nМесто: корп. 6\, ауд. 405
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 405
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование строительных конструкций с автоматизацией строительного проектирования (Практическое занятие)
+UID:08dd63cc918f54841ae62208bd7c6191@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261114T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261114T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:d8794f447da0185b11a3335678144ecf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:e72158db74fa8905b6cbff758c19e8ea@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Тарасова О.И.\nМесто: корп. 6\, ауд. 403
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование и технология строительства автомобильных дорог (Лекция)
+UID:c77246d2ef78c47da4c56fdbf2c693ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:67530395867a69eeb087fd1846ed66d5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:ee7cfc21b507aff26e4261970c55232f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:7a3d10e93f184d12db05f588e614c23e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:62c9f222df069252f375998288334875@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вологжанина С.А.\nМесто: корп. 6\, ауд. 204
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Организация и планирование в строительстве (Лекция)
+UID:bd0244bee3a830c8bc5dabb55dfc369c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 311
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 311
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение с основами электротехники (Лабораторная работа)
+UID:bae1ceef302043fb6c7ac6e1c4814649@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261121T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261121T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:34bdc5158afa6a2bce0675b8aac4680b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волоцкой А.Н.\nМесто: корп. 6\, ауд. 405
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 405
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование строительных конструкций с автоматизацией строительного проектирования (Практическое занятие)
+UID:01f35f1d6ded53e662bb4ceb8e3c1397@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Крутикова М.В.\nМесто: корп. 6\, ауд. 301
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 301
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Лабораторная работа)
+UID:144126cf18e69261b8c2cfc2aa8cbdb3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарасова О.И.\nМесто: корп. 6\, ауд. 403
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование и технология строительства автомобильных дорог (Практическое занятие)
+UID:f5dd3c7a32be145951ede7e0466652ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пешнина И.В.\nМесто: корп. 6\, ауд. 210
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование строительных конструкций с автоматизацией строительного проектирования (Лекция)
+UID:8426c2c6c1c20429698039f4c7b0f38b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:1e0105d9c799f39b60477a562d8fb4c4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:d737dc8e32b9c6092c34b9cddc750355@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова А.К.\nМесто: корп. 6\, ауд. 204
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение с основами электротехники (Лекция)
+UID:6f0550149f4cb6b00ac48cd7cb368c9c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вологжанина С.А.\nПодгруппа: 2\nМесто: корп. 6\, ауд. 309
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Практическое занятие)
+UID:2a45ce3e8fa1f18ce6a2bdc669aeb6c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:7e73011778f7580f8300cc7cc9c9d6ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вологжанина С.А.\nМесто: корп. 6\, ауд. 309
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Организация и планирование в строительстве (Практическое занятие)
+UID:2e38facfe72c46232d8e17bd35bba1ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Волоцкой А.Н.\nМесто: корп. 6\, ауд. 405
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 405
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование строительных конструкций с автоматизацией строительного проектирования (Лабораторная работа)
+UID:5090c3e3fbd2fedd605822dd210361cf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Брызгалова К.В.\nМесто: корп. 1\, ауд. 423
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 423
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектурно-строительное проектирование (Лекция)
+UID:3f0da806254c8c1e4c0861ac2b6b6690@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вологжанина С.А.\nМесто: корп. 6\, ауд. 309
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Организация и планирование в строительстве (Практическое занятие)
+UID:2e001596d0d4181d334958c9003d7346@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:71e324f0cb49ca20aa2837740c3370c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:436d15a2a124d4a2218bd517bfe74d72@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Крутикова М.В.\nМесто: корп. 6\, ауд. 301
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 301
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Лабораторная работа)
+UID:06bf57f8848ff2eeb88b94f9d71430b7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:50362a2c7c886e7be87b86bffc811f41@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Брызгалова К.В.\nМесто: корп. 1\, ауд. 423
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 423
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектурно-строительное проектирование (Практическое занятие)
+UID:ba6f397758e0b8a84c0573c3513a1490@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пешнина И.В.\nМесто: корп. 6\, ауд. 210
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование строительных конструкций с автоматизацией строительного проектирования (Лекция)
+UID:15abc5bf8c0e5fdf62770712c9b52aca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:a41bed00f898e23a23b76eb4c454b31f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:71f5056a32d290083df7c722c32da5aa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261114T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261114T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:b7242199f0e442d8ebbac469f005bae0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Волоцкой А.Н.\nМесто: корп. 6\, ауд. 405
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 405
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование строительных конструкций с автоматизацией строительного проектирования (Практическое занятие)
+UID:04a0d250d2a9b297d2b87e0fd23f87b5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Брызгалова К.В.\nМесто: корп. 1\, ауд. 423
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 423
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектурно-строительное проектирование (Практическое занятие)
+UID:4dfc6769b6ce175d7f0f85f78e3e3c24@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:3ff7d5ffa635e3e70a63df9494334755@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шалагинова Е.В.\nПодгруппа: 1\nМесто: корп. 6\, ауд. 311
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 311
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Практическое занятие)
+UID:442e973d40d0e3634fafb94ebcfe7f8a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:200b2adffca63ca8c153dbb8c9c3d7d8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:ba75c9960e7f4651d05e22a573c17433@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вологжанина С.А.\nПодгруппа: 1\nМесто: корп. 6\, ауд. 210
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Лекция)
+UID:174c706d81a5afeb8e1e4f0d83e1bec7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вологжанина С.А.\nПодгруппа: 2\nМесто: корп. 6\, ауд. 309
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология и организация в строительстве (Практическое занятие)
+UID:7955e538fb26460a2d5b5715b1338ea5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:b9c72f30a7127339dc2c5099b2869555@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 305
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 305
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика\, проектная практика (Практика)
+UID:49ee89021b49ae4e7ce9fa45c3bf7ffc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вологжанина С.А.\nМесто: корп. 6\, ауд. 204
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Организация и планирование в строительстве (Лекция)
+UID:4e27c51511f553d0d99b38b9b6c7bd58@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

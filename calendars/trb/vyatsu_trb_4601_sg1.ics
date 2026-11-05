@@ -1,0 +1,263 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ТРб-4601 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сметанина А.И.\nМесто: корп. 14\, ауд. 335
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии продвижения и продаж в туристской индустрии (Практическое занятие)
+UID:7af437a1a8f565dfd5231f630d7874fb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Капшукова И.А.\nМесто: корп. 14\, ауд. 208
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 208
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии интернет-продвижения туристского продукта (Лекция)
+UID:6a36d5310e0d16df8473da640942dc51@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Капшукова И.А.\nМесто: корп. 14\, ауд. 130
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии интернет-продвижения туристского продукта (Практическое занятие)
+UID:8f46f395f0fc060de75f92b43e8ad025@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 14\, ауд. 335
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии организации турагентской деятельности (Практическое занятие)
+UID:d9a0d8c7a407576cf1bc2b61c11568c9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сметанина А.И.\nМесто: корп. 14\, ауд. 335
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии продвижения и продаж в туристской индустрии (Практическое занятие)
+UID:e3f04f5b3e4d1f03d1b940a92d4fb067@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лысова Е.А.\nМесто: корп. 14\, ауд. 335
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы предпринимательства (Практическое занятие)
+UID:3fbd8c5458a884ccb845281050cdd0d4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Макушев В.Ю.\nПодгруппа: 1\nМесто: корп. 6\, ауд. 407
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 6\, ауд. 407
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии в туризме (Лабораторная работа)
+UID:ac3e173b6846601679c0c0a3fb2263ab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сметанина А.И.\nМесто: корп. 14\, ауд. 322
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 322
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии продвижения и продаж в туристской индустрии (Лекция)
+UID:a1980c5675518b331bc6fc88443297fc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 14\, ауд. 335
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии организации турагентской деятельности (Практическое занятие)
+UID:412e754b3e77ca006a6e2f97eb672247@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Макушев В.Ю.\nПодгруппа: 1\nМесто: корп. 6\, ауд. 407
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 6\, ауд. 407
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии в туризме (Лабораторная работа)
+UID:0c69c3a4b0959f9d4b4c6e19eb80ae1e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 14\, ауд. 131
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии организации турагентской деятельности (Лекция)
+UID:1a39124de15f507cdd624506c95eee7d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 14\, ауд. 131
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии организации турагентской деятельности (Практическое занятие)
+UID:d66b07edf657b89d12b18e1c75fbeae2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Капшукова И.А.\nМесто: корп. 14\, ауд. 114
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии интернет-продвижения туристского продукта (Лекция)
+UID:98549fffa8dab18c936f9df1e11c1cfe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 14\, ауд. 335
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии организации турагентской деятельности (Лекция)
+UID:d7b8a45e0f528e30cc5dbc7556e2e3e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Деветьярова И.П.\nМесто: корп. 14\, ауд. 122
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии обеспечения качества в туризме (Лекция)
+UID:35459a9be5253896cdcb51a4b4c2fb63@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лысова Е.А.\nМесто: корп. 14\, ауд. 338
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы предпринимательства (Лекция)
+UID:9785dd9af3d5efb57d00c19f3af03152@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лысова Е.А.\nМесто: корп. 14\, ауд. 335
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Основы предпринимательства (Практическое занятие)
+UID:49c124d955faa29f569f8fe19a9aab53@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Капшукова И.А.\nМесто: корп. 14\, ауд. 130
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии интернет-продвижения туристского продукта (Практическое занятие)
+UID:3af70db5cca26d0c9e380aecec37b41d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сметанина А.И.\nМесто: корп. 14\, ауд. 104
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии продвижения и продаж в туристской индустрии (Лекция)
+UID:d9139854ec37f8885f2f0beb7751b3f7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Макушев В.Ю.\nПодгруппа: 1\nМесто: корп. 6\, ауд. 407
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 6\, ауд. 407
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровые технологии в туризме (Лабораторная работа)
+UID:9d6aaef2d99f54bfeccfbafa5d4adea0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Деветьярова И.П.\nМесто: корп. 14\, ауд. 131
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии обеспечения качества в туризме (Практическое занятие)
+UID:6f0c2c2ca28b45671e4e29262af91506@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сметанина А.И.\nМесто: корп. 14\, ауд. 335
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии продвижения и продаж в туристской индустрии (Практическое занятие)
+UID:a0c8973a070f5ce343af94711601df8c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сметанина А.И.\nМесто: корп. 14\, ауд. 130
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии продвижения и продаж в туристской индустрии (Практическое занятие)
+UID:0b03e3cce59ccfa0df40c2fcc6ce754b@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

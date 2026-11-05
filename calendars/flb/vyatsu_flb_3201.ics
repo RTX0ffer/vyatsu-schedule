@@ -1,0 +1,384 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ФЛб-3201
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Маслова А.Г.\nМесто: корп. 14\, ауд. 316
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 316
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературы (Практическое занятие)
+UID:08ae5fe8dc5369f190634a8d97f93bd3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 324
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лингвоперсонология: изучение и моделирование языковой личности (Практическое занятие)
+UID:ec34e8c8ed64e6fca219f0c7ca3a37eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Банников И.К.\nМесто: корп. 1\, ауд. 236
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Информационный стиль: стратегии письменных коммуникаций в социальных сетях и медиа (Практическое занятие)
+UID:f379cb719481047ae65da2ffb1689c78@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Валова О.М.\nМесто: корп. 14\, ауд. 319
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 319
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:История зарубежной литературы (Практическое занятие)
+UID:eead8c635551875261e87c1612d6f884@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Стрельникова И.В.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 106
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 106
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:83909ce6167ef238c382e277e8e7a7f9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 324
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная лингвистика (Практическое занятие)
+UID:7e80f6c363687af751bb3c993019f1fb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Маслова А.Г.\nМесто: корп. 14\, ауд. 308
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературы (Практическое занятие)
+UID:d88916ad1a39a33dfdde4f5f5148f623@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Валова О.М.\nМесто: корп. 14\, ауд. 319
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 319
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:История зарубежной литературы (Практическое занятие)
+UID:d07179d34542cb31d4fe5ebab772cc3f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 324
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Практическое занятие)
+UID:2e34508ab22476bf98a74a920317b038@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Маслова А.Г.\nМесто: корп. 14\, ауд. 308
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературы (Лекция)
+UID:bfc58929162f4108ecf8da9b5808a589@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Королькова А.С.\nМесто: корп. 14\, ауд. 314
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 314
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в филологии (Лекция)
+UID:b4653960852684ff9f25fd916b3dcf8e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лицарева К.С.\nМесто: корп. 14\, ауд. 308
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Литература народов России (Лекция)
+UID:7a67bb4bfd4e92a5d519e682aa0d8d3a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Черниговский Д.Н.\nМесто: корп. 14\, ауд. 331
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 331
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Методы лингволитературоведческих исследований (Лекция)
+UID:68cc107ec948d970de6eb73db8d2cfa7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Королькова А.С.\nМесто: корп. 14\, ауд. 314
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 314
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в филологии (Практическое занятие)
+UID:7a2500216f38fba6bbe7eac755b31f62@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колесникова О.И.\nМесто: корп. 14\, ауд. 308
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методы лингволитературоведческих исследований (Практическое занятие)
+UID:d5eaf4c5f6b570f0568205ac11c7f0da@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:f9ec7b4983d5d30d2f4173bed53991ba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 324
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная лингвистика (Практическое занятие)
+UID:57f6e664b35715f8653cf9ffb62053e8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 324
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Лекция)
+UID:ee066137719a34c42a9674a72629c95a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Валова О.М.\nМесто: корп. 14\, ауд. 332
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 332
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:История зарубежной литературы (Лекция)
+UID:8eea25c17c0e0f2507cd9dfd2023d6be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Стрельникова И.В.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 106
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 106
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:8483f2f538d7072d833e46ec2ddc81bc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 324
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Практическое занятие)
+UID:dbc0b2410f0e2a1506b7c0b7b7b92942@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 324
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Коммуникативная лингвистика (Лекция)
+UID:e63f993124a5fb09d6d2d048baf9cb91@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 324
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лингвоперсонология: изучение и моделирование языковой личности (Практическое занятие)
+UID:395ba8d53b67b782bf9e1ed3734b1e59@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рябова Ю.С.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 106
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 106
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:22e7a3d2af03427bfdb61e8723b7a977@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Калинина Л.В.\nМесто: корп. 14\, ауд. 324
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Лингвоперсонология: изучение и моделирование языковой личности (Лекция)
+UID:1eaca84fae7ab8bfdcf83e5fff88fc4e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лицарева К.С.\nМесто: корп. 14\, ауд. 308
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Литература народов России (Практическое занятие)
+UID:dc40c7be4282473413fbb87d2feb0bc7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:d93c6aeee046b13dd7ec1b847a7d1d95@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261031T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261031T142000Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:1fdd93d06df93c544929655da78d45dc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Королькова А.С.\nМесто: корп. 14\, ауд. 314
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 314
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в филологии (Практическое занятие)
+UID:327a05e77ee6620c99ab4f665186a3b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Банников И.К.\nМесто: корп. 1\, ауд. 236
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Информационный стиль: стратегии письменных коммуникаций в социальных сетях и медиа (Практическое занятие)
+UID:3792d3c25d299c249461872a4d0c5b2a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Войтов Д.Е.\nМесто: корп. 1\, ауд. 311
+DTEND:20261107T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261107T142000Z
+STATUS:CONFIRMED
+SUMMARY:Китайский язык (Практическое занятие)
+UID:2d2336cb523a16f44d46523f1a324746@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колесникова О.И.\nМесто: корп. 14\, ауд. 308
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Методы лингволитературоведческих исследований (Практическое занятие)
+UID:fa2edc48535268e1eab01c7f143626d2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лицарева К.С.\nМесто: корп. 14\, ауд. 308
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 308
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Литература народов России (Практическое занятие)
+UID:270ea19332b721a3cb7fb1cd6e784d3a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рябова Ю.С.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 106
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 14\, ауд. 106
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:bcf357310136afe52de0070c17369c25@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

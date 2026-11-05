@@ -1,0 +1,338 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ТиТб-3801
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nМесто: корп. 1\, ауд. 533
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:e3ba76492fc7077d900c6cc79395190f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 506
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Нетрадиционные и возобновляемые источники энергии (Практическое занятие)
+UID:24e508aa732add9b68db42e77f85e72f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мицкевич А.А.\nМесто: корп. 1\, ауд. 106
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 106
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Нагнетатели и тепловые двигатели (Лабораторная работа)
+UID:8f9fe5b5c462cf3fff8a57469b96f9c4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Суворов Д.М.\nМесто: корп. 8\, ауд. 603
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Нагнетатели и тепловые двигатели (Лекция)
+UID:c5dea2d707f9408d14cb8de4bd650954@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 608
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Тепломассообмен (Лекция)
+UID:edb7ed7e8c17acfb790888101d47baa9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:9f01876b9d9472425f2c94900071d9b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 608
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Тепломассообмен (Практическое занятие)
+UID:e94998e3d868a3ec415c42eed5a0836e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Суворов Д.М.\nМесто: корп. 8\, ауд. 608
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Нагнетатели и тепловые двигатели (Лекция)
+UID:086e2921f650e082c0129ae90226797d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 310
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 310
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Тепломассообменное оборудование предприятий (Лабораторная работа)
+UID:c75377c0ebc6950ef5f1039ff34d2c2a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суворов Д.М.\nМесто: корп. 8\, ауд. 608
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Нагнетатели и тепловые двигатели (Практическое занятие)
+UID:66b22488ab22a66801c50afa5cb8736f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Татаринова Н.В.
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Нетрадиционные и возобновляемые источники энергии (Лекция)
+UID:feb5a13064aedc54d71fb110213f8a2f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 608
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Тепломассообмен (Практическое занятие)
+UID:b8641a6e0ea01f84a9132dcf131f58c4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 608
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Тепломассообмен (Лекция)
+UID:f94a31a53969a93b5c625bbb099cdfaf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 608
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Тепломассообмен (Лекция)
+UID:7489b3fef886ed03910b9f7f99761c61@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суворов Д.М.\nМесто: корп. 8\, ауд. 603
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Нагнетатели и тепловые двигатели (Практическое занятие)
+UID:4298e383a0b9852c89377e793e2da719@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nМесто: корп. 1\, ауд. 533
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:85e432d975c2cd5cc87d5cfd41e9a829@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Салопин О.М.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:3eac602b89fda26cba778c0b2831ee37@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 506
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Нетрадиционные и возобновляемые источники энергии (Практическое занятие)
+UID:2732fb0f6fbb17c6d029d938382445f9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 607
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 607
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Тепломассообмен (Лабораторная работа)
+UID:4c6c2610e46a99e8d3981c99b8f2ffc5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 608
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Тепломассообменное оборудование предприятий (Практическое занятие)
+UID:7dec028ab8c279aafd469eb58ae31096@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 608
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Тепломассообмен (Практическое занятие)
+UID:a19c147f570ed31fcca42440ae36c2db@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 608
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Тепломассообменное оборудование предприятий (Лекция)
+UID:d351766522843109a70a1c5f165cbbd8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дегтерев Б.И.\nМесто: корп. 1\, ауд. 533
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:a4e6825d1e55478c82779e5edcb4d9c3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Суворов Д.М.\nМесто: корп. 8\, ауд. 511
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Нагнетатели и тепловые двигатели (Лекция)
+UID:ebe6c5476e80ed58d8c71fca99152553@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 310
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 310
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:1d09d156c4fc63ad72c1f89c8bb79b0f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 310
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 310
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Тепломассообменное оборудование предприятий (Лабораторная работа)
+UID:cdf8a97e9fd91a855a5900f27f880212@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сущих В.М.\nМесто: корп. 8\, ауд. 607
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 607
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Тепломассообмен (Лабораторная работа)
+UID:030923e244682a7b46a0a78386407e2c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Татаринова Н.В.
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Нетрадиционные и возобновляемые источники энергии (Лекция)
+UID:52ac87d7a3d3538afb4bcdd512ca9eec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 506
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Нетрадиционные и возобновляемые источники энергии (Практическое занятие)
+UID:0fd5877722e99792740e5a6d213f20fe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Мицкевич А.А.\nМесто: корп. 1\, ауд. 106
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 106
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Нагнетатели и тепловые двигатели (Лабораторная работа)
+UID:5863010a6f3f84f827d79a3cfdbb9893@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

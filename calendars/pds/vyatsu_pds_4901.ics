@@ -1,0 +1,384 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ПДс-4901
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 110
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Лекция)
+UID:cf19d957e6e5ddd1f363a2e3b29218bc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зорин А.В.\nМесто: корп. 13\, ауд. 609
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:История политических и правовых учений (Практическое занятие)
+UID:be8b9ef7019b68a8a26db98da4314e9e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 608
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:4d8a0d8b66fe90a337fcd908216d5594@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 608
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:bcef63b5365ed373ddb4388953fce7e2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Правовые основы организации вневедомственной охраны (Практическое занятие)
+UID:d199adaca2a61cbbd146c5a8fa122cbb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 530
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:75c023ab2428e74564bd097615d6ef2a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зорин А.В.\nМесто: корп. 13\, ауд. 609
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:История политических и правовых учений (Практическое занятие)
+UID:084bf0477c49c71c2b36ce6ba7687ec0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261121T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261121T084500Z
+STATUS:CONFIRMED
+SUMMARY:Правовые основы организации вневедомственной охраны (Практическое занятие)
+UID:c9a37a2edd43e72aaead25bd4a97e642@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы личной безопасности сотрудников правоохранительных органов (Практическое занятие)
+UID:486cbac8c1204671b7d2c4e974500352@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зорин А.В.\nМесто: корп. 13\, ауд. 110
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:История политических и правовых учений (Лекция)
+UID:6996603a3c53e990a981074085a459b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Административный надзор за оборотом оружия (Практическое занятие)
+UID:0fa8452c8a4b6fd52221f52250551ee4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зорин А.В.\nМесто: корп. 13\, ауд. 609
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:История политических и правовых учений (Практическое занятие)
+UID:598826666e12864267b1eff3d00b5846@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 530
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:ead48489dcd389f2bd7213abfb52f3ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зорин А.В.\nМесто: корп. 13\, ауд. 609
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 609
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:История политических и правовых учений (Практическое занятие)
+UID:85dd3ff0e4bb33f52621c4f1e90053aa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Административный надзор за оборотом оружия (Лекция)
+UID:d7318dad8b26dd6a10950004a4310813@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261121T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261121T052000Z
+STATUS:CONFIRMED
+SUMMARY:Административный надзор за оборотом оружия (Практическое занятие)
+UID:218150cf2f0fd179d170242a18d2c6ef@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Правовые основы организации вневедомственной охраны (Лекция)
+UID:8a0dc53d0ab0cdc67c63f39dd6674855@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 608
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:7fa1feb74eef4974d1e27154eed73b9f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261114T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261114T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы личной безопасности сотрудников правоохранительных органов (Лекция)
+UID:1809e4baae524e7987421cfc8870681d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261121T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261121T070000Z
+STATUS:CONFIRMED
+SUMMARY:Административный надзор за оборотом оружия (Практическое занятие)
+UID:791aa2fbf4145e65c11dd8aa9edc0c2a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261119T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261119T155500Z
+STATUS:CONFIRMED
+SUMMARY:Административный надзор за оборотом оружия (Практическое занятие)
+UID:9d8aa6a19dd133478c1fcfefc00ccf31@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Основы личной безопасности сотрудников правоохранительных органов (Практическое занятие)
+UID:733e883e9ca46ddde626131a65b949f7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Административный надзор за оборотом оружия (Практическое занятие)
+UID:6a5a420b4ab1b92b89bfa32d005c5da3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы личной безопасности сотрудников правоохранительных органов (Практическое занятие)
+UID:6b8a129895d873c9e93b8f58ad8cf234@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы личной безопасности сотрудников правоохранительных органов (Лекция)
+UID:423791c5fc1f1308f10b9fd268b010e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы личной безопасности сотрудников правоохранительных органов (Лекция)
+UID:3c560a62b1efa50d067ebc33acaaa5b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261112T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261112T155500Z
+STATUS:CONFIRMED
+SUMMARY:Правовые основы организации вневедомственной охраны (Практическое занятие)
+UID:0f0aad0ed0c56bc44215ab255c6495e1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Правовые основы организации вневедомственной охраны (Практическое занятие)
+UID:b037ac778041a084432bed0ad5f5c99c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 110
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Лекция)
+UID:bac8b35578719efef07d803b9e2df89f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 530
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:845f473173c97851625190f1c24d97e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы личной безопасности сотрудников правоохранительных органов (Практическое занятие)
+UID:770405c8615ed7142f2fa99f97be1f03@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дубинин Д.Ю.\nМесто: корп. 13\, ауд. 607
+DTEND:20261112T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 607
+DTSTART:20261112T142000Z
+STATUS:CONFIRMED
+SUMMARY:Правовые основы организации вневедомственной охраны (Лекция)
+UID:3dbd13979c60914a5e951667587c8a79@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 530
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:bd2c2762ca45b23e89c2adb3010463fd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 608
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 608
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:7ed1358de8ca7ed42bf961fd160d119a@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

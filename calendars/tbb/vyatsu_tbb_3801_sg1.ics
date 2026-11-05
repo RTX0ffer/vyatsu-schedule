@@ -1,0 +1,295 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ТБб-3801 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Томилов Д.Р.\nМесто: корп. 1\, ауд. 401
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Организация и ведение аварийно-спасательных работ (Практическое занятие)
+UID:8e7f72d0e3cdc08908db90214c0e87bf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nМесто: корп. 1\, ауд. 533
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:9d8359ea1aeafa153e190ad900acef15@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алешкин А.В.\nМесто: корп. 6\, ауд. 210
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность инженерных систем зданий и сооружений (Лекция)
+UID:7c8f96f9f5bdf4b69e9d9779968db67e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зонов А.В.\nМесто: корп. 1\, ауд. 401
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Радиотехника (Практическое занятие)
+UID:136347aaade673f91c3f6e4329521aac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алешкин А.В.\nМесто: корп. 6\, ауд. 210
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность инженерных систем зданий и сооружений (Практическое занятие)
+UID:852a97298c1740fc51a93c87dc31fc11@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кузнецова Д.А.\nМесто: корп. 1\, ауд. 417а
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 417а
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:76d7b4d5513f66d66332a5457823ecfe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Томилов Д.Р.\nМесто: корп. 1\, ауд. 401
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Организация и ведение аварийно-спасательных работ (Лекция)
+UID:ec92501e83b033ac715c244d55f5a311@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Горностаева Е.А.\nМесто: корп. 1\, ауд. 401
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Медико-биологические основы безопасности на производстве (Практическое занятие)
+UID:1979c041598579944db79f64d73c4cd3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Томилов Д.Р.\nМесто: корп. 1\, ауд. 401
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Организация и ведение аварийно-спасательных работ (Практическое занятие)
+UID:bd5aa365cae4cd9a22300d320d87b123@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алешкин А.В.\nМесто: корп. 6\, ауд. 210
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность инженерных систем зданий и сооружений (Практическое занятие)
+UID:46fd941066af4e3075657f7703c1d481@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зонов А.В.\nМесто: корп. 1\, ауд. 401
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Радиотехника (Лекция)
+UID:314d47f608d4ffdeb5cffee473a30d9c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зонов А.В.\nМесто: корп. 1\, ауд. 401
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Радиотехника (Лекция)
+UID:e154324148c57089d51a9e58a929e5bc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кузнецова Д.А.\nМесто: корп. 1\, ауд. 417а
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 417а
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:e1080a612d67a763e8a0660ada580273@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:7d2f4437a7cbeb6777d57f5ea9f7d433@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Соловьева И.А.\nМесто: корп. 1\, ауд. 401
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Управление профессиональными рисками (Лекция)
+UID:2bb97a520844952d6739a5b5cebd3233@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Горностаева Е.А.\nМесто: корп. 1\, ауд. 401
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Медико-биологические основы безопасности на производстве (Лекция)
+UID:adef1a920d86cb7d0183348b29b6db8d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Горностаева Е.А.\nМесто: корп. 1\, ауд. 401
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Медико-биологические основы безопасности на производстве (Практическое занятие)
+UID:2dfe9acc5d0f785860cd8f6f65fe6fb4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:b221f6bcea82a689d206f51513654a0d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Адаптивная физическая культура (Практическое занятие)
+UID:8850b6aa0592248f7b2c3913e948f64e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зонов А.В.\nМесто: корп. 1\, ауд. 401
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Радиотехника (Практическое занятие)
+UID:3dc7e623e81fb5b0b307e053676801c3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nМесто: корп. 1\, ауд. 417а
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 417а
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Медико-биологические основы безопасности на производстве (Лабораторная работа)
+UID:366ca17a26e69d4c4d401ffcab1a0ab7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Дегтерев Б.И.\nМесто: корп. 1\, ауд. 533
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:dcba03dec2468ff5828eb597b02109ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соловьева И.А.
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Управление профессиональными рисками (Практическое занятие)
+UID:053c39eb562540704818e14df1d8d881@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алешкин А.В.\nМесто: корп. 6\, ауд. 210
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность инженерных систем зданий и сооружений (Лекция)
+UID:6896015060e8e8d015be0177681545b9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хвостенко С.Ю.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 301
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 301
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Адаптивная физическая культура (Практическое занятие)
+UID:fba5c59cac97d2db9a97c1126e72d050@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Зонов А.В.\nМесто: корп. 1\, ауд. 401
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Радиотехника (Лабораторная работа)
+UID:8560590ca6968a8f043fe13b1e7579fe@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

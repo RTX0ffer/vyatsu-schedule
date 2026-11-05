@@ -1,0 +1,525 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ХМб-2502
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смирнов М.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:d9dae6ba90f03e286d15c238aea817f7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харунжева Е.В.
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:e57b12136788491ab108e68be1dc22b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Адамович Т.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 406
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 406
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Аналитическая химия (Лабораторная работа)
+UID:04dc7e989c316739a8d61299206aff22@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Копанев А.Н.\nМесто: корп. 2\, ауд. 209
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Лекция)
+UID:35ae191b908491b7e971189f80f5f228@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанова М.Л.\nМесто: корп. 15\, ауд. 339
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Лабораторная работа)
+UID:174adbac8026c0fb6e89af2c7c50ede1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копанев А.Н.\nМесто: корп. 1\, ауд. 516
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Практическое занятие)
+UID:4b3a9abf5b82ba0f22c993adc3fcc1b3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Адамович Т.А.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 406
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 406
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Аналитическая химия (Лабораторная работа)
+UID:707b81087ccb07fc9f8769a63b24829c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Товстик Е.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 407
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 407
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Неорганическая химия (Лабораторная работа)
+UID:9697515168640c8fafdc43dc0b9b29dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанова М.Л.\nМесто: корп. 15\, ауд. 339
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Лабораторная работа)
+UID:c92ad8ed11e06cc021301b04e11435b5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Адамович Т.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 406
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 406
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Аналитическая химия (Лабораторная работа)
+UID:cf0634d6f617fcd0f69e4b126cb6f1f4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соймонов И.А.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 209
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 209
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:41115982945e40e9d1a22d54d3758e5f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Товстик Е.В.\nМесто: корп. 15\, ауд. 311
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 311
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Неорганическая химия (Лекция)
+UID:cfc7770d367666d219d5a95902c96a44@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Зайцев М.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Строение вещества (Практическое занятие)
+UID:44f26fa4b44faefdc6e96e6a7e8d30eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Фокина А.И.\nМесто: корп. 15\, ауд. 210
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 210
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Аналитическая химия (Лекция)
+UID:a7fdb63190c9d37604eaf95989b81231@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Адамович Т.А.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 406
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 406
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Аналитическая химия (Лабораторная работа)
+UID:2b8c1baf9f43817d9fc581e9b15d4b8e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Товстик Е.В.\nМесто: корп. 15\, ауд. 343
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 343
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Неорганическая химия (Лекция)
+UID:be587328b75e6daa8851bb43ab9c3409@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Копанев А.Н.\nМесто: корп. 1\, ауд. 516
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Практическое занятие)
+UID:55fa297dc2e1788a9042563a3135fd71@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Товстик Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 407
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 407
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Неорганическая химия (Лабораторная работа)
+UID:ed21423712fe2dda3fc27017d89c4981@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зайцев М.А.\nМесто: корп. 15\, ауд. 309
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Строение вещества (Лекция)
+UID:5d9f808bdad48af4a3d37d32c1c60df4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Воронин А.С.\nМесто: корп. 1\, ауд. 236
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Мобильное медиа (Практическое занятие)
+UID:2aaa2cf9195dcbe93b1418ad41905d45@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Воронин А.С.\nМесто: корп. 1\, ауд. 236
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Мобильное медиа (Практическое занятие)
+UID:364d1d799ea97716e5b00bbf56b88350@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Родионов К.В.\nМесто: корп. 1\, ауд. 109
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная графика (Практическое занятие)
+UID:f242e3da9cfb9c03c2d63841843d8925@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:deaa73a6edc737cd2ce9ce9f3592849e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Креативное проектирование одежды (Практическое занятие)
+UID:3a480af503389ce645a6ec9f2d7c0b3b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Товстик Е.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 407
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 407
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Неорганическая химия (Лабораторная работа)
+UID:b191fa442fe7ce3cada77a4a792569fc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:c1239c316444392bf466321d78445206@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петухов Д.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Органическая химия (Лабораторная работа)
+UID:978bf00f99decf47124f779c6f1b4915@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Зайцев М.А.\nМесто: корп. 15\, ауд. 311
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 311
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Строение вещества (Лекция)
+UID:92e8898a77a60f4f92cf7fc7a0578881@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Адамович Т.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 406
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 406
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Аналитическая химия (Лабораторная работа)
+UID:1969dd06651da2f5623cb098d2eb6d0c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Товстик Е.В.\nМесто: корп. 15\, ауд. 309
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 309
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Неорганическая химия (Практическое занятие)
+UID:d61fc66bf78a3d13e3a4d3ca73ceafbb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанова М.Л.\nМесто: корп. 15\, ауд. 339
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Лабораторная работа)
+UID:ad4a936b5d9b23da58fa05d8cdda7a8c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Соловьёва Е.С.\nМесто: корп. 15\, ауд. 311
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 311
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Органическая химия (Лекция)
+UID:2346922a0849fc54a656b6a1f299bcc9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Товстик Е.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 407
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 407
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Неорганическая химия (Лабораторная работа)
+UID:03470ee51112ca55682d06213cadcec5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Соловьёва Е.С.\nМесто: корп. 15\, ауд. 343
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 343
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Органическая химия (Лекция)
+UID:a4ff44671cd13910a405634d137c08b9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 351
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Креативное проектирование одежды (Практическое занятие)
+UID:ae2dbb08671eff5ab9c1aeb9b3253b47@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петухов Д.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Органическая химия (Лабораторная работа)
+UID:4b6afaae6cf6d3c03f9ca3306a198d82@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Харунжева Е.В.\nМесто: корп. 1\, ауд. 439
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Лекция)
+UID:f68f84f71df3c4f04a688a9f6f73640e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Харунжева Е.В.
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195251Z
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:e3e05425742a4c6f624792491a1bf3f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Смирнов М.А.\nМесто: корп. 15\, ауд. 337
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:d1077dd1fcf4df11ceb72bbb4840b1ce@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соймонов И.А.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 209
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 9\, ауд. 209
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:ed919dd0a226d5312d160ec4f62804fe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Савватеева М.С.\nМесто: корп. 15\, ауд. 132
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 132
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Психология межличностных отношений (Практическое занятие)
+UID:5edfac747797ab95e6f11b2dd0b40c09@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Адамович Т.А.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 406
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 406
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Аналитическая химия (Лабораторная работа)
+UID:58564b90fd7b2587a732ff6cfd6fe652@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Родионов К.В.\nМесто: корп. 1\, ауд. 109
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 109
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная графика (Практическое занятие)
+UID:bbffa15dad88f5e3723e788b03daf961@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Савватеева М.С.\nМесто: корп. 15\, ауд. 132
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 132
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Психология межличностных отношений (Практическое занятие)
+UID:36bf1ce4c0ba170bb9862ba7d3fe57ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Горева Е.А.\nМесто: корп. 1\, ауд. 514
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Лидерство и эффективное управление командой проекта (Практическое занятие)
+UID:380b8a9605c9076612b2e646b3a6dc75@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петухов Д.В.\nМесто: корп. 15\, ауд. 337
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Органическая химия (Практическое занятие)
+UID:3b6bc9767bc926e49c9cb53d1cf9b040@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195251Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Горева Е.А.\nМесто: корп. 1\, ауд. 514
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195251Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лидерство и эффективное управление командой проекта (Практическое занятие)
+UID:22b7ea2a8fbe821966d7136451ed5afa@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

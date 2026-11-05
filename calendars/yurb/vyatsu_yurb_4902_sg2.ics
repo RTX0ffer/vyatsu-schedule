@@ -1,0 +1,172 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЮРб-4902 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мухачев В.А.\nМесто: корп. 13\, ауд. 610
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 610
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория оперативно-розыскной деятельности (Лекция)
+UID:6e46ec79269c431565a4f3b11e9480d3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соловьева И.А.\nМесто: корп. 1\, ауд. 533
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 533
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:5ac3250587f4c7ee3db09e7c43968a02@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Юрков С.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы уголовного права (Практическое занятие)
+UID:044c349535f73f28d9d65581ddc14c8d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Коновалова А.Б.
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория доказательств в уголовном судопроизводстве (Лекция)
+UID:2fea2b32909f54d71a0d86abb0858d07@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Юрков С.А.\nМесто: корп. 13\, ауд. 511
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы уголовного права (Лекция)
+UID:d1d81b920fef2ab016297343b4ff08ec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Абатуров А.И.\nМесто: корп. 13\, ауд. 511
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Организованная преступность и меры борьбы с ней (Лекция)
+UID:cb124cc3d36be86abd97d18dd6028a2b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 16\, ауд. 217
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 217
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:ace9ed6912f3d8a5380a598f693e27e0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мухачев В.А.
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория оперативно-розыскной деятельности (Практическое занятие)
+UID:6f3d510f95c7810a96526c050ebe9219@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колегов К.В.\nМесто: корп. 13\, ауд. 105
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 105
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Преступления против личности (Лекция)
+UID:08136fa5fb7183da8e4a4983240abdd5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коновалова А.Б.\nМесто: корп. 13\, ауд. 507
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 507
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория доказательств в уголовном судопроизводстве (Практическое занятие)
+UID:b6ce2d02a962d8765008711d64709840@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бакулин Ю.А.\nМесто: корп. 13\, ауд. 110
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Лекция)
+UID:a99d65be7ad6e0c3638442cf2ae2bf94@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Юрков С.А.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Актуальные проблемы уголовного права (Практическое занятие)
+UID:75b2ffb7f6b67110c1531e2ece5d37ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мухачев В.А.
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория оперативно-розыскной деятельности (Практическое занятие)
+UID:ce63605ee99e8ddfb2e27d954c1e372a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колегов К.В.\nМесто: корп. 13\, ауд. 105
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 105
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Преступления против личности (Практическое занятие)
+UID:474570a8bcb9dea8dff81a5700f32764@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Абатуров А.И.\nМесто: корп. 13\, ауд. 511
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 511
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Организованная преступность и меры борьбы с ней (Практическое занятие)
+UID:a9b086367ead2dceb74499d4a6883138@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

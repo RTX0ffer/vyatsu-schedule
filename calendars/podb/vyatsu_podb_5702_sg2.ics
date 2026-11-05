@@ -1,0 +1,417 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ПОДб-5702 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Перевощиков Д.В.\nМесто: корп. 14\, ауд. 316
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 316
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения астрономии (Лекция)
+UID:488d6c8ab6f6f46bc030bff27ffba193@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 319
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 319
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лабораторная работа)
+UID:e00a099b793f0681d7f3cc128a83f608@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 320
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лабораторная работа)
+UID:3510f272413f021033d298064d21971f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 202
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лабораторная работа)
+UID:4b47df9bb71480f6f603ef549d8e2203@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Перевощиков Д.В.\nМесто: корп. 14\, ауд. 335
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения астрономии (Лекция)
+UID:b494cecd0f1b040b51206135fa3efe85@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Перевощиков Д.В.\nМесто: корп. 14\, ауд. 335
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения астрономии (Лабораторная работа)
+UID:0268737660362774a5916754ac264f85@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Перевощиков Д.В.\nМесто: корп. 14\, ауд. 335
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения астрономии (Лабораторная работа)
+UID:f3872273b7a5b6c41b1ca67dc9e5dc51@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 313
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лекция)
+UID:ed5eae7994d0135b5e58bd3970309704@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Перевощиков Д.В.\nМесто: корп. 14\, ауд. 335
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения астрономии (Лекция)
+UID:786fea7778113fa3aa7f9c34c9c29349@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Перевощиков Д.В.\nМесто: корп. 14\, ауд. 335
+DTEND:20261112T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261112T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения астрономии (Лекция)
+UID:5668b6c59ceb6bd1a29dd1c32b8f8ed6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 320
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лекция)
+UID:e3f2d3c4d29c6b2bf1539003ab79ac1d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 320
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лабораторная работа)
+UID:0fa2ff39dab59248139d45a2db7c19c9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кантор П.Я.\nМесто: корп. 16\, ауд. 207
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Квантовая механика (Практическое занятие)
+UID:5fd47c2f50e7092803216711c7e01657@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 320
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лабораторная работа)
+UID:5a549a6c03b70b97001766a330ee796e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Перевощиков Д.В.\nМесто: корп. 14\, ауд. 201
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 201
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения астрономии (Лабораторная работа)
+UID:f833333ab25ee560661864365cb78ca4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 320
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лабораторная работа)
+UID:0d8c76676997d452de56fe3ae6023d8b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кантор П.Я.\nМесто: корп. 16\, ауд. 207
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Квантовая механика (Лекция)
+UID:e644b491fd5286446f27b8c24022b71f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 319
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 319
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лабораторная работа)
+UID:04f40288021000321a1a7151ec5448be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 320
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лабораторная работа)
+UID:fef0c71a60251e3eec08f6b0dd132063@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кантор П.Я.\nМесто: корп. 16\, ауд. 315
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Квантовая механика (Лекция)
+UID:370c9f49855ae2bf0dc30299600b0020@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 319
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 319
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лабораторная работа)
+UID:1f14158a2871d69b0d415d6ddadfc76e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 311
+DTEND:20261110T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261110T052000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лекция)
+UID:f7137341e839a4cc0227bda9a52b1361@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Перевощиков Д.В.\nМесто: корп. 14\, ауд. 316
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 316
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения астрономии (Лекция)
+UID:711985a0ec6c03aa794c62d5051e14c2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Перевощиков Д.В.\nМесто: корп. 14\, ауд. 335
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 335
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения астрономии (Лекция)
+UID:fcddc27f71abe2421fb41079f5894c36@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 311
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лекция)
+UID:ce67d5f5d6575f80e43f6d0547fe6013@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 320
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лекция)
+UID:06bce6e0aa9a47638b9130c0850ed283@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 320
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лекция)
+UID:529796e7b566a879456e28e74bddaff2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 320
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лабораторная работа)
+UID:ef776b078fd9bd84165bdbbb5f904e7d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 319
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 319
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лабораторная работа)
+UID:5eed1cc001be1c0ca4783e24ca782429@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 319
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 319
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Системы искусственного интеллекта (Лабораторная работа)
+UID:217ed89f15245700eb138730378b6657@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кантор П.Я.\nМесто: корп. 16\, ауд. 207
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Квантовая механика (Лекция)
+UID:0b32338a5b3e4feecbf71c3ef3a77570@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Перевощиков Д.В.\nМесто: корп. 14\, ауд. 316
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 316
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения астрономии (Лабораторная работа)
+UID:142370e180d798317602ace4eda9e6cb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кантор П.Я.\nМесто: корп. 16\, ауд. 315
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Квантовая механика (Лекция)
+UID:ed18dccfd928b6365064eeae1a12fc97@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кантор П.Я.\nМесто: корп. 16\, ауд. 315
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Квантовая механика (Практическое занятие)
+UID:2aaa8677a56564259feadb722a5b9377@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Перевощиков Д.В.\nМесто: корп. 14\, ауд. 201
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 201
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения астрономии (Лабораторная работа)
+UID:e88a9ec114641a7ba4ba05221c55a02c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ляпунов Д.Ю.\nМесто: корп. 16\, ауд. 313
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Архитектура компьютерных сетей (Лекция)
+UID:d4b85a00d64c14c3374dae63fcaa66d4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Перевощиков Д.В.\nМесто: корп. 14\, ауд. 316
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 316
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения астрономии (Лабораторная работа)
+UID:8b0c6766889067cb1d88c1dd84eaad46@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

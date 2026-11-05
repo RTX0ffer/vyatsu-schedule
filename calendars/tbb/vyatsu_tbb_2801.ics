@@ -1,0 +1,406 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ТБб-2801
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 439
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:0e15d1edbbe6f71ab1b349f0c8dc38a7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 534
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:2860fd4ecf019b8f90db604a63ae6ee2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Фалалеев А.В.\nМесто: корп. 1\, ауд. 334
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:6575b359f054da9650788270c87b66ad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобина И.С.\nМесто: корп. 1\, ауд. 312
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технический перевод иностранной литературы по профилю подготовки (Практическое занятие)
+UID:0136a2b000c503478f5eb31ca99a5b83@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кушова И.А.\nМесто: корп. 1\, ауд. 439
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Правовая грамотность (Лекция)
+UID:18a0debcbbc37c25ef223fb11fd65cad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 417а
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 417а
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Промышленная экология (Лабораторная работа)
+UID:26459ecc12e7e2df5964ee8c9bc3e5a6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 439
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:a1c794f9e2d647c889617f51ce402d63@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Фалалеев А.В.\nМесто: корп. 1\, ауд. 439
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Лекция)
+UID:97c4dfae85485ca221aface43fb63e75@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 1\, ауд. 401
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Правовая грамотность (Практическое занятие)
+UID:f1bce43db29ec5d5e5ce4d26ded90f15@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Левашов А.П.\nМесто: корп. 6\, ауд. 306
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 306
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая механика (Практическое занятие)
+UID:17e484b951864ffb563050365204c24d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Горностаева Е.А.\nМесто: корп. 1\, ауд. 514
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Промышленная экология (Лекция)
+UID:67c5e61b22099d0854f79d0575342acf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 417а
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 417а
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Промышленная экология (Лабораторная работа)
+UID:8443a41bf263c928fbe6105e5bc34c19@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шишкин В.М.\nМесто: корп. 6\, ауд. 210
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы информатики (Лекция)
+UID:34733b6b04a9436685b2cdc06223cf8b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кузнецова Д.А.\nМесто: корп. 6\, ауд. 306
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 306
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физиология человека (Практическое занятие)
+UID:c4c7d65621ee967660f924a9c3d97351@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Савватеева М.С.\nМесто: корп. 1\, ауд. 516
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Практическое занятие)
+UID:7452fecf55b07e489c25b763fa34a772@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 417а
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 417а
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Промышленная экология (Лабораторная работа)
+UID:c7226e897c9fa14eba70d7e25cd114e1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пластинина В.Б.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 102
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 102
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:c2a6373902b76b96b4832bbc615f59b7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шишкин В.М.\nПодгруппа: 2\nМесто: корп. 6\, ауд. 307
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 307
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы информатики (Лабораторная работа)
+UID:2a302d14dfd743395901e99beac0c4b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобина И.С.\nМесто: корп. 1\, ауд. 312
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технический перевод иностранной литературы по профилю подготовки (Практическое занятие)
+UID:f312c4fd616698c84c4a859e4290602d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:60fe29a7ff1242687b789dacf09d4e46@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пластинина В.Б.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 102
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 102
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:138eacea204d3eb7861b3a0d5a954be4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кузнецова Д.А.\nМесто: корп. 6\, ауд. 210
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физиология человека (Лекция)
+UID:cf6ef17cc702184946b9aeed781ef596@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Левашов А.П.\nМесто: корп. 6\, ауд. 204
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 204
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая механика (Лекция)
+UID:cd25b4c9b5ec3c5042808137630600bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 514
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:9a137f2df12a39d74fb5d3e6b347ea91@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Левашов А.П.\nМесто: корп. 6\, ауд. 210
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая механика (Лекция)
+UID:4f9709730eb230ea19f3304d9600c510@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шишкин В.М.\nПодгруппа: 1\nМесто: корп. 6\, ауд. 307
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 307
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы информатики (Лабораторная работа)
+UID:b62921612e886f8990029e2bbff5956b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Левашов А.П.\nМесто: корп. 6\, ауд. 306
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 306
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретическая механика (Практическое занятие)
+UID:98a4dcb24f297dfa3f5ead52d5149b79@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шишкин В.М.\nПодгруппа: 1\nМесто: корп. 6\, ауд. 307
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 307
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы информатики (Лабораторная работа)
+UID:caaf5f72a7797e0a06902db0e3ec1547@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Горностаева Е.А.\nМесто: корп. 1\, ауд. 514
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Промышленная экология (Практическое занятие)
+UID:58b270347272c68e4f90ef89f35e4741@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Горностаева Е.А.\nМесто: корп. 1\, ауд. 514
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Промышленная экология (Лекция)
+UID:759a7919469697e3bfc50545166bb5da@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 417а
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 417а
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Промышленная экология (Лабораторная работа)
+UID:969311b1f685e0cb6aa638b186371633@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:0ed6f8d6fe45890fd4f266e0a42f4175@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Шишкин В.М.\nПодгруппа: 2\nМесто: корп. 6\, ауд. 307
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 307
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы информатики (Лабораторная работа)
+UID:3b76f86bd44978c3403087695e5c5af7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Савватеева М.С.\nМесто: корп. 1\, ауд. 516
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Практическое занятие)
+UID:1aca846191336f7d155c2113803b59a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Савватеева М.С.\nМесто: корп. 1\, ауд. 516
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии социального и профессионального взаимодействия (Лекция)
+UID:d651eab1383e0df9fd18145172473e93@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 1\, ауд. 401
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Правовая грамотность (Практическое занятие)
+UID:8f12e7d19fe30b4c01427eefc97f28fc@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

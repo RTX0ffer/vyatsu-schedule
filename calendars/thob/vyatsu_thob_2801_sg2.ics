@@ -1,0 +1,296 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ТХОб-2801 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Николаев А.Л.\nМесто: корп. 21\, ауд. 264
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Инфографика и технический рисунок (Лабораторная работа)
+UID:479c13c592f2d9514966329f9a3300a7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Макушев В.Ю.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Трехмерная компьютерная графика (Лабораторная работа)
+UID:97de99733e3e313552b2299b6d95b8e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Николаев А.Л.\nМесто: корп. 21\, ауд. 264
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Инфографика и технический рисунок (Лабораторная работа)
+UID:0cfa29003bca1b0756e7a7be1f34875e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Макушев В.Ю.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Трехмерная компьютерная графика (Лабораторная работа)
+UID:1cf481ef3da4737adf2721ee304414be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останин А.О.\nМесто: корп. 1\, ауд. 404
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 404
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Введение в проектную деятельность (Практическое занятие)
+UID:cbd07067766cbdda276026646439b8cb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плюснин Е.С.\nМесто: корп. 1\, ауд. 242
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лекция)
+UID:354e7948c77d15dbf05c299527cd37a3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:411f60e02c1a6831d6ef7f4837a469ec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сенников А.И.\nМесто: корп. 2\, ауд. 206
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 2\, ауд. 206
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:a45d43ad0d2c3e96812de127f499c530@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 2\, ауд. 206
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 2\, ауд. 206
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:7d74db7fa25165a75df6def1e601c19f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плюснин Е.С.\nМесто: корп. 1\, ауд. 128
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лекция)
+UID:75e536b0e4980e5f90ca5c762fa54708@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бёрдов Д.А.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 217
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 217
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы производственного мастерства (Лабораторная работа)
+UID:3606a9ff9b7d0ec05a56f0a63826604f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бурдин Н.П.\nМесто: корп. 21\, ауд. 256
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 21\, ауд. 256
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Дизайн промышленных изделий (Практическое занятие)
+UID:3574fb9d71f86d0838643399aedbf497@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 1\, ауд. 311
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российского законодательства (Практическое занятие)
+UID:ff1a99ac638f2ade0b2305dc725cc66a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 534
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:3e6d7fee63c21d738878c994bacb407b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Макушев В.Ю.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Трехмерная компьютерная графика (Лабораторная работа)
+UID:51fd16565bd18e2c67f845171a095a0b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Н.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 101
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 9\, ауд. 101
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:ad83b89cfea804c7984ff105e48e2f4f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бурдин Н.П.\nМесто: корп. 21\, ауд. 256
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 21\, ауд. 256
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Дизайн промышленных изделий (Практическое занятие)
+UID:ce9c333be1060f883b05a3603304f809@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останин А.О.\nМесто: корп. 1\, ауд. 404
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 404
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в проектную деятельность (Практическое занятие)
+UID:3c9cfd3198414739269b6cb7c12d943d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бурдин Н.П.\nМесто: корп. 21\, ауд. 264
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Дизайн промышленных изделий (Практическое занятие)
+UID:3af5ce68ec1476d9fde752be87ab1fca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бёрдов Д.А.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 217
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 217
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Основы производственного мастерства (Лабораторная работа)
+UID:d495ecb6ff8c06134f817a4a10b030ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плюснин Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 026
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 026
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лабораторная работа)
+UID:3fc526393c9f15671a5f5a2437c945ce@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плюснин Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 026
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 026
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технология конструкционных материалов (Лабораторная работа)
+UID:55389554544993d0f90ea8ce867e6ca4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 439
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:31bd6b6efa144498fa2f448352ff6eb7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сенников А.И.\nМесто: корп. 1\, ауд. 439
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:b8fa2cc49a29c016389057e564970e24@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бурдин Н.П.\nМесто: корп. 21\, ауд. 264
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Дизайн промышленных изделий (Практическое занятие)
+UID:da2111e1017a4f73a3a53be3a0938ac4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Макушев В.Ю.\nПодгруппа: 2\nМесто: корп. 10\, ауд. 206
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Трехмерная компьютерная графика (Лабораторная работа)
+UID:b367b6cf40a6daf105bf21727aa19027@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

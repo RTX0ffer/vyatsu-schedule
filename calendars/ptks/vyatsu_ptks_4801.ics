@@ -1,0 +1,543 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ПТКс-4801
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 214
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы систем автоматизированного проектирования (Лекция)
+UID:4fc00ae52404c170cf8f752a4bf58948@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 206
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современные методы проектирования технологических комплексов (Лабораторная работа)
+UID:ac506d77420d1356600bc50cf91963a8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 206
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:69ce343b1cf60989779f3b387f799903@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанин А.Ю.\nМесто: корп. 10\, ауд. 203
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Основы технологии машиностроения (Практическое занятие)
+UID:a6c491984f9b835ba6944bcf8bca2bbe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сергеев Д.Г.\nМесто: корп. 10\, ауд. 214
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование металлорежущих инструментов (Лекция)
+UID:c26dd2df6543a066760ce6bece373dc2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 214
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лекция)
+UID:0d7ad49bb2478053b74c87f2db6d64e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кувалдин Ю.И.\nМесто: корп. 10\, ауд. 214
+DTEND:20261114T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261114T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы технологии машиностроения (Лекция)
+UID:f675773ee41f464b8d326b4d52ee6e66@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 206
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные методы проектирования технологических комплексов (Лабораторная работа)
+UID:ee451c76e140fd61a57a97d97b343e3e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 206
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы систем автоматизированного проектирования (Лабораторная работа)
+UID:cc33c45dc8005c7c2fb532b73dc91deb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 206
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы систем автоматизированного проектирования (Лабораторная работа)
+UID:af7fd0b7d1e56a01d63a2b3220fad0b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плотников С.А.
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Защита интеллектуальной собственности (Практическое занятие)
+UID:ec708a28b2a148d84a1ae73dd17144e2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 206
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:fc1198301ca9b9a494d33bec5207f493@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 205
+DTEND:20261112T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 205
+DTSTART:20261112T142000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Практическое занятие)
+UID:a0cb2fa80485c1439e18f165d4dfb3d1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nМесто: корп. 10\, ауд. 215
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование металлорежущих инструментов (Лабораторная работа)
+UID:f02193e2dae01174586e514a51c70acb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанин А.Ю.\nМесто: корп. 10\, ауд. 203
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Основы технологии машиностроения (Практическое занятие)
+UID:322ce58ae1052326d8a2cbb228e7c0d8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плотников С.А.\nМесто: корп. 1\, ауд. 227а
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 227а
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Защита интеллектуальной собственности (Лекция)
+UID:1c1d38c3cfd770d601de370db1e5cb19@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 206
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Основы систем автоматизированного проектирования (Лабораторная работа)
+UID:c88ed45a51ed05b0552ce5e9bc57a073@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nМесто: корп. 10\, ауд. 215
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование металлорежущих инструментов (Лабораторная работа)
+UID:9138eca5846295b4f21b30a1feb61792@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 206
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы систем автоматизированного проектирования (Лабораторная работа)
+UID:6bccdf28e6f5a33c76ac8cbd546af7e3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 214
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы систем автоматизированного проектирования (Лекция)
+UID:26feccee92f57623bdd0d88dc0ee3635@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 214
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лекция)
+UID:c40a3f3f936931b630ec7ea6d4683eda@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 206
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы систем автоматизированного проектирования (Лабораторная работа)
+UID:41a2502b1f3c3b62bcbded3787d6a86d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 214
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Современные методы проектирования технологических комплексов (Лекция)
+UID:48d5c4a559883a9d718c6eaed7047a28@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плотников С.А.
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Защита интеллектуальной собственности (Практическое занятие)
+UID:82340f901f536ab046c943567a65e63c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанин А.Ю.\nМесто: корп. 10\, ауд. 203
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы технологии машиностроения (Практическое занятие)
+UID:42f8d02a283e7acea95c8a8716986a20@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев Д.Г.\nМесто: корп. 10\, ауд. 206
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование металлорежущих инструментов (Практическое занятие)
+UID:95c756db1782e5b8b1c5f8a742f352f0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плотников С.А.
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Защита интеллектуальной собственности (Практическое занятие)
+UID:e49a2aa7d61e4de672796ea1ba99f332@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Поляков С.М.\nМесто: корп. 10\, ауд. 203
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологическое оборудование механообрабатывающего производства (Лекция)
+UID:0e4ccc638624a585b8ce8ced39f002b5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сергеев Д.Г.\nМесто: корп. 10\, ауд. 214
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование металлорежущих инструментов (Лекция)
+UID:b9d22e53825eb28f3f6ed2c699d37016@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сергеев Д.Г.\nМесто: корп. 10\, ауд. 206
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование металлорежущих инструментов (Практическое занятие)
+UID:14f7580c1e8b8ab1bfeb4fd1e152b097@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плотников С.А.
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Защита интеллектуальной собственности (Практическое занятие)
+UID:7f41fcfd49a3b71004d011c2d196e8f6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 206
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:e57f0e293d2797b7c4fa3d577a3d251e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плотников С.А.\nМесто: корп. 1\, ауд. 227а
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 227а
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Защита интеллектуальной собственности (Лекция)
+UID:903ce6de26a076f614a269e800ebb978@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 206
+DTEND:20261119T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261119T155500Z
+STATUS:CONFIRMED
+SUMMARY:Основы систем автоматизированного проектирования (Лабораторная работа)
+UID:2c61453fbd04c4c15d4009feb272509e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nМесто: корп. 10\, ауд. 215
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование металлорежущих инструментов (Лабораторная работа)
+UID:5cfc94f292aadeed14b7c2c1a2e7f9c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 206
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы систем автоматизированного проектирования (Лабораторная работа)
+UID:07e87cb4e46c6d3f5194675ea7748364@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сергеев Д.Г.\nМесто: корп. 10\, ауд. 215
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 215
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование металлорежущих инструментов (Лабораторная работа)
+UID:efddb7b0ce834aa6d1f355d9f795ca3d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 214
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Современные методы проектирования технологических комплексов (Лекция)
+UID:2af19e7fb336b79dcf7e87b4698f8c69@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 206
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные методы проектирования технологических комплексов (Лабораторная работа)
+UID:c90db5736ef762c173d3356c9cc69b6f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанин А.Ю.\nМесто: корп. 10\, ауд. 203
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы технологии машиностроения (Практическое занятие)
+UID:cd74a8f76e680f7fdd08d956dc941bf9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плотников С.А.
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Защита интеллектуальной собственности (Практическое занятие)
+UID:33568b50f0067cd52e1d9a7aceb3835c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 206
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современные методы проектирования технологических комплексов (Лабораторная работа)
+UID:aa40ba5c70e5989cd512182a7e23133c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Поляков С.М.\nМесто: корп. 10\, ауд. 203
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологическое оборудование механообрабатывающего производства (Лекция)
+UID:8522344af3a30f8af9f3a0e845a94577@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Флаксман А.Л.\nМесто: корп. 10\, ауд. 206
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы систем автоматизированного проектирования (Лабораторная работа)
+UID:1b52ae8040976d285d7f4757fc5ae7bd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плотников С.А.
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Защита интеллектуальной собственности (Практическое занятие)
+UID:afe4e94d26a6ab0ef61581281c4f1de3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 206
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Лабораторная работа)
+UID:da26806971ec7c4d20fed535e31ac48f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Поляков С.М.\nМесто: корп. 10\, ауд. 205
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 205
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологическое оборудование механообрабатывающего производства (Практическое занятие)
+UID:4f035af5a4fc419d111020e7645b8f91@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Поляков С.М.\nМесто: корп. 10\, ауд. 205
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 205
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологическое оборудование механообрабатывающего производства (Практическое занятие)
+UID:5646948196b657e00b86352153adf448@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чернявский В.Б.\nМесто: корп. 10\, ауд. 205
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 10\, ауд. 205
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматического управления (Практическое занятие)
+UID:d244c2ea8fd4f8684e188e4ea9462d3e@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

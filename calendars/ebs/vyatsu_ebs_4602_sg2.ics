@@ -1,0 +1,281 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЭБс-4602 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Токарева П.В.\nМесто: корп. 16\, ауд. 220
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Уголовный процесс (Лекция)
+UID:36682b0ba02ca7c2350bc99e6f716236@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казанцев В.В.\nМесто: корп. 16\, ауд. 121
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Бюджетная система и бюджетно-налоговая безопасность (Практическое занятие)
+UID:75ac93bb6b839fdb56b8a09b3a754d74@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шварцблат Л.Д.\nМесто: корп. 16\, ауд. 300
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Конкурентная разведка (Лекция)
+UID:55940cd05529450210e47157af40ca94@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технико-технологическая безопасность (Практическое занятие)
+UID:99590c4beaa7e18d204dae5dc9eefadf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Селезнева Е.Ю.\nМесто: корп. 16\, ауд. 121
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Методология и практика обеспечения экономической безопасности хозяйствующих субъектов (Лекция)
+UID:78e2266423c0df74da0badfb5fbe58fe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Скопин Д.И.\nМесто: корп. 16\, ауд. 202
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Финансовые рынки и институты (Практическое занятие)
+UID:d7e85e4a315e38e9e2b101a7e049c8e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шварцблат Л.Д.\nМесто: корп. 16\, ауд. 212
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Конкурентная разведка (Практическое занятие)
+UID:eda186f1f30a5fdbb951b56a1a5f80b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Холкин А.В.\nМесто: корп. 16\, ауд. 224
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Судебная экономическая экспертиза (Лекция)
+UID:51d37af07ee88438be416815c4abde8f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казанцев В.В.\nМесто: корп. 16\, ауд. 121
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Бюджетная система и бюджетно-налоговая безопасность (Практическое занятие)
+UID:96f667341c2582cd47e266566b6ae80e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Холкин А.В.\nМесто: корп. 16\, ауд. 207
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 207
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Судебная экономическая экспертиза (Практическое занятие)
+UID:29470f38ca24bfb4ac91c89f0d8a37f6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лубнина В.П.\nМесто: корп. 16\, ауд. 300
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Контроль и ревизия (Практическое занятие)
+UID:3dd1dab0969ce7e76ac6d66bf5064dc1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 311
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 311
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технико-технологическая безопасность (Лекция)
+UID:38389386e9c159a29dbc10551c49ee2d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технико-технологическая безопасность (Практическое занятие)
+UID:c8bf18ee7291de031f1bba011cfa34db@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лубнина В.П.\nМесто: корп. 16\, ауд. 217
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 217
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Контроль и ревизия (Практическое занятие)
+UID:8d5321f549599a16ef6f67acf0e707bc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Скопин Д.И.\nМесто: корп. 16\, ауд. 206
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 206
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Финансовые рынки и институты (Лекция)
+UID:5063b35a2d66680adc8d4cd0e467e039@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лубнина В.П.\nМесто: корп. 16\, ауд. 310
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 310
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Контроль и ревизия (Лекция)
+UID:681bba7781ef48592fe520b40f8027cf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Селезнева Е.Ю.\nМесто: корп. 16\, ауд. 121
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Методология и практика обеспечения экономической безопасности хозяйствующих субъектов (Лекция)
+UID:a2a50c054f28227d759376d275b9d11d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казанцев В.В.\nМесто: корп. 16\, ауд. 212
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Бюджетная система и бюджетно-налоговая безопасность (Практическое занятие)
+UID:0e0227afb8451cecf9d4f7fbad412a7b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шварцблат Л.Д.\nМесто: корп. 16\, ауд. 212
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Конкурентная разведка (Практическое занятие)
+UID:d824fc389114ee65256d0853e8e95d3d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лубнина В.П.\nМесто: корп. 16\, ауд. 300
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Контроль и ревизия (Лекция)
+UID:f1d7a95b59f5c4aa69cd2bea043b347b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Скопин Д.И.\nМесто: корп. 16\, ауд. 322
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Финансовые рынки и институты (Лекция)
+UID:0cf14b94465508072fd2651875553503@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Скопин Д.И.\nМесто: корп. 16\, ауд. 202
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 202
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Финансовые рынки и институты (Практическое занятие)
+UID:eb5130dfdf82b8239facdb04b775807d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Казанцев В.В.
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Бюджетная система и бюджетно-налоговая безопасность (Лекция)
+UID:90624ac718e4afbf73332d05fafb9232@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Токарева П.В.\nМесто: корп. 16\, ауд. 220
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Уголовный процесс (Практическое занятие)
+UID:def825e0059406d3f9bf975a0b69ae09@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Казанцев В.В.
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195254Z
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Бюджетная система и бюджетно-налоговая безопасность (Лекция)
+UID:2ff514e80fdd01d087bdae7ced518007@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

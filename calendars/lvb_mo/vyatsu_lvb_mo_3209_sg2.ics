@@ -1,0 +1,515 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ЛВб-3209 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плюснина Ю.А.\nМесто: корп. 14\, ауд. 115
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:7eefb1b265509607aaa1911899393427@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Первый иностранный язык (русский язык) (Практическое занятие)
+UID:26cb3f6eb69950ce476178184e3a2052@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (английский язык) (Практическое занятие)
+UID:9ba2a4f1f379202383634ff43a46fb01@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 220
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Обучение грамматике русского языка с применением информационных образовательных технологий (Практическое занятие)
+UID:26e5bb65c9eec04bc927e157843374c6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.\nМесто: корп. 14\, ауд. 122
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс перевода при обучении русскому языку (Практическое занятие)
+UID:a105538b2c4ad7c44eb3bf5639f746e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Давыдова Ю.В.\nМесто: корп. 16\, ауд. 220
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:f847fbeff68513fd7feebec338f8ef89@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.\nМесто: корп. 14\, ауд. 104
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс перевода при обучении русскому языку (Практическое занятие)
+UID:7fbce34d8d3d901f9bfd9606699d14a2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Первый иностранный язык (русский язык) (Практическое занятие)
+UID:5e285182a6da281db07c09dcc484c349@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Первый иностранный язык (русский язык) (Практическое занятие)
+UID:157a54b4b1f0cd6b6a995ef8f7168b73@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 16\, ауд. 112
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 112
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Первый иностранный язык (русский язык) (Практическое занятие)
+UID:f1b18cea62078a356a5993be499c1942@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (английский язык) (Практическое занятие)
+UID:78c1c6e4c4591deeeb68c1554e65c414@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Г.А.\nМесто: корп. 19\, ауд. 260
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:15c3ee84be25a0f50f5c367b66973edf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сысолятина О.Н.\nМесто: корп. 6\, ауд. 206
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 6\, ауд. 206
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика межкультурной коммуникации (Практическое занятие)
+UID:b6601f35370e5b723cf4e4e37583fab5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Первый иностранный язык (русский язык) (Практическое занятие)
+UID:b3f38a53ff0d9f39c6f2a12e427f06a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Первый иностранный язык (русский язык) (Практическое занятие)
+UID:371e4c606461b914ad263964d542a44a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Г.А.\nМесто: корп. 19\, ауд. 260
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:8652a9babdbec46f05fea509deff645d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.\nМесто: корп. 14\, ауд. 104
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс перевода при обучении русскому языку (Практическое занятие)
+UID:08d73fcc80dc89d349a3997a58f13863@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 220
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Обучение грамматике русского языка с применением информационных образовательных технологий (Практическое занятие)
+UID:f01f5001d00628722bf1f4451ee16036@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.\nМесто: корп. 14\, ауд. 104
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс перевода при обучении русскому языку (Практическое занятие)
+UID:257150595bc777f19bd6ac5e53318366@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (английский язык) (Практическое занятие)
+UID:a7cc9dd753a00156fcdf3f7b6b7815de@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плюснина Ю.А.\nМесто: корп. 14\, ауд. 115
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:803b12de441afbe927a5d13839e2a65d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.\nМесто: корп. 14\, ауд. 122
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс перевода при обучении русскому языку (Практическое занятие)
+UID:ccafcd7851fddc839f58898647a51196@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.\nМесто: корп. 14\, ауд. 122
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс перевода при обучении русскому языку (Практическое занятие)
+UID:d2a27f04e7b6e9c0ed6e52654fb1511e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Г.А.\nМесто: корп. 19\, ауд. 260
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:1ca6c67b8f7ab546160fcfe3d263e0f3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Первый иностранный язык (русский язык) (Практическое занятие)
+UID:e8ff156b07b24d8c0bd4bc0f720be740@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (английский язык) (Практическое занятие)
+UID:1274e198e7d7e099d216270bdb89b4e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Давыдова Ю.В.\nМесто: корп. 16\, ауд. 220
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:aefdef516ca5fb4480ac3caacde37f11@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Давыдова Ю.В.\nМесто: корп. 16\, ауд. 220
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:74dd04c181560a2ac6df8839f51ed368@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.\nМесто: корп. 14\, ауд. 104
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 104
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс перевода при обучении русскому языку (Практическое занятие)
+UID:8acbab5c26be9389d3d2770bcdf85b4c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (английский язык) (Практическое занятие)
+UID:684a009354cc2111720a30088ad46273@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Первый иностранный язык (русский язык) (Практическое занятие)
+UID:2ad5497e02bb3f2b4acf2ffacb2757e0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плюснина Ю.А.\nМесто: корп. 14\, ауд. 115
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:ae54b5b737940a716f18dd55f9cd09b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Г.А.\nМесто: корп. 19\, ауд. 260
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 19\, ауд. 260
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:43260bb39122d9c138dd3e2150384a77@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плюснина Ю.А.\nМесто: корп. 14\, ауд. 115
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:6d67899d6b486861656ad453a4e09b02@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 14\, ауд. 218
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 218
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Первый иностранный язык (русский язык) (Практическое занятие)
+UID:fdb35bc2e51f336cda7083369302ab41@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сысолятина О.Н.\nМесто: корп. 6\, ауд. 206
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 6\, ауд. 206
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика межкультурной коммуникации (Практическое занятие)
+UID:755b81956f2f998cdea4c37edf08ec0e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сысолятина О.Н.\nМесто: корп. 6\, ауд. 206
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 6\, ауд. 206
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика межкультурной коммуникации (Лекция)
+UID:5748bb2d292842e2ddc12944d87e35c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Омилевская А.Д.\nМесто: корп. 16\, ауд. 112
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 112
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Первый иностранный язык (русский язык) (Практическое занятие)
+UID:8c757878b3a4b50bfb905defb57ec6a2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сысолятина О.Н.\nМесто: корп. 6\, ауд. 206
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 6\, ауд. 206
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика межкультурной коммуникации (Практическое занятие)
+UID:2c98b3b0cbd036723815765f358cb8f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (английский язык) (Практическое занятие)
+UID:96880d063e9e12340e2cb626b11dee48@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сысолятина О.Н.\nМесто: корп. 6\, ауд. 206
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 6\, ауд. 206
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика межкультурной коммуникации (Лекция)
+UID:44b46fac19a6744aa85905cac059fd3c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 220
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Обучение грамматике русского языка с применением информационных образовательных технологий (Практическое занятие)
+UID:a28a08017cd129db296dfd5b0e2ea1ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Давыдова Ю.В.\nМесто: корп. 16\, ауд. 220
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:2c7eedb5e2e94dbf16660adf5576c22c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (английский язык) (Практическое занятие)
+UID:df9f13ba5087c56296a576347c32a193@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 220
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 220
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Обучение грамматике русского языка с применением информационных образовательных технологий (Практическое занятие)
+UID:7f10b098db493a660b5e90871b965ce3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сысолятина О.Н.\nМесто: корп. 6\, ауд. 206
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 6\, ауд. 206
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика межкультурной коммуникации (Практическое занятие)
+UID:7e0c1c527d712c0bd2e01fa96cfeda2e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Саллум И.
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Второй иностранный язык (английский язык) (Практическое занятие)
+UID:2a1064f631a52071e71afad4ca9a9dbc@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

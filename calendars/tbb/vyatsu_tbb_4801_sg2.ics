@@ -1,0 +1,293 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ТБб-4801 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Соловьева И.А.\nМесто: корп. 1\, ауд. 401
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная безопасность (Лекция)
+UID:74f8c53d245caf803e6de009da26d0e3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алешкин А.В.\nМесто: корп. 6\, ауд. 307
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 307
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность инженерных систем зданий и сооружений (Практическое занятие)
+UID:2d3cf35bbc3c02241fb396687da76471@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Косолапов Е.В.\nМесто: корп. 1\, ауд. 413
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 413
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электротехника и электроника (Практическое занятие)
+UID:f55abeba50869eee7b62c8a618147c08@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алешкин А.В.\nМесто: корп. 6\, ауд. 307
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 307
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность инженерных систем зданий и сооружений (Практическое занятие)
+UID:2b41772d8ea5db31eee8eb3a8353250e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Быкова В.В.\nМесто: корп. 1\, ауд. 401
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Культура безопасности и нулевой травматизм (Лекция)
+UID:b731aef05b5b68908f04daaa0982b1ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соловьева И.А.\nМесто: корп. 1\, ауд. 401
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:b9f6aaea0f25f6148024a4caa680fce8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соловьева И.А.\nМесто: корп. 1\, ауд. 514
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность труда (Практическое занятие)
+UID:8499d0f59815d3d2ea4846cc521303b7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соловьева И.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность труда (Практическое занятие)
+UID:c138691fb3996b237a6785f87e23c8b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 126
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 126
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровизация системы охраны труда (Лекция)
+UID:190f236e34ec4a8920fbb3e6bda69d09@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соловьева И.А.\nМесто: корп. 1\, ауд. 514
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная безопасность (Практическое занятие)
+UID:0eb09f160cdba219163e4e32e548a4c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соловьева И.А.\nМесто: корп. 1\, ауд. 401
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:bbaf9afb3bc64f7d0d73722ab6125d84@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соловьева И.А.\nМесто: корп. 1\, ауд. 401
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная безопасность (Практическое занятие)
+UID:9fcbe19061b8ca1f21da82f2f5836247@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 126
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 126
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Цифровизация системы охраны труда (Практическое занятие)
+UID:cb6c127290327b3d41a9e729c68cabcd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Соловьева И.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность труда (Лекция)
+UID:8a9f79e3db2ac0868a85f77d04f66abd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 126
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 126
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Цифровизация системы охраны труда (Практическое занятие)
+UID:b62b7a2e3b78b820fb94b0645d6b0e51@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Косолапов Е.В.\nМесто: корп. 1\, ауд. 413
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 413
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электротехника и электроника (Практическое занятие)
+UID:cc944ea5152395c189627b94409cd743@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Алешкин А.В.\nМесто: корп. 6\, ауд. 307
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 307
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность инженерных систем зданий и сооружений (Лабораторная работа)
+UID:da51e11733a9e0e13f02272ef96d324d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Косолапов Е.В.\nМесто: корп. 1\, ауд. 413
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 413
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электротехника и электроника (Лабораторная работа)
+UID:460480190d6e2e011d8834c42b0081dc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Быкова В.В.\nМесто: корп. 1\, ауд. 401
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Государственное управление охраной труда (Лекция)
+UID:0e8dcd96e919565ac180995bc51ebed6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Косолапов Е.В.\nМесто: корп. 1\, ауд. 413
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 413
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электротехника и электроника (Лабораторная работа)
+UID:fb1298fdab03ae9cc8db645fa56ac91e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Алешкин А.В.\nМесто: корп. 6\, ауд. 307
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 307
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность инженерных систем зданий и сооружений (Лабораторная работа)
+UID:98c36083750c91b9ca6baf967025089c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Косолапов Е.В.\nМесто: корп. 1\, ауд. 439
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электротехника и электроника (Лекция)
+UID:ae61bc8383b247be31af4501ecd486ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Быкова В.В.
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Культура безопасности и нулевой травматизм (Практическое занятие)
+UID:8f3f69077aa749d143afec12c3e4c226@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алешкин А.В.\nМесто: корп. 6\, ауд. 210
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195253Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность инженерных систем зданий и сооружений (Лекция)
+UID:876d358e333bfcb8aa369ee5e91d74f1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Быкова В.В.
+DTEND:20261030T172500Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261030T155500Z
+STATUS:CONFIRMED
+SUMMARY:Культура безопасности и нулевой травматизм (Практическое занятие)
+UID:f02f94b38788a7b1b0f98d0330cac3ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195253Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Быкова В.В.
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T195253Z
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Государственное управление охраной труда (Практическое занятие)
+UID:b0fe4efb6d65a37cc64e8f7518ad9f5c@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

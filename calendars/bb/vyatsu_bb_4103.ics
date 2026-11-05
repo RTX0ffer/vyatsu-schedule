@@ -1,0 +1,516 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ Бб-4103
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шинку А.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Микробиологический контроль парфюмерно-косметических средств (Лекция)
+UID:19d4f5494de923d88efb1718d1f66732@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Стандартизация косметических средств (Практическое занятие)
+UID:81e27aeecda22df5ce8399e50564ee44@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная косметика (Лекция)
+UID:9fc995047b25299f1512803a1d80b24c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии парфюмерно-косметических средств (Лекция)
+UID:49b3f0c35f8347f279b311264518ccba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная косметика (Лекция)
+UID:d348eb759afa2bc2167b3db5ff8b7455@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 302
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 302
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная косметика (Практическое занятие)
+UID:161ee87549b453d104984d85edc1b8c4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Химия аромата (Лабораторная работа)
+UID:a7f0df9172b78a2c1052d6a294ac19f8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 302
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 302
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная косметика (Практическое занятие)
+UID:e4e39c493738c401ccd7c05a84caaaff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии парфюмерно-косметических средств (Лекция)
+UID:f163ce90e7e57ae6e760bd55dffc61d5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Завалина Ю.А.\nМесто: корп. 4\, ауд. 003
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 003
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Микробиологический контроль парфюмерно-косметических средств (Лабораторная работа)
+UID:30822b3edfe0346be100ef112d4f7d06@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Химия аромата (Лабораторная работа)
+UID:4e30953660f6b65d0c68cee47bfe917c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Завалина Ю.А.\nМесто: корп. 4\, ауд. 003
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 003
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Микробиологический контроль парфюмерно-косметических средств (Лабораторная работа)
+UID:fb818f54909132214c45f3e0578b2fbf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шинку А.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Микробиологический контроль парфюмерно-косметических средств (Лекция)
+UID:4201c72211056945aa0a604ceb918eaf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 506
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 506
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Фармакогнозия (Лабораторная работа)
+UID:9e0ee47fb074d4f57d60feb62b4c6254@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Фармакогнозия (Лекция)
+UID:7e7a78b1071cd140e94ed8a9179e7d25@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Альтернативные источники сырья (Лекция)
+UID:d644aae1cf86792b1181b672dc64931e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Стандартизация косметических средств (Практическое занятие)
+UID:b6d77d3f5992cab44c74587af50080b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии парфюмерно-косметических средств (Лекция)
+UID:de6cd9020567241da521b9ee3ebb2077@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 302
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 302
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная косметика (Практическое занятие)
+UID:507d159c35893dce8dec30351f2ca297@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии парфюмерно-косметических средств (Лабораторная работа)
+UID:c8cc864fd09f8262a29ba3871a41089d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Завалина Ю.А.\nМесто: корп. 4\, ауд. 003
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 003
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Микробиологический контроль парфюмерно-косметических средств (Лабораторная работа)
+UID:3d3318c2c5173bd8beafd2a4d5182ebf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 1\, ауд. 531
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент и маркетинг (Лекция)
+UID:d0a41730346bd62c047842be52917e8a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261118T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261118T052000Z
+STATUS:CONFIRMED
+SUMMARY:Стандартизация косметических средств (Практическое занятие)
+UID:9182f8d6d21c6ca482766ffd0f2caf82@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261111T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261111T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии парфюмерно-косметических средств (Лабораторная работа)
+UID:8f85c72eb79738ae492bcb52cb04d8a0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 506
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 506
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Фармакогнозия (Лабораторная работа)
+UID:be4a35b4398b46e667bda23cb0857b03@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Альтернативные источники сырья (Практическое занятие)
+UID:cc2400db42c47b8d5d62798fbebe44f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Химия аромата (Лабораторная работа)
+UID:16736d43b7f409506f256649a8044ac4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 506
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 506
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Фармакогнозия (Лабораторная работа)
+UID:8eec2203060635a1e34132a394975e73@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии парфюмерно-косметических средств (Лекция)
+UID:1b4d29e8c9659930888359e181290940@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 1\, ауд. 531
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент и маркетинг (Практическое занятие)
+UID:23729e0f22af7f25453d2ddf79b707d5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 302
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 302
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Функциональная косметика (Практическое занятие)
+UID:a1869224c608a15bbd7c869d4e1bd957@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии парфюмерно-косметических средств (Лабораторная работа)
+UID:665cb3506dc0aefbb125c248715588b3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Стандартизация косметических средств (Лекция)
+UID:327c4ae79e124ca2b8a0ee5afbe75539@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261111T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261111T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии парфюмерно-косметических средств (Лабораторная работа)
+UID:63f73cab0cb785b0f59c4b78a2585a42@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Стандартизация косметических средств (Лекция)
+UID:81f4c1e62dcb93f6424f01aa75f6aa1f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Альтернативные источники сырья (Практическое занятие)
+UID:b4c5bab93862ebb02b761e06a7a9bcd5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Завалина Ю.А.\nМесто: корп. 4\, ауд. 003
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 003
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Микробиологический контроль парфюмерно-косметических средств (Лабораторная работа)
+UID:3d3185d87863a763c0b08d171b4d4bc8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Химия аромата (Лекция)
+UID:6c5fcec153e465ff2e33e21a34cd1913@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 506
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 506
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Фармакогнозия (Лабораторная работа)
+UID:367efd79c5162789cadc7e8f61cd110b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 1\, ауд. 531
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент и маркетинг (Лекция)
+UID:50b012732637b5a18209a7dc92e32b59@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261112T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261112T052000Z
+STATUS:CONFIRMED
+SUMMARY:Альтернативные источники сырья (Лекция)
+UID:fc8bd8ebcbadb5fc976f6cdb26e8e701@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Фармакогнозия (Лекция)
+UID:8fa64eab8853df52cbb5e1eceef1ee71@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 1\, ауд. 531
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент и маркетинг (Практическое занятие)
+UID:62e340e2382d32f3f17cd396b74d825a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 1\, ауд. 531
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент и маркетинг (Практическое занятие)
+UID:0d4203840e629440b3a882682e410379@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Химия аромата (Лабораторная работа)
+UID:4c2d95c384cb0020ab9f1557d1405cb9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 1\, ауд. 531
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент и маркетинг (Практическое занятие)
+UID:a551b70eb7f75fc55c29655c06d9bfe3@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

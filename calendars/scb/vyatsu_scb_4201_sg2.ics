@@ -1,0 +1,263 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ СЦб-4201 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая социология (Лекция)
+UID:3fcfffc1e215ec307fbd4821d6004f89@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ситникова Е.Л.\nМесто: корп. 21\, ауд. 264
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии принятия управленческих решений (Лекция)
+UID:dd42ed040b1a77b2a404b5e0c99f2943@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шиклина Э.В.\nМесто: корп. 14\, ауд. 131
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методы социодиагностики (Лекция)
+UID:47d243325dcdf092f92dc4f3eb0da2f9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая социология (Практическое занятие)
+UID:03a9e51c3cf351ed0fd83d58fb198e04@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ситникова Е.Л.\nМесто: корп. 21\, ауд. 264
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии принятия управленческих решений (Практическое занятие)
+UID:34007afe3e68b2977c21e96b1309d275@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гмызина Э.В.\nМесто: корп. 21\, ауд. 264
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Социология культуры (Лекция)
+UID:2b44d3a4d59ed89c4a55de30b7bac995@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шиклина Э.В.\nМесто: корп. 14\, ауд. 133
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Методы социодиагностики (Практическое занятие)
+UID:ce4d10cbac50c01d840502e1ce38cd8f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ситникова Е.Л.\nМесто: корп. 14\, ауд. 221
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Социальное проектирование и прогнозирование (Лекция)
+UID:f4f2862641a612bf7f172d3e9c8dbc3b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Москвин А.С.\nМесто: корп. 14\, ауд. 133
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика онлайн-исследований (Практическое занятие)
+UID:7dfa9e1b431aee5e75ec4f507ee8d334@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шиклина Э.В.\nМесто: корп. 14\, ауд. 140
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы социодиагностики (Практическое занятие)
+UID:e36f39004947c446744eb376805133c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гмызина Э.В.\nМесто: корп. 14\, ауд. 209
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 209
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Социология культуры (Практическое занятие)
+UID:2bbdb7e3df20b4d0d99c940665f7e3eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ситникова Е.Л.\nМесто: корп. 21\, ауд. 264
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии принятия управленческих решений (Лекция)
+UID:70ee1f9b078fadd457f966846b5406c1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гмызина Э.В.\nМесто: корп. 21\, ауд. 264
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Социология культуры (Практическое занятие)
+UID:31ba7b7aad2bde1927ca545508113e61@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Москвин А.С.\nМесто: корп. 14\, ауд. 133
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика онлайн-исследований (Лекция)
+UID:5439f6ab8a2986064e987cb3599effae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шиклина Э.В.\nМесто: корп. 14\, ауд. 133
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы социодиагностики (Лекция)
+UID:417ad4670b78b8890849381fbbf612b2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ситникова Е.Л.\nМесто: корп. 21\, ауд. 264
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии принятия управленческих решений (Практическое занятие)
+UID:5c3384af79c76f8e3b1aee8e43c983eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 328
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая социология (Практическое занятие)
+UID:ea0fb0c46d7acbe2104c39ab02d5a2b9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гмызина Э.В.\nМесто: корп. 14\, ауд. 209
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 209
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Социология культуры (Лекция)
+UID:bf57dabf62be19a5cd65030a5a89f729@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Москвин А.С.\nМесто: корп. 14\, ауд. 133
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика онлайн-исследований (Практическое занятие)
+UID:8741367d347d9c221d6a6f4689628613@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ситникова Е.Л.\nМесто: корп. 14\, ауд. 221
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Социальное проектирование и прогнозирование (Практическое занятие)
+UID:2c76a469735ea2bb66bb0df440f3b739@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Москвин А.С.\nМесто: корп. 14\, ауд. 133
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика онлайн-исследований (Лекция)
+UID:92e4e1643a8ca49574104d25bb93cf97@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ситникова Е.Л.\nМесто: корп. 21\, ауд. 264
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 21\, ауд. 264
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Социальное проектирование и прогнозирование (Практическое занятие)
+UID:b00ffb9ecae199d4e45f43a431da8b13@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 328
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическая социология (Лекция)
+UID:ab1c32a6df1f9475507ffa2492d48475@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

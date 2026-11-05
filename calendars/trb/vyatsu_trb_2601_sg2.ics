@@ -1,0 +1,241 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ТРб-2601 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соболева О.Н.\nМесто: корп. 14\, ауд. 114
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Практическое занятие)
+UID:ca5fa85460d5824f4dd169d7372287fb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ганебных Е.В.\nМесто: корп. 14\, ауд. 338
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент (Практическое занятие)
+UID:f2350427432d4b16830c3452ce63b38c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шпенглер А.В.\nМесто: корп. 14\, ауд. 338
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Лидерство и управление командой (Лекция)
+UID:fc54bc31f1f3acdfefa4d1ea0c2b18c3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 14\, ауд. 114
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами (Практическое занятие)
+UID:be5047c6f8c26d9c0cc4b8fd7ebfef0f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сметанина А.И.\nМесто: корп. 14\, ауд. 131
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Организация туристской деятельности (Практическое занятие)
+UID:326af3a74399c943ff15768c7bbf480e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плюснина Ю.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 115
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:80f86fd2a2a915036ce26c724a3c7ed3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шпенглер А.В.\nМесто: корп. 14\, ауд. 113
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Лидерство и управление командой (Практическое занятие)
+UID:e1845232568fefca489482a4e79741b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Веприкова А.А.\nМесто: корп. 14\, ауд. 113
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Туристское краеведение (Лекция)
+UID:ec65adc42ddc210bd0efe9060248035d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лесных Н.Ю.\nМесто: корп. 14\, ауд. 114
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами (Практическое занятие)
+UID:3d58bbd0cb282d9117f7d3aadc259bad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинин А.А.\nМесто: корп. 14\, ауд. 208
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 208
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:ededb524237f97806a4999e227aadb61@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Калинин А.А.\nМесто: корп. 14\, ауд. 338
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:1f2d4ff57473bc0908e145e21e281f4b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сметанина А.И.\nМесто: корп. 14\, ауд. 113
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Организация туристской деятельности (Лекция)
+UID:190234ff1f95c3f41b2113efb8a8ce89@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Синцова А.К.\nМесто: корп. 14\, ауд. 113
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Сервисная деятельность (Лекция)
+UID:479de0273469c0a841cf0f1f28c30840@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Веприкова А.А.\nМесто: корп. 14\, ауд. 130
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Туристское краеведение (Практическое занятие)
+UID:13e4d15390da990964c2977a90b46cb0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Синцова А.К.\nМесто: корп. 14\, ауд. 130
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Сервисная деятельность (Практическое занятие)
+UID:4e155c5274309207f6beef3d27f9bca5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Соболева О.Н.\nМесто: корп. 14\, ауд. 338
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Лекция)
+UID:ad0ea657269f34e5d136f23f047d7fcd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Калинин А.А.\nМесто: корп. 14\, ауд. 338
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:958feec4986d0a59335540dae38be1d1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Веприкова А.А.\nМесто: корп. 14\, ауд. 130
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Туристское краеведение (Практическое занятие)
+UID:e1e3de2f0a36ce86c9724a7b38c8228a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плюснина Ю.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 115
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 115
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:98e8172333c252127a4cd728500fd2fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ганебных Е.В.\nМесто: корп. 14\, ауд. 338
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент (Практическое занятие)
+UID:9b4d200f5fcc704ce4988e30cd787c6f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Соболева О.Н.\nМесто: корп. 14\, ауд. 114
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика организаций (предприятий) (Практическое занятие)
+UID:6715e861523c916676a6e14131e3fbf9@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,578 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ МНб-3602 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ганебных Е.В.\nМесто: корп. 14\, ауд. 123
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 123
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в маркетинге (Лекция)
+UID:abf079c38addbd60165f450c4ec5504f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 122
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Планирование на предприятии (Лекция)
+UID:3e595be05c963a70d61c91f35c82725c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Палкина М.В.\nМесто: корп. 16\, ауд. 121
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический менеджмент (Лекция)
+UID:87c725d67a78557ea60a05c24d6220eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Палкина М.В.\nМесто: корп. 14\, ауд. 114
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический менеджмент (Лекция)
+UID:7cce45e8fa18ae1ff6e44a4eb46dd596@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ганебных Е.В.
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в маркетинге (Лабораторная работа)
+UID:ecc13819330bc9ff0aa7fc1c071e6583@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ганебных Е.В.
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в маркетинге (Лабораторная работа)
+UID:841b5a47ec538b42161aba4ad1438576@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Палкина М.В.\nМесто: корп. 14\, ауд. 131
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический менеджмент (Практическое занятие)
+UID:06f194d78529c651692f369d2a115b74@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 122
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический маркетинг (Практическое занятие)
+UID:a5fe36c0ea69f3819ca04474254e3d3e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 131
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Планирование на предприятии (Практическое занятие)
+UID:ba51f0905c22b7f147dca1d84c41d610@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Палкина М.В.\nМесто: корп. 16\, ауд. 209
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический менеджмент (Практическое занятие)
+UID:02043173782a228123d8ff16a6ba11a6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Палкина М.В.\nМесто: корп. 14\, ауд. 131
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический менеджмент (Практическое занятие)
+UID:a2ac97c66cb68ab1a4dd2c7f293d41b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Палкина М.В.\nМесто: корп. 14\, ауд. 130
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический менеджмент (Практическое занятие)
+UID:54d0d33e8afdacd9148d6d59dfc36937@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 122
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Планирование на предприятии (Лекция)
+UID:c2db23d876be2d82e6f57311011112d0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 130
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинговые исследования (Практическое занятие)
+UID:24a703083b580cff2aa2b5216a6a6093@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 122
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинговые исследования (Практическое занятие)
+UID:98d42bb2170c1f9463eff0facc5072d6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 114
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинговые исследования (Лекция)
+UID:0e98e7ee01da3ae7925e7b6d5d1cb6b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 122
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Планирование на предприятии (Лекция)
+UID:7950ad30a51dbff6559523d3d86d2b17@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Палкина М.В.\nМесто: корп. 14\, ауд. 130
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический менеджмент (Практическое занятие)
+UID:ea5f33b22c1968932132f6586de3a275@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 114
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинговые исследования (Лекция)
+UID:c4aa556999876b89343239150e9dd052@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 114
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинговые исследования (Практическое занятие)
+UID:8ce84c26611e0b10fbb61538044ff0b7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 114
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический маркетинг (Практическое занятие)
+UID:2749fdc7b91b2362af3ec5625896884f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 131
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Планирование на предприятии (Практическое занятие)
+UID:128dfb80a89cdc9da8d66d8523dee89b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 122
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический маркетинг (Практическое занятие)
+UID:b8de0747310e4b1144bbffd93252e2c7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 147
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:10125d73c2d0389e7e56f9740ddf05af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Палкина М.В.\nМесто: корп. 16\, ауд. 121
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 121
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический менеджмент (Лекция)
+UID:cc7d1a9a1f59aa9162362e9500fac562@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 122
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Планирование на предприятии (Лекция)
+UID:98a8776eb394039270c09f6c399f117a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 131
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Планирование на предприятии (Практическое занятие)
+UID:8e1a379b522a7a8c3b6868ad7f8eb520@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 147
+DTEND:20261112T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261112T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:232cd1d24b1b4006d3e71b731ff88eba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ганебных Е.В.\nМесто: корп. 14\, ауд. 123
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 123
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в маркетинге (Лекция)
+UID:d9b8ef0b17ce5e762d3d17accdb62af7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 131
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Планирование на предприятии (Практическое занятие)
+UID:d21fb0207df3a6960043a252b72baccc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 147
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:7cc2f756ec32137110ce19646dd1ba07@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 131
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Планирование на предприятии (Практическое занятие)
+UID:186146f3cbf4490049d65d05e778fc43@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ганебных Е.В.
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в маркетинге (Лабораторная работа)
+UID:7663d778929536d8be15acf182585c4d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 114
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинговые исследования (Лекция)
+UID:c2a8adc14f19f2a7492b6bdc914ccc97@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 122
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинговые исследования (Практическое занятие)
+UID:b8ea82a3333ab4c1999bbfeb3f486672@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 114
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический маркетинг (Лекция)
+UID:82a3fb41cb4ed75e29ac214d24e8a241@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Ганебных Е.В.
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T195252Z
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в маркетинге (Лабораторная работа)
+UID:3e94bc864d1bf12aa72307a111147e76@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Алцыбеева И.Г.\nМесто: корп. 14\, ауд. 131
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Планирование на предприятии (Практическое занятие)
+UID:33f6482aa44847fab8234fec13aa36db@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 122
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический маркетинг (Практическое занятие)
+UID:e54557b3ec1849280c7d320254e3c050@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 114
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический маркетинг (Лекция)
+UID:807e0dcecfa3661c13f1a9f5ab813046@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 114
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинговые исследования (Практическое занятие)
+UID:4eb84e7fe5eeb39b9fbee1baed631ba3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 114
+DTEND:20261111T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261111T124500Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический маркетинг (Лекция)
+UID:d80de8e73773d5d99453eead0ca77fe3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 122
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический маркетинг (Практическое занятие)
+UID:56fd60c36976c5d2145b58e9fd9c2d2e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ганебных Е.В.\nМесто: корп. 14\, ауд. 123
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 123
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в маркетинге (Лекция)
+UID:7b95da2579ba2f42c0f4b80b66352eef@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Палкина М.В.\nМесто: корп. 14\, ауд. 114
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический менеджмент (Лекция)
+UID:e49e7ac34cbb574008be651a1dbf0325@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ганебных Е.В.\nМесто: корп. 14\, ауд. 123
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 123
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:Информационные технологии в маркетинге (Лекция)
+UID:413bad4d11ce3ba63c2f89cc8dfc6e5d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 114
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинговые исследования (Лекция)
+UID:d33032d9924a15c5f1b0b4580c1f3faf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлюпина Е.Г.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 147
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 147
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:2fbf22fdad0c297cd8d63cf4fe32bec9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 114
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический маркетинг (Практическое занятие)
+UID:29884f9284ce09001a6e4be71b42dc3c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 122
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 122
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Маркетинговые исследования (Практическое занятие)
+UID:c07e823d7894a02d07573f8e03eb4bed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Палкина М.В.\nМесто: корп. 16\, ауд. 209
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 16\, ауд. 209
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический менеджмент (Практическое занятие)
+UID:5bc20000c356e4e6a490bf511ba8f938@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195252Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Березина Е.А.\nМесто: корп. 14\, ауд. 114
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T195252Z
+LOCATION:корп. 14\, ауд. 114
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Стратегический маркетинг (Лекция)
+UID:25259e80900abcc8d99563b63b34b0d1@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

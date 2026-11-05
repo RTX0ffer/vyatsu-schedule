@@ -1,0 +1,413 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ПОДб-5709
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Двоеглазов В.В.\nМесто: корп. 14\, ауд. 324
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения литературе (Лекция)
+UID:412dbd57110cc3c95875115a5dd8293a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Калинин А.А.\nМесто: корп. 14\, ауд. 329
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 329
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Лекция)
+UID:f23905a0da6b1257581cdf1558c7e33f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Полякова О.А.\nМесто: корп. 14\, ауд. 316
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 316
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:История зарубежной литературы (Практическое занятие)
+UID:a95cd148d8a484a475d3bd96757aea5f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобин А.А.\nМесто: корп. 14\, ауд. 312
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Общее языкознание (Практическое занятие)
+UID:dbb0e6f949cdaf805faa20223c0b6649@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лицарева К.С.\nМесто: корп. 14\, ауд. 328
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературы (Лекция)
+UID:2a4ad070480225f416a88692d2bc3f4e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Двоеглазов В.В.\nМесто: корп. 14\, ауд. 324
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения литературе (Лекция)
+UID:48e113053226c527e1852c2e65dbdc0d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Злобин А.А.\nМесто: корп. 14\, ауд. 314
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 314
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общее языкознание (Лекция)
+UID:2516b67ec0e58a24a7cc6759b397e9c9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинин А.А.\nМесто: корп. 14\, ауд. 331
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 331
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Практическое занятие)
+UID:70da6b06eae565ffb3bc124c91b08c51@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Черниговский Д.Н.\nМесто: корп. 14\, ауд. 328
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературной критики (Лекция)
+UID:eec2b8a96f7df23bb63cf5c4e5d4976e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лицарева К.С.\nМесто: корп. 14\, ауд. 328
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературы (Лекция)
+UID:713a66964fb6580a7dd369c25bacae67@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинин А.А.\nМесто: корп. 14\, ауд. 329
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 329
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Практическое занятие)
+UID:c5febe6ca9f1313dad1a5c4d86104445@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Полякова О.А.\nМесто: корп. 14\, ауд. 314
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 314
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:История зарубежной литературы (Практическое занятие)
+UID:d5731e22221d2f8a0072b3edd6cd951a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Полякова О.А.\nМесто: корп. 14\, ауд. 316
+DTEND:20261112T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 316
+DTSTART:20261112T052000Z
+STATUS:CONFIRMED
+SUMMARY:История зарубежной литературы (Лекция)
+UID:529e4fa0a8b05ab7fa69ba258a17302b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лицарева К.С.\nМесто: корп. 14\, ауд. 324
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературы (Практическое занятие)
+UID:ee142d42b9768bcb443769823ac37da2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Калинин А.А.\nМесто: корп. 14\, ауд. 329
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 329
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Лекция)
+UID:09e380f21f42d45b2bcda27bab11b25d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Двоеглазов В.В.
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения литературе (Практическое занятие)
+UID:f8b565271b1d252a663b7ae5c82dd3f9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Калинин А.А.\nМесто: корп. 14\, ауд. 329
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 329
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Практическое занятие)
+UID:42ea9616ed0dd21c41673eeb0f542ee8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобин А.А.\nМесто: корп. 14\, ауд. 324
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Общее языкознание (Практическое занятие)
+UID:b16d71f76843027ced3f90f14f0ab5f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лицарева К.С.\nМесто: корп. 14\, ауд. 331
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 331
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературы (Лекция)
+UID:f6965f84495b3e29974f4addcfcdcb38@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Полякова О.А.\nМесто: корп. 14\, ауд. 314
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 314
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:История зарубежной литературы (Лекция)
+UID:6b3c3ed2bb9188726b50f2a8bf433ae9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Черниговский Д.Н.\nМесто: корп. 14\, ауд. 328
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературной критики (Практическое занятие)
+UID:250aa88c187b9f35a1415814ea0d8805@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Черниговский Д.Н.\nМесто: корп. 14\, ауд. 324
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Методы литературоведческих исследований (Лекция)
+UID:44b82f2f0cd598f8fee4dc5b6539daa3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Черниговский Д.Н.\nМесто: корп. 14\, ауд. 331
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 331
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методы литературоведческих исследований (Практическое занятие)
+UID:4c7123c4ff11dbf8af11c78d5f1a0b75@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Двоеглазов В.В.
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения литературе (Практическое занятие)
+UID:015ec188494ea5f4f9f768928245fadf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Черниговский Д.Н.\nМесто: корп. 14\, ауд. 312
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературной критики (Практическое занятие)
+UID:586908311beb8bcbb819e36baf3a8bf1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Черниговский Д.Н.\nМесто: корп. 14\, ауд. 324
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 324
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методы литературоведческих исследований (Практическое занятие)
+UID:0cb11840cc3cc03020c529eb2e01ef58@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобин А.А.\nМесто: корп. 14\, ауд. 312
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общее языкознание (Практическое занятие)
+UID:ab0dc0e9531eea95fe9e92f6b7ff9844@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Черниговский Д.Н.\nМесто: корп. 14\, ауд. 329
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 329
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методы литературоведческих исследований (Лекция)
+UID:1f1d2d42eeeb4007b9060392c5c38037@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Калинин А.А.\nМесто: корп. 14\, ауд. 329
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 329
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Лекция)
+UID:2c0f9a745cc63a9fa00079b4be2c17f4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Полякова О.А.\nМесто: корп. 14\, ауд. 316
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 316
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:История зарубежной литературы (Практическое занятие)
+UID:d2dd1123a8b333e4b32529b172a93fec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Двоеглазов В.В.
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения литературе (Практическое занятие)
+UID:62be4644e60d3c456f72ec9909567aa3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобин А.А.\nМесто: корп. 14\, ауд. 312
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общее языкознание (Практическое занятие)
+UID:c8a60ea0070644cc143208794e90844b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лицарева К.С.\nМесто: корп. 14\, ауд. 328
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературы (Практическое занятие)
+UID:e537bccb9d1fa098ffde4474aa5c1eed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Полякова О.А.\nМесто: корп. 14\, ауд. 316
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 316
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:История зарубежной литературы (Лекция)
+UID:bf8a2e43fc2ad88704313ef2881b5a63@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Злобин А.А.\nМесто: корп. 14\, ауд. 312
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Общее языкознание (Лекция)
+UID:04d0152c2ddb96fbf12b7c6d34e47077@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лицарева К.С.\nМесто: корп. 14\, ауд. 328
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195250Z
+LOCATION:корп. 14\, ауд. 328
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:История русской литературы (Практическое занятие)
+UID:1cbf214432fe1fe62e65701b76a20b0e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195250Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Двоеглазов В.В.
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T195250Z
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и методика обучения литературе (Практическое занятие)
+UID:686a93d9771375157af34b697c76cd99@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

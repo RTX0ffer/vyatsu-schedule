@@ -1,0 +1,252 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ТАДс-4901
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дяченко Т.И.\nМесто: корп. 13\, ауд. 402
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 402
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Прокурорский надзор (Практическое занятие)
+UID:ccf5fd2af521f501ddf0a2cff52c9e5f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 406
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 406
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Декларирование товаров и транспортных средств (Практическое занятие)
+UID:339a54db018cce3712916787cd621aae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Таможенные платежи в Таможенном союзе (Практическое занятие)
+UID:0dd44706a90e00cbe89884bbedb1299b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бабайлов В.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Таможенное оформление товаров и транспортных средств (Практическое занятие)
+UID:41875298283668de816c118ee2c329c7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Крючкова Л.В.\nМесто: корп. 13\, ауд. 110
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Бухгалтерский учет (Лекция)
+UID:cf6373bc789323a1c7e443f72e0b9de9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бабайлов В.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Выявление и основы расследования административных правонарушений\, отнесенных к компетенции таможенных органов (Практическое занятие)
+UID:af837d81b6447057cf2303527840510d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гордиенко П.Н.\nМесто: корп. 13\, ауд. 610
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 610
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Правовое регулирование государственной службы в таможенных органах (Практическое занятие)
+UID:625f13a218b88f3e70c64ba8e823b82e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 105
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 105
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Декларирование товаров и транспортных средств (Лекция)
+UID:a8acb851a64b342dd9f15326781249b3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бабайлов В.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Выявление и основы расследования административных правонарушений\, отнесенных к компетенции таможенных органов (Практическое занятие)
+UID:99ee74477a94d5ec74f8be18f02a9cf3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дяченко Т.И.\nМесто: корп. 13\, ауд. 402
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 402
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Прокурорский надзор (Практическое занятие)
+UID:a3ff9ec1e5a95692a888800ebdf6962a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бабайлов В.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы квалификации преступлений в сфере таможенного дела (Практическое занятие)
+UID:4bfc042ecce37557a6ed8d511ef2d3ab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гордиенко П.Н.\nМесто: корп. 13\, ауд. 610
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 610
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Правовое регулирование государственной службы в таможенных органах (Практическое занятие)
+UID:40b84209670b0d9255d8e8421bbbfd28@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 521
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:65196642e1b475ed8ecafc541508e430@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 103а
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 103а
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Таможенные платежи в Таможенном союзе (Практическое занятие)
+UID:0f01e4b4f8a086bbb570272d19f9100d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бабайлов В.А.\nМесто: корп. 13\, ауд. 105
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 105
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Выявление и основы расследования административных правонарушений\, отнесенных к компетенции таможенных органов (Лекция)
+UID:1201084ae5e6ac5e6cee95cdba12cc5b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Мотовилова М.В.\nМесто: корп. 1\, ауд. 521
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Практическое занятие)
+UID:8802913694530a987acef747af7b1226@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гордиенко П.Н.\nМесто: корп. 13\, ауд. 110
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Правовое регулирование государственной службы в таможенных органах (Лекция)
+UID:69d461c09ffb685e252f4569269d82b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бабайлов В.А.\nМесто: корп. 13\, ауд. 105
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 105
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Основы квалификации преступлений в сфере таможенного дела (Лекция)
+UID:7b500b50e17372f847fd105ab7ff8858@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бабайлов В.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Таможенное оформление товаров и транспортных средств (Практическое занятие)
+UID:f5911782febc9a25e54049824418f85e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бабайлов В.А.\nМесто: корп. 13\, ауд. 408
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 408
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы квалификации преступлений в сфере таможенного дела (Практическое занятие)
+UID:2042f86525879f5ebe142787c7509c67@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Обухова А.Н.\nМесто: корп. 13\, ауд. 406
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 406
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Декларирование товаров и транспортных средств (Практическое занятие)
+UID:c1f43b06e1c44db96f05ec84baa827c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T195254Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дяченко Т.И.\nМесто: корп. 13\, ауд. 110
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T195254Z
+LOCATION:корп. 13\, ауд. 110
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Прокурорский надзор (Лекция)
+UID:f89348f4aa33e288ef00840154b7e5ad@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR
