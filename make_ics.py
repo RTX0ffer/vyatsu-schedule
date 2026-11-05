@@ -64,7 +64,8 @@ DEFAULT_GROUP_ID = '27021'
 GROUP_ID = DEFAULT_GROUP_ID  # Для обратной совместимости
 TIMEZONE = ZoneInfo('Europe/Kirov')
 CACHE_FILE = 'lessons_cache.json'
-ICS_FILE = 'vyatsu.ics'
+CALENDARS_DIR = 'calendars'
+ICS_FILE = os.path.join(CALENDARS_DIR, 'vyatsu.ics')
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
@@ -310,27 +311,29 @@ def update_schedule():
     save_cache(cache)
     all_lessons = list(cache['lessons'].values())
 
-    # Генерируем календари для каждой группы направления (все 4 курса)
+    # Генерируем календари для каждой группы направления (все 4 курса), разложенные по папкам
     for gid, ginfo in SUPPORTED_GROUPS.items():
         code = ginfo.get('code', gid)
+        direction = ginfo.get('direction', 'pmib')
+        dir_path = os.path.join(CALENDARS_DIR, direction)
         g_lessons = [l for l in all_lessons if l.get('group_id') == gid or (not l.get('group_id') and gid == DEFAULT_GROUP_ID)]
 
         # Общий календарь группы
-        generate_ics(g_lessons, f'vyatsu_{code}.ics', title=f"Расписание ВятГУ {ginfo['name']}")
+        generate_ics(g_lessons, os.path.join(dir_path, f'vyatsu_{code}.ics'), title=f"Расписание ВятГУ {ginfo['name']}")
 
         # 1 подгруппа
         sg1 = [l for l in g_lessons if not l.get('subgroup') or l.get('subgroup') == 1]
-        generate_ics(sg1, f'vyatsu_{code}_sg1.ics', title=f"ВятГУ {ginfo['name']} (1 подгр.)")
+        generate_ics(sg1, os.path.join(dir_path, f'vyatsu_{code}_sg1.ics'), title=f"ВятГУ {ginfo['name']} (1 подгр.)")
 
         # 2 подгруппа
         sg2 = [l for l in g_lessons if not l.get('subgroup') or l.get('subgroup') == 2]
-        generate_ics(sg2, f'vyatsu_{code}_sg2.ics', title=f"ВятГУ {ginfo['name']} (2 подгр.)")
+        generate_ics(sg2, os.path.join(dir_path, f'vyatsu_{code}_sg2.ics'), title=f"ВятГУ {ginfo['name']} (2 подгр.)")
 
-    # Для полной обратной совместимости генерируем vyatsu.ics, vyatsu_subgroup1.ics, vyatsu_subgroup2.ics
+    # Для полной обратной совместимости генерируем vyatsu.ics, vyatsu_subgroup1.ics, vyatsu_subgroup2.ics в calendars/
     g1301 = [l for l in all_lessons if l.get('group_id') == '27021' or not l.get('group_id')]
-    generate_ics(g1301, 'vyatsu.ics', title='Расписание ВятГУ ПМИб-1301')
-    generate_ics([l for l in g1301 if not l.get('subgroup') or l.get('subgroup') == 1], 'vyatsu_subgroup1.ics', title='ВятГУ ПМИб-1301 (1 подгр.)')
-    generate_ics([l for l in g1301 if not l.get('subgroup') or l.get('subgroup') == 2], 'vyatsu_subgroup2.ics', title='ВятГУ ПМИб-1301 (2 подгр.)')
+    generate_ics(g1301, os.path.join(CALENDARS_DIR, 'vyatsu.ics'), title='Расписание ВятГУ ПМИб-1301')
+    generate_ics([l for l in g1301 if not l.get('subgroup') or l.get('subgroup') == 1], os.path.join(CALENDARS_DIR, 'vyatsu_subgroup1.ics'), title='ВятГУ ПМИб-1301 (1 подгр.)')
+    generate_ics([l for l in g1301 if not l.get('subgroup') or l.get('subgroup') == 2], os.path.join(CALENDARS_DIR, 'vyatsu_subgroup2.ics'), title='ВятГУ ПМИб-1301 (2 подгр.)')
 
     return has_changes
 
@@ -392,6 +395,9 @@ def generate_ics(lessons, filename=ICS_FILE, title='Расписание Вят�
     else:
         ics_text = ics_text.replace("BEGIN:VCALENDAR\r\n", f"BEGIN:VCALENDAR\r\n{custom_headers}")
 
+    dir_name = os.path.dirname(filename)
+    if dir_name:
+        os.makedirs(dir_name, exist_ok=True)
     tmp_file = f'{filename}.tmp'
     with open(tmp_file, 'w', encoding='utf-8') as f:
         f.write(ics_text)

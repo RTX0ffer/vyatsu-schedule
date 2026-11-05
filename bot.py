@@ -34,7 +34,8 @@ USER_SETTINGS_FILE = 'user_settings.json'
 DATA_URL = os.getenv('DATA_URL', '')
 WEBAPP_URL = os.getenv('WEBAPP_URL', '').rstrip('/')
 CDN_BASE_URL = "https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main"
-ICS_URL = f"{CDN_BASE_URL}/vyatsu.ics"
+CALENDARS_DIR = "calendars"
+ICS_URL = f"{CDN_BASE_URL}/{CALENDARS_DIR}/vyatsu.ics"
 
 SUPPORTED_GROUPS = {
     # 01.03.02 Прикладная математика и информатика (ПМИб)
@@ -574,9 +575,10 @@ async def send_calendar_message(message: types.Message, user_id: int | str = Non
     code = ginfo.get('code', '1301')
     dir_title = f"{dinfo.get('badge', '')} {dinfo.get('name', '')} ({dinfo.get('short', '')})" if dinfo else ""
 
-    cdn_sg1 = f"{CDN_BASE_URL}/vyatsu_{code}_sg1.ics"
-    cdn_sg2 = f"{CDN_BASE_URL}/vyatsu_{code}_sg2.ics"
-    cdn_all = f"{CDN_BASE_URL}/vyatsu_{code}.ics"
+    direction = ginfo.get('direction', 'pmib')
+    cdn_sg1 = f"{CDN_BASE_URL}/{CALENDARS_DIR}/{direction}/vyatsu_{code}_sg1.ics"
+    cdn_sg2 = f"{CDN_BASE_URL}/{CALENDARS_DIR}/{direction}/vyatsu_{code}_sg2.ics"
+    cdn_all = f"{CDN_BASE_URL}/{CALENDARS_DIR}/{direction}/vyatsu_{code}.ics"
 
     webcal_sg1 = cdn_sg1.replace('https://', 'webcal://')
     webcal_sg2 = cdn_sg2.replace('https://', 'webcal://')
@@ -785,6 +787,7 @@ async def start_webserver():
     app.router.add_get('/healthz', handle_ping)
     app.router.add_get('/calendar.ics', handle_calendar_ics)
     app.router.add_get('/vyatsu.ics', handle_calendar_ics)
+    app.router.add_get('/calendars/vyatsu.ics', handle_calendar_ics)
     app.router.add_get('/calendar/subgroup1.ics', lambda r: handle_calendar_ics_subgroup(r, 1))
     app.router.add_get('/calendar/subgroup2.ics', lambda r: handle_calendar_ics_subgroup(r, 2))
     app.router.add_get('/calendar/all.ics', lambda r: handle_calendar_ics_subgroup(r, None))
@@ -792,6 +795,8 @@ async def start_webserver():
     app.router.add_get('/vyatsu_subgroup2.ics', lambda r: handle_calendar_ics_subgroup(r, 2))
     app.router.add_get('/calendar/{target}.ics', handle_calendar_dynamic_ics)
     app.router.add_get('/vyatsu_{target}.ics', handle_calendar_dynamic_ics)
+    app.router.add_get('/calendars/{direction}/vyatsu_{target}.ics', handle_calendar_dynamic_ics)
+    app.router.add_get('/calendars/{direction}/{target}.ics', handle_calendar_dynamic_ics)
 
     runner = web.AppRunner(app)
     await runner.setup()

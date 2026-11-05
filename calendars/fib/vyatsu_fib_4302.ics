@@ -1,0 +1,395 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ФИб-4302
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:b1159f957365db2b0f4b8b6fb53d4161@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:9ac7439d2bd62f1db37f7504688feaca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лялин А.В.\nМесто: корп. 14\, ауд. 309
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 309
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Машинное обучение (Лабораторная работа)
+UID:728aeb3dd3009380af7bdf224156604f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:e5e9ed9e5afbe76dba84040c7f887b6d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 136
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 136
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:2c8304e80e540227aa74e8f274f224ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:127ba934d239f5b08ced14cdfffdd259@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шалагинова Н.В.\nМесто: корп. 16\, ауд. 322
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Разработка мобильных приложений (Лекция)
+UID:46b1bcfc2c8a28a8ad89538037179033@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бояринцева Н.А.\nМесто: корп. 14\, ауд. 221
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматов\, формальных языков и трансляции (Лекция)
+UID:eafa32f53b02c70c050ac4fbc0d718bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бояринцева Н.А.\nМесто: корп. 14\, ауд. 221
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная графика (Лекция)
+UID:657082a3692183e1e8fbafebef4ca6ab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лялин А.В.\nМесто: корп. 16\, ауд. 313
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 16\, ауд. 313
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Машинное обучение (Лекция)
+UID:9855d436374ad1f671f751752739a79e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бояринцева Н.А.\nМесто: корп. 14\, ауд. 221
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 221
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматов\, формальных языков и трансляции (Лекция)
+UID:035ca2aeaeb35ca72370cd31fc90d0fd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Разова Е.В.\nМесто: корп. 14\, ауд. 130
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная графика (Лабораторная работа)
+UID:7c27cebb42e49b226323930355ca8c58@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:3fb6dcc5f50d5a476665885d26cbf87b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 136
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 136
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:7e022115b52156e06aaa4c156eb16180@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:a4f6fd1a866b9da9b6f5f307ad518292@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Разова Е.В.\nМесто: корп. 14\, ауд. 130
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная графика (Лабораторная работа)
+UID:217d3e3baae15a9edaac7457b6d9cf78@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261026T065000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261026T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:16c344e61ed1c5da9cf7d48971a15574@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:97befa4dc0993488a230913f0e5834e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лялин А.В.\nМесто: корп. 14\, ауд. 309
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 309
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Машинное обучение (Лабораторная работа)
+UID:fdec02b0d151ef7dafa517a71ac14581@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:01f24bac0d0041d85045331edcb79fac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Белиц А.Б.\nМесто: корп. 14\, ауд. 210
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Протоколы компьютерного взаимодействия (Лекция)
+UID:169de6b98d8da60681f42bace722ab6b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Разова Е.В.\nМесто: корп. 14\, ауд. 130
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматов\, формальных языков и трансляции (Лабораторная работа)
+UID:8cfa2ca0c2742ef83999f4879acf8d0a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:eaa395539da6eee1f113ca0536971947@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Разова Е.В.\nМесто: корп. 14\, ауд. 130
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 130
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория автоматов\, формальных языков и трансляции (Лабораторная работа)
+UID:ff61194800d4674e329b33b49bcf277a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лялин А.В.\nМесто: корп. 14\, ауд. 210
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Машинное обучение (Лекция)
+UID:88c1f9fe06641b7bb171949c06011f90@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:5d7efcc5d576364017552c2325186ca9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:04629077bcc060349f3e01e3335b5a73@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:2bbe779767457fafa199a1f0c4234887@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:523986e76a0ffb25267bc47dea9be5f5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:cc84911ccc3bd91968ec7054b5dc1352@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:bb980b749ccfea7ec5693dc699727aed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:9a6ed1aa50a03d87f821d1f9961cba26@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 140
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 140
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №2\, технологическая (проектно-технологическая) практика (Практика)
+UID:c746994dee8a1d0ddefda4c4c1515389@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Белиц А.Б.\nМесто: корп. 14\, ауд. 131
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Протоколы компьютерного взаимодействия (Лабораторная работа)
+UID:a535b479c60711771c51c723acc889fe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T064040Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Белиц А.Б.\nМесто: корп. 14\, ауд. 131
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T064040Z
+LOCATION:корп. 14\, ауд. 131
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Протоколы компьютерного взаимодействия (Лабораторная работа)
+UID:1c55ef7b9b6333b61e76f1f1fb3f38fa@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR
