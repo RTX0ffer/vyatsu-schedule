@@ -274,13 +274,14 @@ def format_day_schedule(target_date: datetime.date, group_id: str = DEFAULT_GROU
     for interval, items in by_time.items():
         if len(items) == 1:
             it = items[0]
+            sg = f"[{it['subgroup']} подгр.] " if it.get('subgroup') else ""
             subj = it.get('subject', it.get('summary', 'Пара'))
             ltype = f" ({it['type']})" if it.get('type') else ""
             teacher = f"👤 <i>{it['teacher']}</i>" if it.get('teacher') else ""
             loc = f"📍 {it['location']}" if it.get('location') else ""
             details = " | ".join(filter(None, [teacher, loc]))
 
-            text.append(f"▫️ <b>{interval}</b> | <b>{subj}</b>{ltype}\n   {details}\n")
+            text.append(f"▫️ <b>{interval}</b> | {sg}<b>{subj}</b>{ltype}\n   {details}\n")
         else:
             text.append(f"▫️ <b>{interval}</b>:")
             for it in items:
