@@ -1,0 +1,219 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ПОм-1702
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Симонова Г.И.\nМесто: корп. 15\, ауд. 430
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методология педагогических исследований (Лекция)
+UID:2e22f75d581dfa31af57281b795e1205@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 19\, ауд. 219
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 19\, ауд. 219
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы здорового образа жизни и здоровьесберегающие образовательные технологии (Практическое занятие)
+UID:fb0cca47cbcdf6fb57faee8519225b12@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 14\, ауд. 219
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент в образовании (Практическое занятие)
+UID:018f3f3cd4d6252ee30a898ed12f8ea7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Санникова А.В.\nМесто: корп. 19\, ауд. 259
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Общая теория и методика физической культуры (Практическое занятие)
+UID:14092ff57d84002bd12dc1a05e02dcd3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симонова Г.И.\nМесто: корп. 15\, ауд. 430
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методология педагогических исследований (Практическое занятие)
+UID:63cea87a5c0ea65c9bdde2b7d85b83dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 14\, ауд. 219
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление педагогическим проектом (Практическое занятие)
+UID:4afc8554d614ce0e0ca01981e1a0e55f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 19\, ауд. 219
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 19\, ауд. 219
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы здорового образа жизни и здоровьесберегающие образовательные технологии (Лекция)
+UID:9b384af690cf8f932332a094c7890342@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Набоких А.А.\nМесто: корп. 2\, ауд. 407
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 407
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление педагогическим проектом (Лекция)
+UID:cb5fbd3cbc00b7cffae887297cd30cc0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тютюнник С.И.\nМесто: корп. 1\, ауд. 236
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:5039771c6df263b3b90e9222465d4113@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 2\, ауд. 407
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 407
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Управление педагогическим проектом (Практическое занятие)
+UID:e2ade7dc8745486a30d5cddd232a2847@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент в образовании (Практическое занятие)
+UID:4735daab85af90fb7336ed9476fc4b81@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Санникова А.В.\nМесто: корп. 19\, ауд. 259
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Общая теория и методика физической культуры (Практическое занятие)
+UID:56ecfd72a9d527f1ed2dae2fbc8fc4d5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симонова Г.И.\nМесто: корп. 15\, ауд. 430
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методология педагогических исследований (Практическое занятие)
+UID:96de884cd6e8cd263ccc3370657fe738@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Морозова М.А.\nМесто: корп. 19\, ауд. 220
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 19\, ауд. 220
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфо-функционального состояния занимающихся физической культурой (Лекция)
+UID:a621b11d9d310685a7a63cd9a8739642@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тютюнник С.И.\nМесто: корп. 1\, ауд. 236
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:e285f454994e6dc7a80927ef2db7102f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Набоких А.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент в образовании (Лекция)
+UID:e8a0b6eed193468111847811f5d24380@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кадочникова Н.И.\nМесто: корп. 19\, ауд. 219
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 19\, ауд. 219
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы здорового образа жизни и здоровьесберегающие образовательные технологии (Практическое занятие)
+UID:69b1a198e503b746e8ba1fb6b716694d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Санникова А.В.\nМесто: корп. 19\, ауд. 220
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 19\, ауд. 220
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфо-функционального состояния занимающихся физической культурой (Практическое занятие)
+UID:dd8b86d4e759e09c366129ddcd0165da@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Санникова А.В.\nМесто: корп. 19\, ауд. 259
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 19\, ауд. 259
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Общая теория и методика физической культуры (Лекция)
+UID:61493926faf234b36e23dc25b54e64ec@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

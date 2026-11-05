@@ -1,0 +1,296 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ПОм-2708
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Е.С.\nМесто: корп. 17\, ауд. 351
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Художественно-техническое творчество (Практическое занятие)
+UID:42092abd5993f411078db6f9cfc32a98@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261118T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261118T155500Z
+STATUS:CONFIRMED
+SUMMARY:Взаимодействие в профессиональных сообществах (Практическое занятие)
+UID:2534abedc7dd508acf6633856f1438dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 356
+DTEND:20261113T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 356
+DTSTART:20261113T155500Z
+STATUS:CONFIRMED
+SUMMARY:Автоматизированные системы конструирования (Практическое занятие)
+UID:d97933a0397b0770a4cf7076ee03d9a9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Донога Л.\nМесто: корп. 15\, ауд. 119
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 119
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Организация педагогом-предметником психолого-педагогического просвещения (Лекция)
+UID:e3524795ebb95b3e56e54f4e0897e6bc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 356
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 356
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Автоматизированные системы конструирования (Практическое занятие)
+UID:ae1345063c455cb014de254783135ca6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование цифрового образовательного продукта (Практическое занятие)
+UID:217538cbb7a3c4017dd020dbdd2eb566@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 356
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 356
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Автоматизированные системы конструирования (Практическое занятие)
+UID:3a790eb23663d72c790ce8ea4405fc1d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 356
+DTEND:20261120T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 356
+DTSTART:20261120T142000Z
+STATUS:CONFIRMED
+SUMMARY:Автоматизированные системы конструирования (Практическое занятие)
+UID:ffffafc8de9bf4a36cad4f3aa0ca5a65@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование цифрового образовательного продукта (Практическое занятие)
+UID:1847baa29c60450bce84f33087b2ae55@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Е.С.\nМесто: корп. 17\, ауд. 268
+DTEND:20261112T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 268
+DTSTART:20261112T142000Z
+STATUS:CONFIRMED
+SUMMARY:Художественно-техническое творчество (Практическое занятие)
+UID:1917a43ebbf6e6ebb76651a975d737b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261119T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261119T155500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование цифрового образовательного продукта (Практическое занятие)
+UID:dde776435c27dcb6e32ac58ab92bf595@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 356
+DTEND:20261113T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 356
+DTSTART:20261113T142000Z
+STATUS:CONFIRMED
+SUMMARY:Автоматизированные системы конструирования (Лекция)
+UID:31df19830c210747abc0e1043d8d67d4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование цифрового образовательного продукта (Практическое занятие)
+UID:8a00c0ceaa94d55248150c17e30c636b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261118T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261118T142000Z
+STATUS:CONFIRMED
+SUMMARY:Взаимодействие в профессиональных сообществах (Лекция)
+UID:8a1aab53a1faf182abab7f27c2f2cae1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Попова Е.С.\nМесто: корп. 17\, ауд. 351
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:Художественно-техническое творчество (Лекция)
+UID:edf71eb6cce0690300b6a0f340e5c762@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261111T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261111T142000Z
+STATUS:CONFIRMED
+SUMMARY:Взаимодействие в профессиональных сообществах (Лекция)
+UID:3f211952ebc1a69c163c730cf3c3b8f8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование цифрового образовательного продукта (Практическое занятие)
+UID:d5518f6df3d56c90d8be19012d583f00@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Е.С.\nМесто: корп. 17\, ауд. 351
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Художественно-техническое творчество (Практическое занятие)
+UID:a4a19762aa40e2f81030dedb1dc4de9b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Клабукова Е.Л.\nМесто: корп. 17\, ауд. 356
+DTEND:20261120T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 356
+DTSTART:20261120T155500Z
+STATUS:CONFIRMED
+SUMMARY:Автоматизированные системы конструирования (Практическое занятие)
+UID:4963909256d4e0b84ae217859cd12b97@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Е.С.\nМесто: корп. 17\, ауд. 351
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Художественно-техническое творчество (Практическое занятие)
+UID:94716b42a5a292e418197d3a32598a7a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Е.С.\nМесто: корп. 17\, ауд. 268
+DTEND:20261112T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 268
+DTSTART:20261112T155500Z
+STATUS:CONFIRMED
+SUMMARY:Художественно-техническое творчество (Практическое занятие)
+UID:b9c05d138dd8097758e4fb73551320cd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Попова Е.С.\nМесто: корп. 17\, ауд. 351
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Художественно-техническое творчество (Практическое занятие)
+UID:35efd1bc7606df86f2411058087cbbbf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование цифрового образовательного продукта (Практическое занятие)
+UID:d426d310b13c747581d71287e7e18b95@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261111T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261111T155500Z
+STATUS:CONFIRMED
+SUMMARY:Взаимодействие в профессиональных сообществах (Практическое занятие)
+UID:f6962700a3332237df6262f7fb62ded4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Донога Л.\nМесто: корп. 15\, ауд. 119
+DTEND:20261110T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 119
+DTSTART:20261110T155500Z
+STATUS:CONFIRMED
+SUMMARY:Организация педагогом-предметником психолого-педагогического просвещения (Практическое занятие)
+UID:d57cf48cd71f17d1aa6f9ba41271a5fe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Донога Л.\nМесто: корп. 15\, ауд. 119
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 119
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Организация педагогом-предметником психолого-педагогического просвещения (Практическое занятие)
+UID:d792ebaa40816710423dfa2acbf6d0b5@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

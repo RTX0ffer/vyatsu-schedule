@@ -8,21 +8,10 @@ X-WR-TIMEZONE:Europe/Kirov
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Коротаев А.В.\nМесто: корп. 8\, ауд. 202
-DTEND:20261103T141500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 202
-DTSTART:20261103T124500Z
-STATUS:CONFIRMED
-SUMMARY:Электроснабжение промышленных предприятий (Лабораторная работа)
-UID:ca04e58389bf9f4f2d535a3d221c6a54@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 509
 DTEND:20261106T123000Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 509
 DTSTART:20261106T110000Z
 STATUS:CONFIRMED
@@ -30,32 +19,32 @@ SUMMARY:Релейная защита и автоматика (Лаборато�
 UID:5f15fef0a93978f33c419c33211d9dd0@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 606
-DTEND:20261030T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 606
-DTSTART:20261030T084500Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 511
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261109T070000Z
 STATUS:CONFIRMED
-SUMMARY:Электроснабжение промышленных предприятий (Практическое занятие)
-UID:0bda6579625b1532d6b09d24af9d84a6@vyatsu.schedule
+SUMMARY:Управление режимами и надежность в электроэнергетических системах (Лекция)
+UID:d4724fbf2b838999245083805fa98447@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 310
-DTEND:20261027T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 310
-DTSTART:20261027T084500Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261113T110000Z
 STATUS:CONFIRMED
-SUMMARY:Технология производства тепло- и электроэнергии на ТЭС (Практическое занятие)
-UID:a480d023342d79159cf97cb026053099@vyatsu.schedule
+SUMMARY:Автоматика электроэнергетических систем (Лекция)
+UID:ba95ac21a6ea01360c7bc6089d776cee@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Соловьева А.С.\nМесто: корп. 8\, ауд. 609
 DTEND:20261029T083000Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 609
 DTSTART:20261029T070000Z
 STATUS:CONFIRMED
@@ -63,43 +52,10 @@ SUMMARY:Электромеханические переходные процес
 UID:b607747240a3e64eebc0d27c27d91cb3@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 511
-DTEND:20261103T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 511
-DTSTART:20261103T070000Z
-STATUS:CONFIRMED
-SUMMARY:Управление режимами и надежность в электроэнергетических системах (Лекция)
-UID:f561c04eb084ecc4c8adfdb1f56c5ca9@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 608
-DTEND:20261026T141500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 608
-DTSTART:20261026T124500Z
-STATUS:CONFIRMED
-SUMMARY:Качество электрической энергии (Лабораторная работа)
-UID:c9d6baa3bae2babd9167eb528d4c0522@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 507
-DTEND:20261026T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 507
-DTSTART:20261026T070000Z
-STATUS:CONFIRMED
-SUMMARY:Электроснабжение промышленных предприятий (Лекция)
-UID:19472e9b08cd35dfc386cd91eaa295b0@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
 DTEND:20261102T141500Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 501
 DTSTART:20261102T124500Z
 STATUS:CONFIRMED
@@ -107,32 +63,10 @@ SUMMARY:Автоматика электроэнергетических сист
 UID:d74ee4fb2956830570b3f021ee1f7155@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 606
-DTEND:20261106T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 606
-DTSTART:20261106T084500Z
-STATUS:CONFIRMED
-SUMMARY:Качество электрической энергии (Практическое занятие)
-UID:8bc85beef39f0264936edca906070f59@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 511
-DTEND:20261030T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 511
-DTSTART:20261030T084500Z
-STATUS:CONFIRMED
-SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Практическое занятие)
-UID:1f7ab1d8b6e3092d9d391657f9400c62@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 607
 DTEND:20261026T101500Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 607
 DTSTART:20261026T084500Z
 STATUS:CONFIRMED
@@ -140,195 +74,109 @@ SUMMARY:Электроснабжение потребителей промышл
 UID:b5723d273a667ec2d2a6337b9d4bc8e7@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 505
-DTEND:20261103T141500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 505
-DTSTART:20261103T124500Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушкова Е.И.\nМесто: корп. 8\, ауд. 507
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 507
+DTSTART:20261109T084500Z
 STATUS:CONFIRMED
-SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Лабораторная работа)
-UID:504600bb59dd95e1070978909455962d@vyatsu.schedule
+SUMMARY:Расчет коротких замыканий для выбора оборудования и релейной защиты электрической станции (Практическое занятие)
+UID:2e4e56fee3065f3522529f09eabf8073@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 511
-DTEND:20261029T123000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 511
-DTSTART:20261029T110000Z
-STATUS:CONFIRMED
-SUMMARY:Качество электрической энергии (Лекция)
-UID:8216f8428ba2155fa2d9bc68375f11f1@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакшаева Н.С.\nМесто: корп. 8\, ауд. 608
-DTEND:20261027T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 608
-DTSTART:20261027T084500Z
-STATUS:CONFIRMED
-SUMMARY:Внутрицеховое электроснабжение (Практическое занятие)
-UID:dd67f235a888bf35cf8d9c31cfdfc530@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 511
-DTEND:20261026T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 511
-DTSTART:20261026T070000Z
-STATUS:CONFIRMED
-SUMMARY:Управление режимами и надежность в электроэнергетических системах (Лекция)
-UID:248bf4e772fd7fdcfc71b8c388d209aa@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 509
-DTEND:20261026T141500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 509
-DTSTART:20261026T124500Z
-STATUS:CONFIRMED
-SUMMARY:Автоматические устройства на электрических станциях (Лабораторная работа)
-UID:f30fb0b4d5ef300a7343147fa1cd0223@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Коротаев А.В.\nМесто: корп. 8\, ауд. 202
-DTEND:20261103T123000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 202
-DTSTART:20261103T110000Z
-STATUS:CONFIRMED
-SUMMARY:Электроснабжение промышленных предприятий (Лабораторная работа)
-UID:52c5d39a1c44ca627b311df9fc491e28@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
-DTEND:20261029T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 501
-DTSTART:20261029T084500Z
-STATUS:CONFIRMED
-SUMMARY:Релейная защита и автоматика (Практическое занятие)
-UID:eedc3a40d9e8df3ad559cb6357313ba5@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
-DTEND:20261030T123000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 501
-DTSTART:20261030T110000Z
-STATUS:CONFIRMED
-SUMMARY:Автоматика электроэнергетических систем (Лекция)
-UID:c0a2d7c1b84fc3255eb61725ae845622@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 506
-DTEND:20261102T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 506
-DTSTART:20261102T084500Z
-STATUS:CONFIRMED
-SUMMARY:Технология производства тепло- и электроэнергии на ТЭС (Лекция)
-UID:7879c789878f5fab167bcbae9d8d6666@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 511
-DTEND:20261026T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 511
-DTSTART:20261026T084500Z
-STATUS:CONFIRMED
-SUMMARY:Расчеты устойчивости электроэнергетических систем (Практическое занятие)
-UID:b26ffde0def6d2b8d632f8ca9512d1ed@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 501
-DTEND:20261103T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 501
-DTSTART:20261103T070000Z
-STATUS:CONFIRMED
-SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Лекция)
-UID:a6e25217d806bbd3da6aedbd54982ebb@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плешкова Т.А.
-DTEND:20261105T101500Z
-LAST-MODIFIED:20261105T195254Z
-DTSTART:20261105T084500Z
-STATUS:CONFIRMED
-SUMMARY:Электромеханические переходные процессы (Практическое занятие)
-UID:e52f14ca41d9f873cd48473a2ed69a1c@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Репкина Н.Г.\nПодгруппа: 3\nМесто: корп. 8\, ауд. 501
-DTEND:20261102T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 501
-DTSTART:20261102T070000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность (Практическое занятие)
-UID:1b18c68f24e9f4d32f9a3037fe70b5c5@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плешкова Т.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 401
-DTEND:20261105T123000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 401
-DTSTART:20261105T110000Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плешкова Т.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 411
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 411
+DTSTART:20261119T124500Z
 STATUS:CONFIRMED
 SUMMARY:Электромеханические переходные процессы (Лабораторная работа)
-UID:f08947ee966cc2f036db1a03b1462213@vyatsu.schedule
+UID:9f90746e34c77989913049306a4acc70@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
-DTEND:20261106T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 501
-DTSTART:20261106T084500Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 306
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 306
+DTSTART:20261109T110000Z
 STATUS:CONFIRMED
-SUMMARY:Автоматические устройства на электрических станциях (Практическое занятие)
-UID:abda494c6fe31308764cd4c51d18d966@vyatsu.schedule
+SUMMARY:Качество электрической энергии (Лабораторная работа)
+UID:cfd33fa18c246af911078c96cb3ccfbc@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 604
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Лекция)
+UID:a89aca8500413afd2b8e326fd5f17c66@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Релейная защита и автоматика (Практическое занятие)
+UID:cfe9505a4ad38be67d3c93004ec4227c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 507
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 507
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение промышленных предприятий (Лекция)
+UID:9921c8ea796e0a0dc9e2fb3f7bb29390@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бакшаева Н.С.\nМесто: корп. 8\, ауд. 608
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Внутрицеховое электроснабжение (Лекция)
+UID:037a73110cb91ccce876d4ad3be9c6ae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 511
-DTEND:20261103T101500Z
-LAST-MODIFIED:20261105T195254Z
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 511
-DTSTART:20261103T084500Z
+DTSTART:20261109T084500Z
 STATUS:CONFIRMED
 SUMMARY:Расчеты устойчивости электроэнергетических систем (Практическое занятие)
-UID:9c1a926a4c98ce9546e74dc902e3b538@vyatsu.schedule
+UID:770e0880315df6c13b4707086d870643@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плешкова Т.А.
-DTEND:20261027T141500Z
-LAST-MODIFIED:20261105T195254Z
-DTSTART:20261027T124500Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 501
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261117T070000Z
 STATUS:CONFIRMED
-SUMMARY:Электромеханические переходные процессы (Практическое занятие)
-UID:0a45e3dc54f5ed51d3274b2bcdfb4591@vyatsu.schedule
+SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Лекция)
+UID:9094628451f4399fa8131089125eb369@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соловьева А.С.\nМесто: корп. 8\, ауд. 401
 DTEND:20261026T123000Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 401
 DTSTART:20261026T110000Z
 STATUS:CONFIRMED
@@ -336,32 +184,21 @@ SUMMARY:Управление режимами и надежность в эле�
 UID:b8f6b2312b18c2784a605cd63b8d6a07@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Бакшаева Н.С.\nМесто: корп. 8\, ауд. 608
-DTEND:20261027T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 608
-DTSTART:20261027T070000Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 505
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 505
+DTSTART:20261117T124500Z
 STATUS:CONFIRMED
-SUMMARY:Внутрицеховое электроснабжение (Лекция)
-UID:1511617f223e144c83ccaf2f4640514a@vyatsu.schedule
+SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Лабораторная работа)
+UID:f0859dceae5c6b51eef5ccd0a27306fd@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 608
-DTEND:20261106T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 608
-DTSTART:20261106T070000Z
-STATUS:CONFIRMED
-SUMMARY:Качество электрической энергии (Лекция)
-UID:aa5076a24065636a19c20149bf89f52c@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Бакшаева Н.С.\nМесто: корп. 8\, ауд. 609
 DTEND:20261102T101500Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 609
 DTSTART:20261102T084500Z
 STATUS:CONFIRMED
@@ -369,10 +206,10 @@ SUMMARY:Внутрицеховое электроснабжение (Лекци�
 UID:2476e62e56ba83fa1798458e89d79702@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 501
 DTEND:20261030T101500Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 501
 DTSTART:20261030T084500Z
 STATUS:CONFIRMED
@@ -380,10 +217,10 @@ SUMMARY:Управление режимами и надежность в эле�
 UID:939631ab3d1107dfe91600c5036bfd96@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Репкина Н.Г.\nМесто: корп. 8\, ауд. 511
 DTEND:20261027T083000Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 511
 DTSTART:20261027T070000Z
 STATUS:CONFIRMED
@@ -391,10 +228,21 @@ SUMMARY:Моделирование цифрового управления в э
 UID:ee681246aa349b183ac378b05fb102ba@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 608
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Качество электрической энергии (Лекция)
+UID:2a64b5b8ced349cbc61215995340f652@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плешкова Т.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 401
 DTEND:20261105T123000Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 401
 DTSTART:20261105T110000Z
 STATUS:CONFIRMED
@@ -402,65 +250,54 @@ SUMMARY:Электромеханические переходные процес
 UID:c2a34d2116b29b2994b811bd51cd8d96@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 310
-DTEND:20261027T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 310
-DTSTART:20261027T070000Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 509
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 509
+DTSTART:20261120T124500Z
 STATUS:CONFIRMED
-SUMMARY:Технология производства тепло- и электроэнергии на ТЭС (Лекция)
-UID:2463e76b154a96c7f9fc32b33f6f7c34@vyatsu.schedule
+SUMMARY:Релейная защита и автоматика (Лабораторная работа)
+UID:f7aaf7d1787de1f114ff575427e59038@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушкова Е.И.\nМесто: корп. 8\, ауд. 507
-DTEND:20261026T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 507
-DTSTART:20261026T084500Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 306
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 306
+DTSTART:20261109T124500Z
 STATUS:CONFIRMED
-SUMMARY:Расчет коротких замыканий для выбора оборудования и релейной защиты электрической станции (Практическое занятие)
-UID:0a4069095cabc3b02ab7e125bee44f30@vyatsu.schedule
+SUMMARY:Качество электрической энергии (Лабораторная работа)
+UID:79acf42c7acb688509c4bf41f85df183@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плешкова Т.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 401
-DTEND:20261105T141500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 401
-DTSTART:20261105T124500Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Соловьева А.С.\nМесто: корп. 8\, ауд. 609
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 609
+DTSTART:20261119T070000Z
 STATUS:CONFIRMED
-SUMMARY:Электромеханические переходные процессы (Лабораторная работа)
-UID:55166154f7080b581a9020329dc73f67@vyatsu.schedule
+SUMMARY:Электромеханические переходные процессы (Лекция)
+UID:4795621d9822489b2f8c97a397474e9d@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
-DTEND:20261106T083000Z
-LAST-MODIFIED:20261105T195254Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 501
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 501
-DTSTART:20261106T070000Z
+DTSTART:20261113T070000Z
 STATUS:CONFIRMED
-SUMMARY:Автоматические устройства на электрических станциях (Лекция)
-UID:d8884eb4201ee76e70b46a3bf3c8125e@vyatsu.schedule
+SUMMARY:Управление режимами и надежность в электроэнергетических системах (Лекция)
+UID:45646cbc9c95cd9cfdb2d67854dce924@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
-DTEND:20261102T123000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 501
-DTSTART:20261102T110000Z
-STATUS:CONFIRMED
-SUMMARY:Релейная защита и автоматика (Лекция)
-UID:999ba7bb427986df0c99d93a3b9f92e6@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 507
 DTEND:20261029T123000Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 507
 DTSTART:20261029T110000Z
 STATUS:CONFIRMED
@@ -468,21 +305,10 @@ SUMMARY:Автоматические устройства на электрич�
 UID:e7ed7be4910ac0f132bfdd1c97da4d53@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Репкина Н.Г.\nМесто: корп. 8\, ауд. 511
-DTEND:20261027T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 511
-DTSTART:20261027T084500Z
-STATUS:CONFIRMED
-SUMMARY:Моделирование цифрового управления в электроэнергетических системах (Практическое занятие)
-UID:d2506f78f96f0c132eb7a77cdd9af3f6@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 509
 DTEND:20261106T123000Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 509
 DTSTART:20261106T110000Z
 STATUS:CONFIRMED
@@ -490,130 +316,43 @@ SUMMARY:Релейная защита и автоматика (Лаборато�
 UID:93893f1150260fb27efb658919425305@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 509
-DTEND:20261106T141500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 509
-DTSTART:20261106T124500Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 606
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 606
+DTSTART:20261120T084500Z
 STATUS:CONFIRMED
-SUMMARY:Релейная защита и автоматика (Лабораторная работа)
-UID:8e2316ed9002410f67ee3c6566b2b115@vyatsu.schedule
+SUMMARY:Качество электрической энергии (Практическое занятие)
+UID:3ed0c6199d9c3ccc251fc4f30957cf33@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 509
-DTEND:20261026T123000Z
-LAST-MODIFIED:20261105T195254Z
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 509
-DTSTART:20261026T110000Z
+DTSTART:20261109T110000Z
 STATUS:CONFIRMED
 SUMMARY:Автоматические устройства на электрических станциях (Лабораторная работа)
-UID:f99720ae47badfa7eda2bb984937a667@vyatsu.schedule
+UID:ba4bc388763199d76bd3e7a18d2933a0@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 608
-DTEND:20261103T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 608
-DTSTART:20261103T070000Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 607
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 607
+DTSTART:20261109T084500Z
 STATUS:CONFIRMED
-SUMMARY:Электроснабжение промышленных предприятий (Лекция)
-UID:3051af90d3f1f11c5227b7d7c596a15b@vyatsu.schedule
+SUMMARY:Электроснабжение потребителей промышленных предприятий (Практическое занятие)
+UID:5eefd83191bf7757cc0a5ad2f1f0105a@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров Н.В.
-DTEND:20261102T155000Z
-LAST-MODIFIED:20261105T195254Z
-DTSTART:20261102T142000Z
-STATUS:CONFIRMED
-SUMMARY:Автоматика электроэнергетических систем (Практическое занятие)
-UID:b4b39f63958c113c663f91ff6aa9cbfc@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушкова Е.И.\nМесто: корп. 8\, ауд. 506
-DTEND:20261103T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 506
-DTSTART:20261103T084500Z
-STATUS:CONFIRMED
-SUMMARY:Расчет коротких замыканий для выбора оборудования и релейной защиты электрической станции (Практическое занятие)
-UID:37e7e0a4dbe49d4efe6147feb912665d@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 507
-DTEND:20261030T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 507
-DTSTART:20261030T070000Z
-STATUS:CONFIRMED
-SUMMARY:Электроснабжение промышленных предприятий (Лекция)
-UID:decb9ae4349247f7e5367d7ec2a4ee2d@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 604
-DTEND:20261026T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 604
-DTSTART:20261026T070000Z
-STATUS:CONFIRMED
-SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Лекция)
-UID:d2803db7da34a38e2b2c1d99a91aeda8@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Соловьева А.С.\nМесто: корп. 8\, ауд. 609
-DTEND:20261105T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 609
-DTSTART:20261105T070000Z
-STATUS:CONFIRMED
-SUMMARY:Электромеханические переходные процессы (Лекция)
-UID:18b4be83c5b92b9bb010cbb080644451@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 511
-DTEND:20261030T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 511
-DTSTART:20261030T070000Z
-STATUS:CONFIRMED
-SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Лекция)
-UID:b334e3c32a8bb359cdb841e31df1ff35@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Репкина Н.Г.\nМесто: корп. 8\, ауд. 501
-DTEND:20261102T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 501
-DTSTART:20261102T084500Z
-STATUS:CONFIRMED
-SUMMARY:Моделирование цифрового управления в электроэнергетических системах (Лекция)
-UID:ba0e2b0fd7bdc5925b43ee6af608910c@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Репкина Н.Г.\nПодгруппа: 3\nМесто: корп. 8\, ауд. 501
-DTEND:20261030T065000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 501
-DTSTART:20261030T052000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность (Практическое занятие)
-UID:3478a60794f475280021c039fb3c3921@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 505
 DTEND:20261103T123000Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 505
 DTSTART:20261103T110000Z
 STATUS:CONFIRMED
@@ -621,32 +360,10 @@ SUMMARY:Режимы работы и эксплуатация электрооб
 UID:13a70be50efa4142a3dac79bde5cfa35@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бессолицын А.В.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 604
-DTEND:20261028T123000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 604
-DTSTART:20261028T110000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность (Практическое занятие)
-UID:9dd4869088dd243c4a2c67dac1d66897@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 501
-DTEND:20261030T083000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 501
-DTSTART:20261030T070000Z
-STATUS:CONFIRMED
-SUMMARY:Управление режимами и надежность в электроэнергетических системах (Лекция)
-UID:12921b66390c7667795d95325e87383c@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плешкова Т.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 401
 DTEND:20261105T141500Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 401
 DTSTART:20261105T124500Z
 STATUS:CONFIRMED
@@ -654,32 +371,314 @@ SUMMARY:Электромеханические переходные процес
 UID:cce4734fb1f339cbaa346ef4d26f8f2d@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соловьева А.С.\nМесто: корп. 8\, ауд. 401
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 511
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Расчеты устойчивости электроэнергетических систем (Практическое занятие)
+UID:5d0b022b1e563e8b8db7c1410ae3e9a6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Автоматика электроэнергетических систем (Лекция)
+UID:c0a2d7c1b84fc3255eb61725ae845622@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плешкова Т.А.
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T215824Z
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электромеханические переходные процессы (Практическое занятие)
+UID:86742ff4791b16ca67740740396040b9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плешкова Т.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 411
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 411
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электромеханические переходные процессы (Лабораторная работа)
+UID:7522df5163d368379ed609202776a9ea@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 509
 DTEND:20261026T141500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 401
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 509
 DTSTART:20261026T124500Z
 STATUS:CONFIRMED
-SUMMARY:Управление режимами и надежность в электроэнергетических системах (Лабораторная работа)
-UID:57fa60244f891c6cef4aef6993d59871@vyatsu.schedule
+SUMMARY:Автоматические устройства на электрических станциях (Лабораторная работа)
+UID:f30fb0b4d5ef300a7343147fa1cd0223@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 608
-DTEND:20261026T123000Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 608
-DTSTART:20261026T110000Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261120T084500Z
 STATUS:CONFIRMED
-SUMMARY:Качество электрической энергии (Лабораторная работа)
-UID:1f52212f5dae35bfe6c3590186321b5c@vyatsu.schedule
+SUMMARY:Автоматические устройства на электрических станциях (Практическое занятие)
+UID:e33c155e42719c60d9431a6d157fa8f0@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плешкова Т.А.
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T215824Z
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электромеханические переходные процессы (Практическое занятие)
+UID:e52f14ca41d9f873cd48473a2ed69a1c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Репкина Н.Г.\nПодгруппа: 3\nМесто: корп. 8\, ауд. 501
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:1b18c68f24e9f4d32f9a3037fe70b5c5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плешкова Т.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 401
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 401
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электромеханические переходные процессы (Лабораторная работа)
+UID:f08947ee966cc2f036db1a03b1462213@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 511
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Расчеты устойчивости электроэнергетических систем (Практическое занятие)
+UID:9c1a926a4c98ce9546e74dc902e3b538@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Релейная защита и автоматика (Лекция)
+UID:918a992cbc70c42676522bfa79d23272@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Автоматические устройства на электрических станциях (Лекция)
+UID:afe7e7a5e20d93f72e764a686f1bb3cb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плешкова Т.А.
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T215824Z
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электромеханические переходные процессы (Практическое занятие)
+UID:0a45e3dc54f5ed51d3274b2bcdfb4591@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соловьева А.С.\nМесто: корп. 8\, ауд. 401
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 401
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Управление режимами и надежность в электроэнергетических системах (Лабораторная работа)
+UID:7a5aafc8dac88f9aae9a3e5a68170958@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 608
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Качество электрической энергии (Лекция)
+UID:aa5076a24065636a19c20149bf89f52c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 506
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология производства тепло- и электроэнергии на ТЭС (Лекция)
+UID:f0d155e7624e2cef4f668b8109ad9cf6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плешкова Т.А.
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T215824Z
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электромеханические переходные процессы (Практическое занятие)
+UID:f03e1f4b01f2a051f237b5615f2faa87@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 511
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Лекция)
+UID:98903d24fe5adda9b4623e0867e05e38@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 509
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 509
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Релейная защита и автоматика (Лабораторная работа)
+UID:c3b0c73aba6cf85cfe378184d7352fde@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 310
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 310
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология производства тепло- и электроэнергии на ТЭС (Лекция)
+UID:2463e76b154a96c7f9fc32b33f6f7c34@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Репкина Н.Г.\nМесто: корп. 8\, ауд. 511
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование цифрового управления в электроэнергетических системах (Лекция)
+UID:e9af4c84ca89569ca1fc5057def6b1dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плешкова Т.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 411
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 411
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электромеханические переходные процессы (Лабораторная работа)
+UID:7ce7e87a226881f6e192e408833e1c9b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 509
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 509
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Релейная защита и автоматика (Лабораторная работа)
+UID:8e2316ed9002410f67ee3c6566b2b115@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Коротаев А.В.\nМесто: корп. 8\, ауд. 202
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 202
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение промышленных предприятий (Лабораторная работа)
+UID:c822d2965c476323d0907c9ab78d16b2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Коротаев А.В.\nМесто: корп. 8\, ауд. 202
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 202
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение промышленных предприятий (Лабораторная работа)
+UID:ae9f0a6e09d2a7d3bb4b4506db52e4e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 608
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение промышленных предприятий (Лекция)
+UID:0f828d86456669621d924b863aab81de@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 509
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 509
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Релейная защита и автоматика (Лабораторная работа)
+UID:7a6e276f20e9cb5f8e71b8d8a768da15@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Репкина Н.Г.\nПодгруппа: 3\nМесто: корп. 8\, ауд. 501
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:3478a60794f475280021c039fb3c3921@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 509
 DTEND:20261106T141500Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 509
 DTSTART:20261106T124500Z
 STATUS:CONFIRMED
@@ -687,10 +686,701 @@ SUMMARY:Релейная защита и автоматика (Лаборато�
 UID:6306651e3f89c3be4330b4c216e9e941@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бессолицын А.В.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 604
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:9dd4869088dd243c4a2c67dac1d66897@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 501
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Управление режимами и надежность в электроэнергетических системах (Лекция)
+UID:12921b66390c7667795d95325e87383c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 608
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Качество электрической энергии (Лабораторная работа)
+UID:1f52212f5dae35bfe6c3590186321b5c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Коротаев А.В.\nМесто: корп. 8\, ауд. 202
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 202
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение промышленных предприятий (Лабораторная работа)
+UID:ca04e58389bf9f4f2d535a3d221c6a54@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бакшаева Н.С.\nМесто: корп. 8\, ауд. 609
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 609
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Внутрицеховое электроснабжение (Лекция)
+UID:5a0cb5e90e7f7e21b8c3d2a8115d3d4b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плешкова Т.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 411
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 411
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электромеханические переходные процессы (Лабораторная работа)
+UID:eb770057f60fe00fc4cdfa0f77f4a87b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Коротаев А.В.\nМесто: корп. 8\, ауд. 202
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 202
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение промышленных предприятий (Лабораторная работа)
+UID:52c5d39a1c44ca627b311df9fc491e28@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 511
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Управление режимами и надежность в электроэнергетических системах (Лекция)
+UID:248bf4e772fd7fdcfc71b8c388d209aa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Релейная защита и автоматика (Практическое занятие)
+UID:eedc3a40d9e8df3ad559cb6357313ba5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 607
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 607
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение потребителей промышленных предприятий (Практическое занятие)
+UID:23436372112acc40417651254328c744@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Автоматические устройства на электрических станциях (Практическое занятие)
+UID:abda494c6fe31308764cd4c51d18d966@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Репкина Н.Г.\nМесто: корп. 8\, ауд. 511
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование цифрового управления в электроэнергетических системах (Практическое занятие)
+UID:65f1320bd543fabacdeb8c3bcedfedae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 310
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 310
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология производства тепло- и электроэнергии на ТЭС (Практическое занятие)
+UID:6e0d865a42eee62f93c90b011ae6453b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 509
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 509
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Релейная защита и автоматика (Лабораторная работа)
+UID:107c906a4b6e30788bbea75569d9c8fa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бакшаева Н.С.\nМесто: корп. 8\, ауд. 608
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Внутрицеховое электроснабжение (Лекция)
+UID:1511617f223e144c83ccaf2f4640514a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 310
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 310
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология производства тепло- и электроэнергии на ТЭС (Лекция)
+UID:13bb657637bc218437a84bbbbd1f9233@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Соловьева А.С.\nМесто: корп. 8\, ауд. 609
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 609
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электромеханические переходные процессы (Лекция)
+UID:43d300d36ae9a219223b7b9d557718ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушкова Е.И.\nМесто: корп. 8\, ауд. 507
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 507
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Расчет коротких замыканий для выбора оборудования и релейной защиты электрической станции (Практическое занятие)
+UID:0a4069095cabc3b02ab7e125bee44f30@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 606
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 606
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение промышленных предприятий (Практическое занятие)
+UID:4dfbbb8c2f1cad0238622dbffc3b7894@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Релейная защита и автоматика (Лекция)
+UID:999ba7bb427986df0c99d93a3b9f92e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушкова Е.И.\nМесто: корп. 8\, ауд. 506
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Расчет коротких замыканий для выбора оборудования и релейной защиты электрической станции (Практическое занятие)
+UID:f34ac128305ed49b30be7ff8ffb3aeb9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 507
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 507
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение промышленных предприятий (Лекция)
+UID:decb9ae4349247f7e5367d7ec2a4ee2d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 511
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Качество электрической энергии (Лекция)
+UID:b7a7b048990d0168fe61602c3c44bf10@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бессолицын А.В.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 604
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:3cecbaabfc9b18aff737e7690b624806@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Соловьева А.С.\nМесто: корп. 8\, ауд. 609
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 609
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электромеханические переходные процессы (Лекция)
+UID:18b4be83c5b92b9bb010cbb080644451@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соловьева А.С.\nМесто: корп. 8\, ауд. 401
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 401
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Управление режимами и надежность в электроэнергетических системах (Лабораторная работа)
+UID:8f74eac1eae0125678e3fec4eced10ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Репкина Н.Г.\nМесто: корп. 8\, ауд. 501
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование цифрового управления в электроэнергетических системах (Лекция)
+UID:ba0e2b0fd7bdc5925b43ee6af608910c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Репкина Н.Г.\nПодгруппа: 3\nМесто: корп. 8\, ауд. 501
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность (Практическое занятие)
+UID:12723a945504de02aba6601e9f9d5cb4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 607
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 607
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение потребителей промышленных предприятий (Практическое занятие)
+UID:a574abeb4972ac62375656ea9560b6e4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 606
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 606
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение промышленных предприятий (Практическое занятие)
+UID:0bda6579625b1532d6b09d24af9d84a6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 310
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 310
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология производства тепло- и электроэнергии на ТЭС (Практическое занятие)
+UID:a480d023342d79159cf97cb026053099@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 511
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Управление режимами и надежность в электроэнергетических системах (Лекция)
+UID:f561c04eb084ecc4c8adfdb1f56c5ca9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров Н.В.
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215824Z
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Автоматика электроэнергетических систем (Практическое занятие)
+UID:7d498ad60f8d33adad289d4860f2d656@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 608
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Качество электрической энергии (Лабораторная работа)
+UID:c9d6baa3bae2babd9167eb528d4c0522@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 507
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 507
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение промышленных предприятий (Лекция)
+UID:19472e9b08cd35dfc386cd91eaa295b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 606
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 606
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Качество электрической энергии (Практическое занятие)
+UID:8bc85beef39f0264936edca906070f59@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 511
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Практическое занятие)
+UID:1f7ab1d8b6e3092d9d391657f9400c62@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 511
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Управление режимами и надежность в электроэнергетических системах (Лекция)
+UID:dc916cce92a1c1d087e5114f94dffb7e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 505
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 505
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Лабораторная работа)
+UID:504600bb59dd95e1070978909455962d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Торопова А.К.\nМесто: корп. 8\, ауд. 511
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Качество электрической энергии (Лекция)
+UID:8216f8428ba2155fa2d9bc68375f11f1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакшаева Н.С.\nМесто: корп. 8\, ауд. 608
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Внутрицеховое электроснабжение (Практическое занятие)
+UID:dd67f235a888bf35cf8d9c31cfdfc530@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 506
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология производства тепло- и электроэнергии на ТЭС (Лекция)
+UID:7879c789878f5fab167bcbae9d8d6666@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 511
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Расчеты устойчивости электроэнергетических систем (Практическое занятие)
+UID:b26ffde0def6d2b8d632f8ca9512d1ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 511
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Релейная защита и автоматика (Лекция)
+UID:472a562fe91547495ca2e216348da7dc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 501
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Лекция)
+UID:a6e25217d806bbd3da6aedbd54982ebb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 505
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 505
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Лабораторная работа)
+UID:9f48408bb90218be4dffa43dd08b26b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Плешкова Т.А.\nМесто: корп. 8\, ауд. 501
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Управление режимами и надежность в электроэнергетических системах (Практическое занятие)
+UID:8457e2b52c39f15b43423e6b88ecae51@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Автоматические устройства на электрических станциях (Лекция)
+UID:d8884eb4201ee76e70b46a3bf3c8125e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Плешкова Т.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 401
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 401
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Электромеханические переходные процессы (Лабораторная работа)
+UID:55166154f7080b581a9020329dc73f67@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 511
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Практическое занятие)
+UID:99a2b8fa77958d04dd4f12f93c9d17f4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 509
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 509
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Автоматические устройства на электрических станциях (Лабораторная работа)
+UID:97d5681e80fe0d0adb08e6f2c035122b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Репкина Н.Г.\nМесто: корп. 8\, ауд. 511
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Моделирование цифрового управления в электроэнергетических системах (Практическое занятие)
+UID:d2506f78f96f0c132eb7a77cdd9af3f6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 507
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 507
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Автоматические устройства на электрических станциях (Лекция)
+UID:d1acad577212b2301a6fa0b7d534681c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 509
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 509
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Автоматические устройства на электрических станциях (Лабораторная работа)
+UID:f99720ae47badfa7eda2bb984937a667@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 608
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение промышленных предприятий (Лекция)
+UID:3051af90d3f1f11c5227b7d7c596a15b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Петров Н.В.
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215824Z
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Автоматика электроэнергетических систем (Практическое занятие)
+UID:b4b39f63958c113c663f91ff6aa9cbfc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушкова Е.И.\nМесто: корп. 8\, ауд. 506
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Расчет коротких замыканий для выбора оборудования и релейной защиты электрической станции (Практическое занятие)
+UID:37e7e0a4dbe49d4efe6147feb912665d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 604
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Лекция)
+UID:d2803db7da34a38e2b2c1d99a91aeda8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бакшаева Н.С.\nМесто: корп. 8\, ауд. 608
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Внутрицеховое электроснабжение (Практическое занятие)
+UID:fa7c5e7e91e3d5e006f453b8f15299fe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бессолицын А.В.\nМесто: корп. 8\, ауд. 511
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Режимы работы и эксплуатация электрооборудования электрических станций (Лекция)
+UID:b334e3c32a8bb359cdb841e31df1ff35@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 507
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 507
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Электроснабжение промышленных предприятий (Лекция)
+UID:b8d0d56ad44ac7824850567ca7f25992@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 501
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Автоматика электроэнергетических систем (Лекция)
+UID:3172e8243f0bfaa11e86d4e753851003@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Соловьева А.С.\nМесто: корп. 8\, ауд. 401
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 401
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Управление режимами и надежность в электроэнергетических системах (Лабораторная работа)
+UID:57fa60244f891c6cef4aef6993d59871@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Петров Н.В.\nМесто: корп. 8\, ауд. 511
 DTEND:20261027T123000Z
-LAST-MODIFIED:20261105T195254Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 511
 DTSTART:20261027T110000Z
 STATUS:CONFIRMED
@@ -698,14 +1388,14 @@ SUMMARY:Релейная защита и автоматика (Лекция)
 UID:fab64d8b1994329e686f630ebc318eae@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195254Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дерендяева Л.В.\nМесто: корп. 8\, ауд. 607
-DTEND:20261103T101500Z
-LAST-MODIFIED:20261105T195254Z
-LOCATION:корп. 8\, ауд. 607
-DTSTART:20261103T084500Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Репкина Н.Г.\nМесто: корп. 8\, ауд. 501
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 501
+DTSTART:20261116T084500Z
 STATUS:CONFIRMED
-SUMMARY:Электроснабжение потребителей промышленных предприятий (Практическое занятие)
-UID:a574abeb4972ac62375656ea9560b6e4@vyatsu.schedule
+SUMMARY:Моделирование цифрового управления в электроэнергетических системах (Лекция)
+UID:dde9ccdfd5f4646bee00ef59d09054a1@vyatsu.schedule
 END:VEVENT
 END:VCALENDAR

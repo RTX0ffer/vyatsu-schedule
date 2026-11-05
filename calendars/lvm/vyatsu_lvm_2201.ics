@@ -1,0 +1,274 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ЛВм-2201
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261113T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261113T142000Z
+STATUS:CONFIRMED
+SUMMARY:Практика специального перевода (английский язык) (Практическое занятие)
+UID:70e1df661c246b8094b75a4a47667432@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Практика специального перевода (английский язык) (Практическое занятие)
+UID:35dfbe1702da6b2af8ca6d72932309ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Практика художественного перевода (английский язык) (Практическое занятие)
+UID:f01d4420f1d1b40615b741caf94fbe5d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Языковая картина мира и национально-культурная специфика в устных и письменных текстах (Практическое занятие)
+UID:4bf26466d1826f8b9e05aa3a8829558a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261110T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261110T155500Z
+STATUS:CONFIRMED
+SUMMARY:Практика художественного перевода (английский язык) (Практическое занятие)
+UID:a1049e2467043dccd417253ac285c8e0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Языковая картина мира и национально-культурная специфика в устных и письменных текстах (Практическое занятие)
+UID:6fba26e9dbe5436a69d65a919283f58e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика устного и письменного перевода (Практическое занятие)
+UID:d5a727f6585f50beddcee48e718c576d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика устного и письменного перевода (Практическое занятие)
+UID:03572411fa9e1cde10b4eaf3e5941e0d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Практика художественного перевода (английский язык) (Практическое занятие)
+UID:7fd90e4cf2be57c4724c605dc93d2987@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика устного и письменного перевода (Практическое занятие)
+UID:59ac1603fae28f93f32ddd2662eccc43@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261030T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261030T155500Z
+STATUS:CONFIRMED
+SUMMARY:Практика специального перевода (английский язык) (Практическое занятие)
+UID:a37d222de464f5dbdd6d3a8a4a8bf973@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Языковая картина мира и национально-культурная специфика в устных и письменных текстах (Практическое занятие)
+UID:11bf78eb444d2aac4746707396db42a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Практика специального перевода (английский язык) (Практическое занятие)
+UID:f46ca09582fbf4a55cb0239149ae7a95@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Языковая картина мира и национально-культурная специфика в устных и письменных текстах (Практическое занятие)
+UID:7a221bd74545cd03588578d1cd7b20f1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261120T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261120T142000Z
+STATUS:CONFIRMED
+SUMMARY:Практика специального перевода (английский язык) (Практическое занятие)
+UID:200c11b9302c838f0ef61ab28437bfa4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика устного и письменного перевода (Практическое занятие)
+UID:674bb1ba9620516d237ea69d7c9ea5b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Практика специального перевода (английский язык) (Практическое занятие)
+UID:ea2465e4a658f4f92294a6e10a216eee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика устного и письменного перевода (Практическое занятие)
+UID:b9307680d9a1ac265612fccafd31869d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика устного и письменного перевода (Практическое занятие)
+UID:c68f869ead6bbbc23d4c316111386ecd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261120T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261120T155500Z
+STATUS:CONFIRMED
+SUMMARY:Практика специального перевода (английский язык) (Практическое занятие)
+UID:8001ebc2ea04df7419e3f152ca19b4f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261113T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261113T155500Z
+STATUS:CONFIRMED
+SUMMARY:Практика специального перевода (английский язык) (Практическое занятие)
+UID:2f4264cf53012d96b5af2ad832572e38@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Практика художественного перевода (английский язык) (Практическое занятие)
+UID:ea0885beb715abdff5aeff54d6f7dcde@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика устного и письменного перевода (Практическое занятие)
+UID:9094e0945f16758d82c9c44ede947acb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Казаков А.В.\nМесто: корп. 15\, ауд. 246
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 246
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Теория и практика устного и письменного перевода (Практическое занятие)
+UID:336e256ca6e89d7246b925c8ad4d6469@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

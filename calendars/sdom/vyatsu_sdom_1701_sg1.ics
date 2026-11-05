@@ -1,0 +1,489 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ СДОм-1701 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Александрова Н.С.\nМесто: корп. 15\, ауд. 125
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Язык и стиль научного текста (Лекция)
+UID:80b1afe97d33fabe450a67efffe62a1d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Морозова М.А.\nМесто: корп. 19\, ауд. 219
+DTEND:20261120T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 19\, ауд. 219
+DTSTART:20261120T155500Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфофункционального состояния обучающихся (Практическое занятие)
+UID:7407851eac77371e9ba0a88c1cdf9cf8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рублёва О.С.\nМесто: корп. 15\, ауд. 116
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 116
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:169b9bb4c2d82bf40672e141415ac5d7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Башмакова С.Б.\nМесто: корп. 2\, ауд. 300
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Логопедическая диагностика речевых нарушений у детей (Практическое занятие)
+UID:f62abc722c06b3a166d71312af0b2af3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Городилова С.А.\nМесто: корп. 2\, ауд. 205
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 2\, ауд. 205
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные и альтернативные средства коммуникации (Практическое занятие)
+UID:5290872c5a4d94e46dcda950534115e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Морозова М.А.\nМесто: корп. 19\, ауд. 219
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 19\, ауд. 219
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфофункционального состояния обучающихся (Практическое занятие)
+UID:5e96619bfa87443cc8377f507e87b5c5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Морозова М.А.\nМесто: корп. 19\, ауд. 220
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 19\, ауд. 220
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфофункционального состояния обучающихся (Лекция)
+UID:3a4f6c80391a63f1a1026d6247cce560@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Морозова М.А.\nМесто: корп. 19\, ауд. 220
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 19\, ауд. 220
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфофункционального состояния обучающихся (Лекция)
+UID:baea624a76168b56afd73ddd3c21d0bf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Морозова М.А.\nМесто: корп. 19\, ауд. 220
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 19\, ауд. 220
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфофункционального состояния обучающихся (Лекция)
+UID:2fcbaaa1c6bbb9f9c9418095d3a3311f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Морозова М.А.\nМесто: корп. 19\, ауд. 219
+DTEND:20261120T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 19\, ауд. 219
+DTSTART:20261120T142000Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфофункционального состояния обучающихся (Практическое занятие)
+UID:ccab15f68137eb687321d6e736ea26c7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Александрова Н.С.\nМесто: корп. 15\, ауд. 125
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Язык и стиль научного текста (Практическое занятие)
+UID:3118f1df83234a14eef8332d8bdac12d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рублёва О.С.\nМесто: корп. 15\, ауд. 116
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 116
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:ccdea2ca938d1f93d860ebb5f2b3f6ae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рублёва О.С.\nМесто: корп. 15\, ауд. 116
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 116
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:c1908787f4d03adec00a65dc0d96af00@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Башмакова С.Б.
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T215826Z
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедическая диагностика речевых нарушений у детей (Лекция)
+UID:8451cac090bfbbbe14b54facaa649168@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Башмакова С.Б.
+DTEND:20261114T065000Z
+LAST-MODIFIED:20261105T215826Z
+DTSTART:20261114T052000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедическая диагностика речевых нарушений у детей (Лекция)
+UID:a77b1e677e30aa2e37481d125bb5ab64@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Морозова М.А.\nМесто: корп. 19\, ауд. 219
+DTEND:20261113T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 19\, ауд. 219
+DTSTART:20261113T155500Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфофункционального состояния обучающихся (Практическое занятие)
+UID:84c058bef2a4560093397c7a1481bfa4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Александрова Н.С.\nМесто: корп. 15\, ауд. 125
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Язык и стиль научного текста (Лекция)
+UID:7b64fd3cf071c25cae48788cc2706526@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рублёва О.С.\nМесто: корп. 15\, ауд. 116
+DTEND:20261117T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 116
+DTSTART:20261117T155500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:88cff41ece4a457ff7ba30260dbbd46b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Городилова С.А.\nМесто: корп. 14\, ауд. 312
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные и альтернативные средства коммуникации (Практическое занятие)
+UID:7724b1b51f3d311c8ff7cbc852432360@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Башмакова С.Б.\nМесто: корп. 2\, ауд. 300
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Логопедическая диагностика речевых нарушений у детей (Практическое занятие)
+UID:03ab1456745f485dc1d640dd80e59495@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Городилова С.А.\nМесто: корп. 14\, ауд. 312
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные и альтернативные средства коммуникации (Лекция)
+UID:0674e25090f6fa02d2f689047694ba38@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Городилова С.А.\nМесто: корп. 14\, ауд. 312
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные и альтернативные средства коммуникации (Лекция)
+UID:be976ae6a6e6ac617c546252b8863d3a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Александрова Н.С.\nМесто: корп. 15\, ауд. 125
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Язык и стиль научного текста (Практическое занятие)
+UID:5b8b658baa944ae62eb853a4207acd75@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Городилова С.А.\nМесто: корп. 14\, ауд. 312
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные и альтернативные средства коммуникации (Практическое занятие)
+UID:2f05c0b549f5728810ff8efb36c7de4b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Морозова М.А.\nМесто: корп. 19\, ауд. 219
+DTEND:20261113T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 19\, ауд. 219
+DTSTART:20261113T142000Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфофункционального состояния обучающихся (Лекция)
+UID:8213ca19e533cb269dab547e5284027b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Александрова Н.С.\nМесто: корп. 15\, ауд. 125
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Язык и стиль научного текста (Лекция)
+UID:a90ea48b08b813525c1d80d6e184e34e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Морозова М.А.\nМесто: корп. 19\, ауд. 220
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 19\, ауд. 220
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфофункционального состояния обучающихся (Лекция)
+UID:5179cad3b9077e8adde3f87e7bd60f3e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рублёва О.С.\nМесто: корп. 15\, ауд. 116
+DTEND:20261111T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 116
+DTSTART:20261111T155500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:ebd5da15cf50e96f73591e6a511e0f1d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Морозова М.А.\nМесто: корп. 19\, ауд. 219
+DTEND:20261030T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 19\, ауд. 219
+DTSTART:20261030T155500Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфофункционального состояния обучающихся (Практическое занятие)
+UID:7a2ad6a5bc71d13ca941b1361ebd51fd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Морозова М.А.\nМесто: корп. 19\, ауд. 219
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 19\, ауд. 219
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфофункционального состояния обучающихся (Практическое занятие)
+UID:c3900df5bf48585a19b354c6c587a952@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Башмакова С.Б.\nМесто: корп. 2\, ауд. 300
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедическая диагностика речевых нарушений у детей (Практическое занятие)
+UID:d5b7b2e98bdca0d1f03bff60a5e924bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Башмакова С.Б.\nМесто: корп. 2\, ауд. 300
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедическая диагностика речевых нарушений у детей (Практическое занятие)
+UID:c919ab4ab0d14ec0f8afe38ddd5824b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Башмакова С.Б.
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T215826Z
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедическая диагностика речевых нарушений у детей (Лекция)
+UID:6078b8c3ad53daf9915b26ac8698f3cc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Городилова С.А.\nМесто: корп. 14\, ауд. 312
+DTEND:20261119T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261119T155500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные и альтернативные средства коммуникации (Практическое занятие)
+UID:3591eb5b48100844cbb37b518ecc4424@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Башмакова С.Б.\nМесто: корп. 2\, ауд. 300
+DTEND:20261121T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261121T070000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедическая диагностика речевых нарушений у детей (Практическое занятие)
+UID:06e7f680378f6f6076c547191b48e530@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Александрова Н.С.\nМесто: корп. 15\, ауд. 125
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Язык и стиль научного текста (Лекция)
+UID:dba2569dbab0ec7d267a82661557c7ab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Александрова Н.С.\nМесто: корп. 15\, ауд. 125
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Язык и стиль научного текста (Практическое занятие)
+UID:b38ee012591adc9106a0daf0b528ebb1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Башмакова С.Б.
+DTEND:20261121T065000Z
+LAST-MODIFIED:20261105T215826Z
+DTSTART:20261121T052000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедическая диагностика речевых нарушений у детей (Лекция)
+UID:3f2e9bd71b9f78adfe2cf8e20b6e5657@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Башмакова С.Б.\nМесто: корп. 2\, ауд. 300
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Логопедическая диагностика речевых нарушений у детей (Практическое занятие)
+UID:94fe7cfd7251cb1d3795b29b7b7bb389@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Морозова М.А.\nМесто: корп. 19\, ауд. 219
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 19\, ауд. 219
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Мониторинг морфофункционального состояния обучающихся (Лекция)
+UID:aa3285201419826ca52274cbb8b75925@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рублёва О.С.\nМесто: корп. 15\, ауд. 116
+DTEND:20261110T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 116
+DTSTART:20261110T155500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:b2c99ee5484ac2b970fda4992a037681@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Александрова Н.С.\nМесто: корп. 15\, ауд. 125
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 125
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Язык и стиль научного текста (Практическое занятие)
+UID:8b8a91f63ee59424caa2fd18d4b690cd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Городилова С.А.
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T215826Z
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные и альтернативные средства коммуникации (Лекция)
+UID:f2f9f758bce4b97413383018d2296d67@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Городилова С.А.\nМесто: корп. 14\, ауд. 312
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 312
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные и альтернативные средства коммуникации (Лекция)
+UID:e6b1bd40db18ffeb4e219c3f5826ec87@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

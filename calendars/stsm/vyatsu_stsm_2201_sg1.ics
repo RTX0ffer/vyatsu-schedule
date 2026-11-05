@@ -1,0 +1,307 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ СЦм-2201 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шиклина Э.В.\nМесто: корп. 14\, ауд. 133
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Метод экспертных оценок (Лекция)
+UID:5bdf791268c2336fd607aebefad7819c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 211
+DTEND:20261117T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261117T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы конфликтологии и медиации (Лекция)
+UID:7ba103e299f6f479966fb42e2d6716ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 234
+DTEND:20261110T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261110T155500Z
+STATUS:CONFIRMED
+SUMMARY:Метод фокус-групп (Практическое занятие)
+UID:76413d822a679b803c1c70aef55804ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Голенок М.П.\nМесто: корп. 14\, ауд. 210
+DTEND:20261118T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261118T155500Z
+STATUS:CONFIRMED
+SUMMARY:Гендерные исследования социальных процессов (Практическое занятие)
+UID:030bea86175c04a153fa51de4d3f23ad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ситникова Е.Л.\nМесто: корп. 14\, ауд. 219
+DTEND:20261119T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261119T155500Z
+STATUS:CONFIRMED
+SUMMARY:Социальное проектирование и прогнозирование (Практическое занятие)
+UID:60edc409faba547d492d4ea4880399a8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 211
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Основы конфликтологии и медиации (Лекция)
+UID:48f97a125cba8d2de9f9d10eaed02aee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шиклина Э.В.\nМесто: корп. 14\, ауд. 133
+DTEND:20261120T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261120T142000Z
+STATUS:CONFIRMED
+SUMMARY:Научно-исследовательский семинар "Комплексный социальный анализ" (Практическое занятие)
+UID:f788a8d639c5fcc7cab08cf8fc2cded3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шиклина Э.В.\nМесто: корп. 16\, ауд. 201
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 201
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Научно-исследовательский семинар "Комплексный социальный анализ" (Практическое занятие)
+UID:8e4f2d4886251ad18f90b0b013729a13@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ситникова Е.Л.\nМесто: корп. 14\, ауд. 219
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Социальное проектирование и прогнозирование (Практическое занятие)
+UID:33c96c95f4421a581a66b4bb8402ae5e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 208
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 208
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Командообразование (Лекция)
+UID:a231257ff03f4b1a04f00b742fcb2294@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ситникова Е.Л.\nМесто: корп. 14\, ауд. 219
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Социальное проектирование и прогнозирование (Лекция)
+UID:ed77a331c7fbe28e84d0d0b37e206bb9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 208
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 208
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Командообразование (Лекция)
+UID:c313597904a76a2fe4ee0de0c9a15ec2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шиклина Э.В.\nМесто: корп. 14\, ауд. 133
+DTEND:20261030T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261030T155500Z
+STATUS:CONFIRMED
+SUMMARY:Метод экспертных оценок (Практическое занятие)
+UID:9f10ac020f14540e90a5c85db61428f6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 234
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Метод фокус-групп (Лекция)
+UID:ac93db759869f28a1b3ffba7c145ecfa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Шиклина Э.В.\nМесто: корп. 14\, ауд. 133
+DTEND:20261113T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261113T142000Z
+STATUS:CONFIRMED
+SUMMARY:Метод экспертных оценок (Лекция)
+UID:d99647892d17e8f5369deffe0c596a39@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 234
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Метод фокус-групп (Практическое занятие)
+UID:dc9fd6e5dfb15bf67d30d31d81e817c5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Голенок М.П.\nМесто: корп. 14\, ауд. 210
+DTEND:20261111T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261111T142000Z
+STATUS:CONFIRMED
+SUMMARY:Гендерные исследования социальных процессов (Лекция)
+UID:c5626456a9dd583d90dfeba935158097@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кушова И.А.\nМесто: корп. 14\, ауд. 234
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 234
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Метод фокус-групп (Лекция)
+UID:2e9287556a31a7d246ea628aaa86ced8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 208
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 208
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Командообразование (Практическое занятие)
+UID:5e38fc4318ee21fa97ede13a8eb658f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шиклина Э.В.\nМесто: корп. 14\, ауд. 133
+DTEND:20261113T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 133
+DTSTART:20261113T155500Z
+STATUS:CONFIRMED
+SUMMARY:Метод экспертных оценок (Практическое занятие)
+UID:7cae996f29853afd3b171317fd5460f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шиклина Э.В.\nМесто: корп. 16\, ауд. 201
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 201
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Научно-исследовательский семинар "Комплексный социальный анализ" (Практическое занятие)
+UID:9b6c2150a7b9300ec267f3b9ca6d6eab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ситникова Е.Л.\nМесто: корп. 14\, ауд. 219
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Социальное проектирование и прогнозирование (Лекция)
+UID:2b39f63736803e41a12ce530bf016a4d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 211
+DTEND:20261117T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261117T155500Z
+STATUS:CONFIRMED
+SUMMARY:Основы конфликтологии и медиации (Практическое занятие)
+UID:492be3bb9e7f4ccbf51e66209a953c70@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Голенок М.П.\nМесто: корп. 14\, ауд. 210
+DTEND:20261118T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261118T142000Z
+STATUS:CONFIRMED
+SUMMARY:Гендерные исследования социальных процессов (Лекция)
+UID:f42597a13393fa8de43def84aee5a273@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Голенок М.П.\nМесто: корп. 14\, ауд. 210
+DTEND:20261111T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 210
+DTSTART:20261111T155500Z
+STATUS:CONFIRMED
+SUMMARY:Гендерные исследования социальных процессов (Практическое занятие)
+UID:4c750846013c092920a71a83d7b6dbcf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 211
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Основы конфликтологии и медиации (Практическое занятие)
+UID:2e6d9189b9e74eaedb1e3a39d9b5960b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Колобова Ю.И.\nМесто: корп. 14\, ауд. 208
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 208
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Командообразование (Практическое занятие)
+UID:bc09a3e24a48acfb8eba2d51e12a01db@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

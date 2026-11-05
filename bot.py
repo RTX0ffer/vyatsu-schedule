@@ -142,7 +142,7 @@ FACULTIES = {
     },
 }
 
-DIRECTIONS = {
+DEFAULT_DIRECTIONS = {
     # 📐 ФКФМН
     'pmib': {'name': 'Прикладная математика и информатика', 'short': 'ПМИб', 'code_spec': '01.03.02', 'badge': '📐', 'faculty': 'fkfmn'},
     'mkb': {'name': 'Математика и компьютерные науки', 'short': 'МКб', 'code_spec': '02.03.01', 'badge': '🔢', 'faculty': 'fkfmn'},
@@ -315,6 +315,69 @@ DEFAULT_SUPPORTED_GROUPS = {
 
 GROUPS_FILE = 'groups.json'
 GROUPS_URL = os.getenv('GROUPS_URL') or (DATA_URL.replace('lessons_cache.json', 'groups.json') if 'lessons_cache.json' in DATA_URL else '')
+DIRECTIONS_FILE = 'directions.json'
+DIRECTIONS_URL = os.getenv('DIRECTIONS_URL') or (DATA_URL.replace('lessons_cache.json', 'directions.json') if 'lessons_cache.json' in DATA_URL else '')
+
+
+class DynamicDirections(dict):
+    """Словарь направлений с авто-перезагрузкой из directions.json при изменении файла."""
+
+    def __init__(self, fallback: dict):
+        super().__init__(fallback)
+        self.directions_file = DIRECTIONS_FILE
+        self._fallback = dict(fallback)
+        self._last_mtime = 0
+        self._check_reload()
+
+    def _check_reload(self):
+        if os.path.exists(self.directions_file):
+            try:
+                mtime = os.path.getmtime(self.directions_file)
+                if mtime != self._last_mtime:
+                    with open(self.directions_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                    if data and isinstance(data, dict):
+                        self.clear()
+                        self.update(self._fallback)
+                        self.update(data)
+                        self._last_mtime = mtime
+            except Exception as e:
+                logging.warning(f"Ошибка перезагрузки {self.directions_file}: {e}")
+
+    def __getitem__(self, key):
+        self._check_reload()
+        return super().__getitem__(key)
+
+    def get(self, key, default=None):
+        self._check_reload()
+        return super().get(key, default)
+
+    def items(self):
+        self._check_reload()
+        return super().items()
+
+    def values(self):
+        self._check_reload()
+        return super().values()
+
+    def keys(self):
+        self._check_reload()
+        return super().keys()
+
+    def __contains__(self, key):
+        self._check_reload()
+        return super().__contains__(key)
+
+    def __iter__(self):
+        self._check_reload()
+        return super().__iter__()
+
+    def __len__(self):
+        self._check_reload()
+        return super().__len__()
+
+
+DIRECTIONS = DynamicDirections(DEFAULT_DIRECTIONS)
 
 
 class DynamicGroups(dict):
@@ -496,6 +559,25 @@ async def sync_remote_cache():
                             logging.info(f"Фоновое обновление: синхронизировано {len(remote_groups)} групп с GitHub.")
         except Exception as e:
             logging.warning(f"Фоновое обновление групп с GitHub не удалось: {e}")
+
+    # 1b. Фоновая синхронизация списка направлений с GitHub
+    if DIRECTIONS_URL:
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(DIRECTIONS_URL, timeout=8) as resp:
+                    if resp.status == 200:
+                        remote_dirs = await resp.json(content_type=None)
+                        if remote_dirs and isinstance(remote_dirs, dict) and remote_dirs != dict(DIRECTIONS):
+                            tmp = f"{DIRECTIONS_FILE}.tmp"
+                            with open(tmp, 'w', encoding='utf-8') as f:
+                                json.dump(remote_dirs, f, ensure_ascii=False, indent=2)
+                            os.replace(tmp, DIRECTIONS_FILE)
+                            DIRECTIONS.clear()
+                            DIRECTIONS.update(DEFAULT_DIRECTIONS)
+                            DIRECTIONS.update(remote_dirs)
+                            logging.info(f"Фоновое обновление: синхронизировано {len(remote_dirs)} направлений с GitHub.")
+        except Exception as e:
+            logging.warning(f"Фоновое обновление направлений с GitHub не удалось: {e}")
 
     # 2. Фоновая синхронизация расписания
     if not DATA_URL:
@@ -692,8 +774,12 @@ def get_group_selection_keyboard(active_dir: str = 'pmib') -> InlineKeyboardMark
         )]
     ]
 
-    # Строки направлений активного факультета
+    # Строки направлений активного факультета, отсортированные по ступеням обучения:
+    # Бакалавриат -> Специалитет -> Магистратура -> Аспирантура
+    degree_order = {'bachelor': 0, 'specialist': 1, 'master': 2, 'phd': 3}
     dir_keys = [k for k, v in DIRECTIONS.items() if v.get('faculty') == active_fac]
+    dir_keys.sort(key=lambda k: (degree_order.get(DIRECTIONS[k].get('degree', 'bachelor'), 9), k))
+
     dir_rows = []
     current_row = []
     for d_key in dir_keys:
@@ -721,16 +807,19 @@ def get_group_selection_keyboard(active_dir: str = 'pmib') -> InlineKeyboardMark
     for gid, ginfo in dir_groups:
         by_course.setdefault(ginfo['course'], []).append((gid, ginfo))
 
+    active_dinfo = DIRECTIONS.get(active_dir, {})
+    deg_badge = active_dinfo.get('badge', '🎓')
+
     for course in sorted(by_course.keys()):
         c_groups = by_course[course]
         if len(c_groups) == 1:
             gid, ginfo = c_groups[0]
             inline_keyboard.append([
-                InlineKeyboardButton(text=f"🎓 {course} курс: {ginfo['name']}", callback_data=f"set_grp_{gid}")
+                InlineKeyboardButton(text=f"{deg_badge} {course} курс: {ginfo['name']}", callback_data=f"set_grp_{gid}")
             ])
         elif len(c_groups) == 2:
             row = [
-                InlineKeyboardButton(text=f"🎓 {course} к.: {ginfo['name']}", callback_data=f"set_grp_{gid}")
+                InlineKeyboardButton(text=f"{deg_badge} {course} к.: {ginfo['name']}", callback_data=f"set_grp_{gid}")
                 for gid, ginfo in c_groups
             ]
             inline_keyboard.append(row)
@@ -739,7 +828,7 @@ def get_group_selection_keyboard(active_dir: str = 'pmib') -> InlineKeyboardMark
             for i in range(0, len(c_groups), 2):
                 chunk = c_groups[i:i + 2]
                 row = [
-                    InlineKeyboardButton(text=f"🎓 {course} к.: {ginfo['name']}", callback_data=f"set_grp_{gid}")
+                    InlineKeyboardButton(text=f"{deg_badge} {course} к.: {ginfo['name']}", callback_data=f"set_grp_{gid}")
                     for gid, ginfo in chunk
                 ]
                 inline_keyboard.append(row)
@@ -750,10 +839,32 @@ def get_group_selection_keyboard(active_dir: str = 'pmib') -> InlineKeyboardMark
 def get_group_selection_text(user_id: int | str, active_dir: str = 'pmib') -> str:
     """Формирует текст сообщения выбора группы для указанного направления."""
     gid = get_user_group(user_id)
-    ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
-    dinfo = DIRECTIONS.get(active_dir, DIRECTIONS['pmib'])
+    ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS.get(DEFAULT_GROUP_ID, {}))
+    dinfo = DIRECTIONS.get(active_dir, DIRECTIONS.get('pmib', {}))
     fac_key = dinfo.get('faculty', 'fkfmn')
-    fac_info = FACULTIES.get(fac_key, FACULTIES['fkfmn'])
+    fac_info = FACULTIES.get(fac_key, FACULTIES.get('fkfmn', {}))
+
+    deg_names = {
+        'bachelor': '🎓 Бакалавриат',
+        'specialist': '🔒 Специалитет',
+        'master': '🎓 Магистратура',
+        'phd': '🔬 Аспирантура'
+    }
+    deg_str = deg_names.get(dinfo.get('degree'), '🎓 Высшее образование')
+    spec_code = dinfo.get('code_spec', '')
+    spec_name = dinfo.get('name', '')
+    short_code = dinfo.get('short', '')
+
+    spec_line = f"📖 <b>{spec_code} {spec_name}</b> ({short_code})\n" if spec_code else f"📖 <b>{spec_name}</b>\n"
+
+    return (
+        f"👥 <b>Выбор факультета, направления и группы</b>\n\n"
+        f"🏛 <b>{fac_info.get('name', '')}</b>\n"
+        f"📚 Ступень: <b>{deg_str}</b>\n"
+        f"{spec_line}\n"
+        f"Текущая выбранная группа: <b>{ginfo.get('name', 'Не выбрана')}</b>\n\n"
+        f"<i>Нажмите на нужную группу ниже для мгновенного переключения:</i>"
+    )
 
     return (
         f"👥 <b>Выбор факультета, направления и группы</b>\n\n"

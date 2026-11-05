@@ -1,0 +1,208 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ПОм-1703 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Набоких А.А.\nМесто: корп. 2\, ауд. 407
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 407
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление педагогическим проектом (Лекция)
+UID:eb50564ade9df9a7f67e79f67883cd85@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Толмачева М.И.\nМесто: корп. 14\, ауд. 247
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 247
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методика изучения естественных наук в вузе (Лекция)
+UID:d25649b6c3a16ab72186460dfadf5f25@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 14\, ауд. 219
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление педагогическим проектом (Практическое занятие)
+UID:47d44983e5f7be41ebe96cf542269000@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тютюнник С.И.\nМесто: корп. 1\, ауд. 236
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:aaefec0897e2ca4cf07264ae98221bc3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сауров Ю.А.\nМесто: корп. 1\, ауд. 222
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 222
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методология естественнонаучного образования (Лекция)
+UID:4dba912e14feae1ac2723fa613266c69@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симонова Г.И.\nМесто: корп. 15\, ауд. 430
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методология педагогических исследований (Практическое занятие)
+UID:0b307bc692c32b4175fd6886bcefde37@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тютюнник С.И.\nМесто: корп. 1\, ауд. 236
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:1a9e4ec26a7b57dab792abfda67872ab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сауров Ю.А.\nМесто: корп. 1\, ауд. 222
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 222
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методология естественнонаучного образования (Практическое занятие)
+UID:c2d9b420138afddb82c7c3f7061d70f8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 2\, ауд. 407
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 407
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Управление педагогическим проектом (Практическое занятие)
+UID:38465827d90fba515a2c4d8ca206b1fb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Толмачева М.И.\nМесто: корп. 14\, ауд. 247
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 247
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методика изучения естественных наук в вузе (Практическое занятие)
+UID:4cc887b22a4c76db802edaca352f54b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сауров Ю.А.\nМесто: корп. 1\, ауд. 222
+DTEND:20261030T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 222
+DTSTART:20261030T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методология естественнонаучного образования (Практическое занятие)
+UID:2a1c02035bb47ffdabcdceeeb45e5627@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 14\, ауд. 219
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент в образовании (Практическое занятие)
+UID:18a44b913dd26fe0863262835809fd9e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Набоких А.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент в образовании (Лекция)
+UID:40291c27dcc7d0fad9ecc8d486e19161@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симонова Г.И.\nМесто: корп. 15\, ауд. 430
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методология педагогических исследований (Практическое занятие)
+UID:c7711eb4507b6788e83ec69940b28162@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент в образовании (Практическое занятие)
+UID:f55392aff9ca678188672c6adcba86df@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Толмачева М.И.\nМесто: корп. 14\, ауд. 247
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 247
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методика изучения естественных наук в вузе (Практическое занятие)
+UID:b8518085a9af50e50baa54c941bf3e10@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Симонова Г.И.\nМесто: корп. 15\, ауд. 430
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методология педагогических исследований (Лекция)
+UID:ffe0bbefcd523625c369ebeb9140a4ba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сауров Ю.А.\nМесто: корп. 1\, ауд. 222
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 222
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методология естественнонаучного образования (Лекция)
+UID:c3e260a977eee835ce999e9fd49d061e@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

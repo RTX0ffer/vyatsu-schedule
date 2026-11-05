@@ -1,0 +1,666 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ СТм-2802 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:3a2d513f8b344b76efa38dac0a13eea7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:bba3e3516b7ded53cdb20a6e96ad888d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чаганов А.Б.\nМесто: корп. 6\, ауд. 210
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Обследование и контроль качества строительных материалов и конструкций\, мониторинг зданий и сооружений (Лекция)
+UID:f20fc68e4de7bb4bc71b0d9cd8ad8084@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бобров В.В.
+DTEND:20261114T141500Z
+LAST-MODIFIED:20261105T215826Z
+DTSTART:20261114T124500Z
+STATUS:CONFIRMED
+SUMMARY:Контроль технических и технологических решений в строительстве (Практическое занятие)
+UID:a73e2d23f694e6cfa5863ef748d5a78e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:c405668edfc05c90157291970c25806c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупов С.А.\nМесто: корп. 6\, ауд. 210
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Управление производственной деятельностью строительной организации (Практическое занятие)
+UID:d0b253da09c5a7f8d527c0cfae1bd80f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:b5bfa18fc8cd8b80d3d0d78438e251d0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:2c8f2690a37c4b8f01b11fede731342f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:eda4bc0aee68c8b1d0992ea67d77696e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:4a572f681af0cc71e0bac988fe32c4bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Зыкин А.А.\nМесто: корп. 6\, ауд. 403
+DTEND:20261119T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261119T155500Z
+STATUS:CONFIRMED
+SUMMARY:Контроль и надзор в строительстве с применением технологий информационного моделирования (Лабораторная работа)
+UID:be029983ed6fba685ca58f1312c820c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:1a86c82b5898a43b4b3ccc93486b5dd2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бобров В.В.
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T215826Z
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Контроль технических и технологических решений в строительстве (Практическое занятие)
+UID:5ce6bcf97b3af8f4fa184733accea724@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:d90bf619a714301730c3ecbe3bcdf41a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чаганов А.Б.\nМесто: корп. 6\, ауд. 210
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Обследование и контроль качества строительных материалов и конструкций\, мониторинг зданий и сооружений (Практическое занятие)
+UID:9316b5d7399ebbaefd93038494f5bebc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бобров В.В.
+DTEND:20261031T141500Z
+LAST-MODIFIED:20261105T215826Z
+DTSTART:20261031T124500Z
+STATUS:CONFIRMED
+SUMMARY:Контроль технических и технологических решений в строительстве (Практическое занятие)
+UID:cf8a1bab9e579f6128772919278c87bd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Метелева О.А.\nМесто: корп. 6\, ауд. 306
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 306
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектными командами (Лекция)
+UID:6c3323c79c760c005eaca4c069704219@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:f228b8e8ffa6f1280aeef5b9fbe861b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:386f3dab67f5b6537da7ce40b14efa0c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:8bc97e1780e8915c862bc9276077d50e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Исупов С.А.\nМесто: корп. 6\, ауд. 210
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление производственной деятельностью строительной организации (Лекция)
+UID:610f00854cebf5f6b105cf1e04281b4a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:9937566588cd762d9f682a23bd0787d3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:ff6262a8e93537757155e6acce4608c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:eba59a4e104395cac900eecbe99851d7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:9307c87a96a2d21d00c4e0333bfb180d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:b038ebda11847453b8c24fde3537b4ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:576b07e494075dcff8ebc1ccb0dfa5a8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:d62584da858326cd22e404904e36de76@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:6dc5f43297fb8c3f6a0be5fe039ad3a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261111T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261111T124500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:82582b20bc198e62e84a9212a2ba2461@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Метелева О.А.\nМесто: корп. 6\, ауд. 306
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 306
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектными командами (Практическое занятие)
+UID:122f0d64e61f35107abaa90b3a08c91b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:c5fee2b022c078511b16c55d44fec9cd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:e62723954d8e4ed4b14eb3f7a6f05e32@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:11207d384b692125c6e0040e7b20d31c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:9142ca3722162d4859d0f3d0de38d55c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:38c827faec68ca59b98d8345b3161082@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:4273e2922b43974cbcdd19e68d0c685d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бобров В.В.
+DTEND:20261114T123000Z
+LAST-MODIFIED:20261105T215826Z
+DTSTART:20261114T110000Z
+STATUS:CONFIRMED
+SUMMARY:Контроль технических и технологических решений в строительстве (Практическое занятие)
+UID:e7cc38d2b26f654a49fe72997c31dcbf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:b232fe5f5f4d2fd00078770a1621d9ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:c03c609d1294d82e10cac20b8dcf05d4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:dee6c6c523e38d274fded89be66bb1ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:c1d201464433f8fe6c540794aca293a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Исупов С.А.\nМесто: корп. 6\, ауд. 210
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление производственной деятельностью строительной организации (Лекция)
+UID:48940d904b98f452521557ebf63a6adc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чаганов А.Б.\nМесто: корп. 6\, ауд. 210
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Обследование и контроль качества строительных материалов и конструкций\, мониторинг зданий и сооружений (Лекция)
+UID:3e15e1c5feb3824d6082cf470eb8ab6e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:a05cd943c7708757a14846b07f56c858@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261117T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261117T052000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:a5d69ed98a88f80f23c5b5e9b580e8da@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:5d0e05a088cb6b2a410039864e2e4e97@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Зыкин А.А.\nМесто: корп. 6\, ауд. 403
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Контроль и надзор в строительстве с применением технологий информационного моделирования (Лабораторная работа)
+UID:fa8f0da15d5e0ab6dbaf9decd6eb60ea@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:da8431cef355b5b0bacbe95cc63d0d52@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:5c17c39c1915b49c6088b6bfdd33cefe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Метелева О.А.\nМесто: корп. 6\, ауд. 306
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 306
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектными командами (Практическое занятие)
+UID:e5287c87d956fc193420dec36443a65c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:081c91d24f972d36c4558424dfecf642@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Метелева О.А.\nМесто: корп. 6\, ауд. 306
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 306
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектными командами (Лекция)
+UID:45245a5796f884b58e9a35abc66220be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:ccf8362c7c79909142c8ac15a3fe97eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:b7c0ed4d838b59aaa6fdd055518d9479@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чаганов А.Б.\nМесто: корп. 6\, ауд. 210
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Обследование и контроль качества строительных материалов и конструкций\, мониторинг зданий и сооружений (Практическое занятие)
+UID:443f2c6b789ac4a2843cae74dd1a0b96@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупов С.А.\nМесто: корп. 6\, ауд. 210
+DTEND:20261110T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261110T155500Z
+STATUS:CONFIRMED
+SUMMARY:Управление производственной деятельностью строительной организации (Практическое занятие)
+UID:6db6c36077738de229980a91c732cae6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Зыкин А.А.\nМесто: корп. 6\, ауд. 403
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Контроль и надзор в строительстве с применением технологий информационного моделирования (Лабораторная работа)
+UID:e7c0f92f62c32eac032cdedb96b75eaa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 6\, ауд. 309
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 309
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Учебная практика №2\, ознакомительная практика (Практика)
+UID:470d388436b4f0620b22f9d87edf4215@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Зыкин А.А.\nМесто: корп. 6\, ауд. 403
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 6\, ауд. 403
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Контроль и надзор в строительстве с применением технологий информационного моделирования (Лабораторная работа)
+UID:9a45873d2b4bd9f66b4c66a67614f553@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

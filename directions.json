@@ -1,0 +1,914 @@
+{
+  "podb": {
+    "name": "Педагогическое образование (с двумя профилями подготовки)",
+    "short": "ПОДб",
+    "code_spec": "44.03.05",
+    "badge": "👩‍🏫",
+    "faculty": "ped",
+    "degree": "bachelor"
+  },
+  "bb": {
+    "name": "Биология",
+    "short": "Бб",
+    "code_spec": "06.03.01",
+    "badge": "🧬",
+    "faculty": "inbio",
+    "degree": "bachelor"
+  },
+  "btb": {
+    "name": "Биотехнология",
+    "short": "БТб",
+    "code_spec": "19.03.01",
+    "badge": "🧫",
+    "faculty": "inbio",
+    "degree": "bachelor"
+  },
+  "ggb": {
+    "name": "География",
+    "short": "ГГб",
+    "code_spec": "05.03.02",
+    "badge": "🌍",
+    "faculty": "inhe",
+    "degree": "bachelor"
+  },
+  "ldb": {
+    "name": "Лесное дело",
+    "short": "ЛДб",
+    "code_spec": "35.03.01",
+    "badge": "🌳",
+    "faculty": "inhe",
+    "degree": "bachelor"
+  },
+  "hmb": {
+    "name": "Химия",
+    "short": "ХМб",
+    "code_spec": "04.03.01",
+    "badge": "⚗️",
+    "faculty": "inhe",
+    "degree": "bachelor"
+  },
+  "htb": {
+    "name": "Химическая технология",
+    "short": "ХТб",
+    "code_spec": "18.03.01",
+    "badge": "🧪",
+    "faculty": "inhe",
+    "degree": "bachelor"
+  },
+  "ivtb": {
+    "name": "Информатика и вычислительная техника",
+    "short": "ИВТб",
+    "code_spec": "09.03.01",
+    "badge": "🖥",
+    "faculty": "favt",
+    "degree": "bachelor"
+  },
+  "iktb": {
+    "name": "Инфокоммуникационные технологии и системы связи",
+    "short": "ИКТб",
+    "code_spec": "11.03.02",
+    "badge": "📡",
+    "faculty": "favt",
+    "degree": "bachelor"
+  },
+  "inbb": {
+    "name": "Информационная безопасность",
+    "short": "ИНБб",
+    "code_spec": "10.03.01",
+    "badge": "🔐",
+    "faculty": "favt",
+    "degree": "bachelor"
+  },
+  "utb": {
+    "name": "Управление в технических системах",
+    "short": "УТб",
+    "code_spec": "27.03.04",
+    "badge": "⚙️",
+    "faculty": "favt",
+    "degree": "bachelor"
+  },
+  "isb": {
+    "name": "История",
+    "short": "ИСб",
+    "code_spec": "46.03.01",
+    "badge": "📜",
+    "faculty": "fipnik",
+    "degree": "bachelor"
+  },
+  "ormb": {
+    "name": "Организация работы с молодежью",
+    "short": "ОРМб",
+    "code_spec": "39.03.03",
+    "badge": "🤝",
+    "faculty": "fipnik",
+    "degree": "bachelor"
+  },
+  "scb": {
+    "name": "Социология",
+    "short": "СЦб",
+    "code_spec": "39.03.01",
+    "badge": "👥",
+    "faculty": "fipnik",
+    "degree": "bachelor"
+  },
+  "mkb": {
+    "name": "Математика и компьютерные науки",
+    "short": "МКб",
+    "code_spec": "02.03.01",
+    "badge": "🔢",
+    "faculty": "fkfmn",
+    "degree": "bachelor"
+  },
+  "pmib": {
+    "name": "Прикладная математика и информатика",
+    "short": "ПМИб",
+    "code_spec": "01.03.02",
+    "badge": "📐",
+    "faculty": "fkfmn",
+    "degree": "bachelor"
+  },
+  "fib": {
+    "name": "Фундаментальная информатика и информационные технологии",
+    "short": "ФИб",
+    "code_spec": "02.03.02",
+    "badge": "💻",
+    "faculty": "fkfmn",
+    "degree": "bachelor"
+  },
+  "lvb": {
+    "name": "Лингвистика",
+    "short": "ЛВб",
+    "code_spec": "45.03.02",
+    "badge": "🗣",
+    "faculty": "fl",
+    "degree": "bachelor"
+  },
+  "lvb_mo": {
+    "name": "Лингвистика",
+    "short": "ЛВб",
+    "code_spec": "45.03.02",
+    "badge": "🌍",
+    "faculty": "fmo",
+    "degree": "bachelor"
+  },
+  "gmb": {
+    "name": "Государственное и муниципальное управление",
+    "short": "ГМб",
+    "code_spec": "38.03.04",
+    "badge": "🏛",
+    "faculty": "fms",
+    "degree": "bachelor"
+  },
+  "inb": {
+    "name": "Инноватика",
+    "short": "ИНб",
+    "code_spec": "27.03.05",
+    "badge": "💡",
+    "faculty": "fms",
+    "degree": "bachelor"
+  },
+  "mnb": {
+    "name": "Менеджмент",
+    "short": "МНб",
+    "code_spec": "38.03.02",
+    "badge": "📊",
+    "faculty": "fms",
+    "degree": "bachelor"
+  },
+  "trb": {
+    "name": "Туризм",
+    "short": "ТРб",
+    "code_spec": "43.03.02",
+    "badge": "✈️",
+    "faculty": "fms",
+    "degree": "bachelor"
+  },
+  "upb": {
+    "name": "Управление персоналом",
+    "short": "УПб",
+    "code_spec": "38.03.03",
+    "badge": "👥",
+    "faculty": "fms",
+    "degree": "bachelor"
+  },
+  "plb": {
+    "name": "Психология",
+    "short": "ПЛб",
+    "code_spec": "37.03.01",
+    "badge": "🧠",
+    "faculty": "fpip",
+    "degree": "bachelor"
+  },
+  "sdob": {
+    "name": "Специальное (дефектологическое) образование",
+    "short": "СДОб",
+    "code_spec": "44.03.03",
+    "badge": "🧸",
+    "faculty": "fpip",
+    "degree": "bachelor"
+  },
+  "zhkb": {
+    "name": "Журналистика",
+    "short": "ЖКб",
+    "code_spec": "42.03.02",
+    "badge": "📰",
+    "faculty": "fryalim",
+    "degree": "bachelor"
+  },
+  "rsob": {
+    "name": "Реклама и связи с общественностью",
+    "short": "РСОб",
+    "code_spec": "42.03.01",
+    "badge": "📢",
+    "faculty": "fryalim",
+    "degree": "bachelor"
+  },
+  "flb": {
+    "name": "Филология",
+    "short": "ФЛб",
+    "code_spec": "45.03.01",
+    "badge": "📖",
+    "faculty": "fryalim",
+    "degree": "bachelor"
+  },
+  "stb": {
+    "name": "Строительство",
+    "short": "СТб",
+    "code_spec": "08.03.01",
+    "badge": "🏗",
+    "faculty": "fsa",
+    "degree": "bachelor"
+  },
+  "tbb": {
+    "name": "Техносферная безопасность",
+    "short": "ТБб",
+    "code_spec": "20.03.01",
+    "badge": "🦺",
+    "faculty": "fsa",
+    "degree": "bachelor"
+  },
+  "gsb": {
+    "name": "Градостроительство",
+    "short": "ГСб",
+    "code_spec": "07.03.04",
+    "badge": "🏙",
+    "faculty": "fsa",
+    "degree": "bachelor"
+  },
+  "mlb": {
+    "name": "Металлургия",
+    "short": "МЛб",
+    "code_spec": "22.03.02",
+    "badge": "⚒",
+    "faculty": "ftid",
+    "degree": "bachelor"
+  },
+  "msb": {
+    "name": "Машиностроение",
+    "short": "МСб",
+    "code_spec": "15.03.01",
+    "badge": "🏭",
+    "faculty": "ftid",
+    "degree": "bachelor"
+  },
+  "mtb": {
+    "name": "Материаловедение и технологии материалов",
+    "short": "МТб",
+    "code_spec": "22.03.01",
+    "badge": "🔬",
+    "faculty": "ftid",
+    "degree": "bachelor"
+  },
+  "thob": {
+    "name": "Технология художественной обработки материалов",
+    "short": "ТХОб",
+    "code_spec": "29.03.04",
+    "badge": "🏺",
+    "faculty": "ftid",
+    "degree": "bachelor"
+  },
+  "db": {
+    "name": "Дизайн",
+    "short": "Дб",
+    "code_spec": "54.03.01",
+    "badge": "🎨",
+    "faculty": "ftid",
+    "degree": "bachelor"
+  },
+  "fkb": {
+    "name": "Физическая культура",
+    "short": "ФКб",
+    "code_spec": "49.03.01",
+    "badge": "⚽️",
+    "faculty": "ffkis",
+    "degree": "bachelor"
+  },
+  "afkb": {
+    "name": "Физическая культура для лиц с отклонениями в состоянии здоровья (адаптивная физическая культура)",
+    "short": "АФКб",
+    "code_spec": "49.03.02",
+    "badge": "🏃‍♂️",
+    "faculty": "ffkis",
+    "degree": "bachelor"
+  },
+  "bib": {
+    "name": "Бизнес-информатика",
+    "short": "БИб",
+    "code_spec": "38.03.05",
+    "badge": "💼",
+    "faculty": "fef",
+    "degree": "bachelor"
+  },
+  "eknb": {
+    "name": "Экономика",
+    "short": "ЭКНб",
+    "code_spec": "38.03.01",
+    "badge": "📈",
+    "faculty": "fef",
+    "degree": "bachelor"
+  },
+  "mrb": {
+    "name": "Мехатроника и робототехника",
+    "short": "МРб",
+    "code_spec": "15.03.06",
+    "badge": "🤖",
+    "faculty": "etf",
+    "degree": "bachelor"
+  },
+  "titb": {
+    "name": "Теплоэнергетика и теплотехника",
+    "short": "ТиТб",
+    "code_spec": "13.03.01",
+    "badge": "🔥",
+    "faculty": "etf",
+    "degree": "bachelor"
+  },
+  "eieb": {
+    "name": "Электроэнергетика и электротехника",
+    "short": "ЭиЭб",
+    "code_spec": "13.03.02",
+    "badge": "⚡️",
+    "faculty": "etf",
+    "degree": "bachelor"
+  },
+  "yurb": {
+    "name": "Юриспруденция",
+    "short": "ЮРб",
+    "code_spec": "40.03.01",
+    "badge": "⚖️",
+    "faculty": "ui",
+    "degree": "bachelor"
+  },
+  "inbs": {
+    "name": "Информационная безопасность телекоммуникационных систем",
+    "short": "ИНБс",
+    "code_spec": "10.05.02",
+    "badge": "🛡",
+    "faculty": "favt",
+    "degree": "specialist"
+  },
+  "ptks": {
+    "name": "Проектирование технологических машин и комплексов",
+    "short": "ПТКс",
+    "code_spec": "15.05.01",
+    "badge": "⚙️",
+    "faculty": "ftid",
+    "degree": "specialist"
+  },
+  "ebs": {
+    "name": "Экономическая безопасность",
+    "short": "ЭБс",
+    "code_spec": "38.05.01",
+    "badge": "💳",
+    "faculty": "fef",
+    "degree": "specialist"
+  },
+  "pnbs": {
+    "name": "Правовое обеспечение национальной безопасности",
+    "short": "ПНБс",
+    "code_spec": "40.05.01",
+    "badge": "🛡",
+    "faculty": "ui",
+    "degree": "specialist"
+  },
+  "tads": {
+    "name": "Таможенное дело",
+    "short": "ТАДс",
+    "code_spec": "38.05.02",
+    "badge": "📦",
+    "faculty": "ui",
+    "degree": "specialist"
+  },
+  "pds": {
+    "name": "Правоохранительная деятельность",
+    "short": "ПДс",
+    "code_spec": "40.05.02",
+    "badge": "🚔",
+    "faculty": "ui",
+    "degree": "specialist"
+  },
+  "pom": {
+    "name": "Педагогическое образование",
+    "short": "ПОм",
+    "code_spec": "44.04.01",
+    "badge": "🎓",
+    "faculty": "ped",
+    "degree": "master"
+  },
+  "bm": {
+    "name": "Биология",
+    "short": "Бм",
+    "code_spec": "06.04.01",
+    "badge": "🎓",
+    "faculty": "inbio",
+    "degree": "master"
+  },
+  "btm": {
+    "name": "Биотехнология",
+    "short": "БТм",
+    "code_spec": "19.04.01",
+    "badge": "🎓",
+    "faculty": "inbio",
+    "degree": "master"
+  },
+  "rspm": {
+    "name": "Энерго- и ресурсосберегающие процессы в химической технологии, нефтехимии и биотехнологии",
+    "short": "РСПм",
+    "code_spec": "18.04.02",
+    "badge": "🎓",
+    "faculty": "inhe",
+    "degree": "master"
+  },
+  "hmm": {
+    "name": "Химия",
+    "short": "ХМм",
+    "code_spec": "04.04.01",
+    "badge": "🎓",
+    "faculty": "inhe",
+    "degree": "master"
+  },
+  "htm": {
+    "name": "Химическая технология",
+    "short": "ХТм",
+    "code_spec": "18.04.01",
+    "badge": "🎓",
+    "faculty": "inhe",
+    "degree": "master"
+  },
+  "epm": {
+    "name": "Экология и природопользование",
+    "short": "ЭПм",
+    "code_spec": "05.04.06",
+    "badge": "🎓",
+    "faculty": "inhe",
+    "degree": "master"
+  },
+  "ggm": {
+    "name": "География",
+    "short": "ГГм",
+    "code_spec": "05.04.02",
+    "badge": "🎓",
+    "faculty": "inhe",
+    "degree": "master"
+  },
+  "ivtm": {
+    "name": "Информатика и вычислительная техника",
+    "short": "ИВТм",
+    "code_spec": "09.04.01",
+    "badge": "🎓",
+    "faculty": "favt",
+    "degree": "master"
+  },
+  "srm": {
+    "name": "Социальная работа",
+    "short": "СРм",
+    "code_spec": "39.04.02",
+    "badge": "🎓",
+    "faculty": "fipnik",
+    "degree": "master"
+  },
+  "ism": {
+    "name": "История",
+    "short": "ИСм",
+    "code_spec": "46.04.01",
+    "badge": "🎓",
+    "faculty": "fipnik",
+    "degree": "master"
+  },
+  "stsm": {
+    "name": "Социология",
+    "short": "СЦм",
+    "code_spec": "39.04.01",
+    "badge": "🎓",
+    "faculty": "fipnik",
+    "degree": "master"
+  },
+  "mkm": {
+    "name": "Математика и компьютерные науки",
+    "short": "МКм",
+    "code_spec": "02.04.01",
+    "badge": "🎓",
+    "faculty": "fkfmn",
+    "degree": "master"
+  },
+  "pim": {
+    "name": "Прикладная информатика",
+    "short": "ПИм",
+    "code_spec": "09.04.03",
+    "badge": "🎓",
+    "faculty": "fkfmn",
+    "degree": "master"
+  },
+  "lvm": {
+    "name": "Лингвистика",
+    "short": "ЛВм",
+    "code_spec": "45.04.02",
+    "badge": "🎓",
+    "faculty": "fl",
+    "degree": "master"
+  },
+  "flm_mo": {
+    "name": "Филология",
+    "short": "ФЛм",
+    "code_spec": "45.04.01",
+    "badge": "🎓",
+    "faculty": "fmo",
+    "degree": "master"
+  },
+  "mnm": {
+    "name": "Менеджмент",
+    "short": "МНм",
+    "code_spec": "38.04.02",
+    "badge": "🎓",
+    "faculty": "fms",
+    "degree": "master"
+  },
+  "tm": {
+    "name": "Торговое дело",
+    "short": "Тм",
+    "code_spec": "38.04.06",
+    "badge": "🎓",
+    "faculty": "fms",
+    "degree": "master"
+  },
+  "gmm": {
+    "name": "Государственное и муниципальное управление",
+    "short": "ГМм",
+    "code_spec": "38.04.04",
+    "badge": "🎓",
+    "faculty": "fms",
+    "degree": "master"
+  },
+  "ntim": {
+    "name": "Наукоемкие технологии и экономика инноваций",
+    "short": "НТИм",
+    "code_spec": "27.04.07",
+    "badge": "🎓",
+    "faculty": "fms",
+    "degree": "master"
+  },
+  "plm": {
+    "name": "Психология",
+    "short": "ПЛм",
+    "code_spec": "37.04.01",
+    "badge": "🎓",
+    "faculty": "fpip",
+    "degree": "master"
+  },
+  "sdom": {
+    "name": "Специальное (дефектологическое) образование",
+    "short": "СДОм",
+    "code_spec": "44.04.03",
+    "badge": "🎓",
+    "faculty": "fpip",
+    "degree": "master"
+  },
+  "rsom": {
+    "name": "Реклама и связи с общественностью",
+    "short": "РСОм",
+    "code_spec": "42.04.01",
+    "badge": "🎓",
+    "faculty": "fryalim",
+    "degree": "master"
+  },
+  "flm": {
+    "name": "Филология",
+    "short": "ФЛм",
+    "code_spec": "45.04.01",
+    "badge": "🎓",
+    "faculty": "fryalim",
+    "degree": "master"
+  },
+  "stm": {
+    "name": "Строительство",
+    "short": "СТм",
+    "code_spec": "08.04.01",
+    "badge": "🎓",
+    "faculty": "fsa",
+    "degree": "master"
+  },
+  "msm": {
+    "name": "Машиностроение",
+    "short": "МСм",
+    "code_spec": "15.04.01",
+    "badge": "🎓",
+    "faculty": "ftid",
+    "degree": "master"
+  },
+  "mtm": {
+    "name": "Материаловедение и технологии материалов",
+    "short": "МТм",
+    "code_spec": "22.04.01",
+    "badge": "🎓",
+    "faculty": "ftid",
+    "degree": "master"
+  },
+  "tdm": {
+    "name": "Технология лесозаготовительных и деревоперерабатывающих производств",
+    "short": "ТДм",
+    "code_spec": "35.04.02",
+    "badge": "🎓",
+    "faculty": "ftid",
+    "degree": "master"
+  },
+  "eknm": {
+    "name": "Экономика",
+    "short": "ЭКНм",
+    "code_spec": "38.04.01",
+    "badge": "🎓",
+    "faculty": "fef",
+    "degree": "master"
+  },
+  "titm": {
+    "name": "Теплоэнергетика и теплотехника",
+    "short": "ТиТм",
+    "code_spec": "13.04.01",
+    "badge": "🎓",
+    "faculty": "etf",
+    "degree": "master"
+  },
+  "eiem": {
+    "name": "Электроэнергетика и электротехника",
+    "short": "ЭиЭм",
+    "code_spec": "13.04.02",
+    "badge": "🎓",
+    "faculty": "etf",
+    "degree": "master"
+  },
+  "yurm": {
+    "name": "Юриспруденция",
+    "short": "ЮРм",
+    "code_spec": "40.04.01",
+    "badge": "🎓",
+    "faculty": "ui",
+    "degree": "master"
+  },
+  "bta": {
+    "name": "Биотехнология",
+    "short": "БТа",
+    "code_spec": "1.5.6",
+    "badge": "🔬",
+    "faculty": "inbio",
+    "degree": "phd"
+  },
+  "ma_inbio": {
+    "name": "Микробиология",
+    "short": "Ма",
+    "code_spec": "1.5.11",
+    "badge": "🔬",
+    "faculty": "inbio",
+    "degree": "phd"
+  },
+  "tppa": {
+    "name": "Технология и переработка синтетических и природных полимеров и композитов",
+    "short": "ТППа",
+    "code_spec": "2.6.11",
+    "badge": "🔬",
+    "faculty": "inhe",
+    "degree": "phd"
+  },
+  "fha": {
+    "name": "Физическая химия",
+    "short": "ФХа",
+    "code_spec": "1.4.4",
+    "badge": "🔬",
+    "faculty": "inhe",
+    "degree": "phd"
+  },
+  "ea": {
+    "name": "Экология",
+    "short": "Эа",
+    "code_spec": "1.5.15",
+    "badge": "🔬",
+    "faculty": "inhe",
+    "degree": "phd"
+  },
+  "vsa": {
+    "name": "Вычислительные системы и их элементы",
+    "short": "ВСа",
+    "code_spec": "2.3.2",
+    "badge": "🔬",
+    "faculty": "favt",
+    "degree": "phd"
+  },
+  "rta": {
+    "name": "Радиотехника, в том числе системы и устройства телевидения",
+    "short": "РТа",
+    "code_spec": "2.2.13",
+    "badge": "🔬",
+    "faculty": "favt",
+    "degree": "phd"
+  },
+  "via": {
+    "name": "Всеобщая история",
+    "short": "ВИа",
+    "code_spec": "5.6.2",
+    "badge": "🔬",
+    "faculty": "fipnik",
+    "degree": "phd"
+  },
+  "oia": {
+    "name": "Отечественная история",
+    "short": "ОИа",
+    "code_spec": "5.6.1",
+    "badge": "🔬",
+    "faculty": "fipnik",
+    "degree": "phd"
+  },
+  "otpa": {
+    "name": "Онтология и теория познания",
+    "short": "ОТПа",
+    "code_spec": "5.7.1",
+    "badge": "🔬",
+    "faculty": "fipnik",
+    "degree": "phd"
+  },
+  "ipa": {
+    "name": "Информатика и информационные процессы",
+    "short": "ИПа",
+    "code_spec": "2.3.8",
+    "badge": "🔬",
+    "faculty": "fkfmn",
+    "degree": "phd"
+  },
+  "ma_fms": {
+    "name": "Менеджмент",
+    "short": "Ма",
+    "code_spec": "5.2.6",
+    "badge": "🔬",
+    "faculty": "fms",
+    "degree": "phd"
+  },
+  "roea": {
+    "name": "Региональная и отраслевая экономика",
+    "short": "РОЭа",
+    "code_spec": "5.2.3",
+    "badge": "🔬",
+    "faculty": "fms",
+    "degree": "phd"
+  },
+  "mtpoa": {
+    "name": "Методология и технология профессионального образования",
+    "short": "МТПОа",
+    "code_spec": "5.8.7",
+    "badge": "🔬",
+    "faculty": "fpip",
+    "degree": "phd"
+  },
+  "opa": {
+    "name": "Общая педагогика, история педагогики и образования",
+    "short": "ОПа",
+    "code_spec": "5.8.1",
+    "badge": "🔬",
+    "faculty": "fpip",
+    "degree": "phd"
+  },
+  "bbka": {
+    "name": "Библиотековедение, библиографоведение и книговедение",
+    "short": "ББКа",
+    "code_spec": "5.10.4",
+    "badge": "🔬",
+    "faculty": "fryalim",
+    "degree": "phd"
+  },
+  "lnma": {
+    "name": "Литературы народов мира",
+    "short": "ЛНМа",
+    "code_spec": "5.9.2",
+    "badge": "🔬",
+    "faculty": "fryalim",
+    "degree": "phd"
+  },
+  "rla": {
+    "name": "Русская литература и литературы народов Российской Федерации",
+    "short": "РЛа",
+    "code_spec": "5.9.1",
+    "badge": "🔬",
+    "faculty": "fryalim",
+    "degree": "phd"
+  },
+  "ryaa": {
+    "name": "Русский язык. Языки народов России",
+    "short": "РЯа",
+    "code_spec": "5.9.5",
+    "badge": "🔬",
+    "faculty": "fryalim",
+    "degree": "phd"
+  },
+  "mzha": {
+    "name": "Медиакоммуникации и журналистика",
+    "short": "МЖа",
+    "code_spec": "5.9.9",
+    "badge": "🔬",
+    "faculty": "fryalim",
+    "degree": "phd"
+  },
+  "skza": {
+    "name": "Строительные конструкции, здания и сооружения",
+    "short": "СКЗа",
+    "code_spec": "2.1.1",
+    "badge": "🔬",
+    "faculty": "fsa",
+    "degree": "phd"
+  },
+  "smia": {
+    "name": "Строительные материалы и изделия",
+    "short": "СМИа",
+    "code_spec": "2.1.5",
+    "badge": "🔬",
+    "faculty": "fsa",
+    "degree": "phd"
+  },
+  "tmoa": {
+    "name": "Технологии, машины и оборудование для лесного хозяйства и переработки древесины",
+    "short": "ТМОа",
+    "code_spec": "4.3.4",
+    "badge": "🔬",
+    "faculty": "ftid",
+    "degree": "phd"
+  },
+  "tmova": {
+    "name": "Теория и методика обучения и воспитания (по областям и уровням образования)",
+    "short": "ТМОВа",
+    "code_spec": "5.8.2",
+    "badge": "🔬",
+    "faculty": "ftid",
+    "degree": "phd"
+  },
+  "toma": {
+    "name": "Технология и оборудование механической и физико-технической обработки",
+    "short": "ТОМа",
+    "code_spec": "2.5.5",
+    "badge": "🔬",
+    "faculty": "ftid",
+    "degree": "phd"
+  },
+  "tpda": {
+    "name": "Турбомашины и поршневые двигатели",
+    "short": "ТПДа",
+    "code_spec": "2.4.7",
+    "badge": "🔬",
+    "faculty": "ftid",
+    "degree": "phd"
+  },
+  "fchzha": {
+    "name": "Физиология человека и животных",
+    "short": "ФЧЖа",
+    "code_spec": "1.5.5",
+    "badge": "🔬",
+    "faculty": "ffkis",
+    "degree": "phd"
+  },
+  "fka": {
+    "name": "Физическая культура и профессиональная физическая подготовка",
+    "short": "ФКа",
+    "code_spec": "5.8.4",
+    "badge": "🔬",
+    "faculty": "ffkis",
+    "degree": "phd"
+  },
+  "fa": {
+    "name": "Финансы",
+    "short": "Фа",
+    "code_spec": "5.2.4",
+    "badge": "🔬",
+    "faculty": "fef",
+    "degree": "phd"
+  },
+  "eka": {
+    "name": "Электротехнические комплексы и системы",
+    "short": "ЭКа",
+    "code_spec": "2.4.2",
+    "badge": "🔬",
+    "faculty": "etf",
+    "degree": "phd"
+  },
+  "ppna": {
+    "name": "Публично-правовые (государственно-правовые) науки",
+    "short": "ППНа",
+    "code_spec": "5.1.2",
+    "badge": "🔬",
+    "faculty": "ui",
+    "degree": "phd"
+  }
+}

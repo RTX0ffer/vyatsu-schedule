@@ -1,0 +1,514 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ БТм-2101 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Белковая инженерия (Лабораторная работа)
+UID:22ac98f41658da38991b9625ff4822d7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261121T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261121T110000Z
+STATUS:CONFIRMED
+SUMMARY:Методы выделения и разделения биологических макромолекул (Лабораторная работа)
+UID:cf0a3eb3b904cd8a0fe61ecd074e6382@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 521
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Клеточные технологии (Лекция)
+UID:bce60b4cd2f61560dcf732eabc8abd54@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261121T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261121T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методы выделения и разделения биологических макромолекул (Лабораторная работа)
+UID:aa3ae4ff350b0c719e8f3e716e08c577@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 324
+DTEND:20261112T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 324
+DTSTART:20261112T142000Z
+STATUS:CONFIRMED
+SUMMARY:Клеточные технологии (Лабораторная работа)
+UID:0f3c50131d1385deda39b613ec548bdc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 435
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Надлежащие практики (Лекция)
+UID:de8c98c969000c75c4479aec937664ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 116
+DTEND:20261030T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 116
+DTSTART:20261030T155500Z
+STATUS:CONFIRMED
+SUMMARY:Биоинформатика (Лабораторная работа)
+UID:3467b557cd8bf3d88807087d0ff40023@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическое обоснование проектных решений (Практическое занятие)
+UID:14fa21c67d1a5c5915dfb161c3ee7d00@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 521
+DTEND:20261117T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261117T142000Z
+STATUS:CONFIRMED
+SUMMARY:Клеточные технологии (Лекция)
+UID:247e7c945cd4adac6115d763a8b7132e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Экономическое обоснование проектных решений (Практическое занятие)
+UID:d983ac6004b3506e055567b4230d3668@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дудина Л.Г.
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T215825Z
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии производства иммунобиологических препаратов (Лекция)
+UID:c70cd854c1633bd7c9728cbc12d978b7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261110T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261110T155500Z
+STATUS:CONFIRMED
+SUMMARY:Белковая инженерия (Лекция)
+UID:bd4602ffea2893225176761eb2d48b19@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 324
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 324
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Клеточные технологии (Лабораторная работа)
+UID:e52364e6a901b630124ee083a36f6868@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Белковая инженерия (Лабораторная работа)
+UID:bb110684cb95388973d24e22694fae2d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дудина Л.Г.\nМесто: корп. 1\, ауд. 401
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии производства иммунобиологических препаратов (Практическое занятие)
+UID:1f9b2fac1faca4f68fa11526eed8b43f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методы выделения и разделения биологических макромолекул (Лабораторная работа)
+UID:56f0b909d948deb921472b2da8dffa91@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261120T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261120T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методы выделения и разделения биологических макромолекул (Практическое занятие)
+UID:f75e406eedd4e51df1c46061e3d5108b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Методы выделения и разделения биологических макромолекул (Лабораторная работа)
+UID:4902f50974807700a0eaf26b946eb110@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Белковая инженерия (Лекция)
+UID:ddd84811e3a444e3f23da08022cb50af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Набоких А.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическое обоснование проектных решений (Лекция)
+UID:68e34ae064f5da1b90a2632e7cda11b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 516
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Надлежащие практики (Практическое занятие)
+UID:55e73eb7eff7e796d0251d630a697535@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261114T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261114T110000Z
+STATUS:CONFIRMED
+SUMMARY:Белковая инженерия (Лабораторная работа)
+UID:9a98d454ff87683fef332265047cefe1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Белковая инженерия (Лабораторная работа)
+UID:82a5c8ba58e2858fd6484ace04689b6c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Набоких А.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономическое обоснование проектных решений (Лекция)
+UID:a7a176b33e9cab933fb3f0e5047bd948@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 435
+DTEND:20261111T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261111T155500Z
+STATUS:CONFIRMED
+SUMMARY:Надлежащие практики (Практическое занятие)
+UID:0e64e79faff592508b98b14dda9a2f99@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 116
+DTEND:20261113T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 116
+DTSTART:20261113T155500Z
+STATUS:CONFIRMED
+SUMMARY:Биоинформатика (Лабораторная работа)
+UID:cba492d23840177ed7d4cfda54ace3b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 324
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 324
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Клеточные технологии (Лабораторная работа)
+UID:0a9b6dd5d4ba8e7c998cbee0645b2bae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Белковая инженерия (Лекция)
+UID:950f384538795b66238c7e7f1ce7df7d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Белковая инженерия (Лабораторная работа)
+UID:8e3e0e5bed284e45629c3f792108bd5d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 516
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Надлежащие практики (Практическое занятие)
+UID:50d1e01421d6809294c93d13e29c2703@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дудина Л.Г.\nМесто: корп. 1\, ауд. 401
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии производства иммунобиологических препаратов (Практическое занятие)
+UID:78e7f1f2e7bc39bf4da3d41dae45fda6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методы выделения и разделения биологических макромолекул (Практическое занятие)
+UID:966cfa7c906891921dd5d9a81dd04254@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методы выделения и разделения биологических макромолекул (Лекция)
+UID:696d79cd5610cb693812542ba75ff39a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 324
+DTEND:20261112T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 324
+DTSTART:20261112T155500Z
+STATUS:CONFIRMED
+SUMMARY:Клеточные технологии (Лабораторная работа)
+UID:425ef32b69e70b0df777a27665aa90ee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дудина Л.Г.\nМесто: корп. 1\, ауд. 401
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии производства иммунобиологических препаратов (Практическое занятие)
+UID:145655e5922c870a5d82ab3090aedc54@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Дудина Л.Г.
+DTEND:20261117T172500Z
+LAST-MODIFIED:20261105T215825Z
+DTSTART:20261117T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии производства иммунобиологических препаратов (Лекция)
+UID:f0eb1cecaeeb745c6ba77f6ab7bee246@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 516
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Надлежащие практики (Лекция)
+UID:c6476ba4935e42f5ade206a4fc37e7b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 435
+DTEND:20261111T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261111T142000Z
+STATUS:CONFIRMED
+SUMMARY:Надлежащие практики (Лекция)
+UID:58b6546959924fc35926a8d5648ae570@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 435
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Надлежащие практики (Практическое занятие)
+UID:9a5fd22211dc1392e36558245d7e1669@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Дудина Л.Г.\nМесто: корп. 1\, ауд. 401
+DTEND:20261119T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 401
+DTSTART:20261119T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии производства иммунобиологических препаратов (Практическое занятие)
+UID:581989f2f78a9f782f2b4b003482bda9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 116
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 116
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Биоинформатика (Практическое занятие)
+UID:d97eb3fb1ceee3057d32df241d03d8a2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261120T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261120T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методы выделения и разделения биологических макромолекул (Лекция)
+UID:f6593ea1ac97b5d35818d44f76904f87@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Старкова Е.В.\nМесто: корп. 1\, ауд. 516
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 516
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Надлежащие практики (Лекция)
+UID:39a2bed539f329933cb519f93ff4bebe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Белковая инженерия (Лекция)
+UID:2586e3ddfc75c2647adb125aade9048b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 116
+DTEND:20261113T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 116
+DTSTART:20261113T142000Z
+STATUS:CONFIRMED
+SUMMARY:Биоинформатика (Практическое занятие)
+UID:db36dc641a4f29368082186814851562@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лундовских И.А.\nМесто: корп. 1\, ауд. 118
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 118
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Белковая инженерия (Лабораторная работа)
+UID:a971b98c9a15cec3cea67373dcef1b25@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

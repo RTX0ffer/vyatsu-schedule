@@ -1,0 +1,307 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ТППа-2501 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:05da2323f0b6fb603fbe0642d733b160@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:f8dcab6758e5b11e080fd101b7a93634@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:42bfc0c263ca88ceb6149f255f53a625@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шилов И.Б.\nМесто: корп. 1\, ауд. 032д
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технология и переработка синтетических и природных полимеров и композитов (Практическое занятие)
+UID:15516a0e518703f61b6ef89f27163aa7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шилов И.Б.\nМесто: корп. 1\, ауд. 032д
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология и переработка синтетических и природных полимеров и композитов (Практическое занятие)
+UID:7e3254ec04a5462c1ed76b0e7f78aec5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:afa5f8061e0b8e9fc9e486d160790db2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:2a0edc094015249fa40557858254da55@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:6cd4645bcec1d7c3ce1f96227147babd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шилов И.Б.\nМесто: корп. 1\, ауд. 032д
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Современные подходы к созданию полимерных композиционных материалов (Практическое занятие)
+UID:73342a2d3ce6dc5f3c81a05a1b079edb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шилов И.Б.\nМесто: корп. 1\, ауд. 032д
+DTEND:20261114T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261114T052000Z
+STATUS:CONFIRMED
+SUMMARY:Технология и переработка синтетических и природных полимеров и композитов (Практическое занятие)
+UID:f4010eb9eac548c151d32dc6c42be2f0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:5b639a2bf18beeb26c0f558cc2e28d8a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шилов И.Б.\nМесто: корп. 1\, ауд. 032д
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные подходы к созданию полимерных композиционных материалов (Практическое занятие)
+UID:dc6e6b2a197aae4e213c35e0d0a5d925@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шилов И.Б.\nМесто: корп. 1\, ауд. 032д
+DTEND:20261121T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261121T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные подходы к созданию полимерных композиционных материалов (Практическое занятие)
+UID:a894769c2eb291e5fe74d285d53d5be7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:02e077857745ac9a07548a394c8fc435@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шилов И.Б.\nМесто: корп. 1\, ауд. 032д
+DTEND:20261121T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261121T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современные подходы к созданию полимерных композиционных материалов (Практическое занятие)
+UID:49fb18717a3c9784beb78f9c6ed5fbda@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261118T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261118T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:f762d849e446b08a8af98be3db0d2396@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261118T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261118T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:03cab06ded783a1619c8581f9bb1e884@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шилов И.Б.\nМесто: корп. 1\, ауд. 032д
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современные подходы к созданию полимерных композиционных материалов (Практическое занятие)
+UID:afc1271ebc2c5270a0ee760d4ddd6d19@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шилов И.Б.\nМесто: корп. 1\, ауд. 032д
+DTEND:20261121T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261121T052000Z
+STATUS:CONFIRMED
+SUMMARY:Современные подходы к созданию полимерных композиционных материалов (Практическое занятие)
+UID:ee4f1db433ee382892903042c83aec6d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шилов И.Б.\nМесто: корп. 1\, ауд. 032д
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология и переработка синтетических и природных полимеров и композитов (Практическое занятие)
+UID:5ab11a269c85523ddbf46e0a040fa96c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261111T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261111T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:6e87c2620c0ded34cf0713eaa974c4e5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261118T123000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261118T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:8dd8f3a0dfc7dc3c953fb4d816d44b21@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:09c3e165c784dae799e9e73cc0c7d13e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:83636c28301af87b1bffca2136fdcd30@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шилов И.Б.\nМесто: корп. 1\, ауд. 032д
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Технология и переработка синтетических и природных полимеров и композитов (Практическое занятие)
+UID:7a5f1da8f850c76762f7de078995ecec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шилов И.Б.\nМесто: корп. 1\, ауд. 032д
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Технология и переработка синтетических и природных полимеров и композитов (Практическое занятие)
+UID:ae4f0a05e895fd2c532c7ea8f210a129@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 528
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика (Практика)
+UID:409b53de591f46240ceeae158758c75f@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

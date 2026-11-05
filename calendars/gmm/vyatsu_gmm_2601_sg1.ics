@@ -1,0 +1,703 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ГМм-2601 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:12eda20967db8476cd4e084881dc0541@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:a7fa0dd93b8bc12592ce99c34f338fe6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:0a61b80dd0d87054dfd7b1b2627b9b99@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Макарова Т.В.\nМесто: корп. 14\, ауд. 110
+DTEND:20261112T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 110
+DTSTART:20261112T142000Z
+STATUS:CONFIRMED
+SUMMARY:Антикризисное управление регионом (Лекция)
+UID:224e8165fc35fcb37a86e9000a9419f8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Санина Л.В.\nМесто: корп. 14\, ауд. 113
+DTEND:20261121T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261121T052000Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами развития современной региональной и городской среды (Лекция)
+UID:36a49df1d4bdc1e32da571cf0a8e5cbe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Санина Л.В.\nМесто: корп. 14\, ауд. 113
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами развития современной региональной и городской среды (Практическое занятие)
+UID:97d5ee4a376d7bc158f9439f2de3fb6d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261109T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261109T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:67b52314778c3659cbb632eff3e9a93d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:aaedf5b4d558cf668f36d2269d5cde69@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Санович М.А.\nМесто: корп. 14\, ауд. 113
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Современные технологии планирования и прогнозирования социально- экономического развития региона (Лекция)
+UID:8728adbddc2a292925abb1f904efd73e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:1614156a722b93cabe8dec2fc8da9db2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:003e5f32795d4c39f8e52818fdb673f3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Санина Л.В.\nМесто: корп. 14\, ауд. 113
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами развития современной региональной и городской среды (Лекция)
+UID:50419b6f65467975b52888cf47638bb2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чиркова О.Р.\nМесто: корп. 14\, ауд. 110
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 110
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Кадровая политика и кадровый аудит государственных и региональных органов власти (Лекция)
+UID:ee765cd2b2a44b8d98c3ab81f79f695e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:7b50e5648df5745899ef23496997fa35@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:4efee16f6c3fff1fcf6a516b8e56c18c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261114T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261114T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:359829afc87843ba0cf326ce8298a87d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пересторонин И.В.\nМесто: корп. 14\, ауд. 110
+DTEND:20261113T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 110
+DTSTART:20261113T142000Z
+STATUS:CONFIRMED
+SUMMARY:Информационно-аналитические технологии государственного и регионального управления (Лекция)
+UID:5530877f01193b451900ae8d81bf540a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Санович М.А.\nМесто: корп. 14\, ауд. 113
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Современные технологии планирования и прогнозирования социально- экономического развития региона (Практическое занятие)
+UID:345d293b68abbe15da47e71053d516db@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:0ba96a3c0ab9ec03416d296bdd389156@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:0c3167c825ab8ba2c23fc9838c6687c3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261114T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261114T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:741be0fdee34c49b027040c8dc8c3fb4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:1b17840284161d930adc0eeb65921511@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:3d46fcf824a5addd4edfc021572f2ecb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261119T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261119T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:eeee79efad0250896640ccc871079e41@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:d5f0f251a38aad625ed4bbcd4f4e1a83@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261109T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261109T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:0b4f251b90f5a6650063db09e5deacac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:11f0ed5620d016c06bc7ab7d2fa3f73e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:696148a7747b89c192e4be5b38bf7869@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:41acf100962fa3f8b200e57b0a45f83b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:a08161e5ccc76a6e7592b528d8aa6747@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261117T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261117T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:203a012e5a611a3ea974f9f1795d1bfa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:085e848df979a8476c7cbe85c6db0825@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261117T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:957e71e8dacc3229b50684af51206a3e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Санович М.А.\nМесто: корп. 14\, ауд. 113
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Современные технологии планирования и прогнозирования социально- экономического развития региона (Лекция)
+UID:45fd1ec91f530ef33981540ff07e8ff2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:2abe332d50fffd431e9a8f1a04584a17@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:efcd9fb4489e537db5069565026d5367@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:ed3d01ef68e4629f6a34914d06039af4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чиркова О.Р.\nМесто: корп. 14\, ауд. 110
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 110
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Кадровая политика и кадровый аудит государственных и региональных органов власти (Практическое занятие)
+UID:9974e2d054027cb39189a9bbd53f7e0e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:82aa0ce70bb34f7c89c40ea0fde6286d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:6025917414d92fad3a22c082ee4bc3b9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:d04a6333e4f20dfb5dd5d7f7b6a15eb2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чиркова О.Р.\nМесто: корп. 14\, ауд. 121
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 121
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Кадровая политика и кадровый аудит государственных и региональных органов власти (Лекция)
+UID:06bf93d228555f3ce068ea0292433d49@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пересторонин И.В.\nМесто: корп. 14\, ауд. 110
+DTEND:20261030T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 110
+DTSTART:20261030T155500Z
+STATUS:CONFIRMED
+SUMMARY:Информационно-аналитические технологии государственного и регионального управления (Практическое занятие)
+UID:b233279f019ac3d07c946290e78f6817@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Макарова Т.В.\nМесто: корп. 14\, ауд. 110
+DTEND:20261112T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 110
+DTSTART:20261112T155500Z
+STATUS:CONFIRMED
+SUMMARY:Антикризисное управление регионом (Практическое занятие)
+UID:da1d9cd587058c96a937ac8a5aec6fb0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:abbe162a16d3f086495e72616a26bfd0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261114T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261114T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:f28613a4a89a67e7bda119e50a95a941@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:5a2d3bb837802b929e3d951660988ddf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:34e5a9161e44242cc6e6969abd9becfa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:75fdc4142d537446513cf5876004d707@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:4567e58eff70c850424d05e2135a389b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:e84a1d18463c0736a2c62a4b40b13192@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:6d5c0a129c431201cd07ef19b0352454@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261111T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261111T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:01470999a9f34ac136e1b837ab585076@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Санович М.А.\nМесто: корп. 14\, ауд. 113
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Современные технологии планирования и прогнозирования социально- экономического развития региона (Практическое занятие)
+UID:c9144792c260eca5b1345b462d7f29af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чиркова О.Р.\nМесто: корп. 14\, ауд. 121
+DTEND:20261110T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 121
+DTSTART:20261110T155500Z
+STATUS:CONFIRMED
+SUMMARY:Кадровая политика и кадровый аудит государственных и региональных органов власти (Практическое занятие)
+UID:ac8fe991c37a397e2328b9591faa69d2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Санина Л.В.\nМесто: корп. 14\, ауд. 113
+DTEND:20261121T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 113
+DTSTART:20261121T070000Z
+STATUS:CONFIRMED
+SUMMARY:Управление проектами развития современной региональной и городской среды (Практическое занятие)
+UID:16541f7dee6575528ff2f4cf856c9ec5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пересторонин И.В.\nМесто: корп. 14\, ауд. 110
+DTEND:20261113T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 110
+DTSTART:20261113T155500Z
+STATUS:CONFIRMED
+SUMMARY:Информационно-аналитические технологии государственного и регионального управления (Практическое занятие)
+UID:73dd8274aa510b1ca05197395db5f914@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пересторонин И.В.\nМесто: корп. 14\, ауд. 110
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 110
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Информационно-аналитические технологии государственного и регионального управления (Лекция)
+UID:f2e49be3c25e4cf7730d2ce8e2588f45@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:8aa164254f1a48c8c627433c9230e97b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:62f2553df38ad8d03d94d6a4a8e7b408@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:b236afb29cc274557e7063d9c138920c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:ca202e90ce69350c9ee3920df2eb85bb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 14\, ауд. 137
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 137
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика №1\, научно-исследовательская работа (Практика)
+UID:d006d3de10d394403cd2d1bebe58f6d3@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

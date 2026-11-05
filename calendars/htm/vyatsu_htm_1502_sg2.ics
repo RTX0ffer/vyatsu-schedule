@@ -1,0 +1,318 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ХТм-1502 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лихачев В.А.\nМесто: корп. 1\, ауд. 513
+DTEND:20261111T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 513
+DTSTART:20261111T155500Z
+STATUS:CONFIRMED
+SUMMARY:Современные проблемы коррозии и защиты металлов (Практическое занятие)
+UID:c28663ed58522ce35d46f7454d1146b3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Золотухина Е.В.\nМесто: корп. 1\, ауд. 513
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 513
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Альтернативные источники энергии (Лабораторная работа)
+UID:59d686464165d9c212b00df165c53e02@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nМесто: корп. 1\, ауд. 502
+DTEND:20261114T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261114T110000Z
+STATUS:CONFIRMED
+SUMMARY:Инновационные материалы (Лабораторная работа)
+UID:bb8360f44288e69bb7c8fd25f085030e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nМесто: корп. 1\, ауд. 502
+DTEND:20261121T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261121T110000Z
+STATUS:CONFIRMED
+SUMMARY:Современные технологии утилизации промышленных отходов (Лабораторная работа)
+UID:46bd648cc8e40f47c92e87bef8ea07c6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Золотухина Е.В.\nМесто: корп. 1\, ауд. 513
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 513
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Альтернативные источники энергии (Лекция)
+UID:0dc42c5e9e887baa0645e5e808c310cc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Золотухина Е.В.\nМесто: корп. 1\, ауд. 513
+DTEND:20261112T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 513
+DTSTART:20261112T142000Z
+STATUS:CONFIRMED
+SUMMARY:Альтернативные источники энергии (Лекция)
+UID:7a71e3fbc41af798c6672b71fe490501@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лихачев В.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261117T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261117T155500Z
+STATUS:CONFIRMED
+SUMMARY:Современные проблемы коррозии и защиты металлов (Практическое занятие)
+UID:b9cd85894b089cd37eb67437ed6461aa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nМесто: корп. 1\, ауд. 502
+DTEND:20261121T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261121T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные технологии утилизации промышленных отходов (Лабораторная работа)
+UID:a84bff7605aaf7dc5e900280c8cfef3a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Девятерикова С.В.\nМесто: корп. 1\, ауд. 502
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Инновационные материалы (Лекция)
+UID:63df1dbaa2467289e87ccee53409a150@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Девятерикова С.В.\nМесто: корп. 1\, ауд. 502
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Инновационные материалы (Лекция)
+UID:d4da1a3e600255e8a914dabfb52b5b16@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nМесто: корп. 1\, ауд. 502
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные технологии утилизации промышленных отходов (Лабораторная работа)
+UID:06c6fb7de337f7525db4c5c8edbbc773@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лихачев В.А.\nМесто: корп. 1\, ауд. 513
+DTEND:20261111T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 513
+DTSTART:20261111T142000Z
+STATUS:CONFIRMED
+SUMMARY:Современные проблемы коррозии и защиты металлов (Практическое занятие)
+UID:8ef2dbf7d8380e12a502f7ae228ade1d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суслопарова М.М.\nМесто: корп. 15\, ауд. 207
+DTEND:20261113T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261113T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:f1f414a2f7856d7df4ad7728e602806b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лихачев В.А.\nМесто: корп. 1\, ауд. 513
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 513
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Современные проблемы коррозии и защиты металлов (Практическое занятие)
+UID:42088818c0cf24788994ddc5dc2d1153@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nМесто: корп. 1\, ауд. 502
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Инновационные материалы (Лабораторная работа)
+UID:b2a1835f688b740b8269b6da57fcb51a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лихачев В.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Современные проблемы коррозии и защиты металлов (Практическое занятие)
+UID:ff7d6444433431c6a3289e70d4534c98@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лихачев В.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261117T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261117T142000Z
+STATUS:CONFIRMED
+SUMMARY:Современные проблемы коррозии и защиты металлов (Практическое занятие)
+UID:27b44ca8f5b8f27a6dba66c8159f9d74@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Золотухина Е.В.\nМесто: корп. 1\, ауд. 513
+DTEND:20261112T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 513
+DTSTART:20261112T155500Z
+STATUS:CONFIRMED
+SUMMARY:Альтернативные источники энергии (Лабораторная работа)
+UID:a483f510c6399ddbf581f67ef4f7feb1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лихачев В.А.\nМесто: корп. 1\, ауд. 531
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Современные проблемы коррозии и защиты металлов (Практическое занятие)
+UID:aee3babdfa0c2f4effaffb6df14cbea2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суслопарова М.М.\nМесто: корп. 15\, ауд. 207
+DTEND:20261120T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261120T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:f41d4fda6288af26cc9f8e8429917b4c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Золотухина Е.В.\nМесто: корп. 1\, ауд. 513
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 513
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Альтернативные источники энергии (Лабораторная работа)
+UID:24eb52574d59b4d9ea65575b6c2d99fb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Золотухина Е.В.\nМесто: корп. 1\, ауд. 513
+DTEND:20261119T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 513
+DTSTART:20261119T155500Z
+STATUS:CONFIRMED
+SUMMARY:Альтернативные источники энергии (Лабораторная работа)
+UID:b7bc2cf3dd9241c03473ec369d3ede85@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суслопарова М.М.\nМесто: корп. 15\, ауд. 207
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:51336421a332b99ac7451a506e2e33f8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Суслопарова М.М.\nМесто: корп. 15\, ауд. 207
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:b427696db31aaaa660ba1aad2dfdd3a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Золотухина Е.В.\nМесто: корп. 1\, ауд. 513
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 513
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Альтернативные источники энергии (Лабораторная работа)
+UID:6c6680559386e4c6b65eb9eade67d618@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Золотухина Е.В.\nМесто: корп. 1\, ауд. 513
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 513
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Альтернативные источники энергии (Лабораторная работа)
+UID:61c27e5106494b29fd0dd1e810cf8165@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лихачев В.А.\nМесто: корп. 1\, ауд. 513
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 513
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Современные проблемы коррозии и защиты металлов (Практическое занятие)
+UID:8a69912057cb225c54de1853969a99a1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Девятерикова С.В.\nМесто: корп. 1\, ауд. 502
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 502
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Современные технологии утилизации промышленных отходов (Лабораторная работа)
+UID:c7c13b3658c2bac10f0961069d714507@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

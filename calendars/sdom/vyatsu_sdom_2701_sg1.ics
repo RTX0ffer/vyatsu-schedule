@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ СДОм-2701 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 426
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Современные реабилитационные технологии в образовании (Лекция)
+UID:5f40c4021eb2b819715f6f93be957bc4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 332
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Современные реабилитационные технологии в образовании (Практическое занятие)
+UID:f557a3fb16a5e2fdacdda8dc296dc5e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
+DTEND:20261117T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 426
+DTSTART:20261117T142000Z
+STATUS:CONFIRMED
+SUMMARY:Современные реабилитационные технологии в образовании (Практическое занятие)
+UID:d9bdc8eb72a3a2593cf4cd6ba5a288e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ивутина Е.П.\nМесто: корп. 15\, ауд. 337
+DTEND:20261120T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261120T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии психолого-педагогической диагностики и педагогических измерений (Практическое занятие)
+UID:7389179c6f3ca6ea622d00cff731f4a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 332
+DTEND:20261119T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261119T155500Z
+STATUS:CONFIRMED
+SUMMARY:Организационное и методическое обеспечение коррекционной логопедической работы в системе образования (Практическое занятие)
+UID:144301c2d27f2ffcebf09824d7ba7ec3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ивутина Е.П.\nМесто: корп. 15\, ауд. 337
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии психолого-педагогической диагностики и педагогических измерений (Лекция)
+UID:ffb79e1e6f10373c8e0ee494e55de0f6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 332
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Организационное и методическое обеспечение коррекционной логопедической работы в системе образования (Практическое занятие)
+UID:7e1169c88a0bd5a644f45360de28c668@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
+DTEND:20261117T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 426
+DTSTART:20261117T155500Z
+STATUS:CONFIRMED
+SUMMARY:Современные реабилитационные технологии в образовании (Практическое занятие)
+UID:6ead9bf8b10580e41c56c5b24d7bd5b2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ивутина Е.П.\nМесто: корп. 15\, ауд. 337
+DTEND:20261120T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261120T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии психолого-педагогической диагностики и педагогических измерений (Практическое занятие)
+UID:4d1951c646719f10b2c6bdfadf31a0a5@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

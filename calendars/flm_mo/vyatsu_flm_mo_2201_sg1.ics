@@ -1,0 +1,373 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ФЛм-2201 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 322
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Филологический анализ текста (Практическое занятие)
+UID:dc8978798ce22cc38fdd4f19d274a7ee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 322
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Филологический анализ текста (Практическое занятие)
+UID:be85d75f9ab521c14a98791b11a9ffa4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 300
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Практическое занятие)
+UID:0bacac66a97ba5239a5104723d4f7134@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 322
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Филологический анализ текста (Лекция)
+UID:609f16ee415bceb211addbd65961d73a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 6\, ауд. 202
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 6\, ауд. 202
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория обучения русскому языку как иностранному (Практическое занятие)
+UID:90076155b1aa98ee43d244ff0b07ec07@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 300
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русская орфография и пунктуация в системе обучения русскому языку как иностранному (Практическое занятие)
+UID:4dccff41b1aeadccecc43186c965a5ce@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 300
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Морфология и словообразование современного русского литературного языка (Лекция)
+UID:4bacde65780781a04711b87d85211133@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 6\, ауд. 201
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 6\, ауд. 201
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория обучения русскому языку как иностранному (Практическое занятие)
+UID:153caba76507acd4b4190a6dad7fc2f4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сысолятина О.Н.\nМесто: корп. 6\, ауд. 202
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 6\, ауд. 202
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы межкультурной коммуникации (Практическое занятие)
+UID:6a8d4b807425ce901f414b3d03d02448@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 300
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Морфология и словообразование современного русского литературного языка (Лекция)
+UID:c06065507d557e572a29a2dbb1b04b61@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 300
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Практическое занятие)
+UID:972b4f78878d870a318b268a4aa5b6f6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сысолятина О.Н.\nМесто: корп. 6\, ауд. 210
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы межкультурной коммуникации (Лекция)
+UID:5aa7dba6a115031e28777ee438fb2ccb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 224
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Русская орфография и пунктуация в системе обучения русскому языку как иностранному (Практическое занятие)
+UID:07e5daee9d686b53e1059fb0ef8ac34d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 300
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Практическое занятие)
+UID:2eaec71d2efdabdadd9ee9d79ed9e902@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 6\, ауд. 202
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 6\, ауд. 202
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория обучения русскому языку как иностранному (Практическое занятие)
+UID:d55a7518ae22a32d7d299e4d2ec86913@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 300
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русская орфография и пунктуация в системе обучения русскому языку как иностранному (Практическое занятие)
+UID:51072d6d6849eafba8a23bd746acfa07@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 6\, ауд. 201
+DTEND:20261119T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 6\, ауд. 201
+DTSTART:20261119T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория обучения русскому языку как иностранному (Практическое занятие)
+UID:5d83464e2d9cc92ba8a62b8a03c6d976@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сысолятина О.Н.\nМесто: корп. 6\, ауд. 210
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 6\, ауд. 210
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы межкультурной коммуникации (Лекция)
+UID:4fcdc937b04baadaf3e3910696af5d05@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 300
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Русская орфография и пунктуация в системе обучения русскому языку как иностранному (Лекция)
+UID:2a73e915a1319948771da7adeacb10e3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сысолятина О.Н.\nМесто: корп. 6\, ауд. 202
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 6\, ауд. 202
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы межкультурной коммуникации (Лекция)
+UID:a8f82834dc6196a11a36b450a0c05329@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 212
+DTEND:20261118T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 212
+DTSTART:20261118T110000Z
+STATUS:CONFIRMED
+SUMMARY:Морфология и словообразование современного русского литературного языка (Практическое занятие)
+UID:6f3907e4ee390797fb07440a3a8c85c3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 322
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Филологический анализ текста (Лекция)
+UID:3de1b98ba253fa671b7daed5ea531f76@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сысолятина О.Н.\nМесто: корп. 6\, ауд. 202
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 6\, ауд. 202
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Основы межкультурной коммуникации (Практическое занятие)
+UID:6b3a11dace8d40a93e515e1a7c7e8de3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 2\, ауд. 300
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по методам обучения русскому языку как иностранному (Практическое занятие)
+UID:4ff795d30ec27228d9e454cf30baf5a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 2\, ауд. 300
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по методам обучения русскому языку как иностранному (Практическое занятие)
+UID:aa677143232f6b74c4f6f6aaad0a1292@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 224
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 224
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Русская орфография и пунктуация в системе обучения русскому языку как иностранному (Лекция)
+UID:9c9bcddc19cb4885363116ee54c4f2c4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 2\, ауд. 300
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по методам обучения русскому языку как иностранному (Практическое занятие)
+UID:4b6b7ecb21713987691816a9ce5c264e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 300
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современный русский язык (Практическое занятие)
+UID:02c861fca27b5cdede767987c7aab5ab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Исупова С.М.\nМесто: корп. 6\, ауд. 202
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 6\, ауд. 202
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория обучения русскому языку как иностранному (Лекция)
+UID:7402608c9f040a7acb79b9c16975cd53@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сысолятина О.Н.\nМесто: корп. 6\, ауд. 202
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 6\, ауд. 202
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы межкультурной коммуникации (Лекция)
+UID:3f15a0779208008d468e55776e2a9065@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Наумова Н.Г.\nМесто: корп. 16\, ауд. 300
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 16\, ауд. 300
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Русская орфография и пунктуация в системе обучения русскому языку как иностранному (Лекция)
+UID:47cb8142319a4c23be642bc0447eb745@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Исупова С.М.\nМесто: корп. 2\, ауд. 300
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практикум по методам обучения русскому языку как иностранному (Практическое занятие)
+UID:77c018332441843228cf385014993c0d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Исупова С.М.\nМесто: корп. 6\, ауд. 202
+DTEND:20261112T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 6\, ауд. 202
+DTSTART:20261112T052000Z
+STATUS:CONFIRMED
+SUMMARY:Теория обучения русскому языку как иностранному (Лекция)
+UID:e9737aca0ae00a9068e1211c8d58cac8@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

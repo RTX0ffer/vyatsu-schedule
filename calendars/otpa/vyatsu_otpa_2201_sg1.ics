@@ -1,0 +1,142 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ОТПа-2201 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останина О.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Эпистемология (Практическое занятие)
+UID:d483f225e3ca2b0463825289f406988d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останина О.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Эпистемология (Практическое занятие)
+UID:bae42933292ea36ddd28b7c49ca551f0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останина О.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Онтология и теория познания (Практическое занятие)
+UID:ac03e6807361096e8ab620fbae93da41@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останина О.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Онтология и теория познания (Практическое занятие)
+UID:e13451fa2be3a03df72db3bf19e787e3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останина О.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Эпистемология (Практическое занятие)
+UID:11ee3654a04c0a2f0b06c1698b25cb93@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останина О.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Онтология и теория познания (Практическое занятие)
+UID:129e759979aa1a71964e2453b52b5b38@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останина О.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Онтология и теория познания (Практическое занятие)
+UID:a537276c83ad67fd51aea3ce68597e69@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останина О.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Онтология и теория познания (Практическое занятие)
+UID:21a92a3730f777c885197694059ce8fd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останина О.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Эпистемология (Практическое занятие)
+UID:22e9fcf7ed4553dff4444075a2d5e6c3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останина О.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261110T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261110T155500Z
+STATUS:CONFIRMED
+SUMMARY:Эпистемология (Практическое занятие)
+UID:d94b51abe4dfce6dd11d8bf613f3caff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останина О.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Эпистемология (Практическое занятие)
+UID:791a2c8f515e3800a3cb0986113ac0b3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Останина О.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Онтология и теория познания (Практическое занятие)
+UID:6ea5d0aa762e5f4697311e9979d7dfe1@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

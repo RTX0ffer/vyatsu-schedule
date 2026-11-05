@@ -1,0 +1,186 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ВСа-1301
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 1\, ауд. 534
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методология и методы научного исследования (Практическое занятие)
+UID:6387511efc95a8718daf41aa8982c698@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 1\, ауд. 534
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методология и методы научного исследования (Практическое занятие)
+UID:bf3fac9d231933d099bce50430902adb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 1\, ауд. 313
+DTEND:20261112T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261112T142000Z
+STATUS:CONFIRMED
+SUMMARY:История и философия науки (Практическое занятие)
+UID:32694710444376369748c3c74af0c90e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 1\, ауд. 313
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:История и философия науки (Практическое занятие)
+UID:b29423a87744afd2f0c97791ca377898@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nМесто: корп. 1\, ауд. 514
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:078b13bd0e089e72c1bd4ad4f3f83aab@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nМесто: корп. 1\, ауд. 514
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:17ad15e9608d857547a4b4fe4bcc8973@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коршунова О.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Педагогика высшей школы (Практическое занятие)
+UID:5f693b49846c12f28d4d9f00b5cb8940@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коршунова О.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогика высшей школы (Практическое занятие)
+UID:eb5abb5266800405abdbc514b49dd4f9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 1\, ауд. 313
+DTEND:20261112T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261112T155500Z
+STATUS:CONFIRMED
+SUMMARY:История и философия науки (Практическое занятие)
+UID:b6d6d242179374d5c8914624c5599fe1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коршунова О.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Педагогика высшей школы (Практическое занятие)
+UID:ad0ce84fc5212584f9bc3cded4ca9ad9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 1\, ауд. 534
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методология и методы научного исследования (Практическое занятие)
+UID:2413e8be2b0d342513e972cc4227b224@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 1\, ауд. 534
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методология и методы научного исследования (Практическое занятие)
+UID:479c730aa6c9ff7bdc42e05dd8f6032e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nМесто: корп. 1\, ауд. 514
+DTEND:20261117T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261117T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:1d61ef1c9f066d838972f651784a0995@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nМесто: корп. 1\, ауд. 514
+DTEND:20261117T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 514
+DTSTART:20261117T155500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:86906b8de47a2f9f8209be89f7ef17c7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 1\, ауд. 313
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:История и философия науки (Практическое занятие)
+UID:9c9825e9fbeef617a9336e58d827a8ad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коршунова О.В.\nМесто: корп. 1\, ауд. 534
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогика высшей школы (Практическое занятие)
+UID:39a151aa02a5d8801230fad6e700f481@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

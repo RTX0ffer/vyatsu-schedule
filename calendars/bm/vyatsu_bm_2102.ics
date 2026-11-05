@@ -1,0 +1,734 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ Бм-2102
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:5bc8a63a3a575bff1981b08796afcc84@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Дисперсные системы (Лекция)
+UID:9283274fe0a1c54d52ef23084723ffcb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Химия растительного сырья (Лабораторная работа)
+UID:5894ed024fe24928ffeaf50a6faf3498@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261121T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261121T070000Z
+STATUS:CONFIRMED
+SUMMARY:Дисперсные системы (Лабораторная работа)
+UID:09766d0562e60d5e230e5e936e5ad64d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:5feaad557680969ce17b03f4e5b86417@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:ab8be39664f8c7b76170d1a07397b91e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261111T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261111T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:1d58aa7f95eed33c970755fbaf101f17@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии сбора\, выращивания и хранения растительного сырья (Практическое занятие)
+UID:218ecbf285c7496d62fd44e590fabef1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лелекова Е.В.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Фиторесурсы (Практическое занятие)
+UID:7f64344fa21d93ed633e149ecef977c4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261113T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261113T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:6ae83e7fd0b6574dc9517f3be0159343@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261114T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261114T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии фитокосметических средств (Лабораторная работа)
+UID:4642b53ad9878a967631c86cae19b6f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:8e838dd97471a1ebb1c2566188750e27@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сысолятин А.В.\nМесто: корп. 1\, ауд. 334
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент и маркетинг (Лекция)
+UID:2903973d5040e2ad788dcf17e8f0f847@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лелекова Е.В.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Фиторесурсы (Лекция)
+UID:e65e16f3a43d55836a6f655e75d2dd40@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии фитокосметических средств (Лабораторная работа)
+UID:049a89058f6d8c883b157fd0e86abbee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261119T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261119T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:ece65b8c98d5d3bfa7d326178141b846@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:bd3e679e9e1b6381fb7a6cac23bc280c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:92c9b69693b30741d32a8c1bd5d01697@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пересторонина О.Н.\nМесто: корп. 4\, ауд. 507
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Физиология растений (Лабораторная работа)
+UID:1189179d8017d0490d12291cb1a43727@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сысолятин А.В.\nМесто: корп. 1\, ауд. 334
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент и маркетинг (Практическое занятие)
+UID:444375eff04b29b75eabd43a66698f59@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лелекова Е.В.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261110T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261110T155500Z
+STATUS:CONFIRMED
+SUMMARY:Фиторесурсы (Практическое занятие)
+UID:b562a67cfd55de396bd26a62e7a91d6d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:a3dcc000c1d9ed2d493bb1c088c050b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пересторонина О.Н.\nМесто: корп. 4\, ауд. 507
+DTEND:20261117T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261117T142000Z
+STATUS:CONFIRMED
+SUMMARY:Физиология растений (Лабораторная работа)
+UID:23e96f45b020692661dc304f51142975@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261120T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261120T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии фитокосметических средств (Лекция)
+UID:7f610f6ac36872d61a5bf2798a783815@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:d296a132756f4313a38953b3f8db7afa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кудрявцев П.А.
+DTEND:20261120T172500Z
+LAST-MODIFIED:20261105T215825Z
+DTSTART:20261120T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии фитокосметических средств (Практическое занятие)
+UID:868c8a2359c23b9de1874b254a2d6dd9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:c2f4bbedf4ba50e1c0873aeee5c79a48@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Дисперсные системы (Лабораторная работа)
+UID:5829924aedbbf33859298af6a0f9b43c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пересторонина О.Н.\nМесто: корп. 4\, ауд. 507
+DTEND:20261117T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261117T155500Z
+STATUS:CONFIRMED
+SUMMARY:Физиология растений (Лабораторная работа)
+UID:2b03027f934a6e50438b436658ec4d29@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261028T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261028T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:5a73b21ce32d307f8ed7539c7ff48062@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:22c2f9261ce873309ec7ffb05956ded4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:3efa4d12b69e8ddab335f3bdc1b83ef1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261121T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261121T124500Z
+STATUS:CONFIRMED
+SUMMARY:Химия растительного сырья (Лабораторная работа)
+UID:1ca20ae807dc4885a9bb438fee384bd1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Химия растительного сырья (Лекция)
+UID:03e53da88453367153fb3151b290d0c5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии сбора\, выращивания и хранения растительного сырья (Лекция)
+UID:5c801d7c83554a1cb07a88d7926975f9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:a90bc16814937f837138a50dadf1f378@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сысолятин А.В.\nМесто: корп. 1\, ауд. 334
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент и маркетинг (Лекция)
+UID:f2bc29c305ad34d9a3e1cdd21eaecffe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пересторонина О.Н.\nМесто: корп. 4\, ауд. 507
+DTEND:20261112T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261112T142000Z
+STATUS:CONFIRMED
+SUMMARY:Физиология растений (Лекция)
+UID:2f64554f0ecf560b1acb99e1fe392cd4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Пересторонина О.Н.\nМесто: корп. 4\, ауд. 507
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Физиология растений (Лабораторная работа)
+UID:b805143c2e548cd5e0f53c120c731d2a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Пересторонина О.Н.\nМесто: корп. 4\, ауд. 507
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 507
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Физиология растений (Лекция)
+UID:1bc161a8a97624f765f89bd3c1ca15a0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:b86b8e23c996740926176bb0bcc06b76@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии сбора\, выращивания и хранения растительного сырья (Лекция)
+UID:06b8d5dd8cadb5989f704eebcda568b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Лелекова Е.В.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Фиторесурсы (Практическое занятие)
+UID:4887fd1cfef34a9270aa667faafa9432@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Дисперсные системы (Лекция)
+UID:dd150fb5da6fceb833664efc7d27f0cd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:3c6218e1ced1c75179d0774a59347cae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:7496f7b362a3340d03f2b82132d658e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии фитокосметических средств (Лекция)
+UID:8cd627e7ebff58fdf02d278bd5a928eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:c626f993d9bb7058d37a5077b6bbcb96@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261113T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261113T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:509f12f916c5433de597d4a4c7922aeb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:0bd3c3e4766aaa18197a46f803c302e1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:2f916820d6bd690e3e2936eabcc29e12@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:f0a93ef57e6f495abee141dc1e00f6ee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Дисперсные системы (Лабораторная работа)
+UID:c579d12ecfcef64eded85fa34566c6e2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:aee9f1712a7a76dc6e0e7d570a661de9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кудрявцев П.А.
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T215825Z
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии фитокосметических средств (Практическое занятие)
+UID:cd200da5a52cad30bf3737816609d9f4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261121T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261121T110000Z
+STATUS:CONFIRMED
+SUMMARY:Химия растительного сырья (Лабораторная работа)
+UID:fb0d9b61c92f9298bbcc0159be93283d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 120
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Химия растительного сырья (Лекция)
+UID:449d73da5678681bb6ba07bc02a69c3f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:5fee46094b974d06e8f7034e738d3771@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Душина Е.Э.\nМесто: корп. 4\, ауд. 402a
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 402a
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии сбора\, выращивания и хранения растительного сырья (Практическое занятие)
+UID:f5201f9c769db04280e40761d5b31985@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:7f2df2796806a955f00143aee1450a46@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:1e804a61831eac8a0b3c786951dd8d98@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Химия растительного сырья (Лабораторная работа)
+UID:318c8edcd4305ecdf9bd7c1e23e15454@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:1432ca7d593396a16090ffb33b18be78@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 4\, ауд. 403
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 4\, ауд. 403
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 3\, научно-исследовательская работа (Практика)
+UID:2b1ff3fa181b4d032c31762539dc32af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кудрявцев П.А.\nМесто: корп. 1\, ауд. 031
+DTEND:20261121T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 031
+DTSTART:20261121T084500Z
+STATUS:CONFIRMED
+SUMMARY:Дисперсные системы (Лабораторная работа)
+UID:f6cf92fe8816366c929b8f8f6720cc3f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сысолятин А.В.\nМесто: корп. 1\, ауд. 334
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент и маркетинг (Практическое занятие)
+UID:dd1bb66ff2aa777aec2377c18f13d9cd@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

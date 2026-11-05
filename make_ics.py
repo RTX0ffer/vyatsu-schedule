@@ -298,6 +298,22 @@ DEFAULT_SUPPORTED_GROUPS = {
 }
 
 GROUPS_FILE = 'groups.json'
+DIRECTIONS_FILE = 'directions.json'
+
+CYR_TO_LAT = {
+    'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e', 'ё': 'e',
+    'ж': 'zh', 'з': 'z', 'и': 'i', 'й': 'y', 'к': 'k', 'л': 'l', 'м': 'm',
+    'н': 'n', 'о': 'o', 'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'у': 'u',
+    'ф': 'f', 'х': 'h', 'ц': 'ts', 'ч': 'ch', 'ш': 'sh', 'щ': 'sch',
+    'ъ': '', 'ы': 'y', 'ь': '', 'э': 'e', 'ю': 'yu', 'я': 'ya'
+}
+
+
+def cyr_to_slug(text):
+    """Преобразует кириллическую аббревиатуру в безопасный slug для директорий."""
+    s = text.lower()
+    res = ''.join(CYR_TO_LAT.get(c, c) for c in s)
+    return re.sub(r'[^a-z0-9_]+', '', res)
 
 
 FAC_MAPPING = [
@@ -327,57 +343,97 @@ PREF_AND_FAC[('fmo', 'ЛВб')] = 'lvb_mo'
 PREF_AND_FAC[('fl', 'ЛВб')] = 'lvb'
 
 
-def discover_groups(soup):
+def discover_groups_and_directions(soup):
     """
-    Автоматически находит все группы на странице расписания ВятГУ для всех 17 факультетов.
-    Возвращает словарь {group_id: {name, course, direction, faculty, full_name, code}}.
+    Автоматически находит все группы и направления всех ступеней обучения
+    (Бакалавриат, Специалитет, Магистратура, Аспирантура) на странице расписания ВятГУ.
+    Возвращает (discovered_groups, discovered_directions).
     """
     if soup is None:
-        return {}
+        return {}, {}
 
-    bachelor_header = soup.find('div', class_='headerEduPrograms', string=lambda t: t and 'Бакалавр' in t)
-    magistr_header = soup.find('div', class_='headerEduPrograms', string=lambda t: t and 'Магистр' in t)
+    discovered_groups = {}
+    discovered_directions = {}
 
-    discovered = {}
+    for h4 in soup.find_all('h4'):
+        h4_txt = h4.text.strip()
+        m_code = re.match(r'^([\d\.]+)\s+(.*)', h4_txt)
+        code_spec = m_code.group(1) if m_code else ''
+        spec_name = m_code.group(2) if m_code else h4_txt
 
-    for f in soup.find_all('div', class_='fak_name'):
-        # Сканируем секции между Бакалавриатом и Магистратурой (включает Бакалавриат и Специалитет)
-        if bachelor_header and magistr_header:
-            if not (bachelor_header.sourceline <= f.sourceline < magistr_header.sourceline):
-                continue
-
-        f_text = f.text.strip().lower()
-        fac_key = None
-        for kw, k in FAC_MAPPING:
-            if kw in f_text:
-                fac_key = k
-                break
+        f = h4.find_previous('div', class_='fak_name')
+        f_text = f.text.strip().lower() if f else ''
+        fac_key = next((k for kw, k in FAC_MAPPING if kw in f_text), None)
         if not fac_key:
             continue
 
-        td = f.find_parent('td')
-        if not td:
+        hep = h4.find_previous('div', class_='headerEduPrograms')
+        deg_raw = hep.text.strip() if hep else 'Бакалавр'
+        deg_key = 'bachelor'
+        if 'Специалист' in deg_raw:
+            deg_key = 'specialist'
+        elif 'Магистр' in deg_raw:
+            deg_key = 'master'
+        elif 'Аспирант' in deg_raw:
+            deg_key = 'phd'
+
+        curr = h4
+        grps = []
+        while True:
+            curr = curr.find_next()
+            if not curr or (curr.name in ['h4', 'div'] and ('headerEduPrograms' in curr.get('class', []) or 'fak_name' in curr.get('class', []))) or curr.name == 'h4':
+                break
+            if curr.name == 'div' and 'grpPeriod' in curr.get('class', []):
+                txt = curr.text.strip()
+                raw_pid = curr.get('data-grp_period_id', '').strip()
+                grp_id = raw_pid[:-1] if len(raw_pid) > 5 else raw_pid
+                grps.append((txt, grp_id))
+
+        if not grps:
             continue
 
-        for g in td.find_all('div', class_='grpPeriod'):
-            txt = g.text.strip()
-            raw_pid = g.get('data-grp_period_id', '').strip()
-            if not raw_pid:
-                continue
-            grp_id = raw_pid[:-1] if len(raw_pid) > 5 else raw_pid
+        m_pref = re.match(r'^([А-Яа-яЁё]+)-(\d{4})', grps[0][0])
+        if not m_pref:
+            continue
+        pref = m_pref.group(1)
+
+        dir_key = PREF_AND_FAC.get((fac_key, pref))
+        if not dir_key:
+            base_slug = cyr_to_slug(pref)
+            if pref == 'Ма' and fac_key == 'inbio':
+                dir_key = 'ma_inbio'
+            elif pref == 'Ма' and fac_key == 'fms':
+                dir_key = 'ma_fms'
+            elif pref == 'ФЛм' and fac_key == 'fmo':
+                dir_key = 'flm_mo'
+            elif pref == 'ЛВб' and fac_key == 'fmo':
+                dir_key = 'lvb_mo'
+            else:
+                dir_key = base_slug
+
+        badge = '🎓' if deg_key == 'master' else ('🔬' if deg_key == 'phd' else ('🔒' if deg_key == 'specialist' else '🔹'))
+        existing_dir = DIRECTIONS.get(dir_key)
+        if existing_dir and 'badge' in existing_dir:
+            badge = existing_dir['badge']
+
+        discovered_directions[dir_key] = {
+            'name': spec_name,
+            'short': pref,
+            'code_spec': code_spec,
+            'badge': badge,
+            'faculty': fac_key,
+            'degree': deg_key
+        }
+
+        for txt, grp_id in grps:
             m = re.match(r'^([А-Яа-яЁё]+)-(\d{4})', txt)
             if not m:
                 continue
-            pref, num = m.group(1), m.group(2)
-            if pref.endswith('м') or pref.endswith('а'):
-                continue
+            p, num = m.group(1), m.group(2)
             course_digit = int(num[0])
-
-            dir_key = PREF_AND_FAC.get((fac_key, pref), f'{fac_key}_{pref.lower()}')
             code = num if dir_key == 'pmib' else f'{dir_key}_{num}'
-
-            discovered[grp_id] = {
-                'name': f'{pref}-{num}',
+            discovered_groups[grp_id] = {
+                'name': f'{p}-{num}',
                 'course': course_digit,
                 'direction': dir_key,
                 'faculty': fac_key,
@@ -385,7 +441,34 @@ def discover_groups(soup):
                 'code': code
             }
 
-    return discovered
+    return discovered_groups, discovered_directions
+
+
+def discover_groups(soup):
+    """Обертка для обратной совместимости: возвращает только группы."""
+    groups, _ = discover_groups_and_directions(soup)
+    return groups
+
+
+def load_directions():
+    """Загружает обнаруженные направления из directions.json."""
+    if os.path.exists(DIRECTIONS_FILE):
+        try:
+            with open(DIRECTIONS_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if data and isinstance(data, dict):
+                    return data
+        except Exception as e:
+            logging.warning(f"Не удалось загрузить {DIRECTIONS_FILE}: {e}")
+    return {}
+
+
+def save_directions(directions_dict):
+    """Сохраняет направления в directions.json."""
+    tmp = f"{DIRECTIONS_FILE}.tmp"
+    with open(tmp, 'w', encoding='utf-8') as f:
+        json.dump(directions_dict, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, DIRECTIONS_FILE)
 
 
 def load_groups():
@@ -645,15 +728,20 @@ def update_schedule():
 
     has_changes = False
 
-    # Динамический авто-поиск всех групп на странице расписания (Auto-Discovery)
+    # Динамический авто-поиск всех групп и направлений на странице расписания (Auto-Discovery)
     if soup:
-        discovered = discover_groups(soup)
-        if discovered:
-            logging.info(f"Auto-Discovery: обнаружено {len(discovered)} актуальных групп на сайте ВятГУ.")
-            if discovered != SUPPORTED_GROUPS:
-                save_groups(discovered)
+        discovered_groups, discovered_dirs = discover_groups_and_directions(soup)
+        if discovered_groups:
+            logging.info(f"Auto-Discovery: обнаружено {len(discovered_groups)} актуальных групп и {len(discovered_dirs)} направлений всех ступеней на сайте ВятГУ.")
+            if discovered_groups != SUPPORTED_GROUPS:
+                save_groups(discovered_groups)
                 SUPPORTED_GROUPS.clear()
-                SUPPORTED_GROUPS.update(discovered)
+                SUPPORTED_GROUPS.update(discovered_groups)
+                has_changes = True
+            if discovered_dirs != DIRECTIONS:
+                save_directions(discovered_dirs)
+                DIRECTIONS.clear()
+                DIRECTIONS.update(discovered_dirs)
                 has_changes = True
         else:
             logging.warning("Auto-Discovery не нашел групп по шаблону, используем сохраненные.")
@@ -662,6 +750,10 @@ def update_schedule():
         if loaded:
             SUPPORTED_GROUPS.clear()
             SUPPORTED_GROUPS.update(loaded)
+        loaded_dirs = load_directions()
+        if loaded_dirs:
+            DIRECTIONS.clear()
+            DIRECTIONS.update(loaded_dirs)
 
     if soup:
         pdf_map = get_pdf_urls_map(soup)

@@ -1,0 +1,230 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ОПа-2702 (1 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 315
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 315
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Общая педагогика\, история педагогики и образования (Практическое занятие)
+UID:4a950b47ceb6f4b64001b53580c002cc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Педагогика высшей школы (Практическое занятие)
+UID:e26eefed81e5ad7307cfb11abb99e0af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогика высшей школы (Лекция)
+UID:f8ae9e0210d25d21145157e7fee70796@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Общая педагогика\, история педагогики и образования (Практическое занятие)
+UID:464a713e9364209b51999a5d9dd6247f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Общая педагогика\, история педагогики и образования (Лекция)
+UID:bf3dedd8091baf2682665405e33bf5b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогика высшей школы (Лекция)
+UID:f737a3d80156047348671306184d9bbd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 315
+DTEND:20261110T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 315
+DTSTART:20261110T155500Z
+STATUS:CONFIRMED
+SUMMARY:Исследование педагогических систем в образовании (Практическое занятие)
+UID:2faf8b7aa5f388fc32def8997589d3b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогика высшей школы (Лекция)
+UID:9ae16891e75db29df62f42fc9f92d482@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Педагогика высшей школы (Практическое занятие)
+UID:ba3b1a41682afadf92b0068def324657@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 315
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 315
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Общая педагогика\, история педагогики и образования (Практическое занятие)
+UID:bc04c4656218b452eef402ab1afad6b9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 315
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 315
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Исследование педагогических систем в образовании (Практическое занятие)
+UID:803b8bf9e856664c708439a54b75dd46@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Общая педагогика\, история педагогики и образования (Практическое занятие)
+UID:e29056d38b6ee862d7eb4891546d04f8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261117T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261117T155500Z
+STATUS:CONFIRMED
+SUMMARY:Исследование педагогических систем в образовании (Практическое занятие)
+UID:2c913be16f4820f61960508cee16a41c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261117T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261117T142000Z
+STATUS:CONFIRMED
+SUMMARY:Исследование педагогических систем в образовании (Практическое занятие)
+UID:a4e375cd15d1593d8e2d18dca9878234@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Исследование педагогических систем в образовании (Практическое занятие)
+UID:90b1fd5be75be859401a1fd29c61273d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Педагогика высшей школы (Лекция)
+UID:1794c54a7cea61d6263fcdb794c1eaaf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Исследование педагогических систем в образовании (Практическое занятие)
+UID:5ea6423ab4a2c21eafda266b1930807a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Общая педагогика\, история педагогики и образования (Практическое занятие)
+UID:fc015c2e8fdb496699bf34e2dc614829@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261119T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261119T155500Z
+STATUS:CONFIRMED
+SUMMARY:Общая педагогика\, история педагогики и образования (Практическое занятие)
+UID:7fd9eaf9612ab7573f734b9c151373b3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Помелов В.Б.\nМесто: корп. 1\, ауд. 312
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 312
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Общая педагогика\, история педагогики и образования (Лекция)
+UID:0dfbb8e68f2c8f3d424baf76f82ba84b@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

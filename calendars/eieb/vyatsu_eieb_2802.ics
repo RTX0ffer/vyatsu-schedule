@@ -8,87 +8,32 @@ X-WR-TIMEZONE:Europe/Kirov
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Панкратова Л.В.\nМесто: корп. 8\, ауд. 603
-DTEND:20261030T083000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 8\, ауд. 603
-DTSTART:20261030T070000Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Татаринова Н.В.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 401
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 401
+DTSTART:20261119T110000Z
 STATUS:CONFIRMED
-SUMMARY:Математика (Лекция)
-UID:cb583ab78c040da69a571f97d3c8daf5@vyatsu.schedule
+SUMMARY:Общая энергетика (Лабораторная работа)
+UID:ec40c98aa25035e557ca02d2899e06ea@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Позолотин А.П.\nМесто: корп. 8\, ауд. 609
-DTEND:20261027T101500Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 8\, ауд. 609
-DTSTART:20261027T084500Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261110T070000Z
 STATUS:CONFIRMED
-SUMMARY:Физика (Практическое занятие)
-UID:8ac10d301e90999467910a60882bc223@vyatsu.schedule
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:de92bbd00e3ea2bb9ca331850ebc93ef@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кочкина И.Л.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 006
-DTEND:20261105T123000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 7\, ауд. 006
-DTSTART:20261105T110000Z
-STATUS:CONFIRMED
-SUMMARY:Компьютерная обработка данных и банки знаний (Лабораторная работа)
-UID:a917488e9f6293eb4e1605c67054ec55@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Деветьярова Э.Х.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 415
-DTEND:20261029T141500Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 1\, ауд. 415
-DTSTART:20261029T124500Z
-STATUS:CONFIRMED
-SUMMARY:Теоретические основы электротехники (Лабораторная работа)
-UID:3880021c0f7efcb377e1caf30f2898a7@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кочкина И.Л.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 006
-DTEND:20261105T141500Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 7\, ауд. 006
-DTSTART:20261105T124500Z
-STATUS:CONFIRMED
-SUMMARY:Компьютерная обработка данных и банки знаний (Лабораторная работа)
-UID:87f9a7e8c2848d5827b97dd46bc0dba1@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Половникова М.Ю.\nМесто: корп. 1\, ауд. 242
-DTEND:20261026T101500Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 1\, ауд. 242
-DTSTART:20261026T084500Z
-STATUS:CONFIRMED
-SUMMARY:История России (Лекция)
-UID:2e8d44520bd8b53d362ce85221fbf3eb@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Позолотин А.П.\nМесто: корп. 8\, ауд. 609
-DTEND:20261027T123000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 8\, ауд. 609
-DTSTART:20261027T110000Z
-STATUS:CONFIRMED
-SUMMARY:Физика (Лекция)
-UID:1e83d37cf7f4a3888b0f9e3c97eac3e0@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Куклин А.В.\nМесто: корп. 2\, ауд. 209
 DTEND:20261028T123000Z
-LAST-MODIFIED:20261105T195253Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 2\, ауд. 209
 DTSTART:20261028T110000Z
 STATUS:CONFIRMED
@@ -96,32 +41,21 @@ SUMMARY:Экономика (Лекция)
 UID:2f681bd89e7ad306f59df2bd9de64311@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Кривошеин И.Л.\nМесто: корп. 1\, ауд. 439
-DTEND:20261102T101500Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 1\, ауд. 439
-DTSTART:20261102T084500Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Фоминых А.А.\nМесто: корп. 8\, ауд. 604
+DTEND:20261118T065000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261118T052000Z
 STATUS:CONFIRMED
-SUMMARY:Теоретические основы электротехники (Лекция)
-UID:ed8c3768ca06616ef9167bd99023144b@vyatsu.schedule
+SUMMARY:Материаловедение (Лекция)
+UID:668338081490c13c1db742730d48e525@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Кушова И.А.\nМесто: корп. 1\, ауд. 242
-DTEND:20261103T123000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 1\, ауд. 242
-DTSTART:20261103T110000Z
-STATUS:CONFIRMED
-SUMMARY:Правовая грамотность (Лекция)
-UID:b5503c468a14b73c2f8bd0b823b89418@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кочкина И.Л.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 006
 DTEND:20261105T141500Z
-LAST-MODIFIED:20261105T195253Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 7\, ауд. 006
 DTSTART:20261105T124500Z
 STATUS:CONFIRMED
@@ -129,32 +63,21 @@ SUMMARY:Компьютерная обработка данных и банки �
 UID:6a5fb30b0e9cba1563c7dccd40f8cb1e@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Татаринова Н.В.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 412
-DTEND:20261105T123000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 8\, ауд. 412
-DTSTART:20261105T110000Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кушова И.А.\nМесто: корп. 1\, ауд. 242
+DTEND:20261117T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261117T110000Z
 STATUS:CONFIRMED
-SUMMARY:Общая энергетика (Лабораторная работа)
-UID:cefeea1572e3ad99b1f820ed9588a319@vyatsu.schedule
+SUMMARY:Правовая грамотность (Лекция)
+UID:a02b8c54005cc854c7e00069051545f4@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 115
-DTEND:20261027T083000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 9\, ауд. 115
-DTSTART:20261027T070000Z
-STATUS:CONFIRMED
-SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
-UID:8f423267d24a1983cf05faecd09ef42a@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фоминых А.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 605
 DTEND:20261106T123000Z
-LAST-MODIFIED:20261105T195253Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 605
 DTSTART:20261106T110000Z
 STATUS:CONFIRMED
@@ -162,32 +85,32 @@ SUMMARY:Материаловедение (Лабораторная работа)
 UID:d2370d9dcc97b23bf25ce7d712f383eb@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Татаринова Н.В.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 412
-DTEND:20261105T123000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 8\, ауд. 412
-DTSTART:20261105T110000Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кочкина И.Л.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 006
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261119T110000Z
 STATUS:CONFIRMED
-SUMMARY:Общая энергетика (Лабораторная работа)
-UID:927fcc21151d55c7d93e9cbbb4b86211@vyatsu.schedule
+SUMMARY:Компьютерная обработка данных и банки знаний (Лабораторная работа)
+UID:6a440723e1d10fa91c1484afe1c2ef92@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Кривошеин И.Л.\nМесто: корп. 1\, ауд. 439
-DTEND:20261029T083000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 1\, ауд. 439
-DTSTART:20261029T070000Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Деветьярова Э.Х.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 415
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 415
+DTSTART:20261116T124500Z
 STATUS:CONFIRMED
-SUMMARY:Теоретические основы электротехники (Лекция)
-UID:c6d7cba0a52b0e6bf1579b58e3dd68e7@vyatsu.schedule
+SUMMARY:Теоретические основы электротехники (Лабораторная работа)
+UID:55a48343afe939a47e38c34e236d9b1a@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Деветьярова Э.Х.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 415
 DTEND:20261029T141500Z
-LAST-MODIFIED:20261105T195253Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 1\, ауд. 415
 DTSTART:20261029T124500Z
 STATUS:CONFIRMED
@@ -195,10 +118,10 @@ SUMMARY:Теоретические основы электротехники (Л
 UID:dd3d102174427b46215a9d26a949cae9@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кочкина И.Л.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 006
 DTEND:20261105T123000Z
-LAST-MODIFIED:20261105T195253Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 7\, ауд. 006
 DTSTART:20261105T110000Z
 STATUS:CONFIRMED
@@ -206,87 +129,32 @@ SUMMARY:Компьютерная обработка данных и банки �
 UID:0733490cc10cf0ea7866cfcb9c9b8ea0@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Половникова М.Ю.\nМесто: корп. 1\, ауд. 242
-DTEND:20261102T083000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 1\, ауд. 242
-DTSTART:20261102T070000Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Половникова М.Ю.\nМесто: корп. 1\, ауд. 313
+DTEND:20261117T155000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 313
+DTSTART:20261117T142000Z
 STATUS:CONFIRMED
-SUMMARY:История России (Лекция)
-UID:f95e7cee4ded03851abfe0a33c2952fc@vyatsu.schedule
+SUMMARY:История России (Практическое занятие)
+UID:0c9f2576fcc3109a6e7f5242f46f7ab8@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 604
-DTEND:20261027T141500Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 8\, ауд. 604
-DTSTART:20261027T124500Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Позолотин А.П.\nМесто: корп. 8\, ауд. 609
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 609
+DTSTART:20261110T084500Z
 STATUS:CONFIRMED
-SUMMARY:Общая энергетика (Лекция)
-UID:9ad086fd981e1103ee16475550a37db9@vyatsu.schedule
+SUMMARY:Физика (Практическое занятие)
+UID:efdc1a1215a32cb5442af5b6147f1ca6@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Одегов В.А.\nМесто: корп. 1\, ауд. 334
-DTEND:20261029T123000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 1\, ауд. 334
-DTSTART:20261029T110000Z
-STATUS:CONFIRMED
-SUMMARY:Механика (Практическое занятие)
-UID:44f28166ce86de3ae6cefd9b869b0577@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 8\, ауд. 511
-DTEND:20261106T101500Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 8\, ауд. 511
-DTSTART:20261106T084500Z
-STATUS:CONFIRMED
-SUMMARY:Правовая грамотность (Практическое занятие)
-UID:d7686a66b7f685df800115ad31a09548@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Панкратова Л.В.\nМесто: корп. 8\, ауд. 603
-DTEND:20261106T083000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 8\, ауд. 603
-DTSTART:20261106T070000Z
-STATUS:CONFIRMED
-SUMMARY:Математика (Лекция)
-UID:c87f37f9b4940d29a3869a8396f9e7cf@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Татаринова Н.В.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 412
-DTEND:20261105T141500Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 8\, ауд. 412
-DTSTART:20261105T124500Z
-STATUS:CONFIRMED
-SUMMARY:Общая энергетика (Лабораторная работа)
-UID:5801f469ac33130d079d50ff4c0d133c@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кривошеин И.Л.\nМесто: корп. 1\, ауд. 435
-DTEND:20261026T083000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 1\, ауд. 435
-DTSTART:20261026T070000Z
-STATUS:CONFIRMED
-SUMMARY:Теоретические основы электротехники (Практическое занятие)
-UID:560042a2b3ce1cb31222d6ecdcdfff94@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 115
 DTEND:20261103T083000Z
-LAST-MODIFIED:20261105T195253Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 9\, ауд. 115
 DTSTART:20261103T070000Z
 STATUS:CONFIRMED
@@ -294,10 +162,10 @@ SUMMARY:Элективные дисциплины (модули) по физич
 UID:525876e0f16cc6118e7e7fc213dbdff5@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фоминых А.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 605
 DTEND:20261106T123000Z
-LAST-MODIFIED:20261105T195253Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 605
 DTSTART:20261106T110000Z
 STATUS:CONFIRMED
@@ -305,10 +173,21 @@ SUMMARY:Материаловедение (Лабораторная работа)
 UID:0804197ebf34ecf9bcb695cf352c875e@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:7f9a1586c968d6a92cb185cb800f6a9e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Куклин А.В.\nМесто: корп. 2\, ауд. 209
 DTEND:20261028T141500Z
-LAST-MODIFIED:20261105T195253Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 2\, ауд. 209
 DTSTART:20261028T124500Z
 STATUS:CONFIRMED
@@ -316,43 +195,10 @@ SUMMARY:Экономика (Лекция)
 UID:8435e087369612d412126726da95282a@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кривошеин И.Л.\nМесто: корп. 1\, ауд. 435
-DTEND:20261102T123000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 1\, ауд. 435
-DTSTART:20261102T110000Z
-STATUS:CONFIRMED
-SUMMARY:Теоретические основы электротехники (Практическое занятие)
-UID:ced0b4d75afcfdb2c99295cdf6006c35@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фоминых А.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 605
-DTEND:20261106T141500Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 8\, ауд. 605
-DTSTART:20261106T124500Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение (Лабораторная работа)
-UID:e64c1518c53551abd54e7c868f7ce7da@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Одегов В.А.\nМесто: корп. 1\, ауд. 534
-DTEND:20261029T101500Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 1\, ауд. 534
-DTSTART:20261029T084500Z
-STATUS:CONFIRMED
-SUMMARY:Механика (Лекция)
-UID:e335692cc345b8392e8a1a549b161113@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 310
 DTEND:20261105T155000Z
-LAST-MODIFIED:20261105T195253Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 310
 DTSTART:20261105T142000Z
 STATUS:CONFIRMED
@@ -360,76 +206,241 @@ SUMMARY:Общая энергетика (Практическое занятие
 UID:8a3a5ada0c0e7a5df1bf0d61307085fb@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фоминых А.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 605
-DTEND:20261106T141500Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 8\, ауд. 605
-DTSTART:20261106T124500Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение (Лабораторная работа)
-UID:ac97c60c78cfcbd08ae39ba819d496b8@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Куклин А.В.\nМесто: корп. 2\, ауд. 209
-DTEND:20261028T155000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 2\, ауд. 209
-DTSTART:20261028T142000Z
-STATUS:CONFIRMED
-SUMMARY:Экономика (Практическое занятие)
-UID:33f0cbeb97ad5b20d6c30fbcc9d06360@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Половникова М.Ю.\nМесто: корп. 1\, ауд. 128
-DTEND:20261103T141500Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 1\, ауд. 128
-DTSTART:20261103T124500Z
-STATUS:CONFIRMED
-SUMMARY:История России (Лекция)
-UID:4be0064d7eb06b489f252f0636c5d6a9@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Деветьярова Э.Х.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 415
-DTEND:20261102T141500Z
-LAST-MODIFIED:20261105T195253Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Деветьярова Э.Х.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 415
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 1\, ауд. 415
-DTSTART:20261102T124500Z
+DTSTART:20261112T124500Z
 STATUS:CONFIRMED
 SUMMARY:Теоретические основы электротехники (Лабораторная работа)
-UID:f65c5773fe1e3331e5370365dea8039f@vyatsu.schedule
+UID:6e7bdf0dc7f26cd167b879a740050ee9@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Половникова М.Ю.\nМесто: корп. 1\, ауд. 128
-DTEND:20261103T155000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 1\, ауд. 128
-DTSTART:20261103T142000Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Татаринова Н.В.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 412
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 412
+DTSTART:20261105T124500Z
 STATUS:CONFIRMED
-SUMMARY:История России (Практическое занятие)
-UID:4a27c74f033d401ee02cfb995442b732@vyatsu.schedule
+SUMMARY:Общая энергетика (Лабораторная работа)
+UID:5801f469ac33130d079d50ff4c0d133c@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
-DTEND:20261027T083000Z
-LAST-MODIFIED:20261105T195253Z
-LOCATION:корп. 9\, ауд. 116
-DTSTART:20261027T070000Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Панкратова Л.В.\nМесто: корп. 8\, ауд. 603
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:cb583ab78c040da69a571f97d3c8daf5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кочкина И.Л.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 006
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная обработка данных и банки знаний (Лабораторная работа)
+UID:a917488e9f6293eb4e1605c67054ec55@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кочкина И.Л.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 006
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная обработка данных и банки знаний (Лабораторная работа)
+UID:87f9a7e8c2848d5827b97dd46bc0dba1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Половникова М.Ю.\nМесто: корп. 1\, ауд. 242
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:2e8d44520bd8b53d362ce85221fbf3eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Позолотин А.П.\nМесто: корп. 8\, ауд. 609
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 609
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лекция)
+UID:1e83d37cf7f4a3888b0f9e3c97eac3e0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Половникова М.Ю.\nМесто: корп. 1\, ауд. 242
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:af6fe3303c766a9edb3d55e027d45706@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Одегов В.А.\nМесто: корп. 1\, ауд. 334
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Механика (Практическое занятие)
+UID:dd05131e221560bfe77edb04c1785164@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 115
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261117T070000Z
 STATUS:CONFIRMED
 SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
-UID:66e2b67de0c16957d6be7bb68f4c6338@vyatsu.schedule
+UID:80e00636a33cf57201759aa80c4ab8d4@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кривошеин И.Л.\nМесто: корп. 1\, ауд. 439
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы электротехники (Лекция)
+UID:c6d7cba0a52b0e6bf1579b58e3dd68e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Куклин А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261111T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261111T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Лекция)
+UID:64c556a52dd866290e26893447b9abef@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 8\, ауд. 511
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Правовая грамотность (Практическое занятие)
+UID:d7686a66b7f685df800115ad31a09548@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Позолотин А.П.\nМесто: корп. 8\, ауд. 609
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 609
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Лекция)
+UID:7f9d4de7fa4a762d41c6a6b35194e8e3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Половникова М.Ю.\nМесто: корп. 1\, ауд. 242
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:8e74b01cdd77757a819bb9188aa722bf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Панкратова Л.В.\nМесто: корп. 8\, ауд. 603
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:6914d6c557840f968c1436805ffc78e0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Татаринова Н.В.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 401
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 401
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Общая энергетика (Лабораторная работа)
+UID:95845a678df6de32b41d778e38bf5330@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кривошеин И.Л.\nМесто: корп. 1\, ауд. 439
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы электротехники (Лекция)
+UID:10ae099c77563b58ab417cd118914eaa@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Одегов В.А.\nМесто: корп. 1\, ауд. 534
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Механика (Лекция)
+UID:e335692cc345b8392e8a1a549b161113@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фоминых А.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 605
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 605
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение (Лабораторная работа)
+UID:cea4738881525fbf7a53972315f7892b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кочкина И.Л.\nПодгруппа: 2\nМесто: корп. 7\, ауд. 006
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная обработка данных и банки знаний (Лабораторная работа)
+UID:6c4ecc822a0005ed3a5e933ba53dbe27@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Панкратова Л.В.\nМесто: корп. 8\, ауд. 601
 DTEND:20261030T065000Z
-LAST-MODIFIED:20261105T195253Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 601
 DTSTART:20261030T052000Z
 STATUS:CONFIRMED
@@ -437,10 +448,263 @@ SUMMARY:Математика (Практическое занятие)
 UID:cfd2cf5c3a2a5199eb9c33bab401b893@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кривошеин И.Л.\nМесто: корп. 1\, ауд. 435
+DTEND:20261109T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261109T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы электротехники (Практическое занятие)
+UID:2c135c6234a43f8d071d84322e35418c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Позолотин А.П.\nМесто: корп. 8\, ауд. 609
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 609
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Физика (Практическое занятие)
+UID:8ac10d301e90999467910a60882bc223@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Куклин А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261111T155000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261111T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:2b5ae01cecc2a9961ed8d76138426667@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Деветьярова Э.Х.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 415
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 415
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы электротехники (Лабораторная работа)
+UID:0e97d518a6c1f97cf09e94058eb152ae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Половникова М.Ю.\nМесто: корп. 1\, ауд. 242
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:8c69a5f240a9dd5965b8db25f2f565ba@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 115
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:de5d036f1a92f751cef6272585456f45@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Татаринова Н.В.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 412
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 412
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Общая энергетика (Лабораторная работа)
+UID:cefeea1572e3ad99b1f820ed9588a319@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ромашов А.Ю.\nПодгруппа: 2\nМесто: корп. 9\, ауд. 115
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 9\, ауд. 115
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:8f423267d24a1983cf05faecd09ef42a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Деветьярова Э.Х.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 415
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 415
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы электротехники (Лабораторная работа)
+UID:0e8b0193e257b7eb31011eceb6a77431@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Половникова М.Ю.\nМесто: корп. 1\, ауд. 242
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:f95e7cee4ded03851abfe0a33c2952fc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кочкина И.Л.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 006
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная обработка данных и банки знаний (Лабораторная работа)
+UID:b8361a1edb20342dce2529a9b8cf6be0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 604
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Общая энергетика (Лекция)
+UID:9ad086fd981e1103ee16475550a37db9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Панкратова Л.В.\nМесто: корп. 1\, ауд. 315
+DTEND:20261109T065000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 315
+DTSTART:20261109T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:dc6b2b383eee17456ba448cef1b528c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кривошеин И.Л.\nМесто: корп. 1\, ауд. 439
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы электротехники (Лекция)
+UID:1249e0c6a04c51eec1d38003146bd317@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Одегов В.А.\nМесто: корп. 1\, ауд. 334
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Механика (Практическое занятие)
+UID:44f28166ce86de3ae6cefd9b869b0577@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кушова И.А.\nМесто: корп. 8\, ауд. 511
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 511
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Правовая грамотность (Практическое занятие)
+UID:c4ae55b7d7ebf29c359f51ec66f294e8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кривошеин И.Л.\nМесто: корп. 1\, ауд. 435
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы электротехники (Практическое занятие)
+UID:ced0b4d75afcfdb2c99295cdf6006c35@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фоминых А.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 605
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 605
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение (Лабораторная работа)
+UID:e64c1518c53551abd54e7c868f7ce7da@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Куклин А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:33f0cbeb97ad5b20d6c30fbcc9d06360@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Татаринова Н.В.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 401
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 401
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Общая энергетика (Лабораторная работа)
+UID:a08e17e8b241047b7834372307048e3c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Половникова М.Ю.\nМесто: корп. 1\, ауд. 128
+DTEND:20261103T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261103T124500Z
+STATUS:CONFIRMED
+SUMMARY:История России (Лекция)
+UID:4be0064d7eb06b489f252f0636c5d6a9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Панкратова Л.В.\nМесто: корп. 8\, ауд. 603
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:30591cf6c8bce378fa5de10bc794daf0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 9\, ауд. 116
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Элективные дисциплины (модули) по физической культуре и спорту (Практическое занятие)
+UID:66e2b67de0c16957d6be7bb68f4c6338@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Хлусьянов О.В.\nПодгруппа: 1\nМесто: корп. 9\, ауд. 116
 DTEND:20261103T083000Z
-LAST-MODIFIED:20261105T195253Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 9\, ауд. 116
 DTSTART:20261103T070000Z
 STATUS:CONFIRMED
@@ -448,10 +712,241 @@ SUMMARY:Элективные дисциплины (модули) по физич
 UID:f06c41dca5f3d6374378e03d28bdcb87@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Деветьярова Э.Х.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 415
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 415
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы электротехники (Лабораторная работа)
+UID:3880021c0f7efcb377e1caf30f2898a7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фоминых А.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 605
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 605
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение (Лабораторная работа)
+UID:eca76872a341db4f4fe1f074c9378e26@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кривошеин И.Л.\nМесто: корп. 1\, ауд. 435
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы электротехники (Практическое занятие)
+UID:ef697140cd845d83e657415436e7f5eb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кривошеин И.Л.\nМесто: корп. 1\, ауд. 439
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 439
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы электротехники (Лекция)
+UID:ed8c3768ca06616ef9167bd99023144b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Кушова И.А.\nМесто: корп. 1\, ауд. 242
+DTEND:20261103T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261103T110000Z
+STATUS:CONFIRMED
+SUMMARY:Правовая грамотность (Лекция)
+UID:b5503c468a14b73c2f8bd0b823b89418@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Панкратова Л.В.\nМесто: корп. 8\, ауд. 608
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 608
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:0a517a27af50aba7ad188a0e23d246df@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Татаринова Н.В.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 412
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 412
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Общая энергетика (Лабораторная работа)
+UID:927fcc21151d55c7d93e9cbbb4b86211@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Куклин А.В.\nМесто: корп. 2\, ауд. 209
+DTEND:20261111T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 2\, ауд. 209
+DTSTART:20261111T124500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Лекция)
+UID:82ef0a38e1089db5805f7458b7171019@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фоминых А.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 605
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 605
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение (Лабораторная работа)
+UID:bc965e18c88c3d9db48a72898d0550ca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 604
+DTEND:20261110T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 604
+DTSTART:20261110T124500Z
+STATUS:CONFIRMED
+SUMMARY:Общая энергетика (Лекция)
+UID:3d13e46ba9d877c4f4008fc46f3c28dc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Панкратова Л.В.\nМесто: корп. 8\, ауд. 603
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 603
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Лекция)
+UID:c87f37f9b4940d29a3869a8396f9e7cf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Панкратова Л.В.\nМесто: корп. 8\, ауд. 601
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 601
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математика (Практическое занятие)
+UID:22c4f60d6cd2394aeb8285f65fa01a92@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Кривошеин И.Л.\nМесто: корп. 1\, ауд. 435
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы электротехники (Практическое занятие)
+UID:560042a2b3ce1cb31222d6ecdcdfff94@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Татаринова Н.В.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 401
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 401
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Общая энергетика (Лабораторная работа)
+UID:e7c10b5729b96308d13b409ebf09ad46@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фоминых А.А.\nПодгруппа: 2\nМесто: корп. 8\, ауд. 605
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 605
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение (Лабораторная работа)
+UID:ac97c60c78cfcbd08ae39ba819d496b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Одегов В.А.\nМесто: корп. 1\, ауд. 534
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Механика (Лекция)
+UID:95bdf44aafc257b9d236e1d554cb96fc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Татаринова Н.В.\nМесто: корп. 8\, ауд. 506
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 506
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Общая энергетика (Практическое занятие)
+UID:86b00ae69cb7ead51558a9c129c07ec7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Фоминых А.А.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 605
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 8\, ауд. 605
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение (Лабораторная работа)
+UID:a8bf0b8d054e920699740a774d7a8f3d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Кочкина И.Л.\nПодгруппа: 1\nМесто: корп. 7\, ауд. 006
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 7\, ауд. 006
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Компьютерная обработка данных и банки знаний (Лабораторная работа)
+UID:5ea71430be1c6d57b1960e2d24699434@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Деветьярова Э.Х.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 415
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 415
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Теоретические основы электротехники (Лабораторная работа)
+UID:f65c5773fe1e3331e5370365dea8039f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Половникова М.Ю.\nМесто: корп. 1\, ауд. 128
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T215824Z
+LOCATION:корп. 1\, ауд. 128
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:История России (Практическое занятие)
+UID:4a27c74f033d401ee02cfb995442b732@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Татаринова Н.В.\nПодгруппа: 1\nМесто: корп. 8\, ауд. 412
 DTEND:20261105T141500Z
-LAST-MODIFIED:20261105T195253Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 8\, ауд. 412
 DTSTART:20261105T124500Z
 STATUS:CONFIRMED
@@ -459,10 +954,10 @@ SUMMARY:Общая энергетика (Лабораторная работа)
 UID:8bceb3a597a72d8dd5199ef8ec6a7465@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261105T195253Z
+DTSTAMP:20261105T215824Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Деветьярова Э.Х.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 415
 DTEND:20261102T141500Z
-LAST-MODIFIED:20261105T195253Z
+LAST-MODIFIED:20261105T215824Z
 LOCATION:корп. 1\, ауд. 415
 DTSTART:20261102T124500Z
 STATUS:CONFIRMED

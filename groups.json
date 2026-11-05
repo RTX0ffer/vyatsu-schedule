@@ -2678,5 +2678,1101 @@
     "faculty": "ui",
     "full_name": "ПДс-5901-02-00",
     "code": "pds_5901"
+  },
+  "27331": {
+    "name": "ПОм-1701",
+    "course": 1,
+    "direction": "pom",
+    "faculty": "ped",
+    "full_name": "ПОм-1701-01-40",
+    "code": "pom_1701"
+  },
+  "27119": {
+    "name": "ПОм-1702",
+    "course": 1,
+    "direction": "pom",
+    "faculty": "ped",
+    "full_name": "ПОм-1702-02-00",
+    "code": "pom_1702"
+  },
+  "27116": {
+    "name": "ПОм-1703",
+    "course": 1,
+    "direction": "pom",
+    "faculty": "ped",
+    "full_name": "ПОм-1703-08-00",
+    "code": "pom_1703"
+  },
+  "27117": {
+    "name": "ПОм-1704",
+    "course": 1,
+    "direction": "pom",
+    "faculty": "ped",
+    "full_name": "ПОм-1704-58-00",
+    "code": "pom_1704"
+  },
+  "27118": {
+    "name": "ПОм-1705",
+    "course": 1,
+    "direction": "pom",
+    "faculty": "ped",
+    "full_name": "ПОм-1705-65-00",
+    "code": "pom_1705"
+  },
+  "26688": {
+    "name": "ПОм-2701",
+    "course": 2,
+    "direction": "pom",
+    "faculty": "ped",
+    "full_name": "ПОм-2701-01-40",
+    "code": "pom_2701"
+  },
+  "26744": {
+    "name": "ПОм-2702",
+    "course": 2,
+    "direction": "pom",
+    "faculty": "ped",
+    "full_name": "ПОм-2702-02-00",
+    "code": "pom_2702"
+  },
+  "26822": {
+    "name": "ПОм-2703",
+    "course": 2,
+    "direction": "pom",
+    "faculty": "ped",
+    "full_name": "ПОм-2703-03-00",
+    "code": "pom_2703"
+  },
+  "26761": {
+    "name": "ПОм-2704",
+    "course": 2,
+    "direction": "pom",
+    "faculty": "ped",
+    "full_name": "ПОм-2704-05-40",
+    "code": "pom_2704"
+  },
+  "26632": {
+    "name": "ПОм-2705",
+    "course": 2,
+    "direction": "pom",
+    "faculty": "ped",
+    "full_name": "ПОм-2705-08-00",
+    "code": "pom_2705"
+  },
+  "26753": {
+    "name": "ПОм-2706",
+    "course": 2,
+    "direction": "pom",
+    "faculty": "ped",
+    "full_name": "ПОм-2706-58-00",
+    "code": "pom_2706"
+  },
+  "26685": {
+    "name": "ПОм-2707",
+    "course": 2,
+    "direction": "pom",
+    "faculty": "ped",
+    "full_name": "ПОм-2707-63-00",
+    "code": "pom_2707"
+  },
+  "26469": {
+    "name": "ПОм-2708",
+    "course": 2,
+    "direction": "pom",
+    "faculty": "ped",
+    "full_name": "ПОм-2708-65-00",
+    "code": "pom_2708"
+  },
+  "27088": {
+    "name": "Бм-1101",
+    "course": 1,
+    "direction": "bm",
+    "faculty": "inbio",
+    "full_name": "Бм-1101-02-00",
+    "code": "bm_1101"
+  },
+  "27089": {
+    "name": "Бм-1102",
+    "course": 1,
+    "direction": "bm",
+    "faculty": "inbio",
+    "full_name": "Бм-1102-03-00",
+    "code": "bm_1102"
+  },
+  "26300": {
+    "name": "Бм-2101",
+    "course": 2,
+    "direction": "bm",
+    "faculty": "inbio",
+    "full_name": "Бм-2101-02-00",
+    "code": "bm_2101"
+  },
+  "26664": {
+    "name": "Бм-2102",
+    "course": 2,
+    "direction": "bm",
+    "faculty": "inbio",
+    "full_name": "Бм-2102-03-00",
+    "code": "bm_2102"
+  },
+  "27105": {
+    "name": "БТм-1101",
+    "course": 1,
+    "direction": "btm",
+    "faculty": "inbio",
+    "full_name": "БТм-1101-02-00",
+    "code": "btm_1101"
+  },
+  "26780": {
+    "name": "БТм-2101",
+    "course": 2,
+    "direction": "btm",
+    "faculty": "inbio",
+    "full_name": "БТм-2101-02-00",
+    "code": "btm_2101"
+  },
+  "27104": {
+    "name": "РСПм-1501",
+    "course": 1,
+    "direction": "rspm",
+    "faculty": "inhe",
+    "full_name": "РСПм-1501-01-00",
+    "code": "rspm_1501"
+  },
+  "26741": {
+    "name": "РСПм-2501",
+    "course": 2,
+    "direction": "rspm",
+    "faculty": "inhe",
+    "full_name": "РСПм-2501-01-00",
+    "code": "rspm_2501"
+  },
+  "27084": {
+    "name": "ХМм-1501",
+    "course": 1,
+    "direction": "hmm",
+    "faculty": "inhe",
+    "full_name": "ХМм-1501-02-00",
+    "code": "hmm_1501"
+  },
+  "27085": {
+    "name": "ХМм-1502",
+    "course": 1,
+    "direction": "hmm",
+    "faculty": "inhe",
+    "full_name": "ХМм-1502-04-00",
+    "code": "hmm_1502"
+  },
+  "26785": {
+    "name": "ХМм-2501",
+    "course": 2,
+    "direction": "hmm",
+    "faculty": "inhe",
+    "full_name": "ХМм-2501-02-00",
+    "code": "hmm_2501"
+  },
+  "26604": {
+    "name": "ХМм-2502",
+    "course": 2,
+    "direction": "hmm",
+    "faculty": "inhe",
+    "full_name": "ХМм-2502-04-00",
+    "code": "hmm_2502"
+  },
+  "27101": {
+    "name": "ХТм-1501",
+    "course": 1,
+    "direction": "htm",
+    "faculty": "inhe",
+    "full_name": "ХТм-1501-01-00",
+    "code": "htm_1501"
+  },
+  "27102": {
+    "name": "ХТм-1502",
+    "course": 1,
+    "direction": "htm",
+    "faculty": "inhe",
+    "full_name": "ХТм-1502-02-00",
+    "code": "htm_1502"
+  },
+  "26257": {
+    "name": "ХТм-2501",
+    "course": 2,
+    "direction": "htm",
+    "faculty": "inhe",
+    "full_name": "ХТм-2501-01-00",
+    "code": "htm_2501"
+  },
+  "26615": {
+    "name": "ХТм-2502",
+    "course": 2,
+    "direction": "htm",
+    "faculty": "inhe",
+    "full_name": "ХТм-2502-02-00",
+    "code": "htm_2502"
+  },
+  "26887": {
+    "name": "ХТм-2503",
+    "course": 2,
+    "direction": "htm",
+    "faculty": "inhe",
+    "full_name": "ХТм-2503-04-00",
+    "code": "htm_2503"
+  },
+  "27087": {
+    "name": "ЭПм-1501",
+    "course": 1,
+    "direction": "epm",
+    "faculty": "inhe",
+    "full_name": "ЭПм-1501-01-00",
+    "code": "epm_1501"
+  },
+  "26525": {
+    "name": "ЭПм-2501",
+    "course": 2,
+    "direction": "epm",
+    "faculty": "inhe",
+    "full_name": "ЭПм-2501-01-00",
+    "code": "epm_2501"
+  },
+  "26837": {
+    "name": "ГГм-2501",
+    "course": 2,
+    "direction": "ggm",
+    "faculty": "inhe",
+    "full_name": "ГГм-2501-51-00",
+    "code": "ggm_2501"
+  },
+  "27095": {
+    "name": "ИВТм-1301",
+    "course": 1,
+    "direction": "ivtm",
+    "faculty": "favt",
+    "full_name": "ИВТм-1301-01-00",
+    "code": "ivtm_1301"
+  },
+  "26602": {
+    "name": "ИВТм-2301",
+    "course": 2,
+    "direction": "ivtm",
+    "faculty": "favt",
+    "full_name": "ИВТм-2301-01-00",
+    "code": "ivtm_2301"
+  },
+  "27114": {
+    "name": "СРм-1201",
+    "course": 1,
+    "direction": "srm",
+    "faculty": "fipnik",
+    "full_name": "СРм-1201-51-00",
+    "code": "srm_1201"
+  },
+  "26653": {
+    "name": "СРм-2201",
+    "course": 2,
+    "direction": "srm",
+    "faculty": "fipnik",
+    "full_name": "СРм-2201-51-00",
+    "code": "srm_2201"
+  },
+  "26950": {
+    "name": "ИСм-2201",
+    "course": 2,
+    "direction": "ism",
+    "faculty": "fipnik",
+    "full_name": "ИСм-2201-03-00",
+    "code": "ism_2201"
+  },
+  "26848": {
+    "name": "СЦм-2201",
+    "course": 2,
+    "direction": "stsm",
+    "faculty": "fipnik",
+    "full_name": "СЦм-2201-01-00",
+    "code": "stsm_2201"
+  },
+  "27082": {
+    "name": "МКм-1301",
+    "course": 1,
+    "direction": "mkm",
+    "faculty": "fkfmn",
+    "full_name": "МКм-1301-51-00",
+    "code": "mkm_1301"
+  },
+  "26918": {
+    "name": "МКм-2301",
+    "course": 2,
+    "direction": "mkm",
+    "faculty": "fkfmn",
+    "full_name": "МКм-2301-51-00",
+    "code": "mkm_2301"
+  },
+  "27096": {
+    "name": "ПИм-1301",
+    "course": 1,
+    "direction": "pim",
+    "faculty": "fkfmn",
+    "full_name": "ПИм-1301-03-00",
+    "code": "pim_1301"
+  },
+  "26287": {
+    "name": "ПИм-2301",
+    "course": 2,
+    "direction": "pim",
+    "faculty": "fkfmn",
+    "full_name": "ПИм-2301-03-00",
+    "code": "pim_2301"
+  },
+  "26858": {
+    "name": "ЛВм-2201",
+    "course": 2,
+    "direction": "lvm",
+    "faculty": "fl",
+    "full_name": "ЛВм-2201-01-00",
+    "code": "lvm_2201"
+  },
+  "27122": {
+    "name": "ФЛм-1201",
+    "course": 1,
+    "direction": "flm_mo",
+    "faculty": "fmo",
+    "full_name": "ФЛм-1201-01-00",
+    "code": "flm_mo_1201"
+  },
+  "26745": {
+    "name": "ФЛм-2201",
+    "course": 2,
+    "direction": "flm_mo",
+    "faculty": "fmo",
+    "full_name": "ФЛм-2201-01-00",
+    "code": "flm_mo_2201"
+  },
+  "27110": {
+    "name": "МНм-1601",
+    "course": 1,
+    "direction": "mnm",
+    "faculty": "fms",
+    "full_name": "МНм-1601-01-00",
+    "code": "mnm_1601"
+  },
+  "26678": {
+    "name": "МНм-2601",
+    "course": 2,
+    "direction": "mnm",
+    "faculty": "fms",
+    "full_name": "МНм-2601-01-00",
+    "code": "mnm_2601"
+  },
+  "27482": {
+    "name": "Тм-1624",
+    "course": 1,
+    "direction": "tm",
+    "faculty": "fms",
+    "full_name": "Тм-1624-01-00",
+    "code": "tm_1624"
+  },
+  "26862": {
+    "name": "Тм-2601",
+    "course": 2,
+    "direction": "tm",
+    "faculty": "fms",
+    "full_name": "Тм-2601-01-00",
+    "code": "tm_2601"
+  },
+  "26423": {
+    "name": "ГМм-2601",
+    "course": 2,
+    "direction": "gmm",
+    "faculty": "fms",
+    "full_name": "ГМм-2601-01-00",
+    "code": "gmm_2601"
+  },
+  "26868": {
+    "name": "НТИм-2601",
+    "course": 2,
+    "direction": "ntim",
+    "faculty": "fms",
+    "full_name": "НТИм-2601-01-00",
+    "code": "ntim_2601"
+  },
+  "27241": {
+    "name": "ПЛм-1701",
+    "course": 1,
+    "direction": "plm",
+    "faculty": "fpip",
+    "full_name": "ПЛм-1701-51-40",
+    "code": "plm_1701"
+  },
+  "27121": {
+    "name": "СДОм-1701",
+    "course": 1,
+    "direction": "sdom",
+    "faculty": "fpip",
+    "full_name": "СДОм-1701-53-00",
+    "code": "sdom_1701"
+  },
+  "26626": {
+    "name": "СДОм-2701",
+    "course": 2,
+    "direction": "sdom",
+    "faculty": "fpip",
+    "full_name": "СДОм-2701-53-00",
+    "code": "sdom_2701"
+  },
+  "27115": {
+    "name": "РСОм-1201",
+    "course": 1,
+    "direction": "rsom",
+    "faculty": "fryalim",
+    "full_name": "РСОм-1201-01-00",
+    "code": "rsom_1201"
+  },
+  "27399": {
+    "name": "РСОм-2201",
+    "course": 2,
+    "direction": "rsom",
+    "faculty": "fryalim",
+    "full_name": "РСОм-2201-01-00",
+    "code": "rsom_2201"
+  },
+  "27123": {
+    "name": "ФЛм-1202",
+    "course": 1,
+    "direction": "flm",
+    "faculty": "fryalim",
+    "full_name": "ФЛм-1202-03-00",
+    "code": "flm_1202"
+  },
+  "26328": {
+    "name": "ФЛм-2201",
+    "course": 2,
+    "direction": "flm",
+    "faculty": "fryalim",
+    "full_name": "ФЛм-2201-51-00",
+    "code": "flm_2201"
+  },
+  "27091": {
+    "name": "СТм-1801",
+    "course": 1,
+    "direction": "stm",
+    "faculty": "fsa",
+    "full_name": "СТм-1801-03-00",
+    "code": "stm_1801"
+  },
+  "27092": {
+    "name": "СТм-1802",
+    "course": 1,
+    "direction": "stm",
+    "faculty": "fsa",
+    "full_name": "СТм-1802-04-00",
+    "code": "stm_1802"
+  },
+  "27093": {
+    "name": "СТм-1803",
+    "course": 1,
+    "direction": "stm",
+    "faculty": "fsa",
+    "full_name": "СТм-1803-06-00",
+    "code": "stm_1803"
+  },
+  "26338": {
+    "name": "СТм-2801",
+    "course": 2,
+    "direction": "stm",
+    "faculty": "fsa",
+    "full_name": "СТм-2801-01-00",
+    "code": "stm_2801"
+  },
+  "26517": {
+    "name": "СТм-2802",
+    "course": 2,
+    "direction": "stm",
+    "faculty": "fsa",
+    "full_name": "СТм-2802-03-00",
+    "code": "stm_2802"
+  },
+  "26651": {
+    "name": "СТм-2803",
+    "course": 2,
+    "direction": "stm",
+    "faculty": "fsa",
+    "full_name": "СТм-2803-04-00",
+    "code": "stm_2803"
+  },
+  "26349": {
+    "name": "СТм-2804",
+    "course": 2,
+    "direction": "stm",
+    "faculty": "fsa",
+    "full_name": "СТм-2804-06-00",
+    "code": "stm_2804"
+  },
+  "27100": {
+    "name": "МСм-1801",
+    "course": 1,
+    "direction": "msm",
+    "faculty": "ftid",
+    "full_name": "МСм-1801-02-00",
+    "code": "msm_1801"
+  },
+  "26341": {
+    "name": "МСм-2801",
+    "course": 2,
+    "direction": "msm",
+    "faculty": "ftid",
+    "full_name": "МСм-2801-02-00",
+    "code": "msm_2801"
+  },
+  "27107": {
+    "name": "МТм-1801",
+    "course": 1,
+    "direction": "mtm",
+    "faculty": "ftid",
+    "full_name": "МТм-1801-01-00",
+    "code": "mtm_1801"
+  },
+  "27109": {
+    "name": "ТДм-1801",
+    "course": 1,
+    "direction": "tdm",
+    "faculty": "ftid",
+    "full_name": "ТДм-1801-01-00",
+    "code": "tdm_1801"
+  },
+  "26927": {
+    "name": "ТДм-2801",
+    "course": 2,
+    "direction": "tdm",
+    "faculty": "ftid",
+    "full_name": "ТДм-2801-01-00",
+    "code": "tdm_2801"
+  },
+  "27337": {
+    "name": "ЭКНм-1601",
+    "course": 1,
+    "direction": "eknm",
+    "faculty": "fef",
+    "full_name": "ЭКНм-1601-05-00",
+    "code": "eknm_1601"
+  },
+  "26813": {
+    "name": "ЭКНм-2601",
+    "course": 2,
+    "direction": "eknm",
+    "faculty": "fef",
+    "full_name": "ЭКНм-2601-05-00",
+    "code": "eknm_2601"
+  },
+  "27097": {
+    "name": "ТиТм-1801",
+    "course": 1,
+    "direction": "titm",
+    "faculty": "etf",
+    "full_name": "ТиТм-1801-01-00",
+    "code": "titm_1801"
+  },
+  "26766": {
+    "name": "ТиТм-2801",
+    "course": 2,
+    "direction": "titm",
+    "faculty": "etf",
+    "full_name": "ТиТм-2801-01-00",
+    "code": "titm_2801"
+  },
+  "27098": {
+    "name": "ЭиЭм-1801",
+    "course": 1,
+    "direction": "eiem",
+    "faculty": "etf",
+    "full_name": "ЭиЭм-1801-07-00",
+    "code": "eiem_1801"
+  },
+  "27099": {
+    "name": "ЭиЭм-1802",
+    "course": 1,
+    "direction": "eiem",
+    "faculty": "etf",
+    "full_name": "ЭиЭм-1802-08-00",
+    "code": "eiem_1802"
+  },
+  "26242": {
+    "name": "ЭиЭм-2801",
+    "course": 2,
+    "direction": "eiem",
+    "faculty": "etf",
+    "full_name": "ЭиЭм-2801-01-00",
+    "code": "eiem_2801"
+  },
+  "26724": {
+    "name": "ЭиЭм-2802",
+    "course": 2,
+    "direction": "eiem",
+    "faculty": "etf",
+    "full_name": "ЭиЭм-2802-02-00",
+    "code": "eiem_2802"
+  },
+  "26318": {
+    "name": "ЭиЭм-2803",
+    "course": 2,
+    "direction": "eiem",
+    "faculty": "etf",
+    "full_name": "ЭиЭм-2803-03-00",
+    "code": "eiem_2803"
+  },
+  "26881": {
+    "name": "ЭиЭм-2804",
+    "course": 2,
+    "direction": "eiem",
+    "faculty": "etf",
+    "full_name": "ЭиЭм-2804-04-00",
+    "code": "eiem_2804"
+  },
+  "26382": {
+    "name": "ЭиЭм-2805",
+    "course": 2,
+    "direction": "eiem",
+    "faculty": "etf",
+    "full_name": "ЭиЭм-2805-06-00",
+    "code": "eiem_2805"
+  },
+  "27358": {
+    "name": "ЮРм-1902",
+    "course": 1,
+    "direction": "yurm",
+    "faculty": "ui",
+    "full_name": "ЮРм-1902-10-00",
+    "code": "yurm_1902"
+  },
+  "27360": {
+    "name": "ЮРм-1904",
+    "course": 1,
+    "direction": "yurm",
+    "faculty": "ui",
+    "full_name": "ЮРм-1904-39-00",
+    "code": "yurm_1904"
+  },
+  "26541": {
+    "name": "ЮРм-2901",
+    "course": 2,
+    "direction": "yurm",
+    "faculty": "ui",
+    "full_name": "ЮРм-2901-01-00",
+    "code": "yurm_2901"
+  },
+  "26480": {
+    "name": "ЮРм-2902",
+    "course": 2,
+    "direction": "yurm",
+    "faculty": "ui",
+    "full_name": "ЮРм-2902-10-00",
+    "code": "yurm_2902"
+  },
+  "26896": {
+    "name": "ЮРм-2904",
+    "course": 2,
+    "direction": "yurm",
+    "faculty": "ui",
+    "full_name": "ЮРм-2904-39-00",
+    "code": "yurm_2904"
+  },
+  "26991": {
+    "name": "БТа-1101",
+    "course": 1,
+    "direction": "bta",
+    "faculty": "inbio",
+    "full_name": "БТа-1101-01-00",
+    "code": "bta_1101"
+  },
+  "26988": {
+    "name": "Ма-1101",
+    "course": 1,
+    "direction": "ma_inbio",
+    "faculty": "inbio",
+    "full_name": "Ма-1101-01-00",
+    "code": "ma_inbio_1101"
+  },
+  "27001": {
+    "name": "ТППа-1501",
+    "course": 1,
+    "direction": "tppa",
+    "faculty": "inhe",
+    "full_name": "ТППа-1501-01-00",
+    "code": "tppa_1501"
+  },
+  "26266": {
+    "name": "ТППа-2501",
+    "course": 2,
+    "direction": "tppa",
+    "faculty": "inhe",
+    "full_name": "ТППа-2501-01-00",
+    "code": "tppa_2501"
+  },
+  "26986": {
+    "name": "ФХа-1501",
+    "course": 1,
+    "direction": "fha",
+    "faculty": "inhe",
+    "full_name": "ФХа-1501-01-00",
+    "code": "fha_1501"
+  },
+  "26883": {
+    "name": "ФХа-2501",
+    "course": 2,
+    "direction": "fha",
+    "faculty": "inhe",
+    "full_name": "ФХа-2501-01-00",
+    "code": "fha_2501"
+  },
+  "26989": {
+    "name": "Эа-1501",
+    "course": 1,
+    "direction": "ea",
+    "faculty": "inhe",
+    "full_name": "Эа-1501-01-00",
+    "code": "ea_1501"
+  },
+  "26784": {
+    "name": "Эа-2501",
+    "course": 2,
+    "direction": "ea",
+    "faculty": "inhe",
+    "full_name": "Эа-2501-01-00",
+    "code": "ea_2501"
+  },
+  "26996": {
+    "name": "ВСа-1301",
+    "course": 1,
+    "direction": "vsa",
+    "faculty": "favt",
+    "full_name": "ВСа-1301-01-00",
+    "code": "vsa_1301"
+  },
+  "26995": {
+    "name": "РТа-1301",
+    "course": 1,
+    "direction": "rta",
+    "faculty": "favt",
+    "full_name": "РТа-1301-01-00",
+    "code": "rta_1301"
+  },
+  "26743": {
+    "name": "РТа-2302",
+    "course": 2,
+    "direction": "rta",
+    "faculty": "favt",
+    "full_name": "РТа-2302-01-00",
+    "code": "rta_2302"
+  },
+  "27010": {
+    "name": "ВИа-1201",
+    "course": 1,
+    "direction": "via",
+    "faculty": "fipnik",
+    "full_name": "ВИа-1201-01-00",
+    "code": "via_1201"
+  },
+  "26884": {
+    "name": "ВИа-2201",
+    "course": 2,
+    "direction": "via",
+    "faculty": "fipnik",
+    "full_name": "ВИа-2201-01-00",
+    "code": "via_2201"
+  },
+  "27009": {
+    "name": "ОИа-1201",
+    "course": 1,
+    "direction": "oia",
+    "faculty": "fipnik",
+    "full_name": "ОИа-1201-01-00",
+    "code": "oia_1201"
+  },
+  "26932": {
+    "name": "ОТПа-2201",
+    "course": 2,
+    "direction": "otpa",
+    "faculty": "fipnik",
+    "full_name": "ОТПа-2201-01-00",
+    "code": "otpa_2201"
+  },
+  "26997": {
+    "name": "ИПа-1301",
+    "course": 1,
+    "direction": "ipa",
+    "faculty": "fkfmn",
+    "full_name": "ИПа-1301-01-00",
+    "code": "ipa_1301"
+  },
+  "27008": {
+    "name": "Ма-1601",
+    "course": 1,
+    "direction": "ma_fms",
+    "faculty": "fms",
+    "full_name": "Ма-1601-01-00",
+    "code": "ma_fms_1601"
+  },
+  "27006": {
+    "name": "РОЭа-1601",
+    "course": 1,
+    "direction": "roea",
+    "faculty": "fms",
+    "full_name": "РОЭа-1601-01-00",
+    "code": "roea_1601"
+  },
+  "26882": {
+    "name": "РОЭа-2601",
+    "course": 2,
+    "direction": "roea",
+    "faculty": "fms",
+    "full_name": "РОЭа-2601-01-00",
+    "code": "roea_2601"
+  },
+  "27016": {
+    "name": "МТПОа-1701",
+    "course": 1,
+    "direction": "mtpoa",
+    "faculty": "fpip",
+    "full_name": "МТПОа-1701-01-00",
+    "code": "mtpoa_1701"
+  },
+  "27012": {
+    "name": "ОПа-1701",
+    "course": 1,
+    "direction": "opa",
+    "faculty": "fpip",
+    "full_name": "ОПа-1701-01-00",
+    "code": "opa_1701"
+  },
+  "26748": {
+    "name": "ОПа-2701",
+    "course": 2,
+    "direction": "opa",
+    "faculty": "fpip",
+    "full_name": "ОПа-2701-01-00",
+    "code": "opa_2701"
+  },
+  "26363": {
+    "name": "ОПа-2702",
+    "course": 2,
+    "direction": "opa",
+    "faculty": "fpip",
+    "full_name": "ОПа-2702-01-00",
+    "code": "opa_2702"
+  },
+  "27005": {
+    "name": "ББКа-1201",
+    "course": 1,
+    "direction": "bbka",
+    "faculty": "fryalim",
+    "full_name": "ББКа-1201-01-00",
+    "code": "bbka_1201"
+  },
+  "27018": {
+    "name": "ЛНМа-1201",
+    "course": 1,
+    "direction": "lnma",
+    "faculty": "fryalim",
+    "full_name": "ЛНМа-1201-01-00",
+    "code": "lnma_1201"
+  },
+  "26705": {
+    "name": "ЛНМа-2201",
+    "course": 2,
+    "direction": "lnma",
+    "faculty": "fryalim",
+    "full_name": "ЛНМа-2201-01-00",
+    "code": "lnma_2201"
+  },
+  "27017": {
+    "name": "РЛа-1201",
+    "course": 1,
+    "direction": "rla",
+    "faculty": "fryalim",
+    "full_name": "РЛа-1201-01-00",
+    "code": "rla_1201"
+  },
+  "27019": {
+    "name": "РЯа-1201",
+    "course": 1,
+    "direction": "ryaa",
+    "faculty": "fryalim",
+    "full_name": "РЯа-1201-01-00",
+    "code": "ryaa_1201"
+  },
+  "26735": {
+    "name": "РЯа-2201",
+    "course": 2,
+    "direction": "ryaa",
+    "faculty": "fryalim",
+    "full_name": "РЯа-2201-01-00",
+    "code": "ryaa_2201"
+  },
+  "26428": {
+    "name": "МЖа-2201",
+    "course": 2,
+    "direction": "mzha",
+    "faculty": "fryalim",
+    "full_name": "МЖа-2201-01-00",
+    "code": "mzha_2201"
+  },
+  "26992": {
+    "name": "СКЗа-1801",
+    "course": 1,
+    "direction": "skza",
+    "faculty": "fsa",
+    "full_name": "СКЗа-1801-01-00",
+    "code": "skza_1801"
+  },
+  "26530": {
+    "name": "СКЗа-2801",
+    "course": 2,
+    "direction": "skza",
+    "faculty": "fsa",
+    "full_name": "СКЗа-2801-01-00",
+    "code": "skza_2801"
+  },
+  "26993": {
+    "name": "СМИа-1801",
+    "course": 1,
+    "direction": "smia",
+    "faculty": "fsa",
+    "full_name": "СМИа-1801-01-00",
+    "code": "smia_1801"
+  },
+  "26509": {
+    "name": "СМИа-2801",
+    "course": 2,
+    "direction": "smia",
+    "faculty": "fsa",
+    "full_name": "СМИа-2801-01-00",
+    "code": "smia_2801"
+  },
+  "27002": {
+    "name": "ТМОа-1801",
+    "course": 1,
+    "direction": "tmoa",
+    "faculty": "ftid",
+    "full_name": "ТМОа-1801-01-00",
+    "code": "tmoa_1801"
+  },
+  "27013": {
+    "name": "ТМОВа-1801",
+    "course": 1,
+    "direction": "tmova",
+    "faculty": "ftid",
+    "full_name": "ТМОВа-1801-01-00",
+    "code": "tmova_1801"
+  },
+  "26427": {
+    "name": "ТМОВа-2801",
+    "course": 2,
+    "direction": "tmova",
+    "faculty": "ftid",
+    "full_name": "ТМОВа-2801-01-00",
+    "code": "tmova_2801"
+  },
+  "27000": {
+    "name": "ТОМа-1801",
+    "course": 1,
+    "direction": "toma",
+    "faculty": "ftid",
+    "full_name": "ТОМа-1801-01-00",
+    "code": "toma_1801"
+  },
+  "26534": {
+    "name": "ТОМа-2801",
+    "course": 2,
+    "direction": "toma",
+    "faculty": "ftid",
+    "full_name": "ТОМа-2801-01-00",
+    "code": "toma_2801"
+  },
+  "26999": {
+    "name": "ТПДа-1801",
+    "course": 1,
+    "direction": "tpda",
+    "faculty": "ftid",
+    "full_name": "ТПДа-1801-01-00",
+    "code": "tpda_1801"
+  },
+  "26419": {
+    "name": "ТПДа-2801",
+    "course": 2,
+    "direction": "tpda",
+    "faculty": "ftid",
+    "full_name": "ТПДа-2801-01-00",
+    "code": "tpda_2801"
+  },
+  "26990": {
+    "name": "ФЧЖа-1701",
+    "course": 1,
+    "direction": "fchzha",
+    "faculty": "ffkis",
+    "full_name": "ФЧЖа-1701-01-00",
+    "code": "fchzha_1701"
+  },
+  "26488": {
+    "name": "ФЧЖа-2701",
+    "course": 2,
+    "direction": "fchzha",
+    "faculty": "ffkis",
+    "full_name": "ФЧЖа-2701-01-00",
+    "code": "fchzha_2701"
+  },
+  "26908": {
+    "name": "ФКа-2701",
+    "course": 2,
+    "direction": "fka",
+    "faculty": "ffkis",
+    "full_name": "ФКа-2701-01-00",
+    "code": "fka_2701"
+  },
+  "27007": {
+    "name": "Фа-1601",
+    "course": 1,
+    "direction": "fa",
+    "faculty": "fef",
+    "full_name": "Фа-1601-01-00",
+    "code": "fa_1601"
+  },
+  "26389": {
+    "name": "Фа-2601",
+    "course": 2,
+    "direction": "fa",
+    "faculty": "fef",
+    "full_name": "Фа-2601-01-00",
+    "code": "fa_2601"
+  },
+  "26998": {
+    "name": "ЭКа-1801",
+    "course": 1,
+    "direction": "eka",
+    "faculty": "etf",
+    "full_name": "ЭКа-1801-01-00",
+    "code": "eka_1801"
+  },
+  "26364": {
+    "name": "ЭКа-2801",
+    "course": 2,
+    "direction": "eka",
+    "faculty": "etf",
+    "full_name": "ЭКа-2801-01-00",
+    "code": "eka_2801"
+  },
+  "27003": {
+    "name": "ППНа-1901",
+    "course": 1,
+    "direction": "ppna",
+    "faculty": "ui",
+    "full_name": "ППНа-1901-01-00",
+    "code": "ppna_1901"
+  },
+  "26227": {
+    "name": "ППНа-2901",
+    "course": 2,
+    "direction": "ppna",
+    "faculty": "ui",
+    "full_name": "ППНа-2901-01-00",
+    "code": "ppna_2901"
   }
 }

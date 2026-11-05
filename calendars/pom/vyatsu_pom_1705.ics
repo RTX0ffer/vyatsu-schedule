@@ -1,0 +1,208 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ ПОм-1705
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Инновационное содержание\, средства и методы технологического образования (Лекция)
+UID:53fd15aec4c300bde1fb7506c390417e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261030T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261030T155500Z
+STATUS:CONFIRMED
+SUMMARY:Инновационное содержание\, средства и методы технологического образования (Практическое занятие)
+UID:c37e2143b3d1b6c1f40f22370a1d927f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Инновационное содержание\, средства и методы технологического образования (Практическое занятие)
+UID:75030d61b1638fa3a1bba76925f71051@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Набоких А.А.\nМесто: корп. 2\, ауд. 407
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 407
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление педагогическим проектом (Лекция)
+UID:2423692392b27bd36ca71f68a11a6314@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симонова Г.И.\nМесто: корп. 15\, ауд. 430
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методология педагогических исследований (Практическое занятие)
+UID:6bd2676007e99c0937a5dc2e7b0e8d2c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тютюнник С.И.\nМесто: корп. 1\, ауд. 236
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:71108feb9a6ec3d2f44ae2e83c037df2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261106T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261106T155500Z
+STATUS:CONFIRMED
+SUMMARY:Инновационное содержание\, средства и методы технологического образования (Практическое занятие)
+UID:862c013c379bdaee8e29df287b44686b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 14\, ауд. 219
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление педагогическим проектом (Практическое занятие)
+UID:789c8bf16d337dcc3d7b779523763e55@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 2\, ауд. 407
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 407
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Управление педагогическим проектом (Практическое занятие)
+UID:14650ab6a434b13a616f5c3beb10d36d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Морилова Л.В.\nМесто: корп. 17\, ауд. 268
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 268
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Современные материалы технологической сферы (Практическое занятие)
+UID:515f1ed7207b3c54c69e73f4c07f487f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Некрасова Г.Н.\nМесто: корп. 17\, ауд. 351
+DTEND:20261106T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 351
+DTSTART:20261106T142000Z
+STATUS:CONFIRMED
+SUMMARY:Инновационное содержание\, средства и методы технологического образования (Практическое занятие)
+UID:aef23ecf85cd6a1b2b355df30af4fff2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Набоких А.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент в образовании (Лекция)
+UID:21e2b4eff3ff612edf8f14e1fc51ca4d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Морилова Л.В.\nМесто: корп. 17\, ауд. 268
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 17\, ауд. 268
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Современные материалы технологической сферы (Практическое занятие)
+UID:68df92a9e1b03a961aa9ad9854c7ba4d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 14\, ауд. 211
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 211
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент в образовании (Практическое занятие)
+UID:47246b8272ba7848651a61699a684cbc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Симонова Г.И.\nМесто: корп. 15\, ауд. 430
+DTEND:20261028T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261028T124500Z
+STATUS:CONFIRMED
+SUMMARY:Методология педагогических исследований (Лекция)
+UID:ebcce615292e79e6d416a7d343e1066f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 14\, ауд. 219
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 14\, ауд. 219
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент в образовании (Практическое занятие)
+UID:5e2afbcb5b8d6add8ad9b5da2da9c7b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тютюнник С.И.\nМесто: корп. 1\, ауд. 236
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:ea68ea4881ea08a9a738c8246e2be986@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Симонова Г.И.\nМесто: корп. 15\, ауд. 430
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 15\, ауд. 430
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методология педагогических исследований (Практическое занятие)
+UID:80be07e8846d92e7fb0d4a1b23c7f4ca@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

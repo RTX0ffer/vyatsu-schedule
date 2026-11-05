@@ -1,0 +1,646 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ БТм-1101
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 328
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 328
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Биоорганическая химия (Лабораторная работа)
+UID:1433f84e618fc3e3416be5735f44d58a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:d8270fc60f95f462dc5b016d4cadb09e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Тупицына Е.Г.\nМесто: корп. 1\, ауд. 242
+DTEND:20261103T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261103T142000Z
+STATUS:CONFIRMED
+SUMMARY:Защита интеллектуальной собственности (Лекция)
+UID:a0745a850551e0bf44783df202c86404@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261120T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261120T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:cf851c41eef51db972d4ee66d48a46c4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Грабар А.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент производства (Лекция)
+UID:6b775e05b543601828b3012450a99ef8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261107T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261107T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:0220804f5d12286621e09207ce0852f1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261112T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261112T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:fa8c345864b05d61415d876518257a62@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261112T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261112T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:14384a3713a5bd28c764f80cb52fb934@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пономаренко Л.Н.\nМесто: корп. 1\, ауд. 236
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:456c88dd90e8d6ac01eca7ed12d91f4c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 334
+DTEND:20261113T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261113T142000Z
+STATUS:CONFIRMED
+SUMMARY:Биоорганическая химия (Лекция)
+UID:0bd454f9c88555c989959c3db033f008@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 334
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Биоорганическая химия (Лекция)
+UID:006e19d98b8d0544f11f003f71681bda@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 328
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 328
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биоорганическая химия (Лабораторная работа)
+UID:eaef9b28982cdf728b1a2a63ebbb292f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пономаренко Л.Н.\nМесто: корп. 1\, ауд. 236
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:aef54a56af978bf5a1d3bd7bb0afd27e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 1\, ауд. 521
+DTEND:20261110T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261110T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методология научных исследований (Лекция)
+UID:87bcd99d66f9fe0cbbd00fa47e12a2a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:f41b8cfa784b59b239b660655b74b92f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261120T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261120T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:7b2fdd47861e98bdf378366d2570c091@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261121T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261121T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:4e9322e277fb019f701d1662d3458ad6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261107T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261107T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:4a150748c01d1c341ad0995cb5094386@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:0d12dd9ab5d597d0bb2ba013c9f78b3e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 334
+DTEND:20261113T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261113T155500Z
+STATUS:CONFIRMED
+SUMMARY:Биоорганическая химия (Практическое занятие)
+UID:bfe601a0103eda4c97adf23a0d1df1b0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261106T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261106T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:be3fde8108597aaf3d403fdf3d04d64a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тупицына Е.Г.
+DTEND:20261117T172500Z
+LAST-MODIFIED:20261105T215825Z
+DTSTART:20261117T155500Z
+STATUS:CONFIRMED
+SUMMARY:Защита интеллектуальной собственности (Практическое занятие)
+UID:6827f15772f2ff985821a06153b47d69@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261121T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261121T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:5387205638ef23d67b7bb46ec20c0f59@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:5cbb0bf4743c04a855608661dfbbeb23@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:39bb49b7fde1ff4fd5568e7c8b5a0549@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пономаренко Л.Н.\nМесто: корп. 1\, ауд. 236
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:706eb2ee4401cbc5711815202e34c748@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пономаренко Л.Н.\nМесто: корп. 1\, ауд. 236
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:a151440c634c1332fd031c8e5f9a19db@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 1\, ауд. 521
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методология научных исследований (Практическое занятие)
+UID:f6bdd1a1e1014fec36288b003d9b9c30@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261120T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261120T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:74ac57c981c90b3b1918c1648d7f5127@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 1\, ауд. 521
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методология научных исследований (Лекция)
+UID:b8d3f29ddf2e19936e9e03fadd17bcde@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261107T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261107T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:82a18531ff0fb07d7c22e69d1bd3cf5e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:027b5a8ebc407a68d56e220f35f70cdd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261029T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261029T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:0f175bebe3cfb13ed15d24b7e8066cac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:7be17814a7f084722294d059a1882720@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:c8a409f0c3bd6227e1f375d47a0f971f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 534
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Язык и стиль научного текста (Лекция)
+UID:0d62c2060098dbac5c145fc931d5b730@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261121T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261121T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:4cb0c933e6c427815cdded4a3bad791e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261112T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261112T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:7bccd133f45ed43dc1daad75fbef6f6b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Тупицына Е.Г.\nМесто: корп. 1\, ауд. 242
+DTEND:20261117T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 242
+DTSTART:20261117T142000Z
+STATUS:CONFIRMED
+SUMMARY:Защита интеллектуальной собственности (Лекция)
+UID:a2c1e7b95cb742d580bd55f548c78e97@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 534
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Язык и стиль научного текста (Практическое занятие)
+UID:8e8a7c6cd264ccba9aa83f02cb9a24ce@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Грабар А.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261105T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261105T155500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент производства (Практическое занятие)
+UID:a4bb9116c10f5f4fb2ab287361af45e1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тупицына Е.Г.
+DTEND:20261103T172500Z
+LAST-MODIFIED:20261105T215825Z
+DTSTART:20261103T155500Z
+STATUS:CONFIRMED
+SUMMARY:Защита интеллектуальной собственности (Практическое занятие)
+UID:2416b488cce76771c98a6479398d6d4f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261107T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261107T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:6bccd0105ddda7847a28d4da22518f90@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Грабар А.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261105T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261105T142000Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент производства (Лекция)
+UID:f5d3cd006eeba1e3da5b1a574f98cce2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261121T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261121T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:66bb3538b918f22cc632c6a57e4197f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261121T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261121T070000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:3452f9053386418ed3541cedc0e51ba8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Коротышева Н.Н.\nМесто: корп. 1\, ауд. 521
+DTEND:20261110T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261110T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методология научных исследований (Практическое занятие)
+UID:dfb84383ebbf5f648bd3476fa32ac9fc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пономаренко Л.Н.\nМесто: корп. 1\, ауд. 236
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:3e2a5a9860dd547b6d9451d959e44202@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Пономаренко Л.Н.\nМесто: корп. 1\, ауд. 236
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык в профессиональной деятельности (Практическое занятие)
+UID:1a30a26eafb620892c8f7343c3712374@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:5471554c2a575dcaf6c0c7595491b7b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261029T065000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261029T052000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:fb5d0923cc8a32113b65b769523f2f28@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 328
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 328
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Биоорганическая химия (Лабораторная работа)
+UID:422bd24bc713587b37edab6fcaaf7789@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:a97145af4c091798b2e3d19cc9dbce34@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Грабар А.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261119T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261119T155500Z
+STATUS:CONFIRMED
+SUMMARY:Менеджмент производства (Практическое занятие)
+UID:823634bc41d8d44dbc800478f6fed9dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 334
+DTEND:20261030T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 334
+DTSTART:20261030T155500Z
+STATUS:CONFIRMED
+SUMMARY:Биоорганическая химия (Практическое занятие)
+UID:4a443345949360316a21212e2e920abc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Злобин А.А.\nМесто: корп. 1\, ауд. 328
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 328
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Биоорганическая химия (Лабораторная работа)
+UID:dad24253254ed677b4a96eff234ac354@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261107T141500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261107T124500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:3b82a09f30c626cb90a4e642a9c09487@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Практика\nМесто: корп. 1\, ауд. 120а
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 120а
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Производственная практика № 1\, научно-исследовательская работа (Практика)
+UID:616d3f8c1f1a6b231506a269b7afd4f6@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,296 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ТДм-2801 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарбеева Н.А.\nМесто: корп. 10\, ауд. 214
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Специальные технологии обработки древесины (Практическое занятие)
+UID:f98ac612a53c3ebdf86558848b23ede8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рублева О.А.\nМесто: корп. 10\, ауд. 218
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 218
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление качеством продукции деревоперерабатывающих производств (Лекция)
+UID:621420c8b249e2878127a5cdf11fa8ac@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рублева О.А.\nМесто: корп. 10\, ауд. 218
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 218
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление качеством продукции деревоперерабатывающих производств (Лекция)
+UID:dd47e526da3ce3395b7a9fcd5694f66b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Онучина К.В.\nМесто: корп. 10\, ауд. 206
+DTEND:20261117T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261117T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методология проектирования технологических процессов в деревообработке (Практическое занятие)
+UID:0585b8b790603f570591d25c8b1d882c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рублева О.А.\nМесто: корп. 10\, ауд. 214
+DTEND:20261111T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261111T155500Z
+STATUS:CONFIRMED
+SUMMARY:Управление качеством продукции деревоперерабатывающих производств (Практическое занятие)
+UID:9bf30ba93fc36cd41654ab7959d9d3a3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Онучина К.В.\nМесто: корп. 10\, ауд. 207
+DTEND:20261121T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 207
+DTSTART:20261121T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методология проектирования технологических процессов в деревообработке (Лабораторная работа)
+UID:0013f111ec461495fdd0cfa4955b5e25@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Тарбеева Н.А.\nМесто: корп. 10\, ауд. 214
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Специальные технологии обработки древесины (Практическое занятие)
+UID:d54f46755a99cf625e7d2797909c17a9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Онучина К.В.\nМесто: корп. 10\, ауд. 206
+DTEND:20261117T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 206
+DTSTART:20261117T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методология проектирования технологических процессов в деревообработке (Лекция)
+UID:b1e09e01203b9bd3976b441caa6959e5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ведерников Я.Д.\nМесто: корп. 1\, ауд. 534
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Инновационное деревообрабатывающее оборудование и инструмент (Лекция)
+UID:a271cf2807d4b5747679471a530fec4d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рублева О.А.\nМесто: корп. 10\, ауд. 218
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 218
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Управление качеством продукции деревоперерабатывающих производств (Практическое занятие)
+UID:cb71e3a8f2a7045b52131e07327e360b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рублева О.А.\nМесто: корп. 10\, ауд. 214
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление качеством продукции деревоперерабатывающих производств (Лекция)
+UID:04db1e39733bd02cd611642d8c3c1e1b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Тарбеева Н.А.\nМесто: корп. 10\, ауд. 203
+DTEND:20261030T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261030T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии комплексной переработки древесины (Лекция)
+UID:a0577298aae3a0fd667868a23544ff02@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рублева О.А.\nМесто: корп. 10\, ауд. 218
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 218
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Управление качеством продукции деревоперерабатывающих производств (Практическое занятие)
+UID:7353d89d2988c4e4c0f96b25f44720a4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Тарбеева Н.А.\nМесто: корп. 9\, ауд. 001
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 9\, ауд. 001
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии комплексной переработки древесины (Лабораторная работа)
+UID:646e7ad38fb14b8b9c4cac1434a18edd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Тарбеева Н.А.\nМесто: корп. 10\, ауд. 203
+DTEND:20261030T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 203
+DTSTART:20261030T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии комплексной переработки древесины (Лекция)
+UID:107c23d013f0450b08e1b46f42ada0c7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Тарбеева Н.А.\nМесто: корп. 9\, ауд. 001
+DTEND:20261102T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 9\, ауд. 001
+DTSTART:20261102T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии комплексной переработки древесины (Лабораторная работа)
+UID:5b02aaa32bbc94f1ffab5d83fccf657d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ведерников Я.Д.\nМесто: корп. 1\, ауд. 531
+DTEND:20261029T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261029T155500Z
+STATUS:CONFIRMED
+SUMMARY:Инновационное деревообрабатывающее оборудование и инструмент (Практическое занятие)
+UID:f2098c48811409d47b7817bd310fa11b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Онучина К.В.\nМесто: корп. 10\, ауд. 207
+DTEND:20261114T101500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 207
+DTSTART:20261114T084500Z
+STATUS:CONFIRMED
+SUMMARY:Методология проектирования технологических процессов в деревообработке (Практическое занятие)
+UID:6698c4941367413668d96d98f89a88b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ведерников Я.Д.\nМесто: корп. 1\, ауд. 531
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 531
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Инновационное деревообрабатывающее оборудование и инструмент (Практическое занятие)
+UID:8ba90845302b63004017345c35fbf351@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Онучина К.В.\nМесто: корп. 10\, ауд. 207
+DTEND:20261121T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 207
+DTSTART:20261121T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методология проектирования технологических процессов в деревообработке (Лабораторная работа)
+UID:5cd92b1ed75e0205616659d3b813a782@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Онучина К.В.\nМесто: корп. 10\, ауд. 207
+DTEND:20261113T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 207
+DTSTART:20261113T155500Z
+STATUS:CONFIRMED
+SUMMARY:Методология проектирования технологических процессов в деревообработке (Практическое занятие)
+UID:c69bf47d363f3f8ac54276f37e58f300@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Онучина К.В.\nМесто: корп. 10\, ауд. 207
+DTEND:20261113T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 207
+DTSTART:20261113T142000Z
+STATUS:CONFIRMED
+SUMMARY:Методология проектирования технологических процессов в деревообработке (Лекция)
+UID:e0a05c11e17132937c247d94d91dab02@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Онучина К.В.\nМесто: корп. 10\, ауд. 207
+DTEND:20261114T083000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 207
+DTSTART:20261114T070000Z
+STATUS:CONFIRMED
+SUMMARY:Методология проектирования технологических процессов в деревообработке (Практическое занятие)
+UID:e7a2f7b05f4d4a690c5fbac8d91f4d2a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ведерников Я.Д.\nМесто: корп. 1\, ауд. 534
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 1\, ауд. 534
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Инновационное деревообрабатывающее оборудование и инструмент (Лекция)
+UID:5be1327440b8e9bab4288890f1a81fb0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рублева О.А.\nМесто: корп. 10\, ауд. 214
+DTEND:20261111T155000Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261111T142000Z
+STATUS:CONFIRMED
+SUMMARY:Управление качеством продукции деревоперерабатывающих производств (Лекция)
+UID:47ea7bdbbacc0701a26f9ab2631de6ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215826Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рублева О.А.\nМесто: корп. 10\, ауд. 214
+DTEND:20261119T172500Z
+LAST-MODIFIED:20261105T215826Z
+LOCATION:корп. 10\, ауд. 214
+DTSTART:20261119T155500Z
+STATUS:CONFIRMED
+SUMMARY:Управление качеством продукции деревоперерабатывающих производств (Практическое занятие)
+UID:c818f4cc5b1bf4c774b1afca7dcef50c@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

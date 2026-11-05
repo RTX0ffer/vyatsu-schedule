@@ -1,0 +1,226 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ВятГУ ИВТм-2301 (2 подгр.)
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Преподаватель Д.О.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 300
+DTEND:20261112T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261112T142000Z
+STATUS:CONFIRMED
+SUMMARY:Научно-исследовательская работа (Лабораторная работа)
+UID:3def3354a51d58c21089c66e8a1b481d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Частиков А.В.
+DTEND:20261031T101500Z
+LAST-MODIFIED:20261105T215825Z
+DTSTART:20261031T084500Z
+STATUS:CONFIRMED
+SUMMARY:Перспективные беспроводные системы связи (Лабораторная работа)
+UID:becbcb9eebc2b91fcc9f0a9cb163f609@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Частиков А.В.
+DTEND:20261031T083000Z
+LAST-MODIFIED:20261105T215825Z
+DTSTART:20261031T070000Z
+STATUS:CONFIRMED
+SUMMARY:Перспективные беспроводные системы связи (Лабораторная работа)
+UID:a890433d72aff0f2c5a18d4c94396219@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Преподаватель Д.О.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 300
+DTEND:20261119T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261119T155500Z
+STATUS:CONFIRMED
+SUMMARY:Научно-исследовательская работа (Лабораторная работа)
+UID:06e28da43ef21f3cf679af4725c4dc38@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Преподаватель Д.О.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 300
+DTEND:20261112T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261112T155500Z
+STATUS:CONFIRMED
+SUMMARY:Научно-исследовательская работа (Лабораторная работа)
+UID:267d2f53067009d107fd4c3aa3e27567@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чистяков Г.А.\nМесто: корп. 1\, ауд. 239
+DTEND:20261027T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261027T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технология разработки программного обеспечения (Лабораторная работа)
+UID:bea47beadd27b5c430cd8c9b73f2be63@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Крутиков А.К.\nМесто: корп. 1\, ауд. 224
+DTEND:20261026T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 224
+DTSTART:20261026T155500Z
+STATUS:CONFIRMED
+SUMMARY:Системы обработки знаний (Лабораторная работа)
+UID:0e6ed6abfa6c77f416b60d58e1f972cc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чистяков Г.А.\nМесто: корп. 1\, ауд. 239
+DTEND:20261027T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261027T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технология разработки программного обеспечения (Лабораторная работа)
+UID:4bf9f34b72c8bcdb99a1dead8a8dda29@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Крутиков А.К.\nМесто: корп. 1\, ауд. 236
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 236
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Системы обработки знаний (Лекция)
+UID:0abc563af18d183b28fd6fd106e138f0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Преподаватель Д.О.\nМесто: корп. 2\, ауд. 300
+DTEND:20261109T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261109T155500Z
+STATUS:CONFIRMED
+SUMMARY:Научно-исследовательская работа (Лекция)
+UID:83d3f75a9290dcece678321a1227021a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Преподаватель Д.О.\nМесто: корп. 2\, ауд. 300
+DTEND:20261109T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261109T142000Z
+STATUS:CONFIRMED
+SUMMARY:Научно-исследовательская работа (Лекция)
+UID:d32ee97480328e06b54faf35ab1f6d2f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Преподаватель Д.О.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 300
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Научно-исследовательская работа (Лабораторная работа)
+UID:4cb696abac5ad4b07276159c1ce26ea2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чистяков Г.А.\nМесто: корп. 1\, ауд. 239
+DTEND:20261028T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261028T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технология разработки программного обеспечения (Лабораторная работа)
+UID:b80872f8d3e0b017dcdc6418baf23df7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Преподаватель Д.О.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 300
+DTEND:20261116T172500Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261116T155500Z
+STATUS:CONFIRMED
+SUMMARY:Научно-исследовательская работа (Лабораторная работа)
+UID:aa0a8fa97e8db24608493ae13d495679@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Крутиков А.К.\nМесто: корп. 1\, ауд. 224
+DTEND:20261026T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 224
+DTSTART:20261026T142000Z
+STATUS:CONFIRMED
+SUMMARY:Системы обработки знаний (Лабораторная работа)
+UID:0ceb773147be6fcdd1d0e379430db34e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Преподаватель Д.О.\nПодгруппа: 2\nМесто: корп. 2\, ауд. 300
+DTEND:20261119T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 2\, ауд. 300
+DTSTART:20261119T142000Z
+STATUS:CONFIRMED
+SUMMARY:Научно-исследовательская работа (Лабораторная работа)
+UID:61a1961d9915c48f96da623499db7fec@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Частиков А.В.
+DTEND:20261031T065000Z
+LAST-MODIFIED:20261105T215825Z
+DTSTART:20261031T052000Z
+STATUS:CONFIRMED
+SUMMARY:Перспективные беспроводные системы связи (Лабораторная работа)
+UID:90a708b356d39cf6042696d3d04d477c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Чистяков Г.А.\nМесто: корп. 1\, ауд. 239
+DTEND:20261028T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 1\, ауд. 239
+DTSTART:20261028T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технология разработки программного обеспечения (Лабораторная работа)
+UID:3e991b7e7ea884eef03ccb3042fa98bc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Частиков А.В.
+DTEND:20261031T123000Z
+LAST-MODIFIED:20261105T215825Z
+DTSTART:20261031T110000Z
+STATUS:CONFIRMED
+SUMMARY:Перспективные беспроводные системы связи (Лабораторная работа)
+UID:9e1efe619aa822809f08ce7563fdc253@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T215825Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Частиков А.В.\nМесто: корп. 3\, ауд. 105а
+DTEND:20261029T155000Z
+LAST-MODIFIED:20261105T215825Z
+LOCATION:корп. 3\, ауд. 105а
+DTSTART:20261029T142000Z
+STATUS:CONFIRMED
+SUMMARY:Перспективные беспроводные системы связи (Лекция)
+UID:57fc0892d42279a17f9c753cff332feb@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR
