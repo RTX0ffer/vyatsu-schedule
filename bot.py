@@ -38,10 +38,47 @@ CDN_BASE_URL = "https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main"
 ICS_URL = f"{CDN_BASE_URL}/vyatsu.ics"
 
 SUPPORTED_GROUPS = {
-    '27021': {'name': 'ПМИб-1301', 'course': 1, 'code': '1301', 'full_name': 'ПМИб-1301-52-00'},
-    '26498': {'name': 'ПМИб-2301', 'course': 2, 'code': '2301', 'full_name': 'ПМИб-2301-52-00'},
-    '26256': {'name': 'ПМИб-3301', 'course': 3, 'code': '3301', 'full_name': 'ПМИб-3301-52-00'},
-    '26418': {'name': 'ПМИб-4301', 'course': 4, 'code': '4301', 'full_name': 'ПМИб-4301-52-00'},
+    # 01.03.02 Прикладная математика и информатика (ПМИб)
+    '27021': {'name': 'ПМИб-1301', 'course': 1, 'direction': 'pmib', 'full_name': 'ПМИб-1301-52-00', 'code': '1301'},
+    '26498': {'name': 'ПМИб-2301', 'course': 2, 'direction': 'pmib', 'full_name': 'ПМИб-2301-52-00', 'code': '2301'},
+    '26256': {'name': 'ПМИб-3301', 'course': 3, 'direction': 'pmib', 'full_name': 'ПМИб-3301-52-00', 'code': '3301'},
+    '26418': {'name': 'ПМИб-4301', 'course': 4, 'direction': 'pmib', 'full_name': 'ПМИб-4301-52-00', 'code': '4301'},
+
+    # 02.03.01 Математика и компьютерные науки (МКб)
+    '27023': {'name': 'МКб-1301', 'course': 1, 'direction': 'mkb', 'full_name': 'МКб-1301-51-00', 'code': 'mkb_1301'},
+    '26547': {'name': 'МКб-2301', 'course': 2, 'direction': 'mkb', 'full_name': 'МКб-2301-51-00', 'code': 'mkb_2301'},
+    '26574': {'name': 'МКб-3301', 'course': 3, 'direction': 'mkb', 'full_name': 'МКб-3301-51-00', 'code': 'mkb_3301'},
+    '26495': {'name': 'МКб-4301', 'course': 4, 'direction': 'mkb', 'full_name': 'МКб-4301-51-00', 'code': 'mkb_4301'},
+
+    # 02.03.02 Фундаментальная информатика и ИТ (ФИб)
+    '27024': {'name': 'ФИб-1301', 'course': 1, 'direction': 'fib', 'full_name': 'ФИб-1301-51-00', 'code': 'fib_1301'},
+    '27025': {'name': 'ФИб-1302', 'course': 1, 'direction': 'fib', 'full_name': 'ФИб-1302-51-00', 'code': 'fib_1302'},
+    '26570': {'name': 'ФИб-2301', 'course': 2, 'direction': 'fib', 'full_name': 'ФИб-2301-51-00', 'code': 'fib_2301'},
+    '26923': {'name': 'ФИб-2302', 'course': 2, 'direction': 'fib', 'full_name': 'ФИб-2302-51-00', 'code': 'fib_2302'},
+    '26248': {'name': 'ФИб-3301', 'course': 3, 'direction': 'fib', 'full_name': 'ФИб-3301-51-00', 'code': 'fib_3301'},
+    '26892': {'name': 'ФИб-4301', 'course': 4, 'direction': 'fib', 'full_name': 'ФИб-4301-51-00', 'code': 'fib_4301'},
+    '26589': {'name': 'ФИб-4302', 'course': 4, 'direction': 'fib', 'full_name': 'ФИб-4302-51-00', 'code': 'fib_4302'},
+}
+
+DIRECTIONS = {
+    'pmib': {
+        'name': 'Прикладная математика и информатика',
+        'short': 'ПМИб',
+        'code_spec': '01.03.02',
+        'badge': '🔹',
+    },
+    'mkb': {
+        'name': 'Математика и компьютерные науки',
+        'short': 'МКб',
+        'code_spec': '02.03.01',
+        'badge': '🔸',
+    },
+    'fib': {
+        'name': 'Фундаментальная информатика и ИТ',
+        'short': 'ФИб',
+        'code_spec': '02.03.02',
+        'badge': '🟣',
+    },
 }
 DEFAULT_GROUP_ID = '27021'
 
@@ -228,30 +265,6 @@ def format_day_schedule(target_date: datetime.date, group_id: str = DEFAULT_GROU
             text.append("")
 
     return "\n".join(text).strip()
-    for interval, items in by_time.items():
-        if len(items) == 1:
-            it = items[0]
-            subj = it.get('subject', it.get('summary', 'Пара'))
-            ltype = f" ({it['type']})" if it.get('type') else ""
-            teacher = f"👤 <i>{it['teacher']}</i>" if it.get('teacher') else ""
-            loc = f"📍 {it['location']}" if it.get('location') else ""
-            details = " | ".join(filter(None, [teacher, loc]))
-
-            text.append(f"▫️ <b>{interval}</b> | <b>{subj}</b>{ltype}\n   {details}\n")
-        else:
-            text.append(f"▫️ <b>{interval}</b>:")
-            for it in items:
-                sg = f"[{it['subgroup']} подгр.] " if it.get('subgroup') else ""
-                subj = it.get('subject', it.get('summary', 'Пара'))
-                ltype = f" ({it['type']})" if it.get('type') else ""
-                teacher = f"👤 <i>{it['teacher']}</i>" if it.get('teacher') else ""
-                loc = f"📍 {it['location']}" if it.get('location') else ""
-                details = " | ".join(filter(None, [teacher, loc]))
-
-                text.append(f"   • {sg}<b>{subj}</b>{ltype}\n     {details}")
-            text.append("")
-
-    return "\n".join(text).strip()
 
 
 def get_main_keyboard():
@@ -280,37 +293,84 @@ def get_main_keyboard():
     )
 
 
-def get_group_selection_keyboard():
-    """Генерирует инлайн-клавиатуру для выбора курса и группы."""
-    inline_keyboard = [
-        [
-            InlineKeyboardButton(text="🎓 1 курс: ПМИб-1301", callback_data="set_grp_27021")
-        ],
-        [
-            InlineKeyboardButton(text="🎓 2 курс: ПМИб-2301", callback_data="set_grp_26498")
-        ],
-        [
-            InlineKeyboardButton(text="🎓 3 курс: ПМИб-3301", callback_data="set_grp_26256")
-        ],
-        [
-            InlineKeyboardButton(text="🎓 4 курс: ПМИб-4301", callback_data="set_grp_26418")
-        ]
+def get_group_selection_keyboard(active_dir: str = 'pmib') -> InlineKeyboardMarkup:
+    """Генерирует инлайн-клавиатуру с вкладками направлений и группами по курсам."""
+    # 1. Верхняя строка: переключатели направлений (вкладки)
+    dir_buttons = []
+    for d_key, d_val in DIRECTIONS.items():
+        is_active = (d_key == active_dir)
+        badge = d_val.get('badge', '')
+        short = d_val['short']
+        label = f"• {badge} {short} •" if is_active else f"{badge} {short}"
+        dir_buttons.append(InlineKeyboardButton(text=label, callback_data=f"dir_{d_key}"))
+
+    inline_keyboard = [dir_buttons]
+
+    # 2. Группы активного направления, сгруппированные по курсу
+    dir_groups = [
+        (gid, ginfo) for gid, ginfo in SUPPORTED_GROUPS.items()
+        if ginfo.get('direction') == active_dir
     ]
+
+    by_course: dict[int, list[tuple[str, dict]]] = {}
+    for gid, ginfo in dir_groups:
+        by_course.setdefault(ginfo['course'], []).append((gid, ginfo))
+
+    for course in sorted(by_course.keys()):
+        c_groups = by_course[course]
+        if len(c_groups) == 1:
+            gid, ginfo = c_groups[0]
+            inline_keyboard.append([
+                InlineKeyboardButton(text=f"🎓 {course} курс: {ginfo['name']}", callback_data=f"set_grp_{gid}")
+            ])
+        else:
+            row = []
+            for gid, ginfo in c_groups:
+                row.append(
+                    InlineKeyboardButton(text=f"🎓 {course} к.: {ginfo['name']}", callback_data=f"set_grp_{gid}")
+                )
+            inline_keyboard.append(row)
+
     return InlineKeyboardMarkup(inline_keyboard=inline_keyboard)
+
+
+def get_group_selection_text(user_id: int | str, active_dir: str = 'pmib') -> str:
+    """Формирует текст сообщения выбора группы для указанного направления."""
+    gid = get_user_group(user_id)
+    ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
+    dinfo = DIRECTIONS.get(active_dir, DIRECTIONS['pmib'])
+
+    return (
+        f"👥 <b>Выбор направления, курса и группы</b>\n\n"
+        f"🏛 <b>Факультет компьютерных и физико-математических наук (ФКФМН)</b>\n"
+        f"Вкладка: <b>{dinfo['badge']} {dinfo['name']} ({dinfo['short']})</b>\n"
+        f"Ваша активная группа: <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n\n"
+        f"👇 <i>Переключайте вкладки направлений сверху и выберите группу:</i>"
+    )
 
 
 @dp.message(or_f(Command('group', 'course'), F.text.casefold().in_({'👥 курс / группа', 'курс / группа', 'выбрать группу', 'сменить группу', 'курс'})))
 async def cmd_choose_group(message: types.Message):
     gid = get_user_group(message.from_user.id)
     ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
-    await message.answer(
-        f"👥 <b>Выбор курса и группы</b>\n\n"
-        f"Направление: <b>Прикладная математика и информатика (ПМИб)</b>\n"
-        f"Ваша активная группа: <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n\n"
-        f"Выберите группу из списка ниже, чтобы переключить расписание:",
-        parse_mode=ParseMode.HTML,
-        reply_markup=get_group_selection_keyboard()
-    )
+    active_dir = ginfo.get('direction', 'pmib')
+    text = get_group_selection_text(message.from_user.id, active_dir=active_dir)
+    kb = get_group_selection_keyboard(active_dir=active_dir)
+    await message.answer(text, parse_mode=ParseMode.HTML, reply_markup=kb)
+
+
+@dp.callback_query(lambda c: c.data and c.data.startswith('dir_'))
+async def callback_switch_direction(callback: types.CallbackQuery):
+    await callback.answer()
+    active_dir = callback.data.replace('dir_', '')
+    if active_dir not in DIRECTIONS:
+        active_dir = 'pmib'
+    text = get_group_selection_text(callback.from_user.id, active_dir=active_dir)
+    kb = get_group_selection_keyboard(active_dir=active_dir)
+    try:
+        await callback.message.edit_text(text, parse_mode=ParseMode.HTML, reply_markup=kb)
+    except Exception:
+        pass
 
 
 @dp.callback_query(lambda c: c.data and c.data.startswith('set_grp_'))
@@ -320,10 +380,13 @@ async def callback_select_group(callback: types.CallbackQuery):
     if gid in SUPPORTED_GROUPS:
         set_user_group(callback.from_user.id, gid)
         ginfo = SUPPORTED_GROUPS[gid]
+        dinfo = DIRECTIONS.get(ginfo.get('direction', 'pmib'), {})
+        dir_title = f"{dinfo.get('badge', '')} {dinfo.get('name', '')} ({dinfo.get('short', '')})" if dinfo else ""
         await callback.message.answer(
-            f"✅ <b>Группа переключена на {ginfo['name']} ({ginfo['course']} курс)!</b>\n\n"
-            f"Теперь команды <b>📅 Сегодня</b>, <b>📆 Завтра</b> и <b>🗓 На неделю</b> будут показывать расписание для вашей группы.\n\n"
-            f"<i>Вы всегда можете изменить группу через кнопку «👥 Курс / Группа» или команду /group.</i>",
+            f"✅ <b>Группа переключена на {ginfo['name']} ({ginfo['course']} курс)!</b>\n"
+            f"Направление: <b>{dir_title}</b>\n\n"
+            f"Теперь команды <b>📅 Сегодня</b>, <b>📆 Завтра</b>, <b>🗓 На неделю</b> и <b>📲 Календарь</b> настроены для вашей группы.\n\n"
+            f"<i>Вы всегда можете изменить направление и группу через кнопку «👥 Курс / Группа» или команду /group.</i>",
             parse_mode=ParseMode.HTML,
             reply_markup=get_main_keyboard()
         )
@@ -352,7 +415,7 @@ async def cmd_start(message: types.Message):
         "▫️ <b>📆 Завтра</b> — Пары на завтра\n"
         "▫️ <b>🗓 На неделю</b> — Расписание на текущую неделю\n"
         "▫️ <b>📲 Календарь</b> — Подписка и перенос пар в смартфон\n"
-        "▫️ <b>👥 Курс / Группа</b> — Выбор любого из 1–4 курсов ПМИб\n"
+        "▫️ <b>👥 Курс / Группа</b> — Выбор направления и курса (ПМИб, МКб, ФИб, 1–4 курсы)\n"
         "▫️ <b>📱 Mini App</b> — Интерактивное расписание прямо в Telegram\n",
         parse_mode=ParseMode.HTML,
         reply_markup=get_main_keyboard()
@@ -478,7 +541,9 @@ async def send_calendar_message(message: types.Message, user_id: int | str = Non
     uid = user_id or (message.from_user.id if message.from_user else None)
     gid = get_user_group(uid) if uid else DEFAULT_GROUP_ID
     ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
+    dinfo = DIRECTIONS.get(ginfo.get('direction', 'pmib'), {})
     code = ginfo.get('code', '1301')
+    dir_title = f"{dinfo.get('badge', '')} {dinfo.get('name', '')} ({dinfo.get('short', '')})" if dinfo else ""
 
     cdn_sg1 = f"{CDN_BASE_URL}/vyatsu_{code}_sg1.ics"
     cdn_sg2 = f"{CDN_BASE_URL}/vyatsu_{code}_sg2.ics"
@@ -506,6 +571,7 @@ async def send_calendar_message(message: types.Message, user_id: int | str = Non
 
     await message.answer(
         f"📲 <b>Календарь расписания ВятГУ:</b>\n"
+        f"Направление: <b>{dir_title}</b>\n"
         f"Группа: <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n\n"
         "⚡ <b>Для любого Android (Samsung, Xiaomi, Huawei, Pixel и др.) — В 1 клик:</b>\n"
         "Нажмите кнопку с нужной подгруппой ниже ➔ откройте файл прямо в Telegram ➔ выберите <b>«Календарь»</b> ➔ <b>«Сохранить»</b>.\n"
@@ -521,7 +587,7 @@ async def send_calendar_message(message: types.Message, user_id: int | str = Non
         "Скопируйте ссылку и откройте в браузере Safari:\n"
         f"• 1 подгруппа: <code>{webcal_sg1}</code>\n"
         f"• 2 подгруппа: <code>{webcal_sg2}</code>\n\n"
-        "<i>💡 Хотите расписание для другого курса? Нажмите «👥 Сменить группу / курс» ниже.</i>",
+        "<i>💡 Хотите расписание для другого направления или курса? Нажмите «👥 Сменить группу / курс» ниже.</i>",
         parse_mode=ParseMode.HTML,
         reply_markup=kb,
         disable_web_page_preview=True
@@ -544,14 +610,10 @@ async def callback_change_grp_from_cal(callback: types.CallbackQuery):
     await callback.answer()
     gid = get_user_group(callback.from_user.id)
     ginfo = SUPPORTED_GROUPS.get(gid, SUPPORTED_GROUPS[DEFAULT_GROUP_ID])
-    await callback.message.answer(
-        f"👥 <b>Выбор курса и группы</b>\n\n"
-        f"Направление: <b>Прикладная математика и информатика (ПМИб)</b>\n"
-        f"Текущая группа: <b>{ginfo['name']} ({ginfo['course']} курс)</b>\n\n"
-        f"Выберите группу для переключения:",
-        parse_mode=ParseMode.HTML,
-        reply_markup=get_group_selection_keyboard()
-    )
+    active_dir = ginfo.get('direction', 'pmib')
+    text = get_group_selection_text(callback.from_user.id, active_dir=active_dir)
+    kb = get_group_selection_keyboard(active_dir=active_dir)
+    await callback.message.answer(text, parse_mode=ParseMode.HTML, reply_markup=kb)
 
 
 @dp.callback_query(lambda c: c.data == 'quick_today')
@@ -635,13 +697,15 @@ async def handle_index(request):
             'lessons': lessons,
             'count': len(lessons),
             'server_url': WEBAPP_URL,
+            'directions': DIRECTIONS,
             'groups': [
                 {
                     'id': gid,
                     'name': ginfo['name'],
                     'course': ginfo['course'],
                     'code': ginfo['code'],
-                    'full_name': ginfo['full_name']
+                    'full_name': ginfo['full_name'],
+                    'direction': ginfo['direction'],
                 }
                 for gid, ginfo in SUPPORTED_GROUPS.items()
             ],
@@ -675,13 +739,15 @@ async def handle_api_schedule(request):
         'lessons': lessons,
         'count': len(lessons),
         'server_url': WEBAPP_URL,
+        'directions': DIRECTIONS,
         'groups': [
             {
                 'id': gid,
                 'name': ginfo['name'],
                 'course': ginfo['course'],
                 'code': ginfo['code'],
-                'full_name': ginfo['full_name']
+                'full_name': ginfo['full_name'],
+                'direction': ginfo['direction'],
             }
             for gid, ginfo in SUPPORTED_GROUPS.items()
         ],

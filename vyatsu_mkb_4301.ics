@@ -1,0 +1,273 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vyatsu//Schedule Bot//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Расписание ВятГУ МКб-4301
+X-WR-TIMEZONE:Europe/Kirov
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Метелев А.П.\nМесто: корп. 3\, ауд. 204а
+DTEND:20261026T101500Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261026T084500Z
+STATUS:CONFIRMED
+SUMMARY:Сетевое администрирование (Лабораторная работа)
+UID:79e4fff4fffba83e3428f74c856d3163@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Широков Д.В.\nМесто: корп. 2\, ауд. 311
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 2\, ауд. 311
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Лекция)
+UID:f275e53826d0b8ff31fd775b4cf7ebfd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 311
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Теория дискретных функций (Лекция)
+UID:d9c84e2fa7a230a6fea6b9ad7aea041e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Марков Р.В.\nМесто: корп. 14\, ауд. 136
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 14\, ауд. 136
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математические методы анализа данных (Лекция)
+UID:4b4134b2538c356a0689a2c6e1ecf226@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 16\, ауд. 322
+DTEND:20261106T141500Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261106T124500Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:4009915756feb6ee3829f26327aa3f9c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 315
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Математические методы анализа данных (Лабораторная работа)
+UID:379a4c301a0367c1b3df1d740981de55@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лубягина Е.Н.\nМесто: корп. 14\, ауд. 301
+DTEND:20261028T123000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 14\, ауд. 301
+DTSTART:20261028T110000Z
+STATUS:CONFIRMED
+SUMMARY:Вычислительная геометрия (Лабораторная работа)
+UID:260302bb187904b51009e39fecec033a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лубягина Е.Н.\nМесто: корп. 16\, ауд. 320
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 320
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Вычислительная геометрия (Лабораторная работа)
+UID:2572168d6300e49417a0d35444153fd8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 204
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 204
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Дифференциальные уравнения (Практическое занятие)
+UID:41b7a9ec39576a18a6a4b55a554c2081@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Набоких А.А.\nМесто: корп. 16\, ауд. 322
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Экономика (Практическое занятие)
+UID:2ddb668657fda688c2b3f8b744add2b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 311
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 311
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Дифференциальные уравнения (Лекция)
+UID:b872b827b665ccb4f0a2a4355f97f6f6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Лубягина Е.Н.\nМесто: корп. 14\, ауд. 136
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 14\, ауд. 136
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Вычислительная геометрия (Лабораторная работа)
+UID:57d4f4b43c1aa5a992e75a7c5942f115@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Метелев А.П.\nМесто: корп. 3\, ауд. 101
+DTEND:20261026T083000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 3\, ауд. 101
+DTSTART:20261026T070000Z
+STATUS:CONFIRMED
+SUMMARY:Сетевое администрирование (Лекция)
+UID:37a5d2616e9ab8ee7e1ffa9a9bfbae19@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Марков Р.В.\nМесто: корп. 14\, ауд. 301
+DTEND:20261029T123000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 14\, ауд. 301
+DTSTART:20261029T110000Z
+STATUS:CONFIRMED
+SUMMARY:Теория дискретных функций (Практическое занятие)
+UID:bd3a4b69a1a758047b91323334422daf@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Панкратова Л.В.\nМесто: корп. 16\, ауд. 319
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 319
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Численные методы и математическое моделирование (Практическое занятие)
+UID:31017d015c0439a44c0b089a726f179b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Панкратова Л.В.\nМесто: корп. 16\, ауд. 315
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Численные методы и математическое моделирование (Практическое занятие)
+UID:a0aae7e9ba543dee6663f41c025bf848@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Лубягина Е.Н.\nМесто: корп. 16\, ауд. 322
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 322
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Вычислительная геометрия (Лекция)
+UID:fc23987c0b8af046cb2ccb4d77dbf178@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Марков Р.В.\nМесто: корп. 14\, ауд. 136
+DTEND:20261027T141500Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 14\, ауд. 136
+DTSTART:20261027T124500Z
+STATUS:CONFIRMED
+SUMMARY:Математические методы анализа данных (Лабораторная работа)
+UID:b0420af63f82c83406d9eb089ee16205@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Панкратова Л.В.\nМесто: корп. 16\, ауд. 216
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 216
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Численные методы и математическое моделирование (Лекция)
+UID:91e6ef0e880209b58f252fc4d7c8dd71@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широков Д.В.
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261105T053917Z
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Практическое занятие)
+UID:16c11a43c714878ea353e000373a1f55@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Метелев А.П.\nМесто: корп. 3\, ауд. 204а
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 3\, ауд. 204а
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Сетевое администрирование (Лабораторная работа)
+UID:0ae4f0ac836e9aad45e7efc1a9e92800@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Чермных О.В.\nМесто: корп. 16\, ауд. 204
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 204
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Дифференциальные уравнения (Практическое занятие)
+UID:3c2600d21cfd350e80bd462b81af6a92@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широков Д.В.\nМесто: корп. 16\, ауд. 204
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 204
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Математическая логика и теория алгоритмов (Практическое занятие)
+UID:f964b48a04fac9fcf48a6379a96e21bd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261105T053917Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Марков Р.В.\nМесто: корп. 16\, ауд. 315
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261105T053917Z
+LOCATION:корп. 16\, ауд. 315
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Теория дискретных функций (Практическое занятие)
+UID:eadcae0d0bfcb6eb0e02720095df8b26@vyatsu.schedule
+END:VEVENT
+END:VCALENDAR

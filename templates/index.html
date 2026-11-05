@@ -177,62 +177,22 @@
           <h3 class="text-base font-bold text-white flex items-center gap-2">
             <i class="fa-solid fa-graduation-cap text-blue-400"></i> Выбор курса и группы
           </h3>
-          <p class="text-[11px] text-slate-400">Направление: Прикладная математика и информатика (ПМИб)</p>
+          <p id="modal-dir-subtitle" class="text-[11px] text-slate-400">ФКФМН • Прикладная математика и информатика</p>
         </div>
         <button id="close-group-modal-btn" class="w-7 h-7 rounded-full bg-slate-800 text-slate-400 hover:text-white flex items-center justify-center">
           <i class="fa-solid fa-xmark text-sm"></i>
         </button>
       </div>
 
-      <div class="space-y-3 pt-1">
-        <!-- 1 курс -->
-        <div class="p-3 rounded-2xl bg-slate-800/60 border border-slate-700/60 space-y-2">
-          <div class="text-[11px] font-semibold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
-            <span>🎓 1 курс</span>
-          </div>
-          <div class="grid grid-cols-1 gap-2">
-            <button data-group-id="27021" class="group-select-option py-2 px-3 rounded-xl border text-xs font-semibold text-center transition-all">
-              ПМИб-1301
-            </button>
-          </div>
-        </div>
-
-        <!-- 2 курс -->
-        <div class="p-3 rounded-2xl bg-slate-800/60 border border-slate-700/60 space-y-2">
-          <div class="text-[11px] font-semibold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
-            <span>🎓 2 курс</span>
-          </div>
-          <div class="grid grid-cols-1 gap-2">
-            <button data-group-id="26498" class="group-select-option py-2 px-3 rounded-xl border text-xs font-semibold text-center transition-all">
-              ПМИб-2301
-            </button>
-          </div>
-        </div>
-
-        <!-- 3 курс -->
-        <div class="p-3 rounded-2xl bg-slate-800/60 border border-slate-700/60 space-y-2">
-          <div class="text-[11px] font-semibold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
-            <span>🎓 3 курс</span>
-          </div>
-          <div class="grid grid-cols-1 gap-2">
-            <button data-group-id="26256" class="group-select-option py-2 px-3 rounded-xl border text-xs font-semibold text-center transition-all">
-              ПМИб-3301
-            </button>
-          </div>
-        </div>
-
-        <!-- 4 курс -->
-        <div class="p-3 rounded-2xl bg-slate-800/60 border border-slate-700/60 space-y-2">
-          <div class="text-[11px] font-semibold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
-            <span>🎓 4 курс</span>
-          </div>
-          <div class="grid grid-cols-1 gap-2">
-            <button data-group-id="26418" class="group-select-option py-2 px-3 rounded-xl border text-xs font-semibold text-center transition-all">
-              ПМИб-4301
-            </button>
-          </div>
-        </div>
+      <!-- Вкладки направлений: ПМИб / МКб / ФИб -->
+      <div id="direction-tabs" class="flex p-0.5 rounded-xl bg-slate-800/90 border border-slate-700/60 gap-1">
+        <button data-dir="pmib" class="dir-tab-btn flex-1 py-1.5 text-xs font-semibold rounded-lg text-center transition-all bg-blue-500 text-white shadow-sm">🔹 ПМИб</button>
+        <button data-dir="mkb" class="dir-tab-btn flex-1 py-1.5 text-xs font-semibold rounded-lg text-center transition-all text-slate-400 hover:text-white">🔸 МКб</button>
+        <button data-dir="fib" class="dir-tab-btn flex-1 py-1.5 text-xs font-semibold rounded-lg text-center transition-all text-slate-400 hover:text-white">🟣 ФИб</button>
       </div>
+
+      <!-- Список курсов и групп активного направления -->
+      <div id="group-modal-list" class="space-y-3 pt-1"></div>
     </div>
   </div>
 
@@ -243,14 +203,38 @@
       tg.expand();
     }
 
+    const DIRECTIONS = {
+      pmib: { name: 'Прикладная математика и информатика', short: 'ПМИб', badge: '🔹', codeSpec: '01.03.02' },
+      mkb: { name: 'Математика и компьютерные науки', short: 'МКб', badge: '🔸', codeSpec: '02.03.01' },
+      fib: { name: 'Фундаментальная информатика и ИТ', short: 'ФИб', badge: '🟣', codeSpec: '02.03.02' }
+    };
+
     const GROUPS_DICT = {
-      '27021': { name: 'ПМИб-1301', course: 1, code: '1301' },
-      '26498': {'name': 'ПМИб-2301', course: 2, code: '2301' },
-      '26256': {'name': 'ПМИб-3301', course: 3, code: '3301' },
-      '26418': {'name': 'ПМИб-4301', course: 4, code: '4301' },
+      // 01.03.02 ПМИб
+      '27021': { name: 'ПМИб-1301', course: 1, code: '1301', direction: 'pmib' },
+      '26498': { name: 'ПМИб-2301', course: 2, code: '2301', direction: 'pmib' },
+      '26256': { name: 'ПМИб-3301', course: 3, code: '3301', direction: 'pmib' },
+      '26418': { name: 'ПМИб-4301', course: 4, code: '4301', direction: 'pmib' },
+
+      // 02.03.01 МКб
+      '27023': { name: 'МКб-1301', course: 1, code: 'mkb_1301', direction: 'mkb' },
+      '26547': { name: 'МКб-2301', course: 2, code: 'mkb_2301', direction: 'mkb' },
+      '26574': { name: 'МКб-3301', course: 3, code: 'mkb_3301', direction: 'mkb' },
+      '26495': { name: 'МКб-4301', course: 4, code: 'mkb_4301', direction: 'mkb' },
+
+      // 02.03.02 ФИб
+      '27024': { name: 'ФИб-1301', course: 1, code: 'fib_1301', direction: 'fib' },
+      '27025': { name: 'ФИб-1302', course: 1, code: 'fib_1302', direction: 'fib' },
+      '26570': { name: 'ФИб-2301', course: 2, code: 'fib_2301', direction: 'fib' },
+      '26923': { name: 'ФИб-2302', course: 2, code: 'fib_2302', direction: 'fib' },
+      '26248': { name: 'ФИб-3301', course: 3, code: 'fib_3301', direction: 'fib' },
+      '26892': { name: 'ФИб-4301', course: 4, code: 'fib_4301', direction: 'fib' },
+      '26589': { name: 'ФИб-4302', course: 4, code: 'fib_4302', direction: 'fib' }
     };
     let selectedGroupId = localStorage.getItem('vyatsu_group_id') || '27021';
     if (!GROUPS_DICT[selectedGroupId]) selectedGroupId = '27021';
+
+    let currentDirectionTab = GROUPS_DICT[selectedGroupId]?.direction || 'pmib';
 
     let allLessons = [];
     let selectedDateStr = null;
@@ -303,9 +287,12 @@
       // Источник 1: Встроенные данные от сервера в текущем HTML
       if (window.__INITIAL_SCHEDULE__ && Array.isArray(window.__INITIAL_SCHEDULE__.lessons) && window.__INITIAL_SCHEDULE__.lessons.length > 0) {
         allLessons = window.__INITIAL_SCHEDULE__.lessons;
+        if (window.__INITIAL_SCHEDULE__.directions) {
+          Object.assign(DIRECTIONS, window.__INITIAL_SCHEDULE__.directions);
+        }
         if (window.__INITIAL_SCHEDULE__.groups) {
           window.__INITIAL_SCHEDULE__.groups.forEach(g => {
-            GROUPS_DICT[g.id] = { name: g.name, course: g.course, code: g.code };
+            GROUPS_DICT[g.id] = { name: g.name, course: g.course, code: g.code, direction: g.direction || 'pmib' };
           });
         }
         try {
@@ -320,9 +307,12 @@
             const cached = JSON.parse(cachedStr);
             if (cached && Array.isArray(cached.lessons) && cached.lessons.length > 0) {
               allLessons = cached.lessons;
+              if (cached.directions) {
+                Object.assign(DIRECTIONS, cached.directions);
+              }
               if (cached.groups) {
                 cached.groups.forEach(g => {
-                  GROUPS_DICT[g.id] = { name: g.name, course: g.course, code: g.code };
+                  GROUPS_DICT[g.id] = { name: g.name, course: g.course, code: g.code, direction: g.direction || 'pmib' };
                 });
               }
               loaded = true;
@@ -356,9 +346,12 @@
         const data = await resp.json();
         allLessons = data.lessons || [];
 
+        if (data.directions) {
+          Object.assign(DIRECTIONS, data.directions);
+        }
         if (data.groups) {
           data.groups.forEach(g => {
-            GROUPS_DICT[g.id] = { name: g.name, course: g.course, code: g.code };
+            GROUPS_DICT[g.id] = { name: g.name, course: g.course, code: g.code, direction: g.direction || 'pmib' };
           });
         }
 
@@ -398,9 +391,18 @@
           const newLessons = data.lessons;
           if (JSON.stringify(newLessons) !== JSON.stringify(allLessons)) {
             allLessons = newLessons;
+            if (data.directions) {
+              Object.assign(DIRECTIONS, data.directions);
+            }
+            if (data.groups) {
+              data.groups.forEach(g => {
+                GROUPS_DICT[g.id] = { name: g.name, course: g.course, code: g.code, direction: g.direction || 'pmib' };
+              });
+            }
             try {
               localStorage.setItem('vyatsu_schedule_cache_v2', JSON.stringify(data));
             } catch (e) {}
+            setupGroupModal();
             renderDaysBar();
             renderLessons();
           }
@@ -415,33 +417,41 @@
       const openBtn = document.getElementById('group-select-btn');
       const closeBtn = document.getElementById('close-group-modal-btn');
       const badge = document.getElementById('current-group-badge');
-      const options = document.querySelectorAll('.group-select-option');
 
       const currentInfo = GROUPS_DICT[selectedGroupId] || GROUPS_DICT['27021'];
       if (badge) badge.innerText = currentInfo.name;
 
-      options.forEach(opt => {
-        const gid = opt.dataset.groupId;
-        if (gid === selectedGroupId) {
-          opt.className = 'group-select-option py-2 px-3 rounded-xl border border-blue-500 bg-blue-500 text-white font-bold text-xs text-center shadow-md shadow-blue-500/25 scale-[1.02]';
+      // Настройка вкладок направлений
+      const dirTabs = document.querySelectorAll('.dir-tab-btn');
+      dirTabs.forEach(btn => {
+        const dKey = btn.dataset.dir;
+        if (dKey === currentDirectionTab) {
+          btn.className = 'dir-tab-btn flex-1 py-1.5 text-xs font-semibold rounded-lg text-center transition-all bg-blue-500 text-white shadow-sm';
         } else {
-          opt.className = 'group-select-option py-2 px-3 rounded-xl border border-slate-700 bg-slate-800/80 text-slate-300 hover:text-white hover:border-slate-600 font-medium text-xs text-center transition-all';
+          btn.className = 'dir-tab-btn flex-1 py-1.5 text-xs font-semibold rounded-lg text-center transition-all text-slate-400 hover:text-white';
         }
 
-        opt.onclick = () => {
+        btn.onclick = () => {
           if (tg && tg.HapticFeedback) tg.HapticFeedback.selectionChanged();
-          selectedGroupId = gid;
-          localStorage.setItem('vyatsu_group_id', gid);
-          modal.classList.add('hidden');
+          currentDirectionTab = dKey;
           setupGroupModal();
-          renderDaysBar();
-          renderLessons();
-          updateCalendarModalBadge();
         };
       });
 
+      // Обновляем подзаголовок
+      const dirInfo = DIRECTIONS[currentDirectionTab] || DIRECTIONS['pmib'];
+      const subtitle = document.getElementById('modal-dir-subtitle');
+      if (subtitle) {
+        subtitle.innerText = `${dirInfo.badge} ${dirInfo.name} (${dirInfo.short})`;
+      }
+
+      // Рендерим группы для активного направления
+      renderGroupModalList();
+
       openBtn.onclick = () => {
         if (tg && tg.HapticFeedback) tg.HapticFeedback.impactOccurred('light');
+        currentDirectionTab = GROUPS_DICT[selectedGroupId]?.direction || 'pmib';
+        setupGroupModal();
         modal.classList.remove('hidden');
       };
 
@@ -452,6 +462,70 @@
       modal.onclick = (e) => {
         if (e.target === modal) modal.classList.add('hidden');
       };
+    }
+
+    function renderGroupModalList() {
+      const listContainer = document.getElementById('group-modal-list');
+      if (!listContainer) return;
+
+      const modal = document.getElementById('group-modal');
+      const groupsInDir = Object.entries(GROUPS_DICT)
+        .filter(([_, g]) => g.direction === currentDirectionTab);
+
+      // Группируем по курсу (1, 2, 3, 4)
+      const byCourse = {};
+      groupsInDir.forEach(([gid, g]) => {
+        if (!byCourse[g.course]) byCourse[g.course] = [];
+        byCourse[g.course].push({ id: gid, ...g });
+      });
+
+      let html = '';
+      const courses = Object.keys(byCourse).map(Number).sort((a, b) => a - b);
+
+      courses.forEach(courseNum => {
+        const cGroups = byCourse[courseNum];
+        html += `
+          <div class="p-3 rounded-2xl bg-slate-800/60 border border-slate-700/60 space-y-2">
+            <div class="text-[11px] font-semibold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
+              <span>🎓 ${courseNum} курс</span>
+            </div>
+            <div class="flex gap-2">
+        `;
+
+        cGroups.forEach(g => {
+          const isSelected = g.id === selectedGroupId;
+          const cls = isSelected
+            ? 'group-select-option flex-1 py-2 px-3 rounded-xl border border-blue-500 bg-blue-500 text-white font-bold text-xs text-center shadow-md shadow-blue-500/25 scale-[1.02]'
+            : 'group-select-option flex-1 py-2 px-3 rounded-xl border border-slate-700 bg-slate-800/80 text-slate-300 hover:text-white hover:border-slate-600 font-medium text-xs text-center transition-all';
+
+          html += `
+            <button data-group-id="${g.id}" class="${cls}">
+              ${g.name}
+            </button>
+          `;
+        });
+
+        html += `
+            </div>
+          </div>
+        `;
+      });
+
+      listContainer.innerHTML = html;
+
+      listContainer.querySelectorAll('.group-select-option').forEach(btn => {
+        btn.onclick = () => {
+          if (tg && tg.HapticFeedback) tg.HapticFeedback.selectionChanged();
+          const gid = btn.dataset.groupId;
+          selectedGroupId = gid;
+          localStorage.setItem('vyatsu_group_id', gid);
+          modal.classList.add('hidden');
+          setupGroupModal();
+          renderDaysBar();
+          renderLessons();
+          updateCalendarModalBadge();
+        };
+      });
     }
 
     function setupSubgroupButtons() {
@@ -680,8 +754,16 @@
             : '';
 
           const subjectName = it.subject || it.summary || 'Занятие';
-          const teacher = it.teacher || 'Преподаватель не указан';
-          const locationText = it.location || 'Место уточняется';
+          const teacher = it.teacher || '';
+          const locationText = it.location || '';
+
+          const teacherHtml = teacher 
+            ? `<span class="flex items-center gap-1.5 text-slate-300 font-medium"><i class="fa-solid fa-user-tie text-[11px] text-blue-400"></i> ${teacher}</span>` 
+            : `<span class="text-slate-500 italic text-[11px] flex items-center gap-1.5"><i class="fa-solid fa-user-tie text-[11px] text-slate-600"></i> Без преподавателя</span>`;
+
+          const locationHtml = locationText
+            ? `<span class="font-semibold text-amber-400 flex items-center gap-1 bg-amber-400/10 px-2 py-0.5 rounded-md border border-amber-400/20 text-[11px]"><i class="fa-solid fa-location-dot text-[10px]"></i> ${locationText}</span>`
+            : '';
 
           html += `
             <div class="rounded-xl p-3 bg-slate-900/70 border border-slate-800/90 flex flex-col gap-2">
@@ -693,12 +775,8 @@
                 </div>
               </div>
               <div class="flex items-center justify-between text-xs text-slate-300 pt-1 border-t border-slate-800/60">
-                <span class="flex items-center gap-1.5 text-slate-300 font-medium">
-                  <i class="fa-solid fa-user-tie text-[11px] text-blue-400"></i> ${teacher}
-                </span>
-                <span class="font-semibold text-amber-400 flex items-center gap-1 bg-amber-400/10 px-2 py-0.5 rounded-md border border-amber-400/20 text-[11px]">
-                  <i class="fa-solid fa-location-dot text-[10px]"></i> ${locationText}
-                </span>
+                ${teacherHtml}
+                ${locationHtml}
               </div>
             </div>
           `;

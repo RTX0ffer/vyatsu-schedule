@@ -19,11 +19,46 @@ logging.basicConfig(
 )
 
 SCHEDULE_PAGE_URL = 'https://old.vyatsu.ru/studentu-1/spravochnaya-informatsiya/raspisanie-zanyatiy-dlya-studentov.html'
+
+DIRECTIONS = {
+    'pmib': {
+        'name': 'Прикладная математика и информатика',
+        'short': 'ПМИб',
+        'code_spec': '01.03.02'
+    },
+    'mkb': {
+        'name': 'Математика и компьютерные науки',
+        'short': 'МКб',
+        'code_spec': '02.03.01'
+    },
+    'fib': {
+        'name': 'Фундаментальная информатика и ИТ',
+        'short': 'ФИб',
+        'code_spec': '02.03.02'
+    }
+}
+
 SUPPORTED_GROUPS = {
-    '27021': {'name': 'ПМИб-1301', 'course': 1, 'full_name': 'ПМИб-1301-52-00', 'code': '1301'},
-    '26498': {'name': 'ПМИб-2301', 'course': 2, 'full_name': 'ПМИб-2301-52-00', 'code': '2301'},
-    '26256': {'name': 'ПМИб-3301', 'course': 3, 'full_name': 'ПМИб-3301-52-00', 'code': '3301'},
-    '26418': {'name': 'ПМИб-4301', 'course': 4, 'full_name': 'ПМИб-4301-52-00', 'code': '4301'},
+    # 01.03.02 Прикладная математика и информатика (ПМИб)
+    '27021': {'name': 'ПМИб-1301', 'course': 1, 'direction': 'pmib', 'full_name': 'ПМИб-1301-52-00', 'code': '1301'},
+    '26498': {'name': 'ПМИб-2301', 'course': 2, 'direction': 'pmib', 'full_name': 'ПМИб-2301-52-00', 'code': '2301'},
+    '26256': {'name': 'ПМИб-3301', 'course': 3, 'direction': 'pmib', 'full_name': 'ПМИб-3301-52-00', 'code': '3301'},
+    '26418': {'name': 'ПМИб-4301', 'course': 4, 'direction': 'pmib', 'full_name': 'ПМИб-4301-52-00', 'code': '4301'},
+
+    # 02.03.01 Математика и компьютерные науки (МКб)
+    '27023': {'name': 'МКб-1301', 'course': 1, 'direction': 'mkb', 'full_name': 'МКб-1301-51-00', 'code': 'mkb_1301'},
+    '26547': {'name': 'МКб-2301', 'course': 2, 'direction': 'mkb', 'full_name': 'МКб-2301-51-00', 'code': 'mkb_2301'},
+    '26574': {'name': 'МКб-3301', 'course': 3, 'direction': 'mkb', 'full_name': 'МКб-3301-51-00', 'code': 'mkb_3301'},
+    '26495': {'name': 'МКб-4301', 'course': 4, 'direction': 'mkb', 'full_name': 'МКб-4301-51-00', 'code': 'mkb_4301'},
+
+    # 02.03.02 Фундаментальная информатика и ИТ (ФИб)
+    '27024': {'name': 'ФИб-1301', 'course': 1, 'direction': 'fib', 'full_name': 'ФИб-1301-51-00', 'code': 'fib_1301'},
+    '27025': {'name': 'ФИб-1302', 'course': 1, 'direction': 'fib', 'full_name': 'ФИб-1302-51-00', 'code': 'fib_1302'},
+    '26570': {'name': 'ФИб-2301', 'course': 2, 'direction': 'fib', 'full_name': 'ФИб-2301-51-00', 'code': 'fib_2301'},
+    '26923': {'name': 'ФИб-2302', 'course': 2, 'direction': 'fib', 'full_name': 'ФИб-2302-51-00', 'code': 'fib_2302'},
+    '26248': {'name': 'ФИб-3301', 'course': 3, 'direction': 'fib', 'full_name': 'ФИб-3301-51-00', 'code': 'fib_3301'},
+    '26892': {'name': 'ФИб-4301', 'course': 4, 'direction': 'fib', 'full_name': 'ФИб-4301-51-00', 'code': 'fib_4301'},
+    '26589': {'name': 'ФИб-4302', 'course': 4, 'direction': 'fib', 'full_name': 'ФИб-4302-51-00', 'code': 'fib_4302'},
 }
 DEFAULT_GROUP_ID = '27021'
 GROUP_ID = DEFAULT_GROUP_ID  # Для обратной совместимости
@@ -141,11 +176,11 @@ def parse_vyatsu_pdf(pdf_bytes, start_date_hint, group_id=DEFAULT_GROUP_ID):
                         sg_match = re.search(r'(\d+)\s*подгруппа', full_text)
                         subgroup = int(sg_match.group(1)) if sg_match else None
 
-                        # 2. Очищаем от номера группы
-                        clean_text = re.sub(r'ПМИб-\d+-\d+-\d+,?\s*', '', full_text)
+                        # 2. Очищаем от номера группы (любое направление: ПМИб, МКб, ФИб)
+                        clean_text = re.sub(r'[А-ЯЁа-яё]+-\d+-\d+-\d+,?\s*', '', full_text)
 
-                        # 3. Извлекаем корпус и аудиторию
-                        room_m = re.search(r'\b(\d{1,2})-(\d{2,4}[а-яА-Яa-zA-Z]?)\b', clean_text)
+                        # 3. Извлекаем корпус и аудиторию (поддерживаем подчеркивания типа 14-140_ и 14-140)
+                        room_m = re.search(r'\b(\d{1,2})-(\d{2,4}[а-яА-Яa-zA-Z]?)(?:_|\b)', clean_text)
                         if room_m:
                             building, room = room_m.group(1), room_m.group(2)
                             location = f'корп. {building}, ауд. {room}'
@@ -157,20 +192,29 @@ def parse_vyatsu_pdf(pdf_bytes, start_date_hint, group_id=DEFAULT_GROUP_ID):
                             location = ''
 
                         # 4. Извлекаем тип занятия
-                        type_m = re.search(r'\b(Лекция|Практическое занятие|Лабораторная работа)\b', clean_text)
-                        lesson_type = type_m.group(1) if type_m else ''
+                        type_m = re.search(r'\b(Лекция|Практическое занятие|Лабораторная работа|Консультация|Зачет|Дифференцированный зачет|Экзамен)\b', clean_text)
+                        if type_m:
+                            lesson_type = type_m.group(1)
+                        elif 'практика' in clean_text.lower():
+                            lesson_type = 'Практика'
+                        else:
+                            lesson_type = ''
 
                         # 5. Извлекаем ФИО преподавателя
                         teacher_m = re.search(r'([А-ЯЁ][а-яё]+(?:\s+[А-ЯЁ]\.\s*[А-ЯЁ]\.|\s+[А-ЯЁ]\.))', clean_text)
                         teacher = teacher_m.group(1) if teacher_m else ''
 
-                        # 6. Извлекаем чистое название предмета
+                        # 6. Извлекаем чистое название предмета без аудиторий, типов и преподавателя
                         subj_text = clean_text
                         if sg_match:
                             subj_text = re.sub(r'^\d+\s*подгруппа,?\s*', '', subj_text)
-                        if lesson_type:
-                            subj_text = subj_text.split(lesson_type)[0]
-                        subject = subj_text.strip(' ,-')
+                        if type_m:
+                            subj_text = subj_text.split(type_m.group(1))[0]
+                        if teacher:
+                            subj_text = subj_text.replace(teacher, '')
+                        # Очищаем корпус-аудиторию (в т.ч. 14-140_, 14-136_) из названия
+                        subj_text = re.sub(r'\b\d{1,2}-\d{2,4}[а-яА-Яa-zA-Z]?[_]*', '', subj_text)
+                        subject = subj_text.strip(' ,-_')
 
                         if not subject:
                             continue
@@ -194,6 +238,7 @@ def parse_vyatsu_pdf(pdf_bytes, start_date_hint, group_id=DEFAULT_GROUP_ID):
                             'uid': f"{uid_hash}@vyatsu.schedule",
                             'group_id': group_id,
                             'group_name': ginfo['name'],
+                            'direction': ginfo.get('direction', 'pmib'),
                             'course': ginfo['course'],
                             'subject': subject,
                             'type': lesson_type,
