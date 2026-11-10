@@ -1895,6 +1895,14 @@
     "full_name": "ФКб-1701-51-00",
     "code": "fkb_1701"
   },
+  "27079": {
+    "name": "ФКб-1702",
+    "course": 1,
+    "direction": "fkb",
+    "faculty": "ffkis",
+    "full_name": "ФКб-1702-51-00",
+    "code": "fkb_1702"
+  },
   "26074": {
     "name": "ФКб-3701",
     "course": 3,
