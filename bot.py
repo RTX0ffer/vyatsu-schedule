@@ -31,7 +31,8 @@ TIMEZONE = ZoneInfo('Europe/Kirov')
 CACHE_FILE = 'lessons_cache.json'
 USER_SETTINGS_FILE = 'user_settings.json'
 
-DATA_URL = os.getenv('DATA_URL', '')
+DEFAULT_DATA_URL = "https://raw.githubusercontent.com/RTX0ffer/vyatsu-schedule/main/lessons_cache.json"
+DATA_URL = os.getenv('DATA_URL') or DEFAULT_DATA_URL
 WEBAPP_URL = os.getenv('WEBAPP_URL', '').rstrip('/')
 CDN_BASE_URL = "https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main"
 CALENDARS_DIR = "calendars"
@@ -505,48 +506,69 @@ RUSSIAN_HOLIDAYS = {
 
 dp = Dispatcher()
 
-_memory_cache = {'timestamp': 0, 'lessons': []}
+_memory_cache = {
+    'timestamp': 0,
+    'mtime': 0,
+    'etag': '',
+    'lessons': []
+}
+
+
+def load_lessons_from_file(file_path: str = CACHE_FILE):
+    """Считывает и дедуплицирует пары из локального файла CACHE_FILE."""
+    if not os.path.exists(file_path):
+        return []
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        raw_lessons = list(data.get('lessons', {}).values())
+        lessons = [l for l in raw_lessons if 'direction' in l or l.get('group_id') in SUPPORTED_GROUPS]
+        unique_lessons = []
+        seen = set()
+        for l in lessons:
+            key = (l.get('group_id'), l['start'], l['end'], l.get('subject', l.get('summary')), l.get('subgroup'))
+            if key not in seen:
+                seen.add(key)
+                unique_lessons.append(l)
+        return unique_lessons
+    except Exception as e:
+        logging.error(f'Ошибка чтения локального файла {file_path}: {e}')
+        return []
 
 
 def get_cached_lessons():
-    """Синхронно и мгновенно возвращает пары из памяти или локального файла (0 мс)."""
-    if _memory_cache['lessons']:
+    """Синхронно и мгновенно возвращает пары из памяти.
+
+    Если локальный файл на диске изменился (например, git pull или скрипт), мгновенно перезагружает его.
+    """
+    current_mtime = os.path.getmtime(CACHE_FILE) if os.path.exists(CACHE_FILE) else 0
+
+    # Если в памяти уже есть уроки и файл на диске не менялся — отдаем из RAM мгновенно (0 мс)
+    if _memory_cache['lessons'] and (_memory_cache['mtime'] == current_mtime or current_mtime == 0):
         return _memory_cache['lessons']
 
-    if os.path.exists(CACHE_FILE):
-        try:
-            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                raw_lessons = list(data.get('lessons', {}).values())
-                # Фильтруем только актуальные уроки
-                lessons = [l for l in raw_lessons if 'direction' in l or l.get('group_id') in SUPPORTED_GROUPS]
-                # Дедупликация занятий (по группе, времени, предмету и подгруппе)
-                unique_lessons = []
-                seen = set()
-                for l in lessons:
-                    key = (l.get('group_id'), l['start'], l['end'], l.get('subject', l.get('summary')), l.get('subgroup'))
-                    if key not in seen:
-                        seen.add(key)
-                        unique_lessons.append(l)
+    # Если файла нет в кэше или он изменился на диске — читаем свежий файл
+    if current_mtime > 0:
+        unique_lessons = load_lessons_from_file(CACHE_FILE)
+        if unique_lessons:
+            _memory_cache['lessons'] = unique_lessons
+            _memory_cache['mtime'] = current_mtime
+            _memory_cache['timestamp'] = time.time()
+            logging.info(f'Мгновенно загружено {len(unique_lessons)} уникальных пар из локального файла (mtime: {current_mtime}).')
+            return unique_lessons
 
-                if unique_lessons:
-                    _memory_cache['lessons'] = unique_lessons
-                    _memory_cache['timestamp'] = time.time()
-                    logging.info(f'Мгновенно загружено {len(unique_lessons)} уникальных пар из локального файла.')
-                    return unique_lessons
-        except Exception as e:
-            logging.error(f'Ошибка чтения локального файла: {e}')
-
-    return []
+    return _memory_cache['lessons']
 
 
 async def sync_remote_cache():
-    """Фоновая асинхронная проверка обновлений с GitHub."""
+    """Фоновая асинхронная проверка обновлений с GitHub с поддержкой ETag / 304."""
+    client_timeout = aiohttp.ClientTimeout(total=60, sock_read=45)
+
     # 1. Фоновая синхронизация списка групп (Auto-Discovery с GitHub)
     if GROUPS_URL:
         try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(GROUPS_URL, timeout=8) as resp:
+            async with aiohttp.ClientSession(timeout=client_timeout) as session:
+                async with session.get(GROUPS_URL) as resp:
                     if resp.status == 200:
                         remote_groups = await resp.json(content_type=None)
                         if remote_groups and isinstance(remote_groups, dict) and remote_groups != dict(SUPPORTED_GROUPS):
@@ -563,8 +585,8 @@ async def sync_remote_cache():
     # 1b. Фоновая синхронизация списка направлений с GitHub
     if DIRECTIONS_URL:
         try:
-            async with aiohttp.ClientSession() as session:
-                async with session.get(DIRECTIONS_URL, timeout=8) as resp:
+            async with aiohttp.ClientSession(timeout=client_timeout) as session:
+                async with session.get(DIRECTIONS_URL) as resp:
                     if resp.status == 200:
                         remote_dirs = await resp.json(content_type=None)
                         if remote_dirs and isinstance(remote_dirs, dict) and remote_dirs != dict(DIRECTIONS):
@@ -579,15 +601,26 @@ async def sync_remote_cache():
         except Exception as e:
             logging.warning(f"Фоновое обновление направлений с GitHub не удалось: {e}")
 
-    # 2. Фоновая синхронизация расписания
+    # 2. Фоновая синхронизация расписания с GitHub (с поддержкой ETag)
     if not DATA_URL:
         return
 
     try:
-        async with aiohttp.ClientSession() as session:
-            async with session.get(DATA_URL, timeout=8) as resp:
+        headers = {}
+        cached_etag = _memory_cache.get('etag', '')
+        if cached_etag:
+            headers['If-None-Match'] = cached_etag
+
+        async with aiohttp.ClientSession(timeout=client_timeout) as session:
+            async with session.get(DATA_URL, headers=headers) as resp:
+                if resp.status == 304:
+                    logging.info("Расписание на GitHub актуально (304 Not Modified).")
+                    return
+
                 if resp.status == 200:
-                    data = await resp.json(content_type=None)
+                    etag = resp.headers.get('ETag', '')
+                    text = await resp.text()
+                    data = await asyncio.to_thread(json.loads, text)
                     raw_lessons = list(data.get('lessons', {}).values())
                     lessons = [l for l in raw_lessons if 'direction' in l or l.get('group_id') in SUPPORTED_GROUPS]
                     unique_lessons = []
@@ -599,18 +632,38 @@ async def sync_remote_cache():
                             unique_lessons.append(l)
 
                     if unique_lessons:
+                        # Атомарно сохраняем свежий файл CACHE_FILE на диск
+                        try:
+                            tmp_cache = f"{CACHE_FILE}.tmp"
+                            with open(tmp_cache, 'w', encoding='utf-8') as f:
+                                f.write(text)
+                            os.replace(tmp_cache, CACHE_FILE)
+                            _memory_cache['mtime'] = os.path.getmtime(CACHE_FILE)
+                        except Exception as write_err:
+                            logging.warning(f"Не удалось записать {CACHE_FILE} на диск: {write_err}")
+
                         _memory_cache['lessons'] = unique_lessons
+                        _memory_cache['etag'] = etag
                         _memory_cache['timestamp'] = time.time()
-                        logging.info(f'Фоновое обновление: загружено {len(unique_lessons)} уникальных пар с GitHub.')
+                        logging.info(f'Фоновое обновление: успешно синхронизировано {len(unique_lessons)} уникальных пар с GitHub (ETag: {etag[:12] if etag else "none"}).')
     except Exception as e:
-        logging.warning(f'Фоновое обновление с GitHub не удалось: {e}')
+        logging.warning(f'Фоновое обновление расписания с GitHub не удалось: {e}')
 
 
 async def background_cache_worker():
-    """Периодически раз в 20 минут в фоне обновляет кэш."""
-    while True:
-        await asyncio.sleep(1200)
+    """Периодически проверяет обновления расписания с GitHub (с поддержкой ETag / 304)."""
+    # Сразу при старте проверяем свежесть данных на GitHub
+    try:
         await sync_remote_cache()
+    except Exception as e:
+        logging.warning(f"Ошибка при начальной синхронизации расписания: {e}")
+
+    while True:
+        await asyncio.sleep(600)  # Каждые 10 минут
+        try:
+            await sync_remote_cache()
+        except Exception as e:
+            logging.warning(f"Ошибка периодической синхронизации расписания: {e}")
 
 
 async def keep_alive_worker():
@@ -1062,6 +1115,27 @@ async def cmd_nextweek(message: types.Message):
         await message.answer(response, parse_mode=ParseMode.HTML)
 
 
+@dp.message(Command('sync', 'update', 'reload'))
+async def cmd_sync(message: types.Message):
+    """Принудительная синхронизация расписания с GitHub по команде."""
+    status_msg = await message.answer("🔄 Проверяю обновления расписания на GitHub...")
+    try:
+        await sync_remote_cache()
+        count = len(_memory_cache.get('lessons', []))
+        etag = _memory_cache.get('etag', '')
+        clean_etag = etag.replace('W/', '').strip('"')
+        etag_str = f"<code>{clean_etag[:16]}...</code>" if clean_etag else "локальный файл"
+        await status_msg.edit_text(
+            f"✅ <b>Расписание актуализировано!</b>\n\n"
+            f"▫️ Всего пар в базе: <b>{count}</b>\n"
+            f"▫️ Версия данных (ETag): {etag_str}\n\n"
+            f"Все свежие изменения с сайта ВятГУ применены.",
+            parse_mode=ParseMode.HTML
+        )
+    except Exception as e:
+        await status_msg.edit_text(f"❌ Ошибка синхронизации: {e}")
+
+
 def build_ics_content(group_id=DEFAULT_GROUP_ID, subgroup=None):
     """Генерирует RFC 5545-совместимый .ics контент со всеми обязательными полями (DTSTAMP, STATUS)."""
     all_lessons = get_cached_lessons()
@@ -1394,6 +1468,7 @@ async def main():
         BotCommand(command="nextweek", description="Расписание на след. неделю"),
         BotCommand(command="group", description="Выбор факультета, курса и группы"),
         BotCommand(command="calendar", description="Календарь и подписка (.ics)"),
+        BotCommand(command="sync", description="Синхронизировать расписание"),
         BotCommand(command="start", description="Главное меню")
     ]
     try:
