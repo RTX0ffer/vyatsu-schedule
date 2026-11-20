@@ -8,54 +8,21 @@ X-WR-TIMEZONE:Europe/Kirov
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
-DTEND:20261030T141500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 1\, ауд. 530
-DTSTART:20261030T124500Z
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гмызина Э.В.\nМесто: корп. 14\, ауд. 214
+DTEND:20261201T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261201T070000Z
 STATUS:CONFIRMED
-SUMMARY:Русский язык как иностранный (Практическое занятие)
-UID:573b97f0150ad20aad90d35fe8571244@vyatsu.schedule
+SUMMARY:Основы российской государственности (Лекция)
+UID:ef4a283a20d7952f219d0fa380286648@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 3\nМесто: корп. 14\, ауд. 108
-DTEND:20261110T065000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 108
-DTSTART:20261110T052000Z
-STATUS:CONFIRMED
-SUMMARY:Физическая культура и спорт (Практическое занятие)
-UID:791c0d2e489c38cfa7e4964efd3b8dc6@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
-DTEND:20261111T065000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 207
-DTSTART:20261111T052000Z
-STATUS:CONFIRMED
-SUMMARY:Введение в межкультурную коммуникацию (Лекция)
-UID:b84f56cbbcb965a5bef000e75d059acb@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 210
-DTEND:20261119T101500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 210
-DTSTART:20261119T084500Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
-UID:fe7394293acec1fedaabc991302e0c94@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 3\nМесто: корп. 14\, ауд. 108
 DTEND:20261027T065000Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 14\, ауд. 108
 DTSTART:20261027T052000Z
 STATUS:CONFIRMED
@@ -63,54 +30,10 @@ SUMMARY:Физическая культура и спорт (Практичес�
 UID:931fda39c34f65b26ca712da198886c1@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 210
-DTEND:20261105T101500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 210
-DTSTART:20261105T084500Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
-UID:c8e6a83487e176ce7937f7ca5ed0dfb1@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 212
-DTEND:20261106T101500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 212
-DTSTART:20261106T084500Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
-UID:8503b617537dfc91e56294a49bb73e40@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
-DTEND:20261102T101500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 207
-DTSTART:20261102T084500Z
-STATUS:CONFIRMED
-SUMMARY:Введение в межкультурную коммуникацию (Практическое занятие)
-UID:f8f4c3d85607bacea8e8b94a4e41a0d9@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 227
-DTEND:20261029T083000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 227
-DTSTART:20261029T070000Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
-UID:d9bdbb84adab38358e3d16027a62586c@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
 DTEND:20261106T141500Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 1\, ауд. 530
 DTSTART:20261106T124500Z
 STATUS:CONFIRMED
@@ -118,54 +41,10 @@ SUMMARY:Русский язык как иностранный (Практиче�
 UID:a91e9e8616ee4c7770634588272e8b9d@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
-DTEND:20261028T083000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 207
-DTSTART:20261028T070000Z
-STATUS:CONFIRMED
-SUMMARY:Введение в межкультурную коммуникацию (Практическое занятие)
-UID:6afa02848ff0e2e31ef3cba541b8a98d@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Загребина Л.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
-DTEND:20261103T065000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 108
-DTSTART:20261103T052000Z
-STATUS:CONFIRMED
-SUMMARY:Физическая культура и спорт (Практическое занятие)
-UID:1d27351b312f0041b9aa40bdc381c349@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 201
-DTEND:20261112T101500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 201
-DTSTART:20261112T084500Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
-UID:ef138ca8f74c3e75315d85a0eb5d5a05@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 225
-DTEND:20261113T083000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 225
-DTSTART:20261113T070000Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
-UID:0c3a354313401dcf03248a2a4a4233cb@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
 DTEND:20261113T141500Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 1\, ауд. 530
 DTSTART:20261113T124500Z
 STATUS:CONFIRMED
@@ -173,65 +52,10 @@ SUMMARY:Русский язык как иностранный (Практиче�
 UID:47e16144ccddebee43511e86ba953dcc@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гмызина Э.В.\nМесто: корп. 15\, ауд. 207
-DTEND:20261116T065000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 207
-DTSTART:20261116T052000Z
-STATUS:CONFIRMED
-SUMMARY:Основы российской государственности (Практическое занятие)
-UID:bafff806c771007b368f97bdd5a50ed4@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 225
-DTEND:20261030T083000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 225
-DTSTART:20261030T070000Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
-UID:68bf9e08632c8be1a2ce689801e1ab19@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гмызина Э.В.\nМесто: корп. 15\, ауд. 207
-DTEND:20261102T083000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 207
-DTSTART:20261102T070000Z
-STATUS:CONFIRMED
-SUMMARY:Основы российской государственности (Практическое занятие)
-UID:5fcaec8a0e13795eeb866c3d6c18f2b1@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
-DTEND:20261111T083000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 207
-DTSTART:20261111T070000Z
-STATUS:CONFIRMED
-SUMMARY:Введение в межкультурную коммуникацию (Практическое занятие)
-UID:b5e4205a57845af6755a06c31ea43ee6@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
-DTEND:20261116T155000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 1\, ауд. 435
-DTSTART:20261116T142000Z
-STATUS:CONFIRMED
-SUMMARY:Русский язык как иностранный (Практическое занятие)
-UID:5184e51ac1480d05efc590d98b4cd0b6@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 14\, ауд. 214
 DTEND:20261117T101500Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 14\, ауд. 214
 DTSTART:20261117T084500Z
 STATUS:CONFIRMED
@@ -239,87 +63,54 @@ SUMMARY:Русский язык и культура речи (Лекция)
 UID:3e8a3a72fcc5cf593bddd9fe3472e710@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
-DTEND:20261102T155000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 1\, ауд. 435
-DTSTART:20261102T142000Z
-STATUS:CONFIRMED
-SUMMARY:Русский язык как иностранный (Практическое занятие)
-UID:b33df7e71c15b700dc1b61d16c4db832@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 212
-DTEND:20261106T083000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 212
-DTSTART:20261106T070000Z
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 225
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261113T070000Z
 STATUS:CONFIRMED
 SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
-UID:1a53a317561816bd0cf4ff849d1281ed@vyatsu.schedule
+UID:0c3a354313401dcf03248a2a4a4233cb@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 14\, ауд. 301
-DTEND:20261027T083000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 301
-DTSTART:20261027T070000Z
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 225
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261030T070000Z
 STATUS:CONFIRMED
-SUMMARY:Современные информационные технологии (Практическое занятие)
-UID:b2983f3de39bbcb888cec1cf754ead9b@vyatsu.schedule
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:68bf9e08632c8be1a2ce689801e1ab19@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 15\, ауд. 218
-DTEND:20261119T141500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 218
-DTSTART:20261119T124500Z
-STATUS:CONFIRMED
-SUMMARY:Русский язык и культура речи (Практическое занятие)
-UID:34f60fb75638f9d7d4efdafef07d82a3@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Стрельникова И.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 106
-DTEND:20261027T065000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 106
-DTSTART:20261027T052000Z
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 3\nМесто: корп. 14\, ауд. 108
+DTEND:20261124T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261124T052000Z
 STATUS:CONFIRMED
 SUMMARY:Физическая культура и спорт (Практическое занятие)
-UID:ca12d855b795b065580aa9b424ce6a0d@vyatsu.schedule
+UID:595fef812393d2c3d4e7a228c86021cb@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 14\, ауд. 301
-DTEND:20261027T101500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 301
-DTSTART:20261027T084500Z
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 210
+DTEND:20261203T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 210
+DTSTART:20261203T110000Z
 STATUS:CONFIRMED
-SUMMARY:Современные информационные технологии (Практическое занятие)
-UID:f469b129730059a2bd391b58f99c6a1b@vyatsu.schedule
+SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
+UID:0c310449c0a8ca895eade6a5228ba05b@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 225
-DTEND:20261030T065000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 225
-DTSTART:20261030T052000Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
-UID:f0a67492ecf830070de25fc47972133c@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 212
 DTEND:20261120T083000Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 15\, ауд. 212
 DTSTART:20261120T070000Z
 STATUS:CONFIRMED
@@ -327,21 +118,10 @@ SUMMARY:Практический курс второго иностранног�
 UID:4eb84c80c56b725fd84c1f6275190ca5@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
-DTEND:20261116T101500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 207
-DTSTART:20261116T084500Z
-STATUS:CONFIRMED
-SUMMARY:Введение в межкультурную коммуникацию (Практическое занятие)
-UID:b58d1174a3e273fef00563f7c281a632@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
 DTEND:20261028T065000Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 15\, ауд. 207
 DTSTART:20261028T052000Z
 STATUS:CONFIRMED
@@ -349,43 +129,10 @@ SUMMARY:Введение в межкультурную коммуникацию 
 UID:21616c790b87a898bf09ef41733be469@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 15\, ауд. 218
-DTEND:20261105T141500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 218
-DTSTART:20261105T124500Z
-STATUS:CONFIRMED
-SUMMARY:Русский язык и культура речи (Практическое занятие)
-UID:27a4ff760cb9af6de2131b97e4863751@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 225
-DTEND:20261113T065000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 225
-DTSTART:20261113T052000Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
-UID:c27b4b666111de3c4479a9c3493febc5@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Загребина Л.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
-DTEND:20261027T065000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 108
-DTSTART:20261027T052000Z
-STATUS:CONFIRMED
-SUMMARY:Физическая культура и спорт (Практическое занятие)
-UID:68efbc70b66744f75094c030dc06ac65@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 227
 DTEND:20261112T083000Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 15\, ауд. 227
 DTSTART:20261112T070000Z
 STATUS:CONFIRMED
@@ -393,54 +140,21 @@ SUMMARY:Практический курс первого иностранног�
 UID:16dbeccac0ee1a447592280c79c246bc@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 219
-DTEND:20261109T123000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 219
-DTSTART:20261109T110000Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
-UID:97d9c5e9adf3d74b1ef6cc99b5d8b8ee@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гмызина Э.В.\nМесто: корп. 15\, ауд. 207
-DTEND:20261102T065000Z
-LAST-MODIFIED:20261119T023023Z
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
+DTEND:20261125T065000Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 15\, ауд. 207
-DTSTART:20261102T052000Z
+DTSTART:20261125T052000Z
 STATUS:CONFIRMED
-SUMMARY:Основы российской государственности (Практическое занятие)
-UID:5297bbfb6dde95076cc4a6bf6d103b12@vyatsu.schedule
+SUMMARY:Введение в межкультурную коммуникацию (Лекция)
+UID:acbe679d06d2e3773572d11bad8f3978@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 219
-DTEND:20261026T123000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 219
-DTSTART:20261026T110000Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
-UID:495b6248767422c1a3bc16ef329009f2@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nМесто: корп. 15\, ауд. 225
-DTEND:20261109T101500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 225
-DTSTART:20261109T084500Z
-STATUS:CONFIRMED
-SUMMARY:Иностранный язык (Практическое занятие)
-UID:0c90c19fb0343f6b7f385491fcc58003@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 15\, ауд. 211
 DTEND:20261028T101500Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 15\, ауд. 211
 DTSTART:20261028T084500Z
 STATUS:CONFIRMED
@@ -448,10 +162,10 @@ SUMMARY:Современные информационные технологии
 UID:18dadb7a790807634bef7f00dbe08a83@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Стрельникова И.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 106
 DTEND:20261117T065000Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 14\, ауд. 106
 DTSTART:20261117T052000Z
 STATUS:CONFIRMED
@@ -459,54 +173,10 @@ SUMMARY:Физическая культура и спорт (Практичес�
 UID:987f229173321878bba730840bb78d61@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
-DTEND:20261030T123000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 1\, ауд. 530
-DTSTART:20261030T110000Z
-STATUS:CONFIRMED
-SUMMARY:Русский язык как иностранный (Практическое занятие)
-UID:e215085e0912bdf9a0e107f6e750b2f8@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Гмызина Э.В.\nМесто: корп. 14\, ауд. 338
-DTEND:20261117T083000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 338
-DTSTART:20261117T070000Z
-STATUS:CONFIRMED
-SUMMARY:Основы российской государственности (Лекция)
-UID:d4b48fe41a1862316832ae85194fe3ed@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 15\, ауд. 211
-DTEND:20261111T101500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 211
-DTSTART:20261111T084500Z
-STATUS:CONFIRMED
-SUMMARY:Современные информационные технологии (Лекция)
-UID:8714669f510ef0795a712e27cb1194f3@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Преподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 227
-DTEND:20261118T123000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 227
-DTSTART:20261118T110000Z
-STATUS:CONFIRMED
-SUMMARY:Час с куратором
-UID:63d8d68af44b78036c9112d4b1920ec9@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
 DTEND:20261120T141500Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 1\, ауд. 530
 DTSTART:20261120T124500Z
 STATUS:CONFIRMED
@@ -514,21 +184,10 @@ SUMMARY:Русский язык как иностранный (Практиче�
 UID:3ca27ed91bab17260f15709902f04b9d@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Стрельникова И.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 106
-DTEND:20261110T065000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 106
-DTSTART:20261110T052000Z
-STATUS:CONFIRMED
-SUMMARY:Физическая культура и спорт (Практическое занятие)
-UID:4e4b07a1d8cff20041ea71defc755997@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Загребина Л.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
 DTEND:20261110T065000Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 14\, ауд. 108
 DTSTART:20261110T052000Z
 STATUS:CONFIRMED
@@ -536,65 +195,10 @@ SUMMARY:Физическая культура и спорт (Практичес�
 UID:0c65e01126a38a6961f63b65f270edba@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
-DTEND:20261106T123000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 1\, ауд. 530
-DTSTART:20261106T110000Z
-STATUS:CONFIRMED
-SUMMARY:Русский язык как иностранный (Практическое занятие)
-UID:ca371a17979e823918dfc7b4a95e31d8@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nМесто: корп. 15\, ауд. 223
-DTEND:20261118T101500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 223
-DTSTART:20261118T084500Z
-STATUS:CONFIRMED
-SUMMARY:Иностранный язык (Практическое занятие)
-UID:9b8254e18be0187277a0bad41fdb515c@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 14\, ауд. 233
-DTEND:20261027T123000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 233
-DTSTART:20261027T110000Z
-STATUS:CONFIRMED
-SUMMARY:Русский язык и культура речи (Практическое занятие)
-UID:b0448829f7526a004c6b10b664a3f179@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Стрельникова И.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 106
-DTEND:20261103T065000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 106
-DTSTART:20261103T052000Z
-STATUS:CONFIRMED
-SUMMARY:Физическая культура и спорт (Практическое занятие)
-UID:d74240db4e4581a6dfb5ea4f4391312b@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 14\, ауд. 301
-DTEND:20261110T101500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 301
-DTSTART:20261110T084500Z
-STATUS:CONFIRMED
-SUMMARY:Современные информационные технологии (Практическое занятие)
-UID:5b6780cc80c005c8ce7a3a8975311b90@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 212
 DTEND:20261120T101500Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 15\, ауд. 212
 DTSTART:20261120T084500Z
 STATUS:CONFIRMED
@@ -602,21 +206,10 @@ SUMMARY:Практический курс второго иностранног�
 UID:0b3d554acab36b553cc0be7bffe827b0@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 14\, ауд. 301
-DTEND:20261110T083000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 301
-DTSTART:20261110T070000Z
-STATUS:CONFIRMED
-SUMMARY:Современные информационные технологии (Практическое занятие)
-UID:f73f5d65ee0df480f817f73be0a59150@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 201
 DTEND:20261029T101500Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 15\, ауд. 201
 DTSTART:20261029T084500Z
 STATUS:CONFIRMED
@@ -624,109 +217,10 @@ SUMMARY:Практический курс первого иностранног�
 UID:d621b888dd59d1ad97db8c5913a695e2@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 14\, ауд. 233
-DTEND:20261110T123000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 233
-DTSTART:20261110T110000Z
-STATUS:CONFIRMED
-SUMMARY:Русский язык и культура речи (Практическое занятие)
-UID:1ca20ac56acef79e31b27ed7e40ee240@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nМесто: корп. 15\, ауд. 223
-DTEND:20261116T123000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 223
-DTSTART:20261116T110000Z
-STATUS:CONFIRMED
-SUMMARY:Иностранный язык (Практическое занятие)
-UID:a21653795b715945fa4f533dc15da50a@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 223
-DTEND:20261118T083000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 223
-DTSTART:20261118T070000Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
-UID:6e5a585121f9d4bce412017b0fdf591e@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
-DTEND:20261113T123000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 1\, ауд. 530
-DTSTART:20261113T110000Z
-STATUS:CONFIRMED
-SUMMARY:Русский язык как иностранный (Практическое занятие)
-UID:681bfc174e60d15e9a8f48a8edbe3137@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 210
-DTEND:20261105T123000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 210
-DTSTART:20261105T110000Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
-UID:c4d9cd9955814db236be379f4949f2b8@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 210
-DTEND:20261119T123000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 210
-DTSTART:20261119T110000Z
-STATUS:CONFIRMED
-SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
-UID:b5ebf7492d06ce395f6684a95882aceb@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 3\nМесто: корп. 14\, ауд. 108
-DTEND:20261117T065000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 108
-DTSTART:20261117T052000Z
-STATUS:CONFIRMED
-SUMMARY:Физическая культура и спорт (Практическое занятие)
-UID:04f847c68d0a9a2342c026a4e5dcb182@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 14\, ауд. 214
-DTEND:20261103T101500Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 14\, ауд. 214
-DTSTART:20261103T084500Z
-STATUS:CONFIRMED
-SUMMARY:Русский язык и культура речи (Лекция)
-UID:de811567f36e859e57f332e3cfd02448@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гмызина Э.В.\nМесто: корп. 15\, ауд. 207
-DTEND:20261116T083000Z
-LAST-MODIFIED:20261119T023023Z
-LOCATION:корп. 15\, ауд. 207
-DTSTART:20261116T070000Z
-STATUS:CONFIRMED
-SUMMARY:Основы российской государственности (Практическое занятие)
-UID:144b6697cad9db2d4e8fb49a58387da6@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Гмызина Э.В.\nМесто: корп. 14\, ауд. 214
 DTEND:20261103T083000Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 14\, ауд. 214
 DTSTART:20261103T070000Z
 STATUS:CONFIRMED
@@ -734,10 +228,10 @@ SUMMARY:Основы российской государственности (Л
 UID:60416f0238e7dc3dde67a0862b0b4d5b@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Загребина Л.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
 DTEND:20261117T065000Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 14\, ауд. 108
 DTSTART:20261117T052000Z
 STATUS:CONFIRMED
@@ -745,10 +239,560 @@ SUMMARY:Физическая культура и спорт (Практичес�
 UID:a94ba164762e18eeb03de408f2cabe6e@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 212
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 212
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:8503b617537dfc91e56294a49bb73e40@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Введение в межкультурную коммуникацию (Практическое занятие)
+UID:f8f4c3d85607bacea8e8b94a4e41a0d9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 227
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261029T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
+UID:d9bdbb84adab38358e3d16027a62586c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Загребина Л.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:1d27351b312f0041b9aa40bdc381c349@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261127T141500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261127T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:1774d698c72fc95ea44b5f50ac291841@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 212
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 212
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:1a53a317561816bd0cf4ff849d1281ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261127T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261127T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:128f156749589aec52afc334a08a2f4f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nМесто: корп. 15\, ауд. 223
+DTEND:20261130T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261130T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:97e61b21e1ab1199a72a00a0b71fe698@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 225
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:f0a67492ecf830070de25fc47972133c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 225
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:c27b4b666111de3c4479a9c3493febc5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 14\, ауд. 233
+DTEND:20261124T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 233
+DTSTART:20261124T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:ad2dde1fc05836342204b31f2c0b5900@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Преподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 227
+DTEND:20261118T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261118T110000Z
+STATUS:CONFIRMED
+SUMMARY:Час с куратором
+UID:63d8d68af44b78036c9112d4b1920ec9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261030T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261030T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:e215085e0912bdf9a0e107f6e750b2f8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 15\, ауд. 211
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Лекция)
+UID:8714669f510ef0795a712e27cb1194f3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261106T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261106T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:ca371a17979e823918dfc7b4a95e31d8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 14\, ауд. 301
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 301
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:5b6780cc80c005c8ce7a3a8975311b90@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 14\, ауд. 301
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 301
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:f73f5d65ee0df480f817f73be0a59150@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nМесто: корп. 15\, ауд. 223
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:a21653795b715945fa4f533dc15da50a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 14\, ауд. 233
+DTEND:20261110T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 233
+DTSTART:20261110T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:1ca20ac56acef79e31b27ed7e40ee240@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 210
+DTEND:20261105T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 210
+DTSTART:20261105T110000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
+UID:c4d9cd9955814db236be379f4949f2b8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 15\, ауд. 218
+DTEND:20261123T141500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 218
+DTSTART:20261123T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:d870ed9e43e9badc3568a05671111850@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Стрельникова И.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 106
+DTEND:20261201T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 106
+DTSTART:20261201T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:ff67e45fe61da7ed07c013bbd26f64e9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 212
+DTEND:20261204T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 212
+DTSTART:20261204T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:1a85ac03e3d7f637ff150809709ebb18@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261030T141500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261030T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:573b97f0150ad20aad90d35fe8571244@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 210
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 210
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
+UID:fe7394293acec1fedaabc991302e0c94@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 210
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 210
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
+UID:c8e6a83487e176ce7937f7ca5ed0dfb1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:5184e51ac1480d05efc590d98b4cd0b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 210
+DTEND:20261203T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 210
+DTSTART:20261203T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
+UID:874f326f6fc50201c06d00e9c27635e6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 223
+DTEND:20261202T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261202T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:96d908696fa715c69b24e07e6fc667af@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 14\, ауд. 301
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 301
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:b2983f3de39bbcb888cec1cf754ead9b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 15\, ауд. 218
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 218
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:34f60fb75638f9d7d4efdafef07d82a3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261130T155000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261130T142000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:227ebfc08828ad2c13ef7eb8d22260a3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Загребина Л.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
+DTEND:20261201T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261201T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:dfb6be87724787bfb8ce8161a20a387f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Стрельникова И.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 106
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 106
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:ca12d855b795b065580aa9b424ce6a0d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 225
+DTEND:20261127T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261127T052000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:21522712767cb751a2447a5c8d53e6a8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Стрельникова И.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 106
+DTEND:20261124T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 106
+DTSTART:20261124T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:08197cc0fa9a0e320bf29381c2b64f60@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 14\, ауд. 301
+DTEND:20261027T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 301
+DTSTART:20261027T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:f469b129730059a2bd391b58f99c6a1b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Введение в межкультурную коммуникацию (Практическое занятие)
+UID:b58d1174a3e273fef00563f7c281a632@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
+DTEND:20261130T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261130T084500Z
+STATUS:CONFIRMED
+SUMMARY:Введение в межкультурную коммуникацию (Практическое занятие)
+UID:352954a7da32aecf239eac2f39d8c0de@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Загребина Л.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:68efbc70b66744f75094c030dc06ac65@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гмызина Э.В.\nМесто: корп. 15\, ауд. 207
+DTEND:20261102T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261102T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:5297bbfb6dde95076cc4a6bf6d103b12@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 15\, ауд. 211
+DTEND:20261125T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 211
+DTSTART:20261125T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Лекция)
+UID:ce6913a4de75017270a4f25f27514374@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261204T141500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261204T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:ff7b936b0bb36a9106a1c5ec56deee18@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 225
+DTEND:20261127T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261127T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:fa2ea31939b0f0601a524e600e2cb056@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Стрельникова И.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 106
+DTEND:20261110T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 106
+DTSTART:20261110T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:4e4b07a1d8cff20041ea71defc755997@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 14\, ауд. 301
+DTEND:20261124T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 301
+DTSTART:20261124T070000Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:61b41189241cfe9710ab745b89c2a0c9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Стрельникова И.В.\nПодгруппа: 1\nМесто: корп. 14\, ауд. 106
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 106
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:d74240db4e4581a6dfb5ea4f4391312b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 212
+DTEND:20261204T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 212
+DTSTART:20261204T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:5dfbcffe4c7130d1b38ca6b6b00abaa7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Загребина Л.А.\nПодгруппа: 2\nМесто: корп. 14\, ауд. 108
+DTEND:20261124T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261124T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:3fdb2223e740416bd2b1f7dd4f04cc35@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 210
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 210
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
+UID:b5ebf7492d06ce395f6684a95882aceb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
 DTEND:20261120T123000Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 1\, ауд. 530
 DTSTART:20261120T110000Z
 STATUS:CONFIRMED
@@ -756,14 +800,366 @@ SUMMARY:Русский язык как иностранный (Практиче�
 UID:bf6923f30d697373f15177cd8b545f6d@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023023Z
+DTSTAMP:20261120T021853Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 3\nМесто: корп. 14\, ауд. 108
 DTEND:20261103T065000Z
-LAST-MODIFIED:20261119T023023Z
+LAST-MODIFIED:20261120T021853Z
 LOCATION:корп. 14\, ауд. 108
 DTSTART:20261103T052000Z
 STATUS:CONFIRMED
 SUMMARY:Физическая культура и спорт (Практическое занятие)
 UID:9eb04883b09e44599b00b78c646c0317@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261204T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261204T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:76f7b3d36b1e4a668c0e7ba7359d27f7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 3\nМесто: корп. 14\, ауд. 108
+DTEND:20261110T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261110T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:791c0d2e489c38cfa7e4964efd3b8dc6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в межкультурную коммуникацию (Лекция)
+UID:b84f56cbbcb965a5bef000e75d059acb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 201
+DTEND:20261112T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 201
+DTSTART:20261112T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
+UID:ef138ca8f74c3e75315d85a0eb5d5a05@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гмызина Э.В.\nМесто: корп. 15\, ауд. 207
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:144b6697cad9db2d4e8fb49a58387da6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в межкультурную коммуникацию (Практическое занятие)
+UID:6afa02848ff0e2e31ef3cba541b8a98d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гмызина Э.В.\nМесто: корп. 15\, ауд. 207
+DTEND:20261116T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261116T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:bafff806c771007b368f97bdd5a50ed4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в межкультурную коммуникацию (Практическое занятие)
+UID:b5e4205a57845af6755a06c31ea43ee6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гмызина Э.В.\nМесто: корп. 15\, ауд. 207
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:5fcaec8a0e13795eeb866c3d6c18f2b1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 435
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 1\, ауд. 435
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:b33df7e71c15b700dc1b61d16c4db832@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 201
+DTEND:20261126T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 201
+DTSTART:20261126T084500Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
+UID:14b72ab36191adea195ab03706bb65b6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Береснева В.А.\nМесто: корп. 15\, ауд. 207
+DTEND:20261125T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261125T070000Z
+STATUS:CONFIRMED
+SUMMARY:Введение в межкультурную коммуникацию (Практическое занятие)
+UID:5009284312e5a260e6e0a9b4fa035e8f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гмызина Э.В.\nМесто: корп. 15\, ауд. 207
+DTEND:20261130T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261130T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:3b0c15f8bbb8ce4512d980b55442c30b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Гмызина Э.В.\nМесто: корп. 15\, ауд. 207
+DTEND:20261130T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 207
+DTSTART:20261130T052000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Практическое занятие)
+UID:af23e30232bf5aab74cfc654568e9190@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 15\, ауд. 218
+DTEND:20261105T141500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 218
+DTSTART:20261105T124500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:27a4ff760cb9af6de2131b97e4863751@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nМесто: корп. 15\, ауд. 225
+DTEND:20261123T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261123T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:a9e324f5334c35e6b9c6d86e585d2b29@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 14\, ауд. 214
+DTEND:20261201T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261201T084500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Лекция)
+UID:edcc923f31ca65888742ec9330d1416c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 3\nМесто: корп. 14\, ауд. 108
+DTEND:20261201T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261201T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:4dad250978a01645215b538a398af6de@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 219
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 219
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:97d9c5e9adf3d74b1ef6cc99b5d8b8ee@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 219
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 219
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:495b6248767422c1a3bc16ef329009f2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nМесто: корп. 15\, ауд. 225
+DTEND:20261109T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 225
+DTSTART:20261109T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:0c90c19fb0343f6b7f385491fcc58003@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Гмызина Э.В.\nМесто: корп. 14\, ауд. 338
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 338
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Основы российской государственности (Лекция)
+UID:d4b48fe41a1862316832ae85194fe3ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 227
+DTEND:20261126T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261126T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс первого иностранного языка (английский язык) (Практическое занятие)
+UID:6d04c5974b645df9a709867d79a6deb9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Преподаватель: Греку Ю.В.\nМесто: корп. 15\, ауд. 227
+DTEND:20261202T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 227
+DTSTART:20261202T110000Z
+STATUS:CONFIRMED
+SUMMARY:Час с куратором
+UID:62fbec0ab2265481643b7faee1f686cc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 219
+DTEND:20261123T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 219
+DTSTART:20261123T110000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:d1548f16d51346df18a3640e6fd7f6e1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Щербакова Т.В.\nМесто: корп. 15\, ауд. 223
+DTEND:20261118T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261118T084500Z
+STATUS:CONFIRMED
+SUMMARY:Иностранный язык (Практическое занятие)
+UID:9b8254e18be0187277a0bad41fdb515c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 14\, ауд. 233
+DTEND:20261027T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 233
+DTSTART:20261027T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Практическое занятие)
+UID:b0448829f7526a004c6b10b664a3f179@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Сунгурова О.В.\nМесто: корп. 15\, ауд. 223
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 15\, ауд. 223
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Практический курс второго иностранного языка (французский язык) (Практическое занятие)
+UID:6e5a585121f9d4bce412017b0fdf591e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Малых В.А.\nМесто: корп. 1\, ауд. 530
+DTEND:20261113T123000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 1\, ауд. 530
+DTSTART:20261113T110000Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык как иностранный (Практическое занятие)
+UID:681bfc174e60d15e9a8f48a8edbe3137@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Шапков Ю.В.\nПодгруппа: 3\nМесто: корп. 14\, ауд. 108
+DTEND:20261117T065000Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 108
+DTSTART:20261117T052000Z
+STATUS:CONFIRMED
+SUMMARY:Физическая культура и спорт (Практическое занятие)
+UID:04f847c68d0a9a2342c026a4e5dcb182@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Вылегжанина С.Ю.\nМесто: корп. 14\, ауд. 214
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 214
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Русский язык и культура речи (Лекция)
+UID:de811567f36e859e57f332e3cfd02448@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021853Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Перевозчикова М.С.\nМесто: корп. 14\, ауд. 301
+DTEND:20261124T101500Z
+LAST-MODIFIED:20261120T021853Z
+LOCATION:корп. 14\, ауд. 301
+DTSTART:20261124T084500Z
+STATUS:CONFIRMED
+SUMMARY:Современные информационные технологии (Практическое занятие)
+UID:0777975cdf8727d70be0f52b90355bd5@vyatsu.schedule
 END:VEVENT
 END:VCALENDAR

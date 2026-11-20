@@ -8,119 +8,32 @@ X-WR-TIMEZONE:Europe/Kirov
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бурков А.А.
-DTEND:20261118T083000Z
-LAST-MODIFIED:20261119T023021Z
-DTSTART:20261118T070000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из эластомеров (Практическое занятие)
-UID:b792a86bcfa2d62d74910caf5a4638d8@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
-DTEND:20261027T065000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 523
-DTSTART:20261027T052000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:74e2cefd7ce7fb43f00c5d74dc7876ae@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
-DTEND:20261102T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 515
-DTSTART:20261102T070000Z
-STATUS:CONFIRMED
-SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
-UID:e89483e8ecfb33de0f4046c51f19faca@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
-DTEND:20261102T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 515
-DTSTART:20261102T084500Z
-STATUS:CONFIRMED
-SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
-UID:b49510d341157b1c61e34434eaf9c0a8@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
-DTEND:20261111T065000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261111T052000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
-UID:4bf5bca2e6308a6a059decfc23ace86d@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Сазанов А.В.\nМесто: корп. 15\, ауд. 310
-DTEND:20261116T123000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 15\, ауд. 310
-DTSTART:20261116T110000Z
-STATUS:CONFIRMED
-SUMMARY:Статическая биохимия (Лекция)
-UID:5f01ce59d72f873bd93303f7efd6c409@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
-DTEND:20261116T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 515
-DTSTART:20261116T070000Z
-STATUS:CONFIRMED
-SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
-UID:1545e2ae7af1f08c6a3763ae2dfe824a@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
-DTEND:20261119T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 515
-DTSTART:20261119T070000Z
-STATUS:CONFIRMED
-SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
-UID:21b93938740be2354021612551591d9a@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
-DTEND:20261111T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261111T070000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
-UID:ea12cb96d328ba5d8443b0c0ad0bc77c@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
-DTEND:20261030T083000Z
-LAST-MODIFIED:20261119T023021Z
+DTEND:20261127T083000Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261030T070000Z
+DTSTART:20261127T070000Z
 STATUS:CONFIRMED
 SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
-UID:44588224958ea4f52d6d4a74040f5190@vyatsu.schedule
+UID:498a9675bc161fa958ff628b68ab8473@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261203T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261203T084500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:61d538ca8a8444a547410df056c3192a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
 DTEND:20261105T123000Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 032д
 DTSTART:20261105T110000Z
 STATUS:CONFIRMED
@@ -128,32 +41,10 @@ SUMMARY:Материаловедение для изделий из пластм
 UID:b22d100b1aa7523897efe3479cc43335@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
-DTEND:20261119T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 515
-DTSTART:20261119T084500Z
-STATUS:CONFIRMED
-SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
-UID:dc1c067531157feb893c7d350bd9fbc1@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
-DTEND:20261105T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 515
-DTSTART:20261105T084500Z
-STATUS:CONFIRMED
-SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
-UID:0eb8b33b94302bb95ac4ddf39bb63aed@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
 DTEND:20261028T065000Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 032д
 DTSTART:20261028T052000Z
 STATUS:CONFIRMED
@@ -161,65 +52,10 @@ SUMMARY:Материаловедение для изделий из пластм
 UID:ef7a1b74615da2b527cb9bdd9abb4785@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
-DTEND:20261110T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 523
-DTSTART:20261110T084500Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:0d99311025c5a4108a479395911790c0@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
-DTEND:20261028T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261028T084500Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
-UID:1320778e2cfe3b7927b67ae5b48fc04e@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
-DTEND:20261120T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261120T070000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
-UID:ba93becdaae3a05033ed7917bbcce6d2@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 418
-DTEND:20261026T141500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 15\, ауд. 418
-DTSTART:20261026T124500Z
-STATUS:CONFIRMED
-SUMMARY:Статическая биохимия (Лабораторная работа)
-UID:d70f83752464c06fc22c50c025c14463@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
-DTEND:20261103T065000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 528
-DTSTART:20261103T052000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:a7619f4dd0072ce78ed9dc00359ba262@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
 DTEND:20261117T065000Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 523
 DTSTART:20261117T052000Z
 STATUS:CONFIRMED
@@ -227,76 +63,10 @@ SUMMARY:Проектная деятельность в области перер
 UID:c3eeb89b381c88d7692dec593b96cc42@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
-DTEND:20261117T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 528
-DTSTART:20261117T070000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:4474bd0b100cffc9640a43c33cda272b@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
-DTEND:20261103T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 528
-DTSTART:20261103T084500Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:de45e2823d522dcb6c18ce5be2675311@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
-DTEND:20261102T155000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 15\, ауд. 418
-DTSTART:20261102T142000Z
-STATUS:CONFIRMED
-SUMMARY:Статическая биохимия (Лабораторная работа)
-UID:9e2475b2b508b4f1c9c07a066ab2650d@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широкова Е.С.\nМесто: корп. 1\, ауд. 521
-DTEND:20261029T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 521
-DTSTART:20261029T070000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из пластмасс (Практическое занятие)
-UID:209cfbb99538bcdf8742114309b16e95@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
-DTEND:20261113T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261113T070000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
-UID:f34b77ca3cc59320a3f67fe6c6ef6e9d@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
-DTEND:20261117T065000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 528
-DTSTART:20261117T052000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:48f907fa27d191c82ec08600991c44f1@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Бурков А.А.\nМесто: корп. 1\, ауд. 521
 DTEND:20261118T065000Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 521
 DTSTART:20261118T052000Z
 STATUS:CONFIRMED
@@ -304,32 +74,21 @@ SUMMARY:Материаловедение для изделий из эласто
 UID:988af2266c1c5725f3452854b0f529a3@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Широкова Е.С.\nМесто: корп. 1\, ауд. 521
-DTEND:20261119T065000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 521
-DTSTART:20261119T052000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из пластмасс (Лекция)
-UID:d52d826639e59e1bfc6c9e01acd5516d@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
-DTEND:20261110T101500Z
-LAST-MODIFIED:20261119T023021Z
+DTEND:20261124T101500Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 528
-DTSTART:20261110T084500Z
+DTSTART:20261124T084500Z
 STATUS:CONFIRMED
 SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:0421e3e73f4999721612f0518b43d8dd@vyatsu.schedule
+UID:aed4c812299e874510bc3a613c7c283f@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
 DTEND:20261105T083000Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 515
 DTSTART:20261105T070000Z
 STATUS:CONFIRMED
@@ -337,10 +96,10 @@ SUMMARY:Безопасность жизнедеятельности (Лабор�
 UID:522cf9ff6989facb4783147bb26ddd30@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
 DTEND:20261110T065000Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 523
 DTSTART:20261110T052000Z
 STATUS:CONFIRMED
@@ -348,21 +107,10 @@ SUMMARY:Проектная деятельность в области перер
 UID:3b137d313c107f6f69e59dbeb62187e8@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
-DTEND:20261117T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 523
-DTSTART:20261117T070000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:0501f504ce218e9918cc15202af4e982@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
 DTEND:20261106T065000Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 032д
 DTSTART:20261106T052000Z
 STATUS:CONFIRMED
@@ -370,10 +118,10 @@ SUMMARY:Материаловедение для изделий из эласто
 UID:0add8a0070ffac334000e8b3c28236d5@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
 DTEND:20261027T101500Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 523
 DTSTART:20261027T084500Z
 STATUS:CONFIRMED
@@ -381,54 +129,10 @@ SUMMARY:Проектная деятельность в области перер
 UID:a6ff20f981bcfef2e86d0ca1e1291da4@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
-DTEND:20261027T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 528
-DTSTART:20261027T070000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:b8cf7ae0af97ecd3736c5287d4f46917@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Бурков А.А.\nМесто: корп. 1\, ауд. 521
-DTEND:20261029T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 521
-DTSTART:20261029T084500Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из эластомеров (Лекция)
-UID:ef024117b1d12ab62052a12a3c6c884e@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
-DTEND:20261028T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261028T070000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
-UID:562cf88c4a95a0443945487c2fc06a89@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 418
-DTEND:20261026T123000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 15\, ауд. 418
-DTSTART:20261026T110000Z
-STATUS:CONFIRMED
-SUMMARY:Статическая биохимия (Лабораторная работа)
-UID:11a564763ac55facad683612e2a0bdad@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
 DTEND:20261027T101500Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 528
 DTSTART:20261027T084500Z
 STATUS:CONFIRMED
@@ -436,43 +140,10 @@ SUMMARY:Проектная деятельность в области перер
 UID:2f928b991b70c052802e51df774711aa@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
-DTEND:20261116T141500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 15\, ауд. 418
-DTSTART:20261116T124500Z
-STATUS:CONFIRMED
-SUMMARY:Статическая биохимия (Лабораторная работа)
-UID:2106de80c252cd00656693def3d6a49f@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
-DTEND:20261119T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261119T070000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
-UID:a86b010265ff9bc6afe53c8152cd58db@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
-DTEND:20261106T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261106T084500Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
-UID:c01b7d07c01d7c1f9065802bda08c11e@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Широкова Е.С.\nМесто: корп. 1\, ауд. 521
 DTEND:20261029T065000Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 521
 DTSTART:20261029T052000Z
 STATUS:CONFIRMED
@@ -480,87 +151,21 @@ SUMMARY:Материаловедение для изделий из пластм
 UID:4fd6d2960e308f6c73fa4c5f2cdf9a71@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
-DTEND:20261106T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261106T070000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
-UID:1a0beb36b27586be0aef1e970f8ed717@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
-DTEND:20261111T101500Z
-LAST-MODIFIED:20261119T023021Z
+DTEND:20261125T065000Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261111T084500Z
+DTSTART:20261125T052000Z
 STATUS:CONFIRMED
 SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
-UID:c70e9ba9843603870a1a36cbd73b9ac7@vyatsu.schedule
+UID:8c1958bec9ab6d45c3a4b309bc0bf573@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
-DTEND:20261027T065000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 528
-DTSTART:20261027T052000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:5feed3f97fabc7dd52012166de2609f7@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
-DTEND:20261117T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 528
-DTSTART:20261117T084500Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:d382cf1f8f413a8a9599b8bfc03db2fd@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
-DTEND:20261110T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 528
-DTSTART:20261110T070000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:3ca9528bb4ed2eaed19f9364477cfe4d@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Сазанов А.В.\nМесто: корп. 15\, ауд. 310
-DTEND:20261102T123000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 15\, ауд. 310
-DTSTART:20261102T110000Z
-STATUS:CONFIRMED
-SUMMARY:Статическая биохимия (Лекция)
-UID:5dc3e517d96c004e986c3a8bb9063563@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 418
-DTEND:20261109T123000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 15\, ауд. 418
-DTSTART:20261109T110000Z
-STATUS:CONFIRMED
-SUMMARY:Статическая биохимия (Лабораторная работа)
-UID:114ad1292ba655cfb829082afd970504@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
 DTEND:20261120T101500Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 032д
 DTSTART:20261120T084500Z
 STATUS:CONFIRMED
@@ -568,76 +173,10 @@ SUMMARY:Материаловедение для изделий из эласто
 UID:651b3aa09d3c9a53e22885a33e7fa9b1@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
-DTEND:20261030T065000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261030T052000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
-UID:4d3e5e6b67caee2a59676f8325980ed2@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
-DTEND:20261119T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261119T084500Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
-UID:d49de6233f3a64e005d9b32ed205ad06@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
-DTEND:20261102T141500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 15\, ауд. 418
-DTSTART:20261102T124500Z
-STATUS:CONFIRMED
-SUMMARY:Статическая биохимия (Лабораторная работа)
-UID:8a961d7d046b79f14053c8f3a04a808e@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
-DTEND:20261103T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 528
-DTSTART:20261103T070000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:fd7b39ea1d28fb9589e2e4d1b9463e7d@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
-DTEND:20261105T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261105T070000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
-UID:f068c17b32ce076976b2a03151d9c003@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
-DTEND:20261110T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 523
-DTSTART:20261110T070000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:6bb14ee9f84cbb48a1f135c6f2b755fc@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Широкова Е.С.\nМесто: корп. 1\, ауд. 521
 DTEND:20261112T065000Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 521
 DTSTART:20261112T052000Z
 STATUS:CONFIRMED
@@ -645,98 +184,21 @@ SUMMARY:Материаловедение для изделий из пластм
 UID:f3469d4c4309679cf5d4b6ee401c2882@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
-DTEND:20261103T065000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 523
-DTSTART:20261103T052000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:7ea78fab598e9adab7b476f09c77b7d0@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
-DTEND:20261116T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 515
-DTSTART:20261116T084500Z
-STATUS:CONFIRMED
-SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
-UID:cc1348cbc20aea3ace2a4b137341b454@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
-DTEND:20261103T083000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 523
-DTSTART:20261103T070000Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:741aee52d57c90db14f030f06ae5fc8e@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
-DTEND:20261110T065000Z
-LAST-MODIFIED:20261119T023021Z
+DTEND:20261201T065000Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 528
-DTSTART:20261110T052000Z
+DTSTART:20261201T052000Z
 STATUS:CONFIRMED
 SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:739ea6a98065a7b0d22dd199e35af6c9@vyatsu.schedule
+UID:731832159b23448e65f51b608e493ff3@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
-DTEND:20261116T155000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 15\, ауд. 418
-DTSTART:20261116T142000Z
-STATUS:CONFIRMED
-SUMMARY:Статическая биохимия (Лабораторная работа)
-UID:917a77f987a62b2771167231b630ccce@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
-DTEND:20261030T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261030T084500Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
-UID:8db3514cfa5fb3c4b1213fce85eb4e8a@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
-DTEND:20261103T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 523
-DTSTART:20261103T084500Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:b50c629f627e4be68bb244fe56701781@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
-DTEND:20261119T123000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261119T110000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
-UID:5516d05cd50800b42d125899740d377e@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
 DTEND:20261113T101500Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 032д
 DTSTART:20261113T084500Z
 STATUS:CONFIRMED
@@ -744,32 +206,32 @@ SUMMARY:Материаловедение для изделий из эласто
 UID:db6ba69ca79a7088ea01961590d82345@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
-DTEND:20261105T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261105T084500Z
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261130T155000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261130T142000Z
 STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
-UID:f2fa3cbb9eee31c5a716fc4d480b458d@vyatsu.schedule
+SUMMARY:Статическая биохимия (Лабораторная работа)
+UID:9896bbe46e49a8364bf2f8c79b6666e1@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
-DTEND:20261113T065000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261113T052000Z
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
+DTEND:20261203T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261203T070000Z
 STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
-UID:6ba2a6fc5b0e8343727e67b363afedcb@vyatsu.schedule
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:086ad72fbabe18725cfc9249692f7972@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
 DTEND:20261027T083000Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 523
 DTSTART:20261027T070000Z
 STATUS:CONFIRMED
@@ -777,32 +239,10 @@ SUMMARY:Проектная деятельность в области перер
 UID:5a5157d045e5708510b7c71bcf02e3ad@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
-DTEND:20261117T101500Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 523
-DTSTART:20261117T084500Z
-STATUS:CONFIRMED
-SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
-UID:68ec4410f862529a50f8413305305165@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
-DTEND:20261120T065000Z
-LAST-MODIFIED:20261119T023021Z
-LOCATION:корп. 1\, ауд. 032д
-DTSTART:20261120T052000Z
-STATUS:CONFIRMED
-SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
-UID:19b757590210dc7e7e58f6b21a9776c4@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Бурков А.А.\nМесто: корп. 1\, ауд. 521
 DTEND:20261112T101500Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 521
 DTSTART:20261112T084500Z
 STATUS:CONFIRMED
@@ -810,21 +250,350 @@ SUMMARY:Материаловедение для изделий из эласто
 UID:cf85bb05274123b98232ba2a78f9beea@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Широкова Е.С.\nМесто: корп. 1\, ауд. 521
-DTEND:20261105T065000Z
-LAST-MODIFIED:20261119T023021Z
+DTEND:20261203T065000Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 521
-DTSTART:20261105T052000Z
+DTSTART:20261203T052000Z
 STATUS:CONFIRMED
 SUMMARY:Материаловедение для изделий из пластмасс (Лекция)
-UID:891d622269616dbb26099acad659d7ed@vyatsu.schedule
+UID:54180ebc9921d6eebf721b12eaff2d50@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261130T141500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261130T124500Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лабораторная работа)
+UID:b08d1af40d559c84cd96ae6d041998a2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261030T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261030T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:44588224958ea4f52d6d4a74040f5190@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261124T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261124T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:1da7dc5f4ab9b6b62a995bc97f4ff11a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 418
+DTEND:20261026T141500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261026T124500Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лабораторная работа)
+UID:d70f83752464c06fc22c50c025c14463@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:a7619f4dd0072ce78ed9dc00359ba262@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261124T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261124T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:aacf2499695dd81c5045f98b20fb5203@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бурков А.А.
+DTEND:20261202T083000Z
+LAST-MODIFIED:20261120T021850Z
+DTSTART:20261202T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Практическое занятие)
+UID:3309e4acd694b471ab6cebfed1ea21ff@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:4474bd0b100cffc9640a43c33cda272b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261113T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261113T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:f34b77ca3cc59320a3f67fe6c6ef6e9d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261102T155000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261102T142000Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лабораторная работа)
+UID:9e2475b2b508b4f1c9c07a066ab2650d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Широкова Е.С.\nМесто: корп. 1\, ауд. 521
+DTEND:20261119T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261119T052000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лекция)
+UID:d52d826639e59e1bfc6c9e01acd5516d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:0421e3e73f4999721612f0518b43d8dd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бурков А.А.\nМесто: корп. 1\, ауд. 521
+DTEND:20261029T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261029T084500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лекция)
+UID:ef024117b1d12ab62052a12a3c6c884e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261201T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261201T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:592bf748c87cc1736b76443d91bf5a7e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:a86b010265ff9bc6afe53c8152cd58db@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широкова Е.С.\nМесто: корп. 1\, ауд. 521
+DTEND:20261112T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261112T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Практическое занятие)
+UID:13e7e8c5df426f237c44a85c683d9605@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261106T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261106T084500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:c01b7d07c01d7c1f9065802bda08c11e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261125T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261125T084500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:b60a686e2f33a65ffd1f912fe4a20ab6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
+DTEND:20261203T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261203T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:390987e4ac29e18bbf20bea429e12369@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сазанов А.В.\nМесто: корп. 15\, ауд. 310
+DTEND:20261102T123000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 310
+DTSTART:20261102T110000Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лекция)
+UID:5dc3e517d96c004e986c3a8bb9063563@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261102T141500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261102T124500Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лабораторная работа)
+UID:8a961d7d046b79f14053c8f3a04a808e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261204T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261204T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:432b7b38b368a774179cc717bbfc51be@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
+DTEND:20261130T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261130T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:4a5225c2fb379427e09b2a0c5d2af82f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261204T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261204T084500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:0a4159091b2a8d871a5255c9a7558821@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261110T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261110T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:739ea6a98065a7b0d22dd199e35af6c9@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261030T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261030T084500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:8db3514cfa5fb3c4b1213fce85eb4e8a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261125T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261125T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:9a68c8d4b69184d77b53b14d439ab91f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261119T123000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261119T110000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:5516d05cd50800b42d125899740d377e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261127T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261127T084500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:077f997ba7b95c68be29afa214293d7c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широкова Е.С.\nМесто: корп. 1\, ауд. 521
+DTEND:20261126T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261126T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Практическое занятие)
+UID:b8e3bab1749d7f606efd0595f3ceb98c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
 DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 418
 DTEND:20261109T141500Z
-LAST-MODIFIED:20261119T023021Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 15\, ауд. 418
 DTSTART:20261109T124500Z
 STATUS:CONFIRMED
@@ -832,14 +601,673 @@ SUMMARY:Статическая биохимия (Лабораторная раб
 UID:789c09abacdef812a41bcdb4bbd01524@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023021Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широкова Е.С.\nМесто: корп. 1\, ауд. 521
-DTEND:20261112T083000Z
-LAST-MODIFIED:20261119T023021Z
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Бурков А.А.
+DTEND:20261118T083000Z
+LAST-MODIFIED:20261120T021850Z
+DTSTART:20261118T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Практическое занятие)
+UID:b792a86bcfa2d62d74910caf5a4638d8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261111T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261111T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:ea12cb96d328ba5d8443b0c0ad0bc77c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:dc1c067531157feb893c7d350bd9fbc1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261204T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261204T052000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:46a4b1bfcdfe70229ed5036444a43266@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261110T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261110T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:0d99311025c5a4108a479395911790c0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261117T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261117T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:0501f504ce218e9918cc15202af4e982@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 418
+DTEND:20261026T123000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261026T110000Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лабораторная работа)
+UID:11a564763ac55facad683612e2a0bdad@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 418
+DTEND:20261123T123000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261123T110000Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лабораторная работа)
+UID:4cb161b0ba8d97f4760e7295c4c5c21c@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261116T141500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261116T124500Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лабораторная работа)
+UID:2106de80c252cd00656693def3d6a49f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261111T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261111T084500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:c70e9ba9843603870a1a36cbd73b9ac7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:5feed3f97fabc7dd52012166de2609f7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сазанов А.В.\nМесто: корп. 15\, ауд. 310
+DTEND:20261130T123000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 310
+DTSTART:20261130T110000Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лекция)
+UID:a19250040753670f60ddbd80ff881cb1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261124T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261124T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:9fbcb5c496d57e3bdbcc788e29c9827f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 418
+DTEND:20261109T123000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261109T110000Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лабораторная работа)
+UID:114ad1292ba655cfb829082afd970504@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261030T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261030T052000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:4d3e5e6b67caee2a59676f8325980ed2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261119T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261119T084500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:d49de6233f3a64e005d9b32ed205ad06@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261105T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261105T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:f068c17b32ce076976b2a03151d9c003@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:6bb14ee9f84cbb48a1f135c6f2b755fc@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261201T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261201T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:58efad8f4ab3aab5c42a759db293b84d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 2\nМесто: корп. 15\, ауд. 418
+DTEND:20261116T155000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261116T142000Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лабораторная работа)
+UID:917a77f987a62b2771167231b630ccce@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261127T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261127T052000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:6af80b4221b91cee85068b765f28d82b@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:f2fa3cbb9eee31c5a716fc4d480b458d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:68ec4410f862529a50f8413305305165@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261203T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261203T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:a05cf33bb04aa03b601f9f4ed02867c2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Широкова Е.С.\nМесто: корп. 1\, ауд. 521
+DTEND:20261126T065000Z
+LAST-MODIFIED:20261120T021850Z
 LOCATION:корп. 1\, ауд. 521
-DTSTART:20261112T070000Z
+DTSTART:20261126T052000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лекция)
+UID:ebbb44f9cc532cd56fdbec51857894d6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261201T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261201T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:70a8d7fa4b6705bf7b4358f2ee155c76@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261027T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261027T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:74e2cefd7ce7fb43f00c5d74dc7876ae@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
+DTEND:20261102T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261102T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:e89483e8ecfb33de0f4046c51f19faca@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
+DTEND:20261102T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261102T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:b49510d341157b1c61e34434eaf9c0a8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261111T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261111T052000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:4bf5bca2e6308a6a059decfc23ace86d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Сазанов А.В.\nМесто: корп. 15\, ауд. 310
+DTEND:20261116T123000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 310
+DTSTART:20261116T110000Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лекция)
+UID:5f01ce59d72f873bd93303f7efd6c409@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
+DTEND:20261116T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261116T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:1545e2ae7af1f08c6a3763ae2dfe824a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
+DTEND:20261119T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261119T070000Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:21b93938740be2354021612551591d9a@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бурков А.А.\nМесто: корп. 1\, ауд. 521
+DTEND:20261202T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261202T052000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лекция)
+UID:c99595bee2d33ac611cf95de3ad8d780@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 515
+DTEND:20261105T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261105T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:0eb8b33b94302bb95ac4ddf39bb63aed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261028T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261028T084500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:1320778e2cfe3b7927b67ae5b48fc04e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261120T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261120T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:ba93becdaae3a05033ed7917bbcce6d2@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:de45e2823d522dcb6c18ce5be2675311@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261117T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261117T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:48f907fa27d191c82ec08600991c44f1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Широкова Е.С.\nМесто: корп. 1\, ауд. 521
+DTEND:20261029T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261029T070000Z
 STATUS:CONFIRMED
 SUMMARY:Материаловедение для изделий из пластмасс (Практическое занятие)
-UID:13e7e8c5df426f237c44a85c683d9605@vyatsu.schedule
+UID:209cfbb99538bcdf8742114309b16e95@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261124T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261124T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:737f269aba7d0e786e47e87d7704c37e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Сазанов А.В.\nПодгруппа: 1\nМесто: корп. 15\, ауд. 418
+DTEND:20261123T141500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 15\, ауд. 418
+DTSTART:20261123T124500Z
+STATUS:CONFIRMED
+SUMMARY:Статическая биохимия (Лабораторная работа)
+UID:99ccdf5ca71fa074165438075aa98847@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261027T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261027T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:b8cf7ae0af97ecd3736c5287d4f46917@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261028T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261028T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:562cf88c4a95a0443945487c2fc06a89@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261106T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261106T070000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:1a0beb36b27586be0aef1e970f8ed717@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261117T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261117T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:d382cf1f8f413a8a9599b8bfc03db2fd@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261110T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261110T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:3ca9528bb4ed2eaed19f9364477cfe4d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261203T123000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261203T110000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лабораторная работа)
+UID:3f7cda20ffffcca004ab489130c86dbb@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261201T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261201T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:9eb127450fc1bdae22f0c38f326c474d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:fd7b39ea1d28fb9589e2e4d1b9463e7d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
+DTEND:20261116T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261116T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:cc1348cbc20aea3ace2a4b137341b454@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261103T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261103T052000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:7ea78fab598e9adab7b476f09c77b7d0@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261103T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261103T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:741aee52d57c90db14f030f06ae5fc8e@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261124T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261124T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:4c36871058b2ffbb359285bae60334b4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Бурков А.А.\nМесто: корп. 1\, ауд. 521
+DTEND:20261126T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261126T084500Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лекция)
+UID:db9a7e867f1c9541097bc674596405c8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 523
+DTEND:20261103T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 523
+DTSTART:20261103T084500Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:b50c629f627e4be68bb244fe56701781@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 032д
+DTEND:20261120T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261120T052000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:19b757590210dc7e7e58f6b21a9776c4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Широкова Е.С.\nПодгруппа: 2\nМесто: корп. 1\, ауд. 528
+DTEND:20261201T083000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 528
+DTSTART:20261201T070000Z
+STATUS:CONFIRMED
+SUMMARY:Проектная деятельность в области переработки полимеров (Лабораторная работа)
+UID:8ea30b938873997b0f3389ef0b69d587@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Широкова Е.С.\nМесто: корп. 1\, ауд. 521
+DTEND:20261105T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 521
+DTSTART:20261105T052000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из пластмасс (Лекция)
+UID:891d622269616dbb26099acad659d7ed@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Горностаева Е.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 515
+DTEND:20261130T101500Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 515
+DTSTART:20261130T084500Z
+STATUS:CONFIRMED
+SUMMARY:Безопасность жизнедеятельности (Лабораторная работа)
+UID:1400c20996a08ad15ab27a250506c445@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021850Z
+DESCRIPTION:Тип: Лабораторная работа\nПреподаватель: Бурков А.А.\nПодгруппа: 1\nМесто: корп. 1\, ауд. 032д
+DTEND:20261113T065000Z
+LAST-MODIFIED:20261120T021850Z
+LOCATION:корп. 1\, ауд. 032д
+DTSTART:20261113T052000Z
+STATUS:CONFIRMED
+SUMMARY:Материаловедение для изделий из эластомеров (Лабораторная работа)
+UID:6ba2a6fc5b0e8343727e67b363afedcb@vyatsu.schedule
 END:VEVENT
 END:VCALENDAR

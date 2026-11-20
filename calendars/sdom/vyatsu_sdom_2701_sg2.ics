@@ -8,54 +8,43 @@ X-WR-TIMEZONE:Europe/Kirov
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-DTSTAMP:20261119T023029Z
-DESCRIPTION:Тип: Лекция\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
-DTEND:20261117T141500Z
-LAST-MODIFIED:20261119T023029Z
-LOCATION:корп. 15\, ауд. 426
-DTSTART:20261117T124500Z
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 332
+DTEND:20261126T141500Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261126T124500Z
 STATUS:CONFIRMED
 SUMMARY:Современные реабилитационные технологии в образовании (Лекция)
-UID:5f40c4021eb2b819715f6f93be957bc4@vyatsu.schedule
+UID:56603b387f02bcf7030d129c7358a996@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023029Z
+DTSTAMP:20261120T021902Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 332
-DTEND:20261119T141500Z
-LAST-MODIFIED:20261119T023029Z
+DTEND:20261126T172500Z
+LAST-MODIFIED:20261120T021902Z
 LOCATION:корп. 15\, ауд. 332
-DTSTART:20261119T124500Z
+DTSTART:20261126T155500Z
+STATUS:CONFIRMED
+SUMMARY:Организационное и методическое обеспечение коррекционной логопедической работы в системе образования (Практическое занятие)
+UID:fbd8da0369fb66e12818c510a37f031d@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 332
+DTEND:20261203T141500Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261203T124500Z
 STATUS:CONFIRMED
 SUMMARY:Современные реабилитационные технологии в образовании (Практическое занятие)
-UID:f557a3fb16a5e2fdacdda8dc296dc5e7@vyatsu.schedule
+UID:1414cf8801b5722cfd976af2d5e64688@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023029Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
-DTEND:20261117T155000Z
-LAST-MODIFIED:20261119T023029Z
-LOCATION:корп. 15\, ауд. 426
-DTSTART:20261117T142000Z
-STATUS:CONFIRMED
-SUMMARY:Современные реабилитационные технологии в образовании (Практическое занятие)
-UID:d9bdc8eb72a3a2593cf4cd6ba5a288e7@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023029Z
-DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ивутина Е.П.\nМесто: корп. 15\, ауд. 337
-DTEND:20261120T155000Z
-LAST-MODIFIED:20261119T023029Z
-LOCATION:корп. 15\, ауд. 337
-DTSTART:20261120T142000Z
-STATUS:CONFIRMED
-SUMMARY:Технологии психолого-педагогической диагностики и педагогических измерений (Практическое занятие)
-UID:7389179c6f3ca6ea622d00cff731f4a5@vyatsu.schedule
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20261119T023029Z
+DTSTAMP:20261120T021902Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 332
 DTEND:20261119T172500Z
-LAST-MODIFIED:20261119T023029Z
+LAST-MODIFIED:20261120T021902Z
 LOCATION:корп. 15\, ауд. 332
 DTSTART:20261119T155500Z
 STATUS:CONFIRMED
@@ -63,10 +52,98 @@ SUMMARY:Организационное и методическое обеспе�
 UID:144301c2d27f2ffcebf09824d7ba7ec3@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023029Z
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ивутина Е.П.\nМесто: корп. 15\, ауд. 337
+DTEND:20261120T155000Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261120T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии психолого-педагогической диагностики и педагогических измерений (Практическое занятие)
+UID:7389179c6f3ca6ea622d00cff731f4a5@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
+DTEND:20261124T155000Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 426
+DTSTART:20261124T142000Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование коррекционно-развивающих программ для работы с лицами с ограниченными возможностями здоровья в системе образования (Практическое занятие)
+UID:676a8542ad6170faf510826ccff8a7f6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ивутина Е.П.\nМесто: корп. 15\, ауд. 337
+DTEND:20261204T141500Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261204T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии психолого-педагогической диагностики и педагогических измерений (Лекция)
+UID:7bd1649eee3a0de32bd5e8236cac5ee4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Ивутина Е.П.\nМесто: корп. 15\, ауд. 339
+DTEND:20261127T141500Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261127T124500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии психолого-педагогической диагностики и педагогических измерений (Лекция)
+UID:4d37b2974273db8fe270a68119e4ea11@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ивутина Е.П.\nМесто: корп. 15\, ауд. 337
+DTEND:20261204T172500Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261204T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии психолого-педагогической диагностики и педагогических измерений (Практическое занятие)
+UID:a8d3fb2ad3b39df590017eab6e12cf87@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 332
+DTEND:20261119T141500Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261119T124500Z
+STATUS:CONFIRMED
+SUMMARY:Современные реабилитационные технологии в образовании (Практическое занятие)
+UID:f557a3fb16a5e2fdacdda8dc296dc5e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
+DTEND:20261117T155000Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 426
+DTSTART:20261117T142000Z
+STATUS:CONFIRMED
+SUMMARY:Современные реабилитационные технологии в образовании (Практическое занятие)
+UID:d9bdc8eb72a3a2593cf4cd6ba5a288e7@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ивутина Е.П.\nМесто: корп. 15\, ауд. 339
+DTEND:20261127T172500Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261127T155500Z
+STATUS:CONFIRMED
+SUMMARY:Технологии психолого-педагогической диагностики и педагогических измерений (Практическое занятие)
+UID:e9b68f4dfa10dde202d0da46f1bf3d05@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
 DESCRIPTION:Тип: Лекция\nПреподаватель: Ивутина Е.П.\nМесто: корп. 15\, ауд. 337
 DTEND:20261120T141500Z
-LAST-MODIFIED:20261119T023029Z
+LAST-MODIFIED:20261120T021902Z
 LOCATION:корп. 15\, ауд. 337
 DTSTART:20261120T124500Z
 STATUS:CONFIRMED
@@ -74,10 +151,10 @@ SUMMARY:Технологии психолого-педагогической д�
 UID:ffb79e1e6f10373c8e0ee494e55de0f6@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023029Z
+DTSTAMP:20261120T021902Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 332
 DTEND:20261119T155000Z
-LAST-MODIFIED:20261119T023029Z
+LAST-MODIFIED:20261120T021902Z
 LOCATION:корп. 15\, ауд. 332
 DTSTART:20261119T142000Z
 STATUS:CONFIRMED
@@ -85,10 +162,131 @@ SUMMARY:Организационное и методическое обеспе�
 UID:7e1169c88a0bd5a644f45360de28c668@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023029Z
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 332
+DTEND:20261126T155000Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261126T142000Z
+STATUS:CONFIRMED
+SUMMARY:Организационное и методическое обеспечение коррекционной логопедической работы в системе образования (Лекция)
+UID:97c030ff82cbeea837f4ae25dcac5ef1@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 332
+DTEND:20261203T172500Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261203T155500Z
+STATUS:CONFIRMED
+SUMMARY:Организационное и методическое обеспечение коррекционной логопедической работы в системе образования (Практическое занятие)
+UID:d22962b2bb9cec2be5536eefd9aff8fe@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
+DTEND:20261124T141500Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 426
+DTSTART:20261124T124500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование коррекционно-развивающих программ для работы с лицами с ограниченными возможностями здоровья в системе образования (Лекция)
+UID:58d0666315cb6b9757738b48753fd2d6@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
+DTEND:20261201T172500Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 426
+DTSTART:20261201T155500Z
+STATUS:CONFIRMED
+SUMMARY:Современные реабилитационные технологии в образовании (Практическое занятие)
+UID:31a258df2bb12c9304735f071ca10a65@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
+DTEND:20261201T155000Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 426
+DTSTART:20261201T142000Z
+STATUS:CONFIRMED
+SUMMARY:Современные реабилитационные технологии в образовании (Практическое занятие)
+UID:e70fe30f4d8e57287e96a0f78e527a20@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ивутина Е.П.\nМесто: корп. 15\, ауд. 337
+DTEND:20261204T155000Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 337
+DTSTART:20261204T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии психолого-педагогической диагностики и педагогических измерений (Практическое занятие)
+UID:ff183008ab4ca9b26884110628cbe154@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
+DTEND:20261117T141500Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 426
+DTSTART:20261117T124500Z
+STATUS:CONFIRMED
+SUMMARY:Современные реабилитационные технологии в образовании (Лекция)
+UID:5f40c4021eb2b819715f6f93be957bc4@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
+DTEND:20261124T172500Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 426
+DTSTART:20261124T155500Z
+STATUS:CONFIRMED
+SUMMARY:Проектирование коррекционно-развивающих программ для работы с лицами с ограниченными возможностями здоровья в системе образования (Практическое занятие)
+UID:7784c2977c087616b60bf32b55cdd5d3@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ивутина Е.П.\nМесто: корп. 15\, ауд. 339
+DTEND:20261127T155000Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 339
+DTSTART:20261127T142000Z
+STATUS:CONFIRMED
+SUMMARY:Технологии психолого-педагогической диагностики и педагогических измерений (Практическое занятие)
+UID:0c084bf988ceba2e07af3fe4e0b47bc8@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 332
+DTEND:20261203T155000Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 332
+DTSTART:20261203T142000Z
+STATUS:CONFIRMED
+SUMMARY:Организационное и методическое обеспечение коррекционной логопедической работы в системе образования (Практическое занятие)
+UID:da6640f2f7f6a636a2c431d0e692ce9f@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
+DESCRIPTION:Тип: Лекция\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
+DTEND:20261201T141500Z
+LAST-MODIFIED:20261120T021902Z
+LOCATION:корп. 15\, ауд. 426
+DTSTART:20261201T124500Z
+STATUS:CONFIRMED
+SUMMARY:Современные реабилитационные технологии в образовании (Лекция)
+UID:ac0185c268bae38a8d880d332b9f8b73@vyatsu.schedule
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261120T021902Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Рязанова Л.Г.\nМесто: корп. 15\, ауд. 426
 DTEND:20261117T172500Z
-LAST-MODIFIED:20261119T023029Z
+LAST-MODIFIED:20261120T021902Z
 LOCATION:корп. 15\, ауд. 426
 DTSTART:20261117T155500Z
 STATUS:CONFIRMED
@@ -96,10 +294,10 @@ SUMMARY:Современные реабилитационные технолог
 UID:6ead9bf8b10580e41c56c5b24d7bd5b2@vyatsu.schedule
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261119T023029Z
+DTSTAMP:20261120T021902Z
 DESCRIPTION:Тип: Практическое занятие\nПреподаватель: Ивутина Е.П.\nМесто: корп. 15\, ауд. 337
 DTEND:20261120T172500Z
-LAST-MODIFIED:20261119T023029Z
+LAST-MODIFIED:20261120T021902Z
 LOCATION:корп. 15\, ауд. 337
 DTSTART:20261120T155500Z
 STATUS:CONFIRMED
