@@ -27,10 +27,10 @@ https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main/calendars/<напра�
 ```
 Примеры готовых ссылок:
 * **ПМИб-1301 (общий)**: `https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main/calendars/pmib/vyatsu_1301.ics`
-* **ПМИб-1301 (1 подгруппа)**: `https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main/calendars/pmib/vyatsu_1301_sg1.ics`
-* **ИВТб-1301 (2 подгруппа)**: `https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main/calendars/ivtb/vyatsu_ivtb_1301_sg2.ics`
-* **ИВТм-1301 (магистратура)**: `https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main/calendars/ivtm/vyatsu_ivtm_1301.ics`
-* **ВСа-1301 (аспирантура)**: `https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main/calendars/vsa/vyatsu_vsa_1301.ics`
+* **ПМИб-1301 (1 подгруппа)**: `https://raw.githubusercontent.com/RTX0ffer/vyatsu-schedule/main/calendars/pmib/vyatsu_1301_sg1.ics`
+* **ИВТб-1301 (2 подгруппа)**: `https://raw.githubusercontent.com/RTX0ffer/vyatsu-schedule/main/calendars/ivtb/vyatsu_ivtb_1301_sg2.ics`
+* **ИВТм-1301 (магистратура)**: `https://raw.githubusercontent.com/RTX0ffer/vyatsu-schedule/main/calendars/ivtm/vyatsu_ivtm_1301.ics`
+* **ВСа-1301 (аспирантура)**: `https://raw.githubusercontent.com/RTX0ffer/vyatsu-schedule/main/calendars/vsa/vyatsu_vsa_1301.ics`
 
 > 💡 **Самый простой способ**: Откройте Telegram-бота, найдите свою группу и нажмите кнопку **«📲 Календарь»** — бот мгновенно пришлет готовую ссылку для вашей группы и подгруппы.
 
@@ -40,12 +40,12 @@ https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main/calendars/<напра�
 1. Скопируйте ссылку на календарь вашей группы (или подгруппы).
 2. Замените в начале протокол `https://` на `webcal://`:
    ```text
-   webcal://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main/calendars/pmib/vyatsu_1301.ics
+   webcal://raw.githubusercontent.com/RTX0ffer/vyatsu-schedule/main/calendars/pmib/vyatsu_1301.ics
    ```
 3. Вставьте и откройте эту ссылку в стандартном браузере **Safari**.
 4. Появится системное окно: нажмите **«Подписаться»** (Subscribe).
 5. В настройках подписки укажите:
-   * **Автообновление**: *Каждый день* или *Каждый час*.
+   * **Автообновление**: *Каждый час* или *Каждый день*.
    * **Напоминания**: включены (по желанию).
 6. Готово! Все пары с указанием времени, корпусов, аудиторий и преподавателей появятся в вашем системном календаре и виджетах.
 
@@ -56,7 +56,7 @@ https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main/calendars/<напра�
 1. Зайдите в веб-версию [Google Календаря](https://calendar.google.com/) в любом браузере (на компьютере или открыв «Версию для ПК» на телефоне).
 2. В левой колонке найдите раздел **«Другие календари»** и нажмите **«+»** ➔ **«Добавить по URL»**.
 3. Вставьте прямую ссылку на календарь:
-   `https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main/calendars/...`
+   `https://raw.githubusercontent.com/RTX0ffer/vyatsu-schedule/main/calendars/...`
 4. Нажмите **«Добавить календарь»**.
 5. На смартфоне откройте приложение «Google Календарь» ➔ «Настройки» ➔ найдите добавленный календарь и включите пункт **«Синхронизация»**.
 

@@ -34,7 +34,7 @@ USER_SETTINGS_FILE = 'user_settings.json'
 DEFAULT_DATA_URL = "https://raw.githubusercontent.com/RTX0ffer/vyatsu-schedule/main/lessons_cache.json"
 DATA_URL = os.getenv('DATA_URL') or DEFAULT_DATA_URL
 WEBAPP_URL = os.getenv('WEBAPP_URL', '').rstrip('/')
-CDN_BASE_URL = "https://cdn.jsdelivr.net/gh/RTX0ffer/vyatsu-schedule@main"
+CDN_BASE_URL = os.getenv('CDN_BASE_URL') or "https://raw.githubusercontent.com/RTX0ffer/vyatsu-schedule/main"
 CALENDARS_DIR = "calendars"
 ICS_URL = f"{CDN_BASE_URL}/{CALENDARS_DIR}/pmib/vyatsu_1301.ics"
 
