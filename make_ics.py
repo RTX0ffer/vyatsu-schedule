@@ -790,7 +790,7 @@ def update_schedule():
             logging.info(f"[{gname}] Обнаружен новый или измененный PDF! Парсинг: {url}")
             try:
                 new_lessons = parse_vyatsu_pdf(resp.content, start_date, group_id=gid)
-                return (url, content_hash, new_etag, new_lessons)
+                return (gid, start_date, url, content_hash, new_etag, new_lessons)
             except Exception as e:
                 logging.error(f"[{gname}] Ошибка парсинга PDF {url}: {e}")
                 return None
@@ -799,7 +799,18 @@ def update_schedule():
         with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
             for result in executor.map(process_pdf_item, tasks):
                 if result:
-                    url, content_hash, new_etag, new_lessons = result
+                    gid, start_date, url, content_hash, new_etag, new_lessons = result
+                    # Атомарно очищаем старые пары этой группы в 14-дневном интервале этого PDF,
+                    # чтобы не оставались отменённые, перенесённые или изменённые пары
+                    start_str = start_date.strftime('%Y-%m-%d')
+                    end_str = (start_date + datetime.timedelta(days=14)).strftime('%Y-%m-%d')
+                    old_uids = [
+                        uid for uid, item in cache['lessons'].items()
+                        if item.get('group_id') == gid and start_str <= item.get('start', '')[:10] < end_str
+                    ]
+                    for uid in old_uids:
+                        del cache['lessons'][uid]
+
                     for lesson in new_lessons:
                         cache['lessons'][lesson['uid']] = lesson
                     cache['processed_urls'][url] = content_hash
